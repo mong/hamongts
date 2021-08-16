@@ -7,8 +7,7 @@ Helseatlas v2.0
 First, run the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
 ```
 
