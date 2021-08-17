@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
+import Image from "next/image"
 
 interface Props {
   children: any;
@@ -31,7 +32,7 @@ export default function Layout({
           <div className={styles.header_logo}>
             <Link href="/">
               <a rel="home">
-                <img
+                <Image
                   src="/img/logos/SKDE_sort.png"
                   alt="Hjem"
                   width={96}
@@ -62,7 +63,7 @@ export default function Layout({
         <footer className={`${styles.full_bleed} ${styles.footer_container}`}>
           <div className={styles.footer__top}>
             <div>
-              <img
+              <Image
                 src="/img/logos/SKDE_hvit_lys.png"
                 height="40"
                 width="99"
@@ -96,7 +97,7 @@ export default function Layout({
             <div className={styles.footer__partner_l}>
               <Link href="http://www.helse-nord.no/">
                 <a title="Link til Helse Nord">
-                  <img
+                  <Image
                     src="/img/logos/hf_nord-white.svg"
                     height="40px"
                     width="180px"
@@ -108,7 +109,7 @@ export default function Layout({
             <div className={styles.footer__partner_m}>
               <Link href="https://www.kvalitetsregistre.no/">
                 <a title="Link til Kvalitetsregistre">
-                  <img
+                  <Image
                     src="/img/logos/NSM_logo_hvit.png"
                     height="40px"
                     width="359px"
@@ -120,7 +121,7 @@ export default function Layout({
             <div className={styles.footer_partner_r}>
               <Link href="https://helseatlas.no/">
                 <a title="Link til Helseatlas">
-                  <img
+                  <Image
                     src="/img/logos/Logo_atlas_hvit.png"
                     height="40px"
                     width="146px"
