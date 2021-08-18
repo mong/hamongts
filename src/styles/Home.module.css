@@ -16,7 +16,7 @@
 .full_bleed {
   width: 100%;
   grid-column: 1 / -1;
-  background-color:#c7dcee;
+  background-color: #c7dcee;
 }
 /* header */
 .header_container {

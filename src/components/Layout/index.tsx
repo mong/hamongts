@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
-import Image from "next/image"
-
+import Image from "next/image";
+import { myLoader } from "../../helpers/functions";
 
 interface Props {
   children: any;
@@ -65,6 +65,7 @@ export default function Layout({
           <div className={styles.footer__top}>
             <div>
               <Image
+                loader={myLoader}
                 src="/helseatlas/img/logos/SKDE_hvit_lys.png"
                 height="40"
                 width="99"
@@ -100,6 +101,7 @@ export default function Layout({
               <Link href="http://www.helse-nord.no/">
                 <a title="Link til Helse Nord">
                   <Image
+                    loader={myLoader}
                     src="/helseatlas/img/logos/hf_nord-white.svg"
                     height="40px"
                     width="180px"
@@ -112,6 +114,7 @@ export default function Layout({
               <Link href="https://www.kvalitetsregistre.no/">
                 <a title="Link til Kvalitetsregistre">
                   <Image
+                    loader={myLoader}
                     src="/helseatlas/img/logos/NSM_logo_hvit.png"
                     height="40px"
                     width="359px"
@@ -124,6 +127,7 @@ export default function Layout({
               <Link href="https://helseatlas.no/">
                 <a title="Link til Helseatlas">
                   <Image
+                    loader={myLoader}
                     src="/helseatlas/img/logos/Logo_atlas_hvit.png"
                     height="40px"
                     width="146px"
