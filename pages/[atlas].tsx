@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { getMDInfo } from "../src/helpers/functions";
 
 const Post = (props) => {
-  props.content
+  props.content;
   const router = useRouter();
   const { atlas } = router.query;
   return <p>HelseAtlas: {atlas}</p>;
@@ -15,16 +15,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   return {
     props: {
-      content: "content"
+      content: "content",
     },
   };
 };
 
-
 export const getStaticPaths: GetStaticPaths = async (context) => {
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
   const atlasInfo = getMDInfo(atlasDir);
-  const paths = atlasInfo.map(Info => ({ params: { atlas: Info.article } }))
+  const paths = atlasInfo.map((Info) => ({ params: { atlas: Info.article } }));
 
   return {
     paths,

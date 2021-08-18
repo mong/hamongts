@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image"
 
+
 interface Props {
   children: any;
   title?: string;
@@ -25,7 +26,7 @@ export default function Layout({
           name="description"
           content="The healthcare atlases on Helseatlas.no are a tool for comparing the population's use of health services in different geographical areas, regardless of where the patients actually receive treatment."
         />
-        <link rel="icon" href="/img/logos/favicon.ico" />
+        <link rel="icon" href="/helseatlas/img/logos/favicon.ico" />
       </Head>
       <div className={styles.grid_wrapper}>
         <header className={`${styles.header_container}`}>
@@ -33,7 +34,7 @@ export default function Layout({
             <Link href="/">
               <a rel="home">
                 <Image
-                  src="/img/logos/SKDE_sort.png"
+                  src="/helseatlas/img/logos/SKDE_sort.png"
                   alt="Hjem"
                   width={96}
                   height={39}
@@ -64,10 +65,11 @@ export default function Layout({
           <div className={styles.footer__top}>
             <div>
               <Image
-                src="/img/logos/SKDE_hvit_lys.png"
+                src="/helseatlas/img/logos/SKDE_hvit_lys.png"
                 height="40"
                 width="99"
                 alt="SKDE logo"
+                priority={true}
               />
             </div>
             <div>
@@ -98,7 +100,7 @@ export default function Layout({
               <Link href="http://www.helse-nord.no/">
                 <a title="Link til Helse Nord">
                   <Image
-                    src="/img/logos/hf_nord-white.svg"
+                    src="/helseatlas/img/logos/hf_nord-white.svg"
                     height="40px"
                     width="180px"
                     alt="Helse Nord logo"
@@ -110,7 +112,7 @@ export default function Layout({
               <Link href="https://www.kvalitetsregistre.no/">
                 <a title="Link til Kvalitetsregistre">
                   <Image
-                    src="/img/logos/NSM_logo_hvit.png"
+                    src="/helseatlas/img/logos/NSM_logo_hvit.png"
                     height="40px"
                     width="359px"
                     alt="NSM logo"
@@ -122,7 +124,7 @@ export default function Layout({
               <Link href="https://helseatlas.no/">
                 <a title="Link til Helseatlas">
                   <Image
-                    src="/img/logos/Logo_atlas_hvit.png"
+                    src="/helseatlas/img/logos/Logo_atlas_hvit.png"
                     height="40px"
                     width="146px"
                     alt="Helseatlas logo"
