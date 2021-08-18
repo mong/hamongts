@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import { myLoader } from "../../helpers/functions";
+import { useEffect } from "react";
 
 interface Props {
   children: any;
@@ -34,7 +35,8 @@ export default function Layout({
             <Link href="/">
               <a rel="home">
                 <Image
-                  src="/helseatlas/img/logos/SKDE_sort.png"
+                  loader={myLoader}
+                  src="/SKDE_sort.png"
                   alt="Hjem"
                   width={96}
                   height={39}
