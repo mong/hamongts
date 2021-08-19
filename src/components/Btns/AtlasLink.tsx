@@ -17,7 +17,7 @@ export const AtlasLink = (props: Props) => {
       className={`${styles.block_button} ${className ?? ""}`}
       style={{ ...style }}
     >
-      <Link href={`/${linkTo}`} >
+      <Link href={`/${linkTo}`}>
         <a style={{ width: "100%", height: "100%" }}>{children}</a>
       </Link>
     </div>

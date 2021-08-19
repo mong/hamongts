@@ -1,7 +1,7 @@
 import { GetStaticProps, GetStaticPaths } from "next";
 import path from "path";
 import { useRouter } from "next/router";
-import fs from "fs"
+import fs from "fs";
 import matter from "gray-matter";
 
 //import { getMDInfo } from "../src/helpers/functions";
@@ -13,9 +13,6 @@ const Post = (props) => {
   return <p>HelseAtlas: {atlas}</p>;
 };
 export const getStaticProps: GetStaticProps = async (context) => {
-
-
-
   const getMDInfo = (dirPath: string) => {
     const files = fs.readdirSync(dirPath, "utf-8");
     const info = files
@@ -49,7 +46,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
     return info;
   };
 
-
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
   const atlasInfo = getMDInfo(atlasDir);
 
@@ -61,8 +57,6 @@ export const getStaticProps: GetStaticProps = async (context) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async (context) => {
-
-
   const getMDInfo = (dirPath: string) => {
     const files = fs.readdirSync(dirPath, "utf-8");
     const info = files
