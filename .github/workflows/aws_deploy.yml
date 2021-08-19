@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "s3_bucket=s3://skde.org/helseatlas" >> $GITHUB_ENV
       - name: Set QA variables
-        if: github.ref == 'refs/heads/develop'
+        if: github.ref == 'refs/heads/atlasLandingPage'
         run: |
           echo "s3_bucket=s3://qa.skde.org/helseatlas" >> $GITHUB_ENV
       - name: Check out the repo
