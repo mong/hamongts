@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import { myLoader } from "../../helpers/functions";
-import { useEffect } from "react";
+
 
 interface Props {
   children: any;
@@ -36,7 +36,7 @@ export default function Layout({
               <a rel="home">
                 <Image
                   loader={myLoader}
-                  src="/SKDE_sort.png"
+                  src={`/helseatlas/img/logos/SKDE_sort.png`}
                   alt="Hjem"
                   width={96}
                   height={39}
@@ -68,7 +68,7 @@ export default function Layout({
             <div>
               <Image
                 loader={myLoader}
-                src="/helseatlas/img/logos/SKDE_hvit_lys.png"
+                src={`/helseatlas/img/logos/SKDE_hvit_lys.png`}
                 height="40"
                 width="99"
                 alt="SKDE logo"
@@ -104,7 +104,7 @@ export default function Layout({
                 <a title="Link til Helse Nord">
                   <Image
                     loader={myLoader}
-                    src="/helseatlas/img/logos/hf_nord-white.svg"
+                    src={`/helseatlas/img/logos/hf_nord-white.svg`}
                     height="40px"
                     width="180px"
                     alt="Helse Nord logo"
@@ -117,7 +117,7 @@ export default function Layout({
                 <a title="Link til Kvalitetsregistre">
                   <Image
                     loader={myLoader}
-                    src="/helseatlas/img/logos/NSM_logo_hvit.png"
+                    src={`/helseatlas/img/logos/NSM_logo_hvit.png`}
                     height="40px"
                     width="359px"
                     alt="NSM logo"
@@ -130,7 +130,7 @@ export default function Layout({
                 <a title="Link til Helseatlas">
                   <Image
                     loader={myLoader}
-                    src="/helseatlas/img/logos/Logo_atlas_hvit.png"
+                    src={`/helseatlas/img/logos/Logo_atlas_hvit.png`}
                     height="40px"
                     width="146px"
                     alt="Helseatlas logo"
