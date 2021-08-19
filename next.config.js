@@ -1,3 +1,7 @@
 module.exports = {
-  reactStrictMode: true,
+  basePath: "/helseatlas",
+  images: {
+    loader: "custom",
+  },
+  trailingSlash: true,
 };
