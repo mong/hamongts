@@ -2,8 +2,8 @@ import Link from "next/link";
 import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
-import { myLoader } from "../../helpers/functions";
-
+import { imgLoader } from "../../helpers/functions";
+import { useEffect, useState } from "react";
 
 interface Props {
   children: any;
@@ -16,6 +16,11 @@ export default function Layout({
   title = "SKDE - Helse Nord RHF",
   page,
 }: Props) {
+  const [origin, setOrigin] = useState("");
+  useEffect(() => {
+    setOrigin(window.location.origin);
+  }, [setOrigin]);
+
   return (
     <>
       <Head>
@@ -32,10 +37,10 @@ export default function Layout({
       <div className={styles.grid_wrapper}>
         <header className={`${styles.header_container}`}>
           <div className={styles.header_logo}>
-            <Link href="/">
+            <Link href={origin}>
               <a rel="home">
                 <Image
-                  loader={myLoader}
+                  loader={imgLoader}
                   src={`/helseatlas/img/logos/SKDE_sort.png`}
                   alt="Hjem"
                   width={96}
@@ -67,7 +72,7 @@ export default function Layout({
           <div className={styles.footer__top}>
             <div>
               <Image
-                loader={myLoader}
+                loader={imgLoader}
                 src={`/helseatlas/img/logos/SKDE_hvit_lys.png`}
                 height="40"
                 width="99"
@@ -93,7 +98,7 @@ export default function Layout({
               <Link href="https://helse-nord.no/skde/kontakt-skde">
                 <a title="Link til kontakt SKDE">Kontakt</a>
               </Link>
-              <Link href="/personvern">
+              <Link href={`${origin}/personvern`}>
                 <a title="link til personvern">Personvern</a>
               </Link>
             </div>
@@ -103,7 +108,7 @@ export default function Layout({
               <Link href="http://www.helse-nord.no/">
                 <a title="Link til Helse Nord">
                   <Image
-                    loader={myLoader}
+                    loader={imgLoader}
                     src={`/helseatlas/img/logos/hf_nord-white.svg`}
                     height="40px"
                     width="180px"
@@ -116,7 +121,7 @@ export default function Layout({
               <Link href="https://www.kvalitetsregistre.no/">
                 <a title="Link til Kvalitetsregistre">
                   <Image
-                    loader={myLoader}
+                    loader={imgLoader}
                     src={`/helseatlas/img/logos/NSM_logo_hvit.png`}
                     height="40px"
                     width="359px"
@@ -126,10 +131,10 @@ export default function Layout({
               </Link>
             </div>
             <div className={styles.footer_partner_r}>
-              <Link href="https://helseatlas.no/">
+              <Link href="/">
                 <a title="Link til Helseatlas">
                   <Image
-                    loader={myLoader}
+                    loader={imgLoader}
                     src={`/helseatlas/img/logos/Logo_atlas_hvit.png`}
                     height="40px"
                     width="146px"
