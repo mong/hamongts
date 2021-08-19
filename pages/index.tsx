@@ -1,16 +1,9 @@
-import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
-
 import path from "path";
-import fs from "fs";
-import matter from "gray-matter";
-
 import styles from "../src/styles/Home.module.css";
 import Layout from "../src/components/Layout";
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
-//import { getMDInfo } from "../src/helpers/functions";
+import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
 
 interface HomeProps {
   atlasInfo: {
@@ -59,38 +52,6 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const getMDInfo = (dirPath: string) => {
-    const files = fs.readdirSync(dirPath, "utf-8");
-    const info = files
-      .filter((fn) => fn.endsWith(".md"))
-      .map((fn) => {
-        const filePath = path.join(dirPath, fn);
-        const rawContent = fs.readFileSync(filePath, {
-          encoding: "utf-8",
-        });
-
-        const { data } = matter(rawContent);
-        const article = fn.replace(/\.md$/, "");
-        return {
-          article,
-          frontMatter: data,
-        };
-      })
-      .sort(
-        (a, b) =>
-          Date.parse(b.frontMatter.date) - Date.parse(a.frontMatter.date)
-      )
-      .map((article) => {
-        return {
-          ...article,
-          frontMatter: {
-            ...article.frontMatter,
-          },
-        };
-      });
-
-    return info;
-  };
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
   const atlasInfo = getMDInfo(atlasDir);
 
