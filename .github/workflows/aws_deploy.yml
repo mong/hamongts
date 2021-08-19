@@ -1,7 +1,7 @@
 name: Deploy app to AWS
 on:
   push:
-    branches: [develop]
+    branches: [develop, atlasLandingPage]
   pull_request:
     branches: [develop]
 
