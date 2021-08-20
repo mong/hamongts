@@ -5,7 +5,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import marked from "marked";
 
-import { Atlas } from "../src/components/Atlas";
 import { remark } from "remark";
 import html from "remark-html";
 import Layout from "../src/components/Layout";
