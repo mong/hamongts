@@ -1,4 +1,3 @@
-import AtlasCard from "./atlascard";
 import style from "./topbanner.module.css";
 
 interface TopBannerProps {
