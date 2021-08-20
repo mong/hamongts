@@ -4,9 +4,6 @@ mainTitle: Helseatlas for fødselshjelp 2015-2017
 shortTitle: FØDSELSHJELP, 2015-2017
 pdfUrl: https://helseatlas.no/sites/default/files/helseatlas-fodselshjelp.pdf
 ---
-
-# Helseatlas for fødselshjelp 2015-2017
-
 ## Fødsler i Norge 2015–2017
 
 Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
@@ -17,10 +14,12 @@ Om fødslene
 I treårsperioden vi studerer i atlaset (2015–2017) var det i gjennomsnitt registrert 58 198 fødsler pr. år i MFR hvorav 57 572 (98,4 %) er med i Helseatlas for fødselshjelp. Det var flest fødsler blant kvinner bosatt i opptaksområdene Bergen og Akershus (ca 5 400 pr. år) og færrest i opptaksområdene Helgeland og Finnmark (ca 750 pr. år). Det var flest fødsler i perioden april – august, og færrest omkring årsskiftet. I juli var det gjennomsnittlig 173 fødsler pr. dag og i desember var det gjennomsnittlig 131 fødsler pr. dag. Variasjonene fra dag til dag var imidlertid betydelige.
 
 Figur 1: Antall fødsler i Helseatlas for fødselshjelp fordelt på førstegangsfødende og flergangsfødende.Gjennomsnitt pr. år for 2015–2017.
-![fodsler_figur1](../../public/img/fodselshjelp/fodsler_figur1.png)
+
+![fodsler_figur1](/helseatlas/img/fodselshjelp/fodsler_figur1.png)
 
 Figur 2: Sesongvariasjon. Antall fødsler pr. dag og pr. uke gjennom året. Gjennomsnitt for 2015–2017.
-![fodsler_figur2](../../public/img/fodselshjelp/fodsler_figur2.png)
+
+![fodsler_figur2](/helseatlas/img/fodselshjelp/fodsler_figur2.png)
 
 ### Flerlinger
 
@@ -65,10 +64,12 @@ I perioden 2015–2017 ble det årlig gjennomført nærmere 700 000 svangerskaps
 Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.
 
 Figur 1: Antall kontakter pr. svangerskap, opptaksområder, kontakter hos fastlege/legevakt/jordmor og i spesialisthelsetjenesten. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![svangerskapsomsorg_figur1](../../public/img/fodselshjelp/svangerskapsomsorg_figur1.png)
+
+![svangerskapsomsorg_figur1](/helseatlas/img/fodselshjelp/svangerskapsomsorg_figur1.png)
 
 Figur 2: Antall førstegangsfødende med svangerskapsdiabetes pr. 1000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![svangerskapsomsorg_figur2](../../public/img/fodselshjelp/svangerskapsomsorg_figur2.png)
+
+![svangerskapsomsorg_figur2](/helseatlas/img/fodselshjelp/svangerskapsomsorg_figur2.png)
 
 ### Kommentar
 
@@ -93,10 +94,12 @@ I perioden 2015–2017 fikk årlig omlag 5 900 førstegangsfødende og 6 600 fle
 Det var lite geografisk variasjon og høyeste rate var rundt 40 % høyere enn laveste rate. Det var klar samvariasjon mellom bruk av induksjon hos førstegangsfødende og bruk av induksjon hos flergangsfødende; de opptaksområdene som hadde de høyeste ratene for førstgangsfødende er i all hovedsak blant de opptaksområdene som hadde de høyeste ratene for flergangsfødende. Nasjonalt er det en tydelig økning i bruk av induksjon i perioden.
 
 Figur 1: Induksjon av fødsel. Antall førstegangsfødende med induksjon pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![igangsetting_figur1](../../public/img/fodselshjelp/igangsetting_figur1.png)
+
+![igangsetting_figur1](/helseatlas/img/fodselshjelp/igangsetting_figur1.png)
 
 Figur 2: Induksjon av fødsel. Antall flergangsfødende med induksjon pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![igangsetting_figur2](../../public/img/fodselshjelp/igangsetting_figur2.png)
+
+![igangsetting_figur2](/helseatlas/img/fodselshjelp/igangsetting_figur2.png)
 
 ### Kommentar
 
@@ -128,10 +131,11 @@ Det var klar samvariasjon mellom bruk av epidural ved vaginal forløsning blant 
 
 Figur 1: Antall førstegangsfødende med epidural pr. 1 000 vaginalt førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
 
-![epidural_figur1](../../public/img/fodselshjelp/epidural_figur1.png)
+![epidural_figur1](/helseatlas/img/fodselshjelp/epidural_figur1.png)
 
 Figur 2: Antall flergangsfødende med epidural pr. 1 000 vaginalt flergangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![epidural_figur2](../../public/img/fodselshjelp/epidural_figur2.png)
+
+![epidural_figur2](/helseatlas/img/fodselshjelp/epidural_figur2.png)
 
 ### Kommentar
 
@@ -158,10 +162,12 @@ Klipping ble utført på nær dobbelt så mange pr. 1 000 førstegangsfødende b
 For flergangsfødende som fødte vaginalt var variasjonen enda litt større. Klipping ble utført på over dobbelt så mange pr. 1 000 fødende bosatt i opptaksområdet Møre og Romsdal sammenliknet med opptaksområdet St. Olavs.
 
 Figur 1: Antall førstegangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![klipping_figur1](../../public/img/fodselshjelp/klipping_figur1.png)
+
+![klipping_figur1](/helseatlas/img/fodselshjelp/klipping_figur1.png)
 
 Figur 2: Antall flergangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![klipping_figur2](../../public/img/fodselshjelp/klipping_figur2.png)
+
+![klipping_figur2](/helseatlas/img/fodselshjelp/klipping_figur2.png)
 
 ### Kommentar
 
@@ -186,10 +192,12 @@ Totalt var omtrent en tredjedel av keisersnittene planlagte, dvs. at beslutninge
 For flergangsfødende var den geografiske variasjonen i antall keisersnitt større. Det ble utført mer enn dobbelt så mange keisersnitt pr. 1 000 fødsler for fødende bosatt i opptaksområdet Nord- Trøndelag som for fødende bosatt i opptaksområdet Bergen. Ser man bort fra opptaksområdet Nord-Trøndelag var variasjonen moderat også for flergangsfødende. Andelen akutte keisersnitt varierte fra 38,1 % for bosatte i opptaksområdet Diakonhjemmet til 57,4 % for bosatte i opptaksområdet Nordland.
 
 Figur 1: Keisersnitt, akutte og planlagte. Antall førstegangsfødende med keisersnitt pr. 1 000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![keisersnitt_figur1](../../public/img/fodselshjelp/keisersnitt_figur1.png)
+
+![keisersnitt_figur1](/helseatlas/img/fodselshjelp/keisersnitt_figur1.png)
 
 Figur 2: Keisersnitt, akutte og planlagte. Antall flergangsfødende med keisersnitt pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![keisersnitt_figur2](../../public/img/fodselshjelp/keisersnitt_figur2.png)
+
+![keisersnitt_figur2](/helseatlas/img/fodselshjelp/keisersnitt_figur2.png)
 
 ### Kommentar
 
@@ -218,10 +226,12 @@ Rundt 3,7 % av førstegangsfødende og 2,2 % av flergangsfødende som fødte vag
 I perioden 2015–2017 fikk årlig i underkant av 600 førstegangsfødende (2,9 %) og omlag 250 flergangsfødende (0,9 %) en fødselsrift grad 3–4 (vist i rapport). Det stor variasjon fra år til år og et betydelig innslag av tilfeldig variasjon i forekomst av store fødselsrifter.
 
 Figur 1: Antall førstegangsfødende med Apgar <7 etter 5 min. pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.
-![komplikasjoner_figur1](../../public/img/fodselshjelp/komplikasjoner_figur1.png)
+
+![komplikasjoner_figur1](/helseatlas/img/fodselshjelp/komplikasjoner_figur1.png)
 
 Figur 2: Alvorlige blødninger over 1500 ml, antall pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-![komplikasjoner_figur2](../../public/img/fodselshjelp/komplikasjoner_figur2.png)
+
+![komplikasjoner_figur2](/helseatlas/img/fodselshjelp/komplikasjoner_figur2.png)
 
 ### Kommentar
 
@@ -248,10 +258,12 @@ For de fleste gjøres disse undersøkelsene mens mor og barn er på barselavdeli
 Fra og med 2017 rapporterte norske kommuner om antall hjemmebesøk utført av jordmor, i 2017 innen ett-to døgn og i 2018 innen tre døgn, etter hjemkomst fra føde- og barselavdeling. Det varstor geografisk variasjon i antall hjemmebesøk. Fem ganger så mange pr. 1000 barselkvinner bosatt i opptaksområdet Førde fikk hjemmebesøk av kommunal jordmor sammenliknet med barselkvinner bosatt i opptaksområdet Stavanger.
 
 Figur 1: Antall kontakter i barseltid pr. 1 000 fødsler, fastlege/legevakt og spesialisthelsetjeneste, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.
-![baarsel_figur1](../../public/img/fodselshjelp/baarsel_figur1.png)
+
+![baarsel_figur1](/helseatlas/img/fodselshjelp/baarsel_figur1.png)
 
 Figur 2: Antall hjemmebesøk av kommunal jordmor innen 3 døgn etter hjemkomst pr. 1 000 fødte, opptaksområder. Gjennomsnitt for 2017–2018. Opptaksområdene Lovisenberg, Diakonhjemmetog OUS samles til Oslo pga manglende opplysning om bydeler i Oslo kommune.
-![baarsel_figur2](../../public/img/fodselshjelp/baarsel_figur2.png)
+
+![baarsel_figur2](/helseatlas/img/fodselshjelp/baarsel_figur2.png)
 
 ### Kommentar
 

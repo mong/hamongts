@@ -1,0 +1,15 @@
+.atlasTopBanner {
+  background-color: rgba(222, 231, 238, 0.8);
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+.bannerWrapper {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
