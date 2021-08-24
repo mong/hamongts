@@ -409,3 +409,13 @@
   justify-content: space-around;
   margin-bottom: 64px;
 }
+
+.atlasContent {
+  width: min(90%, 60rem);
+  text-align: justify;
+  margin: auto;
+}
+
+.atlasContent img {
+  width: 80%;
+}
