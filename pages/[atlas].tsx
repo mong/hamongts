@@ -3,17 +3,11 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import { useRouter } from "next/router";
 import fs from "fs";
 import matter from "gray-matter";
-import marked from "marked";
 
-import { remark } from "remark";
-import html from "remark-html";
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
-
-export async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
-  return result.toString();
-}
+import styles from "../src/styles/Home.module.css";
+import ReactMarkdown from "react-markdown";
 
 interface AtlasPageProps {
   content: string;
@@ -33,11 +27,8 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
         <div>
           <TopBanner {...frontMatter} />
         </div>
-        <div
-          style={{ width: "90%", textAlign: "justify", margin: "auto" }}
-          className="atlas-content"
-        >
-          <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
+        <div className={`${styles.atlasContent}`}>
+          <ReactMarkdown>{content}</ReactMarkdown>
         </div>
       </Layout>
     </>
@@ -45,14 +36,12 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
 };
 export const getStaticProps: GetStaticProps = async (context) => {
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
-
   const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
   const file = fs.readFileSync(fullPath);
   const { content, data } = matter(file);
 
-  const htmlcontent = await markdownToHtml(content || "");
   return {
-    props: { content: htmlcontent, frontMatter: { ...data } },
+    props: { content, frontMatter: { ...data } },
   };
 };
 
