@@ -5,6 +5,8 @@ shortTitle: KVALITET, 2017-2019
 pdfUrl: https://helseatlas.no/sites/default/files/kvalitetsatlas.pdf
 ---
 
+## Innhold
+
 ## Samlede resultater
 
 Helseatlas for kvalitet er basert på informasjon om i underkant av 100 000 pasienter og behandlinger årlig, hvorav noen kan ha fått samme behandling flere ganger eller ha flere sykdommer. Hensikten er å undersøke om befolkningen får likeverdig kvalitet i utvalgte nødvendige helsetjenester, uavhengig av bosted og på tvers av fagområder. Atlaset synliggjør hvorvidt sørge-for-ansvaret for pasienter som rammes av alvorlige sykdommer er tilstrekkelig ivaretatt.
@@ -59,7 +61,7 @@ Figur 2: Andel pasienter med NSTEMI som ble invasivt utredet innen 72 timer ette
 
 Nasjonalt er det utfordringer for utredning med kransårerøntgen ved NSTEMI hjerteinfarkt innen anbefalt tid. Måloppnåelsen er moderat for nesten alle opptaksområder og bør bedres. For reperfusjonsbehandling innen anbefalt tid ved STEMI hjerteinfarkt var kvalitetsutfordringen betydelig. Rask åpning av den tette blodåren vil ofte være det viktigste enkelttiltak i akuttfasen av et hjerteinfarkt. Den geografiske variasjonen var stor, og mange pasienter fikk ikke åpnet tette blodårer raskt nok. Trombolysebehandling er et behandlingsalternativ som kan gis før ankomst i spesialsykehus, prehospitalt eller i lokalsykehus, og som bør benyttes langt oftere ved STEMI hjerteinfarkt.
 
-## Karkirurgi 2017 - 2019
+## Karkirurgi 2017-2019
 
 Karkirurgi er inngrep for å behandle sykdommer i blodårene utenfor hjertet og hodet. Karkirurgi gjøres særlig ved utvidet hovedpulsåre (aneurisme), ved nedsatt blodforsyning i ben og ved trang halspulsåre. Det gjøres årlig rundt 6 100 karkirurgiske inngrep i Norge, hvorav rundt 3 400 for nedsatt blodforsyning til ben, og om lag 500 for forsnevring av halspulsåren, som er de tilstandene som inngår i dette altaset.
 
@@ -86,7 +88,7 @@ Variasjon i antall pasienter operert for karsykdom i ben er uventet stor, og det
 
 Alle opptaksområder unntatt Bergen har oppnådd moderat eller høy måloppnåelse for indikatoren andel med symptomatisk carotisstenose behandlet innen anbefalt tid. En undersøkelse tyder på at knapt halvparten av tilfellene med forsinkelse skyldes forhold i helsetjenesten. Dette indikerer behov for systematisk arbeid med pasientforløp for denne gruppen i opptaksområder som ikke har høy måloppnåelse.
 
-## Hjerneslag 2017 - 2019
+## Hjerneslag 2017-2019
 
 Om lag 10 000 personer legges årlig inn i sykehus med hjerneslag. Rundt 85 % skyldes blodpropp og 10–15 % hjerneblødning. Forekomsten av hjerneslag varierer lite geografisk, fra 2 til 2,8 per 1 000 innbyggere. Nye behandlingsmetoder har bidratt til 40 % reduksjon i dødelighet for denne sykdommen de siste 10 år.
 
@@ -116,7 +118,7 @@ Det var stor variasjon i andel pasienter behandlet med trombolyse i de ulike opp
 
 Ulik behandlingspraksis for de mindre alvorlige slagene er hovedårsaken til variasjonen i bruk av trombolyse. Forskjeller i behandlingspraksis for mindre alvorlige hjerneslag er ikke uproblematisk, fordi trombolysebehandling er forbundet med økt risiko for hjerneblødning, også ved lette og meget lette hjerneinfarkt. Målet på sikt bør være en mer ensartet praksis for behandling med trombolyse ved akutt hjerneinfarkt
 
-## Invasiv kardiologi 2017 - 2019
+## Invasiv kardiologi 2017-2019
 
 Invasiv kardiologi omfatter utredning og behandling av hjertesykdommer ved hjelp av tynne katetre som føres til hjertets kransårer via en blodåre. De viktigste prosedyrene som utføres innen dette fagfeltet er kransårerøntgen (koronar angiografi), utblokking av trange kransårer (PCI) og innsetting av ny hjerteklaff. Hvert år utføres om lag 32 000 koronare angiografier eller PCI behandlinger fordelt på 9 sykehus i Norge.
 
@@ -144,7 +146,7 @@ Figur 2: Andel prosedyrer med trykkmåling for å vurdere innsnevring i kransår
 
 Resultatene kan tyde på at seleksjonen av pasienter til angiografi er strengere for pasienter bosatte i noen opptaksområder enn andre. Forskjellene skyldes trolig i hovedsak ulik tilgang eller praksis hva angår utredningsmetoder for kransåresykdom, som CT-undersøkelser eller ulike bildebaserte belastningstester som brukes til å selektere pasienter til koronar angiografi. Bruk av trykkmåling har i 2019 økt for 16 av 19 opptaksområder men må fortsatt breddes mye for å nå ønsket nivå.
 
-## Tykk- og endetarmskreft 2017 - 2019
+## Tykk- og endetarmskreft 2017-2019
 
 Tykk- og endetarmskreft er den kreftformen med høyest forekomst, for begge kjønn, med om lag 4 000 nye tilfeller årlig. Av disse utgjør tykktarmskreft rundt 70 %, resten er endetarmskreft. Forekomsten er doblet de siste 50 årene. Om lag 35 000 personer levde med disse sykdommene i 2019 og rundt 1 500 dør hvert år.
 
@@ -174,7 +176,7 @@ Kikkhullsteknikk ble i økende grad benyttet som operasjonsmetode, både for tyk
 
 Variasjonen i tilbakefall av endetarmskreft er ikke stor sammenlignet med omtale av annen variasjon, men likevel viktig. I mer enn 25 år er det arbeidet systematisk i norske fagmiljø for å redusere andel pasienter som får lokalt tilbakefall innen 5 år etter kurativ behandling for endetarmskreft. At hele syv opptaksområder ennå ikke har nådd høyt målnivå for denne indikatoren tyder på at det fortsatt er nødvendig med målrettet satsing for å lykkes.
 
-## Brystkreft 2017 - 2019
+## Brystkreft 2017-2019
 
 Brystkreft er den vanligste formen for kreft blant kvinner. I 2019 fikk 3 700 kvinner brystkreft for første gang. Forekomsten har økt betydelig de siste tiårene, delvis forklart av screening og bedret diagnostikk. Det er gjort store fremskritt i behandlingen - for de som rammes av sykdommen er utsiktene til å overleve stadig bedre. De som ikke blir friske, kan leve lenge med sykdommen.
 
@@ -200,7 +202,7 @@ Figur 2: Andel brystbevarende operasjoner utført på kvinner, 19-99 år, tumors
 
 Det er positivt at de fleste av opptaksområdene klarte å behandle en høy andel av pasientene med ett inngrep på svulst i brystet. Det tyder på godt tverrfaglig samarbeid og god kvalitet i behandlingen. For brystbevarende operasjoner er måloppnåelsen moderat eller lav for de fleste opptaksområder og bør bedres. Den geografisk variasjon i måloppnåelse er relativt stor og tyder på at det gjøres ulike behandlingsvalg i ulike deler av landet. Brystbevarende operasjoner gir minst like god prognose som når hele brystet fjernes. Pasientenes selvfølelse og livskvalitet er vist å være bedre ved slik kirurgi, sammenlignet med fjerning av hele brystet.
 
-## Lungekreft 2017 - 2019
+## Lungekreft 2017-2019
 
 Årlig får ca. 3000 nye pasienter lungekreft. Det er nå er like mange kvinner som menn som får lungekreft. Forekomsten for menn har flatet ut, mens den fortsatt er stigende for kvinner. Lungekreft er en av de kreftformene det er enklest å forebygge, fordi 8 av 10 tilfeller skyldes røyking. Det har vært en kraftig reduksjon i røyking, men det tar mange år før dette gir effekt. Lungekreft er den kreftformen som tar flest liv.
 
@@ -228,7 +230,7 @@ Figur 2: Median overlevelse i måneder for lungekreftpasienter, fordelt på oppt
 
 Det er høy måloppnåelse for kurativ behandling av lungekreft i Norge, men likevel geografisk variasjon mellom opptaksområdene. Kirurgi nyttes i ulik grad som behandlingsmetode i de forskjellige opptaksområdene. Ulik fordeling i sykdomsutbredelse kan forklare ulike behandlingsvalg, men slike data var ikke tilgjengelig for denne analysen. Raskere utredning og bedre behandling har gitt lengre overlevelse for pasienter rammet av lungekreft, men det er en geografisk variasjon som ikke synes tilfeldig. Geografisk variasjon både i kurativ behandling og overlevelse bør undersøkes nærmere.
 
-## Prostatakreft 2017 - 2019
+## Prostatakreft 2017-2019
 
 Prostatakreft er den mest utbredte kreftformen hos menn i Norge, om lag 5 000 blir diagnostisert med denne sykdommen hvert år. Årlig dør ca. 900 menn av prostatakreft. Antallet menn som lever med denne tilstanden og som trenger oppfølging, øker. I 2019 levde i overkant av 54 000 menn med prostatakreft i Norge.
 
@@ -257,7 +259,7 @@ Menn som har en høyrisiko-kreft uten spredning og som ikke gjennomfører en rad
 
 Måloppnåelsen er ikke tilfredstillende for andelen med fri rand etter kirurgi. Det er mulig at enkelte kirurger prioriterer nervesparende teknikk høyere enn andre, og at dette fører til lavere andel med fri rand i enkelte opptaksområder. Vurderingen av om operasjonsmarginen er fri eller ikke, er ikke et helt objektivt mål, men gjøres av den enkelte patolog. Praksis for hva som regnes for fri/ufri rand kan variere mellom patologer med konsekvens for det nasjonale bilde.
 
-## Diabetes type 1 hos barn og unge 2017 - 2019
+## Diabetes type 1 hos barn og unge 2017-2019
 
 Diabetes type 1 er den nest vanligste kroniske sykdommen hos barn og unge i Norge, og Norge er på verdenstoppen når det gjelder forekomst av diabetes diagnostisert før 15-årsalderen. Diabetes type 1 utgjør 96 % av alle tilfeller av diabetes hos barn og unge i alderen 0-17 år, og i 2019 ble det rapportert inn 410 nye tilfeller av diabetes type 1 blant barn og unge i Norge.
 
@@ -283,7 +285,7 @@ Figur 2: Andel barn og unge, 0-17 år, som bruker CGM, fordelt på opptaksområd
 
 De fleste barn og unge når ikke behandlingsmålet når det kommer til regulering av blodsukkernivået. Nasjonalt var det geografisk variasjon både i andelen som hadde svært godt regulert blodsukker, og andelen som brukte CGM mellom opptaksområdene. Flere av opptaksområdene med høyest andel barn og unge med høy HbA1c hadde lavest andel som bruker CGM.
 
-## Diabetes type 1 hos voksne 2017 - 2019
+## Diabetes type 1 hos voksne 2017-2019
 
 Den vanligste årsaken til redusert levetid og økt sykdomsbyrde for personer med diabetes er tidlig hjerte- og karsykdom. Komplikasjoner knyttet til sykdom i øye, nyrer og nervesystemet bidrar også til vesentlig helsetap. Store deler av kostnadene til diabetesomsorgen er knyttet til behandling av komplikasjoner. God diabetesbehandling er dermed essensielt for å forhindre eller forsinke utvikling av senkomplikasjoner knyttet til diabetes.
 

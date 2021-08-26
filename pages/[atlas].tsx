@@ -1,8 +1,9 @@
 import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { useRouter } from "next/router";
 import fs from "fs";
 import matter from "gray-matter";
+import remarkToc from "remark-toc";
+import remarkSlug from "remark-slug";
 
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
@@ -20,20 +21,26 @@ interface AtlasPageProps {
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
-  const router = useRouter();
   return (
     <>
       <Layout>
-        <div>
+        <main>
           <TopBanner {...frontMatter} />
-        </div>
-        <div className={`${styles.atlasContent}`}>
-          <ReactMarkdown>{content}</ReactMarkdown>
-        </div>
+          <div className={`${styles.atlasContent}`}>
+            <ReactMarkdown
+              remarkPlugins={[
+                [remarkToc, { heading: "Innhold", maxDepth: 3, tight: true }],
+                remarkSlug,
+              ]}
+              children={content}
+            />
+          </div>
+        </main>
       </Layout>
     </>
   );
 };
+
 export const getStaticProps: GetStaticProps = async (context) => {
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
   const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
