@@ -32,8 +32,9 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                 [remarkToc, { heading: "Innhold", maxDepth: 3, tight: true }],
                 remarkSlug,
               ]}
-              children={content}
-            />
+            >
+              {content}
+            </ReactMarkdown>
           </div>
         </main>
       </Layout>
