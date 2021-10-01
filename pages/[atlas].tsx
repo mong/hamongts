@@ -13,7 +13,7 @@ import ReactMarkdown from "react-markdown";
 interface AtlasPageProps {
   content: string;
   frontMatter: {
-    date: string;
+    num: string;
     mainTitle: string;
     shortTitle: string;
     pdfUrl: string;
