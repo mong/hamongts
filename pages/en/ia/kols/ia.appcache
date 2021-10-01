@@ -1,0 +1,75 @@
+CACHE MANIFEST
+
+# This file contains a list of files that will be cached by the browser in order to make reports available when offline
+#
+# How to make reports available offline:
+#
+# Check that the mime-type ".appcache text/cache-manifest" exists on your server
+#
+# Add a reference to the manifest file "ia.appcache" to your html report (atlas-cache.html already contains this)
+# <html manifest="ia.appcache" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+#
+# If you make any changes to file names or add files you must also update this file
+# If you make any changes to files that already exist you should increment the version number "# Version 1" to force the browser to re-download the files
+# If you reference any files that dont exist the whole manifest will be ignored by the browser and the files wont be cached
+#
+# See http://html5doctor.com/go-offline-with-application-cache/ for further information about using manifest files
+
+CACHE:
+# Version 1
+# html files
+atlas.html
+atlas-alt.html
+notes.htm
+atlas-unsupported.html
+help.htm
+
+# xml files
+config.xml
+
+# css files
+advanced.css
+default.css
+
+# js files
+jquery-min.js
+ia-min.js
+custom.js
+map.js
+data.js
+
+# js data files *** MAKE SURE THESE FILE NAMES ARE CORRECT - ADD IN ANY CONTEXTUAL LAYERS YOU HAVE ADDED ***
+
+# images
+arrow_down.png
+arrow_down_white.png
+arrow_left.png
+arrow_right.png
+arrow_up.png
+banner.jpg
+busy.gif
+checkbox_checked.png
+checkbox_unchecked.png
+close.png
+export.png
+facebook.png
+logo.png
+map_tool_search.png
+map_tool_zoomfull.png
+map_tool_zoomin.png
+map_tool_zoomout.png
+maximize.png
+minimize.png
+next.png
+notes.png
+notes_hover.png
+play.png
+previous.png
+print.png
+settings.png
+stop.png
+table_sort_asc.png
+table_sort_desc.png
+twitter.png
+x_active.png
+x_disabled.png

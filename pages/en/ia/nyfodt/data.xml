@@ -1,0 +1,1839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data-xml-2-html.xslt"?>
+<AtlasData xmlns="http://data.instantatlas.com/atlas" version="1.3" data-source="IA DataManager 6.7.3">
+	<Geography id="HF-omr&#229;der" name="HF-omr&#229;der" type="polygon">
+		<FeatureList>
+			<Feature id="2" name="UNN/Finnmark" >
+			</Feature>
+			<Feature id="4" name="Nordland" >
+			</Feature>
+			<Feature id="7" name="Tr&#248;ndelag" >
+			</Feature>
+			<Feature id="8" name="M&#248;re og Romsdal" >
+			</Feature>
+			<Feature id="11" name="Bergen/F&#248;rde" >
+			</Feature>
+			<Feature id="12" name="Fonna" >
+			</Feature>
+			<Feature id="13" name="Stavanger" >
+			</Feature>
+			<Feature id="14" name="&#216;stfold" >
+			</Feature>
+			<Feature id="15" name="AHUS" >
+			</Feature>
+			<Feature id="16" name="OUS" >
+			</Feature>
+			<Feature id="19" name="Innlandet" >
+			</Feature>
+			<Feature id="20" name="Vestre Viken" >
+			</Feature>
+			<Feature id="21" name="Vestfold" >
+			</Feature>
+			<Feature id="22" name="Telemark" >
+			</Feature>
+			<Feature id="23" name="S&#248;rlandet" >
+			</Feature>
+			<ComparisonFeature id="1" name="Norge">
+			</ComparisonFeature>
+		</FeatureList>
+		<FilterList>
+			<Filter id="filter4" name="Fylke" />
+		</FilterList>
+		<ThemeList>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t0" name="Innleggelser">
+
+				<Indicator id="i0" name="Pasienter" type="numeric" date="Alle" href="">
+					<Value for="2">88.1</Value>
+					<Value for="4">100.6</Value>
+					<Value for="7">87</Value>
+					<Value for="8">85.3</Value>
+					<Value for="11">73.2</Value>
+					<Value for="12">126.7</Value>
+					<Value for="13">104.1</Value>
+					<Value for="14">106.3</Value>
+					<Value for="15">91.9</Value>
+					<Value for="16">84.7</Value>
+					<Value for="19">84.8</Value>
+					<Value for="20">84</Value>
+					<Value for="21">158.5</Value>
+					<Value for="22">141.8</Value>
+					<Value for="23">128.5</Value>
+					<ComparisonValue for="1">96</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">1535</Value>
+						<Value for="4">1348</Value>
+						<Value for="7">2722</Value>
+						<Value for="8">1444</Value>
+						<Value for="11">2924</Value>
+						<Value for="12">1617</Value>
+						<Value for="13">3099</Value>
+						<Value for="14">1852</Value>
+						<Value for="15">3164</Value>
+						<Value for="16">4367</Value>
+						<Value for="19">1886</Value>
+						<Value for="20">2534</Value>
+						<Value for="21">2142</Value>
+						<Value for="22">1445</Value>
+						<Value for="23">2659</Value>
+						<ComparisonValue for="1">34738</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i0" name="Pasienter" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">52.4</Value>
+					<Value for="4">63</Value>
+					<Value for="7">52.8</Value>
+					<Value for="8">53.2</Value>
+					<Value for="11">41.5</Value>
+					<Value for="12">77</Value>
+					<Value for="13">66.2</Value>
+					<Value for="14">64.9</Value>
+					<Value for="15">54.2</Value>
+					<Value for="16">49.7</Value>
+					<Value for="19">46.2</Value>
+					<Value for="20">47.3</Value>
+					<Value for="21">110.1</Value>
+					<Value for="22">90.5</Value>
+					<Value for="23">83.5</Value>
+					<ComparisonValue for="1">58.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">914</Value>
+						<Value for="4">844</Value>
+						<Value for="7">1654</Value>
+						<Value for="8">901</Value>
+						<Value for="11">1658</Value>
+						<Value for="12">983</Value>
+						<Value for="13">1972</Value>
+						<Value for="14">1131</Value>
+						<Value for="15">1868</Value>
+						<Value for="16">2564</Value>
+						<Value for="19">1026</Value>
+						<Value for="20">1427</Value>
+						<Value for="21">1488</Value>
+						<Value for="22">922</Value>
+						<Value for="23">1728</Value>
+						<ComparisonValue for="1">21080</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i0" name="Pasienter" type="numeric" date="34.0 til 36.6 uker" href="">
+					<Value for="2">19.6</Value>
+					<Value for="4">19.5</Value>
+					<Value for="7">17.8</Value>
+					<Value for="8">17.5</Value>
+					<Value for="11">15.3</Value>
+					<Value for="12">30.5</Value>
+					<Value for="13">18.8</Value>
+					<Value for="14">24</Value>
+					<Value for="15">20.4</Value>
+					<Value for="16">17.9</Value>
+					<Value for="19">22.6</Value>
+					<Value for="20">17.6</Value>
+					<Value for="21">32.3</Value>
+					<Value for="22">30</Value>
+					<Value for="23">28.7</Value>
+					<ComparisonValue for="1">20.5</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">342</Value>
+						<Value for="4">261</Value>
+						<Value for="7">558</Value>
+						<Value for="8">297</Value>
+						<Value for="11">610</Value>
+						<Value for="12">389</Value>
+						<Value for="13">559</Value>
+						<Value for="14">419</Value>
+						<Value for="15">704</Value>
+						<Value for="16">924</Value>
+						<Value for="19">503</Value>
+						<Value for="20">531</Value>
+						<Value for="21">436</Value>
+						<Value for="22">306</Value>
+						<Value for="23">595</Value>
+						<ComparisonValue for="1">7434</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i0" name="Pasienter" type="numeric" date="Under 34.0 uker" href="">
+					<Value for="2">16</Value>
+					<Value for="4">18.1</Value>
+					<Value for="7">16.3</Value>
+					<Value for="8">14.5</Value>
+					<Value for="11">16.4</Value>
+					<Value for="12">19.2</Value>
+					<Value for="13">19.1</Value>
+					<Value for="14">17.3</Value>
+					<Value for="15">17.2</Value>
+					<Value for="16">17</Value>
+					<Value for="19">16.1</Value>
+					<Value for="20">19.1</Value>
+					<Value for="21">16.1</Value>
+					<Value for="22">21.3</Value>
+					<Value for="23">16.2</Value>
+					<ComparisonValue for="1">17.2</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">279</Value>
+						<Value for="4">243</Value>
+						<Value for="7">510</Value>
+						<Value for="8">246</Value>
+						<Value for="11">656</Value>
+						<Value for="12">245</Value>
+						<Value for="13">568</Value>
+						<Value for="14">302</Value>
+						<Value for="15">592</Value>
+						<Value for="16">879</Value>
+						<Value for="19">357</Value>
+						<Value for="20">576</Value>
+						<Value for="21">218</Value>
+						<Value for="22">217</Value>
+						<Value for="23">336</Value>
+						<ComparisonValue for="1">6224</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i1" name="Liggetid" type="numeric" date="Alle" href="">
+					<Value for="2">1402</Value>
+					<Value for="4">1540</Value>
+					<Value for="7">1208</Value>
+					<Value for="8">1200.7</Value>
+					<Value for="11">944.8</Value>
+					<Value for="12">1577.7</Value>
+					<Value for="13">1227.3</Value>
+					<Value for="14">1414</Value>
+					<Value for="15">1293.4</Value>
+					<Value for="16">1019.5</Value>
+					<Value for="19">1250.5</Value>
+					<Value for="20">1063.1</Value>
+					<Value for="21">1457.2</Value>
+					<Value for="22">1680.9</Value>
+					<Value for="23">1389.3</Value>
+					<ComparisonValue for="1">1229.6</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">24438</Value>
+						<Value for="4">20644</Value>
+						<Value for="7">37812</Value>
+						<Value for="8">20326</Value>
+						<Value for="11">37745</Value>
+						<Value for="12">20138</Value>
+						<Value for="13">36548</Value>
+						<Value for="14">24644</Value>
+						<Value for="15">44545</Value>
+						<Value for="16">52585</Value>
+						<Value for="19">27796</Value>
+						<Value for="20">32073</Value>
+						<Value for="21">19694</Value>
+						<Value for="22">17123</Value>
+						<Value for="23">28754</Value>
+						<ComparisonValue for="1">444865</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i1" name="Liggetid" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">294.7</Value>
+					<Value for="4">450.3</Value>
+					<Value for="7">318.4</Value>
+					<Value for="8">357.8</Value>
+					<Value for="11">163</Value>
+					<Value for="12">461</Value>
+					<Value for="13">308.9</Value>
+					<Value for="14">388</Value>
+					<Value for="15">299.5</Value>
+					<Value for="16">243.2</Value>
+					<Value for="19">306</Value>
+					<Value for="20">222.4</Value>
+					<Value for="21">492.9</Value>
+					<Value for="22">480.2</Value>
+					<Value for="23">388.8</Value>
+					<ComparisonValue for="1">308.2</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">5137</Value>
+						<Value for="4">6036</Value>
+						<Value for="7">9966</Value>
+						<Value for="8">6057</Value>
+						<Value for="11">6510</Value>
+						<Value for="12">5884</Value>
+						<Value for="13">9200</Value>
+						<Value for="14">6763</Value>
+						<Value for="15">10314</Value>
+						<Value for="16">12545</Value>
+						<Value for="19">6801</Value>
+						<Value for="20">6710</Value>
+						<Value for="21">6662</Value>
+						<Value for="22">4892</Value>
+						<Value for="23">8046</Value>
+						<ComparisonValue for="1">111523</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i1" name="Liggetid" type="numeric" date="34.0 til 36.6 uker" href="">
+					<Value for="2">315.9</Value>
+					<Value for="4">260.3</Value>
+					<Value for="7">231.4</Value>
+					<Value for="8">207.6</Value>
+					<Value for="11">151</Value>
+					<Value for="12">350.8</Value>
+					<Value for="13">199</Value>
+					<Value for="14">316.1</Value>
+					<Value for="15">241.3</Value>
+					<Value for="16">170.2</Value>
+					<Value for="19">299.9</Value>
+					<Value for="20">161.8</Value>
+					<Value for="21">305.1</Value>
+					<Value for="22">325.2</Value>
+					<Value for="23">307.3</Value>
+					<ComparisonValue for="1">232.6</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">5507</Value>
+						<Value for="4">3489</Value>
+						<Value for="7">7244</Value>
+						<Value for="8">3515</Value>
+						<Value for="11">6034</Value>
+						<Value for="12">4478</Value>
+						<Value for="13">5926</Value>
+						<Value for="14">5510</Value>
+						<Value for="15">8311</Value>
+						<Value for="16">8780</Value>
+						<Value for="19">6667</Value>
+						<Value for="20">4883</Value>
+						<Value for="21">4124</Value>
+						<Value for="22">3313</Value>
+						<Value for="23">6361</Value>
+						<ComparisonValue for="1">84142</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i1" name="Liggetid" type="numeric" date="Under 34.0 uker" href="">
+					<Value for="2">791.3</Value>
+					<Value for="4">829.5</Value>
+					<Value for="7">658.2</Value>
+					<Value for="8">635.2</Value>
+					<Value for="11">630.8</Value>
+					<Value for="12">765.9</Value>
+					<Value for="13">719.3</Value>
+					<Value for="14">709.8</Value>
+					<Value for="15">752.6</Value>
+					<Value for="16">606.1</Value>
+					<Value for="19">644.6</Value>
+					<Value for="20">678.8</Value>
+					<Value for="21">659.1</Value>
+					<Value for="22">875.4</Value>
+					<Value for="23">693.2</Value>
+					<ComparisonValue for="1">688.8</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">13794</Value>
+						<Value for="4">11119</Value>
+						<Value for="7">20602</Value>
+						<Value for="8">10754</Value>
+						<Value for="11">25201</Value>
+						<Value for="12">9776</Value>
+						<Value for="13">21422</Value>
+						<Value for="14">12371</Value>
+						<Value for="15">25920</Value>
+						<Value for="16">31260</Value>
+						<Value for="19">14328</Value>
+						<Value for="20">20480</Value>
+						<Value for="21">8908</Value>
+						<Value for="22">8918</Value>
+						<Value for="23">14347</Value>
+						<ComparisonValue for="1">249200</ComparisonValue>
+					</Associate>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t1" name="Antibiotikabehandling">
+
+				<Indicator id="i2" name="Pasienter" type="numeric" date="Alle" href="">
+					<Value for="2">36.1</Value>
+					<Value for="4">44.6</Value>
+					<Value for="7">36.1</Value>
+					<Value for="8">33.6</Value>
+					<Value for="11">30.6</Value>
+					<Value for="12">36.4</Value>
+					<Value for="13">53.9</Value>
+					<Value for="14">44.5</Value>
+					<Value for="15">30.7</Value>
+					<Value for="16">36.8</Value>
+					<Value for="19">32</Value>
+					<Value for="20">48.5</Value>
+					<Value for="21">36.8</Value>
+					<Value for="22">39.8</Value>
+					<Value for="23">47.2</Value>
+					<ComparisonValue for="1">38.7</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">630</Value>
+						<Value for="4">598</Value>
+						<Value for="7">1131</Value>
+						<Value for="8">569</Value>
+						<Value for="11">1224</Value>
+						<Value for="12">465</Value>
+						<Value for="13">1606</Value>
+						<Value for="14">776</Value>
+						<Value for="15">1057</Value>
+						<Value for="16">1896</Value>
+						<Value for="19">712</Value>
+						<Value for="20">1464</Value>
+						<Value for="21">498</Value>
+						<Value for="22">405</Value>
+						<Value for="23">976</Value>
+						<ComparisonValue for="1">14007</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i2" name="Pasienter" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">22.2</Value>
+					<Value for="4">29.2</Value>
+					<Value for="7">23.9</Value>
+					<Value for="8">22</Value>
+					<Value for="11">15</Value>
+					<Value for="12">21.9</Value>
+					<Value for="13">34.1</Value>
+					<Value for="14">29.8</Value>
+					<Value for="15">19</Value>
+					<Value for="16">23.1</Value>
+					<Value for="19">20</Value>
+					<Value for="20">28.6</Value>
+					<Value for="21">24.9</Value>
+					<Value for="22">22.4</Value>
+					<Value for="23">29</Value>
+					<ComparisonValue for="1">23.9</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">387</Value>
+						<Value for="4">392</Value>
+						<Value for="7">747</Value>
+						<Value for="8">373</Value>
+						<Value for="11">598</Value>
+						<Value for="12">279</Value>
+						<Value for="13">1016</Value>
+						<Value for="14">519</Value>
+						<Value for="15">656</Value>
+						<Value for="16">1192</Value>
+						<Value for="19">445</Value>
+						<Value for="20">864</Value>
+						<Value for="21">336</Value>
+						<Value for="22">228</Value>
+						<Value for="23">600</Value>
+						<ComparisonValue for="1">8632</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i2" name="Pasienter" type="numeric" date="34.0 til 36.6 uker" href="">
+					<Value for="2">4</Value>
+					<Value for="4">5</Value>
+					<Value for="7">3.3</Value>
+					<Value for="8">3.1</Value>
+					<Value for="11">4.3</Value>
+					<Value for="12">3.8</Value>
+					<Value for="13">7</Value>
+					<Value for="14">4.2</Value>
+					<Value for="15">3.2</Value>
+					<Value for="16">4.6</Value>
+					<Value for="19">3.9</Value>
+					<Value for="20">6.5</Value>
+					<Value for="21">3.6</Value>
+					<Value for="22">3.9</Value>
+					<Value for="23">7.1</Value>
+					<ComparisonValue for="1">4.6</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">69</Value>
+						<Value for="4">67</Value>
+						<Value for="7">102</Value>
+						<Value for="8">53</Value>
+						<Value for="11">171</Value>
+						<Value for="12">48</Value>
+						<Value for="13">209</Value>
+						<Value for="14">74</Value>
+						<Value for="15">111</Value>
+						<Value for="16">236</Value>
+						<Value for="19">87</Value>
+						<Value for="20">197</Value>
+						<Value for="21">48</Value>
+						<Value for="22">40</Value>
+						<Value for="23">147</Value>
+						<ComparisonValue for="1">1659</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i2" name="Pasienter" type="numeric" date="Under 34.0 uker" href="">
+					<Value for="2">10</Value>
+					<Value for="4">10.4</Value>
+					<Value for="7">9</Value>
+					<Value for="8">8.4</Value>
+					<Value for="11">11.4</Value>
+					<Value for="12">10.8</Value>
+					<Value for="13">12.8</Value>
+					<Value for="14">10.5</Value>
+					<Value for="15">8.4</Value>
+					<Value for="16">9.1</Value>
+					<Value for="19">8.1</Value>
+					<Value for="20">13.4</Value>
+					<Value for="21">8.4</Value>
+					<Value for="22">13.4</Value>
+					<Value for="23">11.1</Value>
+					<ComparisonValue for="1">10.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">174</Value>
+						<Value for="4">139</Value>
+						<Value for="7">282</Value>
+						<Value for="8">143</Value>
+						<Value for="11">455</Value>
+						<Value for="12">138</Value>
+						<Value for="13">381</Value>
+						<Value for="14">183</Value>
+						<Value for="15">290</Value>
+						<Value for="16">468</Value>
+						<Value for="19">180</Value>
+						<Value for="20">403</Value>
+						<Value for="21">114</Value>
+						<Value for="22">137</Value>
+						<Value for="23">229</Value>
+						<ComparisonValue for="1">3716</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i3" name="Liggetid" type="numeric" date="Alle" href="">
+					<Value for="2">237.8</Value>
+					<Value for="4">321.7</Value>
+					<Value for="7">253.4</Value>
+					<Value for="8">303.8</Value>
+					<Value for="11">216.7</Value>
+					<Value for="12">240.2</Value>
+					<Value for="13">305.6</Value>
+					<Value for="14">313.2</Value>
+					<Value for="15">256.4</Value>
+					<Value for="16">239.8</Value>
+					<Value for="19">228.7</Value>
+					<Value for="20">260.2</Value>
+					<Value for="21">235.4</Value>
+					<Value for="22">295.9</Value>
+					<Value for="23">310.3</Value>
+					<ComparisonValue for="1">261.4</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">4145</Value>
+						<Value for="4">4313</Value>
+						<Value for="7">7932</Value>
+						<Value for="8">5143</Value>
+						<Value for="11">8657</Value>
+						<Value for="12">3066</Value>
+						<Value for="13">9101</Value>
+						<Value for="14">5459</Value>
+						<Value for="15">8831</Value>
+						<Value for="16">12366</Value>
+						<Value for="19">5083</Value>
+						<Value for="20">7850</Value>
+						<Value for="21">3182</Value>
+						<Value for="22">3014</Value>
+						<Value for="23">6423</Value>
+						<ComparisonValue for="1">94565</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i3" name="Liggetid" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">124.7</Value>
+					<Value for="4">176.2</Value>
+					<Value for="7">151.6</Value>
+					<Value for="8">145.5</Value>
+					<Value for="11">76.3</Value>
+					<Value for="12">129.2</Value>
+					<Value for="13">171.3</Value>
+					<Value for="14">185.8</Value>
+					<Value for="15">124.4</Value>
+					<Value for="16">127.2</Value>
+					<Value for="19">121.9</Value>
+					<Value for="20">132.5</Value>
+					<Value for="21">148.6</Value>
+					<Value for="22">135.3</Value>
+					<Value for="23">164.5</Value>
+					<ComparisonValue for="1">135.8</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">2173</Value>
+						<Value for="4">2362</Value>
+						<Value for="7">4744</Value>
+						<Value for="8">2464</Value>
+						<Value for="11">3047</Value>
+						<Value for="12">1649</Value>
+						<Value for="13">5100</Value>
+						<Value for="14">3238</Value>
+						<Value for="15">4286</Value>
+						<Value for="16">6563</Value>
+						<Value for="19">2710</Value>
+						<Value for="20">3997</Value>
+						<Value for="21">2008</Value>
+						<Value for="22">1378</Value>
+						<Value for="23">3404</Value>
+						<ComparisonValue for="1">49123</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i3" name="Liggetid" type="numeric" date="34.0 til 36.6 uker" href="">
+					<Value for="2">22.5</Value>
+					<Value for="4">30.4</Value>
+					<Value for="7">17.1</Value>
+					<Value for="8">19.8</Value>
+					<Value for="11">32.5</Value>
+					<Value for="12">25</Value>
+					<Value for="13">34.4</Value>
+					<Value for="14">25.1</Value>
+					<Value for="15">21.4</Value>
+					<Value for="16">22.9</Value>
+					<Value for="19">24.6</Value>
+					<Value for="20">23</Value>
+					<Value for="21">15.1</Value>
+					<Value for="22">19.3</Value>
+					<Value for="23">38</Value>
+					<ComparisonValue for="1">25.1</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">392</Value>
+						<Value for="4">408</Value>
+						<Value for="7">534</Value>
+						<Value for="8">336</Value>
+						<Value for="11">1300</Value>
+						<Value for="12">319</Value>
+						<Value for="13">1025</Value>
+						<Value for="14">438</Value>
+						<Value for="15">736</Value>
+						<Value for="16">1180</Value>
+						<Value for="19">546</Value>
+						<Value for="20">695</Value>
+						<Value for="21">204</Value>
+						<Value for="22">197</Value>
+						<Value for="23">787</Value>
+						<ComparisonValue for="1">9097</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i3" name="Liggetid" type="numeric" date="Under 34.0 uker" href="">
+					<Value for="2">90.6</Value>
+					<Value for="4">115.1</Value>
+					<Value for="7">84.8</Value>
+					<Value for="8">138.4</Value>
+					<Value for="11">107.9</Value>
+					<Value for="12">86</Value>
+					<Value for="13">99.9</Value>
+					<Value for="14">102.3</Value>
+					<Value for="15">110.6</Value>
+					<Value for="16">89.6</Value>
+					<Value for="19">82.2</Value>
+					<Value for="20">104.7</Value>
+					<Value for="21">71.8</Value>
+					<Value for="22">141.3</Value>
+					<Value for="23">107.8</Value>
+					<ComparisonValue for="1">100.5</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">1580</Value>
+						<Value for="4">1543</Value>
+						<Value for="7">2654</Value>
+						<Value for="8">2343</Value>
+						<Value for="11">4310</Value>
+						<Value for="12">1098</Value>
+						<Value for="13">2976</Value>
+						<Value for="14">1783</Value>
+						<Value for="15">3809</Value>
+						<Value for="16">4623</Value>
+						<Value for="19">1827</Value>
+						<Value for="20">3158</Value>
+						<Value for="21">970</Value>
+						<Value for="22">1439</Value>
+						<Value for="23">2232</Value>
+						<ComparisonValue for="1">36345</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i4" name="Pasienter med Sepsissiagnose" type="numeric" date="Alle" href="">
+					<Value for="2">12.7</Value>
+					<Value for="4">23.4</Value>
+					<Value for="7">15</Value>
+					<Value for="8">12.3</Value>
+					<Value for="11">5.1</Value>
+					<Value for="12">13.5</Value>
+					<Value for="13">18.1</Value>
+					<Value for="14">22</Value>
+					<Value for="15">16</Value>
+					<Value for="16">16.8</Value>
+					<Value for="19">13.1</Value>
+					<Value for="20">13.1</Value>
+					<Value for="21">13.2</Value>
+					<Value for="22">9.2</Value>
+					<Value for="23">17.6</Value>
+					<ComparisonValue for="1">14.5</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">222</Value>
+						<Value for="4">314</Value>
+						<Value for="7">469</Value>
+						<Value for="8">209</Value>
+						<Value for="11">205</Value>
+						<Value for="12">172</Value>
+						<Value for="13">538</Value>
+						<Value for="14">383</Value>
+						<Value for="15">552</Value>
+						<Value for="16">867</Value>
+						<Value for="19">291</Value>
+						<Value for="20">396</Value>
+						<Value for="21">178</Value>
+						<Value for="22">94</Value>
+						<Value for="23">364</Value>
+						<ComparisonValue for="1">5254</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i4" name="Pasienter med Sepsissiagnose" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">10.2</Value>
+					<Value for="4">18.9</Value>
+					<Value for="7">12.3</Value>
+					<Value for="8">9.5</Value>
+					<Value for="11">3.4</Value>
+					<Value for="12">11.2</Value>
+					<Value for="13">14.9</Value>
+					<Value for="14">18.5</Value>
+					<Value for="15">11.9</Value>
+					<Value for="16">13.2</Value>
+					<Value for="19">9.9</Value>
+					<Value for="20">10.3</Value>
+					<Value for="21">11.2</Value>
+					<Value for="22">5.7</Value>
+					<Value for="23">13.4</Value>
+					<ComparisonValue for="1">11.4</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">177</Value>
+						<Value for="4">253</Value>
+						<Value for="7">385</Value>
+						<Value for="8">161</Value>
+						<Value for="11">135</Value>
+						<Value for="12">143</Value>
+						<Value for="13">444</Value>
+						<Value for="14">322</Value>
+						<Value for="15">411</Value>
+						<Value for="16">683</Value>
+						<Value for="19">219</Value>
+						<Value for="20">311</Value>
+						<Value for="21">152</Value>
+						<Value for="22">58</Value>
+						<Value for="23">278</Value>
+						<ComparisonValue for="1">4132</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i4" name="Pasienter med Sepsissiagnose" type="numeric" date="Under 37.0 uker" href="">
+					<Value for="2">2.6</Value>
+					<Value for="4">4.6</Value>
+					<Value for="7">2.7</Value>
+					<Value for="8">2.8</Value>
+					<Value for="11">1.8</Value>
+					<Value for="12">2.3</Value>
+					<Value for="13">3.2</Value>
+					<Value for="14">3.5</Value>
+					<Value for="15">4.1</Value>
+					<Value for="16">3.6</Value>
+					<Value for="19">3.2</Value>
+					<Value for="20">2.8</Value>
+					<Value for="21">1.9</Value>
+					<Value for="22">3.5</Value>
+					<Value for="23">4.2</Value>
+					<ComparisonValue for="1">3.1</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">45</Value>
+						<Value for="4">61</Value>
+						<Value for="7">84</Value>
+						<Value for="8">48</Value>
+						<Value for="11">70</Value>
+						<Value for="12">29</Value>
+						<Value for="13">94</Value>
+						<Value for="14">61</Value>
+						<Value for="15">141</Value>
+						<Value for="16">184</Value>
+						<Value for="19">72</Value>
+						<Value for="20">85</Value>
+						<Value for="21">26</Value>
+						<Value for="22">36</Value>
+						<Value for="23">86</Value>
+						<ComparisonValue for="1">1122</ComparisonValue>
+					</Associate>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t2" name="Respiratorbehandling">
+
+				<Indicator id="i5" name="Pasienter" type="numeric" date="Alle" href="">
+					<Value for="2">10.2</Value>
+					<Value for="4">10.8</Value>
+					<Value for="7">8.6</Value>
+					<Value for="8">11.2</Value>
+					<Value for="11">8.9</Value>
+					<Value for="12">9.3</Value>
+					<Value for="13">8</Value>
+					<Value for="14">8.2</Value>
+					<Value for="15">8.7</Value>
+					<Value for="16">8.1</Value>
+					<Value for="19">9</Value>
+					<Value for="20">6.3</Value>
+					<Value for="21">6.8</Value>
+					<Value for="22">9.6</Value>
+					<Value for="23">8.3</Value>
+					<ComparisonValue for="1">8.6</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">177</Value>
+						<Value for="4">145</Value>
+						<Value for="7">270</Value>
+						<Value for="8">190</Value>
+						<Value for="11">354</Value>
+						<Value for="12">119</Value>
+						<Value for="13">237</Value>
+						<Value for="14">143</Value>
+						<Value for="15">301</Value>
+						<Value for="16">419</Value>
+						<Value for="19">201</Value>
+						<Value for="20">191</Value>
+						<Value for="21">92</Value>
+						<Value for="22">98</Value>
+						<Value for="23">171</Value>
+						<ComparisonValue for="1">3108</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i5" name="Pasienter" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">3.7</Value>
+					<Value for="4">3.7</Value>
+					<Value for="7">3.4</Value>
+					<Value for="8">4.8</Value>
+					<Value for="11">2.8</Value>
+					<Value for="12">3.2</Value>
+					<Value for="13">2.5</Value>
+					<Value for="14">3</Value>
+					<Value for="15">3.2</Value>
+					<Value for="16">2.8</Value>
+					<Value for="19">3.1</Value>
+					<Value for="20">1.7</Value>
+					<Value for="21">2.2</Value>
+					<Value for="22">3.3</Value>
+					<Value for="23">2.8</Value>
+					<ComparisonValue for="1">3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">65</Value>
+						<Value for="4">50</Value>
+						<Value for="7">107</Value>
+						<Value for="8">81</Value>
+						<Value for="11">110</Value>
+						<Value for="12">41</Value>
+						<Value for="13">73</Value>
+						<Value for="14">53</Value>
+						<Value for="15">109</Value>
+						<Value for="16">143</Value>
+						<Value for="19">69</Value>
+						<Value for="20">52</Value>
+						<Value for="21">30</Value>
+						<Value for="22">34</Value>
+						<Value for="23">57</Value>
+						<ComparisonValue for="1">1074</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i5" name="Pasienter" type="numeric" date="28.0 til 36.6 uker" href="">
+					<Value for="2">4.2</Value>
+					<Value for="4">3.9</Value>
+					<Value for="7">3.1</Value>
+					<Value for="8">4</Value>
+					<Value for="11">3.7</Value>
+					<Value for="12">3.4</Value>
+					<Value for="13">3</Value>
+					<Value for="14">3.1</Value>
+					<Value for="15">2.9</Value>
+					<Value for="16">3.1</Value>
+					<Value for="19">4.1</Value>
+					<Value for="20">1.8</Value>
+					<Value for="21">3</Value>
+					<Value for="22">3.5</Value>
+					<Value for="23">3.3</Value>
+					<ComparisonValue for="1">3.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">73</Value>
+						<Value for="4">52</Value>
+						<Value for="7">98</Value>
+						<Value for="8">68</Value>
+						<Value for="11">149</Value>
+						<Value for="12">43</Value>
+						<Value for="13">89</Value>
+						<Value for="14">54</Value>
+						<Value for="15">100</Value>
+						<Value for="16">160</Value>
+						<Value for="19">91</Value>
+						<Value for="20">55</Value>
+						<Value for="21">40</Value>
+						<Value for="22">36</Value>
+						<Value for="23">69</Value>
+						<ComparisonValue for="1">1177</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i5" name="Pasienter" type="numeric" date="Under 28.0 uker" href="">
+					<Value for="2">2.2</Value>
+					<Value for="4">3.2</Value>
+					<Value for="7">2.1</Value>
+					<Value for="8">2.4</Value>
+					<Value for="11">2.4</Value>
+					<Value for="12">2.7</Value>
+					<Value for="13">2.5</Value>
+					<Value for="14">2.1</Value>
+					<Value for="15">2.7</Value>
+					<Value for="16">2.2</Value>
+					<Value for="19">1.8</Value>
+					<Value for="20">2.8</Value>
+					<Value for="21">1.6</Value>
+					<Value for="22">2.7</Value>
+					<Value for="23">2.2</Value>
+					<ComparisonValue for="1">2.4</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">39</Value>
+						<Value for="4">43</Value>
+						<Value for="7">65</Value>
+						<Value for="8">41</Value>
+						<Value for="11">95</Value>
+						<Value for="12">35</Value>
+						<Value for="13">75</Value>
+						<Value for="14">36</Value>
+						<Value for="15">92</Value>
+						<Value for="16">116</Value>
+						<Value for="19">41</Value>
+						<Value for="20">84</Value>
+						<Value for="21">22</Value>
+						<Value for="22">28</Value>
+						<Value for="23">45</Value>
+						<ComparisonValue for="1">857</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i6" name="Liggetid" type="numeric" date="Alle" href="">
+					<Value for="2">80.9</Value>
+					<Value for="4">81</Value>
+					<Value for="7">68.5</Value>
+					<Value for="8">118.4</Value>
+					<Value for="11">41.6</Value>
+					<Value for="12">48.3</Value>
+					<Value for="13">52.1</Value>
+					<Value for="14">64.6</Value>
+					<Value for="15">91.1</Value>
+					<Value for="16">59.8</Value>
+					<Value for="19">74.4</Value>
+					<Value for="20">68.8</Value>
+					<Value for="21">70.4</Value>
+					<Value for="22">80.7</Value>
+					<Value for="23">77.4</Value>
+					<ComparisonValue for="1">68.9</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">1410</Value>
+						<Value for="4">1086</Value>
+						<Value for="7">2143</Value>
+						<Value for="8">2004</Value>
+						<Value for="11">1663</Value>
+						<Value for="12">617</Value>
+						<Value for="13">1551</Value>
+						<Value for="14">1126</Value>
+						<Value for="15">3138</Value>
+						<Value for="16">3084</Value>
+						<Value for="19">1653</Value>
+						<Value for="20">2075</Value>
+						<Value for="21">952</Value>
+						<Value for="22">822</Value>
+						<Value for="23">1602</Value>
+						<ComparisonValue for="1">24926</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i6" name="Liggetid" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">15.7</Value>
+					<Value for="4">14.7</Value>
+					<Value for="7">17.2</Value>
+					<Value for="8">23.6</Value>
+					<Value for="11">7.3</Value>
+					<Value for="12">11.3</Value>
+					<Value for="13">11.1</Value>
+					<Value for="14">12.6</Value>
+					<Value for="15">14.8</Value>
+					<Value for="16">11.2</Value>
+					<Value for="19">16.4</Value>
+					<Value for="20">11</Value>
+					<Value for="21">7.1</Value>
+					<Value for="22">23.9</Value>
+					<Value for="23">12.8</Value>
+					<ComparisonValue for="1">13.2</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">274</Value>
+						<Value for="4">197</Value>
+						<Value for="7">539</Value>
+						<Value for="8">400</Value>
+						<Value for="11">291</Value>
+						<Value for="12">144</Value>
+						<Value for="13">331</Value>
+						<Value for="14">219</Value>
+						<Value for="15">511</Value>
+						<Value for="16">580</Value>
+						<Value for="19">364</Value>
+						<Value for="20">332</Value>
+						<Value for="21">96</Value>
+						<Value for="22">243</Value>
+						<Value for="23">265</Value>
+						<ComparisonValue for="1">4786</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i6" name="Liggetid" type="numeric" date="28.0 til 36.6 uker" href="">
+					<Value for="2">17.3</Value>
+					<Value for="4">20.1</Value>
+					<Value for="7">11.2</Value>
+					<Value for="8">24.9</Value>
+					<Value for="11">14.4</Value>
+					<Value for="12">11</Value>
+					<Value for="13">15.7</Value>
+					<Value for="14">17.6</Value>
+					<Value for="15">12.1</Value>
+					<Value for="16">13.2</Value>
+					<Value for="19">18.1</Value>
+					<Value for="20">5.5</Value>
+					<Value for="21">13</Value>
+					<Value for="22">21.4</Value>
+					<Value for="23">31.4</Value>
+					<ComparisonValue for="1">15.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">301</Value>
+						<Value for="4">269</Value>
+						<Value for="7">352</Value>
+						<Value for="8">421</Value>
+						<Value for="11">576</Value>
+						<Value for="12">140</Value>
+						<Value for="13">468</Value>
+						<Value for="14">307</Value>
+						<Value for="15">418</Value>
+						<Value for="16">680</Value>
+						<Value for="19">403</Value>
+						<Value for="20">167</Value>
+						<Value for="21">176</Value>
+						<Value for="22">218</Value>
+						<Value for="23">649</Value>
+						<ComparisonValue for="1">5545</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i6" name="Liggetid" type="numeric" date="Under 28.0 uker" href="">
+					<Value for="2">47.9</Value>
+					<Value for="4">46.3</Value>
+					<Value for="7">40</Value>
+					<Value for="8">69.9</Value>
+					<Value for="11">19.9</Value>
+					<Value for="12">26.1</Value>
+					<Value for="13">25.3</Value>
+					<Value for="14">34.4</Value>
+					<Value for="15">64.1</Value>
+					<Value for="16">35.4</Value>
+					<Value for="19">39.9</Value>
+					<Value for="20">52.2</Value>
+					<Value for="21">50.3</Value>
+					<Value for="22">35.4</Value>
+					<Value for="23">33.2</Value>
+					<ComparisonValue for="1">40.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">835</Value>
+						<Value for="4">620</Value>
+						<Value for="7">1252</Value>
+						<Value for="8">1183</Value>
+						<Value for="11">796</Value>
+						<Value for="12">333</Value>
+						<Value for="13">752</Value>
+						<Value for="14">600</Value>
+						<Value for="15">2209</Value>
+						<Value for="16">1824</Value>
+						<Value for="19">886</Value>
+						<Value for="20">1576</Value>
+						<Value for="21">680</Value>
+						<Value for="22">361</Value>
+						<Value for="23">688</Value>
+						<ComparisonValue for="1">14595</ComparisonValue>
+					</Associate>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t3" name="Ressursbruk">
+
+				<Indicator id="i7" name="Pasienter" type="numeric" date="Alle" href="">
+					<Value for="2">16.9</Value>
+					<Value for="4">17.6</Value>
+					<Value for="7">14</Value>
+					<Value for="8">15.8</Value>
+					<Value for="11">13.6</Value>
+					<Value for="12">15.8</Value>
+					<Value for="13">13.4</Value>
+					<Value for="14">18</Value>
+					<Value for="15">17.4</Value>
+					<Value for="16">15.4</Value>
+					<Value for="19">13.9</Value>
+					<Value for="20">12.9</Value>
+					<Value for="21">16</Value>
+					<Value for="22">21.1</Value>
+					<Value for="23">18.2</Value>
+					<ComparisonValue for="1">15.5</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">294</Value>
+						<Value for="4">236</Value>
+						<Value for="7">437</Value>
+						<Value for="8">267</Value>
+						<Value for="11">542</Value>
+						<Value for="12">202</Value>
+						<Value for="13">400</Value>
+						<Value for="14">314</Value>
+						<Value for="15">599</Value>
+						<Value for="16">793</Value>
+						<Value for="19">309</Value>
+						<Value for="20">389</Value>
+						<Value for="21">216</Value>
+						<Value for="22">215</Value>
+						<Value for="23">377</Value>
+						<ComparisonValue for="1">5590</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i7" name="Pasienter" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">7.2</Value>
+					<Value for="4">7.5</Value>
+					<Value for="7">6.2</Value>
+					<Value for="8">8</Value>
+					<Value for="11">5.5</Value>
+					<Value for="12">7.4</Value>
+					<Value for="13">5.5</Value>
+					<Value for="14">9.1</Value>
+					<Value for="15">8.1</Value>
+					<Value for="16">7.9</Value>
+					<Value for="19">6.5</Value>
+					<Value for="20">5.2</Value>
+					<Value for="21">7.7</Value>
+					<Value for="22">10.1</Value>
+					<Value for="23">9.1</Value>
+					<ComparisonValue for="1">7.1</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">126</Value>
+						<Value for="4">101</Value>
+						<Value for="7">193</Value>
+						<Value for="8">135</Value>
+						<Value for="11">220</Value>
+						<Value for="12">94</Value>
+						<Value for="13">165</Value>
+						<Value for="14">159</Value>
+						<Value for="15">279</Value>
+						<Value for="16">409</Value>
+						<Value for="19">145</Value>
+						<Value for="20">156</Value>
+						<Value for="21">104</Value>
+						<Value for="22">103</Value>
+						<Value for="23">188</Value>
+						<ComparisonValue for="1">2577</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i7" name="Pasienter" type="numeric" date="Under 37.0 uker" href="">
+					<Value for="2">9.6</Value>
+					<Value for="4">10.1</Value>
+					<Value for="7">7.8</Value>
+					<Value for="8">7.8</Value>
+					<Value for="11">8.1</Value>
+					<Value for="12">8.5</Value>
+					<Value for="13">7.9</Value>
+					<Value for="14">8.9</Value>
+					<Value for="15">9.3</Value>
+					<Value for="16">7.4</Value>
+					<Value for="19">7.4</Value>
+					<Value for="20">7.7</Value>
+					<Value for="21">8.3</Value>
+					<Value for="22">11</Value>
+					<Value for="23">9.1</Value>
+					<ComparisonValue for="1">8.3</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">168</Value>
+						<Value for="4">135</Value>
+						<Value for="7">244</Value>
+						<Value for="8">132</Value>
+						<Value for="11">322</Value>
+						<Value for="12">108</Value>
+						<Value for="13">235</Value>
+						<Value for="14">155</Value>
+						<Value for="15">320</Value>
+						<Value for="16">384</Value>
+						<Value for="19">164</Value>
+						<Value for="20">233</Value>
+						<Value for="21">112</Value>
+						<Value for="22">112</Value>
+						<Value for="23">189</Value>
+						<ComparisonValue for="1">3013</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i8" name="Liggetid" type="numeric" date="Alle" href="">
+					<Value for="2">151.5</Value>
+					<Value for="4">170.8</Value>
+					<Value for="7">142</Value>
+					<Value for="8">184.5</Value>
+					<Value for="11">121.4</Value>
+					<Value for="12">136.6</Value>
+					<Value for="13">119.9</Value>
+					<Value for="14">149.2</Value>
+					<Value for="15">175.2</Value>
+					<Value for="16">126.1</Value>
+					<Value for="19">131.4</Value>
+					<Value for="20">124</Value>
+					<Value for="21">134.8</Value>
+					<Value for="22">169</Value>
+					<Value for="23">158.1</Value>
+					<ComparisonValue for="1">141.7</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">2641</Value>
+						<Value for="4">2290</Value>
+						<Value for="7">4444</Value>
+						<Value for="8">3123</Value>
+						<Value for="11">4848</Value>
+						<Value for="12">1743</Value>
+						<Value for="13">3570</Value>
+						<Value for="14">2600</Value>
+						<Value for="15">6034</Value>
+						<Value for="16">6505</Value>
+						<Value for="19">2921</Value>
+						<Value for="20">3741</Value>
+						<Value for="21">1822</Value>
+						<Value for="22">1722</Value>
+						<Value for="23">3272</Value>
+						<ComparisonValue for="1">51276</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i8" name="Liggetid" type="numeric" date="Over 36.6 uker" href="">
+					<Value for="2">45.9</Value>
+					<Value for="4">50.1</Value>
+					<Value for="7">38.8</Value>
+					<Value for="8">53.6</Value>
+					<Value for="11">33.8</Value>
+					<Value for="12">48.3</Value>
+					<Value for="13">37.3</Value>
+					<Value for="14">56.5</Value>
+					<Value for="15">48.2</Value>
+					<Value for="16">44.1</Value>
+					<Value for="19">42.6</Value>
+					<Value for="20">31.3</Value>
+					<Value for="21">32.6</Value>
+					<Value for="22">70.7</Value>
+					<Value for="23">47.8</Value>
+					<ComparisonValue for="1">43.2</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">800</Value>
+						<Value for="4">672</Value>
+						<Value for="7">1215</Value>
+						<Value for="8">908</Value>
+						<Value for="11">1351</Value>
+						<Value for="12">617</Value>
+						<Value for="13">1110</Value>
+						<Value for="14">985</Value>
+						<Value for="15">1661</Value>
+						<Value for="16">2274</Value>
+						<Value for="19">948</Value>
+						<Value for="20">944</Value>
+						<Value for="21">440</Value>
+						<Value for="22">720</Value>
+						<Value for="23">989</Value>
+						<ComparisonValue for="1">15634</ComparisonValue>
+					</Associate>
+				</Indicator>
+				<Indicator id="i8" name="Liggetid" type="numeric" date="Under 37.0 uker" href="">
+					<Value for="2">105.6</Value>
+					<Value for="4">120.7</Value>
+					<Value for="7">103.2</Value>
+					<Value for="8">130.8</Value>
+					<Value for="11">87.5</Value>
+					<Value for="12">88.2</Value>
+					<Value for="13">82.6</Value>
+					<Value for="14">92.7</Value>
+					<Value for="15">127</Value>
+					<Value for="16">82</Value>
+					<Value for="19">88.8</Value>
+					<Value for="20">92.7</Value>
+					<Value for="21">102.3</Value>
+					<Value for="22">98.4</Value>
+					<Value for="23">110.3</Value>
+					<ComparisonValue for="1">98.5</ComparisonValue>
+					<Associate name="F&#248;dte" type="numeric"  >
+						<Value for="2">17431</Value>
+						<Value for="4">13405</Value>
+						<Value for="7">31301</Value>
+						<Value for="8">16929</Value>
+						<Value for="11">39950</Value>
+						<Value for="12">12764</Value>
+						<Value for="13">29780</Value>
+						<Value for="14">17429</Value>
+						<Value for="15">34440</Value>
+						<Value for="16">51577</Value>
+						<Value for="19">22228</Value>
+						<Value for="20">30170</Value>
+						<Value for="21">13515</Value>
+						<Value for="22">10187</Value>
+						<Value for="23">20697</Value>
+						<ComparisonValue for="1">361803</ComparisonValue>
+					</Associate>
+					<Associate name="Antall" type="numeric"  >
+						<Value for="2">1841</Value>
+						<Value for="4">1618</Value>
+						<Value for="7">3229</Value>
+						<Value for="8">2215</Value>
+						<Value for="11">3497</Value>
+						<Value for="12">1126</Value>
+						<Value for="13">2460</Value>
+						<Value for="14">1615</Value>
+						<Value for="15">4373</Value>
+						<Value for="16">4231</Value>
+						<Value for="19">1973</Value>
+						<Value for="20">2797</Value>
+						<Value for="21">1382</Value>
+						<Value for="22">1002</Value>
+						<Value for="23">2283</Value>
+						<ComparisonValue for="1">35642</ComparisonValue>
+					</Associate>
+				</Indicator>
+			</Theme>
+		</ThemeList>
+	</Geography>
+</AtlasData>

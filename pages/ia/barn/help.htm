@@ -1,0 +1,315 @@
+<style type="text/css">
+    #ia-help-container
+    {
+        font-size: 12px;
+        font-family: Verdana;
+        color: #666666;
+    }
+    #ia-help-content
+    {
+        background-color:#ffffff;
+        padding:20px;
+        position: absolute;
+        left:25%;
+        right:0%;
+        bottom:0px;
+        top:0px;
+        overflow-x:hidden;
+        overflow-y:auto;
+        text-align: justify;
+    }
+    .ia-help-title
+    {
+        font-family: Arial;
+        font-weight: bold;
+        font-size:20px;
+        color: #666666;
+    }
+    .ia-help-section-header
+    {
+        font-family: Arial;
+        font-size:20px;
+        color: #666666;
+        padding-top:25px;
+        padding-bottom:5px;
+        border-bottom-color:#cccccc;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+    .ia-help-section
+    {
+
+    }
+    #ia-help-index
+    {
+        background-color:#fafafa;
+        padding:0px;
+        margin:0px;
+        position: absolute;
+        left:0px;
+        right:75%;
+        bottom:0px;
+        top:0px;
+        overflow-x:hidden;
+        overflow-y:auto;
+        border-right-color:#e5e5e5;
+        border-right-width: 1px;
+        border-right-style: solid;
+    }
+    .ia-help-index-link
+    {
+        cursor:pointer;
+        display: block;
+        border-bottom-color:#e5e5e5;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        padding:10px;
+    }
+    .ia-help-index-link:hover
+    {
+        background-color:#e4f4f8;
+    }
+    .ia-help-index-link:active
+    {
+        background-color:#d0eaf1;
+    }
+</style>
+<script type="text/javascript">
+    function iaHelpScrollTo(id)
+    {
+        var ele = document.getElementById(id);
+        var top = ele.offsetTop;
+        document.getElementById('ia-help-content').scrollTop = top;
+    }
+</script>
+<div id="ia-help-container">
+
+    <div id="ia-help-index">
+        <div onClick="javascript:iaHelpScrollTo('ia-help-title')" class="ia-help-index-link">Title</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-buttons')" class="ia-help-index-link">Buttons</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-menubar')" class="ia-help-index-link">Menu Bar</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-components')" class="ia-help-index-link">Components</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-dataexplorer')" class="ia-help-index-link">Data Explorer</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-filterexplorer')" class="ia-help-index-link">Filter Explorer</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-geographyexplorer')" class="ia-help-index-link">Geography Explorer</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-datatable')" class="ia-help-index-link">Data Table</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-map')" class="ia-help-index-link">Map</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-barchart')" class="ia-help-index-link">Bar Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-boxandwhiskerchart')" class="ia-help-index-link">Box-and-Whisker Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-piechart')" class="ia-help-index-link">Pie Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-advancedpiechart')" class="ia-help-index-link">Advanced Pie Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-timechart')" class="ia-help-index-link">Time Series Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-legend')" class="ia-help-index-link">Legend</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-maplayers')" class="ia-help-index-link">Map Layers</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-comparison')" class="ia-help-index-link">Comparison Geographies Table</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-timeanimation')" class="ia-help-index-link">Time Animation</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-pyramidchart')" class="ia-help-index-link">Pyramid Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-statisticsbox')" class="ia-help-index-link">Statistics Box</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-scatterplot')" class="ia-help-index-link">Scatter Plot</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-bubbleplot')" class="ia-help-index-link">Bubble Plot</div>
+		<div onClick="javascript:iaHelpScrollTo('ia-help-funnelplot')" class="ia-help-index-link">Funnel Plot</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-spinechart')" class="ia-help-index-link">Spine Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-selectedfeatureslegend')" class="ia-help-index-link">Selected Features Legend</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-featurecard')" class="ia-help-index-link">Feature Card</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-capture')" class="ia-help-index-link">Screen Grabs</div>
+    </div>
+
+    <div id="ia-help-content">
+
+        <div class="ia-help-title">How To Use This InstantAtlas Dynamic Report</div>
+        <div class="ia-help-section">
+            <p><i>Administrators can customise the appearance and functionality of an InstantAtlas report. The layout/colours/functionality described in the sections below may therefore be different in the report you are viewing.</i></p>
+            <p>Click on a menu item on the left to jump to the respective section.</p>
+        </div>
+
+        <div id="ia-help-title" class="ia-help-section-header">Title</div>
+        <div class="ia-help-section">
+            <p>The title of the report normally appears at the very top, either as a separate text element or within the component header of one of the components e.g. the map. It typically lists the name of the theme, indicator and time period being displayed. It may also display any filter that you have applied to the data.</p>
+        </div>
+
+        <div id="ia-help-buttons" class="ia-help-section-header">Buttons</div>
+        <div class="ia-help-section">
+            <p><em>Data Button:</em> Click this button to display the available theme(s), indicator(s) and time period(s) in the Data Explorer.</p>
+            <p><em>Filter Button:</em> Click this button to display the available filters in the Filter Explorer. If there are no filters in the report this button will not be available.<p>
+            <p><em>Geography Button:</em> Click this button to display the available geographies for the base geography. If there is only one base geography in the report this button will not be available.</p>
+            <p>The administrator may have added further buttons to the report you are viewing.</p>
+        </div>
+
+        <div id="ia-help-menubar" class="ia-help-section-header">Menu Bar</div>
+        <div class="ia-help-section">
+            <p>The Menu Bar is ideal to contain items which are less frequently used.</p>
+            <p><em>Help:</em> Click this link to access a help document.</p>
+            <p><em>Print:</em> Click this link to open a new browser tab/window showing the print preview. This view resizes the report to a standard A4 size (landscape format). You can change the size using the '+' and '-' buttons at the top of the page. When you are happy with the size you can click the printer icon to open the print settings dialog of your internet browser.</p>
+            <p><em>Share:</em> Click this link to open a pop-up window which allows you to share this report either via email or by embedding it into your own website. To share the report via email simply copy and paste the displayed link into the email text. To embed the report into your website, you can copy the displayed embed code and paste it into your website source code.</p>
+            <p>The administrator may have added further items to the menu bar.</p>
+        </div>
+
+        <div id="ia-help-components" class="ia-help-section-header">Components</div>
+        <div class="ia-help-section">
+            <p>All components of the report (except the Time Animation and the Menu Bar) have a maximise button on the top right hand corner that becomes visible when you hover over the component. Click this button to see a full screen view of the component. In this view the maximise button changes to a restore down button which allows you to restore the component again to its original size and location. </p>
+            <p>Components that are formatted as a pop-up window will also show a close button next to the maximise button.</p>
+            <p>Some components such as the map, tables and charts also have an export button next to the maximise button. For the map and charts this button will open the map or chart graphic (the map without background layers) as an image in a new tab/window of your browser. From there you can save the image through the right-click menu. For the tables the export button opens a new browser tab/window showing you the table content in CSV format. If you have made a selection, only the selected features will appear in the CSV export.</p>
+            <p>The Legend has an additional button showing a cogwheel icon which when clicked opens the Legend Editor dialog.</p>
+        </div>
+
+        <div id="ia-help-dataexplorer" class="ia-help-section-header">Data Explorer</div>
+        <div class="ia-help-section">
+            <p>The Data Explorer lists the available themes, indicators and time periods. Click theme and indicator names to expand or collapse them. Click a time period or an indicator without a time period to load new data. The administrator may have configured the Data Explorer to not show any time periods but load only the most recent data when you select an indicator.</p>
+            <p>In front of the names of the lowest hierarchy level (either the indicator or the time period names) you may see notes icons which will typically link to external resources with further information about the data. If the administrator has not set up a link, you will not see a notes icon.</p>
+        </div>
+
+        <div id="ia-help-filterexplorer" class="ia-help-section-header">Filter Explorer</div>
+        <div class="ia-help-section">
+            <p>The Filter Explorer lists any available filter. Click on a filter name to see the filter values of this filter. Clicking a filter value will filter the report so that only geographic features with the selected filter value are prominent. The administrator may have configured the report so that the map zooms to the filtered area. If this is the case you should use the "Zoom Full" button in the map toolbar to return to the original map extent.</p>
+            <p>Once a filter is applied, a red cross appears next to the filter value. Clicking on this filter value again clears the filter.</p>
+        </div>
+
+<div id="ia-help-geographyexplorer" class="ia-help-section-header">Geography Explorer</div>
+        <div class="ia-help-section">
+            <p>The Geography Explorer lists any available base geography. If you choose a different geography, all components of the report will update to display the data of the selected geography.</p>
+        </div>
+
+        <div id="ia-help-datatable" class="ia-help-section-header">Data Table</div>
+        <div class="ia-help-section">
+            <p><em>Select Features:</em> Click on a table row to select the feature. The row of the selected feature will be shaded light red. It may be that the report is configured so that the map will zoom to the geographic feature selected. Click on further rows to add those features to the selection. Click on a selected row again to deselect the feature.</p>
+            <p><em>Sort Columns:</em> Click will sort a column header to sort the table ascending/descending. Note that the Name column and the Indicator column of categoric indicators will sort alphabetically while the Indicator column of numeric indicators numerically. Associate values (typically shown in columns to the right of indicator values) always sort as if they were numbers unless the administrator has defined otherwise.</p>
+            <p><em>Legend Colours:</em> By default there are small circles in front of the feature names shaded in the colour of the class which the data value of this area is within in the legend.  This helps to get a better visual impression of the data. </p>
+            <p><em>Notes Icon:</em> If notes icons appear in front of the feature names, you can click on one of the icons to link to external resources with further information about the feature. If the administrator has not set up a link, you will not see a notes icon.</p>
+            <p><em>Table Footer:</em> The table footer contains a 'Clear' button and a 'Filter' button. Both buttons become active once one or more features are selected.</p>
+            <p><em>Clear Button:</em> Click the 'Clear' button to clear the current selection.</p>
+            <p><em>Filter Button:</em> The 'Filter' button allows you to create a filter out of the currently selected features. Once a filter is applied the filter button will show a red cross. Clicking on the button again will remove the filter</p>
+            <p><em>Scroll:</em> A vertical scroll bar will be available if data cannot be viewed within the table dimensions.</p>
+        </div>
+
+        <div id="ia-help-map" class="ia-help-section-header">Map</div>
+        <div class="ia-help-section">
+            <p><em>Shading:</em> Geographic features are shaded based on values in the data table according to the map legend.</p>
+            <p><em>Select Features:</em> Click on a geographic feature in the map to select it. The border of the selected feature  will be highlighted  red. Click on further features to add them to the selection. Click on a selected feature again to deselect it. Clicking on the map background will clear the selection.</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over a map feature to display a tooltip with the geographic feature name and value. The administrator may have configured this tooltip to show additional information about the feature.</p>
+            <p><em>Map Toolbar:</em> The map toolbar appears once you hover with the mouse over the map. It contains buttons for zooming, a 'Clear' and a 'Filter' button. The latter two become active once one or more features are selected.</p>
+            <p><em>Zooming:</em> Use the '+' and '-' buttons at the top of the map to zoom in and out. Alternatively you can also use the scroll wheel on your mouse to zoom in and out of the map. Click the zoom full icon to zoom back to full extent.</p>
+            <p><em>Clear Button:</em> Click the 'Clear' button to clear the current selection.</p>
+            <p><em>Filter Button:</em> The 'Filter' button allows you to create a filter out of the currently selected features. Once a filter is applied the filter button will show a red cross. Clicking on the button again will remove the filter</p>
+        </div>
+
+        <div id="ia-help-barchart" class="ia-help-section-header">Bar Chart</div>
+        <div class="ia-help-section">
+            <p><em>Bars for Numeric Indicators:</em> For numeric indicator values there is a bar representing each geographic feature listed in the data table. The height of the bars is proportional to the values in the data table. Bars are displayed in the order of the indicator values and the shading is linked to the legend.</p>
+            <p><em>Bars for Categoric Indicators:</em> For categoric indicators there is a bar for each category listed in the legend. The height of the bars represents the number of features within that category. The shading of the bars is linked to the legend.</p>
+            <p><em>Select Features:</em> Click a bar to select the corresponding geographic feature. A selected bar will be highlighted with a red border. Click on further bars to add them to the selection. Click on a selected bar again to deselect it. Clicking on the bar chart background will clear the selection.</p>
+            <p><em>Error Bars:</em> The bar chart may display error bars representing the lower and upper confidence limits associated with indicator values. These give an indication of whether the differences between indicator values are statistically significant.</p>
+            <p><em>Comparison Values:</em> The bar chart can display values for comparison geographies as well as features in the base geography. Values for comparison geographies are shown using a horizontal line across the chart (the line will be vertical if the administrator has configured the bar chart to show horizontal bars).</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over a bar to display a tooltip with the geographic feature name and value. It might also show the lower and upper confidence limit values of error bars.</p>
+        </div>
+
+        <div id="ia-help-boxandwhiskerchart" class="ia-help-section-header">Box-and-Whisker Chart</div>
+        <div class="ia-help-section">
+            <p><em>Boxes and Whiskers:</em> The way you interpret this chart is dependent upon the data the administrator has chosen to present. In general though, the box is used to represent a range of values, such as an interquartile range, whereas the whiskers represent the highest/lowest values. The line within the box is typically used to show the median.</p>
+            <p><em>Select Features:</em> Click a box to select the corresponding geographic feature. A selected box will be highlighted with a red border. Click on further boxes to add them to the selection. Click on a selected box again to deselect it. Clicking on the box-and-whisker chart background will clear the selection.</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over a box to display a tooltip with the geographic feature name and the values that define the box and whiskers.</p>
+        </div>
+
+        <div id="ia-help-piechart" class="ia-help-section-header">Pie Chart</div>
+        <div class="ia-help-section">
+            <p><em>Slices:</em> The number of slices and shading is linked to the legend. The size of each slice is proportional to the number of geographic features in the corresponding category.</p>
+            <p><em>Select Slices:</em> Click a slice to select the corresponding geographic features. A selected slice will be highlighted with a red border. Click on further slices to add the corresponding features to the selection. Click on a selected slice again to deselect corresponding features. Clicking on the pie chart background will clear the selection.</p>
+            <p><em>Tooltip:</em> Hold your mouse over a slice to display a tooltip with the name of the category, the number and the proportion of geographic features in this category.</p>
+        </div>
+
+        <div id="ia-help-advancedpiechart" class="ia-help-section-header">Advanced Pie Chart</div>
+        <div class="ia-help-section">
+            <p>The advanced pie chart will show you data for a hovered or selected map feature. Depending on how it has been configured it will show either associate values for the selected indicator or all indicators in the selected theme. Unless the administrator deactivated it, you will be able to compare the breakdown for two geographic features side-by-side. The name of the geographic feature will be displayed above the chart.</p>
+            <p><em>Slices:</em> The number of slices and shading is linked to the legend of the advanced pie chart. The size of each slice is proportional to the indicator or associate value it represents.</p>
+            <p><em>Tooltip:</em> Hold your mouse over a slice to display a tooltip with the name and value of the indicator/associate and the related percentage.</p>
+        </div>
+
+        <div id="ia-help-timechart" class="ia-help-section-header">Time Series Chart</div>
+        <div class="ia-help-section">
+            <p><em>Trends:</em> The time series chart shows change in indicator values over time. Hold your mouse over a geographic feature in the map, data table or bar chart to view a trend in the time series chart. Click a feature in the map, data table or bar chart to select it and freeze the trend in the time series chart.</p>
+            <p><em>Comparison Trends:</em> The time series chart may display trends for comparison geographies.</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over the points for any frozen trend in the time series chart to display a tooltip with geographic feature name, the time period and value.</p>
+            <p><em>Discrete Time Series Chart:</em> A variation of the time series chart is to show the time series not as trend lines but as bars for each time period. </p>
+            <p><em>Flipped Time Series Chart:</em> It is possible that the discrete time series chart appears on its side with horizontal bars. </p>
+        </div>
+
+        <div id="ia-help-legend" class="ia-help-section-header">Legend</div>
+        <div class="ia-help-section">
+            <p><em>Selecting and Highlighting:</em> Click a class to select the geographic features that fall within that class. Hold your mouse pointer over a feature in the map, table or charts to highlight the legend class which the geographic feature falls in.</p>
+            <p><em>Legend Settings:</em> The legend can be controlled by clicking on the 'cogwheel' icon that appears in the top right hand corner of the component when you hover over the legend. This will open the Legend Settings dialogue box. The items available in the legend settings depend on the type of indicator (numeric or categoric), the geography type of the base geography layer (polygons, lines or points) and the selected legend classification.</p>
+            <p><em>Palette:</em> You can change the colour palette used to shade geographic features in the map by clicking on a new palette.</p>
+            <p><em>Reverse Palette:</em> For numeric indicators the legend settings include a button with two arrows, one pointing up and one pointing down. By clicking this button box you can reverse the colour palette used to shade geographic features in the map.</p>
+            <p><em>No. Classes:</em> For numeric indicators the legend settings include a '+' and a '-' button. By clicking these you can increase or decrease the number of classes. The administrator may have fixed the maximum number of classes. If the legend classification is either 'Continuous' or 'Standard Deviation', these buttons will not be available.</p>
+            <p><em>Min Point Size / Min Line Width:</em> If the data in your dynamic report is being displayed as proportional points or lines, the legend settings will include '+' and '-' buttons to change the minimum point size or the minimum line width.</p>
+            <p><em>Max Point Size / Max Line Width:</em> If the data in your dynamic report is being displayed as proportional points or lines, the legend settings will include '+' and '-' buttons to change the maximum point size or the maximum line width.</p>
+            <p><em>Classifiers:</em> For numeric indicators the legend settings include an option to select different classifiers. The selected classification method will decide how the ranges are calculated.</p>
+            <p><em>Equal Interval:</em> The intervals between class breaks are equal. Class breaks are calculated on-the-fly and will update if you change the number of classes. Geographic features in the same class are given the same shade. The administrator may have configured the report so that the class breaks are the same across all indicators in the report. The advantage of the equal-interval classification is that many map users will find it simple to understand. However, a disadvantage is that only the minimum and maximum data values are used when determining class breaks for the intervals (rather than the way the data is spread).</p>
+            <p><em>Quantile:</em> Each class in the legend contains an approximately equal number of geographic features. Class breaks are calculated on-the-fly and will update if you change the number of classes. Geographic features in the same class are given the same shade. Two advantages of the quantile classification are that it is appropriate for ordinal data (as data are rank-ordered) and that it can help make map comparisons (assuming that the same number of classifications is used for all maps). A disadvantage of the quantile classification is that it does not consider how the data are distributed. If the data distribution is highly skewed, data observations will be forced into the same class (either the lowest or highest) where this may not be appropriate. As a result, the quantile classification may give a false impression that there is a relatively normal data distribution.</p>
+            <p><em>Natural Breaks:</em> This classification method is also known as Optimal Breaks and Jenks Method. Class breaks are calculated on-the-fly and will update if you change the number of classes. Data are assigned to classes based upon their position along the data distribution relative to all other data values. An iterative algorithm is used to assign values to classes such that the variances within all classes are minimised whereas the variances among classes are maximised. The advantage of this classification is that the data distribution is explicitly considered for determining class breaks. However, the disadvantage is that map users may not understand the classification method used and that class breaks may not be immediately intuitive. </p>
+            <p><em>Continuous:</em> Each geographic feature is shaded a different shade using a continuous scale. This legend type is useful for identifying extremely high or low values. Where an indicator has only a small number of unique data values (say 5 or less) this may be the most appropriate legend type to apply.</p>
+            <p><em>Standard Deviation:</em> Class breaks reflect the number of standard deviations from the data average (or mean). Geographic features are classified according to how many standard deviations above or below the average their indicator value falls. Geographic features in the same class are given the same shade. You cannot change the number of classes for this legend type.</p>
+        </div>
+
+        <div id="ia-help-maplayers" class="ia-help-section-header">Map Layers</div>
+        <div class="ia-help-section">
+            <p>Click the check box next to the base layer name to toggle the base geography on / off. Contextual geographies and background images may have been included by the administrator and can also be toggled on or off using the check boxes in the map layers box. Background images are "scale dependent" - they may turn on or off as you zoom into or out of the map. Note that images may not be visible at full map extent and you may need to zoom to a smaller area for them to appear. Depending on how the report has been configured, it may take some time for background images to appear.</p>
+        </div>
+
+        <div id="ia-help-comparison" class="ia-help-section-header">Comparison Geographies Table</div>
+        <div class="ia-help-section">
+            <p>This table lists any comparison geographies that have been included in the report. Comparison values are displayed as lines in the bar chart and time series chart when you hold your mouse pointer over a comparison geography name and will freeze when the comparison geography is selected.</p>
+        </div>
+
+        <div id="ia-help-timeanimation" class="ia-help-section-header">Time Animation</div>
+		<div class="ia-help-section">
+			<p>The time animation component can be used to view how indicators change over time. You can click on one of the time periods to change the date that is currently displayed. You can also use the left and right arrow buttons to step through each date, or click the "play" (triangle) button to cycle through all the available dates for the currently selected indicator. You can stop the animation by clicking on the stop button.</p>
+        </div>
+
+		<div id="ia-help-pyramidchart" class="ia-help-section-header">Pyramid Chart</div>
+		<div class="ia-help-section">
+			<p>The pyramid chart displays indicator data belonging to one selected map feature in a back to back horizontal bar chart. This chart is typically used to show population structure broken down by age groups and gender. Simply select a geographic feature in the map, data table or bar chart to fill the pyramid chart with data for the selected feature. The bars on the right side of the chart will display the numeric indicator values of the first theme (usually males) whereas the bars on the left will display the numeric indicator values of the second theme (usually females) for the selected feature. Data for comparison areas will be displayed as smooth lines on top of the bars of the selected map feature. The chart may be configured to show further lines e.g. predicted values.</p>
+        </div>
+
+        <div id="ia-help-statisticsbox" class="ia-help-section-header">Statistics Box</div>
+        <div class="ia-help-section">
+            <p>The Statistics Box shows several statistical figures calculated automatically from the indicator values of all features in the report. If a filter is applied the statistics will be calculated on-the-fly for just the filtered features. This works for a filter applied through the Filter Explorer and for geographic filters which can be applied by selecting a subset of the map features.</p>
+        </div>
+
+        <div id="ia-help-scatterplot" class="ia-help-section-header">Scatter Plot</div>
+        <div class="ia-help-section">
+            <p>The scatter plot displays the relationship between data for two different indicators or time periods. Read the axis labels to see which data are being plotted. Hold your mouse pointer over a dot in the scatter plot to display a tooltip with the name and values of the geographic feature it relates to. The administrator may have configured the report to display a correlation coefficient, line of best fit and an equation for this line. The correlation coefficient is Pearson's Product Moment Coefficient.</p>
+        </div>
+        <div id="ia-help-bubbleplot" class="ia-help-section-header">Bubble Plot</div>
+        <div class="ia-help-section">
+            <p>The bubble plot is a scatterplot in which the size and colour of the points can vary. Up to four indicators can therefore be represented simultaneously (x-axis value, y-axis value, size and colour). The indicator that defines bubble colour is that which is shown in the other components of the report. It may be possible to select the indicators shown in the bubble plot independently or the administrator may have pre-defined them. Hold your mouse pointer over a bubble to display a tooltip with the name and values of the geographic feature it relates to.</p>
+        </div>
+        <div id="ia-help-funnelplot" class="ia-help-section-header">Funnel Plot</div>
+        <div class="ia-help-section">
+            <p>The funnel plot is a scatterplot upon which confidence limits have been superimposed. It is useful when observations for different areas are based on varying sample/population sizes. The funnel shaped confidence limits indicate that as sample/population sizes decrease, an observation must be further from the regional/national average to be statistically significantly different. Hold your mouse pointer over a point to display a tooltip with the name and value of the geographic feature it corresponds to</p>
+        </div>
+
+        <div id="ia-help-spinechart" class="ia-help-section-header">Spine Chart</div>
+        <div class="ia-help-section">
+            <p>The spine chart displays cross-indicator information (i.e. a profile) for any selected area(s). It may do this using text, symbols and proportional bars. A legend explaining the symbols used is shown in the Profile Key. Select a geographic feature in the map, data table or bar chart to make it appear in the spine chart. The proportional bars will show in a different colour for each different geographic feature. The geographic feature name(s) together with their bar colour will be displayed in the selected features legend.</p>
+
+			<p>The proportional bars usually represent either the indicator values themselves or a percentage difference between the indicator value and a regional/national comparator. Target values may be superimposed as vertical bars. For each indicator, minimum/maximum values may be shown at either side of each bar. The bars themselves may be superimposed on coloured ranges that show how an area is performing. You can scroll the chart to see indicators that are listed further up or down. By clicking on a row in the spine chart you may be able to change the indicator being shown in the map, bar chart and pie chart. Close to the spine chart you may find the '-/+' button. This will collapse and expand the themes in the chart.</p>
+        </div>
+
+        <div id="ia-help-selectedfeatureslegend" class="ia-help-section-header">Selected Features Legend</div>
+		<div class="ia-help-section">
+			<p>The Selected Features Legend displays the name of each area which is selected in the different components. A colour will be given to each area and this will correspond to the colour displayed in the Time Series Chart, Discrete Time Series Chart and Spine Chart.</p>
+			<p>To clear the selected features simply click on the Clear button in the table or map.</p>
+		</div>
+
+        <div id="ia-help-featurecard" class="ia-help-section-header">Feature Card</div>
+		<div class="ia-help-section">
+			<p>The Feature Card shows an overview of the data for the selected feature(s). The administrator may have set it up so that it only shows data values for the selected date or for all dates. It may also show either all indicators of all themes, only the indicators of the selected theme or only the selected indicator. The administrator may have customised the content of this component.</p>
+		</div>
+
+        <div id="ia-help-capture" class="ia-help-section-header">Screen Captures</div>
+        <div class="ia-help-section">
+            <p>As well as printing the report or exporting individual components, you can capture an InstantAtlas report as a screen grab. Make sure the graphics are as large as possible and then hold down Ctrl-Alt-Prnt Scrn on your keyboard. Open another application, such as Word or PowerPoint, and paste (hold down Ctrl-V on your keyboard) the screen grab. You can then edit the graphics (crop, resize, sharpen, etc.) as required.</p>
+        </div>
+
+        <p style="text-align: right">&copy; 2013 GeoWise Ltd</p>
+    </div>
+</div>

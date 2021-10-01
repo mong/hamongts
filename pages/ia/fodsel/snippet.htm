@@ -1,0 +1,23 @@
+<!-- For more examples visit http://www.instantatlas.com/customers/support/library/desktop/tech-articles/html/feature-card -->
+
+<div style="padding:10px;font-size:11px">
+
+	<!-- indicator name -->
+	<div style="padding:5px">
+		${indicator-name}
+	</div>
+
+	<div style="padding:5px">
+
+		<!-- chart - hide if the indicator is categoric -->
+		<div style="display:${equals(indicator-type, 'numeric', 'inline-block', 'none')};vertical-align:top">
+			<svg preserveAspectRatio="none" style="border:1px solid #6bc1d7" width="200" height="13" viewBox="0 0 100 10">
+				<rect x="0" y="0" width="${indicator-value}" height="10" style="fill:#6bc1d7"/>
+			</svg>
+		</div>
+
+		<!-- indicator value -->
+		<div style="display:inline-block;font-weight:bold">${indicator-formatted-value}</div>
+
+	</div>
+</div>

@@ -1,0 +1,1817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="data-xml-2-html.xslt"?>
+<AtlasData xmlns="http://data.instantatlas.com/atlas" version="1.3" data-source="IA DataManager 6.7.3">
+	<Geography id="HF-omr&#229;der" name="HF-omr&#229;der" type="polygon">
+		<FeatureList>
+			<Feature id="1" name="Finnmark" >
+			</Feature>
+			<Feature id="2" name="UNN" >
+			</Feature>
+			<Feature id="3" name="Nordland" >
+			</Feature>
+			<Feature id="4" name="Helgeland" >
+			</Feature>
+			<Feature id="6" name="Nord-Tr&#248;ndelag" >
+			</Feature>
+			<Feature id="7" name="St. Olavs" >
+			</Feature>
+			<Feature id="8" name="M&#248;re og Romsdal" >
+			</Feature>
+			<Feature id="10" name="F&#248;rde" >
+			</Feature>
+			<Feature id="11" name="Bergen" >
+			</Feature>
+			<Feature id="12" name="Fonna" >
+			</Feature>
+			<Feature id="13" name="Stavanger" >
+			</Feature>
+			<Feature id="14" name="&#216;stfold" >
+			</Feature>
+			<Feature id="15" name="Akershus" >
+			</Feature>
+			<Feature id="16" name="OUS" >
+			</Feature>
+			<Feature id="19" name="Innlandet" >
+			</Feature>
+			<Feature id="20" name="Vestre Viken" >
+			</Feature>
+			<Feature id="21" name="Vestfold" >
+			</Feature>
+			<Feature id="22" name="Telemark" >
+			</Feature>
+			<Feature id="23" name="S&#248;rlandet" >
+			</Feature>
+			<Feature id="30" name="Indre Oslo" >
+			</Feature>
+			<ComparisonFeature id="1" name="Norge">
+			</ComparisonFeature>
+		</FeatureList>
+		<FilterList>
+			<Filter id="filter4" name="Fylke" />
+		</FilterList>
+		<ThemeList>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t0" name="Spesialisthelsetjeneste">
+
+				<Indicator id="i0" name="Antall konsultasjoner" type="numeric" date="Antall
+konsultasjoner" href="">
+					<Value for="1">2323.2</Value>
+					<Value for="2">2725.0</Value>
+					<Value for="3">2787.7</Value>
+					<Value for="4">2890.6</Value>
+					<Value for="6">3185.7</Value>
+					<Value for="7">3251.6</Value>
+					<Value for="8">3011.5</Value>
+					<Value for="10">3027.9</Value>
+					<Value for="11">3156.3</Value>
+					<Value for="12">3189.0</Value>
+					<Value for="13">2972.5</Value>
+					<Value for="14">2981.8</Value>
+					<Value for="15">3061.4</Value>
+					<Value for="16">4018.3</Value>
+					<Value for="19">2621.1</Value>
+					<Value for="20">3281.0</Value>
+					<Value for="21">3437.2</Value>
+					<Value for="22">3103.0</Value>
+					<Value for="23">3510.8</Value>
+					<Value for="30">3765.8</Value>
+					<ComparisonValue for="1">3128.3</ComparisonValue>
+				</Indicator>
+				<Indicator id="i0" name="Antall konsultasjoner" type="numeric" date="antall" href="">
+					<Value for="1">11837</Value>
+					<Value for="2">37461</Value>
+					<Value for="3">30270</Value>
+					<Value for="4">19579</Value>
+					<Value for="6">35971</Value>
+					<Value for="7">66909</Value>
+					<Value for="8">62626</Value>
+					<Value for="10">28720</Value>
+					<Value for="11">92466</Value>
+					<Value for="12">42062</Value>
+					<Value for="13">56761</Value>
+					<Value for="14">65499</Value>
+					<Value for="15">88672</Value>
+					<Value for="16">59984</Value>
+					<Value for="19">92294</Value>
+					<Value for="20">113184</Value>
+					<Value for="21">61572</Value>
+					<Value for="22">43629</Value>
+					<Value for="23">71451</Value>
+					<Value for="30">46488</Value>
+					<ComparisonValue for="1">1127434</ComparisonValue>
+				</Indicator>
+				<Indicator id="i0" name="Antall konsultasjoner" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i0" name="Antall konsultasjoner" type="numeric" date="ll" href="">
+					<Value for="1">2298.9</Value>
+					<Value for="2">2709.1</Value>
+					<Value for="3">2769.5</Value>
+					<Value for="4">2867.2</Value>
+					<Value for="6">3166.7</Value>
+					<Value for="7">3237.4</Value>
+					<Value for="8">2997.9</Value>
+					<Value for="10">3007.6</Value>
+					<Value for="11">3144.6</Value>
+					<Value for="12">3171.4</Value>
+					<Value for="13">2958.4</Value>
+					<Value for="14">2968.6</Value>
+					<Value for="15">3049.7</Value>
+					<Value for="16">3999.6</Value>
+					<Value for="19">2611.3</Value>
+					<Value for="20">3269.9</Value>
+					<Value for="21">3421.5</Value>
+					<Value for="22">3086.1</Value>
+					<Value for="23">3495.9</Value>
+					<Value for="30">3745.9</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i0" name="Antall konsultasjoner" type="numeric" date="ul" href="">
+					<Value for="1">2347.5</Value>
+					<Value for="2">2741.0</Value>
+					<Value for="3">2805.9</Value>
+					<Value for="4">2914.0</Value>
+					<Value for="6">3204.7</Value>
+					<Value for="7">3265.8</Value>
+					<Value for="8">3025.2</Value>
+					<Value for="10">3048.1</Value>
+					<Value for="11">3168.1</Value>
+					<Value for="12">3206.6</Value>
+					<Value for="13">2986.6</Value>
+					<Value for="14">2995.0</Value>
+					<Value for="15">3073.0</Value>
+					<Value for="16">4037.0</Value>
+					<Value for="19">2630.9</Value>
+					<Value for="20">3292.0</Value>
+					<Value for="21">3452.9</Value>
+					<Value for="22">3119.8</Value>
+					<Value for="23">3525.7</Value>
+					<Value for="30">3785.7</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i1" name="Antall innleggelser" type="numeric" date="Antall
+innleggelser" href="">
+					<Value for="1">576.1</Value>
+					<Value for="2">496.1</Value>
+					<Value for="3">526.8</Value>
+					<Value for="4">508.0</Value>
+					<Value for="6">511.8</Value>
+					<Value for="7">478.3</Value>
+					<Value for="8">493.2</Value>
+					<Value for="10">519.5</Value>
+					<Value for="11">551.0</Value>
+					<Value for="12">566.9</Value>
+					<Value for="13">485.0</Value>
+					<Value for="14">432.8</Value>
+					<Value for="15">483.9</Value>
+					<Value for="16">507.7</Value>
+					<Value for="19">476.4</Value>
+					<Value for="20">482.6</Value>
+					<Value for="21">474.4</Value>
+					<Value for="22">508.5</Value>
+					<Value for="23">448.5</Value>
+					<Value for="30">520.1</Value>
+					<ComparisonValue for="1">495.2</ComparisonValue>
+				</Indicator>
+				<Indicator id="i1" name="Antall innleggelser" type="numeric" date="antall" href="">
+					<Value for="1">2874</Value>
+					<Value for="2">6725</Value>
+					<Value for="3">5661</Value>
+					<Value for="4">3406</Value>
+					<Value for="6">5748</Value>
+					<Value for="7">9820</Value>
+					<Value for="8">10396</Value>
+					<Value for="10">5004</Value>
+					<Value for="11">16175</Value>
+					<Value for="12">7496</Value>
+					<Value for="13">9209</Value>
+					<Value for="14">9355</Value>
+					<Value for="15">13567</Value>
+					<Value for="16">7804</Value>
+					<Value for="19">16761</Value>
+					<Value for="20">16626</Value>
+					<Value for="21">8433</Value>
+					<Value for="22">7178</Value>
+					<Value for="23">9062</Value>
+					<Value for="30">6627</Value>
+					<ComparisonValue for="1">177927</ComparisonValue>
+				</Indicator>
+				<Indicator id="i1" name="Antall innleggelser" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i1" name="Antall innleggelser" type="numeric" date="ll" href="">
+					<Value for="1">563.8</Value>
+					<Value for="2">489.3</Value>
+					<Value for="3">518.8</Value>
+					<Value for="4">498.2</Value>
+					<Value for="6">504.2</Value>
+					<Value for="7">472.8</Value>
+					<Value for="8">487.8</Value>
+					<Value for="10">511.2</Value>
+					<Value for="11">546.1</Value>
+					<Value for="12">559.4</Value>
+					<Value for="13">479.3</Value>
+					<Value for="14">427.7</Value>
+					<Value for="15">479.2</Value>
+					<Value for="16">501.2</Value>
+					<Value for="19">472.3</Value>
+					<Value for="20">478.3</Value>
+					<Value for="21">468.5</Value>
+					<Value for="22">501.7</Value>
+					<Value for="23">443.2</Value>
+					<Value for="30">512.8</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i1" name="Antall innleggelser" type="numeric" date="ul" href="">
+					<Value for="1">588.5</Value>
+					<Value for="2">503.0</Value>
+					<Value for="3">534.7</Value>
+					<Value for="4">517.9</Value>
+					<Value for="6">519.5</Value>
+					<Value for="7">483.8</Value>
+					<Value for="8">498.7</Value>
+					<Value for="10">527.8</Value>
+					<Value for="11">555.9</Value>
+					<Value for="12">574.3</Value>
+					<Value for="13">490.7</Value>
+					<Value for="14">437.8</Value>
+					<Value for="15">488.6</Value>
+					<Value for="16">514.3</Value>
+					<Value for="19">480.6</Value>
+					<Value for="20">486.8</Value>
+					<Value for="21">480.2</Value>
+					<Value for="22">515.3</Value>
+					<Value for="23">453.9</Value>
+					<Value for="30">527.4</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t1" name="Prim&#230;rhelsetjenesten">
+
+				<Indicator id="i2" name="Alle konsultasjoner" type="numeric" date="Alle
+konsultasjoner" href="">
+					<Value for="1">5047.3</Value>
+					<Value for="2">5883.6</Value>
+					<Value for="3">5755.6</Value>
+					<Value for="4">5173.5</Value>
+					<Value for="6">5739.3</Value>
+					<Value for="7">5529.2</Value>
+					<Value for="8">5792.0</Value>
+					<Value for="10">5507.4</Value>
+					<Value for="11">5507.8</Value>
+					<Value for="12">5689.5</Value>
+					<Value for="13">6226.5</Value>
+					<Value for="14">6080.2</Value>
+					<Value for="15">5922.1</Value>
+					<Value for="16">5587.4</Value>
+					<Value for="19">5678.9</Value>
+					<Value for="20">6181.1</Value>
+					<Value for="21">5945.4</Value>
+					<Value for="22">5132.4</Value>
+					<Value for="23">6221.3</Value>
+					<Value for="30">5105.3</Value>
+					<ComparisonValue for="1">5773.3</ComparisonValue>
+				</Indicator>
+				<Indicator id="i2" name="Alle konsultasjoner" type="numeric" date="antall" href="">
+					<Value for="1">25460</Value>
+					<Value for="2">80442</Value>
+					<Value for="3">62072</Value>
+					<Value for="4">34769</Value>
+					<Value for="6">64495</Value>
+					<Value for="7">113616</Value>
+					<Value for="8">121100</Value>
+					<Value for="10">52456</Value>
+					<Value for="11">161542</Value>
+					<Value for="12">75043</Value>
+					<Value for="13">118552</Value>
+					<Value for="14">132652</Value>
+					<Value for="15">169487</Value>
+					<Value for="16">84373</Value>
+					<Value for="19">199635</Value>
+					<Value for="20">212979</Value>
+					<Value for="21">106092</Value>
+					<Value for="22">72302</Value>
+					<Value for="23">125972</Value>
+					<Value for="30">63685</Value>
+					<ComparisonValue for="1">2076724</ComparisonValue>
+				</Indicator>
+				<Indicator id="i2" name="Alle konsultasjoner" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i2" name="Alle konsultasjoner" type="numeric" date="ll" href="">
+					<Value for="1">5011.2</Value>
+					<Value for="2">5860.1</Value>
+					<Value for="3">5729.4</Value>
+					<Value for="4">5142.0</Value>
+					<Value for="6">5713.7</Value>
+					<Value for="7">5510.6</Value>
+					<Value for="8">5773.2</Value>
+					<Value for="10">5480.1</Value>
+					<Value for="11">5492.2</Value>
+					<Value for="12">5666.0</Value>
+					<Value for="13">6206.0</Value>
+					<Value for="14">6061.3</Value>
+					<Value for="15">5905.8</Value>
+					<Value for="16">5565.5</Value>
+					<Value for="19">5664.6</Value>
+					<Value for="20">6166.0</Value>
+					<Value for="21">5924.7</Value>
+					<Value for="22">5110.8</Value>
+					<Value for="23">6201.5</Value>
+					<Value for="30">5082.2</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i2" name="Alle konsultasjoner" type="numeric" date="ul" href="">
+					<Value for="1">5083.4</Value>
+					<Value for="2">5907.1</Value>
+					<Value for="3">5781.8</Value>
+					<Value for="4">5204.9</Value>
+					<Value for="6">5764.9</Value>
+					<Value for="7">5547.8</Value>
+					<Value for="8">5810.9</Value>
+					<Value for="10">5534.6</Value>
+					<Value for="11">5523.3</Value>
+					<Value for="12">5713.0</Value>
+					<Value for="13">6247.0</Value>
+					<Value for="14">6099.1</Value>
+					<Value for="15">5938.5</Value>
+					<Value for="16">5609.3</Value>
+					<Value for="19">5693.3</Value>
+					<Value for="20">6196.3</Value>
+					<Value for="21">5966.1</Value>
+					<Value for="22">5154.0</Value>
+					<Value for="23">6241.2</Value>
+					<Value for="30">5128.3</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t2" name="Hjerte">
+
+				<Indicator id="i3" name="Pacemaker, hjertesvikt" type="numeric" date="Pacemaker,
+hjertesvikt" href="">
+					<Value for="1">0.3</Value>
+					<Value for="2">0.1</Value>
+					<Value for="3">0.3</Value>
+					<Value for="4">0.5</Value>
+					<Value for="6">0.2</Value>
+					<Value for="7">0.2</Value>
+					<Value for="8">0.2</Value>
+					<Value for="10">0.5</Value>
+					<Value for="11">1.1</Value>
+					<Value for="12">0.6</Value>
+					<Value for="13">0.1</Value>
+					<Value for="14">0.2</Value>
+					<Value for="15">0.1</Value>
+					<Value for="16">0.0</Value>
+					<Value for="19">0.0</Value>
+					<Value for="20">0.1</Value>
+					<Value for="21">0.0</Value>
+					<Value for="22">0.1</Value>
+					<Value for="23">0.3</Value>
+					<Value for="30">0.1</Value>
+					<ComparisonValue for="1">0.2</ComparisonValue>
+				</Indicator>
+				<Indicator id="i3" name="Pacemaker, hjertesvikt" type="numeric" date="antall" href="">
+					<Value for="1">1</Value>
+					<Value for="2">1</Value>
+					<Value for="3">3</Value>
+					<Value for="4">4</Value>
+					<Value for="6">2</Value>
+					<Value for="7">5</Value>
+					<Value for="8">5</Value>
+					<Value for="10">5</Value>
+					<Value for="11">31</Value>
+					<Value for="12">8</Value>
+					<Value for="13">2</Value>
+					<Value for="14">4</Value>
+					<Value for="15">4</Value>
+					<Value for="16">0</Value>
+					<Value for="19">0</Value>
+					<Value for="20">3</Value>
+					<Value for="21">1</Value>
+					<Value for="22">2</Value>
+					<Value for="23">7</Value>
+					<Value for="30">1</Value>
+					<ComparisonValue for="1">88</ComparisonValue>
+				</Indicator>
+				<Indicator id="i3" name="Pacemaker, hjertesvikt" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i3" name="Pacemaker, hjertesvikt" type="numeric" date="ll" href="">
+					<Value for="1">0.0</Value>
+					<Value for="2">0.0</Value>
+					<Value for="3">0.1</Value>
+					<Value for="4">0.2</Value>
+					<Value for="6">0.0</Value>
+					<Value for="7">0.1</Value>
+					<Value for="8">0.1</Value>
+					<Value for="10">0.3</Value>
+					<Value for="11">0.8</Value>
+					<Value for="12">0.4</Value>
+					<Value for="13">0.0</Value>
+					<Value for="14">0.1</Value>
+					<Value for="15">0.1</Value>
+					<Value for="16">0.0</Value>
+					<Value for="19">0.0</Value>
+					<Value for="20">0.0</Value>
+					<Value for="21">0.0</Value>
+					<Value for="22">0.0</Value>
+					<Value for="23">0.2</Value>
+					<Value for="30">0.0</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i3" name="Pacemaker, hjertesvikt" type="numeric" date="ul" href="">
+					<Value for="1">0.5</Value>
+					<Value for="2">0.2</Value>
+					<Value for="3">0.4</Value>
+					<Value for="4">0.9</Value>
+					<Value for="6">0.3</Value>
+					<Value for="7">0.3</Value>
+					<Value for="8">0.3</Value>
+					<Value for="10">0.8</Value>
+					<Value for="11">1.3</Value>
+					<Value for="12">0.8</Value>
+					<Value for="13">0.2</Value>
+					<Value for="14">0.3</Value>
+					<Value for="15">0.2</Value>
+					<Value for="16">0.0</Value>
+					<Value for="19">0.0</Value>
+					<Value for="20">0.2</Value>
+					<Value for="21">0.1</Value>
+					<Value for="22">0.2</Value>
+					<Value for="23">0.5</Value>
+					<Value for="30">0.2</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i4" name="Pacemaker, arrytmi" type="numeric" date="Pacemaker,
+arrytmi" href="">
+					<Value for="1">3.5</Value>
+					<Value for="2">3.6</Value>
+					<Value for="3">5.8</Value>
+					<Value for="4">6.8</Value>
+					<Value for="6">4.7</Value>
+					<Value for="7">4.0</Value>
+					<Value for="8">4.4</Value>
+					<Value for="10">4.1</Value>
+					<Value for="11">6.0</Value>
+					<Value for="12">6.5</Value>
+					<Value for="13">2.8</Value>
+					<Value for="14">4.7</Value>
+					<Value for="15">6.1</Value>
+					<Value for="16">6.6</Value>
+					<Value for="19">4.0</Value>
+					<Value for="20">6.0</Value>
+					<Value for="21">5.0</Value>
+					<Value for="22">5.7</Value>
+					<Value for="23">3.0</Value>
+					<Value for="30">4.7</Value>
+					<ComparisonValue for="1">4.9</ComparisonValue>
+				</Indicator>
+				<Indicator id="i4" name="Pacemaker, arrytmi" type="numeric" date="antall" href="">
+					<Value for="1">17</Value>
+					<Value for="2">48</Value>
+					<Value for="3">62</Value>
+					<Value for="4">45</Value>
+					<Value for="6">52</Value>
+					<Value for="7">83</Value>
+					<Value for="8">94</Value>
+					<Value for="10">39</Value>
+					<Value for="11">175</Value>
+					<Value for="12">87</Value>
+					<Value for="13">52</Value>
+					<Value for="14">102</Value>
+					<Value for="15">170</Value>
+					<Value for="16">101</Value>
+					<Value for="19">140</Value>
+					<Value for="20">207</Value>
+					<Value for="21">89</Value>
+					<Value for="22">81</Value>
+					<Value for="23">60</Value>
+					<Value for="30">60</Value>
+					<ComparisonValue for="1">1765</ComparisonValue>
+				</Indicator>
+				<Indicator id="i4" name="Pacemaker, arrytmi" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i4" name="Pacemaker, arrytmi" type="numeric" date="ll" href="">
+					<Value for="1">2.5</Value>
+					<Value for="2">3.0</Value>
+					<Value for="3">4.9</Value>
+					<Value for="4">5.6</Value>
+					<Value for="6">3.9</Value>
+					<Value for="7">3.5</Value>
+					<Value for="8">3.9</Value>
+					<Value for="10">3.4</Value>
+					<Value for="11">5.4</Value>
+					<Value for="12">5.7</Value>
+					<Value for="13">2.3</Value>
+					<Value for="14">4.2</Value>
+					<Value for="15">5.6</Value>
+					<Value for="16">5.9</Value>
+					<Value for="19">3.6</Value>
+					<Value for="20">5.5</Value>
+					<Value for="21">4.4</Value>
+					<Value for="22">5.0</Value>
+					<Value for="23">2.5</Value>
+					<Value for="30">4.0</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i4" name="Pacemaker, arrytmi" type="numeric" date="ul" href="">
+					<Value for="1">4.4</Value>
+					<Value for="2">4.2</Value>
+					<Value for="3">6.6</Value>
+					<Value for="4">7.9</Value>
+					<Value for="6">5.4</Value>
+					<Value for="7">4.5</Value>
+					<Value for="8">4.9</Value>
+					<Value for="10">4.8</Value>
+					<Value for="11">6.5</Value>
+					<Value for="12">7.3</Value>
+					<Value for="13">3.2</Value>
+					<Value for="14">5.3</Value>
+					<Value for="15">6.7</Value>
+					<Value for="16">7.4</Value>
+					<Value for="19">4.3</Value>
+					<Value for="20">6.4</Value>
+					<Value for="21">5.6</Value>
+					<Value for="22">6.4</Value>
+					<Value for="23">3.4</Value>
+					<Value for="30">5.4</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i5" name="Pacemaker, totalt" type="numeric" date="Pacemaker,
+totalt" href="">
+					<Value for="1">3.7</Value>
+					<Value for="2">3.7</Value>
+					<Value for="3">6.0</Value>
+					<Value for="4">7.3</Value>
+					<Value for="6">4.8</Value>
+					<Value for="7">4.2</Value>
+					<Value for="8">4.7</Value>
+					<Value for="10">4.6</Value>
+					<Value for="11">7.0</Value>
+					<Value for="12">7.1</Value>
+					<Value for="13">2.9</Value>
+					<Value for="14">4.9</Value>
+					<Value for="15">6.3</Value>
+					<Value for="16">6.6</Value>
+					<Value for="19">4.0</Value>
+					<Value for="20">6.1</Value>
+					<Value for="21">5.0</Value>
+					<Value for="22">5.8</Value>
+					<Value for="23">3.3</Value>
+					<Value for="30">4.8</Value>
+					<ComparisonValue for="1">5.1</ComparisonValue>
+				</Indicator>
+				<Indicator id="i5" name="Pacemaker, totalt" type="numeric" date="antall" href="">
+					<Value for="1">18</Value>
+					<Value for="2">49</Value>
+					<Value for="3">64</Value>
+					<Value for="4">49</Value>
+					<Value for="6">54</Value>
+					<Value for="7">87</Value>
+					<Value for="8">99</Value>
+					<Value for="10">44</Value>
+					<Value for="11">206</Value>
+					<Value for="12">95</Value>
+					<Value for="13">55</Value>
+					<Value for="14">106</Value>
+					<Value for="15">175</Value>
+					<Value for="16">101</Value>
+					<Value for="19">140</Value>
+					<Value for="20">210</Value>
+					<Value for="21">90</Value>
+					<Value for="22">83</Value>
+					<Value for="23">66</Value>
+					<Value for="30">61</Value>
+					<ComparisonValue for="1">1852</ComparisonValue>
+				</Indicator>
+				<Indicator id="i5" name="Pacemaker, totalt" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i5" name="Pacemaker, totalt" type="numeric" date="ll" href="">
+					<Value for="1">2.7</Value>
+					<Value for="2">3.1</Value>
+					<Value for="3">5.2</Value>
+					<Value for="4">6.1</Value>
+					<Value for="6">4.1</Value>
+					<Value for="7">3.7</Value>
+					<Value for="8">4.1</Value>
+					<Value for="10">3.8</Value>
+					<Value for="11">6.4</Value>
+					<Value for="12">6.3</Value>
+					<Value for="13">2.4</Value>
+					<Value for="14">4.4</Value>
+					<Value for="15">5.7</Value>
+					<Value for="16">5.9</Value>
+					<Value for="19">3.6</Value>
+					<Value for="20">5.6</Value>
+					<Value for="21">4.4</Value>
+					<Value for="22">5.1</Value>
+					<Value for="23">2.8</Value>
+					<Value for="30">4.1</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i5" name="Pacemaker, totalt" type="numeric" date="ul" href="">
+					<Value for="1">4.7</Value>
+					<Value for="2">4.3</Value>
+					<Value for="3">6.9</Value>
+					<Value for="4">8.5</Value>
+					<Value for="6">5.6</Value>
+					<Value for="7">4.8</Value>
+					<Value for="8">5.2</Value>
+					<Value for="10">5.4</Value>
+					<Value for="11">7.6</Value>
+					<Value for="12">8.0</Value>
+					<Value for="13">3.3</Value>
+					<Value for="14">5.4</Value>
+					<Value for="15">6.8</Value>
+					<Value for="16">7.4</Value>
+					<Value for="19">4.3</Value>
+					<Value for="20">6.5</Value>
+					<Value for="21">5.7</Value>
+					<Value for="22">6.6</Value>
+					<Value for="23">3.7</Value>
+					<Value for="30">5.5</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i6" name="Revaskulariseringsprosedyrer" type="numeric" date="Revaskulariseringsprosedyrer" href="">
+					<Value for="1">13.8</Value>
+					<Value for="2">10.7</Value>
+					<Value for="3">9.5</Value>
+					<Value for="4">10.3</Value>
+					<Value for="6">7.1</Value>
+					<Value for="7">8.6</Value>
+					<Value for="8">6.6</Value>
+					<Value for="10">7.9</Value>
+					<Value for="11">9.8</Value>
+					<Value for="12">10.1</Value>
+					<Value for="13">9.9</Value>
+					<Value for="14">9.9</Value>
+					<Value for="15">9.5</Value>
+					<Value for="16">7.7</Value>
+					<Value for="19">9.2</Value>
+					<Value for="20">9.4</Value>
+					<Value for="21">8.5</Value>
+					<Value for="22">12.4</Value>
+					<Value for="23">12.2</Value>
+					<Value for="30">6.8</Value>
+					<ComparisonValue for="1">9.4</ComparisonValue>
+				</Indicator>
+				<Indicator id="i6" name="Revaskulariseringsprosedyrer" type="numeric" date="antall" href="">
+					<Value for="1">72</Value>
+					<Value for="2">149</Value>
+					<Value for="3">104</Value>
+					<Value for="4">72</Value>
+					<Value for="6">82</Value>
+					<Value for="7">179</Value>
+					<Value for="8">135</Value>
+					<Value for="10">75</Value>
+					<Value for="11">287</Value>
+					<Value for="12">134</Value>
+					<Value for="13">191</Value>
+					<Value for="14">218</Value>
+					<Value for="15">281</Value>
+					<Value for="16">112</Value>
+					<Value for="19">328</Value>
+					<Value for="20">325</Value>
+					<Value for="21">153</Value>
+					<Value for="22">174</Value>
+					<Value for="23">249</Value>
+					<Value for="30">82</Value>
+					<ComparisonValue for="1">3403</ComparisonValue>
+				</Indicator>
+				<Indicator id="i6" name="Revaskulariseringsprosedyrer" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i6" name="Revaskulariseringsprosedyrer" type="numeric" date="ll" href="">
+					<Value for="1">11.9</Value>
+					<Value for="2">9.7</Value>
+					<Value for="3">8.4</Value>
+					<Value for="4">8.9</Value>
+					<Value for="6">6.2</Value>
+					<Value for="7">7.9</Value>
+					<Value for="8">5.9</Value>
+					<Value for="10">6.8</Value>
+					<Value for="11">9.2</Value>
+					<Value for="12">9.1</Value>
+					<Value for="13">9.1</Value>
+					<Value for="14">9.1</Value>
+					<Value for="15">8.9</Value>
+					<Value for="16">6.9</Value>
+					<Value for="19">8.7</Value>
+					<Value for="20">8.8</Value>
+					<Value for="21">7.7</Value>
+					<Value for="22">11.4</Value>
+					<Value for="23">11.3</Value>
+					<Value for="30">6.0</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i6" name="Revaskulariseringsprosedyrer" type="numeric" date="ul" href="">
+					<Value for="1">15.6</Value>
+					<Value for="2">11.7</Value>
+					<Value for="3">10.5</Value>
+					<Value for="4">11.7</Value>
+					<Value for="6">8.0</Value>
+					<Value for="7">9.4</Value>
+					<Value for="8">7.2</Value>
+					<Value for="10">8.9</Value>
+					<Value for="11">10.5</Value>
+					<Value for="12">11.1</Value>
+					<Value for="13">10.8</Value>
+					<Value for="14">10.6</Value>
+					<Value for="15">10.2</Value>
+					<Value for="16">8.5</Value>
+					<Value for="19">9.8</Value>
+					<Value for="20">10.0</Value>
+					<Value for="21">9.3</Value>
+					<Value for="22">13.5</Value>
+					<Value for="23">13.0</Value>
+					<Value for="30">7.7</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t3" name="Lunge">
+
+				<Indicator id="i7" name="Akuttinnleggelser for kols" type="numeric" date="Akuttinnleggelser
+for kols" href="">
+					<Value for="1">22.1</Value>
+					<Value for="2">24.6</Value>
+					<Value for="3">25.0</Value>
+					<Value for="4">19.0</Value>
+					<Value for="6">25.1</Value>
+					<Value for="7">23.6</Value>
+					<Value for="8">20.0</Value>
+					<Value for="10">17.3</Value>
+					<Value for="11">24.9</Value>
+					<Value for="12">27.4</Value>
+					<Value for="13">24.2</Value>
+					<Value for="14">19.5</Value>
+					<Value for="15">23.3</Value>
+					<Value for="16">27.6</Value>
+					<Value for="19">21.3</Value>
+					<Value for="20">21.3</Value>
+					<Value for="21">25.9</Value>
+					<Value for="22">21.6</Value>
+					<Value for="23">19.6</Value>
+					<Value for="30">20.4</Value>
+					<ComparisonValue for="1">22.7</ComparisonValue>
+				</Indicator>
+				<Indicator id="i7" name="Akuttinnleggelser for kols" type="numeric" date="antall" href="">
+					<Value for="1">113</Value>
+					<Value for="2">333</Value>
+					<Value for="3">269</Value>
+					<Value for="4">129</Value>
+					<Value for="6">285</Value>
+					<Value for="7">486</Value>
+					<Value for="8">418</Value>
+					<Value for="10">165</Value>
+					<Value for="11">729</Value>
+					<Value for="12">361</Value>
+					<Value for="13">462</Value>
+					<Value for="14">428</Value>
+					<Value for="15">667</Value>
+					<Value for="16">414</Value>
+					<Value for="19">754</Value>
+					<Value for="20">733</Value>
+					<Value for="21">463</Value>
+					<Value for="22">303</Value>
+					<Value for="23">398</Value>
+					<Value for="30">254</Value>
+					<ComparisonValue for="1">8164</ComparisonValue>
+				</Indicator>
+				<Indicator id="i7" name="Akuttinnleggelser for kols" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i7" name="Akuttinnleggelser for kols" type="numeric" date="ll" href="">
+					<Value for="1">19.7</Value>
+					<Value for="2">23.0</Value>
+					<Value for="3">23.3</Value>
+					<Value for="4">17.1</Value>
+					<Value for="6">23.4</Value>
+					<Value for="7">22.4</Value>
+					<Value for="8">18.9</Value>
+					<Value for="10">15.7</Value>
+					<Value for="11">23.9</Value>
+					<Value for="12">25.7</Value>
+					<Value for="13">22.9</Value>
+					<Value for="14">18.5</Value>
+					<Value for="15">22.3</Value>
+					<Value for="16">26.1</Value>
+					<Value for="19">20.4</Value>
+					<Value for="20">20.4</Value>
+					<Value for="21">24.6</Value>
+					<Value for="22">20.2</Value>
+					<Value for="23">18.5</Value>
+					<Value for="30">19.0</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i7" name="Akuttinnleggelser for kols" type="numeric" date="ul" href="">
+					<Value for="1">24.5</Value>
+					<Value for="2">26.1</Value>
+					<Value for="3">26.7</Value>
+					<Value for="4">20.9</Value>
+					<Value for="6">26.8</Value>
+					<Value for="7">24.9</Value>
+					<Value for="8">21.1</Value>
+					<Value for="10">18.8</Value>
+					<Value for="11">26.0</Value>
+					<Value for="12">29.0</Value>
+					<Value for="13">25.5</Value>
+					<Value for="14">20.6</Value>
+					<Value for="15">24.4</Value>
+					<Value for="16">29.1</Value>
+					<Value for="19">22.2</Value>
+					<Value for="20">22.2</Value>
+					<Value for="21">27.3</Value>
+					<Value for="22">23.0</Value>
+					<Value for="23">20.7</Value>
+					<Value for="30">21.9</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i8" name="Akutte innleggelser for lungebetennelse" type="numeric" date="Akutte
+innleggelser
+for
+lungebetennelse" href="">
+					<Value for="1">28.3</Value>
+					<Value for="2">26.3</Value>
+					<Value for="3">36.7</Value>
+					<Value for="4">35.8</Value>
+					<Value for="6">34.4</Value>
+					<Value for="7">30.6</Value>
+					<Value for="8">35.7</Value>
+					<Value for="10">29.7</Value>
+					<Value for="11">37.4</Value>
+					<Value for="12">42.9</Value>
+					<Value for="13">45.9</Value>
+					<Value for="14">30.0</Value>
+					<Value for="15">36.8</Value>
+					<Value for="16">36.7</Value>
+					<Value for="19">35.3</Value>
+					<Value for="20">28.1</Value>
+					<Value for="21">35.0</Value>
+					<Value for="22">31.3</Value>
+					<Value for="23">31.9</Value>
+					<Value for="30">41.8</Value>
+					<ComparisonValue for="1">34.6</ComparisonValue>
+				</Indicator>
+				<Indicator id="i8" name="Akutte innleggelser for lungebetennelse" type="numeric" date="antall" href="">
+					<Value for="1">138</Value>
+					<Value for="2">354</Value>
+					<Value for="3">392</Value>
+					<Value for="4">239</Value>
+					<Value for="6">388</Value>
+					<Value for="7">627</Value>
+					<Value for="8">763</Value>
+					<Value for="10">293</Value>
+					<Value for="11">1103</Value>
+					<Value for="12">569</Value>
+					<Value for="13">872</Value>
+					<Value for="14">645</Value>
+					<Value for="15">1022</Value>
+					<Value for="16">572</Value>
+					<Value for="19">1246</Value>
+					<Value for="20">975</Value>
+					<Value for="21">623</Value>
+					<Value for="22">445</Value>
+					<Value for="23">643</Value>
+					<Value for="30">539</Value>
+					<ComparisonValue for="1">12446</ComparisonValue>
+				</Indicator>
+				<Indicator id="i8" name="Akutte innleggelser for lungebetennelse" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i8" name="Akutte innleggelser for lungebetennelse" type="numeric" date="ll" href="">
+					<Value for="1">25.6</Value>
+					<Value for="2">24.7</Value>
+					<Value for="3">34.6</Value>
+					<Value for="4">33.2</Value>
+					<Value for="6">32.4</Value>
+					<Value for="7">29.2</Value>
+					<Value for="8">34.3</Value>
+					<Value for="10">27.7</Value>
+					<Value for="11">36.1</Value>
+					<Value for="12">40.9</Value>
+					<Value for="13">44.2</Value>
+					<Value for="14">28.6</Value>
+					<Value for="15">35.5</Value>
+					<Value for="16">35.0</Value>
+					<Value for="19">34.1</Value>
+					<Value for="20">27.1</Value>
+					<Value for="21">33.4</Value>
+					<Value for="22">29.7</Value>
+					<Value for="23">30.5</Value>
+					<Value for="30">39.7</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i8" name="Akutte innleggelser for lungebetennelse" type="numeric" date="ul" href="">
+					<Value for="1">31.1</Value>
+					<Value for="2">27.9</Value>
+					<Value for="3">38.8</Value>
+					<Value for="4">38.4</Value>
+					<Value for="6">36.3</Value>
+					<Value for="7">31.9</Value>
+					<Value for="8">37.2</Value>
+					<Value for="10">31.6</Value>
+					<Value for="11">38.7</Value>
+					<Value for="12">44.9</Value>
+					<Value for="13">47.7</Value>
+					<Value for="14">31.3</Value>
+					<Value for="15">38.1</Value>
+					<Value for="16">38.5</Value>
+					<Value for="19">36.4</Value>
+					<Value for="20">29.1</Value>
+					<Value for="21">36.6</Value>
+					<Value for="22">33.0</Value>
+					<Value for="23">33.4</Value>
+					<Value for="30">43.8</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t4" name="Ortopedi">
+
+				<Indicator id="i9" name="Prim&#230;re hofteproteser" type="numeric" date="Prim&#230;re
+hofteproteser" href="">
+					<Value for="1">4.7</Value>
+					<Value for="2">4.3</Value>
+					<Value for="3">5.7</Value>
+					<Value for="4">6.9</Value>
+					<Value for="6">6.8</Value>
+					<Value for="7">7.1</Value>
+					<Value for="8">6.9</Value>
+					<Value for="10">6.8</Value>
+					<Value for="11">5.9</Value>
+					<Value for="12">6.8</Value>
+					<Value for="13">7.4</Value>
+					<Value for="14">6.9</Value>
+					<Value for="15">6.3</Value>
+					<Value for="16">6.2</Value>
+					<Value for="19">6.3</Value>
+					<Value for="20">7.0</Value>
+					<Value for="21">5.8</Value>
+					<Value for="22">6.3</Value>
+					<Value for="23">7.1</Value>
+					<Value for="30">6.1</Value>
+					<ComparisonValue for="1">6.5</ComparisonValue>
+				</Indicator>
+				<Indicator id="i9" name="Prim&#230;re hofteproteser" type="numeric" date="antall" href="">
+					<Value for="1">24</Value>
+					<Value for="2">60</Value>
+					<Value for="3">62</Value>
+					<Value for="4">47</Value>
+					<Value for="6">76</Value>
+					<Value for="7">146</Value>
+					<Value for="8">142</Value>
+					<Value for="10">63</Value>
+					<Value for="11">172</Value>
+					<Value for="12">89</Value>
+					<Value for="13">140</Value>
+					<Value for="14">151</Value>
+					<Value for="15">184</Value>
+					<Value for="16">93</Value>
+					<Value for="19">221</Value>
+					<Value for="20">241</Value>
+					<Value for="21">105</Value>
+					<Value for="22">89</Value>
+					<Value for="23">145</Value>
+					<Value for="30">76</Value>
+					<ComparisonValue for="1">2327</ComparisonValue>
+				</Indicator>
+				<Indicator id="i9" name="Prim&#230;re hofteproteser" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i9" name="Prim&#230;re hofteproteser" type="numeric" date="ll" href="">
+					<Value for="1">3.6</Value>
+					<Value for="2">3.7</Value>
+					<Value for="3">4.9</Value>
+					<Value for="4">5.8</Value>
+					<Value for="6">5.9</Value>
+					<Value for="7">6.4</Value>
+					<Value for="8">6.3</Value>
+					<Value for="10">5.8</Value>
+					<Value for="11">5.4</Value>
+					<Value for="12">6.0</Value>
+					<Value for="13">6.7</Value>
+					<Value for="14">6.2</Value>
+					<Value for="15">5.8</Value>
+					<Value for="16">5.5</Value>
+					<Value for="19">5.8</Value>
+					<Value for="20">6.5</Value>
+					<Value for="21">5.2</Value>
+					<Value for="22">5.6</Value>
+					<Value for="23">6.4</Value>
+					<Value for="30">5.3</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i9" name="Prim&#230;re hofteproteser" type="numeric" date="ul" href="">
+					<Value for="1">5.8</Value>
+					<Value for="2">5.0</Value>
+					<Value for="3">6.5</Value>
+					<Value for="4">8.1</Value>
+					<Value for="6">7.7</Value>
+					<Value for="7">7.8</Value>
+					<Value for="8">7.6</Value>
+					<Value for="10">7.8</Value>
+					<Value for="11">6.4</Value>
+					<Value for="12">7.6</Value>
+					<Value for="13">8.1</Value>
+					<Value for="14">7.5</Value>
+					<Value for="15">6.8</Value>
+					<Value for="16">7.0</Value>
+					<Value for="19">6.8</Value>
+					<Value for="20">7.5</Value>
+					<Value for="21">6.5</Value>
+					<Value for="22">7.1</Value>
+					<Value for="23">7.8</Value>
+					<Value for="30">6.9</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i10" name="Prim&#230;re kneproteser" type="numeric" date="Prim&#230;re
+kneproteser" href="">
+					<Value for="1">3.1</Value>
+					<Value for="2">3.7</Value>
+					<Value for="3">3.4</Value>
+					<Value for="4">3.8</Value>
+					<Value for="6">5.3</Value>
+					<Value for="7">3.9</Value>
+					<Value for="8">4.2</Value>
+					<Value for="10">5.0</Value>
+					<Value for="11">4.0</Value>
+					<Value for="12">4.0</Value>
+					<Value for="13">3.6</Value>
+					<Value for="14">4.2</Value>
+					<Value for="15">4.1</Value>
+					<Value for="16">3.8</Value>
+					<Value for="19">4.2</Value>
+					<Value for="20">4.3</Value>
+					<Value for="21">4.2</Value>
+					<Value for="22">3.4</Value>
+					<Value for="23">4.8</Value>
+					<Value for="30">4.1</Value>
+					<ComparisonValue for="1">4.1</ComparisonValue>
+				</Indicator>
+				<Indicator id="i10" name="Prim&#230;re kneproteser" type="numeric" date="antall" href="">
+					<Value for="1">16</Value>
+					<Value for="2">51</Value>
+					<Value for="3">38</Value>
+					<Value for="4">26</Value>
+					<Value for="6">60</Value>
+					<Value for="7">79</Value>
+					<Value for="8">87</Value>
+					<Value for="10">46</Value>
+					<Value for="11">118</Value>
+					<Value for="12">52</Value>
+					<Value for="13">70</Value>
+					<Value for="14">93</Value>
+					<Value for="15">122</Value>
+					<Value for="16">56</Value>
+					<Value for="19">146</Value>
+					<Value for="20">150</Value>
+					<Value for="21">76</Value>
+					<Value for="22">47</Value>
+					<Value for="23">98</Value>
+					<Value for="30">50</Value>
+					<ComparisonValue for="1">1481</ComparisonValue>
+				</Indicator>
+				<Indicator id="i10" name="Prim&#230;re kneproteser" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i10" name="Prim&#230;re kneproteser" type="numeric" date="ll" href="">
+					<Value for="1">2.2</Value>
+					<Value for="2">3.1</Value>
+					<Value for="3">2.8</Value>
+					<Value for="4">3.0</Value>
+					<Value for="6">4.6</Value>
+					<Value for="7">3.4</Value>
+					<Value for="8">3.7</Value>
+					<Value for="10">4.1</Value>
+					<Value for="11">3.6</Value>
+					<Value for="12">3.3</Value>
+					<Value for="13">3.2</Value>
+					<Value for="14">3.7</Value>
+					<Value for="15">3.7</Value>
+					<Value for="16">3.2</Value>
+					<Value for="19">3.8</Value>
+					<Value for="20">3.9</Value>
+					<Value for="21">3.6</Value>
+					<Value for="22">2.8</Value>
+					<Value for="23">4.2</Value>
+					<Value for="30">3.4</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i10" name="Prim&#230;re kneproteser" type="numeric" date="ul" href="">
+					<Value for="1">4.0</Value>
+					<Value for="2">4.2</Value>
+					<Value for="3">4.1</Value>
+					<Value for="4">4.7</Value>
+					<Value for="6">6.1</Value>
+					<Value for="7">4.3</Value>
+					<Value for="8">4.8</Value>
+					<Value for="10">5.8</Value>
+					<Value for="11">4.4</Value>
+					<Value for="12">4.6</Value>
+					<Value for="13">4.1</Value>
+					<Value for="14">4.7</Value>
+					<Value for="15">4.5</Value>
+					<Value for="16">4.4</Value>
+					<Value for="19">4.5</Value>
+					<Value for="20">4.8</Value>
+					<Value for="21">4.7</Value>
+					<Value for="22">3.9</Value>
+					<Value for="23">5.3</Value>
+					<Value for="30">4.7</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t5" name="Nerve">
+
+				<Indicator id="i11" name="Demens, poli" type="numeric" date="Demens,
+poli" href="">
+					<Value for="1">2.7</Value>
+					<Value for="2">22.3</Value>
+					<Value for="3">1.9</Value>
+					<Value for="4">1.6</Value>
+					<Value for="6">7.6</Value>
+					<Value for="7">14.1</Value>
+					<Value for="8">15.2</Value>
+					<Value for="10">6.2</Value>
+					<Value for="11">16.5</Value>
+					<Value for="12">11.9</Value>
+					<Value for="13">12.0</Value>
+					<Value for="14">8.8</Value>
+					<Value for="15">6.0</Value>
+					<Value for="16">35.1</Value>
+					<Value for="19">12.0</Value>
+					<Value for="20">8.3</Value>
+					<Value for="21">20.2</Value>
+					<Value for="22">3.5</Value>
+					<Value for="23">9.0</Value>
+					<Value for="30">38.3</Value>
+					<ComparisonValue for="1">13.0</ComparisonValue>
+				</Indicator>
+				<Indicator id="i11" name="Demens, poli" type="numeric" date="antall" href="">
+					<Value for="1">14</Value>
+					<Value for="2">302</Value>
+					<Value for="3">21</Value>
+					<Value for="4">11</Value>
+					<Value for="6">86</Value>
+					<Value for="7">289</Value>
+					<Value for="8">317</Value>
+					<Value for="10">59</Value>
+					<Value for="11">485</Value>
+					<Value for="12">156</Value>
+					<Value for="13">228</Value>
+					<Value for="14">191</Value>
+					<Value for="15">176</Value>
+					<Value for="16">540</Value>
+					<Value for="19">422</Value>
+					<Value for="20">285</Value>
+					<Value for="21">357</Value>
+					<Value for="22">49</Value>
+					<Value for="23">183</Value>
+					<Value for="30">481</Value>
+					<ComparisonValue for="1">4652</ComparisonValue>
+				</Indicator>
+				<Indicator id="i11" name="Demens, poli" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i11" name="Demens, poli" type="numeric" date="ll" href="">
+					<Value for="1">1.8</Value>
+					<Value for="2">20.8</Value>
+					<Value for="3">1.4</Value>
+					<Value for="4">1.1</Value>
+					<Value for="6">6.7</Value>
+					<Value for="7">13.2</Value>
+					<Value for="8">14.2</Value>
+					<Value for="10">5.3</Value>
+					<Value for="11">15.7</Value>
+					<Value for="12">10.8</Value>
+					<Value for="13">11.1</Value>
+					<Value for="14">8.1</Value>
+					<Value for="15">5.5</Value>
+					<Value for="16">33.4</Value>
+					<Value for="19">11.3</Value>
+					<Value for="20">7.7</Value>
+					<Value for="21">19.0</Value>
+					<Value for="22">3.0</Value>
+					<Value for="23">8.3</Value>
+					<Value for="30">36.3</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i11" name="Demens, poli" type="numeric" date="ul" href="">
+					<Value for="1">3.5</Value>
+					<Value for="2">23.8</Value>
+					<Value for="3">2.3</Value>
+					<Value for="4">2.1</Value>
+					<Value for="6">8.6</Value>
+					<Value for="7">15.0</Value>
+					<Value for="8">16.1</Value>
+					<Value for="10">7.2</Value>
+					<Value for="11">17.4</Value>
+					<Value for="12">13.0</Value>
+					<Value for="13">12.9</Value>
+					<Value for="14">9.5</Value>
+					<Value for="15">6.6</Value>
+					<Value for="16">36.8</Value>
+					<Value for="19">12.7</Value>
+					<Value for="20">8.8</Value>
+					<Value for="21">21.4</Value>
+					<Value for="22">4.1</Value>
+					<Value for="23">9.8</Value>
+					<Value for="30">40.3</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i12" name="Parkinson, poli" type="numeric" date="Parkinson,
+poli" href="">
+					<Value for="1">9.3</Value>
+					<Value for="2">19.2</Value>
+					<Value for="3">12.0</Value>
+					<Value for="4">11.8</Value>
+					<Value for="6">16.0</Value>
+					<Value for="7">10.8</Value>
+					<Value for="8">14.0</Value>
+					<Value for="10">14.1</Value>
+					<Value for="11">14.3</Value>
+					<Value for="12">13.9</Value>
+					<Value for="13">16.5</Value>
+					<Value for="14">15.7</Value>
+					<Value for="15">9.5</Value>
+					<Value for="16">18.4</Value>
+					<Value for="19">15.1</Value>
+					<Value for="20">15.2</Value>
+					<Value for="21">20.6</Value>
+					<Value for="22">11.3</Value>
+					<Value for="23">12.1</Value>
+					<Value for="30">15.2</Value>
+					<ComparisonValue for="1">14.4</ComparisonValue>
+				</Indicator>
+				<Indicator id="i12" name="Parkinson, poli" type="numeric" date="antall" href="">
+					<Value for="1">49</Value>
+					<Value for="2">271</Value>
+					<Value for="3">130</Value>
+					<Value for="4">80</Value>
+					<Value for="6">182</Value>
+					<Value for="7">223</Value>
+					<Value for="8">289</Value>
+					<Value for="10">133</Value>
+					<Value for="11">418</Value>
+					<Value for="12">184</Value>
+					<Value for="13">317</Value>
+					<Value for="14">349</Value>
+					<Value for="15">283</Value>
+					<Value for="16">267</Value>
+					<Value for="19">533</Value>
+					<Value for="20">526</Value>
+					<Value for="21">371</Value>
+					<Value for="22">159</Value>
+					<Value for="23">248</Value>
+					<Value for="30">181</Value>
+					<ComparisonValue for="1">5194</ComparisonValue>
+				</Indicator>
+				<Indicator id="i12" name="Parkinson, poli" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i12" name="Parkinson, poli" type="numeric" date="ll" href="">
+					<Value for="1">7.8</Value>
+					<Value for="2">17.9</Value>
+					<Value for="3">10.8</Value>
+					<Value for="4">10.3</Value>
+					<Value for="6">14.7</Value>
+					<Value for="7">10.0</Value>
+					<Value for="8">13.1</Value>
+					<Value for="10">12.8</Value>
+					<Value for="11">13.5</Value>
+					<Value for="12">12.8</Value>
+					<Value for="13">15.4</Value>
+					<Value for="14">14.7</Value>
+					<Value for="15">8.9</Value>
+					<Value for="16">17.1</Value>
+					<Value for="19">14.3</Value>
+					<Value for="20">14.4</Value>
+					<Value for="21">19.4</Value>
+					<Value for="22">10.3</Value>
+					<Value for="23">11.2</Value>
+					<Value for="30">13.9</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i12" name="Parkinson, poli" type="numeric" date="ul" href="">
+					<Value for="1">10.8</Value>
+					<Value for="2">20.6</Value>
+					<Value for="3">13.2</Value>
+					<Value for="4">13.3</Value>
+					<Value for="6">17.3</Value>
+					<Value for="7">11.6</Value>
+					<Value for="8">14.9</Value>
+					<Value for="10">15.5</Value>
+					<Value for="11">15.1</Value>
+					<Value for="12">15.1</Value>
+					<Value for="13">17.5</Value>
+					<Value for="14">16.6</Value>
+					<Value for="15">10.2</Value>
+					<Value for="16">19.6</Value>
+					<Value for="19">15.8</Value>
+					<Value for="20">15.9</Value>
+					<Value for="21">21.8</Value>
+					<Value for="22">12.3</Value>
+					<Value for="23">13.0</Value>
+					<Value for="30">16.5</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t6" name="Kreft">
+
+				<Indicator id="i13" name="Pasienter med cellegiftbehandling" type="numeric" date="Pasienter med
+cellegiftbehandling" href="">
+					<Value for="1">5.5</Value>
+					<Value for="2">6.1</Value>
+					<Value for="3">5.6</Value>
+					<Value for="4">6.6</Value>
+					<Value for="6">7.2</Value>
+					<Value for="7">7.2</Value>
+					<Value for="8">8.0</Value>
+					<Value for="10">6.4</Value>
+					<Value for="11">7.4</Value>
+					<Value for="12">6.2</Value>
+					<Value for="13">7.7</Value>
+					<Value for="14">6.9</Value>
+					<Value for="15">7.2</Value>
+					<Value for="16">6.7</Value>
+					<Value for="19">5.7</Value>
+					<Value for="20">6.9</Value>
+					<Value for="21">5.8</Value>
+					<Value for="22">6.6</Value>
+					<Value for="23">7.0</Value>
+					<Value for="30">6.9</Value>
+					<ComparisonValue for="1">6.8</ComparisonValue>
+				</Indicator>
+				<Indicator id="i13" name="Pasienter med cellegiftbehandling" type="numeric" date="antall" href="">
+					<Value for="1">29</Value>
+					<Value for="2">86</Value>
+					<Value for="3">62</Value>
+					<Value for="4">45</Value>
+					<Value for="6">82</Value>
+					<Value for="7">148</Value>
+					<Value for="8">165</Value>
+					<Value for="10">60</Value>
+					<Value for="11">216</Value>
+					<Value for="12">82</Value>
+					<Value for="13">150</Value>
+					<Value for="14">156</Value>
+					<Value for="15">216</Value>
+					<Value for="16">97</Value>
+					<Value for="19">203</Value>
+					<Value for="20">238</Value>
+					<Value for="21">105</Value>
+					<Value for="22">93</Value>
+					<Value for="23">144</Value>
+					<Value for="30">85</Value>
+					<ComparisonValue for="1">2464</ComparisonValue>
+				</Indicator>
+				<Indicator id="i13" name="Pasienter med cellegiftbehandling" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i13" name="Pasienter med cellegiftbehandling" type="numeric" date="ll" href="">
+					<Value for="1">4.3</Value>
+					<Value for="2">5.4</Value>
+					<Value for="3">4.8</Value>
+					<Value for="4">5.5</Value>
+					<Value for="6">6.3</Value>
+					<Value for="7">6.5</Value>
+					<Value for="8">7.3</Value>
+					<Value for="10">5.5</Value>
+					<Value for="11">6.8</Value>
+					<Value for="12">5.5</Value>
+					<Value for="13">7.0</Value>
+					<Value for="14">6.3</Value>
+					<Value for="15">6.7</Value>
+					<Value for="16">5.9</Value>
+					<Value for="19">5.3</Value>
+					<Value for="20">6.4</Value>
+					<Value for="21">5.1</Value>
+					<Value for="22">5.8</Value>
+					<Value for="23">6.3</Value>
+					<Value for="30">6.1</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i13" name="Pasienter med cellegiftbehandling" type="numeric" date="ul" href="">
+					<Value for="1">6.6</Value>
+					<Value for="2">6.9</Value>
+					<Value for="3">6.4</Value>
+					<Value for="4">7.7</Value>
+					<Value for="6">8.1</Value>
+					<Value for="7">7.8</Value>
+					<Value for="8">8.7</Value>
+					<Value for="10">7.4</Value>
+					<Value for="11">7.9</Value>
+					<Value for="12">7.0</Value>
+					<Value for="13">8.4</Value>
+					<Value for="14">7.5</Value>
+					<Value for="15">7.8</Value>
+					<Value for="16">7.5</Value>
+					<Value for="19">6.2</Value>
+					<Value for="20">7.4</Value>
+					<Value for="21">6.4</Value>
+					<Value for="22">7.3</Value>
+					<Value for="23">7.6</Value>
+					<Value for="30">7.8</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i14" name="Pasienter med str&#229;lebehandling" type="numeric" date="Pasienter med
+str&#229;lebehandling" href="">
+					<Value for="1">8.0</Value>
+					<Value for="2">9.7</Value>
+					<Value for="3">9.4</Value>
+					<Value for="4">6.8</Value>
+					<Value for="6">6.8</Value>
+					<Value for="7">8.2</Value>
+					<Value for="8">9.5</Value>
+					<Value for="10">6.1</Value>
+					<Value for="11">10.5</Value>
+					<Value for="12">9.7</Value>
+					<Value for="13">9.3</Value>
+					<Value for="14">7.9</Value>
+					<Value for="15">7.6</Value>
+					<Value for="16">9.8</Value>
+					<Value for="19">8.3</Value>
+					<Value for="20">6.7</Value>
+					<Value for="21">7.3</Value>
+					<Value for="22">5.5</Value>
+					<Value for="23">10.9</Value>
+					<Value for="30">9.2</Value>
+					<ComparisonValue for="1">8.4</ComparisonValue>
+				</Indicator>
+				<Indicator id="i14" name="Pasienter med str&#229;lebehandling" type="numeric" date="antall" href="">
+					<Value for="1">42</Value>
+					<Value for="2">134</Value>
+					<Value for="3">103</Value>
+					<Value for="4">47</Value>
+					<Value for="6">79</Value>
+					<Value for="7">170</Value>
+					<Value for="8">197</Value>
+					<Value for="10">57</Value>
+					<Value for="11">306</Value>
+					<Value for="12">129</Value>
+					<Value for="13">178</Value>
+					<Value for="14">175</Value>
+					<Value for="15">225</Value>
+					<Value for="16">141</Value>
+					<Value for="19">295</Value>
+					<Value for="20">232</Value>
+					<Value for="21">133</Value>
+					<Value for="22">77</Value>
+					<Value for="23">223</Value>
+					<Value for="30">111</Value>
+					<ComparisonValue for="1">3055</ComparisonValue>
+				</Indicator>
+				<Indicator id="i14" name="Pasienter med str&#229;lebehandling" type="numeric" date="innbyggere" href="">
+					<Value for="1">5054</Value>
+					<Value for="2">13700</Value>
+					<Value for="3">10815</Value>
+					<Value for="4">6721</Value>
+					<Value for="6">11219</Value>
+					<Value for="7">20548</Value>
+					<Value for="8">20861</Value>
+					<Value for="10">9515</Value>
+					<Value for="11">29339</Value>
+					<Value for="12">13192</Value>
+					<Value for="13">19056</Value>
+					<Value for="14">21830</Value>
+					<Value for="15">28648</Value>
+					<Value for="16">15113</Value>
+					<Value for="19">35111</Value>
+					<Value for="20">34438</Value>
+					<Value for="21">17862</Value>
+					<Value for="22">14098</Value>
+					<Value for="23">20283</Value>
+					<Value for="30">12527</Value>
+					<ComparisonValue for="1">359928</ComparisonValue>
+				</Indicator>
+				<Indicator id="i14" name="Pasienter med str&#229;lebehandling" type="numeric" date="ll" href="">
+					<Value for="1">6.6</Value>
+					<Value for="2">8.7</Value>
+					<Value for="3">8.3</Value>
+					<Value for="4">5.7</Value>
+					<Value for="6">6.0</Value>
+					<Value for="7">7.5</Value>
+					<Value for="8">8.7</Value>
+					<Value for="10">5.1</Value>
+					<Value for="11">9.8</Value>
+					<Value for="12">8.7</Value>
+					<Value for="13">8.5</Value>
+					<Value for="14">7.2</Value>
+					<Value for="15">7.0</Value>
+					<Value for="16">8.8</Value>
+					<Value for="19">7.7</Value>
+					<Value for="20">6.2</Value>
+					<Value for="21">6.6</Value>
+					<Value for="22">4.8</Value>
+					<Value for="23">10.1</Value>
+					<Value for="30">8.2</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+				<Indicator id="i14" name="Pasienter med str&#229;lebehandling" type="numeric" date="ul" href="">
+					<Value for="1">9.4</Value>
+					<Value for="2">10.6</Value>
+					<Value for="3">10.4</Value>
+					<Value for="4">7.9</Value>
+					<Value for="6">7.7</Value>
+					<Value for="7">8.9</Value>
+					<Value for="8">10.3</Value>
+					<Value for="10">7.0</Value>
+					<Value for="11">11.2</Value>
+					<Value for="12">10.7</Value>
+					<Value for="13">10.1</Value>
+					<Value for="14">8.5</Value>
+					<Value for="15">8.1</Value>
+					<Value for="16">10.7</Value>
+					<Value for="19">8.8</Value>
+					<Value for="20">7.2</Value>
+					<Value for="21">8.0</Value>
+					<Value for="22">6.2</Value>
+					<Value for="23">11.7</Value>
+					<Value for="30">10.2</Value>
+					<ComparisonValue for="1">NaN</ComparisonValue>
+				</Indicator>
+			</Theme>
+		</ThemeList>
+	</Geography>
+</AtlasData>
