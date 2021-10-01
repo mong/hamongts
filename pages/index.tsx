@@ -9,7 +9,7 @@ interface HomeProps {
   atlasInfo: {
     article: string;
     frontMatter: {
-      date: string;
+      num: string;
       mainTitle: string;
       shortTitle: string;
       pdfUrl: string;
