@@ -7,7 +7,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-color: #999999; 
 	border-width: 0.0px; 
 	border-style: solid; 
-	/**                        Properties for Images.                        */ 
+	/**                       Properties for Images.                       */ 
 }
 .ia-report {
 	min-width: 600.0px; 
@@ -18,7 +18,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	background-color: #ffffff; 
 	height: 100.0%; 
 	width: 100.0%; 
-	/**                        The report container, containing background colour for report, the minimum height and width for the report and font settings for various components including legend, tables and map.                        */ 
+	/**                       The report container, containing background colour for report, the minimum height and width for the report and font settings for various components including legend, tables and map.                       */ 
 }
 .ia-report-printmode {
 	min-width: 400.0px; 
@@ -26,15 +26,15 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	background-color: #ffffff; 
 	height: 680.0px; 
 	width: 1046.0px; 
-	/**                        Containing settings for the report container in print mode.                        */ 
+	/**                       Containing settings for the report container in print mode.                       */ 
 }
 .ia-selection-color {
 	color: #953d37; 
-	/**                       Selection Color for all components including map, tables and charts.                       */ 
+	/**                      Selection Color for all components including map, tables and charts.                      */ 
 }
 .ia-highlight-color {
 	color: #e66c64; 
-	/**                       Highlight Color for all components including map, tables and charts.                       */ 
+	/**                      Highlight Color for all components including map, tables and charts.                      */ 
 }
 .ia-panel-header {
 	border-bottom-color: #cccccc; 
@@ -43,11 +43,11 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	padding: 8.0px; 
 	color: #000000; 
 	font-weight: bold; 
-	border-bottom-width: 1.0px; 
 	text-align: left; 
+	border-bottom-width: 1.0px; 
 	border-bottom-style: solid; 
 	background-color: #dae6f2; 
-	/**                        The header panel for all components. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       The header panel for all components. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-panel {
 	border-radius: 0.0px; 
@@ -55,21 +55,21 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #ffffff; 
 	border-style: solid; 
-	/**                        Panels which contain the various components including tables, maps and charts.                        */ 
+	/**                       Panels which contain the various components including tables, maps and charts.                       */ 
 }
 .ia-popup-panel {
 	border-width: 0.0px; 
-	/**                        Popup panel adds drop shadow                        */ 
+	/**                       Popup panel adds drop shadow                       */ 
 }
 .ia-panel-btns {
 	border-radius: 0.0px; 
 	background-color: #cccccc; 
-	/**                        Panel buttons (export and fullscreen)                        */ 
+	/**                       Panel buttons (export and fullscreen)                       */ 
 }
 .ia-panel-btn:hover {
 	border-radius: 0.0px; 
 	background-color: #aaaaaa; 
-	/**                        Panel button hover (export and fullscreen)                        */ 
+	/**                       Panel button hover (export and fullscreen)                       */ 
 }
 .button {
 	border-radius: 3.0px; 
@@ -82,33 +82,33 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #ffffff; 
 	border-style: groove; 
-	/**                        Contains properties for the buttons including font, border and background settings - Also uses ia-button:hover and ia-button:active.                        */ 
+	/**                       Contains properties for the buttons including font, border and background settings - Also uses ia-button:hover and ia-button:active.                       */ 
 }
 .ia-button:hover {
 	background-color: #f0f8ff; 
-	/**                        Button hover.                        */ 
+	/**                       Button hover.                       */ 
 }
 .ia-button:active {
 	background-color: #f0f8ff; 
-	/**                        Button press.                        */ 
+	/**                       Button press.                       */ 
 }
 .ia-list-item:hover {
 	background-color: #f0f8ff; 
-	/**                        List item hover for components such as data/filter explorers, legend, table and map toolbar.                        */ 
+	/**                       List item hover for components such as data/filter explorers, legend, table and map toolbar.                       */ 
 }
 .ia-list-item:active {
 	background-color: #f0f8ff; 
-	/**                        List item press for components such as data/filter explorers, legend, table and map toolbar.                        */ 
+	/**                       List item press for components such as data/filter explorers, legend, table and map toolbar.                       */ 
 }
 .ia-text {
 	z-index: 100; 
 	text-align: left; 
-	/**                        Subtitle text.                        */ 
+	/**                       Subtitle text.                       */ 
 }
 .ia-title-text {
 	font-size: 18.0px; 
 	text-align: left; 
-	/**                        Title text.                        */ 
+	/**                       Title text.                       */ 
 }
 .ia-datatip {
 	border-radius: 0.0px; 
@@ -122,13 +122,13 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #ffffff; 
 	border-style: solid; 
-	/**                        Properties for Datatip for map and chart components.                        */ 
+	/**                       Properties for Datatip for map and chart components.                       */ 
 }
 .ia-chart {
 	font-size: 11.0px; 
 	border-color: #cccccc; 
 	color: #000000; 
-	/**                        Properties for chart components including font and grid line settings.                        */ 
+	/**                       Properties for chart components including font and grid line settings.                       */ 
 }
 .ia-table-header {
 	padding-bottom: 8.0px; 
@@ -140,7 +140,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	font-weight: bold; 
 	text-align: center; 
 	background-color: #dae6f2; 
-	/**                        Table column header. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Table column header. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-table-cell {
 	padding-bottom: 4.0px; 
@@ -149,23 +149,23 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	color: #000000; 
 	vertical-align: middle; 
 	font-style: normal; 
-	/**                        Contains properties for the cells in tables. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Contains properties for the cells in tables. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-table-cell-numeric {
 	text-align: center; 
-	/**                        Properties for numeric table cells, including alignment.                        */ 
+	/**                       Properties for numeric table cells, including alignment.                       */ 
 }
 .ia-table-cell-categoric {
 	text-align: left; 
-	/**                        Properties for categoric table cells, including alignment.                        */ 
+	/**                       Properties for categoric table cells, including alignment.                       */ 
 }
 .ia-table-row-even {
 	background-color: #fafafa; 
-	/**                        Even table row.                        */ 
+	/**                       Even table row.                       */ 
 }
 .ia-table-row-odd {
 	background-color: #ffffff; 
-	/**                        Odd table row.                        */ 
+	/**                       Odd table row.                       */ 
 }
 .ia-profile-theme-name-cell {
 	padding-bottom: 8.0px; 
@@ -177,7 +177,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	text-align: left; 
 	border-top-color: #cccccc; 
 	background-color: #d9f1f7; 
-	/**                        Settings for the Area Profile Theme name cell. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Settings for the Area Profile Theme name cell. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-profile-indicator-name-cell {
 	padding-bottom: 8.0px; 
@@ -188,11 +188,11 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-right-width: 1.0px; 
 	border-right-style: solid; 
 	vertical-align: middle; 
-	/**                        Settings for the Area Profile Indicator name cell. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Settings for the Area Profile Indicator name cell. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-profile-row:hover {
 	background-color: #d9f1f7; 
-	/**                        Settings for the Area Profile row hover.                        */ 
+	/**                       Settings for the Area Profile row hover.                       */ 
 }
 .ia-map-labels {
 	font-family: Arial; 
@@ -200,7 +200,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-color: #f9f9f9; 
 	color: #333333; 
 	font-weight: bold; 
-	/**                        Map labels.                        */ 
+	/**                       Map labels.                       */ 
 }
 .ia-map-copyright {
 	font-size: 16.0px; 
@@ -210,19 +210,19 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	bottom: 5.0px; 
 	background-color: #f7fbfd; 
 	height: 20.0px; 
-	/**                        Map copyright text. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Map copyright text. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-map-copyright-expand {
 	max-width: 100.0%; 
-	/**                       Map copyright expand text                       */ 
+	/**                      Map copyright expand text                      */ 
 }
 .ia-map-selection-opacity {
 	opacity: 0; 
-	/**                        Map selection opacity, value between 0 and 1.                        */ 
+	/**                       Map selection opacity, value between 0 and 1.                       */ 
 }
 .ia-map-highlight-opacity {
 	opacity: 0.3; 
-	/**                        Map highlight opacity, value between 0 and 1.                        */ 
+	/**                       Map highlight opacity, value between 0 and 1.                       */ 
 }
 .ia-metadata {
 	font-variant: normal; 
@@ -233,23 +233,23 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	color: #000000; 
 	font-weight: normal; 
 	font-style: normal; 
-	/**                        Metadata box. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Metadata box. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-textbox {
 	padding: 10.0px; 
-	/**                        Metadata box. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Metadata box. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-menubar-btn {
 	border-left-color: #cccccc; 
 	padding: 5.0px; 
-	/**                        Menubar (Help, Print, Share). Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Menubar (Help, Print, Share). Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-table-toolbar {
 	border-top-width: 1.0px; 
 	border-top-style: solid; 
 	border-top-color: #dae6f2; 
 	background-color: #f7fbfd; 
-	/**                        Table toolbar (Clear, Filter, Link). Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Table toolbar (Clear, Filter, Link). Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-map-toolbar {
 	border-radius: 0.0px; 
@@ -259,7 +259,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #f7fbfd; 
 	border-style: solid; 
-	/**                        Map toolbar (Clear, Filter etc). Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Map toolbar (Clear, Filter etc). Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-google-map-toolbar {
 	border-radius: 0.0px; 
@@ -269,25 +269,25 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #f7fbfd; 
 	border-style: solid; 
-	/**                        Map toolbar (Clear, Filter etc). Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Map toolbar (Clear, Filter etc). Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-explorer-item {
 	padding-bottom: 9.0px; 
 	padding-top: 9.0px; 
 	color: #000000; 
-	/**                        Padding and border properties for Explorer items. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Padding and border properties for Explorer items. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-layer-list-item {
 	padding-bottom: 6.0px; 
 	padding-top: 6.0px; 
 	color: #000000; 
 	text-align: left; 
-	/**                        Layer list item. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Layer list item. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-legend-item {
 	padding: 8.0px; 
 	color: #000000; 
-	/**                        Legend item. Add properties to override the 'ia-report styling'.                        */ 
+	/**                       Legend item. Add properties to override the 'ia-report styling'.                       */ 
 }
 .ia-time-control-date-btn {
 	border-left-color: #cccccc; 
@@ -295,11 +295,11 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	padding: 4.0px; 
 	border-left-width: 1.0px; 
 	border-left-style: dotted; 
-	/**                        Time control date button                        */ 
+	/**                       Time control date button                       */ 
 }
 .ia-time-control-date-btn-active {
 	background-color: #d9f1f7; 
-	/**                        Time control active date button                        */ 
+	/**                       Time control active date button                       */ 
 }
 .ia-feature-card {
 	overflow: hidden; 
@@ -308,7 +308,7 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	border-width: 1.0px; 
 	background-color: #ffffff; 
 	border-style: solid; 
-	/**                        Feature card                        */ 
+	/**                       Feature card                       */ 
 }
 .ia-feature-card-header {
 	padding: 8.0px; 
@@ -316,18 +316,18 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 	font-weight: bold; 
 	text-align: center; 
 	background-color: #e66c64; 
-	/**                        Feature card header                        */ 
+	/**                       Feature card header                       */ 
 }
 .ia-feature-card-sub-header {
 	padding: 8.0px; 
 	font-weight: bold; 
 	text-align: center; 
 	background-color: #d9f1f7; 
-	/**                        Feature card sub header                        */ 
+	/**                       Feature card sub header                       */ 
 }
 .ia-feature-card-content {
 	margin: 0px; 
-	/**                        Feature card content                        */ 
+	/**                       Feature card content                       */ 
 }
 .ia-dropdown-button {
 	border-radius: 0.0px; 
@@ -352,5 +352,5 @@ Copyright (C) 2014 Geowise LtdAll Rights Reserved. The following is Source Code 
 .ia-flow-report-remove-scrollbars {
 	min-width: 0.0px; 
 	min-height: 0.0px; 
-	/**                        Removes the min width/height scrollbars when in responsive mode                       */ 
+	/**                       Removes the min width/height scrollbars when in responsive mode                      */ 
 }
