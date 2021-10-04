@@ -7,10 +7,6 @@ ia: false
 lang: no
 ---
 
-## Innhold
-
-#
-
 **Hovudfunn**
 
 Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.

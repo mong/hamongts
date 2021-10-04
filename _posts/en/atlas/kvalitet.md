@@ -7,7 +7,7 @@ ia: true
 lang: en
 ---
 
-## Innhold
+## Content
 
 # Main findings for different patient samples
 

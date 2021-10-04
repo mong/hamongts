@@ -7,10 +7,6 @@ ia: false
 lang: en
 ---
 
-## Innhold
-
-#
-
 **Fact sheets:**
 
 The fact sheets contain short summaries of the results from the Healthcare atlas for mental healthcare and substance abuse treatment.

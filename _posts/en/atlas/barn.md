@@ -7,8 +7,6 @@ ia: true
 lang: en
 ---
 
-## Innhold
-
 # Fact sheets for different patient samples in the Child Healthcare Atlas for Norway
 
 The fact sheets provide a brief description of the patient samples, as well as information about the population’s use of services in geographical areas (hospital referral areas). The use is measured as the number of contacts per 100.000 population. The factsheets also include brief comments on the variation in use between geographical areas.

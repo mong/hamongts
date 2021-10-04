@@ -7,10 +7,6 @@ ia: false
 lang: en
 ---
 
-## Innhold
-
-#
-
 # Fact sheets:
 
 The fact sheets contain a short summary of the results from the orthopaedic healthcare atlas. Each condition is described and the population’s use of health care is displayed through figures and text. Use of health care is summarized as the number of operations or admissions per 100 000 inhabitants per referral area. Variation in health care use is commented briefly. Explanations of sample definitions are given at request.

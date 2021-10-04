@@ -7,10 +7,6 @@ ia: false
 lang: no
 ---
 
-## Innhold
-
-#
-
 ## Faktaark
 
 Faktaarka inneheld ei kort oppsummering av resultata frå helseatlas i ortopedi. Kvar av tilstandane er skildra og innbyggarane sin bruk av helsetenester vist gjennom figurar og tekst. Innbyggarane sin bruk av helsetenester er oppsummert og vist som tal operasjonar eller innleggingar per 100 000 innbyggarar per buområde. Variasjonen i bruk av helsetenester er kort kommentert.
