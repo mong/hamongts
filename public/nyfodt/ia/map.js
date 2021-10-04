@@ -8,7 +8,7 @@
 		"id":"_Nyfodt_4.shp1",
 		"name":"Boområder / Opptaksområder",
 		"geometry":"polygon",
-		"url":"_Nyfodt_4.shp1.js",
+		"url":"_Nyfodt_4.shp1.json",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",

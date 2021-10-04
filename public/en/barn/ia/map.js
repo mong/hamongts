@@ -8,7 +8,7 @@
 		"id":"_HF_omr_9_(Nordland_OUS_Akershus).shp1",
 		"name":"HF_omr_9_(Nordland_OUS_Akershus).shp",
 		"geometry":"polygon",
-		"url":"_HF_omr_9_(Nordland_OUS_Akershus).shp1.js",
+		"url":"_HF_omr_9_(Nordland_OUS_Akershus).shp1.json",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",

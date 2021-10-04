@@ -8,7 +8,7 @@
 		"id":"_HF_omr_3.shp1",
 		"name":"Boområder HF",
 		"geometry":"polygon",
-		"url":"_HF_omr_3.shp1.js",
+		"url":"_HF_omr_3.shp1.json",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",

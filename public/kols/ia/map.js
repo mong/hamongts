@@ -8,7 +8,7 @@
 		"id":"_Kols.shp1",
 		"name":"Opptaksomr&aringder",
 		"geometry":"polygon",
-		"url":"_Kols.shp1.js",
+		"url":"_Kols.shp1.json",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",

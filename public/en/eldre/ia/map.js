@@ -8,7 +8,7 @@
 		"id":"_Eldre_2.shp1",
 		"name":"Eldre_2.shp",
 		"geometry":"polygon",
-		"url":"_Eldre_2.shp1.js",
+		"url":"_Eldre_2.shp1.json",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",
