@@ -35,8 +35,9 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
           <div className={styles.banner_article__content}>
             <h2>Equitable health services – regardless of where you live?</h2>
             <p>
-              The Norwegian healthcare atlases compares the population&apos;s use of
-              health services using interactive maps, reports and fact sheets.
+              The Norwegian healthcare atlases compares the population&apos;s
+              use of health services using interactive maps, reports and fact
+              sheets.
             </p>
           </div>
         </div>

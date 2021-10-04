@@ -36,7 +36,7 @@ jquery-min.js
 ia-min.js
 custom.js
 map.js
-data.js
+data.json
 
 # js data files *** MAKE SURE THESE FILE NAMES ARE CORRECT - ADD IN ANY CONTEXTUAL LAYERS YOU HAVE ADDED ***
 _compressed.shp1.js
