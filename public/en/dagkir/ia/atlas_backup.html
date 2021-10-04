@@ -20,31 +20,13 @@
 						height:100%;
 						margin: 0;
 						padding:0;
-						background-color:#CCCCCC;
-					}
-					#ia-top-container
-					{
-						width:1000px;
-						background-color:#FDFDFD;
-						text-align:center;
-						margin-left:auto;
-						margin-right:auto;
 					}
 					#ia-report-container
-					{
-						width:1000px;
-						height:600px;
+					{				 
+						width:100%;
+						height:100%;
 						margin-left:auto;
 						margin-right:auto;
-					}
-					#ia-bottom-container
-					{
-						width:1000px;
-						background-color:#FDFDFD;
-						margin-left:auto;
-						margin-right:auto;
-						padding-top:1px;
-						text-align:center;	
 					}
 					#ia-noscript-container
 					{
@@ -58,11 +40,6 @@
 				</style>
 </head>
 <body>
-<div id="ia-top-container">
-<a href="http://www.instantatlas.com/freetrial.xhtml">
-<img src="./banner.jpg" alt="Data visualization tools from instantatlas" border="0" title="Data visualization tools from instantatlas" id="iaLogo"/>
-</a>
-</div>
 <div id="ia-report-container">
 <noscript>
 <div id="ia-noscript-container">
@@ -70,19 +47,7 @@
 						</div>
 </noscript>
 <a href="http://www.instantatlas.com" style="position:absolute;top:-1000px;left:-1000px;">Powered By InstantAtlas™</a>
-</div>
-<div id="ia-bottom-container">
-<script>
-<!--
-						
-							txt='<a href="http://www.facebook.com/sharer.php?u='+document.URL+'" target="_blank" title="Facebook">'
-							txt=txt+'<img src="facebook.png" width="25px" height="25px" style="margin-right:4px" /></a>';
-							txt=txt+'<a href="http://twitter.com/home?status='+document.URL+'" target="_blank" title="Twitter">';
-							txt=txt+'<img src="twitter.png" width="25px" height="25px" style="margin-right:4px" /></a>';
-							document.write(txt);
-						
-						-->
-</script>
+<div class="ia-report-loading" id="ia-report-progress"/>
 </div>
 <script src="jquery-min.js"> </script>
 <script src="ia-min.js"> </script>

@@ -32,10 +32,13 @@ advanced.css
 default.css
 
 # js files
+jquery-min.js
 ia-min.js
 custom.js
 map.js
 data.js
+
+# js data files *** MAKE SURE THESE FILE NAMES ARE CORRECT - ADD IN ANY CONTEXTUAL LAYERS YOU HAVE ADDED ***
 
 # images
 arrow_down.png

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+			<Theme  xmlns="http://data.instantatlas.com/atlas" id="t2" name="Prim&#230;rhelsetjenesten">
+
+				<Indicator id="i3" name="Alle konsultasjoner" type="numeric" precision="0"  href="">
+					<Value for="1">5047.33</Value>
+					<Value for="2">5883.61</Value>
+					<Value for="3">5755.58</Value>
+					<Value for="4">5173.46</Value>
+					<Value for="5">5739.32</Value>
+					<Value for="6">5529.20</Value>
+					<Value for="7">5792.01</Value>
+					<Value for="8">5507.37</Value>
+					<Value for="9">5507.76</Value>
+					<Value for="10">5689.50</Value>
+					<Value for="11">6226.51</Value>
+					<Value for="12">6080.21</Value>
+					<Value for="13">5922.15</Value>
+					<Value for="14">5587.41</Value>
+					<Value for="15">5678.95</Value>
+					<Value for="16">6181.14</Value>
+					<Value for="17">5945.41</Value>
+					<Value for="18">5132.37</Value>
+					<Value for="19">6221.33</Value>
+					<Value for="20">5105.27</Value>
+					<ComparisonValue for="1">5773.34</ComparisonValue>
+					<Limits>
+						<Range for="1" upper="5083.4" lower="5011.2" />
+						<Range for="2" upper="5907.1" lower="5860.1" />
+						<Range for="3" upper="5781.8" lower="5729.4" />
+						<Range for="4" upper="5204.9" lower="5142.0" />
+						<Range for="5" upper="5764.9" lower="5713.7" />
+						<Range for="6" upper="5547.8" lower="5510.6" />
+						<Range for="7" upper="5810.9" lower="5773.2" />
+						<Range for="8" upper="5534.6" lower="5480.1" />
+						<Range for="9" upper="5523.3" lower="5492.2" />
+						<Range for="10" upper="5713.0" lower="5666.0" />
+						<Range for="11" upper="6247.0" lower="6206.0" />
+						<Range for="12" upper="6099.1" lower="6061.3" />
+						<Range for="13" upper="5938.5" lower="5905.8" />
+						<Range for="14" upper="5609.3" lower="5565.5" />
+						<Range for="15" upper="5693.3" lower="5664.6" />
+						<Range for="16" upper="6196.3" lower="6166.0" />
+						<Range for="17" upper="5966.1" lower="5924.7" />
+						<Range for="18" upper="5154.0" lower="5110.8" />
+						<Range for="19" upper="6241.2" lower="6201.5" />
+						<Range for="20" upper="5128.3" lower="5082.2" />
+						<Range for="1" upper="NaN" lower="NaN" />
+					</Limits>
+					<Associate name="antall" type="numeric"  >
+						<Value for="1">25460</Value>
+						<Value for="2">80442</Value>
+						<Value for="3">62072</Value>
+						<Value for="4">34769</Value>
+						<Value for="5">64495</Value>
+						<Value for="6">113616</Value>
+						<Value for="7">121100</Value>
+						<Value for="8">52456</Value>
+						<Value for="9">161542</Value>
+						<Value for="10">75043</Value>
+						<Value for="11">118552</Value>
+						<Value for="12">132652</Value>
+						<Value for="13">169487</Value>
+						<Value for="14">84373</Value>
+						<Value for="15">199635</Value>
+						<Value for="16">212979</Value>
+						<Value for="17">106092</Value>
+						<Value for="18">72302</Value>
+						<Value for="19">125972</Value>
+						<Value for="20">63685</Value>
+						<ComparisonValue for="1">NaN</ComparisonValue>
+					</Associate>
+					<Associate name="innbyggere" type="numeric"  >
+						<Value for="1">5054</Value>
+						<Value for="2">13700</Value>
+						<Value for="3">10815</Value>
+						<Value for="4">6721</Value>
+						<Value for="5">11219</Value>
+						<Value for="6">20548</Value>
+						<Value for="7">20861</Value>
+						<Value for="8">9515</Value>
+						<Value for="9">29339</Value>
+						<Value for="10">13192</Value>
+						<Value for="11">19056</Value>
+						<Value for="12">21830</Value>
+						<Value for="13">28648</Value>
+						<Value for="14">15113</Value>
+						<Value for="15">35111</Value>
+						<Value for="16">34438</Value>
+						<Value for="17">17862</Value>
+						<Value for="18">14098</Value>
+						<Value for="19">20283</Value>
+						<Value for="20">12527</Value>
+						<ComparisonValue for="1">NaN</ComparisonValue>
+					</Associate>					<Property name="precision" value="0"/>
+
+				</Indicator></Theme>
