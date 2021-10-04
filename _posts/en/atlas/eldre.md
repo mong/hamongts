@@ -3,6 +3,8 @@ num: 4
 mainTitle: Healthcare Atlas for the Elderly in Norway
 shortTitle: Elderly Healthcare Atlas, 2013–2015
 pdfUrl: /helseatlas/files/healthcare-atlas-elderly.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

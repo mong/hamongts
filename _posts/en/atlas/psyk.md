@@ -3,6 +3,8 @@ num: 10
 mainTitle: Healthcare Atlas for Mental Healthcare and Substance Abuse Treatment
 shortTitle: Mental Healthcare 2014-2018
 pdfUrl: /helseatlas/files/mhc_report.pdf
+ia: false
+lang: en
 ---
 
 ## Innhold

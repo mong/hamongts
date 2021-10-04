@@ -3,6 +3,8 @@ num: 6
 mainTitle: Dagkirurgi i Norge 2013–2017
 shortTitle: Dagkirurgi, 2013–2017
 pdfUrl: /helseatlas/files/dagkirurgi_2013-2017.pdf
+ia: true
+lang: no
 ---
 
 ## Innhold

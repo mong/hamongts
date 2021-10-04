@@ -3,6 +3,8 @@ num: 3
 mainTitle: The Norwegian Neonatal Healthcare Atlas, 2009-2014
 shortTitle: Neonatal Atlas, 2009–2014
 pdfUrl: /helseatlas/files/norwegian-neonatal-healthcare.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

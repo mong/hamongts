@@ -3,6 +3,8 @@ num: 1
 mainTitle: Day surgery in Norway 2011 - 2013
 shortTitle: Day surgery atlas, 2011–2013
 pdfUrl: /helseatlas/files/day-surgery-health.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

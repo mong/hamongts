@@ -3,6 +3,8 @@ num: 8
 mainTitle: Helseatlas for gynekologi
 shortTitle: Gynekologi, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf
+ia: true
+lang: no
 ---
 
 ## Innhold

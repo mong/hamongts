@@ -3,6 +3,8 @@ num: 2
 mainTitle: Child healthcare atlas for Norway
 shortTitle: Child Healthcare Atlas, 2011–2014
 pdfUrl: /helseatlas/files/child-healthcare-atlas.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

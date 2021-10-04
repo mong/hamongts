@@ -3,6 +3,8 @@ num: 9
 mainTitle: Obstetrics Healthcare Atlas
 shortTitle: Obstetrics 2015–2017
 pdfUrl: /helseatlas/files/obstetric_healthcare_atlas.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

@@ -3,6 +3,8 @@ num: 7
 mainTitle: Orthopaedic Healthcare Atlas for Norway
 shortTitle: Orthopaedic, 2012-2016
 pdfUrl: /helseatlas/files/report_orthopaedic.pdf
+ia: false
+lang: en
 ---
 
 ## Innhold

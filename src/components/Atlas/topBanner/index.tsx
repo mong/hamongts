@@ -5,9 +5,14 @@ interface TopBannerProps {
   mainTitle: string;
   shortTitle: string;
   pdfUrl: string;
+  ia: boolean;
 }
 
-export const TopBanner: React.FC<TopBannerProps> = ({ mainTitle, pdfUrl }) => {
+export const TopBanner: React.FC<TopBannerProps> = ({
+  mainTitle,
+  pdfUrl,
+  ia,
+}) => {
   return (
     <div className={style.atlasTopBanner}>
       <div className={style.bannerWrapper}>
@@ -15,6 +20,11 @@ export const TopBanner: React.FC<TopBannerProps> = ({ mainTitle, pdfUrl }) => {
         <div>
           <a href={pdfUrl}>Rapport</a>
         </div>
+        {ia && (
+          <div>
+            <a href="ia/index.html">Kart</a>
+          </div>
+        )}
       </div>
     </div>
   );

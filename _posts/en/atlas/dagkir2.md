@@ -3,6 +3,8 @@ num: 6
 mainTitle: Day surgery in Norway 2013–2017
 shortTitle: Day surgery atlas 2013–2017
 pdfUrl: /helseatlas/files/daysurgery_2013-2017.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

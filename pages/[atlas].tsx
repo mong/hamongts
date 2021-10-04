@@ -28,9 +28,6 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
         <main>
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`}>
-            <Link href={`ia/index.html`}>
-              <a>Interaktivt kart</a>
-            </Link>
             <ReactMarkdown
               remarkPlugins={[
                 [remarkToc, { heading: "Innhold", maxDepth: 3, tight: true }],

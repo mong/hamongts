@@ -3,6 +3,8 @@ num: 8
 mainTitle: Gynaecology Healthcare Atlas
 shortTitle: Gynaecology, 2015–2017
 pdfUrl: /helseatlas/files/healthatlas-gynaecology.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold

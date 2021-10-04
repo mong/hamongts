@@ -3,6 +3,8 @@ num: 11
 mainTitle: Healthcare Quality Atlas
 shortTitle: Healthcare Quality Atlas
 pdfUrl: /helseatlas/files/kvalitetsatlas_engelsk.pdf
+ia: true
+lang: en
 ---
 
 ## Innhold
