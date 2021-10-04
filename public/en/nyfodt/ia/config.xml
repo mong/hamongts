@@ -1,27 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AtlasInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.instantatlas.com/xml/atlas" classes="ia-report ia-selection-color ia-highlight-color ia-panel ia-panel-resize-btn ia-panel-header ia-datatip ia-tooltip button ia-button:hover ia-button:active ia-text ia-title-text ia-image ia-list-item:hover ia-list-item:active" edit-mode="Wireframe" name="IA6 General" schema-version="1.6" template="timeseries_advanced_sm::flash::html" template-version="6.7.1" width="800" xsi:schemaLocation="http://www.instantatlas.com/xml/atlas ../../../xml/atlas-ui-v1.4.xsd">
-<Component classes="ia-panel ia-panel-header ia-metadata" editable="true" height="72" icon="$IAICON/48x48/note.png" id="metadata" moveable="true" name="Metadata" removeable="true" resizeable="true" visible="true" width="370" x="140" y="35">
+<Component classes="ia-panel ia-panel-header ia-metadata" editable="true" height="130" icon="$IAICON/48x48/note.png" id="metadata" moveable="true" name="Metadata" removeable="true" resizeable="true" visible="true" width="281" x="515" y="28">
 	<Description>
 			Metadata box.
 		</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="${themeName(&apos; - &apos;)} ${notEmpty(themeName, &apos; - &apos;)} ${indicatorName} ${notEmpty(date, &apos; -  Gestasjonsalder: &apos;)}${date}${notEmpty(date, )} ${notEmpty(filterName, &apos; - &apos;)} ${filterValue}" />
+	<Property description="The title" id="title" name="Title" type="string" value="${themeName(&apos; - &apos;)} ${notEmpty(themeName, &apos; - &apos;)} ${indicatorName} ${notEmpty(date, &apos;(&apos;)}${date}${notEmpty(date, &apos;)&apos;)} ${notEmpty(filterName, &apos; - &apos;)} ${filterValue}" />
 	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(metadata)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
 	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="6" />
 	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
 	<Property description="The custom property containing the metadata. The metadata may be plain text, html text or an actual link to a &apos;.html&apos; file containing a fragment of html" id="metadataKey" name="Metadata Custom Property Id" value="metatext" />
 </Component>
-<Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="284" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="5" y="33">
-	<Description>The data explorer component of the report.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="" />
-	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(dataExplorer)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="false" />
-	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="101" />
-	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="true" />
-	<Property description="Hide the explorer on a selection?" id="hideOnSelection" name="Hide On Selection?" type="boolean" value="false" />
-	<Property description="Should dates be displayed?" id="showDates" name="Show Dates?" type="boolean" value="true" />
-	<Property description="Should dates be reversed?" id="reverseDates" name="Reverse Dates?" type="boolean" value="true" />
-	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
-</Component>
-<Component classes="ia-panel ia-panel-header ia-map-toolbar ia-map-labels ia-map-copyright ia-map-selection-opacity ia-map-highlight-opacity" editable="true" height="485" icon="$IAICON/48x48/document_earth.png" id="map" moveable="true" name="Map" removeable="true" resizeable="true" visible="true" width="370" x="140" y="109">
+<Component classes="ia-panel ia-panel-header ia-map-toolbar ia-map-labels ia-map-copyright ia-map-selection-opacity ia-map-highlight-opacity" editable="true" height="414" icon="$IAICON/48x48/document_earth.png" id="map" moveable="true" name="Map" removeable="true" resizeable="true" visible="true" width="370" x="140" y="28">
 	<Description>The map component of the report.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="" />
 	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(map)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
@@ -39,9 +28,9 @@
 	<Property description="Google maps toolbar &apos;Off&apos; text" id="googleOffText" name="Google Off Text" type="string" value="x" />
 	<Property description="Include the search tool" id="includeSearchTool" name="Include Search Tool?" type="boolean" value="false" />
 </Component>
-<Component classes="ia-panel ia-panel-header ia-chart" editable="true" height="246" icon="$IAICON/48x48/column-chart.png" id="barChart" moveable="true" name="Bar Chart" removeable="true" resizeable="true" visible="true" width="281" x="514" y="8">
+<Component classes="ia-panel ia-panel-header ia-chart" editable="true" height="155" icon="$IAICON/48x48/column-chart.png" id="barChart" moveable="true" name="Bar Chart" removeable="true" resizeable="true" visible="true" width="370" x="140" y="442">
 	<Description>The bar chart component of the report.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="Rate pr. 1 000 fødte, i gestasjonsalder: ${date}. Perioden 2009-2014. " />
+	<Property description="The title" id="title" name="Title" type="string" value="" />
 	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(barChart)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
 	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="3" />
 	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
@@ -54,32 +43,14 @@
 	<Property description="Should the chart data be constrained to the current data range?" id="useTightLabels" name="Match Axis to Data?" type="boolean" value="false" />
 	<Property description="Should the chart bars be drawn from zero?" id="drawBarsFromZero" name="Draw bars from zero?" type="boolean" value="true" />
 	<Property description="The label for the x-axis" id="xAxisTitle" name="X-Axis Label" type="string" value="" />
-	<Property description="The label for the y-axis" id="yAxisTitle" name="Y-Axis Label" type="string" value="" />
+	<Property description="The label for the y-axis" id="yAxisTitle" name="Y-Axis Label" type="string" value="Rate per 100 000 inhabitants" />
 	<Property description="Use the fixed values for the chart data axis?" id="useFixedValues" name="Use Fixed Values?" type="boolean" value="false" />
 	<Property description="A fixed minimum value for the chart data axis" id="fixedMinValue" name="Fixed Minimum Value" type="float" value="0.0" />
 	<Property description="A fixed maximum value for the chart data axis" id="fixedMaxValue" name="Fixed Maximum Value" type="float" value="0.0" />
 	<Property description="A custom property containing a fixed minimum value for the chart data axis" id="minChartValue" name="Fixed Minimum Axis Value Property" type="string" value="0,0" />
 	<Property description="A custom property containing a fixed maximum value for the chart data axis" id="maxChartValue" name="Fixed Maximum Axis Value Property" type="string" value="maxChartValue" />
 </Component>
-<Component classes="ia-panel ia-panel-header" editable="true" height="133" icon="$IAICON/48x48/pie-chart.png" id="pieChart" moveable="true" name="Pie Chart" removeable="true" resizeable="true" visible="true" width="130" x="5" y="460">
-	<Description>The pie chart component of the report.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="" />
-	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(pieChart)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
-	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="5" />
-	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
-	<Property description="Can it be exported to an image?" id="isExportable" name="Exportable?" type="boolean" value="true" />
-	<Property description="The text that appears when the chart data is unavailable" id="notAvailableText" name="Not Available Text" type="string" value="Not Available" />
-	<Property description="The data tip" id="tip" name="Tip" type="string" value="${name}: ${percentage}% (${value})" />
-</Component>
-<Component classes="ia-panel ia-panel-header ia-layer-list-item ia-legend-item" editable="true" height="147" icon="$IAICON/48x48/form_blue.png" id="legend" moveable="true" name="Legend" removeable="true" resizeable="true" visible="true" width="130" x="5" y="262">
-	<Description>The list of layers.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="Inndeling i kategorier" />
-	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(legend)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
-	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="12" />
-	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
-	<Property description="Should the legend editor button be displayed." id="showLegendEditorButton" name="Show Legend Editor Button?" type="boolean" value="false" />
-</Component>
-<Table classes="ia-panel ia-panel-header ia-table-toolbar ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="335" icon="$IAICON/48x48/table_sql.png" id="table" moveable="true" name="Table" removeable="true" resizeable="true" visible="true" width="281" x="514" y="259">
+<Table classes="ia-panel ia-panel-header ia-table-toolbar ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="368" icon="$IAICON/48x48/table_sql.png" id="table" moveable="true" name="Table" removeable="true" resizeable="true" visible="true" width="281" x="515" y="157">
 	<Description>The table component of the report.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="" />
 	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(table)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
@@ -93,47 +64,11 @@
 	<Property description="The clear button text - leave empty to remove button" id="clearButtonText" name="Clear Button Text" type="string" value="" />
 	<Property description="The filter button text - leave empty to remove button" id="filterButtonText" name="Filter Button Text" type="string" value="" />
 	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="true" />
-	<Column alias="Boområde/Opptaksområde" name="name" width="0.4" />
-	<Column alias="Rate" name="value" width="0.2" />
-	<Column alias="Antall" name="Antall" width="0.2" />
-	<Column alias="Fødte" name="Fødte" width="0.2" />
+	<Column alias="Hospital referral areas" name="name" width="0.5" />
+	<Column alias="Rate" name="value" width="0.15" />
+	<Column alias="Number" name="number" width="0.15" />
+	<Column alias="Born" name="born" width="0.15" />
 </Table>
-<Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="43" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="130" x="5" y="413">
-	<Description>The comparison that shows the user information about comparison data.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="Sammenlikn med Norge" />
-	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(comparisonTable)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
-	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="6" />
-	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
-	<Property description="Can it be exported?" id="isExportable" name="Exportable?" type="boolean" value="true" />
-	<Property description="The name of the table column which will be sorted" id="sortColumnName" name="Sort Column Name" type="string" value="name" />
-	<Property description="Should the end user be allowed to sort columns" id="allowUserSorting" name="Allow User Sorting?" type="boolean" value="false" />
-	<Property choices="Ascending;Descending" description="Sort the table data ascending / descending" id="sortDirection" name="Sort Direction" type="string" value="Ascending" />
-	<Property description="The id of the colour scheme to use" id="colorSchemeId" name="Colour Scheme Name" type="string" value="categoricScheme6" />
-	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="true" />
-	<Column alias="" name="name" width="0.5" />
-	<Column alias="" name="value" width="0.5" />
-</Table>
-<Component classes="ia-panel ia-panel-header ia-menubar" editable="true" height="25" icon="$IAICON/48x48/note.png" id="menuBar" moveable="true" name="Menu Bar" removeable="true" resizeable="true" visible="true" width="130" x="5" y="40">
-	<Description>Menu Bar.</Description>
-	<Property description="The title" id="title" name="Title" type="string" value="" />
-	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(menuBar)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
-	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="10" />
-	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem1" name="Menu Item 1" type="string" value="Hjelp" />
-	<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="http://www.helse-nord.no/getfile.php/SKDE%20INTER/Helseatlas/Hjelp%281%29.pdf" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem2" name="Menu Item 2" type="string" value="Skriv ut" />
-	<Property description="The function for above menu item" id="menuFunc2" name="Menu Function 2" type="string" value="javascript:iaOpenPrintPreview()" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem3" name="Menu Item 3" type="string" value="Del" />
-	<Property description="The function for above menu item" id="menuFunc3" name="Menu Function 3" type="string" value="javascript:iaToggleShare()" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem4" name="Menu Item 4" type="string" value="" />
-	<Property description="The function for above menu item" id="menuFunc4" name="Menu Function 4" type="string" value="" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem5" name="Menu Item 5" type="string" value="" />
-	<Property description="The function for above menu item" id="menuFunc5" name="Menu Function 5" type="string" value="" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem6" name="Menu Item 6" type="string" value="" />
-	<Property description="The function for above menu item" id="menuFunc6" name="Menu Function 6" type="string" value="" />
-	<Property description="The text for a menu item - leave blank to exclude" id="menuItem7" name="Menu Item 7" type="string" value="" />
-	<Property description="The function for above menu item" id="menuFunc7" name="Menu Function 7" type="string" value="" />
-</Component>
 <PropertyGroup id="selection" name="Selection">
 	<Property choices="single;multiple" description="The selection mode" id="selectionMode" name="Selection Mode" type="string" value="multiple" />
 </PropertyGroup>
@@ -145,8 +80,8 @@
 	<Property description="The text displayed for embedding the report" id="embedReportText" name="Embed Report Text" type="string" value="Embed report - copy and paste html into web page" />
 </PropertyGroup>
 <PropertyGroup id="dataFormatting" name="Data Formatting">
-	<Property choices="none;en;de;es;fr;it;nl;be;ca;cs;da;el;et;fi;hr;hu;is;lt;lv;mk;no;pl;pt;ro;ru;sk;sl;sq;sr;sv;tr;uk" description="The locale used for formatting numbers, e.g. &apos;en&apos; for English, &apos;es&apos; for Spanish, &apos;fr&apos; for French" id="locale" name="Locale" type="string" value="no" />
-	<Property description="The text displayed for features that have &apos;No Data&apos; or null values" id="noDataValue" name="No Data Value" type="string" value="No Data" />
+	<Property choices="none;en;de;es;fr;it;nl;be;ca;cs;da;el;et;fi;hr;hu;is;lt;lv;mk;no;pl;pt;ro;ru;sk;sl;sq;sr;sv;tr;uk" description="The locale used for formatting numbers, e.g. &apos;en&apos; for English, &apos;es&apos; for Spanish, &apos;fr&apos; for French" id="locale" name="Locale" type="string" value="en" />
+	<Property description="The text displayed for features that have &apos;No Data&apos; or null values" id="noDataValue" name="No Data Value" type="string" value="n &lt; 30" />
 	<Property description="The default number of decimal places to be shown for data values. Set to -1 to maintain raw value." id="ndecimal" name="Decimal Places For Data Values" type="integer" value="0" />
 </PropertyGroup>
 <PropertyGroup id="thematics" name="Custom Legend Properties">
@@ -184,7 +119,6 @@
 	<Property description="Should the palette panel be displayed?" id="showPalettePanel" name="Show Palette Panel?" type="boolean" value="false" />
 	<Property description="Should the size panel be displayed?" id="showSizePanel" name="Show Size Panel?" type="boolean" value="false" />
 </PropertyGroup>
-<Button editable="true" height="25" href="javascript:iaToggle(dataExplorer)" id="dataButton" moveable="true" removeable="true" resizeable="true" text="Velg kart / pasientutvalg" tooltip="" width="130" x="5" y="8" />
 <MapPalettes classes="4" default="Sequential Blue" maxclasses="4">
 	<ColourRange id="Sequential Blue">
 		<Colour>#dae6f2</Colour>
@@ -286,10 +220,44 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="http://www.helse-nord.no/getfile.php/SKDE%20INTER/Helseatlas/Rapport%20helseatlas%201_15.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Rapport" tooltip="" width="130" x="5" y="100" />
-<Button editable="true" height="15" href="http://www.helse-nord.no/hva-er-helseatlas-no/category39644.html" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om Helseatlas.no" tooltip="" width="130" x="5" y="77" />
-<Button editable="true" height="15" href="http://www.helse-nord.no/skde/helseatlas/inngrep/" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Faktaark" tooltip="" width="130" x="5" y="123" />
-<Button editable="true" height="15" href="http://www.helse-nord.no/getfile.php/SKDE%20INTER/Helseatlas/data_grunnlag.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="130" x="5" y="145" />
-<Image anchor="left" css-class="ia-image" editable="true" height="63" id="___user_extra_48" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_48.png" target="_self" width="130" x="5" y="175" />
-<Text anchor="start" editable="true" fill="#00509E" font-family="Arial" font-size="24.0" font-style="normal" font-weight="bold" id="___user_extra_49" moveable="true" removeable="true" resizeable="true" rotate="0" target="_self" wrap-width="-1" x="141" y="10">Norsk nyfødtmedisinsk helseatlas, 2009-2014</Text>
+<Button editable="true" height="15" href="http://helseatlas.no/sites/default/files/norwegian-neonatal-healthcare.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
+<Button editable="true" height="15" href="http://helseatlas.no/en/about" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="About" tooltip="Read more about the Norwegian Neonatal Healthcare Atlas" width="65" x="720" y="6" />
+<Button editable="true" height="15" href="http://helseatlas.no/en/atlas/120/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Download factsheets" width="58" x="650" y="6" />
+<!--
+<Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/filer/felles/download_neonatal.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Download data" width="50" x="608" y="6" />
+<Button editable="true" height="15" id="___user_extra_50" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hospital Referral areas" tooltip="Definitions of the hospital referral areas" width="68" x="536" y="6" />
+-->
+<Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="414" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="5" y="28">
+	<Description>The data explorer component of the report.</Description>
+	<Property description="The title" id="title" name="Title" type="string" value="Maps" />
+	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(dataExplorer)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
+	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="100" />
+	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
+	<Property description="Hide the explorer on a selection?" id="hideOnSelection" name="Hide On Selection?" type="boolean" value="false" />
+	<Property description="Should dates be displayed?" id="showDates" name="Show Dates?" type="boolean" value="true" />
+	<Property description="Should dates be reversed?" id="reverseDates" name="Reverse Dates?" type="boolean" value="false" />
+	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
+</Component>
+<!--
+<Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/filer/felles/eldrehelseatlas_hjelp.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Help" tooltip="" width="50" x="732" y="6" />
+-->
+<Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="73" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="281" x="515" y="523">
+	<Description>The comparison that shows the user information about comparison data.</Description>
+	<Property description="The title" id="title" name="Title" type="string" value="National numbers - click on national rate for comparison" />
+	<Property description="Is it visible at start up? Use &apos;javascript:iaToggle(comparisonTable)&apos; to toggle visibility." id="visible" name="Visible At Startup?" type="boolean" value="true" />
+	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="0" />
+	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
+	<Property description="Can it be exported?" id="isExportable" name="Exportable?" type="boolean" value="false" />
+	<Property description="The name of the table column which will be sorted" id="sortColumnName" name="Sort Column Name" type="string" value="name" />
+	<Property description="Should the end user be allowed to sort columns" id="allowUserSorting" name="Allow User Sorting?" type="boolean" value="false" />
+	<Property choices="Ascending;Descending" description="Sort the table data ascending / descending" id="sortDirection" name="Sort Direction" type="string" value="Ascending" />
+	<Property description="The id of the colour scheme to use" id="colorSchemeId" name="Colour Scheme Name" type="string" value="categoricScheme6" />
+	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="false" />
+	<Column alias="Rate" name="value" width="0.15" />
+	<Column alias="Number" name="number" width="0.15" />
+	<Column alias="Born" name="born" width="0.15" />
+</Table>
+<Button editable="true" height="15" href="http://helseatlas.no/en/communicating-statistics-using-maps" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
+<Image anchor="left" editable="true" height="30" id="___user_extra_56" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_56.jpg" target="_self" width="119" x="9" y="506" />
+<Image anchor="left" editable="true" height="20" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54.jpg" target="_self" width="280" x="9" y="5" />
 </AtlasInterface>

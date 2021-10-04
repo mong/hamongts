@@ -6,7 +6,7 @@
 	{
 		"type":"base-layer",
 		"id":"_Nyfodt_4.shp1",
-		"name":"Boområder / Opptaksområder",
+		"name":"Nyfodt_4.shp",
 		"geometry":"polygon",
 		"url":"_Nyfodt_4.shp1.js",
 		"visible":true,
