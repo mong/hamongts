@@ -9,11 +9,9 @@ pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 
 # Hovedfunn for ulike pasientutvalg i barnehelseatlas
 
-
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert.
 
- 
- ## Primærhelsetjenesten - alle kontakter
+## Primærhelsetjenesten - alle kontakter
 
 Legekonsultasjoner for barn under 16 år dekkes i sin helhet av HELFO uten egenandel. Fastlegene har det primære ansvaret for legetjenester til barn og henviser videre til spesialisthelsetjenesten dersom fastlegen eller foreldrene ønsker en spesialistvurdering. Barn tilsees på legevakt utenom ordinær arbeidstid og legevaktene er ansvarlig for en stor del av øyeblikkelig hjelp-henvisninger til spesialisthelsetjenesten.
 
@@ -29,21 +27,15 @@ Antall konsultasjoner er høyest blant de yngste barna (under 4 år), og blant d
 
 **Figur:**  Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![prim\_kons1](/helseatlas/img/no/barn/prim\_kons1.png) 
-
- 
+![prim_kons1](/helseatlas/img/no/barn/prim_kons1.png)
 
 **Figur:** Konsultasjoner i primærhelsetjenesten, fastlege og legevakt, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![prim\_kons2](/helseatlas/img/no/barn/prim\_kons2.png) 
-
- 
+![prim_kons2](/helseatlas/img/no/barn/prim_kons2.png)
 
 **Figur:**  Konsultasjoner i primærhelsetjenesten, alder og kjønn, gj.snitt 2011-2014.
 
- ![prim\_kons3](/helseatlas/img/no/barn/prim\_kons3.png) 
-
- 
+![prim_kons3](/helseatlas/img/no/barn/prim_kons3.png)
 
 ### Kommentarer
 
@@ -53,10 +45,7 @@ Selv om variasjonen er liten er det grunn til å diskutere om det totale forbruk
 
 Primærlegeforbruket begrenses i svært liten grad av tilgjengelighet eller økonomi, og dette bidrar antakelig til det høye forbruket i primærhelsetjenesten i en presumptivt frisk barnebefolkning. Våre tall viser ingen tendens til at innsats i primærhelsetjenesten erstatter innsats i speialisthelsetjenesten.
 
-
-
-
- ## Spesialisthelsetjenesten - alle kontakter
+## Spesialisthelsetjenesten - alle kontakter
 
 Her beskrives det samlede forbruk av somatiske spesialisthelsetjenester til barn 0-16 år i en fireårsperiode. Alle polikliniske konsultasjoner, dagbehandlinger og innleggelser i norske sykehus og hos private spesialister med offentlig avtale inngår i tallene. Her framstilles altså helheten i spesialisthelsetjenesteforbruket for barn i Norge.
 
@@ -70,21 +59,15 @@ Forbruksraten er 40 % høyere i boområdet med høyest forbruk (Sørlandet) enn 
 
 **Figur:** Alle kontakter, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![spes\_kons1](/helseatlas/img/no/barn/spes\_kons1.png) 
-
- 
+![spes_kons1](/helseatlas/img/no/barn/spes_kons1.png)
 
 **Figur:** Alle kontakter, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![spes\_kons2](/helseatlas/img/no/barn/spes\_kons2.png) 
-
- 
+![spes_kons2](/helseatlas/img/no/barn/spes_kons2.png)
 
 **Figur:** Alle kontakter, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![spes\_kons3](/helseatlas/img/no/barn/spes\_kons3.png) 
-
- 
+![spes_kons3](/helseatlas/img/no/barn/spes_kons3.png)
 
 ### Kommentarer
 
@@ -92,10 +75,7 @@ Selv om variasjonen kan beskrives som moderat, vil det høye antallet kontakter 
 
 Det er viktig at barn med behov for medisinsk behandling får denne raskt og uhindret. Når mer enn 30 % av barna i alderen 0 - 16 år har minst en kontakt med spesialisthelsetjenesten hvert år, er det grunn til å spørre seg om dette forbruket gjenspeiler den faktiske sykeligheten. Det finnes ingen entydig definisjon av hva som er det faglig riktige nivået for bruk av helsetjenester til barn. Omfanget presentert her bør likevel reise spørsmål ved om det foreligger overforbruk av spesialisthelsetjenester til barn. Et overforbruk kan medføre medikalisering av barns oppvekst, og for noen barn og foreldre, etablering av en sykdomsidentitet som ikke harmonerer med barnets faktiske helsetilstand.
 
-
-
-
- ## Spesialisthelsetjenesten - innleggelser
+## Spesialisthelsetjenesten - innleggelser
 
 Forskrift om barns opphold i sykehus § 2 slår fast at barn “bare skal legges inn i helseinstitusjon når det er medisinsk nødvendig eller når det av andre grunner vil være best for barnet”. Sykehusinnleggelser innebærer imidlertid også en risiko for skader og komplikasjoner. Det tilsier at ingen barn bør innlegges i sykehus dersom behandlingen ikke forventes å gi bedring eller forebygge forverring i helsetilstanden.
 
@@ -109,21 +89,15 @@ Dersom alle boområder hadde hatt samme forbruksrate som booområdene for de sek
 
 **Figur:** Alle innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.
 
- ![totalt\_innleggelser1](/helseatlas/img/no/barn/totalt\_innleggelser1.png) 
-
- 
+![totalt_innleggelser1](/helseatlas/img/no/barn/totalt_innleggelser1.png)
 
 **Figur:** Alle innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![totalt\_innleggelser2](/helseatlas/img/no/barn/totalt\_innleggelser2.png) 
-
- 
+![totalt_innleggelser2](/helseatlas/img/no/barn/totalt_innleggelser2.png)
 
 **Figur:** Alle innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![totalt\_innleggelser3](/helseatlas/img/no/barn/totalt\_innleggelser3.png) 
-
- 
+![totalt_innleggelser3](/helseatlas/img/no/barn/totalt_innleggelser3.png)
 
 ### Kommentarer
 
@@ -131,10 +105,7 @@ Det er ikke holdepunkt for ulik sykelighet eller forskjeller i rammevilkår mell
 
 Variasjonen i forbruks- og pasientrater mellom boområder er betydelig. Det kan stilles spørsmål om intensjonen i forskrift om barns opphold i sykehus oppfylles.
 
-
-
-
- ## Spesialisthelsetjenesten - poliklinikk/dag
+## Spesialisthelsetjenesten - poliklinikk/dag
 
 De fleste tilstander hos barn med behov for vurdering i spesialisthelsetjenesten, både kirurgiske og medisinske, kan behandles ved konsultasjoner i poliklinikk eller som dagbehandling. Astma, innsetting av øredren, behandling av barn med kroniske tarmlidelser og cellegiftbehandling ved kreft er eksempler på tilstander som oftest behandles ved poliklinikk eller som dagbehandling. I tillegg kommer andre tilstander der primærleger ser behov for vurdering i spesialisthelsetjenesten.
 
@@ -150,30 +121,21 @@ Tretti prosent av alle norske barn har årlig en eller flere konsultasjoner i sp
 
 **Figur:** All poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![totalt\_poli1](/helseatlas/img/no/barn/totalt\_poli1.png) 
-
- 
+![totalt_poli1](/helseatlas/img/no/barn/totalt_poli1.png)
 
 **Figur:** All poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![totalt\_poli2](/helseatlas/img/no/barn/totalt\_poli2.png) 
-
- 
+![totalt_poli2](/helseatlas/img/no/barn/totalt_poli2.png)
 
 **Figur:** All poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![totalt\_poli3](/helseatlas/img/no/barn/totalt\_poli3.png) 
-
- 
+![totalt_poli3](/helseatlas/img/no/barn/totalt_poli3.png)
 
 ### Kommentarer
 
 Med bakgrunn i ovenstående finner vi grunn til å spørre om det foreligger uønsket variasjon i forbruksratene. Det er relativt stor variasjon både i hvor mange pasienter som behandles og i hvor mange konsultasjoner hver pasient gjennomsnittlig får, mellom boområdene. Hvorvidt dette indikerer et overforbruk av spesialisthelsetjenester til barn, bør diskuteres i fagmiljøene.
 
-
-
-
- ## Medisinske tilstander - alle kontakter
+## Medisinske tilstander - alle kontakter
 
 Noen barn har sykdommer som vil påvirke deres helse for resten av levetiden, som kreft, diabetes, utviklingsforstyrrelser, sjeldne stoffskiftesykdommer og medfødte misdannelser. For disse og lignende sykdomsgrupper er god oppfølging og behandling av avgjørende betydning for både livslengde og livskvalitet, og de bør sikres høy prioritet og tilgang til nødvendige ressurser. Imidlertid er alvorlig eller livstruende sykdom sjelden, og norske barn er generelt blant de friskeste barnebefolkninger i verden. Mange symptomer blir bedre eller forsvinner med tiden også uten behandling.
 
@@ -189,30 +151,21 @@ Poliklinikk og dagbehandling utgjør 93 % av alle pasientkontakter, men innlegge
 
 **Figur:** Alle kontakter, medisinske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![pediatri\_totalt1](/helseatlas/img/no/barn/pediatri\_totalt1.png) 
-
- 
+![pediatri_totalt1](/helseatlas/img/no/barn/pediatri_totalt1.png)
 
 **Figur:** Alle kontakter, medisinske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![pediatri\_totalt2](/helseatlas/img/no/barn/pediatri\_totalt2.png) 
-
- 
+![pediatri_totalt2](/helseatlas/img/no/barn/pediatri_totalt2.png)
 
 **Figur:** Alle kontakter, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![pediatri\_totalt3](/helseatlas/img/no/barn/pediatri\_totalt3.png) 
-
- 
+![pediatri_totalt3](/helseatlas/img/no/barn/pediatri_totalt3.png)
 
 ### Kommentarer
 
 Med bakgrunn i volumet og variasjonen i forbruksratene er det grunn til å diskutere om forbruket av spesialisthelsetjenester til barn står i forhold til sykeligheten.
 
-
-
-
- ## Medisinske tilstander - innleggelser
+## Medisinske tilstander - innleggelser
 
 Medisinske sykehusinnleggelser hos barn brukes ved tilstander hvor pasienten ikke opereres og i hovedsak vurderes og behandles av spesialister i barnemedisin. De fleste barn som innlegges på sykehus kommer til egne barneavdelinger, men i noen områder med lang vei til barneavdeling som i Nordland og Troms legges barn også inn på voksenmedisinske avdelinger ved nærmeste lokalsykehus. Hyppige årsaker til innleggelser av barn er luftveisinfeksjoner, oppkast og diare, diabetes og epilepsi.
 
@@ -228,21 +181,15 @@ I boområde Vestfold er det dobbelt så mange sykehusinnleggelser og dobbelt så
 
 **Figur:** Medisinske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.
 
- ![pediatri\_innleggelser1](/helseatlas/img/no/barn/pediatri\_innleggelser1.png) 
-
- 
+![pediatri_innleggelser1](/helseatlas/img/no/barn/pediatri_innleggelser1.png)
 
 **Figur:** Medisinske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![pediatri\_innleggelser2](/helseatlas/img/no/barn/pediatri\_innleggelser2.png) 
-
- 
+![pediatri_innleggelser2](/helseatlas/img/no/barn/pediatri_innleggelser2.png)
 
 **Figur:** Medisinsk innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![pediatri\_innleggelser3](/helseatlas/img/no/barn/pediatri\_innleggelser3.png) 
-
- 
+![pediatri_innleggelser3](/helseatlas/img/no/barn/pediatri_innleggelser3.png)
 
 ### Kommentarer
 
@@ -250,10 +197,7 @@ Boområdene Vestre Viken og Vestfold er naboområder med barneavdelinger i henho
 
 Dersom alle boområdene hadde hatt samme forbruksrate som boområdene til de seks universitetssykeheusene, ville antall medisinske innleggelser blitt redusert med 6 500 (15 %). Det er grunn til å spørre om det foreligger uønsket variasjon i barnemedisinske innleggelser mellom boområdene.
 
-
-
-
- ## Medisinske tilstander - poliklinikk/dag
+## Medisinske tilstander - poliklinikk/dag
 
 De fleste barn med medisinske tilstander behandles poliklinisk i barneavdelinger eller av spesialister med offentlig driftsavtale. Barneavdelinger med geografisk store opptaksområder har ofte en ambulerende tjeneste hvor barnelege fra barneavdelingen reiser til områder langt unna for å kunne tilby en mest mulig likeverdig spesialisthelsetjeneste uavhengig av bosted.
 
@@ -267,21 +211,15 @@ I boområdene Førde og Møre og Romsdal gjennomføres henholdsvis 3 % og 4 % av
 
 **Figur:** Poliklinikk/dagbehandling, medisinske tilstander, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![med\_poli1](/helseatlas/img/no/barn/med\_poli1.png) 
-
- 
+![med_poli1](/helseatlas/img/no/barn/med_poli1.png)
 
 **Figur:** Poliklinikk/dagbehandling, medisinske tilstander, offentlig og privat, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![med\_poli2](/helseatlas/img/no/barn/med\_poli2.png) 
-
- 
+![med_poli2](/helseatlas/img/no/barn/med_poli2.png)
 
 **Figur:** Poliklinikk/dagbehandling, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![med\_poli3](/helseatlas/img/no/barn/med\_poli3.png) 
-
- 
+![med_poli3](/helseatlas/img/no/barn/med_poli3.png)
 
 ### Kommentarer
 
@@ -291,10 +229,7 @@ Noen pasientgrupper trenger hyppig kontroll, som f.eks kreftpasienter i aktiv be
 
 De færreste symptomer hos barn er uttrykk for alvorlig sykdom og mye går over uten behandling. Det er grunn til å spørre om det totale volumet av poliklinikk og dagbehandling for medisinske tilstander til barn representerer et overforbruk, uten ledsagende helsegevinst.
 
-
-
-
- ## Utvalgte akutte diagnoser
+## Utvalgte akutte diagnoser
 
 68 % av alle medisinske innleggelser for barn skjer som øyeblikkelig hjelp. De fleste av disse henvises fra legevakt eller primærlege. Ved henvisning til sykehus har sykehusavdelingen et selvstendig ansvar for å vurdere om det er medisinsk grunnlag for innleggelse, eller om pasienten kan sendes hjem etter poliklinisk vurdering. Kontakter med akutte diagnoser kan tolkes som øyeblikkelig hjelp-henvisninger fra primærhelsetjenesten og brukes her for å belyse variasjon i samhandlingen mellom primær- og spesialisthelsetjenesten, samt geografisk variasjon i vurdering av behovet for øyeblikkelig hjelp-innleggelser.
 
@@ -312,24 +247,17 @@ Et annet mønster finner man i forbruksratene for innleggelser. Boområdene Vest
 
 **Figur:** Alle kontakter, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![akutt1](/helseatlas/img/no/barn/akutt1.png) 
-
- 
+![akutt1](/helseatlas/img/no/barn/akutt1.png)
 
 **Figur:** Innleggelser, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![akutt2](/helseatlas/img/no/barn/akutt2.png) 
-
- 
+![akutt2](/helseatlas/img/no/barn/akutt2.png)
 
 ### Kommentarer
 
 Antall henvisninger for vurdering av øyeblikkelig hjelp fra primær- til spesialisthelsetjenesten tyder på liten sammenheng med antall øyeblikkelig hjelp-innleggelser. Variasjonen i forbruksratene viser også at vurderingen av behovet for øyeblikkelig hjelp-innleggelser ikke er lik mellom boområdene. Mønsteret for forbruksraten for ø-hjelpsinnleggelser mellom boområdene følger i store trekk mønsteret for forbruksraten for alle innleggelser med medisinske tilstander.
 
-
-
-
- ## Epilepsi - innleggelser
+## Epilepsi - innleggelser
 
 Epilepsi representerer et stort sykdomsspekter hos barn. Noen har hatt bare ett eller to anfall og får ikke fast medikamentell behandling. Andre har kompliserte og sammensatte tilstander hvor epilepsi kan være bare et av flere symptomer på barnets underliggende sykdom. Mange barn kan følges poliklinisk. Hos barn med vanskelig regulerbar epilepsi vil det likevel være nødvendig med ø-hjelpsinnleggelser ved anfall og planlagte innleggelser for justering av medikamenter og tverrfaglige vurderinger av barnets medisinske og sosiale situasjon og funksjonsnivå.
 
@@ -345,30 +273,21 @@ Det er ingen systematisk endring i forbruksratene fra 2011 til 2014.
 
 **Figur:** Epilepsi, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![ped\_epilepsi1](/helseatlas/img/no/barn/ped\_epilepsi1.png) 
-
- 
+![ped_epilepsi1](/helseatlas/img/no/barn/ped_epilepsi1.png)
 
 **Figur:** Epilepsi, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![ped\_epilepsi2](/helseatlas/img/no/barn/ped\_epilepsi2.png) 
-
- 
+![ped_epilepsi2](/helseatlas/img/no/barn/ped_epilepsi2.png)
 
 **Figur:** Epilepsi, innleggelse, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![ped\_epilepsi3](/helseatlas/img/no/barn/ped\_epilepsi3.png) 
-
- 
+![ped_epilepsi3](/helseatlas/img/no/barn/ped_epilepsi3.png)
 
 ### Kommentarer
 
 Det er ingen kjente forskjeller i sykelighet som forklarer variasjonen. Det er grunn til å spørre om det foreligger uønsket variasjon i forbruks- og pasientrate mellom boområdene.
 
-
-
-
- ## Forstoppelse (obstipasjon) - innleggelser
+## Forstoppelse (obstipasjon) - innleggelser
 
 Treg avføring og forstoppelse er i perioder et normalfenomen hos mange barn. Hos noen barn blir dette imidlertid kronisk og fører til vondt i magen, paradoksal diare med lekkasje av avføring, vanskeligheter med å spise og generell mistrivsel. Årsakene til kronisk forstoppelse kan være sykdommer og misdannelser i tarmene så vel som psykososiale forhold og ernæring. Behandlingen innebærer bruk av avførende medikamenter og klyster samt veiledning om ernæring. For de fleste lykkes man med dette hos fastlege eller i poliklinikk, men noen barn har behov for innleggelse for fullstendig tømming. Barn legges også inn for utredning med uklare symptomer i mageregionen som gjerne ender med diagnosen forstoppelse.
 
@@ -382,30 +301,21 @@ Barn med forstoppelse bosatt i boområde Sørlandet legges inn 3,9 ganger hyppig
 
 **Figur:** Forstoppelse, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![pediatri\_obstipasjon1](/helseatlas/img/no/barn/pediatri\_obstipasjon1.png) 
-
- 
+![pediatri_obstipasjon1](/helseatlas/img/no/barn/pediatri_obstipasjon1.png)
 
 **Figur:** Forstoppelse, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![pediatri\_obstipasjon2](/helseatlas/img/no/barn/pediatri\_obstipasjon2.png) 
-
- 
+![pediatri_obstipasjon2](/helseatlas/img/no/barn/pediatri_obstipasjon2.png)
 
 **Figur:** Forstoppelse, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![pediatri\_obstipasjon3](/helseatlas/img/no/barn/pediatri\_obstipasjon3.png) 
-
- 
+![pediatri_obstipasjon3](/helseatlas/img/no/barn/pediatri_obstipasjon3.png)
 
 ### Kommentarer
 
 Forstoppelse er en tilstand hvor det kan være hensiktsmessig å innlegge noen barn for planlagt tømming av tarmen med klyster før det blir behov for akutt innleggelse. Det er derfor ikke gitt hvilket nivå forbruksratene for innleggelser eller poliklinikk/dag bør ha, eller hvilken ø-hjelpsandel som gir den optimale balansen. Det er verd å merke seg at flere foretak, blant annet Sørlandet sykehus HF, Sykehuset Østfold og Vestre Viken HF, har utviklet kunnskapsbaserte behandlingslinjer for denne pasientgruppen. På tross av det varierer forbruksratene betydelig, også mellom disse boområdene. Dette kan imidlertid også henge sammen med at innleggelser knyttet til uklare magesmerter kan ende opp med diagnosen forstoppelse.
 
-
-
-
- ## Bronkiolitt, 0-3 år - innleggelser
+## Bronkiolitt, 0-3 år - innleggelser
 
 Bronkiolitt er en betennelsestilstand i de perifere luftveier forårsaket av virus hos små barn. Mange barn klarer seg uten innleggelse i sykehus, men spesielt hos de aller yngste barna kan tilstanden gi alvorlig pustebesvær med behov for ekstra oksygen og pustestøtte. Antibiotika har ingen effekt på virusinfeksjonen. Studier har vist at langvarige sykehusopphold med overvåkning og inhalasjonsbehandling ikke gir bedre behandlingsresultat sammenlignet med mindre behandling over kortere tid.
 
@@ -419,30 +329,21 @@ Forbruksraten i boområde Innlandet er 2,6 ganger høyere enn forbruksraten i bo
 
 **Figur:** Bronkiolitt, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![pediatri\_bronkiolitt1](/helseatlas/img/no/barn/pediatri\_bronkiolitt1.png) 
-
- 
+![pediatri_bronkiolitt1](/helseatlas/img/no/barn/pediatri_bronkiolitt1.png)
 
 **Figur:** Bronkiolitt, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, gj.snitt 2011-2014.
 
- ![pediatri\_bronkiolitt2](/helseatlas/img/no/barn/pediatri\_bronkiolitt2.png) 
-
- 
+![pediatri_bronkiolitt2](/helseatlas/img/no/barn/pediatri_bronkiolitt2.png)
 
 **Figur:** Bronkiolitt, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![pediatri\_bronkiolitt3](/helseatlas/img/no/barn/pediatri\_bronkiolitt3.png) 
-
- 
+![pediatri_bronkiolitt3](/helseatlas/img/no/barn/pediatri_bronkiolitt3.png)
 
 ### Kommentarer
 
 Forekomsten av luftveisvirus som gir bronkiolitt varierer over tid og geografi, men denne variasjonen vil sannsynligvis utjevnes når vi ser på fireårsperioden samlet. Det er dermed lite sannsynlig at den påviste variasjonen i forbruksrate mellom boområdene skyldes forskjeller i sykelighet. Det er grunn til å reise spørsmål ved om det foreligger uønsket variasjon i forbruksrater for innleggelser mellom boområdene.
 
-
-
-
- ## Virus- og luftveisinfeksjoner - innleggelser
+## Virus- og luftveisinfeksjoner - innleggelser
 
 Infeksjoner er en viktig årsak til innleggelser i norske barneavdelinger. Vi beskriver her omfang og variasjon av hovedsakelig virusinfeksjoner (unntatt omgangssyke), men også noen bakterielle luftveisinfeksjoner. De fleste infeksjoner beskrevet i dette utvalget er selvbegrensende og går over uten antibiotikabehandling, men de kan påvirke barnets almenntilstand i en grad som krever støttende behandling med intravenøs væske og ernæring eller oksygenbehandling/pustehjelp.
 
@@ -458,30 +359,21 @@ Det er en tendens til fallende innleggelsesrater fra 2011 til 2014, spesielt i b
 
 **Figur:** Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![pediatri\_luftvei1](/helseatlas/img/no/barn/pediatri\_luftvei1.png) 
-
- 
+![pediatri_luftvei1](/helseatlas/img/no/barn/pediatri_luftvei1.png)
 
 **Figur:** Virus- og luftveisinfeksjoner, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, gj.snitt 2011-2014.
 
- ![pediatri\_luftvei2](/helseatlas/img/no/barn/pediatri\_luftvei2.png) 
-
- 
+![pediatri_luftvei2](/helseatlas/img/no/barn/pediatri_luftvei2.png)
 
 **Figur:** Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![pediatri\_luftvei3](/helseatlas/img/no/barn/pediatri\_luftvei3.png) 
-
- 
+![pediatri_luftvei3](/helseatlas/img/no/barn/pediatri_luftvei3.png)
 
 ### Kommentarer
 
 Det er ingen kjente forskjeller i sykelighet eller rammevilkår mellom boområder som forklarer variasjonen. Det synes å være en trend i retning av lavere forbruksrater i boområder som i starten av perioden hadde de høyeste ratene, men det er fortsatt grunn til å spørre om det ennå foreligger uønsket variasjon i forbruket i ulike boområder.
 
-
-
-
- ## Omgangssyke - innleggelser
+## Omgangssyke - innleggelser
 
 Virusinfeksjoner i mage-tarmsystemet med oppkast, diare og magesmerter er en viktig årsak til sykehusinnleggelser av barn. Tilstanden er mye hyppigere om vinteren enn om sommeren og dette bidrar vesentlig til den store sesongvariasjonen i innleggelser på norske barneavdelinger. Det er mange ulike virus som gir opphav til det samme symptombildet. Adeno-, Noro- og Rotavirus er blant de vanligste. Det finnes ingen virksom behandling mot disse virusene, men dersom barnet ikke klarer å ta til seg væske vil det være behov for væskebehandling enten via sonde til magen eller intravenøst. Vaksine mot Rotavirus ble innført i 2014 med begrunnelse at det ville redusere omfanget av denne typen infeksjoner og innleggelser i sykehus.
 
@@ -499,30 +391,21 @@ Man ser en tendens til fallende innleggelsesrater fra 2011 til 2014.
 
 **Figur:** Omgangssyke, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![omgang\_innl1](/helseatlas/img/no/barn/omgang\_innl1.png) 
-
- 
+![omgang_innl1](/helseatlas/img/no/barn/omgang_innl1.png)
 
 **Figur:** Omgangssyke, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![omgang\_innl2](/helseatlas/img/no/barn/omgang\_innl2.png) 
-
- 
+![omgang_innl2](/helseatlas/img/no/barn/omgang_innl2.png)
 
 **Figur:** Omgangssyke, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![omgang\_innl3](/helseatlas/img/no/barn/omgang\_innl3.png) 
-
- 
+![omgang_innl3](/helseatlas/img/no/barn/omgang_innl3.png)
 
 ### Kommentarer
 
 Det er ingen kjente forskjeller i sykelighet eller rammevilkår som kan forklare variasjonen mellom boområdene. Det synes å være en trend i retning av lavere forbruksrater for omgangssyke i perioden. Det er likevel grunn til å spørre om det foreligger uønsket variasjon mellom boområdene.
 
-
-
-
- ## Epilepsi - poliklinikk/dag
+## Epilepsi - poliklinikk/dag
 
 Epilepsi er en tilstand med et bredt spekter av sykdomsbilder. Noen pasienter har lite symptomer eller lette anfall, mens andre pasienter kan ha komplekse og vanskelig kontrollerbare anfall som gir store funksjonshemminger og hjelpebehov. De fleste barn med epilepsi diagnostiseres og kontrolleres av en barnelege med spesialkompetanse i nevrologi og epilepsi.
 
@@ -538,32 +421,21 @@ Det synes ikke være noen klar sammenheng mellom forbruksrater for poliklinikk o
 
 **Figur:** Epilepsi, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![epilepsi\_poli1](/helseatlas/img/no/barn/epilepsi\_poli1.png) 
-
- 
+![epilepsi_poli1](/helseatlas/img/no/barn/epilepsi_poli1.png)
 
 **Figur:** Epilepsi, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![epilepsi\_poli2](/helseatlas/img/no/barn/epilepsi\_poli2.png) 
-
- 
+![epilepsi_poli2](/helseatlas/img/no/barn/epilepsi_poli2.png)
 
 **Figur:** Epilepsi, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![epilepsi\_poli3](/helseatlas/img/no/barn/epilepsi\_poli3.png) 
-
- 
+![epilepsi_poli3](/helseatlas/img/no/barn/epilepsi_poli3.png)
 
 ### Kommentarer
 
 Det er ikke holdepunkter for at det finnes forskjeller i sykelighet eller andre rammevilkår som forklarer variasjonen. Det er grunn til å spørre om det er en uønsket variasjon i forbruksratene for polikliniske konsultasjoner for epilepsi.
 
- 
-
-
-
-
- ## Forstoppelse (obstipasjon) - poliklinikk/dag
+## Forstoppelse (obstipasjon) - poliklinikk/dag
 
 Treg avføring og forstoppelse er i perioder et normalfenomen hos mange barn. Hos noen barn blir dette imidlertid kronisk og fører til vondt i magen, paradoksal diare med lekkasje av avføring, vanskeligheter med å spise og generell mistrivsel. Årsakene til kronisk forstoppelse kan være sykdommer og misdannelser i tarmene så vel som psykososiale forhold og ernæring. Behandlingen innebærer bruk av avførende medikamenter og klyster samt veiledning om ernæring. For de fleste lykkes man med dette hos fastlege eller i poliklinikk, men noen barn har behov for innleggelse for fullstendig tømming.
 
@@ -579,30 +451,21 @@ Forstoppelse er en tilstand der tidlig intervensjon kan være viktig og både he
 
 **Figur:** Forstoppelse, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![obstipasjon\_poli1](/helseatlas/img/no/barn/obstipasjon\_poli1.png) 
-
- 
+![obstipasjon_poli1](/helseatlas/img/no/barn/obstipasjon_poli1.png)
 
 **Figur:** Forstoppelse, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![obstipasjon\_poli2](/helseatlas/img/no/barn/obstipasjon\_poli2.png) 
-
- 
+![obstipasjon_poli2](/helseatlas/img/no/barn/obstipasjon_poli2.png)
 
 **Figur:** Forstoppelse, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![obstipasjon\_poli3](/helseatlas/img/no/barn/obstipasjon\_poli3.png) 
-
- 
+![obstipasjon_poli3](/helseatlas/img/no/barn/obstipasjon_poli3.png)
 
 ### Kommentarer
 
 To av boområdene har vesentlig høyere forbruks- og pasientrater enn de andre, men selv når disse holdes utenfor er det betydelig variasjon mellom boområdene. Boområde Østfold, som har den tredje høyeste forbruksraten, har dobbelt så høyt forbruk som boområde Finnmark, som har den tredje laveste forbruksraten. Det er ikke gitt hva som er riktig nivå for forbruk av helsetjenester til barn med forstoppelse, men den geografiske variasjonen er stor.
 
-
-
-
- ## Astma - poliklinikk/dag
+## Astma - poliklinikk/dag
 
 Astma er en kronisk betennelsestilstand i luftveiene som kan utløses av ulike faktorer. Tidligere var astma en sykdom som ofte førte til sykehusinnleggelser og også noen dødsfall hos både barn og voksne. Nye medikamenter har endret livet for mange astmabarn. Mange barn med astma kan følges opp av allmennlege, og det er ikke uvanlig at barn vokser av seg sykdommen i løpet av barneårene.
 
@@ -618,21 +481,15 @@ Mens kontaktfrekvensen i de fem boområdene med høy andel privat aktivitet er m
 
 **Figur:** Astma, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![astma1](/helseatlas/img/no/barn/astma1.png) 
-
- 
+![astma1](/helseatlas/img/no/barn/astma1.png)
 
 **Figur:** Astma, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![astma2](/helseatlas/img/no/barn/astma2.png) 
-
- 
+![astma2](/helseatlas/img/no/barn/astma2.png)
 
 **Figur:**  Astma, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![astma3](/helseatlas/img/no/barn/astma3.png) 
-
- 
+![astma3](/helseatlas/img/no/barn/astma3.png)
 
 ### Kommentarer
 
@@ -640,10 +497,7 @@ Norske studier gir ikke grunnlag for å anta at variasjonen skyldes ulik astmafo
 
 Med bakgrunn i den store variasjonen kan man ikke utelukke at det foreligger både et overforbruk og et underforbruk av spesialishelsetjenester til barn med astma. Det kan se ut til at private spesialister har en noe annen praksis enn sykehuspoliklinikker for oppfølging av barn med astma. Det kan videre være hensiktsmessig å diskutere hvilken rolle fastlegene skal ha i behandlingen av astma hos barn.
 
-
-
-
- ## Hjertemedisin - poliklinikk/dag
+## Hjertemedisin - poliklinikk/dag
 
 Omlag 1 % av alle barn fødes med en hjertefeil. Hos 40-50 % av barna blir feilen borte av seg selv uten medisinsk behandling. Cirka 1/3 må opereres og en andel av disse igjen har komplekse hjertefeil med en anatomi som avviker sterkt fra det normale. Fagområdet omfatter også barn som utvikler hjerterytmeforstyrrelser samt sjeldne sykdommer i hjertemuskelen. I tillegg henvises barn for å få avklart bilyder på hjertet. Bilyd på hjertet oppdages ofte tilfeldig ved undersøkelse hos barn uten andre symptomer på hjertesykdom.
 
@@ -659,21 +513,15 @@ Forbruksraten i boområde Førde er 2,2 ganger høyere enn raten for boområde V
 
 **Figur:** Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![kardiologi1](/helseatlas/img/no/barn/kardiologi1.png) 
-
- 
+![kardiologi1](/helseatlas/img/no/barn/kardiologi1.png)
 
 **Figur:** Hjertemedisin, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![kardiologi2](/helseatlas/img/no/barn/kardiologi2.png) 
-
- 
+![kardiologi2](/helseatlas/img/no/barn/kardiologi2.png)
 
 **Figur:** Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![kardiologi3](/helseatlas/img/no/barn/kardiologi3.png) 
-
- 
+![kardiologi3](/helseatlas/img/no/barn/kardiologi3.png)
 
 ### Kommentarer
 
@@ -681,10 +529,7 @@ Barnehjerteseksjonen ved OUS står i en særstilling nasjonalt med et stort fagm
 
 Det er relativt stor variasjon i forbruksrater for polikliniske konsultasjoner i barnehjertemedisin. Det bør innledes en faglig diskusjon både blant primærleger og barneleger om hvorvidt ultralydundersøkelse for å avklare bilyder hos ellers friske og symptomfrie barn er en påkrevd undersøkelse.
 
-
-
-
- ## Mage- og tarmsykdommer - poliklinikk/dag
+## Mage- og tarmsykdommer - poliklinikk/dag
 
 Symptomer fra mage- og tarmsystemet er svært alminnelige og utgjør en betydelig andel av konsultasjonene ved spesialistpoliklinikker for barn. De fleste symptomer er forbigående eller ufarlige og trenger ikke behandling. Andre ganger er symptomene uttrykk for relativt sjeldne sykdommer i mage og tarm som i betydelig grad påvirker barnets livskvalitet og helse. Eksempler på slike sykdommer er kroniske tarmbetennelser og cøliaki.
 
@@ -700,30 +545,21 @@ Sørlandet har den høyeste forbruksraten og er også det boområdet med størst
 
 **Figur:** Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![gastroenterologi1](/helseatlas/img/no/barn/gastroenterologi1.png) 
-
- 
+![gastroenterologi1](/helseatlas/img/no/barn/gastroenterologi1.png)
 
 **Figur:** Mage- og tarmsykdommer, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![gastroenterologi2](/helseatlas/img/no/barn/gastroenterologi2.png) 
-
- 
+![gastroenterologi2](/helseatlas/img/no/barn/gastroenterologi2.png)
 
 **Figur:** Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![gastroenterologi3](/helseatlas/img/no/barn/gastroenterologi3.png) 
-
- 
+![gastroenterologi3](/helseatlas/img/no/barn/gastroenterologi3.png)
 
 ### Kommentarer
 
 Det er ingen holdepunkter for forskjeller i sykelighet mellom boområder, og det er dermed grunn til å spørre om det foreligger uønsket variasjon i forbruk av polikliniske konsultasjoner for sykdommer i mage-tarmsystemet.
 
-
-
-
- ## Sengevæting og urinlekkasje - poliklinikk/dag
+## Sengevæting og urinlekkasje - poliklinikk/dag
 
 Sengevæting er å anse som normalt opp til 6-7 års alder og er noe de fleste vokser av seg. Fem til ti prosent av alle barn tisser fortsatt i sengen minst en natt pr. uke ved 6-7 års alder. Urinlekkasje på dagtid er noe oftere forbundet med sykelige prosesser i urinveier eller nervesystem, selv om umodenhet er den vanligste årsaken. Dersom ikke symptomene tilsier det, anbefaler man ikke henvisning til spesialist før i 6-7 årsalderen.
 
@@ -737,21 +573,15 @@ Kontaktfrekvensen varierer fra 1,29 i boområde Telemark til 2,74 i boområde Be
 
 **Figur:** Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![urologi1](/helseatlas/img/no/barn/urologi1.png) 
-
- 
+![urologi1](/helseatlas/img/no/barn/urologi1.png)
 
 **Figur:** Sengevæting og urinlekkasje, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![urologi2](/helseatlas/img/no/barn/urologi2.png) 
-
- 
+![urologi2](/helseatlas/img/no/barn/urologi2.png)
 
 **Figur:** Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![urologi3](/helseatlas/img/no/barn/urologi3.png) 
-
- 
+![urologi3](/helseatlas/img/no/barn/urologi3.png)
 
 ### Kommentarer
 
@@ -759,10 +589,7 @@ Forskjellene i forbruks- og pasientrater er for store til at de bare kan skyldes
 
 Det synes å foreligge uønsket variasjon i forbruk av polikliniske konsultasjoner for sengevæting og urininkontinens. Det er også grunn til å stille spørsmål ved om det forekommer et overforbruk i boområdene med de høyeste forbruksratene.
 
-
-
-
- ## Kirurgiske tilstander -  alle kontakter
+## Kirurgiske tilstander -  alle kontakter
 
 Kirurgiske tilstander omfatter behandling av medfødte misdannelser i ulike organer, brudd og skader, blindtarmbetennelse, feilutviklinger i muskel- og skjelettsystemet, sykdommer i øre-nese-halsområdet og i sentralnervesystemet. Kirurgisk behandling av barn utføres av alle kirurgiske spesialiteter. Spesialiteten barnekirurgi finnes bare på St. Olavs hospital og ved Oslo universitetssykehus. Der behandles barn med medfødte misdannelser i mage og tarm, lunger, urinveier, akutte tilstander hos nyfødte samt kreft som krever operasjon. De fleste barn behandles imidlertid av kirurger tilknyttet kirurgiske avdelinger for voksne.
 
@@ -778,30 +605,21 @@ Poliklinikk og dagbehandling utgjør 94 % av alle kirurgiske pasientkontakter. B
 
 **Figur:** Alle kontakter, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![kirurgi\_totalt1](/helseatlas/img/no/barn/kirurgi\_totalt1.png) 
-
- 
+![kirurgi_totalt1](/helseatlas/img/no/barn/kirurgi_totalt1.png)
 
 **Figur:** Alle kontakter, kirurgiske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![kirurgi\_totalt2](/helseatlas/img/no/barn/kirurgi\_totalt2.png) 
-
- 
+![kirurgi_totalt2](/helseatlas/img/no/barn/kirurgi_totalt2.png)
 
 **Figur:** Alle kontakter, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![kirurgi\_totalt3](/helseatlas/img/no/barn/kirurgi\_totalt3.png) 
-
- 
+![kirurgi_totalt3](/helseatlas/img/no/barn/kirurgi_totalt3.png)
 
 ### Kommentarer
 
 Det er ingen kjente forskjeller i sykelighet mellom boområdene. Det er grunn til å spørre om det foreligger uønsket variasjon i forbruket av kirurgisk behandling til barn.
 
-
-
-
- ## Kirurgiske tilstander - innleggelser
+## Kirurgiske tilstander - innleggelser
 
 Kirurgisk behandling av barn omfatter blant annet behandling av medfødte misdannelser, brudd og skader, feilutviklinger i muskel- og skjelettsystemet og fjerning av mandler og blindtarm. Kirurgisk behandling av barn utføres av ulike kirurgiske spesialiteter og innleggelse av barn til kirurgisk behandling skjer både i barneavdelinger og i kirurgiske sengeposter for voksne.
 
@@ -817,21 +635,15 @@ Det er ikke holdepunkter for ulik sykelighet eller ulikheter i rammevilkår mell
 
 **Figur:** Kirurgiske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.
 
- ![kirurgi\_innleggelser1](/helseatlas/img/no/barn/kirurgi\_innleggelser1.png) 
-
- 
+![kirurgi_innleggelser1](/helseatlas/img/no/barn/kirurgi_innleggelser1.png)
 
 **Figur:** Kirurgiske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![kirurgi\_innleggelser2](/helseatlas/img/no/barn/kirurgi\_innleggelser2.png) 
-
- 
+![kirurgi_innleggelser2](/helseatlas/img/no/barn/kirurgi_innleggelser2.png)
 
 **Figur:** Kirurgiske innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kirurgiske innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
 
- ![kirurgi\_innleggelser3](/helseatlas/img/no/barn/kirurgi\_innleggelser3.png) 
-
- 
+![kirurgi_innleggelser3](/helseatlas/img/no/barn/kirurgi_innleggelser3.png)
 
 ### Kommentarer
 
@@ -839,10 +651,7 @@ De fem boområdene som har høyest forbruksrate har alle utfordrende geografiske
 
 Dersom alle boområdene hadde samme forbrukssrate som referanseverdien (forbruksraten for bosatte i de seks boområdene med universitetssykehus) ville antallet innleggelser pr. år kunne reduseres med 1 500 (9 %).
 
-
-
-
- ## Kirurgiske tilstander - poliklinikk/dag
+## Kirurgiske tilstander - poliklinikk/dag
 
 Poliklinikk- og dagbehandling av barn med kirurgiske tilstander utføres av øre-nese-halsleger, øyeleger, ortopeder og kirurger innen ulike kirurgiske spesialiteter. I alle boområdene er det i tillegg til sykehuspoliklinikker også privatpraktiserende spesialister innen flere av de kirurgiske fagområdene. Mye av den kirurgiske poliklinikk- og dagvirksomheten til barn dreier seg om behandling av skader, men også innsetting av øredren, fjerning av mandler og kontroll etter kirurgi for medfødte misdannelser utføres ved kirurgiske poliklinikker.
 
@@ -858,30 +667,21 @@ Mellom 7 % og 36 % av alle kirurgiske konsultasjoner foregår hos spesialister m
 
 **Figur:** Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![kirurgi\_poliklinikk1](/helseatlas/img/no/barn/kirurgi\_poliklinikk1.png) 
-
- 
+![kirurgi_poliklinikk1](/helseatlas/img/no/barn/kirurgi_poliklinikk1.png)
 
 **Figur:** Poliklinikk/dagbehandling, kirurgiske tilstander, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![kirurgi\_poliklinikk2](/helseatlas/img/no/barn/kirurgi\_poliklinikk2.png) 
-
- 
+![kirurgi_poliklinikk2](/helseatlas/img/no/barn/kirurgi_poliklinikk2.png)
 
 **Figur:** Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
 
- ![kirurgi\_poliklinikk3](/helseatlas/img/no/barn/kirurgi\_poliklinikk3.png) 
-
- 
+![kirurgi_poliklinikk3](/helseatlas/img/no/barn/kirurgi_poliklinikk3.png)
 
 ### Kommentarer
 
 Variasjonen i forbruks- og pasientrater er ikke ubetydelig og bør være utgangspunkt for videre studier og diskusjon i fagmiljøene.
 
-
-
-
- ## Fjerning av mandler - kirurgi
+## Fjerning av mandler - kirurgi
 
 Fjerning av mandler er en av de vanligste operasjonene som utføres på barn. Operasjonen kan i henhold til retningslinjer utføres ved tilbakevendende halsbetennelser over minst to år, tilbakevendende halsbyller eller ørebetennelser og ved store mandler som fører til pustevansker og svelgeplager for barnet.
 
@@ -899,32 +699,21 @@ Fjerning av mandler gjøres oftest på barn i alderen 2 - 6 år, og oftere på g
 
 **Figur:** Kirurgi, fjerning av mandler, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![mandler1](/helseatlas/img/no/barn/mandler1.png) 
-
- 
+![mandler1](/helseatlas/img/no/barn/mandler1.png)
 
 **Figur:** Kirurgi, fjerning av mandler, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![mandler2](/helseatlas/img/no/barn/mandler2.png) 
-
- 
+![mandler2](/helseatlas/img/no/barn/mandler2.png)
 
 **Figur:** Kirurgi, fjerning av mandler, antall inngrep, alder og kjønn, gj.snitt 2011-2014.
 
- ![mandler3](/helseatlas/img/no/barn/mandler3.png) 
-
- 
+![mandler3](/helseatlas/img/no/barn/mandler3.png)
 
 ### Kommentarer
 
 Det er betydelig variasjon i forbruksratene for fjerning av mandler mellom boområdene. Det er imidlertid ingen kjent geografisk variasjon i forekomst av de bakenforliggende tilstandene (tilbakevendende halsbetennelse og ørebetennelse). Variasjon i forbruk kan derfor tolkes som et uttrykk for ulik medisinsk praksis hva gjelder både henvisning, vurdering og prioritering av pasienter med disse tilstandene.
 
- 
-
-
-
-
- ## Innsetting av øredren - kirurgi
+## Innsetting av øredren - kirurgi
 
 Væske i mellomøret er en vanlig komplikasjon etter forkjølelse eller ørebetennelse, men kan også oppstå uten slik årsak. Tilstanden kan føre til nedsatt hørsel og gi forsinket språkutvikling hos barn. Tilstanden behandles med innsetting av ventilasjonsrør i trommehinnen. Det er imidlertid omdiskutert om behandlingen påskynder språkutviklingen.
 
@@ -940,31 +729,21 @@ Det har i gjennomsnitt vært utført 6 700 inngrep på barn 0-16 år pr. år. An
 
 **Figur:** Kirurgi, innsetting av øredren, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
- ![oredren1](/helseatlas/img/no/barn/oredren1.png) 
-
- 
+![oredren1](/helseatlas/img/no/barn/oredren1.png)
 
 **Figur:** Kirurgi, innsetting av øredren, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![oredren2](/helseatlas/img/no/barn/oredren2.png) 
-
- 
+![oredren2](/helseatlas/img/no/barn/oredren2.png)
 
 **Figur:** Kirurgi, innsetting av øredren, antall inngrep, alder og kjønn, gj.snitt 2011-2014.
 
- ![oredren3](/helseatlas/img/no/barn/oredren3.png) 
-
- 
+![oredren3](/helseatlas/img/no/barn/oredren3.png)
 
 ### Kommentarer
 
 Den observerte variasjonen skyldes sannsynligvis ulik medisinsk prakis, kombinert med ulik prioritering og innslag av tilfeldig variasjon.
 
-
-
-
-
- ## Fjerning av blindtarmen - kirurgi
+## Fjerning av blindtarmen - kirurgi
 
 Fjerning av blindtarmen hos barn er et inngrep som gjøres på alle norske sykehus med kirurgisk avdeling. Mistanke om akutt blindtarmbetennelse er årsaken til fjerning av de fleste blindtarmer. Ved operasjon for mistanke om akutt blindtarmbetennelse fjernes alltid blindtarmnen ved åpen kirurgi, og noen ganger også ved kikkhullskirurgi hvis man der ikke finner annen årsak til pasientens sykdom. Diagnosen kan være vanskelig å stille, og alle kirurger med noen års erfaring har opplevd både å vente for lenge med den konsekvens at blindtarmen sprekker, og å fjerne blindtarmer som ikke var betente.
 
@@ -980,26 +759,16 @@ Fjerning av blindtarm er et inngrep som bare kan gjøres en gang. Det er svært 
 
 **Figur:** Kirurgi, fjerning av blindtarmen, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
-**.  ![blindtarm1](/helseatlas/img/no/barn/blindtarm1.png)** 
-
- 
+**.  ![blindtarm1](/helseatlas/img/no/barn/blindtarm1.png)**
 
 **Figur:** Kirurgi, fjerning av blindtarmen, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
- ![blindtarm2](/helseatlas/img/no/barn/blindtarm2.png) 
-
- 
+![blindtarm2](/helseatlas/img/no/barn/blindtarm2.png)
 
 **Figur:** Kirurgi, fjerning av blindtarmen, antall inngrep, alder og kjønn, gj.snitt 2011-2014.
 
- ![blindtarm3](/helseatlas/img/no/barn/blindtarm3.png) 
-
- 
+![blindtarm3](/helseatlas/img/no/barn/blindtarm3.png)
 
 ### Kommentarer
 
 Det må bemerkes at antall inngrep pr. år i noen boområder er lavt, og varierer endel fra år til år. Dette indikerer at innslaget av tilfeldig variasjon er forholdsvis høyt. Samtidig samsvarer variasjonen i forbruksratene i Norge med tilsvarende studier fra andre land med vesentlig større pasientutvalg. Det kan derfor ikke utelukkes at det også foreligger noe variasjon i medisinsk praksis og diagnostisk presisjon mellom boområdene. Det kan være grunn til å undersøke om det er vesentlige forskjeller i andel ikke betente fjernede blintarmer mellom boområdene.
-
-
-
-

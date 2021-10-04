@@ -9,11 +9,9 @@ pdfUrl: /helseatlas/files/helseatlas-kols-rapport.pdf
 
 # Hovedfunn for ulike pasientutvalg i Helseatlas kols
 
-
 Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert
 
- 
- ## Fastlege og legevakt
+## Fastlege og legevakt
 
 En person som plages med tung pust eller mistenker kols kontakter gjerne fastlegen. Ofte er det en luftveisinfeksjon som fører til første legekontakt. Personer med kjent kols tar oftest kontakt med fastlege eller legevakt i forbindelse med nedre luftveisinfeksjoner eller kolsforverringer. Det er ikke tradisjon for regelmessige kontroller, selv om dette anbefales i nasjonale retningslinjer. Spirometri, som er måling av lungefunksjon, er den viktigste undersøkelsen som gjøres både ved utredning og kontroll av kols.
 
@@ -31,32 +29,23 @@ Omtrent like mange kvinner og menn var registrert med kols hos fastlege og legev
 
 Hvert år ble det i gjennomsnitt målt lungefunksjonen hos 44 % av de som oppsøkte fastlege eller legevakt for kols i opptaksområdet til Sykehuset i Vestfold. Tilsvarende for opptaksområdet til Finnmarkssykehuset var 22 %, mens landsgjennomsnittet var 37 %.
 
-**Figur:**  Personer med konsultasjon for kols hos fastlege eller legevakt fordelt på kjønn og alder. Gjennomsnittlig antall per år.
+**Figur:** Personer med konsultasjon for kols hos fastlege eller legevakt fordelt på kjønn og alder. Gjennomsnittlig antall per år.
 
- ![lege1](/helseatlas/img/no/kols/lege1.png) 
-
- 
+![lege1](/helseatlas/img/no/kols/lege1.png)
 
 **Figur:** Personer med kols hos fastlege eller legevakt. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
 
- ![lege2](/helseatlas/img/no/kols/lege2.png) 
-
- 
+![lege2](/helseatlas/img/no/kols/lege2.png)
 
 **Figur:**  Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
 
- ![lege3](/helseatlas/img/no/kols/lege3.png) 
-
- 
+![lege3](/helseatlas/img/no/kols/lege3.png)
 
 ### Kommentarer
 
 Det er stor geografisk variasjon i bruk av fastlege og legevakt for personer med kols. Det er også geografisk variasjon i forventet forekomst av kols (se faktaark Forekomst av kols). Samvariasjonen mellom forventet forekomst av kols og personer med kols hos fastlege eller legevakt er sterk. Dette tyder på at observert variasjon i bruk av tjenesten i stor grad kan skyldes underliggende forekomst av kols. Andel personer med kols som hadde fått målt lungefunksjonen hos fastlegen minst én gang i året varierte betydelig mellom opptaksområdene. I alle opptaksområdene var bruken langt under de nasjonale retningslinjenes anbefaling om minst én måling i året. Noen pasienter kan ha fått målt lungefunksjonen på poliklinikk eller hos avtalespesialist slik at de ikke har hatt behov for å måle lungefunksjonen hos fastlegen. Selv forutsatt at ingen pasienter har målt lungefunksjon begge steder, er det likevel over en tredjedel av personene med kols som ikke har fått målt lungefunksjonen hvert år.
 
-
-
-
- ## Poliklinikk
+## Poliklinikk
 
 Fastlegen vil i de fleste tilfeller kunne gi tilstrekkelig oppfølging og behandling av personer med kols. Noen ganger vil det være behov for en vurdering av spesialist i lungesykdommer eller indremedisin. Henvisning til poliklinisk behandling i spesialisthelsetjenesten kan være aktuelt ved diagnostisering, optimalisering av behandling ved alvorlig sykdom, oppstart av lungerehabilitering eller oppstart av langtids oksygenbehandling. Pasienter som har vært hos lungespesialist settes ofte opp til kontrolltime uten ny henvisning fra fastlege.
 
@@ -74,21 +63,15 @@ Hvert år ble lungefunksjonen i gjennomsnitt målt hos 84 % av personene med pol
 
 **Figur:** Personer med poliklinisk kontakt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
 
- ![poliklinikk1](/helseatlas/img/no/kols/poliklinikk1.png) 
-
- 
+![poliklinikk1](/helseatlas/img/no/kols/poliklinikk1.png)
 
 **Figur:**  Personer med poliklinisk kontakt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
 
- ![poliklinikk2](/helseatlas/img/no/kols/poliklinikk2.png) 
-
- 
+![poliklinikk2](/helseatlas/img/no/kols/poliklinikk2.png)
 
 **Figur:** Andel personer med poliklinisk kontakt for kols som hadde tatt spirometri i løpet av ett år. Kjønns- og aldersstandardisert. Gjennomsnitt per år.
 
- ![poliklinikk3](/helseatlas/img/no/kols/poliklinikk3.png) 
-
- 
+![poliklinikk3](/helseatlas/img/no/kols/poliklinikk3.png)
 
 ### Kommentar
 
@@ -96,10 +79,7 @@ Det var betydelig geografisk variasjon i bruk av poliklinikk for kols. Funnene m
 
 Det var liten variasjon mellom opptaksområdene i andel personer med kols som hadde fått målt lungefunksjonen på poliklinikk minst én gang i løpet av ett år. Andelen var høyere hos avtalespesialist enn ved offentlig finansierte sykehus.
 
-
-
-
- ## Akuttinnleggelser
+## Akuttinnleggelser
 
 Kols er karakterisert av episoder med økte luftveisplager som kalles kolsforverringer. Luftveiene trekkes sammen, slimproduksjonen øker og endrer farge og pasienten får problemer med å få luft inn og ut fra lungene. En kolsforverring utløses ofte av en luftveisinfeksjon og krever tiltak som gjerne starter utenfor sykehus. Alvorlige kolsforverringer krever ofte sykehusinnleggelse.
 
@@ -117,30 +97,21 @@ Ventilasjonsstøtte (BiPAP) ble gitt ved over 3 000 av nesten 17 000 årlige aku
 
 **Figur:**  Personer akuttinnlagt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
 
- ![akutt1\_0](/helseatlas/img/no/kols/akutt1\_0.png) 
-
- 
+![akutt1_0](/helseatlas/img/no/kols/akutt1_0.png)
 
 **Figur:**  Personer akuttinnlagt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
 
- ![akutt2\_0](/helseatlas/img/no/kols/akutt2\_0.png) 
-
- 
+![akutt2_0](/helseatlas/img/no/kols/akutt2_0.png)
 
 **Figur:** Akuttinnleggelser for kols hvor ventilasjonsstøtte ble gitt. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
 
- ![akutt3](/helseatlas/img/no/kols/akutt3.png) 
-
- 
+![akutt3](/helseatlas/img/no/kols/akutt3.png)
 
 ### Kommentar
 
 Hvor mange personer med kolsforverring som blir innlagt på norske sykehus avhenger av flere faktorer, deriblant røykerelatert sykelighet i befolkningen (se faktaark Forekomst av kols). Det er generelt sterk samvariasjon mellom forventet forekomst av kols og antall personer akuttinnlagt for kols per 10 000 innbyggere, men noen opptaksområder skiller seg ut. Østfold har relativt høy forventet forekomst av kols og relativt få personer akuttinnlagt for kols per 10 000 innbyggere. I Nord-Trøndelag er det motsatt. Noe av variasjonen i bruk av ventilasjonsstøtte kan muligens forklares av at ulike sykehus har ulike tradisjoner, retningslinjer og terskel for innleggelse. Ventilasjonsstøtte er en ressurskrevende behandling. Det kan være forskjeller i tilgjengelige ressurser for ventilasjonsstøtte ved ulike sykehus. Variasjonen i bruk av ventilasjonsstøtte vurderes å være uberettiget.
 
-
-
-
- ## Rehabilitering
+## Rehabilitering
 
 Lungerehabilitering ved kols legger vekt på opplæring om tilstanden, fysisk trening, ernæringsråd, persontilpasset medisinering og røykeslutt for de det er aktuelt for. Målet er permanent livsstilsendring. Rehabiliteringen gjennomføres i praksis som dagbehandling i grupper eller individuelt, og varer fra få dager til flere uker. Lungerehabilitering kan ha langvarige positive effekter på fysisk funksjonsnivå og livskvalitet.
 
@@ -156,19 +127,15 @@ Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandli
 
 **Figur:** Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder. Gjennomsnittlig antall per år.
 
- ![rehab1](/helseatlas/img/no/kols/rehab1.png) 
-
- 
+![rehab1](/helseatlas/img/no/kols/rehab1.png)
 
 **Tabell 1.** Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.
 
-   **Privat** **Offentlig** **Begge** **Dagbehandling**       Personer 59 759 813 Dagbehandlinger totalt 821 6561 7382 Dagbehandlinger per person 13,9 8,6 9,1 **Døgnopphold**       Personer 604 1198 1789 Rehabiliteringsdøgn totalt 15 073 27 360 42 433 Rehabiliteringsdøgn per person 25,0 22,8 23,7  
+**Privat** **Offentlig** **Begge** **Dagbehandling**       Personer 59 759 813 Dagbehandlinger totalt 821 6561 7382 Dagbehandlinger per person 13,9 8,6 9,1 **Døgnopphold**       Personer 604 1198 1789 Rehabiliteringsdøgn totalt 15 073 27 360 42 433 Rehabiliteringsdøgn per person 25,0 22,8 23,7
 
 **Figur:** Personer som deltok på lungerehabilitering for kols i 2015. Kjønns- og aldersstandardisert antall per 10 000 innbyggere.
 
- ![rehab2](/helseatlas/img/no/kols/rehab2.png) 
-
- 
+![rehab2](/helseatlas/img/no/kols/rehab2.png)
 
 ### Kommentarer
 
@@ -176,10 +143,7 @@ Det var betydelig geografisk variasjon i bruk av lungerehabilitering for kols i 
 
 Ved å opprette og bygge ut rehabiliteringstilbud for personer med kols er det potensiale for å øke pasientenes livskvalitet, samt å redusere antall akuttinnleggelser for kols.
 
-
-
-
- ## Forekomst av kols
+## Forekomst av kols
 
 Kronisk obstruktiv lungesykdom (kols) er utbredt både i Norge og i resten av verden. Tung pust er hovedsymptomet. Ved mild kols er det først ved anstrengelse at problemer med å puste oppstår. Ved alvorlig kols kan det være tungt å puste selv i hvile. Noen har kronisk hoste med eller uten slim. Sykdommen fører også ofte til sekundære plager som angst, depresjon, ernæringsproblemer, vekttap, svinn av muskelmasse og utmattelse. Kols er forbundet med betydelig funksjonssvikt og høy dødelighet.
 
@@ -197,9 +161,7 @@ Det er rimelig å vente at nedgangen i røyking isolert sett vil virke positivt 
 
 **Figur:** Røykevaner blant kvinner og menn fra 1973 til 2016.
 
- ![forekomst1](/helseatlas/img/no/kols/forekomst1.png) 
-
- 
+![forekomst1](/helseatlas/img/no/kols/forekomst1.png)
 
 ## Lungekreft
 
@@ -209,9 +171,7 @@ Antall nye tilfeller av lungekreft varierer mellom helseforetakenes opptaksområ
 
 **Figur:** Gjennomsnittlig antall nye tilfeller av lungekreft per 10 000 innbyggere per år i perioden 2006–15. Kolonnen viser gjennomsnittlig antall personer med nyoppstått lungekreft per år.
 
- ![forekomst2](/helseatlas/img/no/kols/forekomst2.png) 
-
- 
+![forekomst2](/helseatlas/img/no/kols/forekomst2.png)
 
 ## Tolkning av variasjon
 
@@ -219,40 +179,34 @@ Resultatene i tidligere helseatlas har for de aller fleste pasientutvalg blitt t
 
 Forekomsten av kols i ulike opptaksområder er ikke kjent, men det finnes gode data på nye tilfeller av lungekreft. Vi forventer å finne flere personer med kolsdiagnose i opptaksområder med mange nye tilfeller av lungekreft. Den observerte variasjonen mellom opptaksområder i bruk av helsetjenester ved kols forventes å variere med forskjeller i antall nye tilfeller av lungekreft.
 
-
-
-
- ## Opptaksområder
+## Opptaksområder
 
 Her finner du beskrivelse av av de ulike opptaksområdene som Helseatlas kols tar utgangspunkt i. Med opptaksområde menes de geografiske områdene som helseforetakene har ansvar for å betjene. Opptaksområdene er definert ut fra pasientens bostedskommune eller bydel.
 
-* [Finnmark](http://www.helseatlas.no/atlas/boomrade/finnmark-0)
-* [UNN](http://www.helseatlas.no/atlas/boomrade/unn-1)
-* [Nordland](http://www.helseatlas.no/atlas/boomrade/nordland-1)
-* [Helgeland](http://www.helseatlas.no/atlas/boomrade/helgeland-0)
-* [Nord-Trøndelag](http://www.helseatlas.no/atlas/boomrade/nord-tr%C3%B8ndelag-0)
-* [St. Olavs](http://www.helseatlas.no/atlas/boomrade/st-olavs-0)
-* [Møre og Romsdal](http://www.helseatlas.no/atlas/boomrade/m%C3%B8re-og-romsdal-1)
-* [Haraldsplass](http://www.helseatlas.no/atlas/boomrade/haraldsplass)
-* [Førde](http://www.helseatlas.no/atlas/boomrade/f%C3%B8rde-0)
-* [Bergen](http://www.helseatlas.no/atlas/boomrade/bergen-1)
-* [Fonna](http://www.helseatlas.no/atlas/boomrade/fonna-1)
-* [Stavanger](http://www.helseatlas.no/atlas/boomrade/stavanger-1)
-* [Østfold](http://www.helseatlas.no/atlas/boomrade/%C3%B8stfold-2)
-* [Akershus](http://www.helseatlas.no/atlas/boomrade/akershus-0)
-* [OUS](http://www.helseatlas.no/atlas/boomrade/ous-0)
-* [Lovisenberg](http://helseatlas.no/atlas/boomrade/lovisenberg)
-* [Diakonhjemmet](http://helseatlas.no/atlas/boomrade/diakonhjemmet)
-* [Innlandet](http://www.helseatlas.no/atlas/boomrade/innlandet-2)
-* [Vestre Viken](http://www.helseatlas.no/atlas/boomrade/vestre-viken-2)
-* [Vestfold](http://www.helseatlas.no/atlas/boomrade/vestfold-2)
-* [Telemark](http://www.helseatlas.no/atlas/boomrade/telemark-2)
-* [Sørlandet](http://www.helseatlas.no/atlas/boomrade/s%C3%B8rlandet-2)
+- [Finnmark](http://www.helseatlas.no/atlas/boomrade/finnmark-0)
+- [UNN](http://www.helseatlas.no/atlas/boomrade/unn-1)
+- [Nordland](http://www.helseatlas.no/atlas/boomrade/nordland-1)
+- [Helgeland](http://www.helseatlas.no/atlas/boomrade/helgeland-0)
+- [Nord-Trøndelag](http://www.helseatlas.no/atlas/boomrade/nord-tr%C3%B8ndelag-0)
+- [St. Olavs](http://www.helseatlas.no/atlas/boomrade/st-olavs-0)
+- [Møre og Romsdal](http://www.helseatlas.no/atlas/boomrade/m%C3%B8re-og-romsdal-1)
+- [Haraldsplass](http://www.helseatlas.no/atlas/boomrade/haraldsplass)
+- [Førde](http://www.helseatlas.no/atlas/boomrade/f%C3%B8rde-0)
+- [Bergen](http://www.helseatlas.no/atlas/boomrade/bergen-1)
+- [Fonna](http://www.helseatlas.no/atlas/boomrade/fonna-1)
+- [Stavanger](http://www.helseatlas.no/atlas/boomrade/stavanger-1)
+- [Østfold](http://www.helseatlas.no/atlas/boomrade/%C3%B8stfold-2)
+- [Akershus](http://www.helseatlas.no/atlas/boomrade/akershus-0)
+- [OUS](http://www.helseatlas.no/atlas/boomrade/ous-0)
+- [Lovisenberg](http://helseatlas.no/atlas/boomrade/lovisenberg)
+- [Diakonhjemmet](http://helseatlas.no/atlas/boomrade/diakonhjemmet)
+- [Innlandet](http://www.helseatlas.no/atlas/boomrade/innlandet-2)
+- [Vestre Viken](http://www.helseatlas.no/atlas/boomrade/vestre-viken-2)
+- [Vestfold](http://www.helseatlas.no/atlas/boomrade/vestfold-2)
+- [Telemark](http://www.helseatlas.no/atlas/boomrade/telemark-2)
+- [Sørlandet](http://www.helseatlas.no/atlas/boomrade/s%C3%B8rlandet-2)
 
-
-
-
- ## Kols
+## Kols
 
 Kols – kronisk obstruktiv lungesykdom, er en samlebetegnelse på sykdommer i lunger og luftveier med varig nedsatt lungefunksjon og karakterisert ved tung pust ved anstrengelse, kronisk hoste, og økt slimproduksjon. Graden av kols varierer fra ukompliserte til mer alvorlige stadier med betydelig nedsatt funksjonsevne og uførhet. Pasienter med kols har ofte flere sykdommer som kan øke behovet for innleggelser som f.eks. hjertesvikt.
 
@@ -268,30 +222,18 @@ Andel som blir reinnlagt innen 30 dager etter utskrivelse for kols er 29 %. Ande
 
 **Figur:** Akutte innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
 
- ![kols1](/helseatlas/img/no/kols/kols1.png) 
-
- 
+![kols1](/helseatlas/img/no/kols/kols1.png)
 
 **Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
 
- ![kols2](/helseatlas/img/no/kols/kols2.png) 
-
- 
+![kols2](/helseatlas/img/no/kols/kols2.png)
 
 **Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
 
- ![kols3](/helseatlas/img/no/kols/kols3.png) 
-
- 
+![kols3](/helseatlas/img/no/kols/kols3.png)
 
 ### Kommentarer
 
 Variasjonen i både innleggelser, andel reinnleggelser og andel døde innen 30 dager etter innleggelse for kols vurderes til å være relativt liten.
 
 Relativt lang liggetid ved primærinnleggelsene, høy andel reinnleggelser og høy andel døde innen både 30 dager og ett år etter innleggelse, indikerer at eldre som legges inn for kols er en alvorlig syk gruppe.
-
- 
-
-
-
-

@@ -9,11 +9,9 @@ pdfUrl: /helseatlas/files/eldrehelseatlas_rapport.pdf
 
 # Hovedfunn for ulike pasientutvalg i eldrehelseatlas for Norge
 
-
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
 
- 
- ## Allmennlegetjenesten
+## Allmennlegetjenesten
 
 Primærhelsetjenesten består av en rekke kommunale tjenester som helsestasjon- og skolehelsetjeneste, psykisk helsearbeid, hjemmetjenester, sykehjem og allmennlegetjenesten (fastlege og legevakt). Fastlegeordningen ble iverksatt i 2001 og med den fikk alle innbyggere i en kommune rett til en fastlege. De fleste fastleger er private næringsdrivende og kommunene har i liten grad styring av denne tjenesten.
 
@@ -29,21 +27,15 @@ Bosatte i opptaksområde Stavanger bruker fastlege på dagtid ca. 30 % mer enn b
 
 **Figur:** Fastlegekonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
 
- ![almenn1](/helseatlas/img/no/eldre/almenn1.png) 
-
- 
+![almenn1](/helseatlas/img/no/eldre/almenn1.png)
 
 **Figur:** Legevaktkonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
 
- ![almenn2](/helseatlas/img/no/eldre/almenn2.png) 
-
- 
+![almenn2](/helseatlas/img/no/eldre/almenn2.png)
 
 **Figur:** Andel av befolkningen i 2-årige aldersgrupper, som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.
 
- ![almenn3](/helseatlas/img/no/eldre/almenn3.png) 
-
- 
+![almenn3](/helseatlas/img/no/eldre/almenn3.png)
 
 ### Kommentarer
 
@@ -53,10 +45,7 @@ Det kan synes som de tettere befolkede delene av landet har en tendens til noe h
 
 Andelen som er i kontakt med allmennlegetjenesten blir mindre med økende alder, og særlig gjelder dette kvinner. Etter 80 års alderen er andelen kvinner innlagt i sykehjem og andre institusjoner høyere enn andelen menn. Dette kan forklare deler av den observerte kjønnsforskjellen ettersom innlagte i institusjon får legetilsyn uten at det registreres som konsultasjon. Forskjellen kan også skyldes at de eldste kvinnene generelt er friskere og sjeldnere kontakter sin fastlege, men dette vites ikke.
 
-
-
-
- ## Somatisk spesialisthelsetjeneste
+## Somatisk spesialisthelsetjeneste
 
 Spesialisthelsetjenesten omfatter bl.a. somatiske og psykiatriske sykehus, ambulansetjeneste, privatpraktiserende spesialister og røntgenvirksomhet. I 2002 overtok de regionale helseforetakene (RHF) ansvaret for spesialisthelsetjenesten. RHF’ene plikter å sørge for nødvendige spesialisthelsetjenester til befolkningen. «Sørge-for»-ansvaret ivaretas i hovedsak gjennom helseforetakene som eies av de fire RHF’ene.
 
@@ -72,21 +61,15 @@ De eldre har ca. 179 000 innleggelser pr. år og 80 % av disse er akutte innlegg
 
 **Figur:** Polikliniske konsultasjoner, ant. pr 1000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. kons. pr. år.
 
- ![spes1](/helseatlas/img/no/eldre/spes1.png) 
-
- 
+![spes1](/helseatlas/img/no/eldre/spes1.png)
 
 **Figur:** Innleggelser, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på akutte og planlagte innleggelser. Gj.snittlig ant. ak. og pl. innl. pr. år.
 
- ![spes2](/helseatlas/img/no/eldre/spes2.png) 
-
- 
+![spes2](/helseatlas/img/no/eldre/spes2.png)
 
 **Figur:** Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015, fordelt på 2-årige aldersgrupper.
 
- ![spes3](/helseatlas/img/no/eldre/spes3.png) 
-
- 
+![spes3](/helseatlas/img/no/eldre/spes3.png)
 
 ### Kommentarer
 
@@ -94,12 +77,7 @@ De eldre, som representerer 7 % av Norges befolkning, står for 16 % av alle kon
 
 Andelen eldre som har vært i kontakt med spesialisthelsetjenesten faller med alderen, særlig er fallet markant for de eldste kvinnene. Etter 80-årsalderen er andelen kvinner innlagt i sykehjem høyere enn menn og de kan dermed ha noe mindre behov for spesialisthelsetjenester. En annen mulig forklaringer kan være at de eldre gjenlevende kvinnene er friskere med mindre behov. Om kjønnsforskjellen beskriver mindre eller udekkede behov, vites ikke.
 
- 
-
-
-
-
- ## Hjerteinfarkt og revaskularisering
+## Hjerteinfarkt og revaskularisering
 
 Hjerteinfarkt oppstår når blodforsyningen til deler av hjertet blokkeres, med påfølgende skade på hjertemuskulatur. Dødeligheten har falt med nesten 60 % fra 1990-tallet. Dette skyldes dels forebygging og dels bedre behandling. Hjerteinfarkt er en svært alvorlig tilstand som utvikler seg raskt, men de fleste som blir lagt inn på sykehus overlever. Pasientene behandles med revaskularisering, som er en samlebetegnelse på utblokking (PCI) eller operasjon (bypass).
 
@@ -113,15 +91,11 @@ Blant eldre er det årlig ca. 6 650 pasienter som legges inn med diagnosen hjert
 
 **Figur:** Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.
 
- ![hjerteinfarkt1](/helseatlas/img/no/eldre/hjerteinfarkt1.png) 
-
- 
+![hjerteinfarkt1](/helseatlas/img/no/eldre/hjerteinfarkt1.png)
 
 **Figur:** Revaskularisering, ant. inngrep pr. 1 000 innb. justert for kjønn og alder, gj.snitt og pr. år. Gj.snittlig ant. inngrep og pasienter pr. år.
 
- ![hjerteinfarkt2](/helseatlas/img/no/eldre/hjerteinfarkt2.png) 
-
- 
+![hjerteinfarkt2](/helseatlas/img/no/eldre/hjerteinfarkt2.png)
 
 ### Kommentarer
 
@@ -135,12 +109,7 @@ Omtrent like mange pasienter får hjerteinfarkt i aldersgruppen 50–74 år som 
 
 Pasienter over 75 år er sjelden inkludert i randomiserte studier som ligger til grunn for faglige anbefalinger, men en norsk studie har nylig vist effekt av PCI på pasienter over 80 år. Det må gjøres en individuell vurdering av pasienters egnethet og risiko for behandling. Det kan likevel diskuteres om det gis et likeverdig tilbud om revaskularisering mellom opptaksområder og på tvers av aldersgrupper i Norge.
 
- 
-
-
-
-
- ## Hjertesvikt
+## Hjertesvikt
 
 Hjertesvikt er en tilstand der hjertets pumpefunksjon er svekket slik at blodet ikke sender nok oksygen ut i kroppen. Symptomene kan være generell tretthet og tung pust. Symptomene forveksles ofte med generelle alderdomstegn. Kronisk hjertesvikt reduserer både livskvaliteten og livslengden. Årsakene til hjertesvikt kan være mange, men hyppigst er tidligere hjerteinfarkt, høyt blodtrykk eller hjerteklaffefeil.
 
@@ -158,21 +127,15 @@ Av de som har vært innlagt for hjertesvikt, reinnlegges 26 % innen 30 dager. An
 
 **Figur:** Ant. konsultasjoner pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og konsultasjoner pr. pasient pr. år.
 
- ![hjertesvikt1](/helseatlas/img/no/eldre/hjertesvikt1.png) 
-
- 
+![hjertesvikt1](/helseatlas/img/no/eldre/hjertesvikt1.png)
 
 **Figur:** Ant. innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
 
- ![hjertesvikt2](/helseatlas/img/no/eldre/hjertesvikt2.png) 
-
- 
+![hjertesvikt2](/helseatlas/img/no/eldre/hjertesvikt2.png)
 
 **Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid primærinnl.
 
- ![hjertesvikt3](/helseatlas/img/no/eldre/hjertesvikt3.png) 
-
- 
+![hjertesvikt3](/helseatlas/img/no/eldre/hjertesvikt3.png)
 
 ### Kommentarer
 
@@ -182,10 +145,7 @@ Det at vi ikke finner noen sammenheng mellom bruk av poliklinikk og innleggelser
 
 Det er ikke en klar sammenheng mellom antatt sykelighet i befolkningen og bruk av tjenester knyttet til hjertesvikt. Finnmark, med høy forekomst av hjerte- og karsykdommer, har lav bruk av både poliklinikk og innleggelser samt lav andel reinnleggelser. Indre Oslo har en høy bruk av både poliklinikk og innleggelser samt høy andel reinnleggelser.
 
-
-
-
- ## Utredninger for hjertesykdommer
+## Utredninger for hjertesykdommer
 
 Pasienter med hjertesykdom eller mistanke om hjertesykdom utredes i sykehus eller hos private spesialister i hjertemedisin. Typiske undersøkelser for å diagnostisere hjertesykdom er elektrokardiogram registrert under sykling (arbeids-EKG), ultralydundersøkelser av hjertet (ekkokardiografi) og langvarig overvåkning av pasientens hjerterytme (langtids-EKG).
 
@@ -205,32 +165,21 @@ Rundt 9 000 polikliniske langtids-EKG’er gjennomføres årlig for eldre pasien
 
 **Figur:** Poliklinisk arbeids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
 
- ![utredninghjerte1](/helseatlas/img/no/eldre/utredninghjerte1.png) 
-
- 
+![utredninghjerte1](/helseatlas/img/no/eldre/utredninghjerte1.png)
 
 **Figur:** Poliklinisk ekkokardiografi, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
 
- ![utredninghjerte2](/helseatlas/img/no/eldre/utredninghjerte2.png) 
-
- 
+![utredninghjerte2](/helseatlas/img/no/eldre/utredninghjerte2.png)
 
 **Figur:** Poliklinisk langtids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
 
- ![utredninghjerte3](/helseatlas/img/no/eldre/utredninghjerte3.png) 
-
- 
+![utredninghjerte3](/helseatlas/img/no/eldre/utredninghjerte3.png)
 
 ### Kommentarer
 
 Det er stor variasjon mellom opptaksområdene når det gjelder de polikliniske utredningene arbeids-EKG, ekkokardiografi og langtidsEKG. Det er ikke de samme opptaksområder som har høyt og lavt forbruk innenfor de ulike utredningene, men Midt-Norge ligger jevnt lavt. Variasjonen kan ikke forklares med kjente geografiske forskjeller i sykelighet. Disse utredningene gjøres kun i spesialisthelsetjenesten, hvilket tilsier at tjenestetilbudet på disse områdene ikke er likeverdig og avhenger av bosted.
 
- 
-
-
-
-
- ## Innsetting av pacemaker
+## Innsetting av pacemaker
 
 En pacemaker er et elektronisk apparat som produserer elektriske impulser til hjertemuskelen og får hjertet til å slå raskere hvis hjertefrekvensen blir for lav. Pacemakeren sender kun ut impulser ved behov. I akutte situasjoner kan det bli lagt inn midlertidige pacemakere, men her er det innsetting av permanente pacemakere som omtales. En pacemaker inneholder batteri og elektroder og legges inn under huden foran på brystkassen.
 
@@ -248,15 +197,11 @@ Det settes inn klart flest pacemakere som korrigerer for hjerterytmeforstyrrelse
 
 **Figur:** Ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snitt ant. inngrep og innb. pr. år.
 
- ![pacemaker1](/helseatlas/img/no/eldre/pacemaker1.png) 
-
- 
+![pacemaker1](/helseatlas/img/no/eldre/pacemaker1.png)
 
 **Figur:** Ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på pacemaker uten og med CRT. Gj.snittlig ant. uten og med CRT pr. år.
 
- ![pacemaker2](/helseatlas/img/no/eldre/pacemaker2.png) 
-
- 
+![pacemaker2](/helseatlas/img/no/eldre/pacemaker2.png)
 
 ### Kommentarer
 
@@ -266,10 +211,7 @@ Det er stor variasjon mellom opptaksområdene når det gjelder innsetting av pac
 
 Det er relativt klart hvilke tilstander og symptomer som gjør innsetting av pacemaker til et nødvendig og nyttig tiltak for pasienten. Det er mulig, men lite sannsynlig, at noe av variasjonen kan forklares ut fra ulik sykelighet i befolkningen. I tillegg til innslag av tilfeldig variasjon, er det sannsynlig at også ulik kultur, praksis og adferd hos pasienter og helsepersonell er medvirkende til den beskrevne variasjonen. Da det her kan finnes både over- og underforbruk, bør variasjon som ses mellom ulike opptaksområder gi grunnlag for diskusjon i fagmiljøet, eksempelvis knyttet til presisering av indikasjon for utredning og innsetting av permanent pacemaker.
 
-
-
-
- ## Lungebetennelse
+## Lungebetennelse
 
 Lungebetennelse er en betennelsesprosess i selve lungevevet forårsaket av bakterier, virus eller sopp. Lungebetennelse forekommer hyppigst hos barn og gamle. Symptomene er redusert allmenntilstand, feber, hoste og tung pust. Jo mer betent lungevevet er, desto tyngre blir det å puste. Noen ganger hemmes oksygenopptaket, det blir vanskelig å puste og det oppstår en svært farlig tilstand.
 
@@ -285,21 +227,15 @@ Andel reinnleggelser innen 30 dager etter utskrivelse er 22 % for hele landet. D
 
 **Figur:** Akutte innleggelser pr. 1000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.
 
- ![lungebetennelse1](/helseatlas/img/no/eldre/lungebetennelse1.png) 
-
- 
+![lungebetennelse1](/helseatlas/img/no/eldre/lungebetennelse1.png)
 
 **Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
 
- ![lungebetennelse2](/helseatlas/img/no/eldre/lungebetennelse2.png) 
-
- 
+![lungebetennelse2](/helseatlas/img/no/eldre/lungebetennelse2.png)
 
 **Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
 
- ![lungebetennelse3](/helseatlas/img/no/eldre/lungebetennelse3.png) 
-
- 
+![lungebetennelse3](/helseatlas/img/no/eldre/lungebetennelse3.png)
 
 ### Kommentarer
 
@@ -309,10 +245,7 @@ Det er tydelig samvariasjon mellom gjennomsnittlig liggetid ved primærinnleggel
 
 Eldre pasienter som blir innlagt i sykehus med hoveddiagnose lungebetennelse, fremstår som alvorlig syke, med lang liggetid, høy andel reinnleggelser og høy andel som dør innen både 30 dager og ett år.
 
-
-
-
- ## Kols
+## Kols
 
 Kols – kronisk obstruktiv lungesykdom, er en samlebetegnelse på sykdommer i lunger og luftveier med varig nedsatt lungefunksjon og karakterisert ved tung pust ved anstrengelse, kronisk hoste, og økt slimproduksjon. Graden av kols varierer fra ukompliserte til mer alvorlige stadier med betydelig nedsatt funksjonsevne og uførhet. Pasienter med kols har ofte flere sykdommer som kan øke behovet for innleggelser som f.eks. hjertesvikt.
 
@@ -328,21 +261,15 @@ Andel som blir reinnlagt innen 30 dager etter utskrivelse for kols er 29 %. Ande
 
 **Figur:** Akutte innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
 
- ![kols1](/helseatlas/img/no/eldre/kols1.png) 
-
- 
+![kols1](/helseatlas/img/no/eldre/kols1.png)
 
 **Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
 
- ![kols2](/helseatlas/img/no/eldre/kols2.png) 
-
- 
+![kols2](/helseatlas/img/no/eldre/kols2.png)
 
 **Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
 
- ![kols3](/helseatlas/img/no/eldre/kols3.png) 
-
- 
+![kols3](/helseatlas/img/no/eldre/kols3.png)
 
 ### Kommentarer
 
@@ -350,12 +277,7 @@ Variasjonen i både innleggelser, andel reinnleggelser og andel døde innen 30 d
 
 Relativt lang liggetid ved primærinnleggelsene, høy andel reinnleggelser og høy andel døde innen både 30 dager og ett år etter innleggelse, indikerer at eldre som legges inn for kols er en alvorlig syk gruppe.
 
- 
-
-
-
-
- ## Hoftebrudd
+## Hoftebrudd
 
 Brudd hos eldre er et stort helseproblem og hoftebrudd er en hyppig årsak til innleggelse. Hoftebrudd er en felles betegnelse for alle brudd i øvre ende av lårbeinet, hvorav lårhalsbruddene utgjør den største gruppen. Slike brudd har alvorlige konsekvenser i form av smerter og ubehag, men også tapt funksjon, redusert livslengde, økt hjelpebehov og økt behov for institusjonsomsorg. Norge har høyest forekost i Europa av hoftebrudd.
 
@@ -373,21 +295,15 @@ Innen 30 dager etter innleggelse for hoftebrudd er 11 % av de eldre pasientene d
 
 **Figur:** Ant. innleggelser pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. brudd og pasienter pr. år.
 
- ![hoftebrudd1](/helseatlas/img/no/eldre/hoftebrudd1.png) 
-
- 
+![hoftebrudd1](/helseatlas/img/no/eldre/hoftebrudd1.png)
 
 **Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
 
- ![hoftebrudd2](/helseatlas/img/no/eldre/hoftebrudd2.png) 
-
- 
+![hoftebrudd2](/helseatlas/img/no/eldre/hoftebrudd2.png)
 
 **Figur:** Andel døde innen 30 dager etter innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr., ant. og andel døde innen ett år.
 
- ![hoftebrudd3](/helseatlas/img/no/eldre/hoftebrudd3.png) 
-
- 
+![hoftebrudd3](/helseatlas/img/no/eldre/hoftebrudd3.png)
 
 ### Kommentarer
 
@@ -395,12 +311,7 @@ Det er relativt liten variasjon mellom opptaksområdene i innleggelser for hofte
 
 11 % dødelighet innen 30 dager og 29 % innen ett år forteller at en hendelse som hoftebrudd, som i seg selv ikke synes veldig alvorlig, kan ha konsekvenser over tid.
 
- 
-
-
-
-
- ## Leddproteser
+## Leddproteser
 
 De fleste pasienter som får operert inn kunstige ledd har slitasjegikt (artrose) i leddet. Andre årsaker kan være leddgikt, brudd i eller nær leddet, infeksjon eller følgetilstander etter leddsykdom i barndommen. Det er indikasjon for proteseoperasjon når smertene holder pasienten våken om natten (hvilesmerter), det blir problematisk å gå i trapper, eller det blir vanskelig å gjøre dagligdagse aktiviteter.
 
@@ -418,15 +329,11 @@ Det settes årlig inn ca. 1 500 primære kneproteser på nesten like mange eldre
 
 **Figur:** Primære hofteproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.
 
- ![leddproteser1](/helseatlas/img/no/eldre/leddproteser1.png) 
-
- 
+![leddproteser1](/helseatlas/img/no/eldre/leddproteser1.png)
 
 **Figur:** Primære kneproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.
 
- ![leddproteser2](/helseatlas/img/no/eldre/leddproteser2.png) 
-
- 
+![leddproteser2](/helseatlas/img/no/eldre/leddproteser2.png)
 
 ### Kommentarer
 
@@ -436,10 +343,7 @@ Protesekirurgi er ikke livreddende behandling, men gir økt funksjon og livskval
 
 Variasjonen mellom opptaksområdene i innsetting av leddproteser hos eldre vurderes som liten. Det er imidlertid grunn til å reise spørsmål ved om det gjøres for lite protesekirurgi. Helse- og omsorgsdepartementet har etter anbefaling fra de regionale helseforetakene et mål om at antall innsatte kneproteser for den norske befolkningen sett under ett, skal økes.
 
-
-
-
- ## Håndledds- og lårhalsbrudd
+## Håndledds- og lårhalsbrudd
 
 Eldre er mer utsatt for brudd da de ofte har en generell benskjørhet, i tillegg til økt falltendens. Valg av behandlingsteknikk ved brudd avhenger av lokalisasjon, posisjon på bruddet og forhold ved pasienten, men skjønn og lokal praksis spiller også en rolle. De hyppigst forekommende bruddtypene hos eldre er håndleddsbrudd og lårhalsbrudd.
 
@@ -455,15 +359,11 @@ Det er årlig om lag 4 000 lårhalsbrudd blant de eldre i Norge. 70 % av pasient
 
 **Figur:** Håndleddsbrudd, andel konservativt behandlede brudd, justert for kjønn og alder. Gj.snittlig ant. konservativt og operativt behandlet pr. år.
 
- ![handleddsbrudd1](/helseatlas/img/no/eldre/handleddsbrudd1.png) 
-
- 
+![handleddsbrudd1](/helseatlas/img/no/eldre/handleddsbrudd1.png)
 
 **Figur:** Lårhalsbrudd, andel behandlet med protese, justert for kjønn og alder. Gj.snittlig ant. brudd behandlet med protese og osteosyntese pr. år.
 
- ![handleddsbrudd2](/helseatlas/img/no/eldre/handleddsbrudd2.png) 
-
- 
+![handleddsbrudd2](/helseatlas/img/no/eldre/handleddsbrudd2.png)
 
 ### Kommentarer
 
@@ -475,10 +375,7 @@ Det finnes ikke nasjonale retningslinjer for behandling av lårhalsbrudd, men de
 
 Fagmiljøenes preferanser for metode kombinert med tilgjengelig operasjonskapasitet er antakelig tungtveiende momenter når behandlingsteknikk velges.
 
-
-
-
- ## Hjerneslag
+## Hjerneslag
 
 Hjerneslag er en alvorlige sykdom og hyppig årsak til død og funksjonshemming. Ved hjerneslag blir blodtilførselen til deler av hjernen brutt, enten ved en blodpropp (hjerneinfarkt) eller ved hjerneblødning. De vanligste symptomene er halvsidig lammelse i ansikt, arm eller bein, og/eller talevansker. De fleste som får følgeskader etter hjerneslag har et stort behov for helsetjenester i tiden etterpå. Rask og målrettet akuttbehandling kan redusere funksjonshemming og dødelighet.
 
@@ -496,21 +393,15 @@ I Norge blir 90 % av pasientene behandlet i slagenhet. I opptaksområ- det Aker
 
 **Figur:** Ant. innleggelser pr. 1 000 innb., gj.snitt for 2013–2015, justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
 
- ![hjerneslag1](/helseatlas/img/no/eldre/hjerneslag1.png) 
-
- 
+![hjerneslag1](/helseatlas/img/no/eldre/hjerneslag1.png)
 
 **Figur:** Andel pasienter innlagt innen 4 timer etter symptomdebut, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. innlagt innen 4 timer og aktuell for innleggelse pr. år.
 
- ![hjerneslag2](/helseatlas/img/no/eldre/hjerneslag2.png) 
-
- 
+![hjerneslag2](/helseatlas/img/no/eldre/hjerneslag2.png)
 
 **Figur:** Andel pasienter behandlet i slagenhet, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. behandlet og aktuell for beh. i slagenhet pr. år.
 
- ![hjerneslag3](/helseatlas/img/no/eldre/hjerneslag3.png) 
-
- 
+![hjerneslag3](/helseatlas/img/no/eldre/hjerneslag3.png)
 
 ### Kommentarer
 
@@ -522,12 +413,7 @@ Det er et nasjonalt mål at minst 90 % av pasientene skal behandles i slagenhet.
 
 Enkelte sykehus har rapportert inn færre enn 70 % av de hjerneslagtilfellene de har behandlet til Norsk hjerneslagregister. Resultatene for de tilhørende opptaksområdene (Akershus, Bergen, Innlandet og Finnmark) må derfor tolkes med forsiktighet.
 
- 
-
-
-
-
- ## Demens og Parkinsons sykdom
+## Demens og Parkinsons sykdom
 
 Demens er en fellesbetegnelse for ulike hjernesykdommer som kjennetegnes ved symptomer som svikt i hukommelse, oppmerksomhet, språk, generell intellektuell evne, endringer i personlighet og nedsatt evne til å ivareta egen omsorg. Parkinsons sykdom rammer hjernen og påvirker finmotoriske funksjoner. Typiske symptomer er skjelving i hvile, stivhet, langsomme bevegelser, startvansker og bråstopp i bevegelser. De fleste som får disse sykdommene får i løpet av noen år betydelig sykdomsbyrde og hjelpebehov.
 
@@ -543,14 +429,11 @@ Parkinsons sykdom er kronisk og forverres gradvis. Den kan ikke kureres, men ved
 
 **Figur:** Demens, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.
 
- ![demens1](/helseatlas/img/no/eldre/demens1.png) 
-
- 
+![demens1](/helseatlas/img/no/eldre/demens1.png)
 
 **Figur:** Parkinsons sykdom, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.
 
- ![demens2](/helseatlas/img/no/eldre/demens2.png) 
-
+![demens2](/helseatlas/img/no/eldre/demens2.png)
 
 ### Kommentar
 
@@ -558,10 +441,7 @@ Det er svært stor variasjon i bruk av poliklinikk ved demens, særlig på grunn
 
 Det er relativt stor geografisk variasjon i bruk av poliklinikk ved Parkinsons sykdom. I tillegg til oppfølging hos fastlege, er det viktig at pasienter med Parkinsons sykdom har regelmessig kontakt med spesialist siden sykdommen over tid er krevende å behandle. Den påviste variasjonen gir grunn til å reise spørsmål ved om tilbudet til eldre pasienter med Parkinsons sykdom er likeverdig fordelt i Norge
 
-
-
-
- ## Ikke-kirurgisk kreftbehandling
+## Ikke-kirurgisk kreftbehandling
 
 Det diagnostiseres årlig ca 10 500 nye krefttilfeller i aldersgruppen 75 år og eldre. Antall nye krefttilfeller hos eldre forventes å øke med 76 % til ca. 18 000 fram mot 2030. Mesteparten av dette skyldes at antall eldre forventes å øke med 60 % på samme tid. Økningen i antall nye krefttilfeller vil stille store krav til kapasitet og kompetanse i sykehusene særlig fordi eldre pasienter ofte har flere sykdommer enn kreft.
 
@@ -579,21 +459,15 @@ Bosatte i opptaksområdet Vestfold får medikamentell kreftbehandling dobbelt s�
 
 **Figur:** Nye krefttilfeller i Norge pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder. Gj.snittlig ant. nye tilfeller pr. år.
 
- ![kreft1](/helseatlas/img/no/eldre/kreft1.png) 
-
- 
+![kreft1](/helseatlas/img/no/eldre/kreft1.png)
 
 **Figur:** Medikamentell kreftbehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.
 
- ![kreft2](/helseatlas/img/no/eldre/kreft2.png) 
-
- 
+![kreft2](/helseatlas/img/no/eldre/kreft2.png)
 
 **Figur:** Strålebehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.
 
- ![kreft3](/helseatlas/img/no/eldre/kreft3.png) 
-
- 
+![kreft3](/helseatlas/img/no/eldre/kreft3.png)
 
 ### Kommentarer
 
@@ -601,10 +475,7 @@ Bruken av medikamentell kreftbehandling samvarierer til en viss grad med forekom
 
 Det ingen samvariasjon med bruk av strålebehandling og forekomst av kreft. Opptaksområdene med de ni laveste stråleratene har ikke eget strålesenter, og det kan derfor synes som nærhet til strålesenter har betydning for om eldre pasienter strålebehandles.
 
-
-
-
- ## Behandling av øyesykdommer
+## Behandling av øyesykdommer
 
 Ved grå stær blir øyets linse uklar, noe som gir nedsatt syn og som uten behandling fører til blindhet. Synsnedsettelsen kommer som regel langsomt over tid, ensidig eller dobbeltsidig, og er en del av aldringsprosessen. Noen øyelidelser er forårsaket av at nye blodkar vokser og kan medføre blindhet. Eksempler på slike tilstander er hovedsakelig aldersbetinget makula degenerasjon (AMD, våt type), men også diabetisk netthinneforandringer (diabetiske retinopati) og blodpropp i øyet.
 
@@ -620,15 +491,11 @@ Det utføres om lag 21 000 inngrep for aldersbetinget grå stær pr. år blant e
 
 **Figur:** Grå stær, ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
 
- ![oyesykdommer1](/helseatlas/img/no/eldre/oyesykdommer1.png) 
-
- 
+![oyesykdommer1](/helseatlas/img/no/eldre/oyesykdommer1.png)
 
 **Figur:** Injeksjonsbehandling i øyet for tilstandene AMD, diabetisk retinopati og blodpropp, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pr. tilstand pr. år.
 
- ![oyesykdommer2](/helseatlas/img/no/eldre/oyesykdommer2.png) 
-
- 
+![oyesykdommer2](/helseatlas/img/no/eldre/oyesykdommer2.png)
 
 ### Kommentarer
 
@@ -636,10 +503,7 @@ Det utføres et stort antall inngrep for grå stær hvert år. Det er ingen hold
 
 For netthinnesykdommene er det kun AMD som har et volum som lar seg vurdere. For blodpropp og diabetisk retinopati er det relativt nylig dokumentert at injeksjon med veksthemmere har effekt. Det er ikke kjent geografisk variasjon for AMD. Den beskrevne variasjonen er større enn det som kan tilskrives tilfeldig variasjon. Det er en påfallende forskjell mellom to nærliggende opptaksområder som Stavanger og Bergen. Haukeland universitetssjukehus har hatt kapasitetsproblemer, men har nå tatt i bruk sykepleiere som behandlere. Kapasitetsproblemer kan fremtvinge prioriteringer som gir ulikt tilbud av helsetjenester til befolkningen. Fravær av nasjonale retningslinjer og ulik tolkning av foreliggende dokumentasjon kan også være årsaker til variasjon på dette området.
 
-
-
-
- ## Tilpasning av nytt høreapparat
+## Tilpasning av nytt høreapparat
 
 Med alderen svekkes sansene, og aldersbetinget hørselstap starter vanligvis ved 60-årsalderen. Hørselstap skyldes tap av sanseceller i sneglehuset som er en del av det indre øret. De sansecellene som mottar de høye tonene, diskanten, svekkes først. Livskvaliteten kan reduseres av svekket hørsel. Hørselstap kan bidra til sosial isolasjon, depresjon, tap av selvfølelse, og også til demensutvikling.
 
@@ -657,9 +521,7 @@ Fire ganger så mange av de bosatte i Finnmark får tilpasset høreapparat som d
 
 **Figur:** Høreapparat, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Fordelt på off. og priv. tjenesteyter, ant. off. og priv.
 
- ![horeapparat1](/helseatlas/img/no/eldre/horeapparat1.png) 
-
- 
+![horeapparat1](/helseatlas/img/no/eldre/horeapparat1.png)
 
 ### Kommentarer
 
@@ -671,10 +533,7 @@ Pasienter som får tilpasset høreapparat hos private audiografklinikker får de
 
 Private audiografklinikker bidrar til å redusere lange ventetider, men understøtter ikke uten videre myndighetenes ansvar for likeverdige helsetjenester til hørselshemmede.
 
-
-
-
- ## Biologiske legemidler
+## Biologiske legemidler
 
 2015Biologiske legemidler defineres tradisjonelt som et legemiddel som er framstilt av eller er renset fra levende celler eller vev, men også syntetisk fremstilte legemidler som påvirker immunsystemet kan defineres som et biologisk legemiddel. Biologiske legemidler brukes i dag i behandling av immunologiske tilstander, samt kreftsykdom.
 
@@ -692,15 +551,11 @@ Omtrent 11 500 pasienter i alderen 50–74 år fikk i 2015 behandling med biolog
 
 **Figur:** Biologiske legemidler, ant. pasienter pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder, ant. pasienter og innb.
 
- ![biologiske1](/helseatlas/img/no/eldre/biologiske1.png) 
-
- 
+![biologiske1](/helseatlas/img/no/eldre/biologiske1.png)
 
 **Figur:** Biologiske legemidler, ant. pasienter pr. 1 000 innb., 50–74 år, justert for kjønn og alder, ant. pasienter og innb.
 
- ![biologiske2](/helseatlas/img/no/eldre/biologiske2.png) 
-
- 
+![biologiske2](/helseatlas/img/no/eldre/biologiske2.png)
 
 ### Kommentarer
 
@@ -708,10 +563,7 @@ Det er noe variasjon mellom opptaksområdene når det gjelder bruk av biologiske
 
 For de yngre dominerer revmatiske ledd- og ryggsykdommer mindre, og innslaget av pasienter som blir behandlet med andre sykdommer er større. Det kan forklare deler av forskjellen i behandlingsrate mellom de to aldersgruppene, men en kan heller ikke utelukke at for disse kostbare og strengt regulerte legemidlene blir yngre pasienter prioritert. Dette bør undersøkes nærmere.
 
-
-
-
- ## Befolkningsutvikling
+## Befolkningsutvikling
 
 Det er omtrent 370 000 eldre i Norge i 2017, og de utgjør 7 % av Norges totale befolkning. Det er store forskjeller både i antall og andel eldre mellom opptaksområdene til helseforetakene. Fram til 2040 forventes det at antall eldre vil fordobles og at de eldre vil utgjøre 12 % av Norges befolkning. Denne endringen i befolkningsstrukturen vil utfordre helsetjenesten, og opptaksområdene vil utfordres ulikt.
 
@@ -721,15 +573,11 @@ Det er store regionale forskjeller i andelen av befolkningen som er eldre. De el
 
 **Figur:** Andel av befolkningen som er 75 år eller eldre, 2013–2017 og framskrevet for 2017–2040 (SSB’s mellomalternativ og alternativ for sterk og svak aldring), fordelt på helseforetakenes opptaksområde. Stiplet linje er mellomalternativet for landet samlet. Kilde: SSB.
 
- ![befolkningsutvikling1](/helseatlas/img/no/eldre/befolkningsutvikling1.png) 
-
- 
+![befolkningsutvikling1](/helseatlas/img/no/eldre/befolkningsutvikling1.png)
 
 **Figur:** Eldres bruk av allmennlege- og spesialisthelsetjeneste som andel av hele befolkningens bruk, gj.snitt for årene 2013–2015. Stiplet linje angir eldre som andel av befolkningen (7%).
 
- ![befolkningsutvikling2](/helseatlas/img/no/eldre/befolkningsutvikling2.png) 
-
- 
+![befolkningsutvikling2](/helseatlas/img/no/eldre/befolkningsutvikling2.png)
 
 ## Konsekvenser
 
@@ -744,7 +592,3 @@ Det er særlig for innleggelser i sykehus at eldre utgjør en andelsmessig stor 
 Kommunale akuttsenger, KAD, var planlagt med tanke på pasienter med akutt forverring av allerede erkjent tilstand som f.eks. kols og hjertesvikt. Eldre akuttinnlagte kolspasienter har en gjennomsnittlig liggetid på 6,1 dager, 29 % av pasientene reinnlegges og 21 % dør innen 30 dager etter siste innleggelse. Eldre innlagte hjertesviktpasienter ligger gjennomsnittlig 6,3 dager i sykehus, 26 % av pasientene reinnlegges og 15 % er døde innen 30 dager etter siste innleggelse.
 
 Når vi ser den lange liggetiden og den høye andelen pasienter som reinnlegges og dør i løpet av kort tid etter innleggelse for disse tilstandene, er det grunn til å stille spørsmål ved om KAD-sengene kan brukes til disse pasientene.
-
-
-
-

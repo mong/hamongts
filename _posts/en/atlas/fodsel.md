@@ -9,7 +9,4 @@ pdfUrl: /helseatlas/files/obstetric_healthcare_atlas.pdf
 
 # Fact sheets for different patient samples in the Obstetrics Healthcare Atlas
 
-
 To be announced.
-
- 

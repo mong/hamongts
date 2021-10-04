@@ -9,8 +9,7 @@ pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 
 # Helseatlas for kvalitet 2017–2019
 
- 
- ## Samlede resultater
+## Samlede resultater
 
 Helseatlas for kvalitet er basert på informasjon om i underkant av 100 000 pasienter og behandlinger årlig, hvorav noen kan ha fått samme behandling flere ganger eller ha flere sykdommer. Hensikten er å undersøke om befolkningen får likeverdig kvalitet i utvalgte nødvendige helsetjenester, uavhengig av bosted og på tvers av fagområder. Atlaset synliggjør hvorvidt sørge-for-ansvaret for pasienter som rammes av alvorlige sykdommer er tilstrekkelig ivaretatt.
 
@@ -26,9 +25,9 @@ På regionalt nivå var det ulik måloppnåelse, og dermed også geografisk vari
 
 Nasjonalt var måloppnåelsen høy for ni kvalitetsindikatorer, moderat for 10 kvalitetsindikatorer og lav for fem kvalitetsindikatorer i perioden 2017–2019.
 
- ![heatmap\_hf\_rhf](/helseatlas/img/no/kvalitet/heatmap\_hf\_rhf.png)
+![heatmap_hf_rhf](/helseatlas/img/no/kvalitet/heatmap_hf_rhf.png)
 
-*Samlet oversikt over kvalitet, utvalgte nødvendige helsetjenester, opptaksområder, høy (grønn), moderat (gul) og lav måloppnåelse (rød). Gjennomsnitt 2017-2019. ++ markerer indikatorer som har to målnivå, høy (grønn) og lav måloppnåelse (rød).*
+_Samlet oversikt over kvalitet, utvalgte nødvendige helsetjenester, opptaksområder, høy (grønn), moderat (gul) og lav måloppnåelse (rød). Gjennomsnitt 2017-2019. ++ markerer indikatorer som har to målnivå, høy (grønn) og lav måloppnåelse (rød)._
 
 ### Kommentar
 
@@ -38,11 +37,7 @@ For noen kvalitetsindikatorer var det utfordringer med lav måloppnåelse i alle
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_samlet_res.pdf)
 
-
-
-
-
- ## Hjerteinfarkt
+## Hjerteinfarkt
 
 Hvert år rammes i underkant av 12 000 nordmenn av akutt hjerteinfarkt. Om lag 25 % av hjerteinfarktene har ST-segment elevasjon i EKG (STEMI) som skyldes at en koronararterie er helt tett på grunn av en rift i det trange partiet i blodåren og trombedannelse (blodpropp). 75 % av hjerteinfarktene er NSTEMI, der det er mindre EKG-forandinger og kranspulsåren er i de fleste tilfeller ikke helt tett.
 
@@ -58,13 +53,13 @@ Høy måloppnåelse er av fagrådet satt til reperfusjonsbehandling innen anbefa
 
 For utredning med kransårerøntgen skal minst 80 % av pasientene utredes innen 72 timer for høy måloppnåelse og 50 – 80 % for moderat måloppnåelse. Nasjonalt ble 62 % av pasientene utredet innen 72 timer i perioden 2017-2019. I opptaksområdet Sørlandet ble rett under 80 % av pasientene utredet innen fristen. Også opptaksområdet UNN var nært høy måloppnåelse for kransårerøntgen. Måloppnåelsen var lavest i opptaksområdene Møre og Romsdal og Stavanger, hvor rundt 45 % av pasienten ble utredet innen anbefalt tid. Regionalt ble 67 % av pasientene i Helse Nord utredet med kransårerøntgen innen anbefalt tid, mens tilsvarende andel for Helse Midt-Norge var lavest med 54 %.
 
- ![kvalitet\_hjerteinfarkt\_1](/helseatlas/img/no/kvalitet/kvalitet\_hjerteinfarkt\_1.png)
+![kvalitet_hjerteinfarkt_1](/helseatlas/img/no/kvalitet/kvalitet_hjerteinfarkt_1.png)
 
-*Andel pasienter som fikk reperfusjonsbehandling innen anbefalt tid ved STEMI. Alder 18- 84 år, gj.snitt 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år.*
+_Andel pasienter som fikk reperfusjonsbehandling innen anbefalt tid ved STEMI. Alder 18- 84 år, gj.snitt 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år._
 
- *![kvalitet\_hjerteinfarkt\_2](/helseatlas/img/no/kvalitet/kvalitet\_hjerteinfarkt\_2.png)
+\*![kvalitet_hjerteinfarkt_2](/helseatlas/img/no/kvalitet/kvalitet_hjerteinfarkt_2.png)
 
-*Andel pasienter med NSTEMI som ble invasivt utredet innen 72 timer etter innleggelse*
+_Andel pasienter med NSTEMI som ble invasivt utredet innen 72 timer etter innleggelse_
 
 ### Kommentar
 
@@ -72,11 +67,7 @@ Nasjonalt er det utfordringer for utredning med kransårerøntgen ved NSTEMI hje
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_hjerteinfarkt.pdf)
 
-
-
-
-
- ## Karkirurgi
+## Karkirurgi
 
 Karkirurgi er inngrep for å behandle sykdommer i blodårene utenfor hjertet og hodet. Karkirurgi gjøres særlig ved utvidet hovedpulsåre (aneurisme), ved nedsatt blodforsyning i ben og ved trang halspulsåre. Det gjøres årlig rundt 6 100 karkirurgiske inngrep i Norge, hvorav rundt 3 400 for nedsatt blodforsyning til ben, og om lag 500 for forsnevring av halspulsåren, som er de tilstandene som inngår i dette altaset.
 
@@ -90,13 +81,13 @@ Forekomst av operasjoner for karsykdom i ben varierer mye, fra 123 og 103 per 10
 
 Det var geografisk variasjon i måloppnåelse for indikatoren andel pasienter med symptomatisk carotisstenose behandlet innen 14 dager i perioden 2017–2019. Ni av 19 opptaksområder hadde høy måloppnåelse, ni opptaksområder hadde moderat måloppnåelse og ett opptaksområde hadde lav måloppnåelse. Andelen var høyest i opptaksområdet UNN og lavest i opptaksområdet Bergen. Henholdsvis 93 % og 50 % av pasientene bosatt i disse opptaksområdene ble behandlet innen 14 dager.
 
- *![kvalitet\_karkirurgi\_1](/helseatlas/img/no/kvalitet/kvalitet\_karkirurgi\_1.png)
+\*![kvalitet_karkirurgi_1](/helseatlas/img/no/kvalitet/kvalitet_karkirurgi_1.png)
 
-*Antall pasienter operert for karsykdom i ben per 100 000 innbyggere, ujustert, opptaksområder. Søylene viser gjennomsnittlige rater, årlig rate vises med symbol. Tall til høyre for figuren viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019.*
+_Antall pasienter operert for karsykdom i ben per 100 000 innbyggere, ujustert, opptaksområder. Søylene viser gjennomsnittlige rater, årlig rate vises med symbol. Tall til høyre for figuren viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019._
 
- *![kvalitet\_karkirurgi\_2](/helseatlas/img/no/kvalitet/kvalitet\_karkirurgi\_2.png)
+\*![kvalitet_karkirurgi_2](/helseatlas/img/no/kvalitet/kvalitet_karkirurgi_2.png)
 
-*Andel pasienter med symptomatisk carotisstenose operert innen 14 dager, opptaksområder. Gj.snittlige andeler, antall opererte innen 14 dg (N) og antall opererte (aktuelle). \*Opptaksområdet har færre enn 10 opr i gj.snitt/år. ¤ mangler data for minst ett år.*
+_Andel pasienter med symptomatisk carotisstenose operert innen 14 dager, opptaksområder. Gj.snittlige andeler, antall opererte innen 14 dg (N) og antall opererte (aktuelle). \*Opptaksområdet har færre enn 10 opr i gj.snitt/år. ¤ mangler data for minst ett år._
 
 ### Kommentar
 
@@ -106,11 +97,7 @@ Alle opptaksområder unntatt Bergen har oppnådd moderat eller høy måloppnåel
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_karkirurgi.pdf)
 
-
-
-
-
- ## Hjerneslag
+## Hjerneslag
 
 Om lag 10 000 personer legges årlig inn i sykehus med hjerneslag. Rundt 85 % skyldes blodpropp og 10–15 % hjerneblødning. Forekomsten av hjerneslag varierer lite geografisk, fra 2 til 2,8 per 1 000 innbyggere. Nye behandlingsmetoder har bidratt til 40 % reduksjon i dødelighet for denne sykdommen de siste 10 år.
 
@@ -126,13 +113,13 @@ Nasjonale retningslinjer anbefaler at pasienter aktuelle for trombolyse bør utr
 
 Mer enn halvparten av pasientene i Norge ble innlagt senere enn fire timer etter symptomdebut. 54 % av pasientene i opptaksområdet Stavanger kom til sykehus innen fire timer mens pasientene i opptaksområdene St.Olav og Finnmark hadde lavest andel med 38 %. Nasjonalt var det ingen entydig utvikling mot raskere innleggelser i sykehus ved hjerneslag i perioden 2017–2019.
 
- *![kvalitet\_hjerneslag\_1](/helseatlas/img/no/kvalitet/kvalitet\_hjerneslag\_1.png)
+\*![kvalitet_hjerneslag_1](/helseatlas/img/no/kvalitet/kvalitet_hjerneslag_1.png)
 
-*Andel pasienter med hjerneinfarkt behandlet med trombolyse. Søylene viser gj.snitt andeler, årlige andeler med symbol. Tallene til høyre viser antall pasienter som fikk tombolyse (N) og ant. pas. med hjerneinfarkt (aktuelle). Gj.snitt per år i perioden 2017–2019.*
+_Andel pasienter med hjerneinfarkt behandlet med trombolyse. Søylene viser gj.snitt andeler, årlige andeler med symbol. Tallene til høyre viser antall pasienter som fikk tombolyse (N) og ant. pas. med hjerneinfarkt (aktuelle). Gj.snitt per år i perioden 2017–2019._
 
- *![kvalitet\_hjerneslag\_2](/helseatlas/img/no/kvalitet/kvalitet\_hjerneslag\_2.png)
+\*![kvalitet_hjerneslag_2](/helseatlas/img/no/kvalitet/kvalitet_hjerneslag_2.png)
 
-*Andel pasienter innlagt innen fire timer etter hjerneslag, søylene viser gjennomsnittlige rater, årlig rate vises med symbol, Tall til høyre viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019.*
+_Andel pasienter innlagt innen fire timer etter hjerneslag, søylene viser gjennomsnittlige rater, årlig rate vises med symbol, Tall til høyre viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019._
 
 ### Kommentar
 
@@ -142,11 +129,7 @@ Ulik behandlingspraksis for de mindre alvorlige slagene er hovedårsaken til var
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_hjerneslag.pdf)
 
-
-
-
-
- ## Invasiv kardiologi
+## Invasiv kardiologi
 
 Invasiv kardiologi omfatter utredning og behandling av hjertesykdommer ved hjelp av tynne katetre som føres til hjertets kransårer via en blodåre. De viktigste prosedyrene som utføres innen dette fagfeltet er kransårerøntgen (koronar angiografi), utblokking av trange kransårer (PCI) og innsetting av ny hjerteklaff. Hvert år utføres om lag 32 000 koronare angiografier eller PCI behandlinger fordelt på 9 sykehus i Norge.
 
@@ -162,13 +145,13 @@ Det var geografisk variasjon i andel utblokking av trange kransårer (PCI) hos p
 
 Om lag 20 % av pasientene i Norge fikk utført intrakoronar trykkmåling under koronar angiografi i perioden 2017-2019, og det var geografiske forskjeller. Mens 25 % av pasientene fikk utført trykkmåling i opptaksområdet St. Olav, fikk om lag 16 % av pasientene i opptaksområdene Finnmark, Nordland og UNN utført trykkmåling ved koronar angiografi. Resultatene gjenspeiler seg på regionalt nivå, der måloppnåelsen var lavest for Helse Nord (16 %) og høyest for Helse Midt-Norge (24 %). Nasjonalt steg andelen intrakoronar trykkmåling fra 19 % i 2017 til 23 % i 2019.
 
- *![kvalitet\_invasiv\_kardio\_1](/helseatlas/img/no/kvalitet/kvalitet\_invasiv\_kardio\_1.png)
+\*![kvalitet_invasiv_kardio_1](/helseatlas/img/no/kvalitet/kvalitet_invasiv_kardio_1.png)
 
-*Andel PCI hos pasienter som gjennomgikk invasive koronare prosedyrer, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel PCI hos pasienter som gjennomgikk invasive koronare prosedyrer, fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_invasiv\_kardio\_2](/helseatlas/img/no/kvalitet/kvalitet\_invasiv\_kardio\_2.png)
+\*![kvalitet_invasiv_kardio_2](/helseatlas/img/no/kvalitet/kvalitet_invasiv_kardio_2.png)
 
-*Andel prosedyrer med trykkmåling for å vurdere innsnevring i kransårene hos personer med stabil kransåresykdom, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel prosedyrer med trykkmåling for å vurdere innsnevring i kransårene hos personer med stabil kransåresykdom, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -176,11 +159,7 @@ Resultatene kan tyde på at seleksjonen av pasienter til angiografi er strengere
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_invasiv_kardio.pdf)
 
-
-
-
-
- ## Tykk- og endetarmskreft
+## Tykk- og endetarmskreft
 
 Tykk- og endetarmskreft er den kreftformen med høyest forekomst, for begge kjønn, med om lag 4 000 nye tilfeller årlig. Av disse utgjør tykktarmskreft rundt 70 %, resten er endetarmskreft. Forekomsten er doblet de siste 50 årene. Om lag 35 000 personer levde med disse sykdommene i 2019 og rundt 1 500 dør hvert år.
 
@@ -196,13 +175,13 @@ Fagrådet for tykk- og endetarmsregisteret justerte høy måloppnåelse for ande
 
 14 av 21 opptaksområder oppnådde høyt målnivå for andel pasienter uten lokalt tilbakefall fem år etter operasjon for endetarmskreft. For hele perioden hadde Sørlandet høyest andel med 99 % og Diakonhjemmets opptaksområde lavest med 91 %. Resultatene var stabile i perioden. Dette er statistisk beregnede resultater da det ikke er tilstrekkelig observasjonstid for indikatoren.
 
- *![kvalitet\_tarmkreft\_1](/helseatlas/img/no/kvalitet/kvalitet\_tarmkreft\_1.png)
+\*![kvalitet_tarmkreft_1](/helseatlas/img/no/kvalitet/kvalitet_tarmkreft_1.png)
 
-*Andel pasienter med tykk- og endetarmskreft operert med kikkhullsteknikk. Alder 20-99 år (tykktarmskreft) og 25-96 år (endetarmskreft), gj.snitt 2017-2019, målnivå for 2019.*
+_Andel pasienter med tykk- og endetarmskreft operert med kikkhullsteknikk. Alder 20-99 år (tykktarmskreft) og 25-96 år (endetarmskreft), gj.snitt 2017-2019, målnivå for 2019._
 
- *![kvalitet\_tarmkreft\_2](/helseatlas/img/no/kvalitet/kvalitet\_tarmkreft\_2.png)
+\*![kvalitet_tarmkreft_2](/helseatlas/img/no/kvalitet/kvalitet_tarmkreft_2.png)
 
-*Andel pasienter med endetarmskreft uten lokalt tilbakefall fem år etter operasjonen, statistisk beregnet, alder 25-96 år, gj.snitt 2017-2019.*
+_Andel pasienter med endetarmskreft uten lokalt tilbakefall fem år etter operasjonen, statistisk beregnet, alder 25-96 år, gj.snitt 2017-2019._
 
 ### Kommentar
 
@@ -212,11 +191,7 @@ Variasjonen i tilbakefall av endetarmskreft er ikke stor sammenlignet med omtale
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_tarmkreft.pdf)
 
-
-
-
-
- ## Brystkreft
+## Brystkreft
 
 Brystkreft er den vanligste formen for kreft blant kvinner. I 2019 fikk 3 700 kvinner brystkreft for første gang. Forekomsten har økt betydelig de siste tiårene, delvis forklart av screening og bedret diagnostikk. Det er gjort store fremskritt i behandlingen - for de som rammes av sykdommen er utsiktene til å overleve stadig bedre. De som ikke blir friske, kan leve lenge med sykdommen.
 
@@ -230,13 +205,13 @@ Fagrådet for Nasjonalt kvalitetsregister for brystkreft har definert kvalitetsi
 
 De fleste av opptaksområdene hadde høy andel med ett kirurgisk inngrep og resultatene viste liten grad av geografisk variasjon. Forskjellen mellom bosatte i Finnmark, som var opptaksområdet med høyest andel, og bosatte i Østfold, som hadde lavest andel, var på om lag 11 prosentpoeng. Småtall for opptaksområdet Finnmark gjør at resultatet er forbundet med noe usikkerhet. For brystbevarende operasjoner på svulster mindre enn 30 mm, nådde tre opptaksområder, Nordland, Nord-Trøndelag og Vestre Viken, målet på 85 %. Seksten av 21 opptaksområder hadde moderat måloppnåelse og to opptaksområder hadde lav måloppnåelse. Den geografiske variasjonen var relativt stor, fra opptaksområdet i Nordland med 88,2 % til opptaksområde i Fonna med 63,0 %. En forskjell på 25 prosentpoeng.
 
- *![kvalitet\_brystkreft\_1](/helseatlas/img/no/kvalitet/kvalitet\_brystkreft\_1.png)
+\*![kvalitet_brystkreft_1](/helseatlas/img/no/kvalitet/kvalitet_brystkreft_1.png)
 
-*Figur 1: Andel kvinner, 19-99 år, som kun har fått utført ett inngrep på primærtumor, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel kvinner, 19-99 år, som kun har fått utført ett inngrep på primærtumor, fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_brystkreft\_2](/helseatlas/img/no/kvalitet/kvalitet\_brystkreft\_2.png)
+\*![kvalitet_brystkreft_2](/helseatlas/img/no/kvalitet/kvalitet_brystkreft_2.png)
 
-*Andel brystbevarende operasjoner utført på kvinner, 19-99 år, tumorstørrelse under 30 mm, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel brystbevarende operasjoner utført på kvinner, 19-99 år, tumorstørrelse under 30 mm, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -244,11 +219,7 @@ Det er positivt at de fleste av opptaksområdene klarte å behandle en høy ande
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_brystkreft.pdf)
 
-
-
-
-
- ## Lungekreft
+## Lungekreft
 
 Årlig får ca. 3000 nye pasienter lungekreft. Det er nå er like mange kvinner som menn som får lungekreft. Forekomsten for menn har flatet ut, mens den fortsatt er stigende for kvinner. Lungekreft er en av de kreftformene det er enklest å forebygge, fordi 8 av 10 tilfeller skyldes røyking. Det har vært en kraftig reduksjon i røyking, men det tar mange år før dette gir effekt. Lungekreft er den kreftformen som tar flest liv.
 
@@ -264,13 +235,13 @@ I gjennomsnitt for 3-årsperioden fikk nesten 40 % av lungekreftpasienter i Norg
 
 Det var variasjon i median overlevelse i perioden 2017–2019. Ni av 21 opptaksområder hadde lav måloppnåelse. Median overlevelse var lengst i opptaksområdet OUS med 16,8 måneder, sammenlignet med 9,9 måneder i opptaksområdet Vestfold, en forskjell på om lag syv måneder. For de fleste av opptaksområdene var det en positiv utvikling i perioden, med en økning i median overlevelse i 2019 sammenlignet med 2017.
 
- *![kvalitet\_lungekreft\_1](/helseatlas/img/no/kvalitet/kvalitet\_lungekreft\_1.png)
+\*![kvalitet_lungekreft_1](/helseatlas/img/no/kvalitet/kvalitet_lungekreft_1.png)
 
-*Andel pasienter med lungekreft som ble kurativt behandlet (kirurgi eller strålebehandling), fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel pasienter med lungekreft som ble kurativt behandlet (kirurgi eller strålebehandling), fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_lungekreft\_2](/helseatlas/img/no/kvalitet/kvalitet\_lungekreft\_2.png)
+\*![kvalitet_lungekreft_2](/helseatlas/img/no/kvalitet/kvalitet_lungekreft_2.png)
 
-*Median overlevelse i måneder for lungekreftpasienter, fordelt på opptaksområder, for perioden 2017-2019.*
+_Median overlevelse i måneder for lungekreftpasienter, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -278,11 +249,7 @@ Det er høy måloppnåelse for kurativ behandling av lungekreft i Norge, men lik
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_lungekreft.pdf)
 
-
-
-
-
- ## Prostatakreft
+## Prostatakreft
 
 Prostatakreft er den mest utbredte kreftformen hos menn i Norge, om lag 5 000 blir diagnostisert med denne sykdommen hvert år. Årlig dør ca. 900 menn av prostatakreft. Antallet menn som lever med denne tilstanden og som trenger oppfølging, øker. I 2019 levde i overkant av 54 000 menn med prostatakreft i Norge.
 
@@ -298,13 +265,13 @@ De fleste av opptaksområdene hadde høy måloppnåelse for andel radikalt behan
 
 For andel med fri rand etter kirurgi på mindre svulster (T2), hadde elleve av 21 opptaksområder høy måloppnåelse (>85 %), ni opptaksområder hadde moderat måloppnåelse (75% – 84%) og ett opptaksområde (Nordland) hadde lav måloppnåelse (<75 %). Telemark hadde en klar nedadgående trend med lav måloppnåelse i 2019. Det var om lag 25 prosentpoeng forskjell mellom opptaksområdet med høyest- og lavest andel fri rand.
 
- *![kvalitet\_prostatakreft\_1](/helseatlas/img/no/kvalitet/kvalitet\_prostatakreft\_1.png)
+\*![kvalitet_prostatakreft_1](/helseatlas/img/no/kvalitet/kvalitet_prostatakreft_1.png)
 
-*Andel høyrisikopasienter, 38-79 år, radikalt behandlet, fordelt på opptaksområder, 2017-2019.*
+_Andel høyrisikopasienter, 38-79 år, radikalt behandlet, fordelt på opptaksområder, 2017-2019._
 
- *![kvalitet\_prostatakreft\_2](/helseatlas/img/no/kvalitet/kvalitet\_prostatakreft\_2.png)
+\*![kvalitet_prostatakreft_2](/helseatlas/img/no/kvalitet/kvalitet_prostatakreft_2.png)
 
-*Andel menn med fri rand etter kirurgi for mindre kreftsvulster (≤ T2), fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel menn med fri rand etter kirurgi for mindre kreftsvulster (≤ T2), fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -314,11 +281,7 @@ Måloppnåelsen er ikke tilfredstillende for andelen med fri rand etter kirurgi.
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_prostatakreft.pdf)
 
-
-
-
-
- ## Diabetes type 1 hos barn og unge
+## Diabetes type 1 hos barn og unge
 
 Diabetes type 1 er den nest vanligste kroniske sykdommen hos barn og unge i Norge, og Norge er på verdenstoppen når det gjelder forekomst av diabetes diagnostisert før 15-årsalderen. Diabetes type 1 utgjør 96 % av alle tilfeller av diabetes hos barn og unge i alderen 0-17 år, og i 2019 ble det rapportert inn 410 nye tilfeller av diabetes type 1 blant barn og unge i Norge.
 
@@ -332,13 +295,13 @@ Høy måloppnåelse oppnås når minst 40 % av barn og unge med diabetes type 1 
 
 Det var geografisk variasjon i bruk av CGM mellom opptaksområdene. 86 % av pasientene i Nord- Trøndelag brukte CGM i perioden 2017-2019 sammenlignet med 54 % i Oslo og 52 % i Finnmark. Det var også geografisk variasjon i bruk av CGM mellom regionene. Andelen var høyest i Helse Midt-Norge (75 %) og lavest i Helse SørØst (60 %). Utviklingen i bruk av CGM var stor i perioden, med en økning for alle opptaksområder. Det var 25 pp. høyere andel barn med diabetes type 1 som brukte CGM i 2019 sammenlignet med i 2017. Regionalt brukte 85 % av pasientene i Helse Midt Norge CGM i 2019, sammenlignet med 70 % i Helse Sør-Øst. I regionene Helse Nord og Helse Vest brukte henholdsvis 75 % og 78 % av pasientene CGM i 2019.
 
- *![kvalitet\_barnediabetes\_1](/helseatlas/img/no/kvalitet/kvalitet\_barnediabetes\_1.png)
+\*![kvalitet_barnediabetes_1](/helseatlas/img/no/kvalitet/kvalitet_barnediabetes_1.png)
 
-*Figur 1: Andel barn og unge, 0-17 år, med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år.*
+_Figur 1: Andel barn og unge, 0-17 år, med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år._
 
- *![kvalitet\_barnediabetes\_2](/helseatlas/img/no/kvalitet/kvalitet\_barnediabetes\_2.png)
+\*![kvalitet_barnediabetes_2](/helseatlas/img/no/kvalitet/kvalitet_barnediabetes_2.png)
 
-*Figur 2: Andel barn og unge, 0-17 år, som bruker CGM, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel barn og unge, 0-17 år, som bruker CGM, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -346,11 +309,7 @@ De fleste barn og unge når ikke behandlingsmålet når det kommer til regulerin
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_barnediabetes.pdf)
 
-
-
-
-
- ## Diabetes type 1 hos voksne
+## Diabetes type 1 hos voksne
 
 Den vanligste årsaken til redusert levetid og økt sykdomsbyrde for personer med diabetes er tidlig hjerte- og karsykdom. Komplikasjoner knyttet til sykdom i øye, nyrer og nervesystemet bidrar også til vesentlig helsetap. Store deler av kostnadene til diabetesomsorgen er knyttet til behandling av komplikasjoner. God diabetesbehandling er dermed essensielt for å forhindre eller forsinke utvikling av senkomplikasjoner knyttet til diabetes.
 
@@ -366,13 +325,13 @@ Høy måloppnåelse er av fagrådet satt til HbA1c lik eller under 53 mmol/mol f
 
 Når blodsukkeret er over eller lik 75 mmol/mol øker faren for å utvikle senkomplikasjoner betraktelig. Det anbefales derfor at andelen pasienter med HbA1c under 75 mmol/mol skal være høyest mulig. Høy måloppnåelse for HbA1c under 75 mmol/mol er satt til minst 85 %, moderat måloppnåelse er 80-85 % og lav måloppnåelse er under 80 %. Resultatet viser store forskjeller i andel måloppnåelse mellom opptaksområdene. I opptaksområdet Diakonhjemmet hadde 91 % av pasientene HbA1c under 75 mmol/mol, sammenlignet med 79 % i opptaksområdene Østfold, Finnmark, Telemark og Helgeland. Regionalt var forskjellene mindre. Lavest måloppnåelse hadde Helse-Nord (82 %) og høyest måloppnåelse hadde Helse Midt- Norge (86 %). Det var en gjennomgående positiv utvikling for alle opptaksområder i perioden, der alle opptaksområder hadde minimum moderat måloppnåelse i 2019.
 
- *![kvalitet\_voksendiabetes\_1](/helseatlas/img/no/kvalitet/kvalitet\_voksendiabetes\_1.png)
+\*![kvalitet_voksendiabetes_1](/helseatlas/img/no/kvalitet/kvalitet_voksendiabetes_1.png)
 
-*Figur 1: Andel pasienter med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel pasienter med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_voksendiabetes\_2](/helseatlas/img/no/kvalitet/kvalitet\_voksendiabetes\_2.png)
+\*![kvalitet_voksendiabetes_2](/helseatlas/img/no/kvalitet/kvalitet_voksendiabetes_2.png)
 
-*Figur 2: Andel pasienter med HbA1c under 75 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel pasienter med HbA1c under 75 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -380,11 +339,7 @@ Måloppnåelsen for blodsukkerregulering er for lav i enkelte opptaksområder og
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_voksendiabetes.pdf)
 
-
-
-
-
- ## Hoftebrudd
+## Hoftebrudd
 
 Norge har en av verdens høyeste forekomster av hoftebrudd. I overkant av 8 000 personer opereres hvert år og antall brudd forventes å stige i takt med en aldrende befolkning. Hoftebrudd kan ha alvorlige konsekvenser med funksjonstap, redusert livskvalitet og livslengde. Bedre behandlingsresultater og mindre hjelpebehov kan oppnås ved å fokusere på effektive pasientforløp og optimal behandlingsteknikk.
 
@@ -400,15 +355,13 @@ De fleste av opptaksområdene hadde moderat eller lav måloppnåelse for andel p
 
 Seksten av opptaksområdene hadde enten høy eller moderat måloppnåelse for bruk av protese med sementert stamme hos pasienter eldre enn 70 år, vurdert ut fra samlet resultat i perioden. Tre opptaksområder, Sørlandet, Førde og UNN, skilte seg ut med lav måloppnåelse for denne indikatoren. Kvalitetsindikatoren viste stor geografisk variasjon. Forskjellen mellom opptaksområdet med høyestog lavest andel var hele 50 prosentpoeng.
 
- *![kvalitet\_hoftebrudd\_1](/helseatlas/img/no/kvalitet/kvalitet\_hoftebrudd\_1.png)
+\*![kvalitet_hoftebrudd_1](/helseatlas/img/no/kvalitet/kvalitet_hoftebrudd_1.png)
 
-*Figur 1: Andel pasienter, ≥ 60 år, operert innen 48 timer etter bruddtidspunktet, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel pasienter, ≥ 60 år, operert innen 48 timer etter bruddtidspunktet, fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_hoftebrudd\_2](/helseatlas/img/no/kvalitet/kvalitet\_hoftebrudd\_2.png)* 
+_![kvalitet_hoftebrudd_2](/helseatlas/img/no/kvalitet/kvalitet_hoftebrudd_2.png)_
 
-*Figur 2: Andel pasienter, > 70 år, med lårhalsbrudd i feilstilling som fikk protese med sementert stamme, fordelt på opptaksområder, for perioden 2017-2019.*
-
- 
+_Figur 2: Andel pasienter, > 70 år, med lårhalsbrudd i feilstilling som fikk protese med sementert stamme, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -418,11 +371,7 @@ Usementerte protesestammer er forbundet med økt risiko for nye brudd rundt prot
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_hoftebrudd.pdf)
 
-
-
-
-
- ## Alvorlig nyresykdom
+## Alvorlig nyresykdom
 
 Kronisk alvorlig nedsatt nyrefunksjon er en sjelden men alvorlig tilstand. Hvert år starter om lag 600 nye pasienter opp med nyreerstattende behandling. I slutten av 2019 var det registrert om lag 5 800 levende pasienter i Norsk nyreregister Av disse er 60 % nyretransplanterte pasienter, 30 % dialysepasienter og 10 % pasienter med alvorlig nedsatt nyrefunksjon som ikke mottok nyreerstattende behandling.
 
@@ -438,21 +387,16 @@ Høy måloppnåelse er av fagrådet satt til minst 80 % av nyretransplanterte pa
 
 Høy måloppnåelse er når 80 % av pasientene har en ukentlig Kt/V over fastsatt grense på 2,3, moderat måloppnåelse er 70-80 % og lav måloppnåelse er under 70 %. Kun 71 % av pasientene i Norge hadde god effekt av hemodialysen, og det var store geografiske forskjeller. Mens 85 % av pasientene i opptaksområdet Førde hadde god effekt av hemodialysen gjaldt det kun 34 % i opptaksområdet Østfold. På regionalt nivå var måloppnåelsen høyest i Helse Nord (79 %) og lavest i Helse Sør- Øst (69 %).
 
- *![kvalitet\_nyre\_1](/helseatlas/img/no/kvalitet/kvalitet\_nyre\_1.png)
+\*![kvalitet_nyre_1](/helseatlas/img/no/kvalitet/kvalitet_nyre_1.png)
 
-*Figur 1: Andel nyretransplanterte pasienter med blodtrykk under 130/80 mmHg, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel nyretransplanterte pasienter med blodtrykk under 130/80 mmHg, fordelt på opptaksområder, for perioden 2017-2019._
 
- *![kvalitet\_nyre\_2](/helseatlas/img/no/kvalitet/kvalitet\_nyre\_2.png)
+\*![kvalitet_nyre_2](/helseatlas/img/no/kvalitet/kvalitet_nyre_2.png)
 
-*Figur 2: Andel pasienter med tilfredsstillende dialyse (hemodialyse), fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel pasienter med tilfredsstillende dialyse (hemodialyse), fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
 Det er store geografiske forskjeller i måloppnåelse når det kommer til nyreerstattende behandling. Resultatene viser at måloppnåelsen for blodtrykkregulering er for lav for samtlige opptaksområder, og at nyretransplanterte pasienter ikke følges opp i tilstrekkelig grad etter nasjonale anbefalinger. Flere av opptaksområdene med høyest andel nyretransplanterte med blodtrykk over anbefalt nivå har også lavest andel pasienter med tilfredsstillende dialyseeffektivitet i hemodialyse.
 
 [Hovedfunn pdf](/helseatlas/files/kvalitet_nyre.pdf)
-
-
-
-
-
