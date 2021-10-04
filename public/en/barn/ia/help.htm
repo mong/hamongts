@@ -18,6 +18,7 @@
         overflow-y:auto;
         text-align: justify;
     }
+
     .ia-help-title
     {
         font-family: Arial;
@@ -73,6 +74,8 @@
     {
         background-color:#d0eaf1;
     }
+
+
 </style>
 <script type="text/javascript">
     function iaHelpScrollTo(id)
@@ -97,11 +100,16 @@
         <div onClick="javascript:iaHelpScrollTo('ia-help-barchart')" class="ia-help-index-link">Bar Chart</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-boxandwhiskerchart')" class="ia-help-index-link">Box-and-Whisker Chart</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-piechart')" class="ia-help-index-link">Pie Chart</div>
-        <div onClick="javascript:iaHelpScrollTo('ia-help-advancedpiechart')" class="ia-help-index-link">Advanced Pie Chart</div>
-        <div onClick="javascript:iaHelpScrollTo('ia-help-timechart')" class="ia-help-index-link">Time Series Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-areabreakdownpiechart')" class="ia-help-index-link">Area Breakdown Pie Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-areabreakdownpbarchart')" class="ia-help-index-link">Area Breakdown Bar Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-timechart')" class="ia-help-index-link">Time Series - Line Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-timebarchart')" class="ia-help-index-link">Time Series - Bar Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-stackedtimechart')" class="ia-help-index-link">Time Series - Stacked Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-stackedassociateschart')" class="ia-help-index-link">Stacked Associates Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-stackedassociatestimeseries')" class="ia-help-index-link">Stacked Associates - Time Series</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-legend')" class="ia-help-index-link">Legend</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-maplayers')" class="ia-help-index-link">Map Layers</div>
-        <div onClick="javascript:iaHelpScrollTo('ia-help-comparison')" class="ia-help-index-link">Comparison Geographies Table</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-comparison')" class="ia-help-index-link">Comparison Table</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-timeanimation')" class="ia-help-index-link">Time Animation</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-pyramidchart')" class="ia-help-index-link">Pyramid Chart</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-statisticsbox')" class="ia-help-index-link">Statistics Box</div>
@@ -109,9 +117,12 @@
         <div onClick="javascript:iaHelpScrollTo('ia-help-bubbleplot')" class="ia-help-index-link">Bubble Plot</div>
 		<div onClick="javascript:iaHelpScrollTo('ia-help-funnelplot')" class="ia-help-index-link">Funnel Plot</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-spinechart')" class="ia-help-index-link">Spine Chart</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-radarchart')" class="ia-help-index-link">Radar Chart</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-selectedfeatureslegend')" class="ia-help-index-link">Selected Features Legend</div>
         <div onClick="javascript:iaHelpScrollTo('ia-help-featurecard')" class="ia-help-index-link">Feature Card</div>
-        <div onClick="javascript:iaHelpScrollTo('ia-help-capture')" class="ia-help-index-link">Screen Grabs</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-print')" class="ia-help-index-link">Print A Report</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-share')" class="ia-help-index-link">Share A Report</div>
+        <div onClick="javascript:iaHelpScrollTo('ia-help-capture')" class="ia-help-index-link">Export A Report As Picture</div>
     </div>
 
     <div id="ia-help-content">
@@ -139,16 +150,16 @@
         <div class="ia-help-section">
             <p>The Menu Bar is ideal to contain items which are less frequently used.</p>
             <p><em>Help:</em> Click this link to access a help document.</p>
-            <p><em>Print:</em> Click this link to open a new browser tab/window showing the print preview. This view resizes the report to a standard A4 size (landscape format). You can change the size using the '+' and '-' buttons at the top of the page. When you are happy with the size you can click the printer icon to open the print settings dialog of your internet browser.</p>
-            <p><em>Share:</em> Click this link to open a pop-up window which allows you to share this report either via email or by embedding it into your own website. To share the report via email simply copy and paste the displayed link into the email text. To embed the report into your website, you can copy the displayed embed code and paste it into your website source code.</p>
+            <p><em>Print:</em> Click this link to print the report <span onClick="javascript:iaHelpScrollTo('ia-help-print')">(&#8594; <u>Print A Report</u>)</span>.</p>
+            <p><em>Share:</em> Click this link to share the report <span onClick="javascript:iaHelpScrollTo('ia-help-share')">(&#8594; <u>Share A Report</u>)</span> or to export it as a picture <span onClick="javascript:iaHelpScrollTo('ia-help-capture')">(&#8594; <u>Export A Report</u>)</span>.</p>
             <p>The administrator may have added further items to the menu bar.</p>
         </div>
 
         <div id="ia-help-components" class="ia-help-section-header">Components</div>
         <div class="ia-help-section">
             <p>All components of the report (except the Time Animation and the Menu Bar) have a maximise button on the top right hand corner that becomes visible when you hover over the component. Click this button to see a full screen view of the component. In this view the maximise button changes to a restore down button which allows you to restore the component again to its original size and location. </p>
-            <p>Components that are formatted as a pop-up window will also show a close button next to the maximise button.</p>
-            <p>Some components such as the map, tables and charts also have an export button next to the maximise button. For the map and charts this button will open the map or chart graphic (the map without background layers) as an image in a new tab/window of your browser. From there you can save the image through the right-click menu. For the tables the export button opens a new browser tab/window showing you the table content in CSV format. If you have made a selection, only the selected features will appear in the CSV export.</p>
+            <!--<p>Components that are formatted as a pop-up window will also show a close button next to the maximise button.</p>-->
+            <p>Some components such as the map, tables and charts also have an export button next to the maximise button. For the map and charts this button will open the map or chart graphic (the map without background layers) as an image in a pop-up window. From there you can save the image through the right-click menu. For the tables the export button opens a pop-up showing you the table content in CSV format. If you have made a selection, only the selected features will appear in the CSV export. Highlight the content of the pop-up and copy and paste it into another application such as Microsoft Excel. Form there you can save the data as a CSV file.</p>
             <p>The Legend has an additional button showing a cogwheel icon which when clicked opens the Legend Editor dialog.</p>
         </div>
 
@@ -216,21 +227,52 @@
             <p><em>Tooltip:</em> Hold your mouse over a slice to display a tooltip with the name of the category, the number and the proportion of geographic features in this category.</p>
         </div>
 
-        <div id="ia-help-advancedpiechart" class="ia-help-section-header">Advanced Pie Chart</div>
+        <div id="ia-help-areabreakdownpiechart" class="ia-help-section-header">Area Breakdown Pie Chart</div>
         <div class="ia-help-section">
-            <p>The advanced pie chart will show you data for a hovered or selected map feature. Depending on how it has been configured it will show either associate values for the selected indicator or all indicators in the selected theme. Unless the administrator deactivated it, you will be able to compare the breakdown for two geographic features side-by-side. The name of the geographic feature will be displayed above the chart.</p>
-            <p><em>Slices:</em> The number of slices and shading is linked to the legend of the advanced pie chart. The size of each slice is proportional to the indicator or associate value it represents.</p>
-            <p><em>Tooltip:</em> Hold your mouse over a slice to display a tooltip with the name and value of the indicator/associate and the related percentage.</p>
+            <p>The area breakdown pie chart will show you data for a hovered or selected map feature. Depending on how it has been configured it will show either associate values for the selected indicator or all indicators of the selected theme. Unless the administrator deactivated it, you will be able to compare the breakdown for two geographic features side-by-side. The name of the geographic feature will be displayed above the chart.</p>
+            <p><em>Slices:</em> The number of slices and shading is linked to the area breakdown pie chart legend. The size of each slice is proportional to the indicator or associate value it represents. </p>
+            <p><em>Tooltip:</em> Hold your mouse over a slice to display a tooltip with the name and the percentage of the indicator/associate and the corresponding value.</p>
+            <p><em>Area Breakdown Pie Chart Legend:</em> Links the colours used in the area breakdown pie chart to the corresponding indicators or associates.</p>
         </div>
 
-        <div id="ia-help-timechart" class="ia-help-section-header">Time Series Chart</div>
-        <div class="ia-help-section">
-            <p><em>Trends:</em> The time series chart shows change in indicator values over time. Hold your mouse over a geographic feature in the map, data table or bar chart to view a trend in the time series chart. Click a feature in the map, data table or bar chart to select it and freeze the trend in the time series chart.</p>
-            <p><em>Comparison Trends:</em> The time series chart may display trends for comparison geographies.</p>
-            <p><em>Tooltip:</em> Hold your mouse pointer over the points for any frozen trend in the time series chart to display a tooltip with geographic feature name, the time period and value.</p>
-            <p><em>Discrete Time Series Chart:</em> A variation of the time series chart is to show the time series not as trend lines but as bars for each time period. </p>
-            <p><em>Flipped Time Series Chart:</em> It is possible that the discrete time series chart appears on its side with horizontal bars. </p>
+        <div id="ia-help-areabreakdownpbarchart" class="ia-help-section-header">Area Breakdown Bar Chart</div>
+	    <div class="ia-help-section">
+		    <p>Depending on the configuration, the area breakdown bar chart either shows indicator data of the selected theme or associate data of the selected indicator. Click a geographic feature in the map, data table or bar chart to view bars which represent the data values of the indicators or associates. Unless the administrator deactivated it, you will be able to compare data values of two or more geographic features side by side. Each geographic feature will be displayed with a unique colour which is linked to the Selected Features Legend.</p>
+            <p><em>Tooltip:</em> Hold your mouse over a bar to display a tooltip with the selected area, the name and the value of the indicator/associate.</p>
         </div>
+
+        <div id="ia-help-timechart" class="ia-help-section-header">Time Series - Line Chart</div>
+        <div class="ia-help-section">
+            <p><em>Trends:</em> The time series - line chart shows change in indicator values over time. Hold your mouse over a geographic feature in the map, data table or bar chart to view a trend in the chart. Click a feature in the map, data table or bar chart to select it and freeze the trend in the time series - line chart.</p>
+            <p><em>Comparison Trends:</em> The time series chart may display trends for comparison geographies.</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over the points for any frozen trend in the time series - line chart to display a tooltip with geographic feature name, the time period and value.</p>
+            <p><em>Time Series - Line Chart Legend:</em> Links the colours used in the time series - line chart to the corresponding indicator.</p>
+        </div>
+
+        <div id="ia-help-timebarchart" class="ia-help-section-header">Time Series - Bar Chart</div>
+        <div class="ia-help-section">
+            <p> A variation of the time series - line chart is to show the time series not as trend lines but as bars for each time period. Select several geographic features in the map to display each value as a single bar.</p>
+            <p><em>Tooltip:</em> Hold your mouse pointer over a bar in the time series bar chart to display a tooltip with geographic feature name, the time period and value.</p>
+        </div>
+        <div id="ia-help-stackedtimechart" class="ia-help-section-header">Time Series - Stacked Chart</div>
+		<div class="ia-help-section">
+            <p> A variation of the time series - bar chart is to show the time series not as single bars for each time period but as a stacked bar. Select several geographic features in the map to add values to the stacked bar.</p>
+	        <p><em>Tooltip:</em> Hold your mouse pointer over a bar in the time series - stacked bar chart to display a tooltip with geographic feature name, the time period and value.</p>
+        </div>
+        <div id="ia-help-stackedassociateschart" class="ia-help-section-header">Stacked Associates</div>
+        <div class="ia-help-section">
+            <p>Click on a geographic feature in the map, table or bar chart. The stacked associates chart will then display associates connected to this indicator in a single, stacked bar. Each associate will be displayed in a unique colour.</p>
+             <p><em>Tooltip:</em> Hold your mouse over a bar section to display a tooltip with the selected area, the associate name and its value.</p>
+             <p><em>Stacked Associates Legend:</em> Links the colours used in the stacked associates chart to the corresponding associates.</p>
+        </div>
+
+        <div id="ia-help-stackedassociatestimeseries" class="ia-help-section-header">Stacked Associates - Time Series</div>
+        <div class="ia-help-section">
+            <p>Click on a geographic feature in the map, table or bar chart. The stacked associates - time series chart will then display associates connected to this indicator for <b>each date</b> in a single, stacked bar. Each associate will be displayed in a unique colour. Unless the administrator deactivated it, you will be able to compare data values of two or more geographic features side by side.</p>
+             <p><em>Tooltip:</em> Hold your mouse over a bar section to display a tooltip with the selected area, the indicator date, the associate name and its value.</p>
+             <p><em>Stacked Associates Legend:</em> Links the colours used in the stacked associates - time series chart to the corresponding associates.</p>
+        </div>
+
 
         <div id="ia-help-legend" class="ia-help-section-header">Legend</div>
         <div class="ia-help-section">
@@ -254,7 +296,7 @@
             <p>Click the check box next to the base layer name to toggle the base geography on / off. Contextual geographies and background images may have been included by the administrator and can also be toggled on or off using the check boxes in the map layers box. Background images are "scale dependent" - they may turn on or off as you zoom into or out of the map. Note that images may not be visible at full map extent and you may need to zoom to a smaller area for them to appear. Depending on how the report has been configured, it may take some time for background images to appear.</p>
         </div>
 
-        <div id="ia-help-comparison" class="ia-help-section-header">Comparison Geographies Table</div>
+        <div id="ia-help-comparison" class="ia-help-section-header">Comparison Table</div>
         <div class="ia-help-section">
             <p>This table lists any comparison geographies that have been included in the report. Comparison values are displayed as lines in the bar chart and time series chart when you hold your mouse pointer over a comparison geography name and will freeze when the comparison geography is selected.</p>
         </div>
@@ -294,6 +336,12 @@
 			<p>The proportional bars usually represent either the indicator values themselves or a percentage difference between the indicator value and a regional/national comparator. Target values may be superimposed as vertical bars. For each indicator, minimum/maximum values may be shown at either side of each bar. The bars themselves may be superimposed on coloured ranges that show how an area is performing. You can scroll the chart to see indicators that are listed further up or down. By clicking on a row in the spine chart you may be able to change the indicator being shown in the map, bar chart and pie chart. Close to the spine chart you may find the '-/+' button. This will collapse and expand the themes in the chart.</p>
         </div>
 
+		<div id="ia-help-radarchart" class="ia-help-section-header">Radar Chart</div>
+		<div class="ia-help-section">
+			<p> The chart displays data for multiple indicators and themes plotted onto a "radar" of several circles. Low values are displayed near the centre of the radar and high values near the edge. The shape created by the lines that connect the plotted indicator values in the chart allows you to visualise how an area scores across a range of indicators and how this area compares to others.
+			<p><em>Tooltip:</em> Hold your mouse pointer over the shapes vertices ("radar" setting) or an arc of circle ("rose" setting) to display a tooltip with theme, indicator, geographic feature name and value</p>
+        </div>
+
         <div id="ia-help-selectedfeatureslegend" class="ia-help-section-header">Selected Features Legend</div>
 		<div class="ia-help-section">
 			<p>The Selected Features Legend displays the name of each area which is selected in the different components. A colour will be given to each area and this will correspond to the colour displayed in the Time Series Chart, Discrete Time Series Chart and Spine Chart.</p>
@@ -305,11 +353,23 @@
 			<p>The Feature Card shows an overview of the data for the selected feature(s). The administrator may have set it up so that it only shows data values for the selected date or for all dates. It may also show either all indicators of all themes, only the indicators of the selected theme or only the selected indicator. The administrator may have customised the content of this component.</p>
 		</div>
 
-        <div id="ia-help-capture" class="ia-help-section-header">Screen Captures</div>
+        <div id="ia-help-print" class="ia-help-section-header">Print A Report</div>
         <div class="ia-help-section">
-            <p>As well as printing the report or exporting individual components, you can capture an InstantAtlas report as a screen grab. Make sure the graphics are as large as possible and then hold down Ctrl-Alt-Prnt Scrn on your keyboard. Open another application, such as Word or PowerPoint, and paste (hold down Ctrl-V on your keyboard) the screen grab. You can then edit the graphics (crop, resize, sharpen, etc.) as required.</p>
+        <p>Click the Print Button in the Menu Bar to open a new browser tab/window showing the print preview. This view resizes the report to a standard A4 size (landscape format). You can change the size using the '+' and '-' buttons at the top of the page. When you are happy with the size you can click the printer icon to open the print settings dialog of your internet browser.</p>
         </div>
 
-        <p style="text-align: right">&copy; 2013 GeoWise Ltd</p>
+        <div id="ia-help-share" class="ia-help-section-header">Share A Report</div>
+        <div class="ia-help-section">
+        <p>Click the Share Button in the Menu Bar to open a pop-up window which allows you to share this report either via email or by embedding it into your own website. To share the report via email simply copy and paste the displayed link into the email text. To embed the report into your website, you can copy the displayed embed code and paste it into your website source code.</p>
+        </div>
+
+		<div id="ia-help-capture" class="ia-help-section-header">Export A Report As Picture</div>
+		<div class="ia-help-section">
+			<p>As well as printing the report or exporting individual components, an InstantAtlas report can be exported as a whole. Click the Share Button in the Menu Bar to open a pop-up with a thumbnail of the report. From there you can save the image through the right-click menu.</p>
+			<p>Alternatively, you can capture an InstantAtlas report as a screen grab. Make sure the graphics are as large as possible and then hold down Ctrl-Alt-Prnt Scrn on your keyboard. Open another application, such as Word or PowerPoint, and paste (hold down Ctrl-V on your keyboard) the screen grab. You can then edit the graphics (crop, resize, sharpen, etc.) as required.</p>
+		</div>
+
+
+        <p style="text-align: right">&copy; 2016 GeoWise Ltd</p>
     </div>
 </div>

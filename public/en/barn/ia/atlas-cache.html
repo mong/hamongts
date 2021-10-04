@@ -48,17 +48,22 @@
 </noscript>
 <a href="http://www.instantatlas.com" style="position:absolute;top:-1000px;left:-1000px;">Powered By InstantAtlas™</a>
 </div>
+<script src="jquery-min.js"> </script>
 <script src="ia-min.js"> </script>
 <script src="custom.js"> </script>
 <script>
 <!--
 					
-						var $j = jQuery.noConflict();
-						$j(document).ready(function()
+						if (typeof jQuery == 'undefined') window.location = "./atlas-unsupported.html";
+						else
 						{
-							if (ia.supportsCanvas()) ia.init("ia-report-container",ia.onReportComplete);
-							else window.location = "./atlas-unsupported.html";
-						});
+							var $j = jQuery.noConflict();
+							$j(document).ready(function()
+							{
+								if (ia.supportsCanvas()) iaInitReport();
+								else window.location = "./atlas-unsupported.html";
+							});
+						}
 					
 					-->
 </script>

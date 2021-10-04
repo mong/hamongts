@@ -7,7 +7,7 @@
 
 <meta name="description" content="This report is powered by InstantAtlas™ Data Visualization &amp; Presentation Software" />
 <!--
-					Copyright (C) 2012 Geowise Ltd
+					Copyright (C) 2014 Geowise Ltd
 					All Rights Reserved. The following is Source Code and is subject to all
 					restrictions on such code as contained in the End User License Agreement
 					accompanying this product.
@@ -79,28 +79,27 @@
 							txt=txt+'<img src="facebook.png" width="25px" height="25px" style="margin-right:4px" /></a>';
 							txt=txt+'<a href="http://twitter.com/home?status='+document.URL+'" target="_blank" title="Twitter">';
 							txt=txt+'<img src="twitter.png" width="25px" height="25px" style="margin-right:4px" /></a>';
-							/*txt=txt+'<a href="http://www.reddit.com/submit?url='+document.URL+'" target="_blank" title="Reddit">';
-							txt=txt+'<img src="reddit.png" width="25px" height="25px" style="margin-right:4px" /></a>';
-							txt=txt+'<a href="http://digg.com/submit?url='+document.URL+'&amp;title='+document.title+'" target="_blank" title="Digg">';
-							txt=txt+'<img src="digg.png" width="25px" height="25px" style="margin-right:4px" /></a>';
-							txt=txt+'<a href="http://www.stumbleupon.com/submit?url='+document.URL+'%26title%3D'+document.title+'" target="_blank" title="Stumbleupon">';
-							txt=txt+'<img src="stumbleupon.png" width="25px" height="25px" /></a>';*/
 							document.write(txt);
 						
 						-->
 </script>
 </div>
+<script src="jquery-min.js"> </script>
 <script src="ia-min.js"> </script>
 <script src="custom.js"> </script>
 <script>
 <!--
 					
-						var $j = jQuery.noConflict();
-						$j(document).ready(function()
+						if (typeof jQuery == 'undefined') window.location = "./atlas-unsupported.html";
+						else
 						{
-							if (ia.supportsCanvas()) ia.init("ia-report-container",ia.onReportComplete);
-							else window.location = "./atlas-unsupported.html";
-						});
+							var $j = jQuery.noConflict();
+							$j(document).ready(function()
+							{
+								if (ia.supportsCanvas()) iaInitReport();
+								else window.location = "./atlas-unsupported.html";
+							});
+						}
 					
 					-->
 </script>
