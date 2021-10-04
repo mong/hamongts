@@ -9,6 +9,7 @@ import Layout from "../../src/components/Layout";
 import { TopBanner } from "../../src/components/Atlas/topBanner";
 import styles from "../../src/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
+import Link from "next/link";
 
 interface AtlasPageProps {
   content: string;
@@ -27,6 +28,9 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
         <main>
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`}>
+            <Link href={`ia/index.html`}>
+              <a>Interaktivt kart</a>
+            </Link>
             <ReactMarkdown
               remarkPlugins={[
                 [remarkToc, { heading: "Content", maxDepth: 3, tight: true }],
