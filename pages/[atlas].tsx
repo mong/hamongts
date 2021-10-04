@@ -9,7 +9,6 @@ import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
-import Link from "next/link";
 
 interface AtlasPageProps {
   content: string;
@@ -18,6 +17,10 @@ interface AtlasPageProps {
     mainTitle: string;
     shortTitle: string;
     pdfUrl: string;
+    ia: boolean;
+    lang: string;
+    report_text: string;
+    map_text: string;
   };
 }
 
