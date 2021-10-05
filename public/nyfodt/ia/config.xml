@@ -120,7 +120,7 @@
 	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="10" />
 	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem1" name="Menu Item 1" type="string" value="Brukerveiledning for atlaset" />
-	<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="/helseatlas/files/filer/felles/hjelp_helseatlas_nyfodt.pdf" />
+	<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="/helseatlas/files/hjelp_helseatlas_nyfodt.pdf" />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem2" name="Menu Item 2" type="string" value="" />
 	<Property description="The function for above menu item" id="menuFunc2" name="Menu Function 2" type="string" value="" />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem3" name="Menu Item 3" type="string" value="" />
@@ -288,8 +288,8 @@
 </SubstitutionVariables>
 <Button editable="true" height="15" href="/helseatlas/files/Norsk_nyfodtmedisinsk_helseatlas_rapport.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Rapport" tooltip="" width="130" x="5" y="101" />
 <Button editable="true" height="15" href="http://www.helseatlas.no/om-helseatlasno" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om Helseatlas.no" tooltip="" width="130" x="5" y="77" />
-<Button editable="true" height="15" href="http://www.helseatlas.no/atlas/49/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Faktaark" tooltip="" width="130" x="5" y="125" />
-<Button editable="true" height="15" href="/helseatlas/files/filer/felles/Last_ned_data_nyfodt.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="130" x="5" y="149" />
+<Button editable="true" height="15" href="/helseatlas/nyfodt" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hovedfunn" tooltip="" width="130" x="5" y="125" />
+<Button editable="true" height="15" href="/helseatlas/files/Last_ned_data_nyfodt.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="130" x="5" y="149" />
 <Image anchor="left" editable="true" height="63" id="___user_extra_48" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_48.png" target="_self" width="130" x="5" y="192" />
 <Text anchor="start" editable="true" fill="#00509E" font-family="Arial" font-size="24.0" font-style="normal" font-weight="bold" id="___user_extra_49" moveable="true" removeable="true" resizeable="true" rotate="0" target="_self" wrap-width="-1" x="141" y="10">Norsk nyfødtmedisinsk helseatlas, 2009-2014</Text>
 <Button editable="true" height="15" href="http://www.helseatlas.no/atlas/49/places" id="___user_extra_50" moveable="true" removeable="true" resizeable="true" target="_blank" text="Definisjon boområder" tooltip="" width="130" x="5" y="172" />

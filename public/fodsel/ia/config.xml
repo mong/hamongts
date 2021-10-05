@@ -112,7 +112,7 @@ The comparison that shows the user information about comparison data.
 <Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="10"/>
 <Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false"/>
 <Property description="The text for a menu item - leave blank to exclude" id="menuItem1" name="Menu Item 1" type="string" value="Hjelp"/>
-<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="/helseatlas/files/filer/felles/hjelp.pdf "/>
+<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="/helseatlas/files/hjelp.pdf "/>
 <Property description="The text for a menu item - leave blank to exclude" id="menuItem2" name="Menu Item 2" type="string" value="Skriv ut"/>
 <Property description="The function for above menu item" id="menuFunc2" name="Menu Function 2" type="string" value="javascript:iaOpenPrintPreview()"/>
 <Property description="The text for a menu item - leave blank to exclude" id="menuItem3" name="Menu Item 3" type="string" value="Del"/>
@@ -281,6 +281,6 @@ The comparison that shows the user information about comparison data.
 <Button editable="true" height="15" href="/helseatlas/files/Rapporthelseatlas1_15.pdf " id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Rapport" tooltip="" width="120" x="5" y="105"/>
 <Button editable="true" height="15" href="http://www.helseatlas.no/om-helseatlasno " id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om Helseatlas.no" tooltip="" width="120" x="5" y="80"/>
 <Button editable="true" height="15" href="http://www.helseatlas.no/atlas/39/details " id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Faktaark" tooltip="" width="120" x="5" y="130"/>
-<Button editable="true" height="15" href="/helseatlas/files/filer/felles/data_grunnlag.xlsx " id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="120" x="5" y="155"/>
+<Button editable="true" height="15" href="/helseatlas/files/data_grunnlag.xlsx " id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="120" x="5" y="155"/>
 <Image anchor="left" editable="true" height="50" href="http://www.helse-nord.no/skde/helseatlas/" id="___user_extra_40" moveable="true" removeable="true" rescale="false" resizeable="true" src="./___user_extra_40.png" target="_blank" width="120" x="12" y="544"/>
 </AtlasInterface>
