@@ -220,7 +220,7 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="http://helseatlas.no/sites/default/files/healthcare-atlas-elderly.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/healthcare-atlas-elderly.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
 <Button editable="true" height="15" href="http://helseatlas.no/en/atlas/121/read-more" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="About" tooltip="Read more about the Healthcare Atlas for the Elderly in Norway" width="65" x="720" y="6" />
 <Button editable="true" height="15" href="http://helseatlas.no/en/atlas/121/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Download factsheets" width="58" x="650" y="6" />
 <!--    

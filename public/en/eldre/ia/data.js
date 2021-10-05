@@ -37,7 +37,7 @@
             {
               "id": "i0",
               "name": "All consultations",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -83,7 +83,7 @@
             {
               "id": "i1",
               "name": "Regular GP",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -129,7 +129,7 @@
             {
               "id": "i2",
               "name": "Emergency primary healthcare",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -181,7 +181,7 @@
             {
               "id": "i3",
               "name": "Outpatient services, all",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -227,7 +227,7 @@
             {
               "id": "i4",
               "name": "Admissions, all",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -273,7 +273,7 @@
             {
               "id": "i5",
               "name": "Readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -318,7 +318,7 @@
             {
               "id": "i6",
               "name": "Admissions, bed days",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -370,7 +370,7 @@
             {
               "id": "i7",
               "name": "Myocardial infarction, admitted patients",
-              "href": "http://helseatlas.no/sites/default/files/Hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/Hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -415,7 +415,7 @@
             {
               "id": "i8",
               "name": "Coronary revascularisation, PCI and bypass",
-              "href": "http://helseatlas.no/sites/default/files/Hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/Hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -459,7 +459,7 @@
             {
               "id": "i9",
               "name": "Heart failure, admissions",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -504,7 +504,7 @@
             {
               "id": "i10",
               "name": "Heart failure, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -549,7 +549,7 @@
             {
               "id": "i11",
               "name": "Heart failure, readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -593,7 +593,7 @@
             {
               "id": "i12",
               "name": "Exercise ECG, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -638,7 +638,7 @@
             {
               "id": "i13",
               "name": "Long-term ECG, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -683,7 +683,7 @@
             {
               "id": "i14",
               "name": "Echocardiography, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -728,7 +728,7 @@
             {
               "id": "i15",
               "name": "Pacemaker",
-              "href": "http://helseatlas.no/sites/default/files/Pacemaker.pdf",
+              "href": "/helseatlas/files/Pacemaker.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -796,7 +796,7 @@
             {
               "id": "i16",
               "name": "Pneumonia, emergency admissions",
-              "href": "http://helseatlas.no/sites/default/files/Lungebetennelse.pdf",
+              "href": "/helseatlas/files/Lungebetennelse.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -841,7 +841,7 @@
             {
               "id": "i17",
               "name": "Pneumonia, readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Lungebetennelse.pdf",
+              "href": "/helseatlas/files/Lungebetennelse.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -885,7 +885,7 @@
             {
               "id": "i18",
               "name": "COPD, emergency admissions",
-              "href": "http://helseatlas.no/sites/default/files/Kols.pdf",
+              "href": "/helseatlas/files/Kols.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -930,7 +930,7 @@
             {
               "id": "i19",
               "name": "COPD, readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Kols.pdf",
+              "href": "/helseatlas/files/Kols.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -980,7 +980,7 @@
             {
               "id": "i20",
               "name": "Primary hip replacement",
-              "href": "http://helseatlas.no/sites/default/files/Leddproteser.pdf",
+              "href": "/helseatlas/files/Leddproteser.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1042,7 +1042,7 @@
             {
               "id": "i21",
               "name": "Primary knee replacements",
-              "href": "http://helseatlas.no/sites/default/files/Leddproteser.pdf",
+              "href": "/helseatlas/files/Leddproteser.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1104,7 +1104,7 @@
             {
               "id": "i22",
               "name": "Hip fractures",
-              "href": "http://helseatlas.no/sites/default/files/Hoftebrudd.pdf",
+              "href": "/helseatlas/files/Hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1149,7 +1149,7 @@
             {
               "id": "i23",
               "name": "Hip fractures, readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Hoftebrudd.pdf",
+              "href": "/helseatlas/files/Hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1193,7 +1193,7 @@
             {
               "id": "i24",
               "name": "Wrist fractures, Conservative treatment (proportion)",
-              "href": "http://helseatlas.no/sites/default/files/Handleddsbrudd.pdf",
+              "href": "/helseatlas/files/Handleddsbrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1237,7 +1237,7 @@
             {
               "id": "i25",
               "name": "Femoral neck fractures, treated with hip replacement (proportion)",
-              "href": "http://helseatlas.no/sites/default/files/Handleddsbrudd.pdf",
+              "href": "/helseatlas/files/Handleddsbrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1290,7 +1290,7 @@
             {
               "id": "i26",
               "name": "Strokes, emergency admissions",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1335,7 +1335,7 @@
             {
               "id": "i27",
               "name": "Strokes, readmissions",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1379,7 +1379,7 @@
             {
               "id": "i28",
               "name": "Strokes, patients treated at a stroke unit (proportion)",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1423,7 +1423,7 @@
             {
               "id": "i29",
               "name": "Strokes, patients admitted within four hours of the onset of symptoms (proportion)",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "values": [
                 37.81, 36.67, 45.84, 36.99, 37.45, 35.81, 46.59, 45.6, 43.73,
@@ -1465,7 +1465,7 @@
             {
               "id": "i30",
               "name": "Dementia, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/Demens.pdf",
+              "href": "/helseatlas/files/Demens.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1527,7 +1527,7 @@
             {
               "id": "i31",
               "name": "Parkinson’s disease, outpatient services",
-              "href": "http://helseatlas.no/sites/default/files/Demens.pdf",
+              "href": "/helseatlas/files/Demens.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1578,7 +1578,7 @@
             {
               "id": "i32",
               "name": "Pharmacological treatment, patients",
-              "href": "http://helseatlas.no/sites/default/files/Kreft.pdf",
+              "href": "/helseatlas/files/Kreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1622,7 +1622,7 @@
             {
               "id": "i33",
               "name": "Radiotherapy, patients",
-              "href": "http://helseatlas.no/sites/default/files/Kreft.pdf",
+              "href": "/helseatlas/files/Kreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1672,7 +1672,7 @@
             {
               "id": "i34",
               "name": "Cataract surgery, procedures",
-              "href": "http://helseatlas.no/sites/default/files/Oyesykdommer.pdf",
+              "href": "/helseatlas/files/Oyesykdommer.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1717,7 +1717,7 @@
             {
               "id": "i35",
               "name": "Injection treatment, patients",
-              "href": "http://helseatlas.no/sites/default/files/Oyesykdommer.pdf",
+              "href": "/helseatlas/files/Oyesykdommer.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1768,7 +1768,7 @@
             {
               "id": "i36",
               "name": "Hearing aids, patients",
-              "href": "http://helseatlas.no/sites/default/files/Horeapparat.pdf",
+              "href": "/helseatlas/files/Horeapparat.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1813,7 +1813,7 @@
             {
               "id": "i37",
               "name": "Biological drugs, patients",
-              "href": "http://helseatlas.no/sites/default/files/Biologiske.pdf",
+              "href": "/helseatlas/files/Biologiske.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1881,7 +1881,7 @@
             {
               "id": "i38",
               "name": "Proportion elderly in 2017",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1931,7 +1931,7 @@
             {
               "id": "i39",
               "name": "Proportion elderly in 2040",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1981,7 +1981,7 @@
             {
               "id": "i40",
               "name": "Growth in number of elderly",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [

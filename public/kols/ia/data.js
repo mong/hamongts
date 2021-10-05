@@ -39,7 +39,7 @@
             {
               "id": "i0",
               "name": "Personer hos fastlege eller legevakt",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-fastlege-og-legevakt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-fastlege-og-legevakt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -89,7 +89,7 @@
             {
               "id": "i1",
               "name": "Spirometri hos fastlege (andeler)",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-fastlege-og-legevakt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-fastlege-og-legevakt.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -145,7 +145,7 @@
             {
               "id": "i2",
               "name": "Personer på poliklinikk",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-poli.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-poli.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -194,7 +194,7 @@
             {
               "id": "i3",
               "name": "Spirometri på poliklinikk (andeler)",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-poli.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-poli.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -246,7 +246,7 @@
             {
               "id": "i4",
               "name": "Akuttinnlagte personer",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-akutt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-akutt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -294,7 +294,7 @@
             {
               "id": "i5",
               "name": "Liggedøgn",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-akutt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-akutt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -344,7 +344,7 @@
             {
               "id": "i6",
               "name": "Ventilasjonsstøtte (andeler)",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-akutt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-akutt.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -396,7 +396,7 @@
             {
               "id": "i7",
               "name": "Reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-akutt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-akutt.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -442,7 +442,7 @@
             {
               "id": "i8",
               "name": "Liggetid siste år før død",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-akutt.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-akutt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -497,7 +497,7 @@
             {
               "id": "i9",
               "name": "Personer deltatt på lungerehabilitering",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-rehab.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-rehab.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -551,7 +551,7 @@
             {
               "id": "i10",
               "name": "Nye tilfeller av lungekreft",
-              "href": "http://helseatlas.no/sites/default/files/helseatlas-kols-forekomst.pdf",
+              "href": "/helseatlas/files/helseatlas-kols-forekomst.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
