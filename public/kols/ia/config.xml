@@ -220,7 +220,7 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="http://helseatlas.no/sites/default/files/helseatlas-kols-rapport.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Rapport" tooltip="Last ned rapport" width="58" x="412" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/helseatlas-kols-rapport.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Rapport" tooltip="Last ned rapport" width="58" x="412" y="6" />
 <Button editable="true" height="15" href="http://www.helseatlas.no/om-helseatlasno" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om Helseatlas" tooltip="Om helseatlas" width="65" x="662" y="6" />
 <Button editable="true" height="15" href="http://helseatlas.no/atlas/123/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Faktaark" tooltip="Last ned faktaark" width="58" x="474" y="6" />
 <Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/last_ned_data_kols.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Last ned data" width="50" x="608" y="6" />
@@ -236,7 +236,7 @@
 	<Property description="Should dates be reversed?" id="reverseDates" name="Reverse Dates?" type="boolean" value="false" />
 	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
 </Component>
-<Button editable="true" height="15" href="http://helseatlas.no/sites/default/files/helseatlaskols_hjelp_0.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hjelp" tooltip="Klikk her for brukerveiledning" width="50" x="732" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/helseatlaskols_hjelp_0.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hjelp" tooltip="Klikk her for brukerveiledning" width="50" x="732" y="6" />
 <Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="73" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="281" x="515" y="523">
 	<Description>The comparison that shows the user information about comparison data.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="Landsgjennomsnitt&lt;small&gt; - klikk på Norge for å se linje i søylediagram&lt;/small&gt;" />

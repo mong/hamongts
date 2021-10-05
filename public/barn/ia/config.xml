@@ -110,9 +110,9 @@
 	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="10" />
 	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem1" name="Menu Item 1" type="string" value="Hjelp" />
-	<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/hjelp_helseatlas_barn.pdf " />
+	<Property description="The function for above menu item" id="menuFunc1" name="Menu Function 1" type="string" value="/helseatlas/files/hjelp_helseatlas_barn.pdf " />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem2" name="Menu Item 2" type="string" value="Definisjoner" />
-	<Property description="The function for above menu item" id="menuFunc2" name="Menu Function 2" type="string" value="http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/definisjoner.pdf " />
+	<Property description="The function for above menu item" id="menuFunc2" name="Menu Function 2" type="string" value="/helseatlas/files/definisjoner.pdf " />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem3" name="Menu Item 3" type="string" value="Del" />
 	<Property description="The function for above menu item" id="menuFunc3" name="Menu Function 3" type="string" value="javascript:iaToggleShare()" />
 	<Property description="The text for a menu item - leave blank to exclude" id="menuItem4" name="Menu Item 4" type="string" value="" />
@@ -276,10 +276,10 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/rapport_digitalt.pdf " id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Rapport" tooltip="" width="120" x="5" y="158" />
+<Button editable="true" height="15" href="/helseatlas/files/rapport_digitalt.pdf " id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Rapport" tooltip="" width="120" x="5" y="158" />
 <Button editable="true" height="15" href="http://www.helseatlas.no/om-helseatlas-no/category41361.html " id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om Helseatlas.no" tooltip="" width="120" x="5" y="137" />
 <Button editable="true" height="15" href="http://www.helseatlas.no/pasientutvalg/category41321.html " id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Faktaark" tooltip="" width="120" x="5" y="179" />
-<Button editable="true" height="15" href="http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/data_barn_helseatlas_2015.xlsx " id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="120" x="5" y="200" />
+<Button editable="true" height="15" href="/helseatlas/files/data_barn_helseatlas_2015.xlsx " id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Last ned Data" tooltip="" width="120" x="5" y="200" />
 <Text anchor="start" editable="true" fill="#00509E" font-family="Calibri" font-size="20.0" font-style="normal" font-weight="bold" id="___user_extra_42" moveable="true" removeable="true" resizeable="true" rotate="0" target="_self" wrap-width="-1" x="6" y="40">Barn 0-16 år, 2011-2014</Text>
 <Image anchor="left" editable="true" height="35" id="___user_extra_44" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_44.png" target="_self" width="131" x="0" y="2" />
 <Image anchor="left" editable="true" height="15" id="___user_extra_43" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_43.jpg" target="_self" width="70" x="429" y="549" />

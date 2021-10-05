@@ -37,7 +37,7 @@
             {
               "id": "i0",
               "name": "Alle konsultasjoner",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -89,7 +89,7 @@
             {
               "id": "i1",
               "name": "Fastlege",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -141,7 +141,7 @@
             {
               "id": "i2",
               "name": "Legevakt",
-              "href": "http://helseatlas.no/sites/default/files/Allmennlegetjenesten.pdf",
+              "href": "/helseatlas/files/Allmennlegetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -199,7 +199,7 @@
             {
               "id": "i3",
               "name": "Poliklinikk, alle",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -256,7 +256,7 @@
             {
               "id": "i4",
               "name": "Innleggelser, alle",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -308,7 +308,7 @@
             {
               "id": "i5",
               "name": "Reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -356,7 +356,7 @@
             {
               "id": "i6",
               "name": "Innleggelser, liggetid",
-              "href": "http://helseatlas.no/sites/default/files/Spesialisthelsetjenesten.pdf",
+              "href": "/helseatlas/files/Spesialisthelsetjenesten.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -414,7 +414,7 @@
             {
               "id": "i7",
               "name": "Hjerteinfarkt, innlagte pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/Hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -465,7 +465,7 @@
             {
               "id": "i8",
               "name": "Revaskularisering, PCI og bypass",
-              "href": "http://helseatlas.no/sites/default/files/Hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/Hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -515,7 +515,7 @@
             {
               "id": "i9",
               "name": "Hjertesvikt, innleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -566,7 +566,7 @@
             {
               "id": "i10",
               "name": "Hjertesvikt, poliklinikk",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -617,7 +617,7 @@
             {
               "id": "i11",
               "name": "Hjertesvikt, reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Hjertesvikt.pdf",
+              "href": "/helseatlas/files/Hjertesvikt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -664,7 +664,7 @@
             {
               "id": "i12",
               "name": "Arbeids-EKG, poliklinisk",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -715,7 +715,7 @@
             {
               "id": "i13",
               "name": "Langtids-EKG, poliklinisk",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -766,7 +766,7 @@
             {
               "id": "i14",
               "name": "Ekkokardiografi, poliklinisk",
-              "href": "http://helseatlas.no/sites/default/files/UtredningHjerte.pdf",
+              "href": "/helseatlas/files/UtredningHjerte.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -817,7 +817,7 @@
             {
               "id": "i15",
               "name": "Pacemaker",
-              "href": "http://helseatlas.no/sites/default/files/Pacemaker.pdf",
+              "href": "/helseatlas/files/Pacemaker.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -891,7 +891,7 @@
             {
               "id": "i16",
               "name": "Lungebetennelse, akutte innleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Lungebetennelse.pdf",
+              "href": "/helseatlas/files/Lungebetennelse.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -942,7 +942,7 @@
             {
               "id": "i17",
               "name": "Lungebetennelse, reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Lungebetennelse.pdf",
+              "href": "/helseatlas/files/Lungebetennelse.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -989,7 +989,7 @@
             {
               "id": "i18",
               "name": "Kols, akutte innleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Kols.pdf",
+              "href": "/helseatlas/files/Kols.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1040,7 +1040,7 @@
             {
               "id": "i19",
               "name": "Kols, reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Kols.pdf",
+              "href": "/helseatlas/files/Kols.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1093,7 +1093,7 @@
             {
               "id": "i20",
               "name": "Primære hofteproteser",
-              "href": "http://helseatlas.no/sites/default/files/Leddproteser.pdf",
+              "href": "/helseatlas/files/Leddproteser.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1161,7 +1161,7 @@
             {
               "id": "i21",
               "name": "Primære kneproteser",
-              "href": "http://helseatlas.no/sites/default/files/Leddproteser.pdf",
+              "href": "/helseatlas/files/Leddproteser.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1229,7 +1229,7 @@
             {
               "id": "i22",
               "name": "Hoftebrudd",
-              "href": "http://helseatlas.no/sites/default/files/Hoftebrudd.pdf",
+              "href": "/helseatlas/files/Hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1280,7 +1280,7 @@
             {
               "id": "i23",
               "name": "Hoftebrudd, reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Hoftebrudd.pdf",
+              "href": "/helseatlas/files/Hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1327,7 +1327,7 @@
             {
               "id": "i24",
               "name": "Håndleddsbrudd, konservativ behandling (andeler)",
-              "href": "http://helseatlas.no/sites/default/files/Handleddsbrudd.pdf",
+              "href": "/helseatlas/files/Handleddsbrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1377,7 +1377,7 @@
             {
               "id": "i25",
               "name": "Lårhalsbrudd, behandling med protese (andeler)",
-              "href": "http://helseatlas.no/sites/default/files/Handleddsbrudd.pdf",
+              "href": "/helseatlas/files/Handleddsbrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1433,7 +1433,7 @@
             {
               "id": "i26",
               "name": "Hjerneslag, akutte innleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1484,7 +1484,7 @@
             {
               "id": "i27",
               "name": "Hjerneslag, reinnleggelser",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1531,7 +1531,7 @@
             {
               "id": "i28",
               "name": "Hjerneslag, pasienter behandlet i slagenhet (andel)",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1581,7 +1581,7 @@
             {
               "id": "i29",
               "name": "Hjerneslag, pasienter innlagt innen 4 timer etter symptomdebut (andel)",
-              "href": "http://helseatlas.no/sites/default/files/Hjerneslag.pdf",
+              "href": "/helseatlas/files/Hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1628,7 +1628,7 @@
             {
               "id": "i30",
               "name": "Demens, poliklinikk",
-              "href": "http://helseatlas.no/sites/default/files/Demens.pdf",
+              "href": "/helseatlas/files/Demens.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1696,7 +1696,7 @@
             {
               "id": "i31",
               "name": "Parkinson sykdom, poliklinikk",
-              "href": "http://helseatlas.no/sites/default/files/Demens.pdf",
+              "href": "/helseatlas/files/Demens.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1753,7 +1753,7 @@
             {
               "id": "i32",
               "name": "Medikamentell behandling, pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Kreft.pdf",
+              "href": "/helseatlas/files/Kreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1803,7 +1803,7 @@
             {
               "id": "i33",
               "name": "Strålebehandling, pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Kreft.pdf",
+              "href": "/helseatlas/files/Kreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1859,7 +1859,7 @@
             {
               "id": "i34",
               "name": "Grå stær, inngrep",
-              "href": "http://helseatlas.no/sites/default/files/Oyesykdommer.pdf",
+              "href": "/helseatlas/files/Oyesykdommer.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1910,7 +1910,7 @@
             {
               "id": "i35",
               "name": "Injeksjonsbehandling, pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Oyesykdommer.pdf",
+              "href": "/helseatlas/files/Oyesykdommer.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1967,7 +1967,7 @@
             {
               "id": "i36",
               "name": "Høreapparat, pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Horeapparat.pdf",
+              "href": "/helseatlas/files/Horeapparat.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -2018,7 +2018,7 @@
             {
               "id": "i37",
               "name": "Biologisk legemiddel, pasienter",
-              "href": "http://helseatlas.no/sites/default/files/Biologiske.pdf",
+              "href": "/helseatlas/files/Biologiske.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -2092,7 +2092,7 @@
             {
               "id": "i38",
               "name": "Andel eldre i 2017",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -2143,7 +2143,7 @@
             {
               "id": "i39",
               "name": "Andel eldre i 2040",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -2194,7 +2194,7 @@
             {
               "id": "i40",
               "name": "Vekst i antall eldre",
-              "href": "http://helseatlas.no/sites/default/files/Befolkningsutvikling.pdf",
+              "href": "/helseatlas/files/Befolkningsutvikling.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
