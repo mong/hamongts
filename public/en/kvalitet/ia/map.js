@@ -8,7 +8,7 @@
 		"id":"_compressed.shp1",
 		"name":"compressed.shp",
 		"geometry":"polygon",
-		"url":"_compressed.shp1.json",
+		"url":"_compressed.shp1.js",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",

@@ -14,7 +14,7 @@ iaInitReport = function () {
     onFail: iaOnReportFail,
     data: {
       config: { source: "./config.xml" },
-      attribute: { source: "./data.json" },
+      attribute: { source: "./data.js" },
       map: { source: "./map.js" },
     },
   });

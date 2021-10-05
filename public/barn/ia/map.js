@@ -8,7 +8,7 @@
 		"id":"_HF_omr_9_(Nordland_OUS_Akershus).shp1",
 		"name":"Opptaksområder",
 		"geometry":"polygon",
-		"url":"_HF_omr_9_(Nordland_OUS_Akershus).shp1.json",
+		"url":"_HF_omr_9_(Nordland_OUS_Akershus).shp1.js",
 		"visible":true,
 		"symbolSize":15,
 		"fillColor":"#ffffff",
