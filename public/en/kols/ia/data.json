@@ -39,7 +39,7 @@
             {
               "id": "i0",
               "name": "Persons with RGP or emergency primary healthcare consultations",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-gp.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-gp.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -89,7 +89,7 @@
             {
               "id": "i1",
               "name": "Spirometry at RGPs (proportions)",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-gp.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-gp.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -148,7 +148,7 @@
             {
               "id": "i2",
               "name": "Persons with outpatient contacts",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-outpatient.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-outpatient.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -197,7 +197,7 @@
             {
               "id": "i3",
               "name": "Outpatients undergone spirometry (proportions)",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-outpatient.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-outpatient.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -255,7 +255,7 @@
             {
               "id": "i4",
               "name": "Persons admitted as emergency cases",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-emergency-adm.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-emergency-adm.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -303,7 +303,7 @@
             {
               "id": "i5",
               "name": "Bed days",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-emergency-adm.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-emergency-adm.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -353,7 +353,7 @@
             {
               "id": "i6",
               "name": "Ventilation support (proportions)",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-emergency-adm.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-emergency-adm.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -408,7 +408,7 @@
             {
               "id": "i7",
               "name": "Readmissions",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-emergency-adm.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-emergency-adm.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -454,7 +454,7 @@
             {
               "id": "i8",
               "name": "Bed days final year before death",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-emergency-adm.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-emergency-adm.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -509,7 +509,7 @@
             {
               "id": "i9",
               "name": "Persons participated in pulmonary rehabilitation",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-rehabilitation.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-rehabilitation.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -563,7 +563,7 @@
             {
               "id": "i10",
               "name": "New lung cancer cases",
-              "href": "https://helseatlas.no/sites/default/files/fact-sheets-copd-rehabilitation.pdf",
+              "href": "/helseatlas/files/fact-sheets-copd-rehabilitation.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [

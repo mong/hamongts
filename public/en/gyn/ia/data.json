@@ -38,7 +38,7 @@
             {
               "id": "i0",
               "name": "Postmenopausal bleeding",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_postmenbleeding.pdf",
+              "href": "/helseatlas/files/gyneng_postmenbleeding.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -85,7 +85,7 @@
             {
               "id": "i1",
               "name": "Endometrial diagnosis",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_endodiag.pdf",
+              "href": "/helseatlas/files/gyneng_endodiag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -132,7 +132,7 @@
             {
               "id": "i2",
               "name": "Proportion curettages",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_endodiag.pdf",
+              "href": "/helseatlas/files/gyneng_endodiag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -181,7 +181,7 @@
             {
               "id": "i3",
               "name": "Colposcopy and/or cervical biopsy",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_colposcopy.pdf",
+              "href": "/helseatlas/files/gyneng_colposcopy.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -228,7 +228,7 @@
             {
               "id": "i4",
               "name": "Cervical biopsy",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_colposcopy.pdf",
+              "href": "/helseatlas/files/gyneng_colposcopy.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -281,7 +281,7 @@
             {
               "id": "i5",
               "name": "Sterilisation",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_sterilisation.pdf",
+              "href": "/helseatlas/files/gyneng_sterilisation.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -328,7 +328,7 @@
             {
               "id": "i6",
               "name": "Surgical treatment in connection with spontaneous abortions",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_abortions.pdf",
+              "href": "/helseatlas/files/gyneng_abortions.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -374,7 +374,7 @@
             {
               "id": "i7",
               "name": "Percentage of abortions on request performed using the surgical method",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_abortions.pdf",
+              "href": "/helseatlas/files/gyneng_abortions.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -423,7 +423,7 @@
             {
               "id": "i8",
               "name": "In vitro fertilisation",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_ivf.pdf",
+              "href": "/helseatlas/files/gyneng_ivf.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -476,7 +476,7 @@
             {
               "id": "i9",
               "name": "Endometriosis",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_endometriosis.pdf",
+              "href": "/helseatlas/files/gyneng_endometriosis.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -523,7 +523,7 @@
             {
               "id": "i10",
               "name": "Uterine myomas",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_myomas.pdf",
+              "href": "/helseatlas/files/gyneng_myomas.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -570,7 +570,7 @@
             {
               "id": "i11",
               "name": "Excessive and/or frequent menstruation",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_menstruation.pdf",
+              "href": "/helseatlas/files/gyneng_menstruation.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -617,7 +617,7 @@
             {
               "id": "i12",
               "name": "Hysterectomy",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_hysterectomy.pdf",
+              "href": "/helseatlas/files/gyneng_hysterectomy.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -664,7 +664,7 @@
             {
               "id": "i13",
               "name": "Hysterectomy, proportion performed as open",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_hysterectomy.pdf",
+              "href": "/helseatlas/files/gyneng_hysterectomy.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -710,7 +710,7 @@
             {
               "id": "i14",
               "name": "Transcervical surgical treatments",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_hysterectomy.pdf",
+              "href": "/helseatlas/files/gyneng_hysterectomy.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -763,7 +763,7 @@
             {
               "id": "i15",
               "name": "Pelvic organ prolapse",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_prolapse.pdf",
+              "href": "/helseatlas/files/gyneng_prolapse.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -810,7 +810,7 @@
             {
               "id": "i16",
               "name": "Urinary incontinence",
-              "href": "https://helseatlas.no/sites/default/files/gyneng_incontinence.pdf",
+              "href": "/helseatlas/files/gyneng_incontinence.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [

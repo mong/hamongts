@@ -220,7 +220,7 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/copd-healthcare-atlas.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/copd-healthcare-atlas.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
 <Button editable="true" height="15" href="https://helseatlas.no/atlas/131/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Download factsheets" width="58" x="650" y="6" />
 <Button editable="true" height="15" href="https://helseatlas.no/atlas/131/read-more" id="___user_extra_50" moveable="true" removeable="true" resizeable="true" target="_blank" text="About" tooltip="Read more about the COPD Healthcare Atlas" width="68" x="720" y="6" />
 <Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="414" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="6" y="29">

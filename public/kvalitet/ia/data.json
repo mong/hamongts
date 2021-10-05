@@ -38,7 +38,7 @@
             {
               "id": "i0",
               "name": "Hjerteinfarkt STEMI, reperfusjon",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/kvalitet_hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -123,7 +123,7 @@
             {
               "id": "i1",
               "name": "Hjerteinfarkt NSTEMI, utredning 72 t.",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_hjerteinfarkt.pdf",
+              "href": "/helseatlas/files/kvalitet_hjerteinfarkt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -208,7 +208,7 @@
             {
               "id": "i2",
               "name": "Karkirurgi, carotisstenose",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_karkirurgi.pdf",
+              "href": "/helseatlas/files/kvalitet_karkirurgi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -293,7 +293,7 @@
             {
               "id": "i3",
               "name": "Hjerneslag, trombolyse",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_hjerneslag.pdf",
+              "href": "/helseatlas/files/kvalitet_hjerneslag.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -378,7 +378,7 @@
             {
               "id": "i4",
               "name": "Invasiv kardiologi, trykkmåling",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_invasiv_kardio.pdf",
+              "href": "/helseatlas/files/kvalitet_invasiv_kardio.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -469,7 +469,7 @@
             {
               "id": "i5",
               "name": "Tykktarmskreft, laparoskopi",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_tarmkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_tarmkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -516,7 +516,7 @@
             {
               "id": "i6",
               "name": "Endetarmskreft, laparoskopi",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_tarmkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_tarmkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -563,7 +563,7 @@
             {
               "id": "i7",
               "name": "Endetarmskreft, uten tilbakefall",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_tarmkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_tarmkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -610,7 +610,7 @@
             {
               "id": "i8",
               "name": "Tykktarmskreft, overlevelse",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_tarmkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_tarmkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -657,7 +657,7 @@
             {
               "id": "i9",
               "name": "Brystkreft, primærkirurgi",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_brystkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_brystkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -704,7 +704,7 @@
             {
               "id": "i10",
               "name": "Brystkreft, brystbevarende kirurgi",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_brystkreft.pdf",
+              "href": "/helseatlas/files/kvalitet_brystkreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -751,7 +751,7 @@
             {
               "id": "i11",
               "name": "Lungekreft, kurativ behandling",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_lungekreft.pdf",
+              "href": "/helseatlas/files/kvalitet_lungekreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -798,7 +798,7 @@
             {
               "id": "i12",
               "name": "Lungekreft, overlevelse",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_lungekreft.pdf",
+              "href": "/helseatlas/files/kvalitet_lungekreft.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -844,7 +844,7 @@
             {
               "id": "i13",
               "name": "Prostatakreft, radikal behandling",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_prostatakreft.pdf",
+              "href": "/helseatlas/files/kvalitet_prostatakreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -891,7 +891,7 @@
             {
               "id": "i14",
               "name": "Prostatakreft, fri rand",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_prostatakreft.pdf",
+              "href": "/helseatlas/files/kvalitet_prostatakreft.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -944,7 +944,7 @@
             {
               "id": "i15",
               "name": "Diabetes barn, HbA1c < 53 mmol",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_barnediabetes.pdf",
+              "href": "/helseatlas/files/kvalitet_barnediabetes.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1029,7 +1029,7 @@
             {
               "id": "i16",
               "name": "Diabetes barn, HbA1c < 75 mmol",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_barnediabetes.pdf",
+              "href": "/helseatlas/files/kvalitet_barnediabetes.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1114,7 +1114,7 @@
             {
               "id": "i17",
               "name": "Diabetes voksne, HbA1c <= 53 mmol",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_voksendiabetes.pdf",
+              "href": "/helseatlas/files/kvalitet_voksendiabetes.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1161,7 +1161,7 @@
             {
               "id": "i18",
               "name": "Diabetes voksne, HbA1c < 75 mmol",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_voksendiabetes.pdf",
+              "href": "/helseatlas/files/kvalitet_voksendiabetes.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1214,7 +1214,7 @@
             {
               "id": "i19",
               "name": "Hoftebrudd, sementert stamme",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_hoftebrudd.pdf",
+              "href": "/helseatlas/files/kvalitet_hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1299,7 +1299,7 @@
             {
               "id": "i20",
               "name": "Hoftebrudd, operasjon innen 48 t.",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_hoftebrudd.pdf",
+              "href": "/helseatlas/files/kvalitet_hoftebrudd.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1384,7 +1384,7 @@
             {
               "id": "i21",
               "name": "Nyre, blodtrykk < 130/80",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_nyre.pdf",
+              "href": "/helseatlas/files/kvalitet_nyre.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1469,7 +1469,7 @@
             {
               "id": "i22",
               "name": "Nyre, hemodialyse",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_nyre.pdf",
+              "href": "/helseatlas/files/kvalitet_nyre.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1554,7 +1554,7 @@
             {
               "id": "i23",
               "name": "Nyre, hjemmedialyse",
-              "href": "https://helseatlas.no/sites/default/files/kvalitet_nyre.pdf",
+              "href": "/helseatlas/files/kvalitet_nyre.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [

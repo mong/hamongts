@@ -220,7 +220,7 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/download_data_daysurgery_update2018.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Download data" tooltip="" width="70" x="5" y="435" />
+<Button editable="true" height="15" href="/helseatlas/files/download_data_daysurgery_update2018.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Download data" tooltip="" width="70" x="5" y="435" />
 <Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="390" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="140" x="5" y="40">
 	<Description>The data explorer component of the report.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="Map / patient selection&lt;br&gt;&lt;small&gt;click on the pdf symbol to see the fact sheet&lt;/small&gt;" />

@@ -38,7 +38,7 @@
             {
               "id": "i0",
               "name": "Postmenopausale blødninger",
-              "href": "https://helseatlas.no/sites/default/files/gyn_postmenblod.pdf",
+              "href": "/helseatlas/files/gyn_postmenblod.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -85,7 +85,7 @@
             {
               "id": "i1",
               "name": "Diagnostikk av endometriet",
-              "href": "https://helseatlas.no/sites/default/files/gyn_diagendo.pdf",
+              "href": "/helseatlas/files/gyn_diagendo.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -132,7 +132,7 @@
             {
               "id": "i2",
               "name": "Andel utskrapning",
-              "href": "https://helseatlas.no/sites/default/files/gyn_diagendo.pdf",
+              "href": "/helseatlas/files/gyn_diagendo.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -181,7 +181,7 @@
             {
               "id": "i3",
               "name": "Kolposkopi og/eller vevsprøve av livmorhalsen",
-              "href": "https://helseatlas.no/sites/default/files/gyn_kolposkopi.pdf",
+              "href": "/helseatlas/files/gyn_kolposkopi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -228,7 +228,7 @@
             {
               "id": "i4",
               "name": "Vevsprøve av livmorhalsen",
-              "href": "https://helseatlas.no/sites/default/files/gyn_kolposkopi.pdf",
+              "href": "/helseatlas/files/gyn_kolposkopi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -281,7 +281,7 @@
             {
               "id": "i5",
               "name": "Sterilisering",
-              "href": "https://helseatlas.no/sites/default/files/gyn_sterilisering.pdf",
+              "href": "/helseatlas/files/gyn_sterilisering.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -328,7 +328,7 @@
             {
               "id": "i6",
               "name": "Kirurgisk behandling ved spontanabort",
-              "href": "https://helseatlas.no/sites/default/files/gyn_abort.pdf",
+              "href": "/helseatlas/files/gyn_abort.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -374,7 +374,7 @@
             {
               "id": "i7",
               "name": "Andel kirurgisk behandling ved selvbestemt abort",
-              "href": "https://helseatlas.no/sites/default/files/gyn_abort.pdf",
+              "href": "/helseatlas/files/gyn_abort.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -426,7 +426,7 @@
             {
               "id": "i8",
               "name": "Prøverørsbehandling",
-              "href": "https://helseatlas.no/sites/default/files/gyn_proveror.pdf",
+              "href": "/helseatlas/files/gyn_proveror.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -479,7 +479,7 @@
             {
               "id": "i9",
               "name": "Endometriose",
-              "href": "https://helseatlas.no/sites/default/files/gyn_endometriose.pdf",
+              "href": "/helseatlas/files/gyn_endometriose.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -526,7 +526,7 @@
             {
               "id": "i10",
               "name": "Muskelknuter i livmor (myomer)",
-              "href": "https://helseatlas.no/sites/default/files/gyn_myomer.pdf",
+              "href": "/helseatlas/files/gyn_myomer.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -573,7 +573,7 @@
             {
               "id": "i11",
               "name": "Kraftige og/eller hyppige blødninger",
-              "href": "https://helseatlas.no/sites/default/files/gyn_kraftigblodning.pdf",
+              "href": "/helseatlas/files/gyn_kraftigblodning.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -620,7 +620,7 @@
             {
               "id": "i12",
               "name": "Hysterektomi",
-              "href": "https://helseatlas.no/sites/default/files/gyn_hysterektomi.pdf",
+              "href": "/helseatlas/files/gyn_hysterektomi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -667,7 +667,7 @@
             {
               "id": "i13",
               "name": "Hysterektomi, andel åpne inngrep",
-              "href": "https://helseatlas.no/sites/default/files/gyn_hysterektomi.pdf",
+              "href": "/helseatlas/files/gyn_hysterektomi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -713,7 +713,7 @@
             {
               "id": "i14",
               "name": "Transcervikale inngrep",
-              "href": "https://helseatlas.no/sites/default/files/gyn_hysterektomi.pdf",
+              "href": "/helseatlas/files/gyn_hysterektomi.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -766,7 +766,7 @@
             {
               "id": "i15",
               "name": "Skjede- og livmorfremfall",
-              "href": "https://helseatlas.no/sites/default/files/gyn_fremfall.pdf",
+              "href": "/helseatlas/files/gyn_fremfall.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -813,7 +813,7 @@
             {
               "id": "i16",
               "name": "Urininkontinens",
-              "href": "https://helseatlas.no/sites/default/files/gyn_urininkontinens.pdf",
+              "href": "/helseatlas/files/gyn_urininkontinens.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [

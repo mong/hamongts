@@ -39,7 +39,7 @@
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_skulder.pdf",
+              "href": "/helseatlas/files/dagkir2_skulder.pdf",
               "type": "numeric",
               "values": [
                 238.1, 219.5, 165.7, 162.1, 236.7, 192.3, 304.5, 280, 257.6,
@@ -79,7 +79,7 @@
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_skulder.pdf",
+              "href": "/helseatlas/files/dagkir2_skulder.pdf",
               "type": "numeric",
               "values": [
                 346.1, 249.2, 166.8, 176.5, 246.3, 216.4, 268.6, 190.5, 177.5,
@@ -119,7 +119,7 @@
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_skulder.pdf",
+              "href": "/helseatlas/files/dagkir2_skulder.pdf",
               "type": "numeric",
               "values": [
                 270.9, 235.2, 181.4, 118.7, 207.7, 182.9, 190.2, 166.2, 140.7,
@@ -159,7 +159,7 @@
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_skulder.pdf",
+              "href": "/helseatlas/files/dagkir2_skulder.pdf",
               "type": "numeric",
               "values": [
                 244.5, 260.9, 186.8, 101.6, 217.7, 143.2, 195, 140.1, 131.6,
@@ -199,7 +199,7 @@
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_skulder.pdf",
+              "href": "/helseatlas/files/dagkir2_skulder.pdf",
               "type": "numeric",
               "values": [
                 287.7, 210.8, 185.6, 103, 204.6, 156.6, 172.7, 123.6, 145.4,
@@ -239,7 +239,7 @@
               "id": "i1",
               "name": "Menisk",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_menisk.pdf",
+              "href": "/helseatlas/files/dagkir2_menisk.pdf",
               "type": "numeric",
               "values": [
                 281.8, 314.4, 250.5, 244.6, 383.3, 370.3, 484, 416.9, 349.3,
@@ -279,7 +279,7 @@
               "id": "i1",
               "name": "Menisk",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_menisk.pdf",
+              "href": "/helseatlas/files/dagkir2_menisk.pdf",
               "type": "numeric",
               "values": [
                 262.9, 260.8, 203, 231, 381.1, 398.5, 399.1, 303.3, 257.6,
@@ -319,7 +319,7 @@
               "id": "i1",
               "name": "Menisk",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_menisk.pdf",
+              "href": "/helseatlas/files/dagkir2_menisk.pdf",
               "type": "numeric",
               "values": [
                 187.1, 210.1, 151.3, 229.7, 306.5, 295.4, 263.3, 238.7, 177.4,
@@ -359,7 +359,7 @@
               "id": "i1",
               "name": "Menisk",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_menisk.pdf",
+              "href": "/helseatlas/files/dagkir2_menisk.pdf",
               "type": "numeric",
               "values": [
                 147.5, 191.7, 174.5, 156.7, 266.8, 259.7, 242.7, 232, 174.6,
@@ -399,7 +399,7 @@
               "id": "i1",
               "name": "Menisk",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_menisk.pdf",
+              "href": "/helseatlas/files/dagkir2_menisk.pdf",
               "type": "numeric",
               "values": [
                 107, 155, 158, 133.1, 270.4, 246.6, 203.3, 200.3, 162.4, 179.8,
@@ -439,7 +439,7 @@
               "id": "i2",
               "name": "Hallux valgus og hammertå",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hammertaa.pdf",
+              "href": "/helseatlas/files/dagkir2_hammertaa.pdf",
               "type": "numeric",
               "values": [
                 103, 102.6, 105.7, 84.3, 106.5, 107.6, 109.4, 66.7, 99.2, 76.3,
@@ -479,7 +479,7 @@
               "id": "i2",
               "name": "Hallux valgus og hammertå",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hammertaa.pdf",
+              "href": "/helseatlas/files/dagkir2_hammertaa.pdf",
               "type": "numeric",
               "values": [
                 120.1, 114.1, 95.9, 106.9, 130.8, 134.5, 105.7, 73.9, 79, 85,
@@ -518,7 +518,7 @@
               "id": "i2",
               "name": "Hallux valgus og hammertå",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hammertaa.pdf",
+              "href": "/helseatlas/files/dagkir2_hammertaa.pdf",
               "type": "numeric",
               "values": [
                 139.9, 117.1, 87.8, 106.9, 125.1, 127.2, 112.6, 66.5, 58.2,
@@ -558,7 +558,7 @@
               "id": "i2",
               "name": "Hallux valgus og hammertå",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hammertaa.pdf",
+              "href": "/helseatlas/files/dagkir2_hammertaa.pdf",
               "type": "numeric",
               "values": [
                 158, 102.6, 78.8, 94.5, 103, 111.5, 117.2, 71.8, 55.5, 75.1, 63,
@@ -597,7 +597,7 @@
               "id": "i2",
               "name": "Hallux valgus og hammertå",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hammertaa.pdf",
+              "href": "/helseatlas/files/dagkir2_hammertaa.pdf",
               "type": "numeric",
               "values": [
                 130.5, 103.2, 82.6, 75.3, 116.9, 108.9, 106, 79.1, 50.1, 81.7,
@@ -636,7 +636,7 @@
               "id": "i3",
               "name": "Utvalgt håndkirurgi",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_handkir.pdf",
+              "href": "/helseatlas/files/dagkir2_handkir.pdf",
               "type": "numeric",
               "values": [
                 105.1, 105.1, 151.8, 108.5, 89.6, 99.6, 137.1, 111.2, 98.2,
@@ -676,7 +676,7 @@
               "id": "i3",
               "name": "Utvalgt håndkirurgi",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_handkir.pdf",
+              "href": "/helseatlas/files/dagkir2_handkir.pdf",
               "type": "numeric",
               "values": [
                 144.8, 165.9, 119.5, 91.3, 113.5, 80.5, 128.8, 87.8, 68, 92.4,
@@ -716,7 +716,7 @@
               "id": "i3",
               "name": "Utvalgt håndkirurgi",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_handkir.pdf",
+              "href": "/helseatlas/files/dagkir2_handkir.pdf",
               "type": "numeric",
               "values": [
                 81.4, 116, 83.9, 87.7, 103.5, 70.5, 131.2, 82.4, 72, 83.8,
@@ -756,7 +756,7 @@
               "id": "i3",
               "name": "Utvalgt håndkirurgi",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_handkir.pdf",
+              "href": "/helseatlas/files/dagkir2_handkir.pdf",
               "type": "numeric",
               "values": [
                 75.8, 95.4, 120.6, 88.5, 90, 78, 136.5, 68.6, 80.9, 87.8, 66.6,
@@ -795,7 +795,7 @@
               "id": "i3",
               "name": "Utvalgt håndkirurgi",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_handkir.pdf",
+              "href": "/helseatlas/files/dagkir2_handkir.pdf",
               "type": "numeric",
               "values": [
                 64.8, 136.4, 98.8, 115.2, 106.9, 84.1, 133.3, 54.6, 94.4, 103.7,
@@ -835,7 +835,7 @@
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_karpaltunnel.pdf",
+              "href": "/helseatlas/files/dagkir2_karpaltunnel.pdf",
               "type": "numeric",
               "values": [
                 106.3, 130.3, 138.4, 128.3, 192.5, 151.9, 144.3, 123, 115,
@@ -875,7 +875,7 @@
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_karpaltunnel.pdf",
+              "href": "/helseatlas/files/dagkir2_karpaltunnel.pdf",
               "type": "numeric",
               "values": [
                 120.1, 134, 113.7, 129.3, 173.8, 132.2, 160.1, 135, 103.8,
@@ -915,7 +915,7 @@
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_karpaltunnel.pdf",
+              "href": "/helseatlas/files/dagkir2_karpaltunnel.pdf",
               "type": "numeric",
               "values": [
                 112.8, 104.8, 97.2, 139.1, 159.6, 135.8, 145.6, 153.8, 117.4,
@@ -955,7 +955,7 @@
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_karpaltunnel.pdf",
+              "href": "/helseatlas/files/dagkir2_karpaltunnel.pdf",
               "type": "numeric",
               "values": [
                 111.9, 131.4, 139.7, 127.8, 147.1, 127.6, 152.3, 137.7, 116.6,
@@ -995,7 +995,7 @@
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_karpaltunnel.pdf",
+              "href": "/helseatlas/files/dagkir2_karpaltunnel.pdf",
               "type": "numeric",
               "values": [
                 107.3, 172.1, 125, 139.7, 157.5, 137.9, 192.4, 104.5, 112.6,
@@ -1035,7 +1035,7 @@
               "id": "i5",
               "name": "Fjerning av mandler",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_mandler.pdf",
+              "href": "/helseatlas/files/dagkir2_mandler.pdf",
               "type": "numeric",
               "values": [
                 322.1, 217.3, 203.9, 266.7, 159.2, 163.2, 247, 225.3, 233.3,
@@ -1075,7 +1075,7 @@
               "id": "i5",
               "name": "Fjerning av mandler",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_mandler.pdf",
+              "href": "/helseatlas/files/dagkir2_mandler.pdf",
               "type": "numeric",
               "values": [
                 284.7, 220, 185.3, 279.6, 208.1, 164.7, 249.8, 184.9, 229.1,
@@ -1115,7 +1115,7 @@
               "id": "i5",
               "name": "Fjerning av mandler",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_mandler.pdf",
+              "href": "/helseatlas/files/dagkir2_mandler.pdf",
               "type": "numeric",
               "values": [
                 268.9, 211.1, 173.5, 220.8, 226.9, 175.1, 245.6, 197.9, 226.4,
@@ -1155,7 +1155,7 @@
               "id": "i5",
               "name": "Fjerning av mandler",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_mandler.pdf",
+              "href": "/helseatlas/files/dagkir2_mandler.pdf",
               "type": "numeric",
               "values": [
                 169.1, 210.8, 217, 220.6, 219.2, 150.1, 228, 144.7, 207.2,
@@ -1195,7 +1195,7 @@
               "id": "i5",
               "name": "Fjerning av mandler",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_mandler.pdf",
+              "href": "/helseatlas/files/dagkir2_mandler.pdf",
               "type": "numeric",
               "values": [
                 199.5, 218.9, 201.1, 248.1, 210.8, 165.4, 237.8, 177.5, 199,
@@ -1235,7 +1235,7 @@
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oredren.pdf",
+              "href": "/helseatlas/files/dagkir2_oredren.pdf",
               "type": "numeric",
               "values": [
                 175.2, 149.6, 121.4, 237.1, 395.2, 190, 192.2, 146.9, 101.8,
@@ -1275,7 +1275,7 @@
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oredren.pdf",
+              "href": "/helseatlas/files/dagkir2_oredren.pdf",
               "type": "numeric",
               "values": [
                 193.4, 144.1, 120.7, 217.8, 391.2, 184.9, 175.5, 121.6, 108.6,
@@ -1315,7 +1315,7 @@
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oredren.pdf",
+              "href": "/helseatlas/files/dagkir2_oredren.pdf",
               "type": "numeric",
               "values": [
                 155.1, 146.3, 104.6, 190.4, 419.2, 147.6, 186.6, 107.3, 91.8,
@@ -1355,7 +1355,7 @@
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oredren.pdf",
+              "href": "/helseatlas/files/dagkir2_oredren.pdf",
               "type": "numeric",
               "values": [
                 178.2, 114.4, 120.2, 180.1, 398.3, 70.3, 172.8, 101.9, 100.7,
@@ -1395,7 +1395,7 @@
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oredren.pdf",
+              "href": "/helseatlas/files/dagkir2_oredren.pdf",
               "type": "numeric",
               "values": [
                 153.6, 129.7, 111.4, 159.2, 309.8, 157.8, 150.5, 121.8, 102.6,
@@ -1435,7 +1435,7 @@
               "id": "i7",
               "name": "Aldersbetinget grå stær",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_graastaer.pdf",
+              "href": "/helseatlas/files/dagkir2_graastaer.pdf",
               "type": "numeric",
               "values": [
                 604.8, 712, 784.1, 753.5, 877.1, 834.7, 743.2, 1126.1, 798.4,
@@ -1476,7 +1476,7 @@
               "id": "i7",
               "name": "Aldersbetinget grå stær",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_graastaer.pdf",
+              "href": "/helseatlas/files/dagkir2_graastaer.pdf",
               "type": "numeric",
               "values": [
                 721.4, 721.5, 945.8, 669.4, 887.8, 881.5, 781.1, 1020.1, 938.5,
@@ -1517,7 +1517,7 @@
               "id": "i7",
               "name": "Aldersbetinget grå stær",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_graastaer.pdf",
+              "href": "/helseatlas/files/dagkir2_graastaer.pdf",
               "type": "numeric",
               "values": [
                 901.4, 817.8, 921.3, 820, 921, 927.6, 743.5, 1055.7, 866.5,
@@ -1558,7 +1558,7 @@
               "id": "i7",
               "name": "Aldersbetinget grå stær",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_graastaer.pdf",
+              "href": "/helseatlas/files/dagkir2_graastaer.pdf",
               "type": "numeric",
               "values": [
                 639.1, 873.9, 947.7, 669, 940.9, 882.4, 838.7, 1133.5, 860.2,
@@ -1599,7 +1599,7 @@
               "id": "i7",
               "name": "Aldersbetinget grå stær",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_graastaer.pdf",
+              "href": "/helseatlas/files/dagkir2_graastaer.pdf",
               "type": "numeric",
               "values": [
                 1105, 769.7, 695.9, 573.9, 930.9, 723.5, 759.2, 953.7, 865.2,
@@ -1640,7 +1640,7 @@
               "id": "i8",
               "name": "Tunge øyelokk",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oyelokk.pdf",
+              "href": "/helseatlas/files/dagkir2_oyelokk.pdf",
               "type": "numeric",
               "values": [
                 134.2, 212.3, 143.7, 118.2, 246.8, 281, 162.4, 105, 159.6,
@@ -1680,7 +1680,7 @@
               "id": "i8",
               "name": "Tunge øyelokk",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oyelokk.pdf",
+              "href": "/helseatlas/files/dagkir2_oyelokk.pdf",
               "type": "numeric",
               "values": [
                 46.5, 169.5, 102.4, 142.3, 257.8, 245.9, 225.8, 116.3, 127.4,
@@ -1720,7 +1720,7 @@
               "id": "i8",
               "name": "Tunge øyelokk",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oyelokk.pdf",
+              "href": "/helseatlas/files/dagkir2_oyelokk.pdf",
               "type": "numeric",
               "values": [
                 75.1, 182, 240.3, 153.7, 290.4, 299.3, 218.5, 124.1, 176.6,
@@ -1760,7 +1760,7 @@
               "id": "i8",
               "name": "Tunge øyelokk",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oyelokk.pdf",
+              "href": "/helseatlas/files/dagkir2_oyelokk.pdf",
               "type": "numeric",
               "values": [
                 190.2, 205.1, 296.9, 174.1, 344, 287.2, 244.7, 175.3, 180.4,
@@ -1800,7 +1800,7 @@
               "id": "i8",
               "name": "Tunge øyelokk",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_oyelokk.pdf",
+              "href": "/helseatlas/files/dagkir2_oyelokk.pdf",
               "type": "numeric",
               "values": [
                 195.2, 232.8, 281.4, 238.8, 269.2, 277.7, 270.7, 125.6, 204.7,
@@ -1840,7 +1840,7 @@
               "id": "i9",
               "name": "Lyskebrokk",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_lyskebrokk.pdf",
+              "href": "/helseatlas/files/dagkir2_lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 130.6, 120.4, 133.4, 99.1, 132.6, 129.6, 131.2, 140.1, 138.9,
@@ -1880,7 +1880,7 @@
               "id": "i9",
               "name": "Lyskebrokk",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_lyskebrokk.pdf",
+              "href": "/helseatlas/files/dagkir2_lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 143.7, 137, 107.2, 123.6, 114.1, 129.7, 120.2, 101, 136.3,
@@ -1920,7 +1920,7 @@
               "id": "i9",
               "name": "Lyskebrokk",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_lyskebrokk.pdf",
+              "href": "/helseatlas/files/dagkir2_lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 141.6, 112.4, 119.6, 127.5, 115.1, 134.2, 134.3, 146.8, 141.1,
@@ -1960,7 +1960,7 @@
               "id": "i9",
               "name": "Lyskebrokk",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_lyskebrokk.pdf",
+              "href": "/helseatlas/files/dagkir2_lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 122.8, 106.1, 140.2, 139.6, 136.2, 143.4, 114.2, 120.6, 132.8,
@@ -2000,7 +2000,7 @@
               "id": "i9",
               "name": "Lyskebrokk",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_lyskebrokk.pdf",
+              "href": "/helseatlas/files/dagkir2_lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 139.7, 124.3, 139.8, 124, 138.8, 118.8, 116.1, 106.3, 113.4,
@@ -2040,7 +2040,7 @@
               "id": "i10",
               "name": "Åreknuter",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_aareknuter.pdf",
+              "href": "/helseatlas/files/dagkir2_aareknuter.pdf",
               "type": "numeric",
               "values": [
                 57.1, 80.9, 131.2, 75.4, 131.8, 161.4, 127.1, 154.3, 203.2,
@@ -2080,7 +2080,7 @@
               "id": "i10",
               "name": "Åreknuter",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_aareknuter.pdf",
+              "href": "/helseatlas/files/dagkir2_aareknuter.pdf",
               "type": "numeric",
               "values": [
                 82, 71.2, 102.6, 204.9, 122.6, 186.9, 128.2, 134.5, 217.8, 169,
@@ -2120,7 +2120,7 @@
               "id": "i10",
               "name": "Åreknuter",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_aareknuter.pdf",
+              "href": "/helseatlas/files/dagkir2_aareknuter.pdf",
               "type": "numeric",
               "values": [
                 163, 131.3, 134.4, 185.1, 152.1, 177.6, 141.9, 144.4, 221.6,
@@ -2160,7 +2160,7 @@
               "id": "i10",
               "name": "Åreknuter",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_aareknuter.pdf",
+              "href": "/helseatlas/files/dagkir2_aareknuter.pdf",
               "type": "numeric",
               "values": [
                 74.5, 126.4, 161, 181.6, 139.1, 179.9, 150.1, 135.8, 229.5,
@@ -2200,7 +2200,7 @@
               "id": "i10",
               "name": "Åreknuter",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_aareknuter.pdf",
+              "href": "/helseatlas/files/dagkir2_aareknuter.pdf",
               "type": "numeric",
               "values": [
                 78.1, 85.9, 192.2, 186.4, 146.8, 211.1, 102.5, 102.8, 226.3,
@@ -2240,7 +2240,7 @@
               "id": "i11",
               "name": "Hemoroider",
               "date": "2013",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hemoroider.pdf",
+              "href": "/helseatlas/files/dagkir2_hemoroider.pdf",
               "type": "numeric",
               "values": [
                 244.2, 201.7, 181, 195.6, 109.7, 224.7, 158.6, 147.2, 132.6,
@@ -2280,7 +2280,7 @@
               "id": "i11",
               "name": "Hemoroider",
               "date": "2014",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hemoroider.pdf",
+              "href": "/helseatlas/files/dagkir2_hemoroider.pdf",
               "type": "numeric",
               "values": [
                 250.9, 188.8, 208, 196.7, 70.2, 232.1, 146.1, 155.5, 146.9, 200,
@@ -2320,7 +2320,7 @@
               "id": "i11",
               "name": "Hemoroider",
               "date": "2015",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hemoroider.pdf",
+              "href": "/helseatlas/files/dagkir2_hemoroider.pdf",
               "type": "numeric",
               "values": [
                 287.1, 195.5, 220.5, 240.4, 101.7, 219.5, 132.2, 268.2, 158.2,
@@ -2360,7 +2360,7 @@
               "id": "i11",
               "name": "Hemoroider",
               "date": "2016",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hemoroider.pdf",
+              "href": "/helseatlas/files/dagkir2_hemoroider.pdf",
               "type": "numeric",
               "values": [
                 360.8, 143.4, 215.6, 256.6, 134.2, 170.2, 171.1, 267.8, 175.8,
@@ -2400,7 +2400,7 @@
               "id": "i11",
               "name": "Hemoroider",
               "date": "2017",
-              "href": "https://helseatlas.no/sites/default/files/dagkir2_hemoroider.pdf",
+              "href": "/helseatlas/files/dagkir2_hemoroider.pdf",
               "type": "numeric",
               "values": [
                 303.3, 110.6, 233.1, 330.7, 143.2, 168.3, 148.4, 217.7, 185.9,

@@ -38,7 +38,7 @@
             {
               "id": "i0",
               "name": "Andel 39 år eller eldre",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -84,7 +84,7 @@
             {
               "id": "i1",
               "name": "Alder ved første fødsel",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -134,7 +134,7 @@
             {
               "id": "i2",
               "name": "Overvekt hos mor, førstegangsfødende",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -180,7 +180,7 @@
             {
               "id": "i3",
               "name": "Overvekt hos mor, flergangsfødende",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -226,7 +226,7 @@
             {
               "id": "i4",
               "name": "Førstegangsfødende, Robsongruppe 1",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -272,7 +272,7 @@
             {
               "id": "i5",
               "name": "Flergangsfødende, Robsongruppe 3",
-              "href": "https://helseatlas.no/sites/default/files/fh_populasjon.pdf",
+              "href": "/helseatlas/files/fh_populasjon.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -324,7 +324,7 @@
             {
               "id": "i6",
               "name": "Kontakter hos jordmor",
-              "href": "https://helseatlas.no/sites/default/files/fh_svangerskapsomsorg.pdf",
+              "href": "/helseatlas/files/fh_svangerskapsomsorg.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -371,7 +371,7 @@
             {
               "id": "i7",
               "name": "Kontakter hos fastlege/legevakt",
-              "href": "https://helseatlas.no/sites/default/files/fh_svangerskapsomsorg.pdf",
+              "href": "/helseatlas/files/fh_svangerskapsomsorg.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -418,7 +418,7 @@
             {
               "id": "i8",
               "name": "Kontakter i spes.helsetjenesten",
-              "href": "https://helseatlas.no/sites/default/files/fh_svangerskapsomsorg.pdf",
+              "href": "/helseatlas/files/fh_svangerskapsomsorg.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -465,7 +465,7 @@
             {
               "id": "i9",
               "name": "Svangerskapsdiabetes, førstegangsfødende",
-              "href": "https://helseatlas.no/sites/default/files/fh_svangerskapsomsorg.pdf",
+              "href": "/helseatlas/files/fh_svangerskapsomsorg.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -514,7 +514,7 @@
             {
               "id": "i10",
               "name": "Svangerskapsdiabetes, flergangsfødende",
-              "href": "https://helseatlas.no/sites/default/files/fh_svangerskapsomsorg.pdf",
+              "href": "/helseatlas/files/fh_svangerskapsomsorg.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -614,7 +614,7 @@
             {
               "id": "i12",
               "name": "Igangsetting",
-              "href": "https://helseatlas.no/sites/default/files/fh_igangsetting.pdf",
+              "href": "/helseatlas/files/fh_igangsetting.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -660,7 +660,7 @@
             {
               "id": "i13",
               "name": "Epidural",
-              "href": "https://helseatlas.no/sites/default/files/fh_epidural.pdf",
+              "href": "/helseatlas/files/fh_epidural.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -706,7 +706,7 @@
             {
               "id": "i14",
               "name": "Klipping",
-              "href": "https://helseatlas.no/sites/default/files/fh_klipping.pdf",
+              "href": "/helseatlas/files/fh_klipping.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -752,7 +752,7 @@
             {
               "id": "i15",
               "name": "Instrumentell vaginal fødsel",
-              "href": "https://helseatlas.no/sites/default/files/fh_instrumentellforlosning.pdf",
+              "href": "/helseatlas/files/fh_instrumentellforlosning.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -798,7 +798,7 @@
             {
               "id": "i16",
               "name": "Instrumentell vaginal fødsel, Robsongruppe 1",
-              "href": "https://helseatlas.no/sites/default/files/fh_instrumentellforlosning.pdf",
+              "href": "/helseatlas/files/fh_instrumentellforlosning.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -844,7 +844,7 @@
             {
               "id": "i17",
               "name": "Keisersnitt akutt",
-              "href": "https://helseatlas.no/sites/default/files/fh_keisersnitt.pdf",
+              "href": "/helseatlas/files/fh_keisersnitt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -890,7 +890,7 @@
             {
               "id": "i18",
               "name": "Keisersnitt akutt, Robsongruppe 1",
-              "href": "https://helseatlas.no/sites/default/files/fh_keisersnitt.pdf",
+              "href": "/helseatlas/files/fh_keisersnitt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -936,7 +936,7 @@
             {
               "id": "i19",
               "name": "Keisersnitt planlagt",
-              "href": "https://helseatlas.no/sites/default/files/fh_keisersnitt.pdf",
+              "href": "/helseatlas/files/fh_keisersnitt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1033,7 +1033,7 @@
             {
               "id": "i21",
               "name": "Igangsetting",
-              "href": "https://helseatlas.no/sites/default/files/fh_igangsetting.pdf",
+              "href": "/helseatlas/files/fh_igangsetting.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1079,7 +1079,7 @@
             {
               "id": "i22",
               "name": "Epidural",
-              "href": "https://helseatlas.no/sites/default/files/fh_epidural.pdf",
+              "href": "/helseatlas/files/fh_epidural.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1125,7 +1125,7 @@
             {
               "id": "i23",
               "name": "Klipping",
-              "href": "https://helseatlas.no/sites/default/files/fh_klipping.pdf",
+              "href": "/helseatlas/files/fh_klipping.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1171,7 +1171,7 @@
             {
               "id": "i24",
               "name": "Instrumentell vaginal fødsel",
-              "href": "https://helseatlas.no/sites/default/files/fh_instrumentellforlosning.pdf",
+              "href": "/helseatlas/files/fh_instrumentellforlosning.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1217,7 +1217,7 @@
             {
               "id": "i25",
               "name": "Keisersnitt akutt",
-              "href": "https://helseatlas.no/sites/default/files/fh_keisersnitt.pdf",
+              "href": "/helseatlas/files/fh_keisersnitt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1263,7 +1263,7 @@
             {
               "id": "i26",
               "name": "Keisersnitt planlagt",
-              "href": "https://helseatlas.no/sites/default/files/fh_keisersnitt.pdf",
+              "href": "/helseatlas/files/fh_keisersnitt.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1315,7 +1315,7 @@
             {
               "id": "i27",
               "name": "Liggetid, førstegangsfødende (vaginal)",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -1360,7 +1360,7 @@
             {
               "id": "i28",
               "name": "Liggetid, flergangsfødende (vaginal)",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -1405,7 +1405,7 @@
             {
               "id": "i29",
               "name": "Liggetid, førstegangsfødende (keisersnitt)",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -1449,7 +1449,7 @@
             {
               "id": "i30",
               "name": "Liggetid, flergangsfødende (keisersnitt)",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "1",
               "values": [
@@ -1493,7 +1493,7 @@
             {
               "id": "i31",
               "name": "Polikliniske kontakter for mor",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1540,7 +1540,7 @@
             {
               "id": "i32",
               "name": "Polikliniske kontakter for nyfødte",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1587,7 +1587,7 @@
             {
               "id": "i33",
               "name": "Reinnleggelser av mor",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1634,7 +1634,7 @@
             {
               "id": "i34",
               "name": "Reinnleggelser av nyfødte",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1681,7 +1681,7 @@
             {
               "id": "i35",
               "name": "Hjemmebesøk av kommunalt ansatt jordmor",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
@@ -1728,7 +1728,7 @@
             {
               "id": "i36",
               "name": "Hjemmebesøk av helsesykepleier",
-              "href": "https://helseatlas.no/sites/default/files/fh_barseltid.pdf",
+              "href": "/helseatlas/files/fh_barseltid.pdf",
               "type": "numeric",
               "precision": "0",
               "values": [
