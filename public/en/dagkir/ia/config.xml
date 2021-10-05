@@ -220,11 +220,11 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/day-surgery.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/day-surgery.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Download report" width="58" x="580" y="6" />
 <Button editable="true" height="15" href="http://helseatlas.no/en/atlas/117/read-more" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="About" tooltip="Read more about the healthcare atlas Day Surgery in Norway" width="65" x="720" y="6" />
 <Button editable="true" height="15" href="http://helseatlas.no/atlas/117/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Download factsheets" width="58" x="650" y="6" />
 <!--
-<Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/filer/felles/download_day-surgery.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Download data" width="50" x="608" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/filer/felles/download_day-surgery.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Download data" width="50" x="608" y="6" />
 <Button editable="true" height="15" id="___user_extra_50" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hospital referal areas" tooltip="Definitions of the hospital referral areas" width="68" x="536" y="6" />
 -->
 <Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="414" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="5" y="28">
@@ -239,7 +239,7 @@
 	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
 </Component>
 <!--
-<Button editable="true" height="15" href="http://www.helseatlas.no/sites/default/files/filer/felles/eldrehelseatlas_hjelp.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Help" tooltip="" width="50" x="732" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/filer/felles/eldrehelseatlas_hjelp.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Help" tooltip="" width="50" x="732" y="6" />
 -->
 <Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="73" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="281" x="515" y="523">
 	<Description>The comparison that shows the user information about comparison data.</Description>
