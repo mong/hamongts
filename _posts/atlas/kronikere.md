@@ -2,7 +2,9 @@
 num: 12
 mainTitle: Helseatlas for kronisk syke
 shortTitle: Kronikere, 2015-2017
-pdfUrl: https://helseatlas.no/sites/default/files/helseatlas-fodselshjelp.pdf
+pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
+ia: false
+lang: no
 ---
 
 ## Innhold

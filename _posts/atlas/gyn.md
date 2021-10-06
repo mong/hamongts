@@ -3,24 +3,21 @@ num: 8
 mainTitle: Helseatlas for gynekologi
 shortTitle: Gynekologi, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf
+ia: true
+lang: no
 ---
 
 ## Innhold
 
 # Hovedfunn for ulike pasientutvalg i helseatlas gynekologi
 
-
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
 
+- **Les mer:**[Opptaksområder og justering](/helseatlas/files/gyn_opptaksomr.pdf)
 
-* **Les mer:**[Opptaksområder og justering](/helseatlas/files/gyn_opptaksomr.pdf)
-
- 
- ## Postmenopausale blødninger
+## Postmenopausale blødninger
 
 Menopausen eller overgangsalderen starter ett år etter kvinnens siste spontane menstruasjonsblødning, og inntreffer i Norge oftest ved 51–52-årsalderen. Blødning som kommer mer enn ett år etter siste spontane menstruasjonsblødning kalles postmenopausal blødning og skal utredes, da kreft eller forstadier til kreft kan være årsaken. Kvinner med postmenopausale blødninger skal utredes innen få uker med gynekologisk undersøkelse, vaginal ultralyd, celleprøve fra livmorhalsen og vevsprøve av livmorslimhinnen.
-
- 
 
 ### Bakgrunn
 
@@ -42,23 +39,17 @@ Endometriebiopsi eller utskraping ble foretatt ved omlag halvparten av kontakten
 
 **Figur:** Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
 
- ![blodninger\_1](/helseatlas/img/no/gyn/blodninger\_1.png) 
+![blodninger_1](/helseatlas/img/no/gyn/blodninger_1.png)
 
- 
+**Figur:** Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig eller privat tjenesteyter. Gjennomsnittlig antall kontakter til høyre. Utvalget er begrenset til kvinner som er 50 år eller eldre.
 
-**Figur:** Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig eller privat tjenesteyter. Gjennomsnittlig antall kontakter til høyre. Utvalget er begrenset til kvinner som er 50 år eller eldre. 
-
- ![blodninger\_2](/helseatlas/img/no/gyn/blodninger\_2.png) 
-
+![blodninger_2](/helseatlas/img/no/gyn/blodninger_2.png)
 
 ### Kommentarer
 
 Den geografiske variasjonen i bruk av polikliniske kontakter for postmenopausale blødninger er liten. Dette tyder på at kvinner i Norge som blør etter menopausen har et likeverdig tilbud og får den utredningen som er nødvendig for å stadfeste hvorvidt blødningen skyldes kreft (forstadier til kreft) eller har annen årsak.
 
-
-
-
- ## Diagnostikk av endometriet
+## Diagnostikk av endometriet
 
 De fleste kvinner som får diagnosen endometriekreft (kreft i livmorslimhinnen) har i forkant hatt vaginale blødningersforstyrrelser. Blødningene kan ha endret karakter, blitt kraftigere, uregelmessige eller ha oppstått etter menopause. Ved mistanke om kreft tas ofte en vevsprøve fra livmorslimhinnen, som regel en mindre vevsprøve som kan tas uten bruk av anestesi (endometriebiopsi). Hvis det fortsatt er usikkerhet eller behov for mer informasjon om krefttype mm., tas en større vevsprøve ved at det gjøres en utskrapning av livmorslimhinnen. Et slik inngrep krever anestesi, oftest narkose.
 
@@ -76,14 +67,11 @@ National Health Services (NHS) i Storbritannia har nylig anbefalt at utskrapning
 
 **Figur:** Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. kontakter i spesialisthelsetjenesten og kontakter hos fastlege eller legevakt. Gjennomsnittlig antall kontakter og andel kontakter hos fastlege til høyre.
 
- ![figur\_1](/helseatlas/img/no/gyn/figur\_1.png) 
-
- 
+![figur_1](/helseatlas/img/no/gyn/figur_1.png)
 
 **Figur:** Antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og endometriebiopsi versus utskrapning. Gjennomsnittlig antall kontakter til høyre.
 
- ![figur\_2](/helseatlas/img/no/gyn/figur\_2.png) 
-
+![figur_2](/helseatlas/img/no/gyn/figur_2.png)
 
 ### Kommentarer
 
@@ -93,10 +81,7 @@ Endometriebiopsi og utskraping utføres hovedsakelig i spesialisthelsetjenesten,
 
 Det er ingen kjent geografisk variasjon i sykelighet som skulle tilsi at behovet for vevsprøver fra livmorslimhinnen burde variere geografisk. Omfanget er også såpass stort at tilfeldig variasjon ikke kan forventes å bidra vesentlig til den observerte variasjonen. Variasjonen må derfor betegnes som uberettiget.
 
-
-
-
- ## Kolposkopi og biopsi av livmorhalsen
+## Kolposkopi og biopsi av livmorhalsen
 
 Det er anbefalt å ta rutineprøve fra livmorhalsen med tanke på celleforandringer hvert tredje år for kvinner mellom 25–69 år. Ved mistanke om kreft eller forstadier til kreft, vanligvis basert på celleprøve og/eller HPV-test, er det grunn til å undersøke livmorhalsen med kolposkop. Et kolposkop er et slags mikroskop som gir forstørrelse og godt lys og bidrar til å identifisere celleforandringer på livmorhalsen som er aktuelle for vevsprøve (biopsi). Kolposkopi er derfor viktig også ved kontroll av pasienter som tidligere er behandlet for celleforandringer.
 
@@ -118,21 +103,17 @@ Bruk av cervixbiopsi varierte også mye mellom opptaksområdene. Opptaksområden
 
 **Figur:** Antall polikliniske kontakter hvor det er foretatt kolposkopi og/eller cervixbiopsi pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Andel utført av privat behandler og gjennomsnittlig antall kontakter til høyre.
 
- ![bilde\_1](/helseatlas/img/no/gyn/bilde\_1.png) 
+![bilde_1](/helseatlas/img/no/gyn/bilde_1.png)
 
 **Figur:** Antall cervixbiopsier pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig sykehus eller avtalespesialist. Gjennomsnittlig antall kontakter til høyre.
 
- ![bilde\_2](/helseatlas/img/no/gyn/bilde\_2.png) 
-
+![bilde_2](/helseatlas/img/no/gyn/bilde_2.png)
 
 ### Kommentarer
 
 Kolposkopi skal primært anvendes som et hjelpemiddel når det skal tas vevsprøver av livmorhalsen, i tilfeller der det foreligger mistanke om celleforandringer eller kreft på bakgrunn av symptomer og/eller celleprøve. Også i oppfølging etter behandling (konisering) for celleforandringer er kolposkopi viktig. Resultatene tyder på et overforbruk av kolposkopi ved gynekologiske undersøkelser, hovedsakelig knyttet til konsultasjoner hos private avtalespesialister. Den store variasjonen mellom opptaksområdene i bruk av kolposkopi tilsier at graden av overforbruk varierer geografisk. Også bruk av cervixbiopsi viser så stor geografisk variasjon at den bør betegnes som uberettiget, da det ikke er noen kjent geografisk variasjon i sykelighet som kan forklare resultatene.
 
-
-
-
- ## Sterilisering
+## Sterilisering
 
 Sterilisering er en svært sikker prevensjonsmetode, og utføres ved at egglederne kuttes over og lukkes. Dermed hindres sædceller fra å komme i kontakt med egg fra eggstokkene slik at befruktning ikke kan finne sted. Sterilisering utføres gjerne i narkose og ved hjelp av kikkhullsteknikk (laparoskopi). Det utføres også i forbindelse med planlagt keisersnitt.
 
@@ -148,14 +129,11 @@ Andelen åpne inngrep, som hovedsakelig ble utført i forbindelse med planlagte 
 
 **Figur:** Antall inngrep for sterilisering fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
 
- ![skjermbilde\_1\_0](/helseatlas/img/no/gyn/skjermbilde\_1\_0.png) 
+![skjermbilde_1_0](/helseatlas/img/no/gyn/skjermbilde_1_0.png)
 
 **Figur:**  Antall steriliseringer pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep og andel åpne inngrep til høyre. Utvalget er begrenset til kvinner i alderen 25–55 år.
 
- ![skjermbilde\_2\_0](/helseatlas/img/no/gyn/skjermbilde\_2\_0.png) 
-
- 
-
+![skjermbilde_2_0](/helseatlas/img/no/gyn/skjermbilde_2_0.png)
 
 ### Kommentarer
 
@@ -167,10 +145,7 @@ Videre kan det tenkes at kvinner som får barn i ung alder i større grad vil be
 
 Bruken av sterilisering må antas å i stor grad være styrt av kvinners egne preferanser omkring valg av prevensjonsmetode. Den observerte variasjonen er imidlertid såpass stor at det er naturlig å reise spørsmål om hvorvidt ulik praksis knyttet til fritaksbestemmelsen fra pasientbetaling eller til rådgivning og informasjon om alternative metoder for prevensjon også kan forklare deler av variasjonen.
 
-
-
-
- ## Kirurgi ved spontanabort og selvbestemt abort
+## Kirurgi ved spontanabort og selvbestemt abort
 
 Medikamentell behandling og kirurgisk inngrep er alternative behandlinger ved både spontanabort og ved selvbestemt abort før tolvte svangerskapsuke. Medikamentell behandling som får innholdet i livmoren til å løsne og deretter livmoren til å trekke seg sammen, er den foretrukne metoden. Kirurgi (utskrapning) benyttes når man ikke kommer til målet med medikamentell behandling, særlige medisinske forhold oppstår eller at kvinnen sterkt ønsker denne metoden.
 
@@ -188,7 +163,7 @@ Det er mulig at kvinners preferanser i noen grad får påvirke bruken av kirurgi
 
 **Figur:** Antall inngrep etter spontanabort pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
 
- ![skjermbilde\_1](/helseatlas/img/no/gyn/skjermbilde\_1.png) 
+![skjermbilde_1](/helseatlas/img/no/gyn/skjermbilde_1.png)
 
 ## Kirurgi ved selvbestemt abort
 
@@ -198,14 +173,9 @@ Den geografiske variasjonen i bruken av kirurgisk metode ved selvbestemt abort e
 
 **Figur:** Andel selvbestemte aborter gjennomført kirurgisk i perioden 2015–2017. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
 
- ![skjermbilde\_2](/helseatlas/img/no/gyn/skjermbilde\_2.png) 
+![skjermbilde_2](/helseatlas/img/no/gyn/skjermbilde_2.png)
 
- 
-
-
-
-
- ## Prøverørsbehandling
+## Prøverørsbehandling
 
 2015–2017Dersom et par aktivt har forsøkt å bli gravide i ett år uten å lykkes, defineres de som ufrivillig barnløse. Ufrivillig barnløse kan få hjelp til å forsøke å bli gravide. I perioden 2015–2017 ble årlig ca 2 500 norske barn født etter assistert befruktning. Dette utgjør ca. 4 % av alle barn som blir født i Norge hvert år.
 
@@ -219,30 +189,23 @@ Seks offentlige sykehus og flere private klinikker tilbyr assistert befruktning.
 
 I 2015–2017 fikk årlig omlag 3 800 kvinner i Norge offentlig finansiert prøverørsbehandling. De fleste kvinnene som fikk prøverørsbehandling i denne perioden var mellom 29 og 39 år, gjennomsnittsalderen var 33,6 år.
 
-I opptaksområdet til Lovisenberg diakonale sykehus, som hadde den høyeste raten, var det 28 % flere som fikk prøverørsbehandling enn i opptaksområdet til Oslo Universitetssykehus HF, som hadde den nest høyeste raten. Ser man bort fra opptaksområdet Lovisenberg, var det moderat variasjon, raten i opptaksområdet OUS var omlag dobbelt så høy som i opptaksområdet Nordland. 
+I opptaksområdet til Lovisenberg diakonale sykehus, som hadde den høyeste raten, var det 28 % flere som fikk prøverørsbehandling enn i opptaksområdet til Oslo Universitetssykehus HF, som hadde den nest høyeste raten. Ser man bort fra opptaksområdet Lovisenberg, var det moderat variasjon, raten i opptaksområdet OUS var omlag dobbelt så høy som i opptaksområdet Nordland.
 
 Andel fødende som var 39 år eller eldre varierer også mye mellom opptaksområdene. I opptaksområdene Diakonhjemmet og OUS var omlag 20 % av de som fikk behandling med IVF i en alder der resultatene ikke kan forventes å være veldig gode.
 
 **Figur:** Antall prøverørsbehandlinger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
 
- ![proveror1](/helseatlas/img/no/gyn/proveror1.png) 
-
- 
+![proveror1](/helseatlas/img/no/gyn/proveror1.png)
 
 **Figur:** Andel av kvinner som fikk prøverørsbehandling som var 39 år eller eldre. Gjennomsnittsalder for kvinnene i utvalget til høyre.
 
- ![proveror2](/helseatlas/img/no/gyn/proveror2.png) 
-
- 
+![proveror2](/helseatlas/img/no/gyn/proveror2.png)
 
 ### Kommentarer
 
 Det er ingen kjent geografisk variasjon i infertilitet som skulle tilsi at bruken av IVF burde variere geografisk. Den geografiske variasjonen i gjennomsnittsalder for førstegangsfødende er såpass liten at kvinners valg omkring når de ønsker å få barn neppe kan forklare den observerte variasjonen. Det er heller ikke sannsynlig at hele variasjonen skyldes tilfeldigheter. Det er derfor grunn til å stille spørsmål ved om bruk av prøverørsbehandling er likeverdig fordelt.
 
-
-
-
- ## Endometriose
+## Endometriose
 
 2015–2017Endometriose er en tilstand der livmorslimhinne (endometrium) er lokalisert andre steder enn i livmorhulen og fører til en betennelsestilstand. Endometriose er vanligvis lokalisert i bekkenorganene; på bukhinnen rundt livmoren, på egglederne eller eggstokkene, men kan også lokaliseres til tarm og urinblære.
 
@@ -264,15 +227,11 @@ Kirurgiske inngrep for endometriose kan gjøres åpent, laparaskopisk eller vagi
 
 **Figur:**  Antall inngrep for endometriose pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
 
- ![endometriose1](/helseatlas/img/no/gyn/endometriose1.png) 
-
- 
+![endometriose1](/helseatlas/img/no/gyn/endometriose1.png)
 
 **Figur:**  Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
 
- ![endometriose2](/helseatlas/img/no/gyn/endometriose2.png) 
-
- 
+![endometriose2](/helseatlas/img/no/gyn/endometriose2.png)
 
 ### Kommentarer
 
@@ -280,10 +239,7 @@ Det er ingen kjent geografisk variasjon i forekomsten av endometriose, men det e
 
 Ved operasjoner for endometriose anbefales at man unngår åpen kirurgi. Åpen kirurgi ble likevel brukt i over 25 % av operasjonene i enkelte opptaksområder. Det er stor forskjell mellom opptaksområdene når det gjelder hvor stor andel som blir behandlet med åpen kirurgi.
 
-
-
-
- ## Muskelknuter i livmor (myomer)
+## Muskelknuter i livmor (myomer)
 
 2015–2017Godartede svulster som utgår fra muskulaturen i livmor kalles gjerne myomer eller muskelknuter. Myomer er hyppig forekommende og finnes hos rundt 70 % av fertile kvinner, men bare 15–30 % har symptomer. Vanlige symptomer er langvarige og/eller kraftige menstruasjonsblødninger og trykksymptomer mot blære og tarm. Muskelknuter øker risiko for nedsatt fertilitet og for problemer under svangerskap og fødsel.
 
@@ -307,15 +263,11 @@ Det var stor variasjon i bruk av åpen kirurgi ved inngrep for muskelknuter i li
 
 **Figur:** Antall inngrep for muskelknuter i livmor pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre.
 
- ![myoner1](/helseatlas/img/no/gyn/myoner1.png) 
+![myoner1](/helseatlas/img/no/gyn/myoner1.png)
 
- 
+**Figur:** Andel inngrep for muskelknuter i livmor gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
 
-**Figur:**  Andel inngrep for muskelknuter i livmor gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
-
- ![myoner2](/helseatlas/img/no/gyn/myoner2.png) 
-
- 
+![myoner2](/helseatlas/img/no/gyn/myoner2.png)
 
 ### Kommentarer
 
@@ -323,10 +275,7 @@ Den geografiske variasjonen i bruk av operasjoner for fjerning av muskelknuter i
 
 Det var imidlertid stor variasjon i bruk av åpen kirurgi mellom de ulike opptaksområdene. En vesentlig større andel inngrep gjøres åpent for bosatte i opptaksområdene Nord-Trøndelag og Førde enn for bosatte i opptaksområdene Vestfold og Bergen.
 
-
-
-
- ## Kraftige og/eller hyppige blødninger
+## Kraftige og/eller hyppige blødninger
 
 2015–2017Blødningsforstyrrelse finnes hos ca. 15–20 % av kvinner i fertil alder. Blødningene kan være regelmessige med økt mengde blødning pr. menstruasjon, og/eller de kan være uregelmessige og ikke følge noen klar syklus.
 
@@ -346,26 +295,17 @@ Andelen åpne inngrep varierte fra 18 % for bosatte i opptaksområdet Nord-Trøn
 
 **Figur:**  Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. hysterektomier, fjerning av livmorslimhinne (ER/EA) og andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
 
- ![kraftige\_blodninger1](/helseatlas/img/no/gyn/kraftige\_blodninger1.png) 
-
- 
+![kraftige_blodninger1](/helseatlas/img/no/gyn/kraftige_blodninger1.png)
 
 **Figur:**  Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
 
- ![kraftige\_blodninger2](/helseatlas/img/no/gyn/kraftige\_blodninger2.png) 
-
- 
+![kraftige_blodninger2](/helseatlas/img/no/gyn/kraftige_blodninger2.png)
 
 ### Kommentarer
 
 Den geografiske variasjonen i bruk av operasjoner for kraftige og/eller hyppige menstruasjonsblødninger er stor, og det er særlig opptaksområdene i Oslo (Diakonhjemmet, Lovisenberg og OUS) som utmerker seg med svært lave rater. Det er ingen kjent geografisk variasjon i forekomsten av denne tilstanden og det er heller ikke sannsynlig at all variasjonen skyldes tilfeldigheter og ulike pasientpreferanser. Variasjonen må derfor anses som uberettiget.
 
- 
-
-
-
-
- ## Hysterektomi og transcervikale inngrep
+## Hysterektomi og transcervikale inngrep
 
 2015–2017Kirurgisk fjerning av livmoren (hysterektomi) gjøres av flere grunner. Muskelknuter i livmoren, blødningsforstyrrelser og endometriose er mulige årsaker til at livmoren fjernes hos pasienter som ikke har kreft. Fjerning av livmoren kan gjøres åpent, laparoskopisk eller vaginalt. En del mindre inngrep på livmoren kan også gjøres ved å føre et instrument via skjeden og gjennom livmorhalsen (cervix). Denne typen inngrep kalles gjerne transcervikale inngrep og kan i noen tilfeller være et alternativ til å fjerne livmoren.
 
@@ -387,24 +327,17 @@ Totalt sett er det ingen tydelig samvariasjon mellom ratene for bruk av hysterek
 
 **Figur:** Antall hysterektomier og transcervikale innngrep pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde
 
- ![hysterektomi1](/helseatlas/img/no/gyn/hysterektomi1.png) 
-
- 
+![hysterektomi1](/helseatlas/img/no/gyn/hysterektomi1.png)
 
 **Figur:** Andel hysterektomier gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
 
- ![hysterektomi2](/helseatlas/img/no/gyn/hysterektomi2.png) 
-
- 
+![hysterektomi2](/helseatlas/img/no/gyn/hysterektomi2.png)
 
 ### Kommentarer
 
 Det er ingen kjent geografisk variasjon i sykelighet som skulle tilsi at behovet for hysterektomi og transcervikale inngep bør variere geografisk i Norge. Det er heller ikke sannsynlig at all variasjonen skyldes ulike pasientpreferanser eller tilfeldigheter, og variasjonen må derfor anses som uberettiget.
 
-
-
-
- ## Skjede- og livmorfremfall
+## Skjede- og livmorfremfall
 
 2015–2017Bekkenorganene støttes opp av bindevev og muskulatur. Ved svekkelse av dette støtteapparatet kan det skje et såkalt fremfall eller descens av aktuelle organ via skjeden. Livmor med livmortappen kan synke ned i skjeden, urinblæren kan buke bakover og eventuelt ut av skjeden (cystocele) eller endetarmen kan buke fremover og eventuelt ut av skjeden (rektocele). Vanlige plager er at kvinnen merker en kul i skjedeåpningen, og kjenner på tyngdefølelse, har problemer ved vannlatning eller avføring.
 
@@ -420,26 +353,17 @@ Bosatte i opptaksområdet til Finnmarkssykehuset HF, som har den høyeste raten,
 
 **Figur:** Antall inngrep for skjede- og livmorfremfall fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
 
- ![fremfall1](/helseatlas/img/no/gyn/fremfall1.png) 
-
- 
+![fremfall1](/helseatlas/img/no/gyn/fremfall1.png)
 
 **Figur:** Antall inngrep for skjede- og livmorfremfall pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.
 
- ![fremfall2](/helseatlas/img/no/gyn/fremfall2.png) 
-
- 
+![fremfall2](/helseatlas/img/no/gyn/fremfall2.png)
 
 ### Kommentarer
 
 Den geografiske variasjonen i bruk av operasjoner for skjede- og livmorfremfall er stor. Ser man bort fra opptaksområdene med de høyeste (Finnmark) og laveste ratene (Diakonhjemmet og Lovisenberg) er variasjonen moderat. Omfanget av denne typen inngrep er relativt stort og i de aller fleste opptaksområdene var ratene stabile over år. Det tyder på at innslaget av tilfeldighet ikke er en vesentlig forklaring på variasjonen. Det er ingen kjent geografisk variasjon i sykelighet som skulle tilsi at behovet for denne typen operasjoner varierer mye mellom de ulike opptaksområdene. Siden variasjonen heller ikke kan antas å skyldes tilfeldigheter, eller tilskrives kvinners preferanser når det gjelder konservativ behandling kontra kirurgi, må den betegnes som uberettiget.
 
- 
-
-
-
-
- ## Urininkontinens
+## Urininkontinens
 
 2015–2017Urininkontinens (urinlekkasje) er et hyppig fenomen hos kvinner. Norske tall viser at ca 25 % av den kvinnelige befolkningen over 20 år har noen grad av urininkontinens, og vel en tredjedel av disse er betydelig plaget. Forekomsten øker med økende alder.
 
@@ -457,20 +381,12 @@ Det er svært stor variasjon i omfanget av inngrep for urininkontinens pr. 10 00
 
 **Figur:** Antall inngrep for urininkontinens fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
 
- ![urininkontinens1](/helseatlas/img/no/gyn/urininkontinens1.png) 
-
- 
+![urininkontinens1](/helseatlas/img/no/gyn/urininkontinens1.png)
 
 **Figur:**  Antall inngrep for urininkontinens pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.
 
- ![urininkontinens2](/helseatlas/img/no/gyn/urininkontinens2.png) 
-
- 
+![urininkontinens2](/helseatlas/img/no/gyn/urininkontinens2.png)
 
 ### Kommentarer
 
 Den geografiske variasjonen i bruken av operasjoner for urininkontinens er stor, selv når man ser bort fra opptaksområdene med de høyeste og laveste ratene (Finnmark, Nord-Trøndelag og Lovisenberg). Resultatene for tre av kvalitetsindikatorene i Norsk kvinnelig inkontinensregister (NKIR) er sammenlignet for de seks behandlingsstedene som behandler det store flertallet av kvinner bosatt i opptaksområdene Finnmark, Vestfold og Lovisenberg. Resultatene er samlet sett er ganske like, til tross for at raten var åtte ganger høyere i opptaksområdet Finnmark som i opptaksområdet Lovisenberg, og 4,5 ganger høyere i opptaksområdet Vestfold som i opptaksområdet Lovisenberg. Det er ingen kjent geografisk variasjon i sykelighet som kan forklare den geografiske variasjonen i kirurgisk behandling. Det er heller ikke sannsynlig at kvinners preferanser når det gjelder valget mellom konservativ behandling kontra kirurgi, eller tilfeldig variasjon kan forklare en så stor geografisk variasjon som den observerte. Variasjonen må derfor betegnes som uberettiget.
-
-
-
-

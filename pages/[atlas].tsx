@@ -17,6 +17,10 @@ interface AtlasPageProps {
     mainTitle: string;
     shortTitle: string;
     pdfUrl: string;
+    ia: boolean;
+    lang: string;
+    report_text: string;
+    map_text: string;
   };
 }
 

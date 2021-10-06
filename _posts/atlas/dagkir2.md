@@ -3,20 +3,19 @@ num: 6
 mainTitle: Dagkirurgi i Norge 2013–2017
 shortTitle: Dagkirurgi, 2013–2017
 pdfUrl: /helseatlas/files/dagkirurgi_2013-2017.pdf
+ia: true
+lang: no
 ---
 
 ## Innhold
 
 # Hovedfunn for ulike pasientutvalg i dagkirurgiatlaset 2013–2017 for Norge
 
-
 Hovedfunnene er oppsummert  under, og inneholder en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 100 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
 
+- **Les mer:**[Opptaksområder og justering](/helseatlas/files/dagkir2_opptaksomr.pdf)
 
-* **Les mer:**[Opptaksområder og justering](/helseatlas/files/dagkir2_opptaksomr.pdf)
-
- 
- ## Skulderkirurgi (acromionreseksjon)
+## Skulderkirurgi (acromionreseksjon)
 
 Overbelastning i muskler og sener mellom skulderleddet og skulderbladframspringet (rotatorcuffen) er vanlig. Dårlige plassforhold kan føre til akutte og kroniske skuldersmerter og muskulær funksjonssvikt («impingement syndrom») . Det er ofte utfordrende å stille presis diagnose, fordi ulike tilstander kan ha samme funn ved klinisk undersøkelse. Effekt av kirurgi er dårlig vitenskapelig dokumentert. Konservativ behandling kan gi et like godt resultat. Noen pasienter med påleiringer og/eller forkalkninger av leddbånd og mekaniske symptomer vil kunne ha nytte av kirurgi.
 
@@ -32,24 +31,17 @@ For de fleste opptaksområdene begynte reduksjonen i omfanget av skulderkirurgi 
 
 **Figur:** Acromionreseksjoner, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler
 
- ![skulder1](/helseatlas/img/no/dagkir2/skulder1.png) 
-
- 
+![skulder1](/helseatlas/img/no/dagkir2/skulder1.png)
 
 **Figur:** Antall acromionreseksjoner pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![skulder2](/helseatlas/img/no/dagkir2/skulder2.png) 
-
- 
+![skulder2](/helseatlas/img/no/dagkir2/skulder2.png)
 
 ### Kommentar
 
 Helse Sør-Øst RHF har jobbet for å redusere det store omfanget av acromionreseksjoner. Det har åpenbart lyktes. På tross av en betydelig redusert aktivitet, er det tydelig at fagmiljøene ikke er omforent om indikasjonene for acromionreseksjon. Variasjonen mellom opptaksområder i bruk av acromionreseksjoner var langt større i perioden 2015–2017 enn i perioden 2011–2013, og helsetjenesten synes ikke å være likeverdig fordelt i befolkningen uavhengig av bosted.
 
-
-
-
- ## Menisk
+## Menisk
 
 Meniskene er fiberbrusk som beskytter leddbrusken og hjelper til med å stabilisere kneet. De kan skades akutt eller som ledd i utviklingen av slitasjegikt (artrose). Meniskskader hos yngre behandles med meniskreparasjon eller delvis fjerning av menisk, avhengig av type skade. Akutte skader har best effekt av behandling. Fjerning av deler av menisken medfører risiko for tidlig artroseutvikling. Hos personer over 50 år skyldes menisklidelser ofte slitasje. Effekt av kirurgisk behandling på disse er dårlig vitenskapelig dokumentert.
 
@@ -65,24 +57,17 @@ Det er faglig enighet om at degenerative meniskskader hos eldre pasienter vanlig
 
 **Figur:** Menisk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![menisk1](/helseatlas/img/no/dagkir2/menisk1.png) 
-
- 
+![menisk1](/helseatlas/img/no/dagkir2/menisk1.png)
 
 **Figur:** Andel av meniskopererte pasienter som var over 50 år i 2013 og 2017.
 
- ![menisk2](/helseatlas/img/no/dagkir2/menisk2.png) 
-
- 
+![menisk2](/helseatlas/img/no/dagkir2/menisk2.png)
 
 ### Kommentar
 
 Fra 2013 til 2017 var det betydelig reduksjon i bruk av meniskkirurgi, spesielt for pasienter eldre enn 50 år. Dette kan tyde på at degenerative meniskskader i langt mindre grad ble operert i 2017 enn i 2013, en utvikling som er i tråd med faglige anbefalinger. Det var imidlertid stor forskjell mellom helseforetakenes opptaksområder i andelen eldre pasienter. Dette er sannsynligvis en viktig årsak til at variasjonen mellom opptaksområdene i bruk av meniskoperasjoner var uberettiget også i perioden 2015–2017.
 
-
-
-
- ## Hallux valgus og hammertå
+## Hallux valgus og hammertå
 
 Hallux valgus er en skjevstilling av stortå som vinkles i retning lilletå. Hammertå er når det innerste leddet er bøyd oppover og det ytterste nedover. Det kan være smertefullt å bruke skotøy. Behandlingen består av å fjerne deler av benet nær leddet. Det settes skruer i stortå og metallpinne i de små tærne for å sikre rett vinkel.
 
@@ -98,24 +83,17 @@ Fra 2015 til 2017 ble antall inngrep pr. 100 000 innbyggere totalt i Norge redus
 
 **Figur:** Hallux valgus og hammertå, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![hallux1](/helseatlas/img/no/dagkir2/hallux1.png) 
-
- 
+![hallux1](/helseatlas/img/no/dagkir2/hallux1.png)
 
 **Figur:** Antall inngrep for hallux valgus og hammertå pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![hallux2](/helseatlas/img/no/dagkir2/hallux2.png) 
-
- 
+![hallux2](/helseatlas/img/no/dagkir2/hallux2.png)
 
 ### Kommentar
 
 Det antas at behovet for kirurgisk behandling for hallux valgus og hammertå er omtrent likt uavhengig av hvor i Norge man bor. I perioden 2015–2017 var det betydelig variasjon mellom helseforetakenes opptaksområder i antall inngrep for hallux valgus og hammertå pr. 100 000 innbyggere. Det var også noe årsvariasjon innad i enkelte opptaksområder. Dette kan tyde på at det er uklare indikasjoner for inngrepene. Den observerte variasjonen anses derfor som uberettiget og kan muligens skyldes at tilbudet til en viss grad styrer forbruket.
 
-
-
-
- ## Utvalgt håndkirurgi
+## Utvalgt håndkirurgi
 
 Utvalgt håndkirurgi inkluderer fire tilstander. Dupuytrens kontraktur er en fortykkelse og strengdannelse i bindevevshinnen i håndflaten som kan medføre at en eller flere fingre blir krokete. Triggerfinger hvor hevelse rundt bøyesenen medfører at fingeren «henger seg opp» ved bevegelse av fingeren eller låser seg i bøyd stilling. Ganglion er en væskefylt cyste eller kul, oftest over håndleddet, som kan gi smerter og reduserte bevegelsesutslag. DeQuervains tenosynovitt er en seneskjedebetennelse i strekksenene til tommelen som kan gi smerter i håndleddsområdet, spesielt ved tommelgrep.
 
@@ -131,24 +109,17 @@ I perioden 2015–2017 var den geografiske variasjonen mellom opptaksområdene m
 
 **Figur:** Utvalgt håndkirurgi, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![hand1](/helseatlas/img/no/dagkir2/hand1.png) 
-
- 
+![hand1](/helseatlas/img/no/dagkir2/hand1.png)
 
 **Figur:** Antall inngrep for utvalgt håndkirurgi pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![hand2](/helseatlas/img/no/dagkir2/hand2.png) 
-
- 
+![hand2](/helseatlas/img/no/dagkir2/hand2.png)
 
 ### Kommentar
 
 I perioden 2015–2017 var det moderat variasjon i antall håndkirurgiske inngrep pr. 100 000 innbyggere i ulike opptaksområder. Det antas at behovet for håndkirurgiske inngrep er omtrent likt ulike steder i landet, og den observerte variasjonen må derfor anses som uberettiget.
 
-
-
-
- ## Karpaltunnelsyndrom
+## Karpaltunnelsyndrom
 
 Karpaltunnelsyndrom skyldes trykk mot hovednerven til hånden (nervus medianus). Tilstanden er som oftest forårsaket av sykdomsprosesser som som gir hevelse rundt senene som løper gjennom karpaltunnelen slik at disse klemmer på nerven. Typiske symptom er smerter, nummenhet og prikking i tommel, peke-, langog tommelsiden av ringfingeren. Tilstanden kan spontanhelbrede og konservativ behandling er som regel førstevalg. Ved alvorlige symptomer og/eller store plager er kirurgi det beste behandlingsalternativet. Ved inngrepet blir båndet som ligger over kanalen spaltet eller overskåret for å avlaste trykket på nerven.
 
@@ -164,24 +135,17 @@ I opptaksområdene Nord-Trøndelag og Stavanger gikk antall inngrep pr. 100 000 
 
 **Figur:** Karpaltunnelsyndrom, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![karpal1](/helseatlas/img/no/dagkir2/karpal1.png) 
-
- 
+![karpal1](/helseatlas/img/no/dagkir2/karpal1.png)
 
 **Figur:** Antall inngrep for karpaltunnelsyndrom pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![karpal2](/helseatlas/img/no/dagkir2/karpal2.png) 
-
- 
+![karpal2](/helseatlas/img/no/dagkir2/karpal2.png)
 
 ### Kommentar
 
 I perioden 2015–2017 hadde variasjonen økt mellom helseforetakenes opptaksområder i antall kirurgiske inngrep for karpaltunnelsyndrom pr. 100 000 innbyggere. Dette kan tyde på at det er uklare indikasjoner for inngrepet og at tilbudet til en viss grad kan styre forbruket. Det antas at det medisinske behovet for kirurgiske inngrep for karpaltunnelsyndrom er omtrent likt uavhengig av hvor man bor. Den observerte variasjonen anses derfor som uberettiget.
 
-
-
-
- ## Fjerning av mandler
+## Fjerning av mandler
 
 Fjerning av mandler er en av de vanligste operasjonene som utføres på barn og voksne. Tonsillektomi (fjerning av hele mandelen) utføres hovedsakelig på grunn av tilbakevendende eller kroniske halsbetennelser. Tonsillotomi (delvis fjerning av mandelen) gjøres vanligvis når halsmandlene er så store at de fører til søvnproblemer eller ernæringsvansker. I forhold til tonsillektomi gir tonsillotomi færre smerter og lavere risiko for blødning i dagene etter operasjon.
 
@@ -197,24 +161,17 @@ I Sverige ble det gjort tonsillotomi i 44 % av inngrepene på tonsiller i period
 
 **Figur:** Fjerning av mandler, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![mandler1\_0](/helseatlas/img/no/dagkir2/mandler1\_0.png) 
-
- 
+![mandler1_0](/helseatlas/img/no/dagkir2/mandler1_0.png)
 
 **Figur:** Fjerning av mandler, pr. 100 000 innbyggere, hel og delvis fjerning, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![mandler2\_0](/helseatlas/img/no/dagkir2/mandler2\_0.png) 
-
- 
+![mandler2_0](/helseatlas/img/no/dagkir2/mandler2_0.png)
 
 ### Kommentar
 
 Variasjonen mellom helseforetakenes opptaksområder i antall inngrep på tonsiller pr. 100 000 innbyggere var klart mindre i perioden 2015–2017 enn i 2013. Variasjon mellom opptaksområdene anses som liten og helsetjenesten synes rimelig likeverdig fordelt i befolkningen uavhengig av bosted.
 
-
-
-
- ## Ventilasjonsrør i trommehinnen
+## Ventilasjonsrør i trommehinnen
 
 Væske i mellomøret medfører redusert bevegelighet av trommehinnen og kan føre til nedsatt hørsel og forsinket språkutvikling hos barn. Ses tilstanden hos voksne må nesesvelget undersøkes nøye for svulst. Som oftest forsvinner væskedannelsen av seg selv i løpet av ca 3 mnd. Men, ved nedsatt hørsel eller språkproblemer av en viss varighet kan tilstanden behandles med innsetting av ventilasjonsrør i trommehinnen (øredren). Effekten av inngrepet er individuell og ikke godt vitenskapelig dokumentert.
 
@@ -230,24 +187,17 @@ Fra 2013 til 2017 var antall inngrep for øredren pr. 100 000 innbyggere omtrent
 
 **Figur:** Øredren, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![oredren1\_0](/helseatlas/img/no/dagkir2/oredren1\_0.png) 
-
- 
+![oredren1_0](/helseatlas/img/no/dagkir2/oredren1_0.png)
 
 **Figur:** Antall inngrep for øredren pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![oredren2\_0](/helseatlas/img/no/dagkir2/oredren2\_0.png) 
-
- 
+![oredren2_0](/helseatlas/img/no/dagkir2/oredren2_0.png)
 
 ### Kommentar
 
 Fra 2013 til 2017 gikk antall inngrep for øredren pr. 100 000 innbyggere ned i de fleste opptaksområdene. I perioden 2015–2017 var det likevel større variasjon mellom opptaksområdene enn i 2011–2013. Dette tyder på at fagmiljøene ikke er enige om hva som er riktig indikasjon for å behandle med øredren. Det medisinske behovet for øredren antas å være omtrent likt uavhengig av hvor i Norge man bor. Den observerte variasjonen anses derfor som uberettiget.
 
-
-
-
- ## Aldersbetinget grå stær
+## Aldersbetinget grå stær
 
 Grå stær (katarakt) er en fordunkling av øyets linse som fører til nedsatt syn. For de fleste skjer dette som en del av aldringsprosessen, men det finnes også medfødte og arvelige årsaker. Ubehandlet fører grå stær til blindhet. Behandlingen består av å erstatte gammel øyelinse med en kunstig linse. Kataraktoperasjon bør vurderes når synsfunksjonen hemmer dagliglivets aktiviteter. Når synet på det beste øyet er svakere enn 50 % av normalsyn har man rett til prioritert helsehjelp.
 
@@ -263,24 +213,17 @@ I de fleste opptaksområdene endret raten seg lite fra 2013 til 2017. For opptak
 
 **Figur:** Katarakt, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![grastar1](/helseatlas/img/no/dagkir2/grastar1.png) 
-
- 
+![grastar1](/helseatlas/img/no/dagkir2/grastar1.png)
 
 **Figur:** Antall inngrep for katarakt pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![grastar2](/helseatlas/img/no/dagkir2/grastar2.png) 
-
- 
+![grastar2](/helseatlas/img/no/dagkir2/grastar2.png)
 
 ### Kommentar
 
 Mellom ulike opptaksområder var det noe økt variasjon i antall kataraktoperasjoner pr. 100 000 innbyggere i perioden 2015–2017 sammenlignet med perioden 2011–2013. Forskjellen var på over 500 operasjoner pr. 100 000 innbyggere. Dette indikerer at helsetjenesten ikke er likeverdig fordelt. Det er ikke kjent geografisk variasjon i forekomst av tilstanden og den observerte variasjonen anses derfor som uberettiget.
 
-
-
-
- ## Tunge øyelokk
+## Tunge øyelokk
 
 Tunge øyelokk skyldes vanligvis hudoverskudd. Elasitisiteten i huden svekkes med alderen og fettdepotene blir mer framtredende. Tunge øyelokk som i vesentlig grad påvirker syn og/eller synsfeltet gir rett til prioritert helsehjelp. Inngrepet gjøres oftest i lokalbedøvelse av øyelege. Overskudd av hud og underliggende fett på øvre øyelokk fjernes oftest ved hjelp av laser eller radiobølgekniv.
 
@@ -294,24 +237,17 @@ På landsbasis økte antall inngrep for tunge øyelokk til nesten 10 000 (juster
 
 **Figur:** Tunge øyelokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![oyelokk1](/helseatlas/img/no/dagkir2/oyelokk1.png) 
-
- 
+![oyelokk1](/helseatlas/img/no/dagkir2/oyelokk1.png)
 
 **Figur:** Antall inngrep for tunge øyelokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![oyelokk2](/helseatlas/img/no/dagkir2/oyelokk2.png) 
-
- 
+![oyelokk2](/helseatlas/img/no/dagkir2/oyelokk2.png)
 
 ### Kommentar
 
 Det var større variasjon mellom helseforetakenes opptaksområder i antall inngrep for tunge øyelokk pr. 100 000 innbyggere i perioden 2015–2017 enn i perioden 2011–2013. Det er ikke kjent geografisk variasjon i forekomst av tunge øyelokk, og det er heller ikke sannsynlig at forskjeller i pasientpreferanser eller tilfeldigheter forklarer hele den observerte variasjonen. Variasjonen anses derfor som uberettiget og kan muligens skyldes at tilbudet til en viss grad styrer forbruket.
 
-
-
-
- ## Lyskebrokk
+## Lyskebrokk
 
 Et lyskebrokk er en utposning i lysken der indre strukturer passerer gjennom en svakhet i bukveggen. Symptomene kan være svie og ubehag, og tyngdefornemmelse er også vanlig. Ved lyskebrokk foreligger operasjonsindikasjon hos små barn og unge voksne, hos voksne kun ved samtidige smerter. Inngrepet blir utført i lokalanestesi ved bruk av åpen kirurgi eller kikkhullsteknikk.
 
@@ -329,24 +265,17 @@ På landsbasis økte andelen operasjoner med bruk av kikkhullsteknikk jevnt fra 
 
 **Figur:** Lyskebrokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![lyskebrokk1](/helseatlas/img/no/dagkir2/lyskebrokk1.png) 
-
- 
+![lyskebrokk1](/helseatlas/img/no/dagkir2/lyskebrokk1.png)
 
 **Figur:** Antall inngrep for lyskebrokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![lyskebrokk2](/helseatlas/img/no/dagkir2/lyskebrokk2.png) 
-
- 
+![lyskebrokk2](/helseatlas/img/no/dagkir2/lyskebrokk2.png)
 
 ### Kommentar
 
 Fra perioden 2011–2013 til perioden 2015–2017 var det ingen betydelig endringer i antall inngrep for lyskebrokk pr. 100 000 innbyggere eller i variasjon mellom helseforetakenes opptaksområder. Begge periodene var det liten variasjon i omfang av inngrep for lyskebrokk mellom opptaksområdene og over år. Dette tyder på at fagmiljøene er enig om medisinsk indikasjon for inngrepet. Helsetjenestetilbudet til befolkningen anses som likeverdig uavhengig av bosted.
 
-
-
-
- ## Åreknuter
+## Åreknuter
 
 Ødelagte klaffer og svekket elastisitet i vener i bena gir opphav til åreknuter som kan medføre trykk og tyngdefølelse, og i alvorligere tilfeller hevelse, smerter og leggsår. Venestørrelse og grad av kosmetisk ubehag, hevelse og leggsår gir grunnlag for kirurgisk behandling. Kirurgisk fjerning eller ombinding har vært den foretrukne behandlingen, men dette blir gradvis erstattet av endovaskulære teknikker med bruk av laser-, radiofrekvens- eller skumbehandling. Disse nye teknikkene ser ut til å gi like gode resultater som tradisjonell kirurgi.
 
@@ -362,24 +291,17 @@ I perioden 2015–2017 ble tradisjonell kirurgi brukt i 38 % av åreknuteoperasj
 
 **Figur:** Åreknuter, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![areknuter1](/helseatlas/img/no/dagkir2/areknuter1.png) 
-
- 
+![areknuter1](/helseatlas/img/no/dagkir2/areknuter1.png)
 
 **Figur:** Behandling av åreknuter pr. 100 000 innbyggere, tradisjonell kirurgi og ny teknikk, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![areknuter2](/helseatlas/img/no/dagkir2/areknuter2.png) 
-
- 
+![areknuter2](/helseatlas/img/no/dagkir2/areknuter2.png)
 
 ### Kommentar
 
 I perioden 2015–2017 var det fortsatt variasjon i antall åreknuteoperasjoner pr. 100 000 innbyggere mellom helseforetakenes opptaksområder, men mindre enn i forrige periode. Type operasjonsteknikk varierte mye. Dette kan indikere at det ikke er tydelig indikasjon for slik kirurgi. Det er ikke kjente geografiske forskjeller i forekomst av åreknuter. Den observerte variasjonen anses derfor som uberettiget.
 
-
-
-
- ## Hemoroider
+## Hemoroider
 
 Hemoroider er utposninger i analkanalen bestående av utvidede vener og omkringliggende bindevev. Forstoppelse, langvarig ståing, graviditet og tungt kroppsarbeid disponerer for tilstanden. I tillegg til stikkpiller og salve kan hemoroider behandles ved å sette strikk over utposningen eller snøre av blodtilførselen. Å underbinde og fjerne karnøstet er også en anvendt teknikk, særlig ved mer kompliserte tilfeller.
 
@@ -393,20 +315,12 @@ Samlet for hele landet økte antall inngrep for hemoroider fra 2013 til 2017. I 
 
 **Figur:**  Hemoroider, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
 
- ![hemoroider1](/helseatlas/img/no/dagkir2/hemoroider1.png) 
-
- 
+![hemoroider1](/helseatlas/img/no/dagkir2/hemoroider1.png)
 
 **Figur:**  Antall inngrep for hemoroider pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
 
- ![hemoroider2](/helseatlas/img/no/dagkir2/hemoroider2.png) 
-
- 
+![hemoroider2](/helseatlas/img/no/dagkir2/hemoroider2.png)
 
 ### Kommentar
 
 Fra 2013 til 2017 økte antall inngrep for hemoroider pr. 100 000 innbyggere i de fleste opptaksområdene. Variasjonen mellom opptaksområdene var også større i perioden 2015–2017 enn den var i perioden 2011–2013. Det er ikke kjent geografisk variasjon i forekomst av hemoroider, og det er heller ikke sannsynlig at forskjeller i pasientpreferanser eller tilfeldigheter forklarer hele den observerte variasjonen. Variasjonen anses derfor som uberettiget.
-
-
-
-

@@ -3,17 +3,17 @@ num: 3
 mainTitle: Norsk nyfødtmedisinsk helseatlas
 shortTitle: Nyfødtmedisin, 2009–2014
 pdfUrl: /helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf
+ia: true
+lang: no
 ---
 
 ## Innhold
 
 # Hovedfunn for ulike pasientutvalg i Norsk nyfødtmedisinsk helseatlas
 
-
 Hovedfunnene er oppsummert under, og der finner du også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske boområdene er kort kommentert.
 
- 
- ## Innleggelser i nyfødtmedisinske avdelinger
+## Innleggelser i nyfødtmedisinske avdelinger
 
 Innleggelser i nyfødtavdelinger skjer oftest gjennom overføring fra føde- eller barselavdeling i eget sykehus. Barn som ved fødsel veier mindre enn 2 kg eller er født før 34 uker vil vanligvis ikke kunne behandles gjennom hele forløpet i en føde- eller barselavdeling. Innleggelser i nyfødtavdeling vil ofte være basert på en risikovurdering av symptomer og et klinisk bilde som kan ha ere ulike årsaker. Innleggelse i nyfødtavdelinger innebærer fysisk adskillelse mellom mor og barn i en sårbar periode for begge, og det er derfor et mål å unngå slike innleggelser hvis de ikke er helt nødvendige.
 
@@ -25,23 +25,17 @@ Mer enn dobbelt så mange nyfødte legges inn på nyfødtavdeling i boområde Ve
 
 Liggedøgnsraten for alle nyfødte er nesten dobbelt så høy i boområde Telemark som i boområde Bergen/Førde (Fig.2). For terminfødte er det tre gangers forskjell i liggedøgnsratene og for sent premature barn er det mer enn to gangers forskjell. Boområde Bergen/Førde har de laveste ratene i begge tilfellene.
 
-**Figur:**  Innlagt i nyfødtavdeling, antall pasienter pr. 1 000 fødte, alle gestasjonsaldre.
+**Figur:** Innlagt i nyfødtavdeling, antall pasienter pr. 1 000 fødte, alle gestasjonsaldre.
 
- ![innleggelser1](/helseatlas/img/no/nyfodt/innleggelser1.png) 
-
- 
+![innleggelser1](/helseatlas/img/no/nyfodt/innleggelser1.png)
 
 **Figur:**  Innlagt i nyfødtavdeling, antall liggedøgn pr. 1 000 fødte, alle gestasjonsaldre.
 
- ![innleggelser2](/helseatlas/img/no/nyfodt/innleggelser2.png) 
+![innleggelser2](/helseatlas/img/no/nyfodt/innleggelser2.png)
 
- 
+**Figur:** Variasjonsprofil, innleggelser, pasienter og liggetid. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
 
-**Figur:**  Variasjonsprofil, innleggelser, pasienter og liggetid. *Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én.*
-
- *![innleggelser3](/helseatlas/img/no/nyfodt/innleggelser3.png)* 
-
- 
+_![innleggelser3](/helseatlas/img/no/nyfodt/innleggelser3.png)_
 
 ### Kommentarer
 
@@ -49,12 +43,7 @@ Det er betydelig variasjon både i innleggelses- og liggedøgnsrater mellom boom
 
 Sannsynligvis er det ulike oppfatninger om forsvarlighet og risiko som spiller inn på vurderingen av om et barn skal flyttes fra en føde-/barselavdeling til nyfødtavdelingen. Også manglende kapasitet på barselavdelingen kan bidra til en høyere innleggelsesrate enn hva som er medisinsk nødvendig. Det er ingen indikasjoner på at de laveste ratene resulterer i flere uønskede hendelser eller økt sykelighet eller dødelighet.
 
- 
-
-
-
-
- ## Infeksjoner og antibiotikabehandling
+## Infeksjoner og antibiotikabehandling
 
 Mistanke om infeksjon er den vanligste årsaken til innleggelse i nyfødtavdeling for barn født til termin. Symptomer på infeksjon hos nyfødte er uspesikke og det er vanskelig å avgjøre om symptomene skyldes en behandlingskrevende infeksjon eller er forbigående. Det er derfor bred enighet blant nyfødtleger om at det er god klinisk praksis å starte antibiotika når symptomer kan være uttrykk for en begynnende infeksjon, men at slik behandling raskt skal avsluttes når symptomene er avklart.
 
@@ -68,23 +57,17 @@ For bruk av antibiotika er variasjonen størst for terminfødte barn (gestasjons
 
 Variasjonen er relativt stor (Fig.3) også for sent premature barn (gestasjonsalder 34 uker til 36 uker og 6 dager), og noe mindre for tidlig premature (gestasjonsalder under 34 uker).
 
-**Figur:**  Antibiotikabehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
+**Figur:** Antibiotikabehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
 
- ![infeksjoner1](/helseatlas/img/no/nyfodt/infeksjoner1.png) 
+![infeksjoner1](/helseatlas/img/no/nyfodt/infeksjoner1.png)
 
- 
+**Figur:** Antibiotikabehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
 
-**Figur:**  Antibiotikabehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
+![infeksjoner2](/helseatlas/img/no/nyfodt/infeksjoner2.png)
 
- ![infeksjoner2](/helseatlas/img/no/nyfodt/infeksjoner2.png) 
+**Figur:** Variasjonsprofil, antibiotikabehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
 
- 
-
-**Figur:**  Variasjonsprofil, antibiotikabehandling, pasienter og behandlingsdøgn. *Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én.*
-
- *![infeksjoner3](/helseatlas/img/no/nyfodt/infeksjoner3.png)* 
-
- 
+_![infeksjoner3](/helseatlas/img/no/nyfodt/infeksjoner3.png)_
 
 ### Kommentarer
 
@@ -92,10 +75,7 @@ Den observerte variasjonen i antibiotikabruk mellom boområdene lar seg ikke for
 
 Bruk av diagnosen sepsis varierer også betydelig mellom boområdene (se rapport). Sepsisdiagnosen settes 5,5 ganger så ofte på terminfødte barn i boområdet Nordland som i boområdet Bergen/Førde. Selv i boområdet med den laveste raten brukes sepsisdiagnosen vesentlig oftere enn hva som er dokumentert om forekomst av sepsis i Norge. Overdiagnostikk av sepsis synes å være knyttet til høye rater for oppstart og varighet av antibiotikabruk.
 
-
-
-
- ## Respiratorbehandling
+## Respiratorbehandling
 
 Respiratorbehandling er nødvendig når barn har mangelfullt utviklet lungefunksjon eller nevrologiske sykdommer eller symptomer som gjør at barnet ikke er i stand til å puste selv. Hos de fleste premature barn født etter svangerskapsuke 28 vil det være mulig å understøtte pustearbeidet enten med ekstra oksygentilførsel eller ved hjelp av såkalt CPAP, hvor man blåser en konstant luftstrøm inn i barnets nese tilstrekkelig til å unngå at lungene faller sammen. Barnet puster da selv uten aktiv hjelp av respirator.
 
@@ -109,23 +89,17 @@ Blant moderat premature barn (gestasjonsalder 28 til 37 uker) er det betydelig v
 
 Antall døgn med respiratorbehandling varierer enda mer mellom boområdene. For moderat premature barn gis barn i boområde Sørlandet over fem ganger så mange behandlingsdøgn som barn i boområdet Vestre Viken (Fig.2). For terminfødte barn gis det 3,4 ganger så mange behandlingsdøgn med respirator i boområde Telemark som i boområde Vestfold.
 
-**Figur:**  Respiratorbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
+**Figur:** Respiratorbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
 
- ![respirator1](/helseatlas/img/no/nyfodt/respirator1.png) 
+![respirator1](/helseatlas/img/no/nyfodt/respirator1.png)
 
- 
+**Figur:** Respiratorbehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
 
-**Figur:**  Respiratorbehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
+![respirator2](/helseatlas/img/no/nyfodt/respirator2.png)
 
- ![respirator2](/helseatlas/img/no/nyfodt/respirator2.png) 
+**Figur:** Variasjonsprofil, respiratorbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
 
- 
-
-**Figur:**  Variasjonsprofil, respiratorbehandling, pasienter og behandlingsdøgn. *Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én.*
-
- *![respirator3](/helseatlas/img/no/nyfodt/respirator3.png)* 
-
- 
+_![respirator3](/helseatlas/img/no/nyfodt/respirator3.png)_
 
 ### Kommentarer
 
@@ -133,10 +107,7 @@ Det er betydelig variasjon i antall barn som respiratorbehandles og i antall beh
 
 En systematisk gjennomgang av praksisforskjeller mellom avdelinger kan bidra til å avklare betydningen av variasjon i bruk av forebyggende behandlingsstrategier for den observerte variasjonen i respiratorbruk.
 
-
-
-
- ## Hypoglykemi og fototerapi
+## Hypoglykemi og fototerapi
 
 Hypoglykemi - lavt blodsukker hos nyfødte oppstår som følge av prematuritet, lav fødselsvekt, lav kroppstemperatur og forsinket produksjon av morsmelk hos mor. Lavt blodsukker i kortere perioder gir vanligvis ikke skader, men kan dersom blodsukkeret er lavt over lengre tid ramme hjernens energiforsyning og gi hjerneskade. Fototerapi - lysbehandling på grunn av gulsott er nødvendig når bilirubinverdien i barnets blod overstiger en viss verdi fastsatt i nasjonale retningslinjer. Tilstanden er i utgangspunktet forbigående og ufarlig, men kan i sjeldne tilfeller med svært høye verdier forårsake hjerneskade med en alvorlig form for cerebral parese.
 
@@ -150,23 +121,17 @@ Mer enn fem ganger så mange sent premature (gestasjonsalder 34-37 uker, Fig.1) 
 
 For lysbehandling er det tilsvarende variasjon. Mer enn fire ganger så mange sent premature (gestasjonsalder 34-37 uker, Fig.2) og mer enn 11 ganger så mange terminfødte legges inn for lysbehandling i boområde i Telemark som i boområde Bergen/Førde.
 
-**Figur:**  Hypoglykemi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
+**Figur:** Hypoglykemi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
 
- ![lysbehandling1](/helseatlas/img/no/nyfodt/lysbehandling1.png) 
+![lysbehandling1](/helseatlas/img/no/nyfodt/lysbehandling1.png)
 
- 
+**Figur:** Fototerapi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
 
-**Figur:**  Fototerapi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
+![lysbehandling2](/helseatlas/img/no/nyfodt/lysbehandling2.png)
 
- ![lysbehandling2](/helseatlas/img/no/nyfodt/lysbehandling2.png) 
+**Figur:** Variasjonsprofil, hypoglykemi og fototerapi, pasienter. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
 
- 
-
-**Figur:**  Variasjonsprofil, hypoglykemi og fototerapi, pasienter. *Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én.*
-
- *![lysbehandling3](/helseatlas/img/no/nyfodt/lysbehandling3.png)* 
-
- 
+_![lysbehandling3](/helseatlas/img/no/nyfodt/lysbehandling3.png)_
 
 ### Kommentarer
 
@@ -174,10 +139,7 @@ Det er ingen medisinske forhold som forklarer forskjellen i den observerte varia
 
 Overflytting til nyfødtavdeling fører til mor-barn separasjon og det er ingen faglige holdepunkter for å anta at variasjonen i innleggelsespraksis har betydning for kvaliteten på behandlingen. Tiltak ved lavt blodsukker eller lysbehandling ved høye bilirubinnivåer kan i de fleste tilfeller gis til barn mens de ligger på barselavdeling, og variasjonen er i stor grad et utslag av ulikheter i lokal praksis i forhold til hvor slik behandling gis. Det kan derfor være grunn til å spørre om det foreligger et overforbruk av innleggelser for barn i boområder med høye innleggelsesrater.
 
-
-
-
- ## Intensivbehandling
+## Intensivbehandling
 
 Hver dag krysses det av for prosedyrer og behandlingstiltak som gjennomføres på barn innlagt i norske nyfødtavdelinger. Disse prosedyrene/behandlingene er klassifisert i fem kategorier fra nivå 1, som krever relativt liten ressursbruk, til nivå 5 som representerer en betydelig ressursbruk til alvorlig syke barn som trenger tung intensivbehandling. Hver behandlingsdag klassifiseres ressursmessig etter den prosedyren eller behandlingen som utløser den høyeste ressursklassifikasjonen.
 
@@ -191,30 +153,20 @@ For barn født prematurt (gestasjonsalder under 37 uker) er det 60 % forskjell p
 
 Både for terminfødte og prematurt fødte barn er variasjonen noe større for behandlingsdøgnratene med intensivbehandling enn for innleggelsesratene for slik behandling (Fig.3).
 
-**Figur:**  Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
+**Figur:** Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
 
- ![intensiv1](/helseatlas/img/no/nyfodt/intensiv1.png) 
+![intensiv1](/helseatlas/img/no/nyfodt/intensiv1.png)
 
- 
+**Figur:** Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder under 37 uker.
 
-**Figur:**  Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder under 37 uker.
+![intensiv2](/helseatlas/img/no/nyfodt/intensiv2.png)
 
- ![intensiv2](/helseatlas/img/no/nyfodt/intensiv2.png) 
+**Figur:** Variasjonsprofil, intensivbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
 
- 
-
-**Figur:**  Variasjonsprofil, intensivbehandling, pasienter og behandlingsdøgn. *Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én.*
-
- *![intensiv3](/helseatlas/img/no/nyfodt/intensiv3.png)* 
-
- 
+_![intensiv3](/helseatlas/img/no/nyfodt/intensiv3.png)_
 
 ### Kommentarer
 
 Det er dokumentert at det ikke er noen klar sammenheng mellom bruken av mer intensivbehandling og bedre behandlingsresultater. Tidligere utgitte rapporter fra NNK gir ikke holdepunkter for at det er forskjell på overlevelse eller behandlingsutfall som kan forklare forskjellene i bruk av intensivbehandling mellom boområdene.
 
 Siden det ikke er noen åpenbar medisinsk forklaring til at den intensive behandlingen varierer så vidt mye som den gjør, karakteriseres variasjonen som uberettiget.
-
-
-
-
