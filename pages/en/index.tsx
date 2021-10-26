@@ -4,6 +4,7 @@ import Layout from "../../src/components/Layout";
 import { AtlasLinkEn } from "../../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../../src/helpers/functions/markdownHelpers";
+import Link from "next/link";
 
 interface HomeProps {
   atlasInfo: {
@@ -39,6 +40,9 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
               use of health services using interactive maps, reports and fact
               sheets.
             </p>
+            <Link href="/helseatlas/en/about">
+              <a>About Helseatlas</a>
+            </Link>
           </div>
         </div>
       </div>
