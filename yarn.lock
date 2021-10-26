@@ -255,10 +255,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react@17.0.21":
-  version "17.0.21"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.21.tgz#069c43177cd419afaab5ce26bb4e9056549f7ea6"
-  integrity sha512-GzzXCpOthOjXvrAUFQwU/svyxu658cwu00Q9ugujS4qc1zXgLFaO0kS2SLOaMWLt2Jik781yuHCWB7UcYdGAeQ==
+"@types/react@17.0.32":
+  version "17.0.32"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.32.tgz#89a161286bbe2325d4d516420a27364a324909f4"
+  integrity sha512-hAm1pmwA3oZWbkB985RFwNvBRMG0F3KWSiC4/hNmanigKZMiKQoH5Q6etNw8HIDztTGfvXyOjPvdNnvBUCuaPg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -1584,6 +1584,11 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+hast-util-whitespace@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-whitespace/-/hast-util-whitespace-2.0.0.tgz#4fc1086467cc1ef5ba20673cb6b03cec3a970f1c"
+  integrity sha512-Pkw+xBHuV6xFeJprJe2BBEoDV+AvQySaz3pPDRUs5PNZEMQjpXJJueqrpcHIXxnWTcAGi/UOCgVShlkY6kLoqg==
 
 he@1.2.0:
   version "1.2.0"
@@ -2929,14 +2934,15 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-markdown@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-7.0.1.tgz#c7365fcd7d1813b3ae68f2200e8f92d47d865627"
-  integrity sha512-pthNPaoiwg0q7hukoE04F2ENwSzijIlWHJ4UMs/96LUe/G/P3FnbP4qHzx3FoNqae+2SqDG8vzniTLnJDeWneg==
+react-markdown@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/react-markdown/-/react-markdown-7.1.0.tgz#0ba62a4459daab6600ede83495a9228dae9d8f8e"
+  integrity sha512-hL8cLLkTydyoKlZWZOjlU6TvMYIw9qKLh1CCzVfnhKt/R/SnKVAqiyugetXY61CkjhBqJl2C5FdU3OwHYo7SrQ==
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/unist" "^2.0.0"
     comma-separated-tokens "^2.0.0"
+    hast-util-whitespace "^2.0.0"
     prop-types "^15.0.0"
     property-information "^6.0.0"
     react-is "^17.0.0"
@@ -3044,10 +3050,10 @@ remark-rehype@^9.0.0:
     mdast-util-to-hast "^11.0.0"
     unified "^10.0.0"
 
-remark-slug@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-7.0.0.tgz#b9db70defa5f4eead38741d1c36ae153595ce12d"
-  integrity sha512-ZUb1t/o2TxhdHidOsN6DVq8zVO/RiX2zBz/zXnW9cY6U7lLxcAMCxVf5DIoPToIZCGpJIE/g/vUbghlPKaDXMg==
+remark-slug@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/remark-slug/-/remark-slug-7.0.1.tgz#9827ce6d6ee81ca82b79891b0e5931a8123ce63b"
+  integrity sha512-NRvYePr69LdeCkEGwL4KYAmq7kdWG5rEavCXMzUR4qndLoXHJAOLSUmPY6Qm4NJfKix7/EmgObyVaYivONAFhg==
   dependencies:
     "@types/hast" "^2.3.2"
     "@types/mdast" "^3.0.0"
@@ -3576,10 +3582,10 @@ type-fest@^0.7.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.7.1.tgz#8dda65feaf03ed78f0a3f9678f1869147f7c5c48"
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
 
-typescript@4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
-  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
+typescript@4.4.4:
+  version "4.4.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
+  integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
