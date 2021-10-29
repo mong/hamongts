@@ -7,6 +7,6 @@ ia: true
 lang: en
 ---
 
-# Fact sheets for different patient samples in the Obstetrics Healthcare Atlas
+## Fact sheets for different patient samples in the Obstetrics Healthcare Atlas
 
 To be announced.

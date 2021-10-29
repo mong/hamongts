@@ -9,8 +9,6 @@ lang: no
 
 ## Innhold
 
-# Hovedfunn for ulike pasientutvalg i helseatlas gynekologi
-
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
 
 - **Les mer:**[Opptaksområder og justering](/helseatlas/files/gyn_opptaksomr.pdf)

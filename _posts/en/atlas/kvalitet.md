@@ -9,8 +9,6 @@ lang: en
 
 ## Content
 
-# Main findings for different patient samples
-
 ## Summary results
 
 The Healthcare Quality Atlas is based on data for close to 100,000 patients and treatment regimes each year, some of whom may have received the same procedures multiple times, or present a combination of diseases and disorders. The purpose is to explore whether the population receives equitable treatment in selected essential healthcare services, regardless of where the patient lives and across professional disciplines. The Atlas examines the duty of care to provide essential health services to patients with a variety of serious conditions.

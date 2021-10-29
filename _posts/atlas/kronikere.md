@@ -9,8 +9,6 @@ lang: no
 
 ## Innhold
 
-## Leddgikt (revmatoid artritt)
-
 Leddgikt er en betennelsestilstand der immunforsvaret angriper kroppens celler i leddene.
 Mennesker som er rammet av leddgikt kan oppleve smerter og funksjonsbegrensninger som kan gi redusert livskvalitet og i alvorlige tilfeller også redusert livslengde.
 De siste årene har nye behandlingsmetoder gitt vesentlig bedre leveutsikter for mennesker med leddgikt.

@@ -7,7 +7,7 @@ ia: true
 lang: en
 ---
 
-# Fact sheets for different patient samples in the Norwegian Neonatal Healthcare Atlas
+## Fact sheets for different patient samples in the Norwegian Neonatal Healthcare Atlas
 
 The fact sheets provide a brief description of the patient samples, as well as information about the population’s use of services in geographical areas (hospital referral areas). The use is measured as the number of contacts per 100.000 population. The factsheets also include brief comments on the variation in use between geographical areas.
 

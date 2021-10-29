@@ -7,7 +7,7 @@ ia: false
 lang: en
 ---
 
-**Fact sheets:**
+## Fact sheets:
 
 The fact sheets contain short summaries of the results from the Healthcare atlas for mental healthcare and substance abuse treatment.
 The healthcare atlas gives an overview of the use of mental healthcare and interdisciplinary specialised addiction services in Norway for the years 2014-2018. The use of healtcare is broken down by hospital referral area, and are shown as rates per 1,000 population, adjusted for age and gender. Variation between different parts of Norway in health care use is commented briefly.
@@ -28,5 +28,3 @@ The healthcare atlas gives an overview of the use of mental healthcare and inter
 - [Elderly patients with severe mental disorders – inpatient treatment](/helseatlas/files/mhc_factsheet_elderly_smd_inpatient.pdf)
 - [Elderly patients with substance use disorders – outpatient treatment](/helseatlas/files/mhc_factsheet_elderly_sud_outpatient.pdf)
 - [Elderly patients with substance use disorders – inpatient treatment](/helseatlas/files/mhc_factsheet_elderly_sud_inpatient.pdf)
--
--

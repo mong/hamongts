@@ -7,7 +7,7 @@ ia: false
 lang: en
 ---
 
-# Fact sheets:
+## Fact sheets:
 
 The fact sheets contain a short summary of the results from the orthopaedic healthcare atlas. Each condition is described and the population’s use of health care is displayed through figures and text. Use of health care is summarized as the number of operations or admissions per 100 000 inhabitants per referral area. Variation in health care use is commented briefly. Explanations of sample definitions are given at request.
 
@@ -26,7 +26,7 @@ The fact sheets contain a short summary of the results from the orthopaedic heal
 - [Anterior cruciate ligament injury - surgery](/helseatlas/files/orthopaedics_factsheet_acl.pdf)
 - [Concussion - admissions](/helseatlas/files/orthopaedics_factsheet_concussion.pdf)
 
-# Hospital referral area:
+## Hospital referral area:
 
 A hospital referral area determines the municipalities, or city areas the Regional health authority is responsible of serving. Referral area division may vary across professions.
 

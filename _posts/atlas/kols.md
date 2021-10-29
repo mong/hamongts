@@ -9,8 +9,6 @@ lang: no
 
 ## Innhold
 
-# Hovedfunn for ulike pasientutvalg i Helseatlas kols
-
 Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert
 
 ## Fastlege og legevakt

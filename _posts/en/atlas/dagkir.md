@@ -7,7 +7,7 @@ ia: true
 lang: en
 ---
 
-# Fact sheets for the different surgical procedures in the healthcare atlas Day Surgery in Norway 2011–2013
+## Fact sheets for the different surgical procedures in the healthcare atlas Day Surgery in Norway 2011–2013
 
 The fact sheets provide a brief description of the conditions and procedures, as well as information about the population’s use of the procedures in geographical areas. By use is meant the proportion of the population who undergo the procedure in question. The population’s use is measured as the number of procedures per 100.000 population. The fact sheets also include brief comments on differences in use between geographical areas.
 
