@@ -220,10 +220,10 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/mhc_report.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Downlaod the report" width="58" x="412" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/mhc_report.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Report" tooltip="Downlaod the report" width="58" x="412" y="6" />
 <Button editable="true" height="15" href="https://helseatlas.no/en/about" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="About helseatlas" tooltip="Read more about the healthcare atlas" width="65" x="662" y="6" />
-<Button editable="true" height="15" href="https://helseatlas.no/atlas/274/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Fact sheets" width="58" x="546" y="6" />
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/mhc_data.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Download data" tooltip="Download datafile" width="50" x="608" y="6" />
+<Button editable="true" height="15" href="/helseatlas/en/psyk" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fact sheets" tooltip="Fact sheets" width="58" x="546" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/mhc_data.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Download data" tooltip="Download datafile" width="50" x="608" y="6" />
 <Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="433" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="6" y="30">
 	<Description>The data explorer component of the report.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="Map / patient selection. &lt;small&gt;Click on the pdf symbol to see the fact sheet &lt;/small&gt;" />
