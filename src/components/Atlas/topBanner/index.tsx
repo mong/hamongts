@@ -1,9 +1,7 @@
 import style from "./topbanner.module.css";
 
 interface TopBannerProps {
-  num: string;
   mainTitle: string;
-  shortTitle: string;
   pdfUrl: string;
   ia: boolean;
   lang: string;
