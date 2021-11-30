@@ -24,17 +24,7 @@ interface AbacusPageProps {
   atlasData: AtlasData[];
 }
 
-const abacusData = [
-  { bob: 10 },
-  { bob: 30 },
-  { bob: 20 },
-  { bob: 13 },
-  { bob: 32 },
-  { bob: 13 },
-  { bob: 60 },
-  { bob: 34 },
-  { bob: 52 },
-];
+
 const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
   atlasData.forEach(
     (data) => (data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
