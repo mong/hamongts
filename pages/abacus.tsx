@@ -8,8 +8,6 @@ import Layout from "../src/components/Layout";
 import styles from "../src/styles/Home.module.css";
 import { Abacus } from "../src/charts/abacus";
 
-
-
 export interface AtlasData {
   innbyggere: number;
   bohf: string;
@@ -23,7 +21,7 @@ export interface AtlasData {
 }
 
 interface AbacusPageProps {
-  atlasData: AtlasData[],
+  atlasData: AtlasData[];
 }
 
 const abacusData = [
@@ -38,16 +36,18 @@ const abacusData = [
   { bob: 52 },
 ];
 const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
-  atlasData.forEach(data => data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
+  atlasData.forEach(
+    (data) => (data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
+  );
 
-  console.log(atlasData)
+  console.log(atlasData);
   return (
     <>
       <Layout>
         <main>
           <div className={`${styles.atlasContent}`}>
             <Abacus
-              data={atlasData.filter(data => data.year === "snitt")}
+              data={atlasData.filter((data) => data.year === "snitt")}
               x="rate1"
               colorBy="bohf"
               width={400}
@@ -62,7 +62,6 @@ const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
     </>
   );
 };
-
 
 export const getStaticProps: GetStaticProps = async (context) => {
   const atlasDataDir = path.join(

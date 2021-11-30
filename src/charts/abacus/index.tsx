@@ -1,7 +1,7 @@
 import { AxisBottom } from "@visx/axis";
 import { scaleLinear, scaleOrdinal } from "@visx/scale";
 import { Group } from "@visx/group";
-import { schemeSet3 } from "d3-scale-chromatic";
+import { schemeSet1 } from "d3-scale-chromatic";
 
 type AbacusData<Data, X extends string, ColorBy extends string | undefined> = {
   [k in X & keyof Data]: number | Date;
@@ -52,7 +52,7 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
   axisLineStrokeWidth = 2,
   axisTickStroke = "blue",
   circleFillDefalt = "blue",
-  circleRadiusDefalt = 8,
+  circleRadiusDefalt = 10,
   tickLength = 16,
 }: AbacusProps<Data, X, ColorBy>) => {
   // color legend missing
@@ -63,14 +63,14 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
 
   const colorScale = scaleOrdinal({
     domain: data.map((d) => d[colorBy]),
-    range: [...schemeSet3],
+    range: [...schemeSet1],
   });
 
   const xScale = scaleLinear<number>({
     domain: [xMin, xMax],
     range: [0, innerWidth],
   });
-
+  console.log(data);
   return (
     <svg style={{ backgroundColor }} width={width} height={height}>
       <Group left={margin.left} top={margin.top}>
@@ -92,7 +92,7 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
             key={`${d[x]}${i}`}
             r={circleRadiusDefalt}
             cx={xScale(d[x])}
-            opacity={0.6}
+            opacity={0.8}
             fill={colorBy ? colorScale(d[colorBy]) : circleFillDefalt}
           />
         ))}
