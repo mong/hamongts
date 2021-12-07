@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: mong/hamongts
-  branch: main
+  branch: netlifyCMS
   base_url: https://prod-mong-api.skde.org
 
 media_folder: public/img
