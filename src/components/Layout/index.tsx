@@ -13,7 +13,7 @@ interface Props {
 
 export default function Layout({
   children,
-  title = "SKDE - Helse Nord RHF",
+  title = "Helseatlas",
   page,
 }: Props) {
   const [origin, setOrigin] = useState("");
