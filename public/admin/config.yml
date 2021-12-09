@@ -9,7 +9,7 @@ public_folder: img
 collections:
   - label: "Aktuelt"
     name: "aktuelt"
-    folder: "_posts/testatals"
+    folder: "_posts/testatlas"
     create: true
     fields:
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
@@ -17,3 +17,15 @@ collections:
       - { label: "Ingress", name: "ingress", widget: "text" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Artikkelbilde", name: "thumbnail", widget: "image" }
+  - label: "Atlas"
+    name: "atlas"
+    folder: "_posts/atlas"
+    create: true
+    fields:
+      - { label: "Publiseringsdato", name: "num", widget: "number" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Rapport", name: "pdfUrl", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Språk", name: "lang", widget: "string" }
