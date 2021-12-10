@@ -4,6 +4,7 @@ backend:
   branch: netlifyCMS
   base_url: https://qa-mong-api.skde.org
 
+publish_mode: editorial_workflow 
 media_folder: public/img
 public_folder: img
 collections:
