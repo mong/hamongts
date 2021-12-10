@@ -9,16 +9,6 @@ logo_url: https://www.skde.no/img/logos/SKDE_sort.png
 media_folder: public/img
 public_folder: img
 collections:
-  - label: "Aktuelt"
-    name: "aktuelt"
-    folder: "_posts/testatlas"
-    create: true
-    fields:
-      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
-      - { label: "Tittel", name: "title", widget: "string" }
-      - { label: "Ingress", name: "ingress", widget: "text" }
-      - { label: "Hovedtekst", name: "body", widget: "markdown" }
-      - { label: "Artikkelbilde", name: "thumbnail", widget: "image" }
   - label: "Atlas"
     name: "atlas"
     folder: "_posts/atlas"
