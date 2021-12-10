@@ -19,6 +19,17 @@ collections:
       - { label: "Ingress", name: "ingress", widget: "text" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Artikkelbilde", name: "thumbnail", widget: "image" }
+  - label: "Atlas"
+    name: "atlas"
+    folder: "_posts/atlas"
+    create: true
+    fields:
+      - { label: "Publiseringsdato", name: "num", widget: "number" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Rapport", name: "pdfUrl", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Språk", name: "lang", widget: "string" }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
