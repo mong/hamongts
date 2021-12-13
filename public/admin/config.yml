@@ -27,7 +27,7 @@ collections:
     folder: "_posts/tidligere_atlas"
     create: true
     fields:
-      - { label: "Publiseringsdato", name: "num", widget: "number" }
+      - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
@@ -39,7 +39,7 @@ collections:
     folder: "_posts/en/tidligere_atlas"
     create: true
     fields:
-      - { label: "Publiseringsdato", name: "num", widget: "number" }
+      - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
