@@ -1,4 +1,5 @@
 ---
+filename: kronikere
 num: 12
 mainTitle: Helseatlas for kronisk syke
 shortTitle: Kronikere, 2015-2017
