@@ -6,6 +6,7 @@ pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
 lang: no
 ---
+
 ## Innhold
 
 ## Samlede resultater
@@ -24,7 +25,9 @@ På regionalt nivå var det ulik måloppnåelse, og dermed også geografisk vari
 
 Nasjonalt var måloppnåelsen høy for ni kvalitetsindikatorer, moderat for 10 kvalitetsindikatorer og lav for fem kvalitetsindikatorer i perioden 2017–2019.
 
-![heatmap_hf_rhf](/helseatlas/img/no/kvalitet/heatmap_hf_rhf.png "Samlet oversikt over kvalitet, utvalgte nødvendige helsetjenester, opptaksområder, høy (grønn), moderat (gul) og lav måloppnåelse (rød). Gjennomsnitt 2017-2019. ++ markerer indikatorer som har to målnivå, høy (grønn) og lav måloppnåelse (rød).")
+![heatmap_hf_rhf](/helseatlas/img/no/kvalitet/heatmap_hf_rhf.png)
+
+_Samlet oversikt over kvalitet, utvalgte nødvendige helsetjenester, opptaksområder, høy (grønn), moderat (gul) og lav måloppnåelse (rød). Gjennomsnitt 2017-2019. ++ markerer indikatorer som har to målnivå, høy (grønn) og lav måloppnåelse (rød)._
 
 ### Kommentar
 
@@ -52,11 +55,11 @@ For utredning med kransårerøntgen skal minst 80 % av pasientene utredes innen 
 
 ![kvalitet_hjerteinfarkt_1](/helseatlas/img/no/kvalitet/kvalitet_hjerteinfarkt_1.png)
 
-*Andel pasienter som fikk reperfusjonsbehandling innen anbefalt tid ved STEMI. Alder 18- 84 år, gj.snitt 2017-2019. *Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år.*
+_Andel pasienter som fikk reperfusjonsbehandling innen anbefalt tid ved STEMI. Alder 18- 84 år, gj.snitt 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år._
 
 \*![kvalitet_hjerteinfarkt_2](/helseatlas/img/no/kvalitet/kvalitet_hjerteinfarkt_2.png)
 
-*Andel pasienter med NSTEMI som ble invasivt utredet innen 72 timer etter innleggelse*
+_Andel pasienter med NSTEMI som ble invasivt utredet innen 72 timer etter innleggelse_
 
 ### Kommentar
 
@@ -80,11 +83,11 @@ Det var geografisk variasjon i måloppnåelse for indikatoren andel pasienter me
 
 \*![kvalitet_karkirurgi_1](/helseatlas/img/no/kvalitet/kvalitet_karkirurgi_1.png)
 
-*Antall pasienter operert for karsykdom i ben per 100 000 innbyggere, ujustert, opptaksområder. Søylene viser gjennomsnittlige rater, årlig rate vises med symbol. Tall til høyre for figuren viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019.*
+_Antall pasienter operert for karsykdom i ben per 100 000 innbyggere, ujustert, opptaksområder. Søylene viser gjennomsnittlige rater, årlig rate vises med symbol. Tall til høyre for figuren viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019._
 
 \*![kvalitet_karkirurgi_2](/helseatlas/img/no/kvalitet/kvalitet_karkirurgi_2.png)
 
-*Andel pasienter med symptomatisk carotisstenose operert innen 14 dager, opptaksområder. Gj.snittlige andeler, antall opererte innen 14 dg (N) og antall opererte (aktuelle). *Opptaksområdet har færre enn 10 opr i gj.snitt/år. ¤ mangler data for minst ett år.*
+_Andel pasienter med symptomatisk carotisstenose operert innen 14 dager, opptaksområder. Gj.snittlige andeler, antall opererte innen 14 dg (N) og antall opererte (aktuelle). \*Opptaksområdet har færre enn 10 opr i gj.snitt/år. ¤ mangler data for minst ett år._
 
 ### Kommentar
 
@@ -112,11 +115,11 @@ Mer enn halvparten av pasientene i Norge ble innlagt senere enn fire timer etter
 
 \*![kvalitet_hjerneslag_1](/helseatlas/img/no/kvalitet/kvalitet_hjerneslag_1.png)
 
-*Andel pasienter med hjerneinfarkt behandlet med trombolyse. Søylene viser gj.snitt andeler, årlige andeler med symbol. Tallene til høyre viser antall pasienter som fikk tombolyse (N) og ant. pas. med hjerneinfarkt (aktuelle). Gj.snitt per år i perioden 2017–2019.*
+_Andel pasienter med hjerneinfarkt behandlet med trombolyse. Søylene viser gj.snitt andeler, årlige andeler med symbol. Tallene til høyre viser antall pasienter som fikk tombolyse (N) og ant. pas. med hjerneinfarkt (aktuelle). Gj.snitt per år i perioden 2017–2019._
 
 \*![kvalitet_hjerneslag_2](/helseatlas/img/no/kvalitet/kvalitet_hjerneslag_2.png)
 
-*Andel pasienter innlagt innen fire timer etter hjerneslag, søylene viser gjennomsnittlige rater, årlig rate vises med symbol, Tall til høyre viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019.*
+_Andel pasienter innlagt innen fire timer etter hjerneslag, søylene viser gjennomsnittlige rater, årlig rate vises med symbol, Tall til høyre viser antall pasienter og antall innbyggere. Gj.snitt per år, 2017-2019._
 
 ### Kommentar
 
@@ -144,11 +147,11 @@ Om lag 20 % av pasientene i Norge fikk utført intrakoronar trykkmåling under k
 
 \*![kvalitet_invasiv_kardio_1](/helseatlas/img/no/kvalitet/kvalitet_invasiv_kardio_1.png)
 
-*Andel PCI hos pasienter som gjennomgikk invasive koronare prosedyrer, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel PCI hos pasienter som gjennomgikk invasive koronare prosedyrer, fordelt på opptaksområder, for perioden 2017-2019._
 
 \*![kvalitet_invasiv_kardio_2](/helseatlas/img/no/kvalitet/kvalitet_invasiv_kardio_2.png)
 
-*Andel prosedyrer med trykkmåling for å vurdere innsnevring i kransårene hos personer med stabil kransåresykdom, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel prosedyrer med trykkmåling for å vurdere innsnevring i kransårene hos personer med stabil kransåresykdom, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -174,11 +177,11 @@ Fagrådet for tykk- og endetarmsregisteret justerte høy måloppnåelse for ande
 
 \*![kvalitet_tarmkreft_1](/helseatlas/img/no/kvalitet/kvalitet_tarmkreft_1.png)
 
-*Andel pasienter med tykk- og endetarmskreft operert med kikkhullsteknikk. Alder 20-99 år (tykktarmskreft) og 25-96 år (endetarmskreft), gj.snitt 2017-2019, målnivå for 2019.*
+_Andel pasienter med tykk- og endetarmskreft operert med kikkhullsteknikk. Alder 20-99 år (tykktarmskreft) og 25-96 år (endetarmskreft), gj.snitt 2017-2019, målnivå for 2019._
 
 \*![kvalitet_tarmkreft_2](/helseatlas/img/no/kvalitet/kvalitet_tarmkreft_2.png)
 
-*Andel pasienter med endetarmskreft uten lokalt tilbakefall fem år etter operasjonen, statistisk beregnet, alder 25-96 år, gj.snitt 2017-2019.*
+_Andel pasienter med endetarmskreft uten lokalt tilbakefall fem år etter operasjonen, statistisk beregnet, alder 25-96 år, gj.snitt 2017-2019._
 
 ### Kommentar
 
@@ -204,11 +207,11 @@ De fleste av opptaksområdene hadde høy andel med ett kirurgisk inngrep og resu
 
 \*![kvalitet_brystkreft_1](/helseatlas/img/no/kvalitet/kvalitet_brystkreft_1.png)
 
-*Figur 1: Andel kvinner, 19-99 år, som kun har fått utført ett inngrep på primærtumor, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel kvinner, 19-99 år, som kun har fått utført ett inngrep på primærtumor, fordelt på opptaksområder, for perioden 2017-2019._
 
 \*![kvalitet_brystkreft_2](/helseatlas/img/no/kvalitet/kvalitet_brystkreft_2.png)
 
-*Andel brystbevarende operasjoner utført på kvinner, 19-99 år, tumorstørrelse under 30 mm, fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel brystbevarende operasjoner utført på kvinner, 19-99 år, tumorstørrelse under 30 mm, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -234,11 +237,11 @@ Det var variasjon i median overlevelse i perioden 2017–2019. Ni av 21 opptakso
 
 \*![kvalitet_lungekreft_1](/helseatlas/img/no/kvalitet/kvalitet_lungekreft_1.png)
 
-*Andel pasienter med lungekreft som ble kurativt behandlet (kirurgi eller strålebehandling), fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel pasienter med lungekreft som ble kurativt behandlet (kirurgi eller strålebehandling), fordelt på opptaksområder, for perioden 2017-2019._
 
 \*![kvalitet_lungekreft_2](/helseatlas/img/no/kvalitet/kvalitet_lungekreft_2.png)
 
-*Median overlevelse i måneder for lungekreftpasienter, fordelt på opptaksområder, for perioden 2017-2019.*
+_Median overlevelse i måneder for lungekreftpasienter, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -264,11 +267,11 @@ For andel med fri rand etter kirurgi på mindre svulster (T2), hadde elleve av 2
 
 \*![kvalitet_prostatakreft_1](/helseatlas/img/no/kvalitet/kvalitet_prostatakreft_1.png)
 
-*Andel høyrisikopasienter, 38-79 år, radikalt behandlet, fordelt på opptaksområder, 2017-2019.*
+_Andel høyrisikopasienter, 38-79 år, radikalt behandlet, fordelt på opptaksområder, 2017-2019._
 
 \*![kvalitet_prostatakreft_2](/helseatlas/img/no/kvalitet/kvalitet_prostatakreft_2.png)
 
-*Andel menn med fri rand etter kirurgi for mindre kreftsvulster (≤ T2), fordelt på opptaksområder, for perioden 2017-2019.*
+_Andel menn med fri rand etter kirurgi for mindre kreftsvulster (≤ T2), fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -294,11 +297,11 @@ Det var geografisk variasjon i bruk av CGM mellom opptaksområdene. 86 % av pasi
 
 \*![kvalitet_barnediabetes_1](/helseatlas/img/no/kvalitet/kvalitet_barnediabetes_1.png)
 
-*Figur 1: Andel barn og unge, 0-17 år, med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019. *Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år.*
+_Figur 1: Andel barn og unge, 0-17 år, med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019. \*Opptaksområdet har færre enn 10 hendelser i gj.snitt pr. år._
 
 \*![kvalitet_barnediabetes_2](/helseatlas/img/no/kvalitet/kvalitet_barnediabetes_2.png)
 
-*Figur 2: Andel barn og unge, 0-17 år, som bruker CGM, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel barn og unge, 0-17 år, som bruker CGM, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -324,11 +327,11 @@ Når blodsukkeret er over eller lik 75 mmol/mol øker faren for å utvikle senko
 
 \*![kvalitet_voksendiabetes_1](/helseatlas/img/no/kvalitet/kvalitet_voksendiabetes_1.png)
 
-*Figur 1: Andel pasienter med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel pasienter med HbA1c under 53 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019._
 
 \*![kvalitet_voksendiabetes_2](/helseatlas/img/no/kvalitet/kvalitet_voksendiabetes_2.png)
 
-*Figur 2: Andel pasienter med HbA1c under 75 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel pasienter med HbA1c under 75 mmol/mol, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -354,11 +357,11 @@ Seksten av opptaksområdene hadde enten høy eller moderat måloppnåelse for br
 
 \*![kvalitet_hoftebrudd_1](/helseatlas/img/no/kvalitet/kvalitet_hoftebrudd_1.png)
 
-*Figur 1: Andel pasienter, ≥ 60 år, operert innen 48 timer etter bruddtidspunktet, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel pasienter, ≥ 60 år, operert innen 48 timer etter bruddtidspunktet, fordelt på opptaksområder, for perioden 2017-2019._
 
-*![kvalitet_hoftebrudd_2](/helseatlas/img/no/kvalitet/kvalitet_hoftebrudd_2.png)*
+_![kvalitet_hoftebrudd_2](/helseatlas/img/no/kvalitet/kvalitet_hoftebrudd_2.png)_
 
-*Figur 2: Andel pasienter, > 70 år, med lårhalsbrudd i feilstilling som fikk protese med sementert stamme, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel pasienter, > 70 år, med lårhalsbrudd i feilstilling som fikk protese med sementert stamme, fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
@@ -386,11 +389,11 @@ Høy måloppnåelse er når 80 % av pasientene har en ukentlig Kt/V over fastsat
 
 \*![kvalitet_nyre_1](/helseatlas/img/no/kvalitet/kvalitet_nyre_1.png)
 
-*Figur 1: Andel nyretransplanterte pasienter med blodtrykk under 130/80 mmHg, fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 1: Andel nyretransplanterte pasienter med blodtrykk under 130/80 mmHg, fordelt på opptaksområder, for perioden 2017-2019._
 
 \*![kvalitet_nyre_2](/helseatlas/img/no/kvalitet/kvalitet_nyre_2.png)
 
-*Figur 2: Andel pasienter med tilfredsstillende dialyse (hemodialyse), fordelt på opptaksområder, for perioden 2017-2019.*
+_Figur 2: Andel pasienter med tilfredsstillende dialyse (hemodialyse), fordelt på opptaksområder, for perioden 2017-2019._
 
 ### Kommentar
 
