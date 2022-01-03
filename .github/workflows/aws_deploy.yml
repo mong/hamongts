@@ -1,7 +1,7 @@
 name: Deploy app to AWS
 on:
   push:
-    branches: [develop, netlifyCMS]
+    branches: [develop]
   pull_request:
     branches: [develop, dependabot_updates]
 
@@ -19,7 +19,7 @@ jobs:
         run: |
           echo "s3_bucket=s3://skde.org/helseatlas" >> $GITHUB_ENV
       - name: Set QA variables
-        if: github.ref == 'refs/heads/netlifyCMS'
+        if: github.ref == 'refs/heads/develop'
         run: |
           echo "s3_bucket=s3://qa.skde.org/helseatlas" >> $GITHUB_ENV
       - name: Check out the repo
