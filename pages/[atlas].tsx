@@ -24,12 +24,22 @@ interface AtlasPageProps {
   };
 }
 
+const TableOfContents = () => {
+  return (
+      <div className={`${styles.toc}`}>
+          Innhold
+      </div>
+  );
+};
+
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
+  
   return (
     <>
       <Layout>
         <main>
           <TopBanner {...frontMatter} />
+          <TableOfContents />
           <div className={`${styles.atlasContent}`}>
             <ReactMarkdown
               remarkPlugins={[
