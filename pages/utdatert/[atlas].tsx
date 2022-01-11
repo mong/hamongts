@@ -5,9 +5,9 @@ import matter from "gray-matter";
 import remarkToc from "remark-toc";
 import remarkSlug from "remark-slug";
 
-import Layout from "../src/components/Layout";
-import { TopBanner } from "../src/components/Atlas/topBanner";
-import styles from "../src/styles/Home.module.css";
+import Layout from "../../src/components/Layout";
+import { TopBanner } from "../../src/components/Atlas/topBanner";
+import styles from "../../src/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
 
 interface AtlasPageProps {
@@ -24,12 +24,22 @@ interface AtlasPageProps {
   };
 }
 
+const TableOfContents = () => {
+  return (
+      <div className={`${styles.toc}`}>
+          Innhold
+      </div>
+  );
+};
+
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
+  
   return (
     <>
       <Layout>
         <main>
           <TopBanner {...frontMatter} />
+          <TableOfContents />
           <div className={`${styles.atlasContent}`}>
             <ReactMarkdown
               remarkPlugins={[
@@ -47,7 +57,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/atlas");
+  const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
   const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
   const file = fs.readFileSync(fullPath);
   const { content, data } = matter(file);
@@ -57,8 +67,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-export const getStaticPaths: GetStaticPaths = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/atlas");
+export const getStaticPaths: GetStaticPaths = async () => {
+  const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
   const paths = fs
     .readdirSync(atlasDir)
     .map((Info) => ({ params: { atlas: Info.replace(/.md?$/, "") } }));
