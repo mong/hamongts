@@ -23,18 +23,3 @@ export const AtlasLink = (props: Props) => {
     </div>
   );
 };
-
-export const AtlasLinkEn = (props: Props) => {
-  const { children, style, className, linkTo } = props;
-
-  return (
-    <div
-      className={`${styles.block_button} ${className ?? ""}`}
-      style={{ ...style }}
-    >
-      <Link href={`/en/${linkTo}`}>
-        <a style={{ width: "100%", height: "100%" }}>{children}</a>
-      </Link>
-    </div>
-  );
-};
