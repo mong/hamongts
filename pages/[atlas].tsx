@@ -26,7 +26,6 @@ interface AtlasPageProps {
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
-  
   return (
     <>
       <Layout>
