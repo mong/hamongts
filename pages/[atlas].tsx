@@ -9,6 +9,7 @@ import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Home.module.css";
 import ReactMarkdown from "react-markdown";
+import { TableOfContents } from "../src/components/toc";
 
 interface AtlasPageProps {
   content: string;
@@ -24,14 +25,6 @@ interface AtlasPageProps {
   };
 }
 
-const TableOfContents = () => {
-  return (
-      <div className={`${styles.toc}`}>
-          Innhold
-      </div>
-  );
-};
-
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
   
   return (
@@ -39,7 +32,9 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
       <Layout>
         <main>
           <TopBanner {...frontMatter} />
-          <TableOfContents />
+          <TableOfContents>
+            <h2>Innhold</h2>
+          </TableOfContents>
           <div className={`${styles.atlasContent}`}>
             <ReactMarkdown
               remarkPlugins={[
