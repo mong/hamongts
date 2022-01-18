@@ -2,11 +2,11 @@
 
 context("Home Page", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000");
+    cy.visit("/");
   });
 
   it("should render the home page and display a message", () => {
-    cy.get("h1").contains("Welcome");
+    cy.get("h2").contains("Likeverdige helsetjenester - uansett hvor du bor?");
   });
 });
 
