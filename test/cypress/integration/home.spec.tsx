@@ -7,6 +7,7 @@ context("Home Page", () => {
 
   it("should render the home page and display a message", () => {
     cy.get("h2").contains("Likeverdige helsetjenester - uansett hvor du bor?");
+    cy.contains('a').click();
   });
 
   it("should visit an atlas", () => {
