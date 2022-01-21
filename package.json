@@ -24,7 +24,7 @@
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
     "prettier": "^2.5.1",
-    "react-markdown": "^7.1.2",
+    "react-markdown": "^8.0.0",
     "remark-slug": "^7.0.1",
     "remark-toc": "^8.0.1",
     "typescript": "4.5.4"
