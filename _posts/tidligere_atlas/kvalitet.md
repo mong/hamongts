@@ -7,8 +7,6 @@ ia: true
 lang: no
 ---
 
-## Innhold
-
 ## Samlede resultater
 
 Helseatlas for kvalitet er basert på informasjon om i underkant av 100 000 pasienter og behandlinger årlig, hvorav noen kan ha fått samme behandling flere ganger eller ha flere sykdommer. Hensikten er å undersøke om befolkningen får likeverdig kvalitet i utvalgte nødvendige helsetjenester, uavhengig av bosted og på tvers av fagområder. Atlaset synliggjør hvorvidt sørge-for-ansvaret for pasienter som rammes av alvorlige sykdommer er tilstrekkelig ivaretatt.

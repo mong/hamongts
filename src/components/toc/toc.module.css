@@ -1,0 +1,12 @@
+.tocWrapper {
+  position: sticky;
+  top: 10px;
+}
+
+.toc {
+  text-align: left;
+  margin-right: 20px;
+  max-width: 200px;
+  min-width: 200px;
+  overflow: hidden;
+}

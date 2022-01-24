@@ -7,8 +7,6 @@ ia: true
 lang: no
 ---
 
-## Innhold
-
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert.
 
 ## Primærhelsetjenesten - alle kontakter
