@@ -54,13 +54,13 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                   return <nav>{children}</nav>;
                 },
                 ol({ children, className }) {
-                  if (className.includes("toc")) {
+                  if ((className ?? "").includes("toc")) {
                     return <OrderedList> {children}</OrderedList>;
                   }
                   return <ol>{children}</ol>;
                 },
                 li({ children, className }) {
-                  if (className.includes("toc")) {
+                  if ((className ?? "").includes("toc")) {
                     return <ListItem> {children}</ListItem>;
                   }
                   return <li>{children}</li>;
