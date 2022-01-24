@@ -1,7 +1,7 @@
 import path from "path";
 import styles from "../../src/styles/Home.module.css";
 import Layout from "../../src/components/Layout";
-import { AtlasLinkEn } from "../../src/components/Btns/AtlasLink";
+import { AtlasLink } from "../../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../../src/helpers/functions/markdownHelpers";
 
@@ -16,13 +16,13 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
   const Links = atlasInfo.map((atlas) => (
-    <AtlasLinkEn
+    <AtlasLink
       key={atlas.article}
-      linkTo={atlas.article}
+      linkTo={`en/${atlas.article}`}
       style={{ height: "200px" }}
     >
       <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLinkEn>
+    </AtlasLink>
   ));
 
   return (

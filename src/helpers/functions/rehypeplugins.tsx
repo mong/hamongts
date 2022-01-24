@@ -3,7 +3,7 @@ import type { Root } from "hast";
 
 export const rehypeWrapWithDiv = () => {
   return (tree) => {
-    console.log(tree)
+    console.log(tree);
     const divWrapper: Root = {
       type: "root",
       children: [
@@ -11,7 +11,7 @@ export const rehypeWrapWithDiv = () => {
           type: "element",
           tagName: "div",
           children: tree.children,
-          properties: { class: "main-content" }
+          properties: { class: "main-content" },
         },
       ],
     };
