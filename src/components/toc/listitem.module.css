@@ -8,6 +8,12 @@
   overflow-wrap: break-word;
 }
 
+.tocListItem.active {
+  position: relative;
+  color: #034584;
+  text-decoration: underline;
+}
+
 .tocListItem::before {
   content: "";
   position: absolute;
