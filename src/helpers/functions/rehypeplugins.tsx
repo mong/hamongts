@@ -3,7 +3,6 @@ import type { Root } from "hast";
 
 export const rehypeWrapWithDiv = () => {
   return (tree) => {
-    console.log(tree);
     const divWrapper: Root = {
       type: "root",
       children: [
