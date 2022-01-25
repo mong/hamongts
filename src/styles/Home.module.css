@@ -419,3 +419,8 @@
 .atlasContent img {
   width: 80%;
 }
+
+.atlasContent p a {
+  color: revert;
+  text-decoration: revert;
+}
