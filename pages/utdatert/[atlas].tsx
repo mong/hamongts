@@ -36,7 +36,6 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
     <>
       <Layout>
         <main>
-          <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown
               rehypePlugins={[
@@ -46,7 +45,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                 [
                   rehypeToc,
                   {
-                    headings: ["h1", "h2", "h3"],
+                    headings: ["h2", "h3"],
                   },
                 ],
               ]}
