@@ -1,18 +1,21 @@
 import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
+
+import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
 import rehypeToc from "rehype-toc";
+import rehypeSlug from "rehype-slug";
+import rehypeRaw from "rehype-raw";
 import { rehypeWrapWithDiv } from "../../src/helpers/functions/rehypeplugins";
+import remarkGfm from "remark-gfm";
 
 import Layout from "../../src/components/Layout";
 import { TopBanner } from "../../src/components/Atlas/topBanner";
-import styles from "../../src/styles/Home.module.css";
-import ReactMarkdown from "react-markdown";
 import { TableOfContents } from "../../src/components/toc";
-import rehypeSlug from "rehype-slug";
 import { OrderedList } from "../../src/components/toc/orderedlist";
 import { ListItem } from "../../src/components/toc/listitem";
+import styles from "../../src/styles/Home.module.css";
 
 interface AtlasPageProps {
   content: string;
@@ -38,6 +41,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
             <ReactMarkdown
               rehypePlugins={[
                 rehypeWrapWithDiv,
+                rehypeRaw,
                 rehypeSlug,
                 [
                   rehypeToc,
@@ -46,6 +50,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                   },
                 ],
               ]}
+              remarkPlugins={[remarkGfm]}
               components={{
                 nav({ children, className }) {
                   if (className === "toc") {
