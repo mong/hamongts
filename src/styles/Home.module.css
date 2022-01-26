@@ -429,3 +429,13 @@
   color: revert;
   text-decoration: revert;
 }
+
+.ingress {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  color: #000000;
+}

@@ -18,6 +18,7 @@ import { ListItem } from "../src/components/toc/listitem";
 import styles from "../src/styles/Home.module.css";
 
 interface AtlasPageProps {
+  text: string;
   content: string;
   frontMatter: {
     num: string;
@@ -28,10 +29,12 @@ interface AtlasPageProps {
     lang: string;
     report_text: string;
     map_text: string;
+    ingress: string;
   };
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
+  const text = `<div className=${styles.ingress}>${frontMatter.ingress}</div><br>${content}`;
   return (
     <>
       <Layout>
@@ -72,7 +75,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                 },
               }}
             >
-              {content}
+              {text}
             </ReactMarkdown>
           </div>
         </main>
