@@ -1,4 +1,5 @@
 .tocWrapper {
+  position: -webkit-sticky; /* Required for Safari */
   position: sticky;
   top: 10px;
 }
@@ -9,4 +10,5 @@
   max-width: 200px;
   min-width: 200px;
   overflow: hidden;
+  margin-top: 180px;
 }

@@ -7,13 +7,15 @@ ia: true
 lang: no
 ---
 
-Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
+<div className="ingress">
+Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
+</div>
 
 ## Fødsler i Norge
 
-2015–2017Det var stor forskjell på de ulike opptaksområdene med tanke på antall fødsler pr år. Andel fødsler med ulike risikofaktorer var forholdsvis lik i de ulike opptaksområdene. Alder ved første fødsel og andel førstegangsfødende var høyest i Oslo. Oslo har også lavest andel overvektige og høy andel fødende som selv var født utenfor Norge.
+Det var stor forskjell på de ulike opptaksområdene med tanke på antall fødsler pr år. Andel fødsler med ulike risikofaktorer var forholdsvis lik i de ulike opptaksområdene. Alder ved første fødsel og andel førstegangsfødende var høyest i Oslo. Oslo har også lavest andel overvektige og høy andel fødende som selv var født utenfor Norge.
 
-## Om fødslene
+### Om fødslene
 
 I treårsperioden vi studerer i atlaset (2015–2017) var det i gjennomsnitt registrert 58 198 fødsler pr. år i MFR hvorav 57 572 (98,4 %) er med i Helseatlas for fødselshjelp. Det var flest fødsler blant kvinner bosatt i opptaksområdene Bergen og Akershus (ca5 400 pr. år) og færrest i opptaksområdene Helgeland og Finnmark (ca 750 pr. år). Det var flest fødsler i perioden april – august, og færrest omkring årsskiftet. I juli var det gjennomsnittlig 173 fødsler pr. dag og i desember var det gjennomsnittlig 131 fødsler pr. dag. Variasjonene fra dag til dag var imidlertid betydelige.
 
@@ -21,33 +23,33 @@ I treårsperioden vi studerer i atlaset (2015–2017) var det i gjennomsnitt reg
 
 ![fodsler_figur1](/helseatlas/img/no/fodsel/fodsler_figur1.png)
 
-**Figur 2:**Sesongvariasjon. Antall fødsler pr. dag og pr. uke gjennom året. Gjennomsnitt for 2015–2017.
+**Figur 2:** Sesongvariasjon. Antall fødsler pr. dag og pr. uke gjennom året. Gjennomsnitt for 2015–2017.
 
 ![fodsler_figur2](/helseatlas/img/no/fodsel/fodsler_figur2.png)
 
-### Flerlinger
+#### Flerlinger
 
 Andelen fødsler hvor det ble født to eller flere barn (flerlinger), var 1,6 % på landsbasis. Andelen flerlingefødsler anses som likt geografisk fordelt i Norge.
 
-### Seteleie
+#### Seteleie
 
 Til tross for noe variasjon fra år til år innad i opptaksområdene, ser det ut til at andelen fødsler hvor barnet lå i seteleie var litt høyere iopptaksområdene til sykehusene i Oslo-området enn i resten av landet.
 
-### Premature
+#### Premature
 
 På landsbasis skjedde 5,4 % av alle fødsler før svangerskapsuke 37 (data ikke vist). Andelen varierte fra 4,5 % til 6,7 % mellom opptaksområdene med en del variasjon fra år til år innad i hvert opptaksområde. Dette tyder på at andelen fødsler før svangerskapsuke 37 er omtrent lik i hele Norge.
 
-## Om mødrene
+### Om mødrene
 
-### Alder ved første fødsel
+#### Alder ved første fødsel
 
 Gjennomsnittsalderen ved første fødsel varierte fra 26,7 år til 31,9 år mellom opptaksområdene. Kvinner bosatt i Oslo-området var betydelig eldre ved første fødsel enn kvinner bosatt i andre deler av landet.
 
-### Overvekt
+#### Overvekt
 
 Ved svangerskapets start hadde hhv. 29,9 % av førstegangsfødende og 37 % av flergangsfødende en kroppsmasseindeks (KMI) på 25 kg/m2 eller mer. For en forholdsvis stor andel av de fødende mangler informasjon om KMI før svangerskapet. Dermed er tallene for andel overvektige i de ulike opptaksområdene ikke nødvendigvis sammenliknbare. Til tross for dette kan det se ut som at andelen overvektige er noe lavere for kvinner bosatt i opptaksområdene i Oslo enn i landet forøvrig.
 
-### Mors fødeland
+#### Mors fødeland
 
 Rundt tre av ti kvinner som fødte barn i Norge i 2015–2017, var ikke selv født i Norge. På landsbasis var 28,9 % av førstegangsfødende og 29,6 % av flergangsfødende født i utlandet. Blant førstegangsfødende varierte andelen født i utlandet fra omlag 20 % i opptaksområdet Nord-Trøndelag til nær 40 % i opptaksområdet Akershus. Blant flergangsfødende var mer enn 40 % av de fødende i opptaksområdene Lovisenberg, Akershus og OUS født i utlandet.
 
@@ -67,9 +69,13 @@ I perioden 2015–2017 ble det årlig gjennomført nærmere 700 000 svangerskaps
 
 Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.
 
-**Figur 1:** Antall kontakter pr. svangerskap, opptaksområder, kontakter hos fastlege/legevakt/jordmor og i spesialisthelsetjenesten. Aldersjustert. Gjennomsnitt for perioden 2015–2017. **![svangerskapsomsorg_figur1](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur1.png)**
+**Figur 1:** Antall kontakter pr. svangerskap, opptaksområder, kontakter hos fastlege/legevakt/jordmor og i spesialisthelsetjenesten. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
 
-**Figur 2:** Antall førstegangsfødende med svangerskapsdiabetes pr. 1000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. **![svangerskapsomsorg_figur2](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur2.png)**
+![svangerskapsomsorg_figur1](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur1.png)
+
+**Figur 2:** Antall førstegangsfødende med svangerskapsdiabetes pr. 1000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
+
+![svangerskapsomsorg_figur2](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur2.png)
 
 ### Kommentar
 
@@ -93,9 +99,13 @@ I perioden 2015–2017 fikk årlig omlag 5 900 førstegangsfødende og 6 600 fle
 
 Det var lite geografisk variasjon og høyeste rate var rundt 40 % høyere enn laveste rate. Det var klar samvariasjon mellom bruk av induksjon hos førstegangsfødende og bruk av induksjon hos flergangsfødende; de opptaksområdene som hadde de høyeste ratene for førstgangsfødende er i all hovedsak blant de opptaksområdene som hadde de høyeste ratene for flergangsfødende. Nasjonalt er det en tydelig økning i bruk av induksjon i perioden.
 
-**Figur 1:** Induksjon av fødsel. Antall førstegangsfødende med induksjon pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. _![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png)_
+**Figur 1:** Induksjon av fødsel. Antall førstegangsfødende med induksjon pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
 
-**Figur 2:** Induksjon av fødsel. Antall flergangsfødende med induksjon pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. _![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png)_
+![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png)
+
+**Figur 2:** Induksjon av fødsel. Antall flergangsfødende med induksjon pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
+
+![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png)
 
 ### Kommentar
 

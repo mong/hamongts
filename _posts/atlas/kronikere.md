@@ -31,10 +31,38 @@ De siste årene er det en økende andel pasienter som får høyaktiv behandling.
 
 De siste årene er det en økende andel pasienter som får høyaktiv behandling. Slik behandling har god forebyggende effekt, men kan for noen få gi livstruende bivirkninger. En del av de høyaktive medikamentene er kostbare, hvilket har medført at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som er i bruk
 
-BOKS
+FUNFACTS
 
 ### Bruk av høyaktiv behandling
 
 De siste årene er det en økende andel pasienter som får høyaktiv behandling. Slik behandling har god forebyggende effekt, men kan for noen få gi livstruende bivirkninger. En del av de høyaktive medikamentene er kostbare, hvilket har medført at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som er i bruk
 
-FUNFACTS
+BOKS
+
+## Parkinson
+
+blablabla
+
+## Akuttinnleggelser
+
+blablabla
+
+## Migrene
+
+blablabla
+
+## Epilepsi
+
+blablabla
+
+### Personer med epilepsi
+
+blablabla
+
+### Akuttinnleggelser
+
+blablabla
+
+### Bruk av poliklinikk
+
+blablabla
