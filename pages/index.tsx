@@ -55,7 +55,6 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       </div>
       <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
         <div className={`${styles.buttons}`}>
-          <h2>Helseatlas</h2>
           <div className={styles.block_buttons}>
             {LinksNew}
             {Links}

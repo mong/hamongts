@@ -32,6 +32,7 @@ interface AtlasPageProps {
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
+  const text = `<h1>${frontMatter.mainTitle}</h1>${content}`;
   return (
     <>
       <Layout>
@@ -72,7 +73,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
                 },
               }}
             >
-              {content}
+              {text}
             </ReactMarkdown>
           </div>
         </main>

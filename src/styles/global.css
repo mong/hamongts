@@ -37,3 +37,26 @@ h3 {
   font-size: 20px;
   line-height: 24px;
 }
+
+/* breadcrumbs */
+
+.breadcrum {
+  height: 46px;
+  font-family: Open Sans;
+}
+
+li.MuiBreadcrumbs-li {
+  font-family: Open Sans;
+}
+
+li.MuiBreadcrumbs-li:last-child {
+  font-weight: 700;
+  font-family: Open Sans;
+}
+
+.ingress {
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  padding-bottom: 1rem;
+}

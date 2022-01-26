@@ -34,7 +34,7 @@ interface AtlasPageProps {
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
-  const text = `<div className=${styles.ingress}>${frontMatter.ingress}</div><br>${content}`;
+  const text = `<h1>${frontMatter.mainTitle}</h1><div className=ingress>${frontMatter.ingress}</div>${content}`;
   return (
     <>
       <Layout>

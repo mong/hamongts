@@ -55,18 +55,6 @@ export default function Layout({
             </Link>
           </div>
         </header>
-        {page && (
-          <div className={styles.breadcrumb}>
-            <ol>
-              <li>
-                <Link href="/helseatlas/">
-                  <a>Helseatlas</a>
-                </Link>
-              </li>
-              <li>{page}</li>
-            </ol>
-          </div>
-        )}
         {children}
         <footer className={`${styles.full_bleed} ${styles.footer_container}`}>
           <div className={styles.footer__top}>
