@@ -1,6 +1,7 @@
 import style from "./topbanner.module.css";
 
 interface TopBannerProps {
+  mainTitle: string;
   pdfUrl: string;
   ia: boolean;
   lang: string;
@@ -9,6 +10,7 @@ interface TopBannerProps {
 }
 
 export const TopBanner: React.FC<TopBannerProps> = ({
+  mainTitle,
   pdfUrl,
   ia,
   lang,
@@ -25,6 +27,7 @@ export const TopBanner: React.FC<TopBannerProps> = ({
   return (
     <div className={style.atlasTopBanner}>
       <div className={style.bannerWrapper}>
+        <h1>{mainTitle}</h1>
         <div>
           <a href={pdfUrl}>{report_text}</a>
         </div>
