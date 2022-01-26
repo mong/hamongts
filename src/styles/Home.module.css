@@ -29,11 +29,16 @@
 }
 
 .header_links {
-  font-size: 0.9rem;
   text-align: end;
   align-self: center;
   flex-grow: 1;
   padding-bottom: 10px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #034584;
 }
 .header_links div {
   display: inline;
