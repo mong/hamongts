@@ -402,3 +402,28 @@
   color: revert;
   text-decoration: revert;
 }
+
+
+.article__title {
+  width: 100%;
+  display: flex;
+}
+.article__ingress {
+  width: 100%;
+  padding: 32px 0;
+  font-weight: bold;
+  font-style: italic;
+}
+.article {
+  width: 100%;
+  align-self: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+}
+.article__content {
+  margin-block-start: 0;
+  padding: 0 0 32px 0;
+  padding-left: 0;
+  margin: 0;
+}
