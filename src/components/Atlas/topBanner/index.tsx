@@ -1,4 +1,7 @@
 import style from "./topbanner.module.css";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Link from "@mui/material/Link";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 interface TopBannerProps {
   mainTitle: string;
@@ -27,15 +30,17 @@ export const TopBanner: React.FC<TopBannerProps> = ({
   return (
     <div className={style.atlasTopBanner}>
       <div className={style.bannerWrapper}>
-        <h1>{mainTitle}</h1>
-        <div>
-          <a href={pdfUrl}>{report_text}</a>
-        </div>
-        {ia && (
-          <div>
-            <a href="ia/index.html">{map_text}</a>
-          </div>
-        )}
+        <Breadcrumbs
+          aria-label="breadcrumb"
+          separator={<NavigateNextIcon htmlColor="#D3D7DA" />}
+        >
+          <Link underline="hover" color="#034584" href="/helseatlas/">
+            Forside
+          </Link>
+          <Link color="text.primary" underline="none">
+            {mainTitle}
+          </Link>
+        </Breadcrumbs>
       </div>
     </div>
   );

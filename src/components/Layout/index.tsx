@@ -33,18 +33,22 @@ export default function Layout({
           content="The healthcare atlases on Helseatlas.no are a tool for comparing the population's use of health services in different geographical areas, regardless of where the patients actually receive treatment."
         />
         <link rel="icon" href="/helseatlas/img/logos/favicon.ico" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Open+Sans"
+        ></link>
       </Head>
       <div className={styles.grid_wrapper}>
         <header className={`${styles.header_container}`}>
           <div className={styles.header_logo}>
-            <Link href={origin}>
+            <Link href={`${origin}/helseatlas`}>
               <a rel="home">
                 <Image
                   loader={imgLoader}
-                  src={`/helseatlas/img/logos/SKDE_sort.png`}
+                  src={`/helseatlas/img/logos/helseatlas.svg`}
                   alt="Hjem"
-                  width={96}
-                  height={39}
+                  width={192}
+                  height={78}
                 />
               </a>
             </Link>
@@ -55,18 +59,6 @@ export default function Layout({
             </Link>
           </div>
         </header>
-        {page && (
-          <div className={styles.breadcrumb}>
-            <ol>
-              <li>
-                <Link href="/">
-                  <a>SKDE</a>
-                </Link>
-              </li>
-              <li>{page}</li>
-            </ol>
-          </div>
-        )}
         {children}
         <footer className={`${styles.full_bleed} ${styles.footer_container}`}>
           <div className={styles.footer__top}>
