@@ -25,6 +25,10 @@ context("Home Page", () => {
     cy.get("strong").contains(
       "Vær derfor bevisst kartets retoriske muligheter."
     );
+    cy.visit("/statisk/om");
+    cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
+    cy.visit("/statisk/kontakt");
+    cy.get("a").contains("skde.helseatlas@helse-nord.no");
   });
 });
 
