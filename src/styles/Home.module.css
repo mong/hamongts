@@ -16,7 +16,7 @@
 .full_bleed {
   width: 100%;
   grid-column: 1 / -1;
-  background-color: #c7dcee;
+  background-color: #ffe6b5;
 }
 /* header */
 .header_container {
@@ -129,6 +129,17 @@
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.banner_article__content h1 {
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 2.25rem 0;
+  padding: 0 0 1.5rem;
+  padding-bottom: 0;
+  font-size: 3rem;
+  font-family: Open Sans, Helvetica, sans-serif;
+  color: #000;
 }
 
 /* buttons */
