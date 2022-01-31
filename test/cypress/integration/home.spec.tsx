@@ -19,6 +19,13 @@ context("Home Page", () => {
     cy.visit("/utdatert/gyn/ia/index.html");
     cy.get("button").contains("Last ned data");
   });
+
+  it("should visit static pages", () => {
+    cy.visit("/statisk/kart");
+    cy.get("strong").contains(
+      "Vær derfor bevisst kartets retoriske muligheter."
+    );
+  });
 });
 
 export {};
