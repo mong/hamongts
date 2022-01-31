@@ -1,20 +1,18 @@
-import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
-
-import ReactMarkdown from "react-markdown";
+import { join } from "path";
 import matter from "gray-matter";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
 
+import style from "../../src/styles/Content.module.css";
 import Layout from "../../src/components/Layout";
-import newsStyles from "../../src/styles/News.module.css";
-
-const CONTENT_DIR = path.join(process.cwd(), "_posts/om");
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+const CONTENT_DIR = join(process.cwd(), "_posts/statisk");
 
 interface Props {
   frontMatter: any;
@@ -24,15 +22,13 @@ interface Props {
 const Content = ({ content, frontMatter }: Props) => {
   return (
     <Layout page={frontMatter.title}>
-      <div className={newsStyles.container}>
-        <div className={newsStyles.article__title}>
-          <h2>{frontMatter.title}</h2>
+      <div className={style.container}>
+        <div className={style.article__title}>
+          <h1>{frontMatter.title}</h1>
         </div>
-        <div className={newsStyles.article}>
-          <div className={newsStyles.article__ingress}>
-            {frontMatter.ingress}
-          </div>
-          <div className={newsStyles.article__content}>
+        <div className={style.article}>
+          <div className={style.article__ingress}>{frontMatter.ingress}</div>
+          <div className={style.article__content}>
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               remarkPlugins={[remarkGfm]}
@@ -61,11 +57,10 @@ const Content = ({ content, frontMatter }: Props) => {
   );
 };
 
-
 export default Content;
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const fullPath = path.join(CONTENT_DIR, `${params.slug}.md`);
+  const fullPath = join(CONTENT_DIR, `${params.slug}.md`);
   const file = fs.readFileSync(fullPath);
 
   const { content, data } = matter(file);

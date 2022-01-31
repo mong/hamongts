@@ -54,7 +54,7 @@ export default function Layout({
             </Link>
           </div>
           <div className={styles.header_links}>
-            <Link href="https://helse-nord.no/skde/kontakt-skde">
+            <Link href="/statisk/kontakt">
               <a>Kontakt</a>
             </Link>
           </div>
