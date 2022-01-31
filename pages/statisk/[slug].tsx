@@ -3,7 +3,7 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-import style from "../../src/styles/Content.module.css";
+import styles from "../../src/styles/Content.module.css";
 import Layout from "../../src/components/Layout";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -18,12 +18,12 @@ interface Props {
 const Content = ({ content, frontMatter }: Props) => {
   return (
     <Layout page={frontMatter.title}>
-      <div className={style.container}>
-        <div className={style.article__title}>
+      <div className={styles.container}>
+        <div className={styles.article__title}>
           <h1>{frontMatter.title}</h1>
         </div>
-        <div className={style.article}>
-          <div className={style.article__content}>
+        <div className={styles.article}>
+          <div className={styles.article__content}>
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               remarkPlugins={[remarkGfm]}

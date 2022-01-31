@@ -17,12 +17,7 @@
   width: 100%;
   display: flex;
 }
-.article__ingress {
-  width: 100%;
-  padding: 32px 0;
-  font-weight: bold;
-  font-style: italic;
-}
+
 .article__content {
   margin-block-start: 0;
   padding: 0 0 32px 0;
