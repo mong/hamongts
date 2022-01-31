@@ -27,7 +27,9 @@ const Content = ({ content, frontMatter }: Props) => {
           <h1>{frontMatter.title}</h1>
         </div>
         <div className={style.article}>
-          <div className={style.article__ingress}>{frontMatter.ingress}</div>
+          {frontMatter.ingress && (
+            <div className={style.article__ingress}>{frontMatter.ingress}</div>
+          )}
           <div className={style.article__content}>
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
