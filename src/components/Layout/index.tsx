@@ -57,6 +57,9 @@ export default function Layout({
             <Link href="/statisk/kontakt">
               <a>Kontakt</a>
             </Link>
+            <Link href="/statisk/om">
+              <a>Om</a>
+            </Link>
           </div>
         </header>
         {children}
