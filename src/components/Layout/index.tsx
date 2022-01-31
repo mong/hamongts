@@ -58,7 +58,7 @@ export default function Layout({
               <a>Kontakt</a>
             </Link>
             <Link href="/statisk/om">
-              <a>Om</a>
+              <a>Om oss</a>
             </Link>
           </div>
         </header>
