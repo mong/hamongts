@@ -2,10 +2,6 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
-import Accordion from "@mui/material/Accordion";
-import AccordionSummary from "@mui/material/AccordionSummary";
-import AccordionDetails from "@mui/material/AccordionDetails";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 import style from "../../src/styles/Content.module.css";
 import Layout from "../../src/components/Layout";
@@ -27,28 +23,10 @@ const Content = ({ content, frontMatter }: Props) => {
           <h1>{frontMatter.title}</h1>
         </div>
         <div className={style.article}>
-          {frontMatter.ingress && (
-            <div className={style.article__ingress}>{frontMatter.ingress}</div>
-          )}
           <div className={style.article__content}>
             <ReactMarkdown
               rehypePlugins={[rehypeRaw]}
               remarkPlugins={[remarkGfm]}
-              components={{
-                details: (object) => {
-                  return (
-                    <Accordion>
-                      <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-                        {object.children[0]}
-                      </AccordionSummary>
-                      <AccordionDetails>
-                        {object.children.filter((_, i) => i !== 0)}
-                      </AccordionDetails>
-                    </Accordion>
-                  );
-                },
-                summary: (object) => <div>{object.children}</div>,
-              }}
             >
               {content}
             </ReactMarkdown>
