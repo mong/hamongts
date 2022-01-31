@@ -15,7 +15,7 @@ import { TopBanner } from "../../src/components/Atlas/topBanner";
 import { TableOfContents } from "../../src/components/toc";
 import { OrderedList } from "../../src/components/toc/orderedlist";
 import { ListItem } from "../../src/components/toc/listitem";
-import styles from "../../src/styles/Home.module.css";
+import styles from "../../src/styles/Atlas.module.css";
 
 interface AtlasPageProps {
   content: string;

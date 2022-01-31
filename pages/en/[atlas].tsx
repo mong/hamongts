@@ -7,7 +7,7 @@ import remarkSlug from "remark-slug";
 
 import Layout from "../../src/components/Layout";
 import { TopBanner } from "../../src/components/Atlas/topBanner";
-import styles from "../../src/styles/Home.module.css";
+import styles from "../../src/styles/Atlas.module.css";
 import ReactMarkdown from "react-markdown";
 
 interface AtlasPageProps {
