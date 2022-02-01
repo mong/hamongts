@@ -6,7 +6,7 @@ context("Home Page", () => {
   });
 
   it("should render the home page", () => {
-    cy.get("h2").contains("Likeverdige helsetjenester - uansett hvor du bor?");
+    cy.get("h1").contains("Likeverdige helsetjenester - uansett hvor du bor?");
     cy.contains("a").click();
   });
 
@@ -18,6 +18,17 @@ context("Home Page", () => {
   it("should visit an IA", () => {
     cy.visit("/utdatert/gyn/ia/index.html");
     cy.get("button").contains("Last ned data");
+  });
+
+  it("should visit static pages", () => {
+    cy.visit("/statisk/kart");
+    cy.get("strong").contains(
+      "Vær derfor bevisst kartets retoriske muligheter."
+    );
+    cy.visit("/statisk/om");
+    cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
+    cy.visit("/statisk/kontakt");
+    cy.get("a").contains("skde.helseatlas@helse-nord.no");
   });
 });
 

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Open Sans;
+  src: url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@200..900);
+}
 html,
 body {
   font-family: Open Sans, Arial, Helvetica Neue, Helvetica, Roboto, sans-serif;

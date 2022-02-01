@@ -33,10 +33,6 @@ export default function Layout({
           content="The healthcare atlases on Helseatlas.no are a tool for comparing the population's use of health services in different geographical areas, regardless of where the patients actually receive treatment."
         />
         <link rel="icon" href="/helseatlas/img/logos/favicon.ico" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Open+Sans"
-        ></link>
       </Head>
       <div className={styles.grid_wrapper}>
         <header className={`${styles.header_container}`}>
@@ -54,8 +50,11 @@ export default function Layout({
             </Link>
           </div>
           <div className={styles.header_links}>
-            <Link href="https://helse-nord.no/skde/kontakt-skde">
+            <Link href="/statisk/kontakt">
               <a>Kontakt</a>
+            </Link>
+            <Link href="/statisk/om">
+              <a>Om oss</a>
             </Link>
           </div>
         </header>
