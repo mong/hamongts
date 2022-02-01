@@ -16,7 +16,7 @@
 .full_bleed {
   width: 100%;
   grid-column: 1 / -1;
-  background-color: #c7dcee;
+  background-color: #ffe6b5;
 }
 /* header */
 .header_container {
@@ -102,7 +102,7 @@
   max-width: 60rem;
 }
 .banner_article__content > * {
-  width: 50%;
+  width: 70%;
   word-break: keep-all;
 }
 
@@ -121,7 +121,7 @@
 }
 .banner_article__content a {
   color: #222;
-  background-color: #f2f2f2;
+  background-color: #fff;
   padding: 1.5em 2em;
   border-radius: 50px;
   font-size: 0.7rem;
@@ -131,9 +131,17 @@
   text-transform: uppercase;
 }
 
+.banner_article__content h1 {
+  line-height: 1.1;
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: Open Sans, Helvetica, sans-serif;
+  color: #000;
+}
+
 /* buttons */
 .buttons_container {
-  background-color: #f2f2f2;
+  background-color: #fff;
   justify-content: center;
   display: flex;
   min-width: 400px;
@@ -174,14 +182,15 @@
 .block_button a {
   position: relative;
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 5em 1em 1em;
-  background-color: #fff;
+  background-color: #f5f5f3;
   background-image: url(../../public/img/circle-green-light-cut.svg);
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: 110px 110px;
-  font-weight: 400;
+  font-weight: 600;
+  color: #034584;
 }
 .block_button a::after {
   right: 2em;
@@ -197,11 +206,11 @@
   position: absolute;
 }
 .block_button a:hover {
-  color: #fff;
-  background-color: #00263d;
+  color: #000;
+  background-color: #e6e5e1;
 }
 .block_button a:hover:after {
-  background-image: url(../../public/img/arrow_small_white.svg);
+  background-image: url(../../public/img/arrow_small.svg);
 }
 
 @media (max-width: 600px) {
@@ -304,7 +313,7 @@
   justify-content: center;
   flex-wrap: wrap;
   color: #f2f2f2;
-  background-color: #00263d;
+  background-color: #22282b;
   padding: 64px;
   align-content: center;
   flex-direction: column;

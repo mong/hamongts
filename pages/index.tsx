@@ -45,7 +45,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       <div className={styles.full_bleed}>
         <div className={styles.banner_article}>
           <div className={styles.banner_article__content}>
-            <h2>Likeverdige helsetjenester - uansett hvor du bor?</h2>
+            <h1>Likeverdige helsetjenester - uansett hvor du bor?</h1>
             <p>
               Helseatlas sammenlikner befolkningens bruk av helsetjenester
               gjennom interaktive kart, rapporter og faktaark.
