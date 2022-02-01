@@ -42,7 +42,7 @@
     "babel-plugin-istanbul": "^6.1.1",
     "cypress": "^9.2.1",
     "husky": "^7.0.4",
-    "lint-staged": "^12.1.7",
+    "lint-staged": "^12.3.3",
     "prettier": "^2.5.1",
     "react-markdown": "^8.0.0",
     "remark-slug": "^7.0.1",
