@@ -19,6 +19,17 @@ context("Home Page", () => {
     cy.visit("/utdatert/gyn/ia/index.html");
     cy.get("button").contains("Last ned data");
   });
+
+  it("should visit static pages", () => {
+    cy.visit("/statisk/kart");
+    cy.get("strong").contains(
+      "Vær derfor bevisst kartets retoriske muligheter."
+    );
+    cy.visit("/statisk/om");
+    cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
+    cy.visit("/statisk/kontakt");
+    cy.get("a").contains("skde.helseatlas@helse-nord.no");
+  });
 });
 
 export {};
