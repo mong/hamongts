@@ -134,9 +134,6 @@
 .banner_article__content h1 {
   line-height: 1.1;
   font-weight: 600;
-  margin: 2.25rem 0;
-  padding: 0 0 1.5rem;
-  padding-bottom: 0;
   font-size: 3rem;
   font-family: Open Sans, Helvetica, sans-serif;
   color: #000;
@@ -185,14 +182,15 @@
 .block_button a {
   position: relative;
   display: block;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding: 5em 1em 1em;
   background-color: #f5f5f3;
   background-image: url(../../public/img/circle-green-light-cut.svg);
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: 110px 110px;
-  font-weight: 400;
+  font-weight: 600;
+  color: #034584;
 }
 .block_button a::after {
   right: 2em;
@@ -208,11 +206,11 @@
   position: absolute;
 }
 .block_button a:hover {
-  color: #fff;
-  background-color: #00263d;
+  color: #000;
+  background-color: #e6e5e1;
 }
 .block_button a:hover:after {
-  background-image: url(../../public/img/arrow_small_white.svg);
+  background-image: url(../../public/img/arrow_small.svg);
 }
 
 @media (max-width: 600px) {
@@ -315,7 +313,7 @@
   justify-content: center;
   flex-wrap: wrap;
   color: #f2f2f2;
-  background-color: #00263d;
+  background-color: #22282b;
   padding: 64px;
   align-content: center;
   flex-direction: column;
