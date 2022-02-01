@@ -35,7 +35,7 @@ export default function Layout({
         <link rel="icon" href="/helseatlas/img/logos/favicon.ico" />
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Open+Sans"
+          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@200..900"
         ></link>
       </Head>
       <div className={styles.grid_wrapper}>
