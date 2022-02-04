@@ -17,6 +17,8 @@ Det finnes fra tidligere av lite kunnskap om hvordan fordelingen av helsetjenest
 
 Helseatlas er utviklet i Helse Nord RHF ved SKDE Senter for klinisk dokumentasjon og evaluering for å bidra med slik kunnskap fra Norge. Helse Nord og Helse Vest fikk i 2015 i oppdrag fra Helse og omsorgsdepartementet å utvikle et nasjonalt helseatlas i samarbeid med Helsedirektoratet. I Helse Vest ivaretas oppdraget av Helse Førde HF.
 
+[Kontaktinformasjon](/helseatlas/statisk/kontakt)
+
 Formålet med atlaset er å bidra til å skape likeverdige tjenester av god kvalitet. Riktig tilbud skal bli tilbudt riktig pasient, og man skal hindre overforbruk, underforbruk og unødig ressursforbruk.
 
 ## Målgrupper
