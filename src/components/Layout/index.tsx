@@ -61,46 +61,38 @@ export default function Layout({
         {children}
         <footer className={`${styles.full_bleed} ${styles.footer_container}`}>
           <div className={styles.footer__top}>
-            <div>
-              <Image
-                loader={imgLoader}
-                src={`/helseatlas/img/logos/SKDE_hvit_lys.png`}
-                height="40"
-                width="99"
-                alt="SKDE logo"
-                priority={true}
-              />
-            </div>
-            <div>
-              <strong>Telefon: </strong>
-              <a href="tel:77 75 58 00">77 75 58 00</a>
+            <div className={styles.footer_mid}>
+              <strong>
+                Senter for klinisk dokumentasjon og evaluering (SKDE)
+              </strong>
               <br />
-              <strong>E-post: </strong>
-              <Link href="mailto:postmottak@helse-nord.no">
-                <a>postmottak@helse-nord.no</a>
-              </Link>
+              Postboks 6
               <br />
-              <strong>Webredaktør: </strong>
-              <Link href="mailto:barthold.vonen@helse-nord.no">
-                <a>Barthold Vonen</a>
-              </Link>
+              9038 Tromsø
+              <br />
+              <br />
+              <strong>Helse Førde</strong>
+              <br />
+              Postboks 1000
+              <br />
+              6807 Førde
             </div>
-            <div className={styles.footer__social}>
-              <Link href="https://helse-nord.no/skde/kontakt-skde">
-                <a title="Link til kontakt SKDE">Kontakt</a>
+            <div className={styles.footer_mid}>
+              <Link href="/statisk/kontakt">
+                <a title="Link til kontakt">Kontakt</a>
               </Link>
-              <Link href={`${origin}/personvern`}>
+              <Link href="/statisk/personvern">
                 <a title="link til personvern">Personvern</a>
               </Link>
             </div>
           </div>
           <div className={styles.footer__bottom}>
-            <div className={styles.footer__partner_l}>
-              <Link href="http://www.helse-nord.no/">
+            <div className={styles.footer_logos}>
+              <Link href="https://helse-nord.no/">
                 <a title="Link til Helse Nord">
                   <Image
                     loader={imgLoader}
-                    src={`/helseatlas/img/logos/hf_nord-white.svg`}
+                    src={`/helseatlas/img/logos/helse-nord-hvit.svg`}
                     height="40px"
                     width="180px"
                     alt="Helse Nord logo"
@@ -108,28 +100,41 @@ export default function Layout({
                 </a>
               </Link>
             </div>
-            <div className={styles.footer__partner_m}>
-              <Link href="https://www.kvalitetsregistre.no/">
-                <a title="Link til Kvalitetsregistre">
+            <div className={styles.footer_logos}>
+              <Link href="https://www.skde.no/">
+                <a title="Link til SKDE">
                   <Image
                     loader={imgLoader}
-                    src={`/helseatlas/img/logos/NSM_logo_hvit.png`}
+                    src={`/helseatlas/img/logos/skde-hvit.svg`}
                     height="40px"
-                    width="359px"
-                    alt="NSM logo"
+                    width="180px"
+                    alt="SKDE logo"
                   />
                 </a>
               </Link>
             </div>
-            <div className={styles.footer_partner_r}>
-              <Link href="/">
-                <a title="Link til Helseatlas">
+            <div className={styles.footer_logos}>
+              <Link href="https://helse-forde.no/">
+                <a title="Link til Helse Førde">
                   <Image
                     loader={imgLoader}
-                    src={`/helseatlas/img/logos/Logo_atlas_hvit.png`}
+                    src={`/helseatlas/img/logos/helse-forde-hvit.svg`}
                     height="40px"
-                    width="146px"
-                    alt="Helseatlas logo"
+                    width="180px"
+                    alt="Helse Førde logo"
+                  />
+                </a>
+              </Link>
+            </div>
+            <div className={styles.footer_logos}>
+              <Link href="https://helse-vest.no/">
+                <a title="Link til Helse Vest">
+                  <Image
+                    loader={imgLoader}
+                    src={`/helseatlas/img/logos/helse-vest-hvit.svg`}
+                    height="40px"
+                    width="180px"
+                    alt="Helse Vest logo"
                   />
                 </a>
               </Link>
