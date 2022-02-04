@@ -239,8 +239,6 @@
   justify-content: space-between;
   width: 100%;
   max-width: 60rem;
-  border-top: 1px solid #27485b;
-  border-bottom: 1px solid #27485b;
 }
 .footer__bottom > div {
   padding: 16px;
