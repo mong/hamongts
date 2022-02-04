@@ -2,13 +2,8 @@ import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
 import matter from "gray-matter";
-import remarkToc from "remark-toc";
-import remarkSlug from "remark-slug";
 
-import Layout from "../../src/components/Layout";
-import { TopBanner } from "../../src/components/Atlas/topBanner";
-import styles from "../../src/styles/Atlas.module.css";
-import ReactMarkdown from "react-markdown";
+import { AtlasContent } from "../../src/components/Atlas/classic";
 
 interface AtlasPageProps {
   content: string;
@@ -27,21 +22,7 @@ interface AtlasPageProps {
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
   return (
     <>
-      <Layout>
-        <main>
-          <TopBanner {...frontMatter} />
-          <div className={`${styles.atlasContent}`}>
-            <ReactMarkdown
-              remarkPlugins={[
-                [remarkToc, { heading: "Content", maxDepth: 3, tight: true }],
-                remarkSlug,
-              ]}
-            >
-              {content}
-            </ReactMarkdown>
-          </div>
-        </main>
-      </Layout>
+      <AtlasContent content={content} frontMatter={frontMatter} />
     </>
   );
 };
