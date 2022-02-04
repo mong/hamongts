@@ -1,21 +1,9 @@
 import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
-
-import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
-import rehypeToc from "rehype-toc";
-import rehypeSlug from "rehype-slug";
-import rehypeRaw from "rehype-raw";
-import { rehypeWrapWithDiv } from "../../src/helpers/functions/rehypeplugins";
-import remarkGfm from "remark-gfm";
 
-import Layout from "../../src/components/Layout";
-import { TopBanner } from "../../src/components/Atlas/topBanner";
-import { TableOfContents } from "../../src/components/toc";
-import { OrderedList } from "../../src/components/toc/orderedlist";
-import { ListItem } from "../../src/components/toc/listitem";
-import styles from "../../src/styles/Atlas.module.css";
+import { AtlasContent } from "../../src/components/Atlas/classic";
 
 interface AtlasPageProps {
   content: string;
@@ -26,82 +14,33 @@ interface AtlasPageProps {
     pdfUrl: string;
     ia: boolean;
     lang: string;
-    report_text: string;
-    map_text: string;
   };
 }
 
+const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
+
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
-  const text = `
-  <h1>${frontMatter.mainTitle}</h1>
-  ${content}
-  `;
   return (
     <>
-      <Layout>
-        <main>
-          <TopBanner {...frontMatter} />
-          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
-            <ReactMarkdown
-              rehypePlugins={[
-                rehypeWrapWithDiv,
-                rehypeRaw,
-                rehypeSlug,
-                [
-                  rehypeToc,
-                  {
-                    headings: ["h2", "h3"],
-                  },
-                ],
-              ]}
-              remarkPlugins={[remarkGfm]}
-              components={{
-                nav({ children, className }) {
-                  if (className === "toc") {
-                    return <TableOfContents> {children}</TableOfContents>;
-                  }
-                  return <nav>{children}</nav>;
-                },
-                ol({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <OrderedList> {children}</OrderedList>;
-                  }
-                  return <ol>{children}</ol>;
-                },
-                li({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <ListItem> {children}</ListItem>;
-                  }
-                  return <li>{children}</li>;
-                },
-              }}
-            >
-              {text}
-            </ReactMarkdown>
-          </div>
-        </main>
-      </Layout>
+      <AtlasContent content={content} frontMatter={frontMatter} />
     </>
   );
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
-  const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
-  const file = fs.readFileSync(fullPath);
+  const file = fs.readFileSync(
+    path.join(atlasDir, `${context.params.atlas}.md`)
+  );
   const { content, data } = matter(file);
-
   return {
     props: { content, frontMatter: { ...data } },
   };
 };
 
-export const getStaticPaths: GetStaticPaths = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = fs
     .readdirSync(atlasDir)
     .map((Info) => ({ params: { atlas: Info.replace(/.md?$/, "") } }));
-
   return {
     paths,
     fallback: false,

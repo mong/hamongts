@@ -9,13 +9,18 @@ interface Props {
   children: any;
   title?: string;
   page?: string;
+  lang: string;
 }
 
 export default function Layout({
   children,
   title = "Helseatlas",
-  page,
+  lang,
 }: Props) {
+  let home: string = "/helseatlas";
+  if (lang === "en") {
+    home = "/helseatlas/en";
+  }
   const [origin, setOrigin] = useState("");
   useEffect(() => {
     setOrigin(window.location.origin);
@@ -37,7 +42,7 @@ export default function Layout({
       <div className={styles.grid_wrapper}>
         <header className={`${styles.header_container}`}>
           <div className={styles.header_logo}>
-            <Link href={`${origin}/helseatlas`}>
+            <Link href={`${origin}${home}`}>
               <a rel="home">
                 <Image
                   loader={imgLoader}

@@ -8,8 +8,6 @@ interface TopBannerProps {
   pdfUrl: string;
   ia: boolean;
   lang: string;
-  report_text: string;
-  map_text: string;
 }
 
 export const TopBanner: React.FC<TopBannerProps> = ({
@@ -17,15 +15,15 @@ export const TopBanner: React.FC<TopBannerProps> = ({
   pdfUrl,
   ia,
   lang,
-  report_text,
-  map_text,
 }) => {
+  let frontpage: string;
+  let href: string;
   if (lang === "en") {
-    report_text = "Report";
-    map_text = "Map";
+    frontpage = "Front page";
+    href = "/helseatlas/en/";
   } else if (lang === "no") {
-    report_text = "Rapport";
-    map_text = "Kart";
+    frontpage = "Forside";
+    href = "/helseatlas/";
   }
   return (
     <div className={style.atlasTopBanner}>
@@ -34,8 +32,8 @@ export const TopBanner: React.FC<TopBannerProps> = ({
           aria-label="breadcrumb"
           separator={<NavigateNextIcon htmlColor="#D3D7DA" />}
         >
-          <Link underline="hover" color="#034584" href="/helseatlas/">
-            Forside
+          <Link underline="hover" color="#034584" href={href}>
+            {frontpage}
           </Link>
           <Link color="text.primary" underline="none">
             {mainTitle}

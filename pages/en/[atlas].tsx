@@ -14,10 +14,10 @@ interface AtlasPageProps {
     pdfUrl: string;
     ia: boolean;
     lang: string;
-    report_text: string;
-    map_text: string;
   };
 }
+
+const atlasDir = path.join(process.cwd(), "_posts/en/tidligere_atlas");
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
   return (
@@ -28,22 +28,19 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/en/tidligere_atlas");
-  const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
-  const file = fs.readFileSync(fullPath);
+  const file = fs.readFileSync(
+    path.join(atlasDir, `${context.params.atlas}.md`)
+  );
   const { content, data } = matter(file);
-
   return {
     props: { content, frontMatter: { ...data } },
   };
 };
 
-export const getStaticPaths: GetStaticPaths = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/en/tidligere_atlas");
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = fs
     .readdirSync(atlasDir)
     .map((Info) => ({ params: { atlas: Info.replace(/.md?$/, "") } }));
-
   return {
     paths,
     fallback: false,
