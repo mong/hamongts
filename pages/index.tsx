@@ -41,7 +41,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
   ));
 
   return (
-    <Layout>
+    <Layout lang="no">
       <div className={styles.full_bleed}>
         <div className={styles.banner_article}>
           <div className={styles.banner_article__content}>

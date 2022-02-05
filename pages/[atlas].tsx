@@ -37,7 +37,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
   const text = `<h1>${frontMatter.mainTitle}</h1><div className=ingress>${frontMatter.ingress}</div>${content}`;
   return (
     <>
-      <Layout>
+      <Layout lang="no">
         <main>
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
