@@ -41,6 +41,18 @@ export const TopBanner: React.FC<TopBannerProps> = ({
             {mainTitle}
           </Link>
         </Breadcrumbs>
+        <div className={style.rightbanner}>
+          {pdfUrl && (
+            <div>
+              <a href={pdfUrl}>{report_text}</a>
+            </div>
+          )}
+          {ia && (
+            <div className={style.map_button}>
+              <a href="ia/index.html">{map_text}</a>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

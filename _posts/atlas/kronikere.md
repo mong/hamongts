@@ -3,7 +3,6 @@ filename: kronikere
 num: 12
 mainTitle: Helseatlas for kroniske sykdommer
 shortTitle: Kronikere, 2015-2017
-pdfUrl: rapport
 lang: no
 kapitler: [{tittel: "TEST1"},
 {tittel: "TEST2"},
