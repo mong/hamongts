@@ -18,10 +18,16 @@ export const TopBanner: React.FC<TopBannerProps> = ({
 }) => {
   let frontpage: string;
   let href: string;
+  let report_text: string;
+  let map_text: string;
   if (lang === "en") {
+    report_text = "Report";
+    map_text = "Map";
     frontpage = "Front page";
     href = "/helseatlas/en/";
   } else if (lang === "no") {
+    report_text = "Rapport";
+    map_text = "Kart";
     frontpage = "Forside";
     href = "/helseatlas/";
   }
