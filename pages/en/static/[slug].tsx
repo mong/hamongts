@@ -3,9 +3,8 @@ import fs from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 
-import Page from "../../src/components/Static";
-
-const CONTENT_DIR = join(process.cwd(), "_posts/statisk");
+import Page from "../../../src/components/Static";
+const CONTENT_DIR = join(process.cwd(), "_posts/en/static");
 
 interface Props {
   content: string;
