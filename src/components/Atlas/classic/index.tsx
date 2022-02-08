@@ -15,7 +15,9 @@ import styles from "./classic.module.css";
 interface AtlasContentProps {
   content: string;
   frontMatter: {
+    num: string;
     mainTitle: string;
+    shortTitle: string;
     pdfUrl: string;
     ia: boolean;
     lang: string;
@@ -50,14 +52,23 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
               ]}
               remarkPlugins={[remarkGfm]}
               components={{
-                nav({ children }) {
-                  return <TableOfContents> {children}</TableOfContents>;
+                nav({ children, className }) {
+                  if (className === "toc") {
+                    return <TableOfContents> {children}</TableOfContents>;
+                  }
+                  return <nav>{children}</nav>;
                 },
-                ol({ children }) {
-                  return <OrderedList> {children}</OrderedList>;
+                ol({ children, className }) {
+                  if ((className ?? "").includes("toc")) {
+                    return <OrderedList> {children}</OrderedList>;
+                  }
+                  return <ol>{children}</ol>;
                 },
-                li({ children }) {
-                  return <ListItem> {children}</ListItem>;
+                li({ children, className }) {
+                  if ((className ?? "").includes("toc")) {
+                    return <ListItem> {children}</ListItem>;
+                  }
+                  return <li>{children}</li>;
                 },
               }}
             >
