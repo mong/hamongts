@@ -7,7 +7,7 @@ ia: true
 lang: no
 ---
 
-Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert
+Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert
 
 ## Fastlege og legevakt
 
@@ -35,7 +35,7 @@ Hvert år ble det i gjennomsnitt målt lungefunksjonen hos 44 % av de som oppsø
 
 ![lege2](/helseatlas/img/no/kols/lege2.png)
 
-**Figur:**  Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
+**Figur:** Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
 
 ![lege3](/helseatlas/img/no/kols/lege3.png)
 
@@ -63,7 +63,7 @@ Hvert år ble lungefunksjonen i gjennomsnitt målt hos 84 % av personene med pol
 
 ![poliklinikk1](/helseatlas/img/no/kols/poliklinikk1.png)
 
-**Figur:**  Personer med poliklinisk kontakt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
+**Figur:** Personer med poliklinisk kontakt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
 
 ![poliklinikk2](/helseatlas/img/no/kols/poliklinikk2.png)
 
@@ -93,11 +93,11 @@ Det var nesten tre ganger så mange personer per 10 000 innbyggere som ble akutt
 
 Ventilasjonsstøtte (BiPAP) ble gitt ved over 3 000 av nesten 17 000 årlige akuttinnleggelser. Andelen akuttinnleggelser hvor ventilasjonsstøtte ble gitt varierte fra 13,7 % i opptaksområdet til OUS til 26,4 % i opptaksområdet til Sykehuset i Vestfold.
 
-**Figur:**  Personer akuttinnlagt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
+**Figur:** Personer akuttinnlagt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
 
 ![akutt1_0](/helseatlas/img/no/kols/akutt1_0.png)
 
-**Figur:**  Personer akuttinnlagt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
+**Figur:** Personer akuttinnlagt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
 
 ![akutt2_0](/helseatlas/img/no/kols/akutt2_0.png)
 

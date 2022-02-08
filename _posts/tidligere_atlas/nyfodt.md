@@ -7,7 +7,9 @@ ia: true
 lang: no
 ---
 
-Hovedfunnene er oppsummert under, og der finner du også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske boområdene er kort kommentert.
+<div className="ingress">
+Hovedfunnene er oppsummert under, og der finner du også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske boområdene er kort kommentert.
+</div>
 
 ## Innleggelser i nyfødtmedisinske avdelinger
 
