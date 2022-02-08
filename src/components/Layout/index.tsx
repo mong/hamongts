@@ -55,8 +55,8 @@ export default function Layout({
             </Link>
           </div>
           <div className={styles.header_links}>
-            <Link href="/statisk/om">
-              <a>Om oss</a>
+            <Link href={lang === "en" ? "/en/static/about" : "/statisk/om"}>
+              <a>{lang === "en" ? "About" : "Om oss"}</a>
             </Link>
           </div>
         </header>
@@ -80,11 +80,21 @@ export default function Layout({
               6807 Førde
             </div>
             <div className={styles.footer_mid}>
-              <Link href="/statisk/kontakt">
-                <a title="Link til kontakt">Kontakt</a>
+              <Link
+                href={lang === "en" ? "/en/static/contact" : "/statisk/kontakt"}
+              >
+                <a title="Link til kontakt">
+                  {lang === "en" ? "Contact" : "Kontakt"}
+                </a>
               </Link>
-              <Link href="/statisk/personvern">
-                <a title="link til personvern">Personvern</a>
+              <Link
+                href={
+                  lang === "en" ? "/en/static/privacy" : "/statisk/personvern"
+                }
+              >
+                <a title="link til personvern">
+                  {lang === "en" ? "Privacy" : "Personvern"}
+                </a>
               </Link>
             </div>
           </div>
