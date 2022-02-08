@@ -7,8 +7,6 @@ ia: true
 lang: no
 ---
 
-## Hovudfunn
-
 Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
 - [Barn og unge - poliklinikk](/helseatlas/files/phv_faktaark_barnunge_poliklinikk.pdf)

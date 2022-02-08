@@ -40,8 +40,9 @@ context("Classic atlases", () => {
   });
 
   it("should visit an atlas without ToC", () => {
-    cy.visit("/utdatert/dagkir");
-    cy.get("h1").contains("Dagkirurgi i Norge 2011–2013");
+    cy.visit("/utdatert/psyk");
+    cy.get("h1").contains("Helseatlas for psykisk helsevern og rusbehandling");
+    cy.get("nav").get("ol").get("li");
   });
 
   it("should visit an English atlas", () => {
