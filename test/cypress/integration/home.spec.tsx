@@ -53,4 +53,13 @@ context("Classic atlases", () => {
   });
 });
 
+context("Modern atlases", () => {
+  it("should visit an atlas", () => {
+    cy.visit("/kronikere");
+    cy.get("h1").contains("Helseatlas for kroniske sykdommer");
+    /* Go into the ToC */
+    cy.get("nav").get("ol").get("li").get("a").contains("Parkinson").click();
+  });
+});
+
 export {};
