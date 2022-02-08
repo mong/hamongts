@@ -17,7 +17,7 @@ interface Props {
 
 const Content = ({ content, frontMatter }: Props) => {
   return (
-    <Layout page={frontMatter.title}>
+    <Layout lang="no">
       <div className={styles.container}>
         <div className={styles.article__title}>
           <h1>{frontMatter.title}</h1>
