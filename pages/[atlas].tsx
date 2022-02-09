@@ -1,16 +1,24 @@
 import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
+
+import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
-import remarkToc from "remark-toc";
-import remarkSlug from "remark-slug";
+import rehypeToc from "rehype-toc";
+import rehypeSlug from "rehype-slug";
+import rehypeRaw from "rehype-raw";
+import { rehypeWrapWithDiv } from "../src/helpers/functions/rehypeplugins";
+import remarkGfm from "remark-gfm";
 
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
-import styles from "../src/styles/Home.module.css";
-import ReactMarkdown from "react-markdown";
+import { TableOfContents } from "../src/components/toc";
+import { OrderedList } from "../src/components/toc/orderedlist";
+import { ListItem } from "../src/components/toc/listitem";
+import styles from "../src/styles/Atlas.module.css";
 
 interface AtlasPageProps {
+  text: string;
   content: string;
   frontMatter: {
     num: string;
@@ -21,23 +29,53 @@ interface AtlasPageProps {
     lang: string;
     report_text: string;
     map_text: string;
+    ingress: string;
   };
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
+  const text = `<h1>${frontMatter.mainTitle}</h1><div className=ingress>${frontMatter.ingress}</div>${content}`;
   return (
     <>
-      <Layout>
+      <Layout lang="no">
         <main>
           <TopBanner {...frontMatter} />
-          <div className={`${styles.atlasContent}`}>
+          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown
-              remarkPlugins={[
-                [remarkToc, { heading: "Innhold", maxDepth: 3, tight: true }],
-                remarkSlug,
+              rehypePlugins={[
+                rehypeWrapWithDiv,
+                rehypeRaw,
+                rehypeSlug,
+                [
+                  rehypeToc,
+                  {
+                    headings: ["h2", "h3"],
+                  },
+                ],
               ]}
+              remarkPlugins={[remarkGfm]}
+              components={{
+                nav({ children, className }) {
+                  if (className === "toc") {
+                    return <TableOfContents> {children}</TableOfContents>;
+                  }
+                  return <nav>{children}</nav>;
+                },
+                ol({ children, className }) {
+                  if ((className ?? "").includes("toc")) {
+                    return <OrderedList> {children}</OrderedList>;
+                  }
+                  return <ol>{children}</ol>;
+                },
+                li({ children, className }) {
+                  if ((className ?? "").includes("toc")) {
+                    return <ListItem> {children}</ListItem>;
+                  }
+                  return <li>{children}</li>;
+                },
+              }}
             >
-              {content}
+              {text}
             </ReactMarkdown>
           </div>
         </main>
