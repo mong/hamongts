@@ -1,12 +1,13 @@
 import style from "./topbanner.module.css";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Link from "@mui/material/Link";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 interface TopBannerProps {
   mainTitle: string;
   pdfUrl: string;
   ia: boolean;
   lang: string;
-  report_text: string;
-  map_text: string;
 }
 
 export const TopBanner: React.FC<TopBannerProps> = ({
@@ -14,28 +15,37 @@ export const TopBanner: React.FC<TopBannerProps> = ({
   pdfUrl,
   ia,
   lang,
-  report_text,
-  map_text,
 }) => {
-  if (lang === "en") {
-    report_text = "Report";
-    map_text = "Map";
-  } else if (lang === "no") {
-    report_text = "Rapport";
-    map_text = "Kart";
-  }
   return (
     <div className={style.atlasTopBanner}>
       <div className={style.bannerWrapper}>
-        <h1>{mainTitle}</h1>
-        <div>
-          <a href={pdfUrl}>{report_text}</a>
+        <Breadcrumbs
+          aria-label="breadcrumb"
+          separator={<NavigateNextIcon htmlColor="#D3D7DA" />}
+        >
+          <Link
+            underline="hover"
+            color="#034584"
+            href={lang === "en" ? "/helseatlas/en/" : "/helseatlas/"}
+          >
+            {lang === "en" ? "Front page" : "Forside"}
+          </Link>
+          <Link color="text.primary" underline="none">
+            {mainTitle}
+          </Link>
+        </Breadcrumbs>
+        <div className={style.rightbanner}>
+          {pdfUrl && (
+            <div>
+              <a href={pdfUrl}>{lang === "en" ? "Report" : "Rapport"}</a>
+            </div>
+          )}
+          {ia && (
+            <div className={style.map_button}>
+              <a href="ia/index.html">{lang === "en" ? "Map" : "Kart"}</a>
+            </div>
+          )}
         </div>
-        {ia && (
-          <div>
-            <a href="ia/index.html">{map_text}</a>
-          </div>
-        )}
       </div>
     </div>
   );

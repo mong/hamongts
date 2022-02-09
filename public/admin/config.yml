@@ -1,0 +1,63 @@
+backend:
+  name: github
+  repo: mong/hamongts
+  branch: netlifyCMS
+  base_url: https://qa-mong-api.skde.org
+
+publish_mode: editorial_workflow
+logo_url: https://www.skde.no/img/logos/SKDE_sort.png
+media_folder: public/img
+public_folder: img
+collections:
+  - label: "Atlas"
+    name: "atlas"
+    folder: "_posts/atlas"
+    create: true
+    identifier_field: filename
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - { label: "Publiseringsnummer", name: "num", widget: "number" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Rapport", name: "pdfUrl", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["no", "en"],
+        }
+  - label: "Tidligere atlas"
+    name: "tidligere_atlas"
+    folder: "_posts/tidligere_atlas"
+    create: true
+    fields:
+      - { label: "Publiseringsnummer", name: "num", widget: "number" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Rapport", name: "pdfUrl", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["no", "en"],
+        }
+  - label: "Tidligere engelske atlas"
+    name: "tidligere_eng_atlas"
+    folder: "_posts/en/tidligere_atlas"
+    create: true
+    fields:
+      - { label: "Publiseringsnummer", name: "num", widget: "number" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Rapport", name: "pdfUrl", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["no", "en"],
+        }

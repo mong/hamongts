@@ -1,7 +1,7 @@
 import path from "path";
 import styles from "../../src/styles/Home.module.css";
 import Layout from "../../src/components/Layout";
-import { AtlasLinkEn } from "../../src/components/Btns/AtlasLink";
+import { AtlasLink } from "../../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../../src/helpers/functions/markdownHelpers";
 
@@ -16,21 +16,21 @@ interface HomeProps {
 
 const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
   const Links = atlasInfo.map((atlas) => (
-    <AtlasLinkEn
+    <AtlasLink
       key={atlas.article}
-      linkTo={atlas.article}
+      linkTo={`en/${atlas.article}`}
       style={{ height: "200px" }}
     >
       <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLinkEn>
+    </AtlasLink>
   ));
 
   return (
-    <Layout>
+    <Layout lang="en">
       <div className={styles.full_bleed}>
         <div className={styles.banner_article}>
           <div className={styles.banner_article__content}>
-            <h2>Equitable health services – regardless of where you live?</h2>
+            <h1>Equitable health services – regardless of where you live?</h1>
             <p>
               The Norwegian healthcare atlases compares the population&apos;s
               use of health services using interactive maps, reports and fact
@@ -50,7 +50,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/en/atlas");
+  const atlasDir = path.join(process.cwd(), "_posts/en/tidligere_atlas");
   const atlasInfo = getMDInfo(atlasDir);
 
   return {

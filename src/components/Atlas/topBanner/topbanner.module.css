@@ -1,6 +1,4 @@
 .atlasTopBanner {
-  background-color: rgba(222, 231, 238, 0.8);
-  height: 200px;
   width: 100vw;
   display: flex;
   align-items: center;
@@ -12,4 +10,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.rightbanner {
+  justify-content: space-between;
+  display: flex;
+}
+
+.map_button {
+  padding-left: 2ex;
 }

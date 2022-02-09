@@ -1,53 +1,67 @@
 ---
+filename: kronikere
 num: 12
-mainTitle: Helseatlas for kronisk syke
+mainTitle: Helseatlas for kroniske sykdommer
 shortTitle: Kronikere, 2015-2017
-pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
-ia: false
 lang: no
+kapitler: [{tittel: "TEST1"},
+{tittel: "TEST2"},
+{tittel: "TEST3"}]
+ingress: >
+  I Norge er det en overordnet helsepolitisk målsetning at helsetjenestene skal være likeverdig fordelt uavhengig av blant annet bosted. Likevel er det dokumentert, blant annet gjennom tidligere helseatlas, at hvilken behandling man får i spesialisthelsetjenesten kan være avhengig av hvor i landet man er bosatt – med andre ord; bruk av helsetjenester varierer geografisk. Helseatlas for kroniske sykdommer beskriver geografisk variasjon i bruk av helsetjenester for ti utvalgte kroniske sykdommer. 
 ---
 
-## Innhold
+I Helseatlas for gynekologi har vi kartlagt geografisk variasjon i bruken av et utvalg av spesialisthelsetjenester innen gynekologi i perioden 2015–2017. Til tross for at en faglig veileder utarbeidet av Norsk gynekologisk forening har vært tilgjengelig siden midten av 1990-tallet tyder resultatene i dette helseatlaset på at det likevel eksisterer til dels store variasjoner i praksis på feltet.
 
-Leddgikt er en betennelsestilstand der immunforsvaret angriper kroppens celler i leddene.
-Mennesker som er rammet av leddgikt kan oppleve smerter og funksjonsbegrensninger som kan gi redusert livskvalitet og i alvorlige tilfeller også redusert livslengde.
-De siste årene har nye behandlingsmetoder gitt vesentlig bedre leveutsikter for mennesker med leddgikt.
+Helseatlas for gynekologi preges først og fremst av stor geografisk variasjon som truer målsettingen om likeverdige helsetjenester. Resultatene tyder på at det er til dels store variasjoner i behandlingspraksis for mange av undersøkelsene og behandlingene som er studert i atlaset. Variasjonen aktualiserer diskusjonen om over- og underbehandling relatert til flere av disse tjenestene, og atlaset burde kunne være et konstruktivt underlag for målrettet arbeid med å redusere praksisvariasjon.
 
 ### Hovedfunn
 
-- Stor og uberettiget geografisk variasjon i bruk av leddinjeksjoner og polikliniske kontakter per pasient
-- Svært stor geografisk variasjon i bruk av ultralydveiledning ved leddinjeksjoner
-- Antall polikliniske kontakter per pasient varierte fra 4 for bosatte i Osloområdet til 2 for bosatte i Helgeland
+- Det var stor geografisk variasjon i bruk av kolposkopi, biopsi av livmorhalsen og biopsi/utskrapning av livmorslimhinnen ved utredning for kreft/forstadier til kreft i livmor og livmorhals.
+- Det var stor geografisk variasjon i bruk av gynekologisk kirurgi, med unntak av kirurgisk behandling av muskelknuter i livmor.
+- Det var stor geografisk variasjon i andelen åpne inngrep ved gynekologisk kirurgi.
+- Størrelsen på den observerte variasjonen aktualiserer diskusjonen om over- og underbehandling relatert til flere av disse tjenestene.
 
-### Hva har vi funnet ut?
+## Multippel sklerose
 
-Vi finner at i perioden 2017-2019 var det stor geografisk variasjon i bruk av leddinjeksjoner med kortison.
-Ved periodevise forverringer kan leddgikt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos
-privatpraktiserende spesialist (avtalespesialist). Kortisonbehandling kan gi effektiv lindring, men kan også gi bivirkninger ved bruk over lengre tid.
-Vi finner at i perioden 2017-2019 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland.
-Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,7% for bosatte i opptaksområdet Førde til 77% for bosatte i opptaksområdet Vestfold.
-Ultralydveiledning gir bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt og er derfor anbefalt.
+De siste årene er det en økende andel pasienter som får høyaktiv behandling. Slik behandling har god forebyggende effekt, men kan for noen få gi livstruende bivirkninger. En del av de høyaktive medikamentene er kostbare, hvilket har medført at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som er i bruk.
 
-FIGUR HER
+### Bruk av høyaktiv behandling
 
-Det var stor geografisk variasjon i antall polikliniske kontakter per pasient for personer med leddgikt i perioden 2017-2019. Antall polikliniske kontakter gir en indikasjon på intensiteten i
-oppfølgingen av pasientene. Vi finner at bosatte i opptaksområdene Lovisenberg, OUS og Diakonhjemmet i snitt fikk ca 4 kontakter per pasient i perioden 2017-2019, mens bosatte i opptaksområdet
-Helgeland fikk 2 kontakter per pasient.
+De siste årene er det en økende andel pasienter som får høyaktiv behandling. Slik behandling har god forebyggende effekt, men kan for noen få gi livstruende bivirkninger. En del av de høyaktive medikamentene er kostbare, hvilket har medført at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som er i bruk
 
-FIGUR HER
+FUNFACTS
 
-### Hva betyr resultatene?
+### Bruk av høyaktiv behandling
 
-Siden det ikke er noen kjent geografisk variasjon i forekomsten av leddgikt er det ikke forventet at bruk av spesialisthelsetjenester knyttet til sykdommen skal variere mye geografisk. På grunn av tilfeldigheter
-(hvor mange som får sykdommen per år, hvor mange som opplever forverringer og hvor ofte osv) vil det alltid være noe geografisk variasjon. Ulike pasientpreferanser knyttet til valg av behandling vil
-også kunne gi noe geografisk variasjon. Dette er imidlertid ikke forventet å gi opphav til stor variasjon, slik som vi finner både når det gjelder bruk av leddinjeksjoner og bruk av polikliniske
-kontakter per pasient. Vi mener derfor at den observerte geografiske variasjonen er uberettiget og tyder på ulik behandlingspraksis.
+De siste årene er det en økende andel pasienter som får høyaktiv behandling. Slik behandling har god forebyggende effekt, men kan for noen få gi livstruende bivirkninger. En del av de høyaktive medikamentene er kostbare, hvilket har medført at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som er i bruk
 
-Blablabla... litt mer tolkning... diskusjon...ladidah...
+BOKS
 
-### Hvordan har vi gjort det?
+## Parkinson
 
-Pasienter med leddgikt er definert som pasienter med tilstandskode M05, M06, M07, M45, M461 og M468.
-Leddinjeksjoner er definert som kontakter med prosedyrekode NAX10, NAX11, NBX10, NBX11, NCX10, NCX11, NDX10, NDX11, NEX10, NEX11, NFX10, NFX11, NGX10, NGX11, NHX10, NHX11
-Leddinjeksjoner med ultralydveiledning er definert ved prosedyrekode NXA10K eller takst 125b.
-Hvis du vil vite mer om definisjoner og hvordan analysene er gjort kan du lese om det [på denne siden](www.lenketilmetodebeskrivelserher.no).
+blablabla
+
+## Akuttinnleggelser
+
+blablabla
+
+## Migrene
+
+blablabla
+
+## Epilepsi
+
+blablabla
+
+### Personer med epilepsi
+
+blablabla
+
+### Akuttinnleggelser
+
+blablabla
+
+### Bruk av poliklinikk
+
+blablabla

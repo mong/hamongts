@@ -1,9 +1,12 @@
+.github/
+.next/
+.nyc_output/
+coverage/
+cypress/
 node_modules/
-build/
+public/utdatert/*/ia/
+public/en/*/ia/
 package-lock.json
 **/*.min.*
-.github/
+tsconfig.json
 yarn.lock
-.next
-public/*/ia/
-public/en/*/ia/
