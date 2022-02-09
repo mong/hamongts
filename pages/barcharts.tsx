@@ -8,7 +8,6 @@ import Layout from "../src/components/Layout";
 import styles from "../src/styles/Home.module.css";
 import { Barchart } from "../src/charts/barcharts";
 import { toBarchart } from "../src/helpers/functions/dataTransformation";
-import { Lab } from "../src/components/lab";
 
 export interface AtlasData {
   innbyggere: number;
@@ -35,7 +34,7 @@ const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
 
   return (
     <>
-      <Layout>
+      <Layout lang="no">
         <main>
           <div className={`${styles.atlasContent}`}>
             <Barchart
