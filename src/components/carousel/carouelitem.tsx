@@ -1,0 +1,20 @@
+import React, { useRef, forwardRef } from "react";
+
+export interface CarouselItemProps {
+  tag?: React.ElementType;
+  label: string;
+  children: React.ReactNode;
+}
+
+export const CarouselItem = forwardRef(
+  (
+    { tag: Tag = "div", children, ...rest }: CarouselItemProps,
+    externalRef: React.MutableRefObject<any>
+  ) => {
+    return (
+      <Tag ref={externalRef} className={`${"slideClasses"}${""}`} {...rest}>
+        {children}
+      </Tag>
+    );
+  }
+);
