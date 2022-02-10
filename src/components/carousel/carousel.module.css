@@ -1,0 +1,35 @@
+.carouselWrapper {
+  display: flex;
+  position: relative;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.prev {
+  position: absolute;
+  background-color: none;
+  height: 100%;
+  width: 15%;
+  z-index: 30;
+}
+
+.next {
+  position: absolute;
+  background-color: none;
+  height: 100%;
+  width: 15%;
+  left: 85%;
+  z-index: 30;
+}
+
+.prev button,
+.next button {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  background: inherit;
+  border: inherit;
+}
