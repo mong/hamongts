@@ -24,7 +24,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
   const wrapperRef = React.useRef<HTMLDivElement>();
   const wrapperWidth = useResizeObserver(wrapperRef)?.contentRect.width ?? 0;
   const wrapperHeight = useResizeObserver(wrapperRef)?.contentRect.height ?? 0;
-  const height = wrapperHeight;
+  const height = wrapperHeight - 100;
   const width =
     wrapperWidth < 350 ? 350 : wrapperWidth > 700 ? 700 : wrapperWidth;
 
@@ -65,7 +65,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
         display: "flex",
         flexDirection: "column",
         width: "100%",
-        height: "500px",
+        height: "600px",
         justifyContent: "space-around",
         alignItems: "center",
         overflow: "hidden",
@@ -101,7 +101,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
           style={{
             overflowX: wrapperWidth < 350 ? "scroll" : "hidden",
             width: width + "px",
-            height: height,
+            height: height + "px",
           }}
         >
           {transition((styles, item) => {

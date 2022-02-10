@@ -25,7 +25,7 @@ export const CarouselSelect = ({
     }
   };
   return (
-    <div style={{ width: "150px" }}>
+    <div style={{ width: "150px", alignSelf: "flex-end" }}>
       <FormControl fullWidth variant="standard">
         <InputLabel id={`${id}-select-label`}>{label}</InputLabel>
         <MuiSelect
