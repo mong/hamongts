@@ -19,4 +19,4 @@ export const CarouselItem = forwardRef(
   }
 );
 
-CarouselItem.displayName = "CarouselIte,";
+CarouselItem.displayName = "CarouselItem";
