@@ -1,4 +1,4 @@
-import React, { useRef, forwardRef } from "react";
+import React, { forwardRef } from "react";
 
 export interface CarouselItemProps {
   tag?: React.ElementType;
@@ -18,3 +18,5 @@ export const CarouselItem = forwardRef(
     );
   }
 );
+
+CarouselItem.displayName = "CarouselIte,";
