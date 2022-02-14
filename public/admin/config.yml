@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: mong/hamongts
-  branch: netlifyCMS
+  branch: develop
   base_url: https://qa-mong-api.skde.org
 
 publish_mode: editorial_workflow
