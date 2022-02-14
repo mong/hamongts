@@ -9,7 +9,7 @@ logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
 public_folder: img
 site_url: https://qa.skde.no/helseatlas/
-locale: "nn_no"
+locale: "nb_no"
 collections:
   - label: "Atlas"
     name: "atlas"
