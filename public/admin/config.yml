@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: mong/hamongts
-  branch: develop
+  branch: cms-fix
   base_url: https://qa-mong-api.skde.org
 
 publish_mode: editorial_workflow
