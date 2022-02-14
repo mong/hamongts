@@ -44,6 +44,14 @@ collections:
           widget: "select",
           options: ["no", "en"],
         }
+  - label: "Statiske sider"
+    name: "statiske_sider"
+    folder: "_posts/statisk"
+    create: true
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - { label: "Tittel", name: "title", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
   - label: "Tidligere engelske atlas"
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
@@ -61,3 +69,11 @@ collections:
           widget: "select",
           options: ["no", "en"],
         }
+  - label: "Statiske engelske sider"
+    name: "statiske_sider_en"
+    folder: "_posts/en/static"
+    create: true
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - { label: "Tittel", name: "title", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
