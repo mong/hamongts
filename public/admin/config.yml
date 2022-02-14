@@ -30,7 +30,7 @@ collections:
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
-    create: true
+    create: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -47,7 +47,7 @@ collections:
   - label: "Tidligere engelske atlas"
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
-    create: true
+    create: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
