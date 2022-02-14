@@ -5,9 +5,11 @@ backend:
   base_url: https://qa-mong-api.skde.org
 
 publish_mode: editorial_workflow
-logo_url: https://www.skde.no/img/logos/SKDE_sort.png
+logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
 public_folder: img
+site_url: https://qa.skde.no/helseatlas/
+locale: "nn_no"
 collections:
   - label: "Atlas"
     name: "atlas"
