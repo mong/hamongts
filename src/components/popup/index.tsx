@@ -50,7 +50,11 @@ export const PopUp = ({ children, btnComponent }) => {
                 ...styles,
               }}
             >
-              <button className={classNames.closeBtn} style={{}} onClick={() => setActive(false)}>
+              <button
+                className={classNames.closeBtn}
+                style={{}}
+                onClick={() => setActive(false)}
+              >
                 <AiOutlineCloseCircle style={{ alignSelf: "end" }} size={30} />
               </button>
               <ReactMarkdown>{children}</ReactMarkdown>
