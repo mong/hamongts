@@ -3,10 +3,14 @@ import csv from "csvtojson";
 import { GetStaticProps } from "next";
 import path from "path";
 
+import { AiOutlineCaretDown } from "react-icons/ai";
+
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+
+import { PopUp } from "../src/components/popup";
 
 import { Barchart } from "../src/charts/barcharts";
 import Layout from "../src/components/Layout";
@@ -126,6 +130,23 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
                 </div>
               </CarouselItem>
             </Carousel>
+            <PopUp
+              btnComponent={() => (
+                <div
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignContent: "center",
+                  }}
+                >
+                  <AiOutlineCaretDown size={18} /> <span>Kilde</span>
+                </div>
+              )}
+            >
+              {`## Hesle nord  
+      This is the first line.  
+      And this is the second line`}
+            </PopUp>
 
             <div
               style={{
