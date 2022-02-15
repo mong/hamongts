@@ -143,9 +143,7 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
                 </div>
               )}
             >
-              {`## Hesle nord  
-      This is the first line.  
-      And this is the second line`}
+              {`# Markdown  \n ## heading 2  \n 1. item 1 \n 1. item 2 \n 1. item 3 \n ### heading 3  \n - item 1 \n - item 2 \n - item 3 `}
             </PopUp>
 
             <div
