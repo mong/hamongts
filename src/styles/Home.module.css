@@ -139,7 +139,7 @@
   flex-wrap: wrap;
   position: relative;
   text-align: left;
-  justify-content: center;
+  justify-content: left;
 }
 .buttons > .block_buttons > .block_button {
   margin-right: 8px;
