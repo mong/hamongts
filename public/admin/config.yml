@@ -16,19 +16,26 @@ collections:
     folder: "_posts/atlas"
     create: true
     identifier_field: filename
+    widget: "object"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
-      - { label: "Rapport", name: "pdfUrl", widget: "string" }
-      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Tekstboks", name: "body", widget: "markdown" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
         }
+      - label: "Resultatboks"
+        name: resultatboks
+        widget: "object"
+        field:
+          - { label: "Tittel", name: "title", widget: "string" }
+          - { label: "Ingress", name: "ingress", widget: "markdown" }
+          - { label: "Tolkning", name: "tolkning", widget: "markdown" }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
