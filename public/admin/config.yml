@@ -16,7 +16,7 @@ collections:
     folder: "_posts/atlas"
     create: true
     identifier_field: filename
-    widget: "object"
+    widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
@@ -29,6 +29,7 @@ collections:
           widget: "select",
           options: ["no", "en"],
         }
+    types:
       - label: "Resultatboks"
         name: resultatboks
         widget: "object"
