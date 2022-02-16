@@ -29,10 +29,9 @@ collections:
           widget: "select",
           options: ["no", "en"],
         }
-    types:
       - label: "Resultatboks"
         name: resultatboks
-        widget: "object"
+        widget: "list"
         fields:
           - { label: "Tittel", name: "title", widget: "string" }
           - { label: "Ingress", name: "ingress", widget: "markdown" }
