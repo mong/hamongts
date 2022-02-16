@@ -1,4 +1,4 @@
-import { FactBox } from "../src/components/faktbox";
+import { FactBox } from "../src/components/Factbox";
 
 const FactBoxPage = () => {
   return (
