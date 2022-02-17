@@ -31,7 +31,7 @@ export const ImageBox: React.FC<Props> = ({
         height={height}
         layout={layout}
       />
-      <figcaption>{caption}</figcaption>
+      {caption && <figcaption>{caption}</figcaption>}
     </figure>
   );
 };
