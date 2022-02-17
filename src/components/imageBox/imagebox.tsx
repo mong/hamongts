@@ -7,6 +7,8 @@ interface Props {
   source: string;
   width: number;
   height: number;
+  title?: string;
+  layout?: "responsive" | "fixed" | "fill" | "intrinsic";
 }
 
 export const ImageBox: React.FC<Props> = ({
@@ -15,17 +17,21 @@ export const ImageBox: React.FC<Props> = ({
   source,
   width,
   height,
+  title,
+  layout = "responsive",
 }) => {
   return (
-    <div>
+    <figure style={{ display: "flex", flexDirection: "column" }}>
       <Image
         loader={imgLoader}
+        title={title}
         src={source}
         alt={alt}
         width={width}
         height={height}
+        layout={layout}
       />
-      <div>{caption}</div>
-    </div>
+      <figcaption>{caption}</figcaption>
+    </figure>
   );
 };
