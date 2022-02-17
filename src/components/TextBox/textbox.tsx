@@ -8,7 +8,7 @@ type TextBoxProps = {
   children: string;
 };
 
-export const FactBox: React.FC<TextBoxProps> = ({ children }) => {
+export const TextBox: React.FC<TextBoxProps> = ({ children }) => {
   return (
     <div>
       <ReactMarkdown
