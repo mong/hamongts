@@ -6,6 +6,7 @@ pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true
 lang: no
 ---
+
 <div className="ingress">
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert.
 </div>
@@ -20,21 +21,15 @@ Utvalget består av konsultasjoner for barn hos fastlege på dagtid eller i lege
 
 Hvert år foretas ca. 1,8 millioner konsultasjoner for barn 0-16 år i norsk primærhelsetjeneste. Dette gir en årlig forbruksrate på 168 000 konsultasjoner pr. 100 000 barn. Gjennomsnittlig har altså hvert barn årlig 1,7 konsultasjoner i primærhelsetjenesten. Rundt 17 % prosent av konsultasjonene er legevaktkonsultasjoner.
 
+![Konsultasjoner i primærhelsetjenesten](/helseatlas/img/no/barn/prim_kons1.png "Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+
+![Konsultasjoner i primærhelsetjenesten, fastlege og legevakt](/helseatlas/img/no/barn/prim_kons2.png "Konsultasjoner i primærhelsetjenesten, fastlege og legevakt, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+
 I 2014 hadde 65 % av alle barn minst en konsultasjon i primærhelsetjenesten, hvilket innebærer at gjennomsnittlig antall konsultasjoner var 2,6 for barn som var i kontakt med primærhelsetjenesten dette året. Rundt 9 % av barna hadde 5 konsultasjoner eller mer, og 1 % var hos primærlege mer enn 11 ganger i løpet av dette året.
 
 Antall konsultasjoner er høyest blant de yngste barna (under 4 år), og blant de yngste er det noe flere gutter enn jenter som har primærhelsetjenestekonsultasjoner. Fra 14-årsalderen er jenter oftere i kontakt med primærhelsetjenesten.
 
-**Figur:**  Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
-
-![Konsultasjoner i primærhelsetjenesten](/helseatlas/img/no/barn/prim_kons1.png "Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
-
-**Figur:** Konsultasjoner i primærhelsetjenesten, fastlege og legevakt, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
-
-![prim_kons2](/helseatlas/img/no/barn/prim_kons2.png)
-
-**Figur:**  Konsultasjoner i primærhelsetjenesten, alder og kjønn, gj.snitt 2011-2014.
-
-![prim_kons3](/helseatlas/img/no/barn/prim_kons3.png)
+![Konsultasjoner i primærhelsetjenesten, alder og kjønn](/helseatlas/img/no/barn/prim_kons3.png "Konsultasjoner i primærhelsetjenesten, alder og kjønn, gj.snitt 2011-2014.")
 
 ### Kommentarer
 
@@ -56,17 +51,11 @@ Det gjennomføres årlig 865 000 innleggelser, polikliniske konsultasjoner og da
 
 Forbruksraten er 40 % høyere i boområdet med høyest forbruk (Sørlandet) enn i boområdet med lavest forbruk (Stavanger). Bildet domineres i antall av poliklinikk og dagbehandling. Slik behandling er legeintensiv, men ellers lite ressurskrevende. Selv om innleggelsene bare representerer ca. 7 % av det totale antall pasientkontakter, representerer de en vesentlig andel av spesialisthelsetjenestens samlete ressursbruk til barn.
 
-**Figur:** Alle kontakter, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
+![Alle kontakter, forbruksrater](/helseatlas/img/no/barn/spes_kons1.png "Alle kontakter, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![spes_kons1](/helseatlas/img/no/barn/spes_kons1.png)
+![Alle kontakter, kontakttype](/helseatlas/img/no/barn/spes_kons2.png "Alle kontakter, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-**Figur:** Alle kontakter, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
-
-![spes_kons2](/helseatlas/img/no/barn/spes_kons2.png)
-
-**Figur:** Alle kontakter, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.
-
-![spes_kons3](/helseatlas/img/no/barn/spes_kons3.png)
+![Alle kontakter, pasientrater](/helseatlas/img/no/barn/spes_kons3.png "Alle kontakter, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -86,17 +75,11 @@ Det er hvert år ca. 61 000 innleggelser (64 % øyeblikkelig hjelp og 29 % for k
 
 Dersom alle boområder hadde hatt samme forbruksrate som booområdene for de seks universitetssykehusene, ville antall innleggelser blitt redusert med 13 %.
 
-**Figur:** Alle innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.
+![Alle innleggelser, forbruksrater](/helseatlas/img/no/barn/totalt_innleggelser1.png "Alle innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.")
 
-![totalt_innleggelser1](/helseatlas/img/no/barn/totalt_innleggelser1.png)
+![Alle innleggelser, hastegrad](/helseatlas/img/no/barn/totalt_innleggelser2.png "Alle innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-**Figur:** Alle innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
-
-![totalt_innleggelser2](/helseatlas/img/no/barn/totalt_innleggelser2.png)
-
-**Figur:** Alle innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.
-
-![totalt_innleggelser3](/helseatlas/img/no/barn/totalt_innleggelser3.png)
+![Alle innleggelser, pasientrater](/helseatlas/img/no/barn/totalt_innleggelser3.png "Alle innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -118,17 +101,11 @@ I boområdene Førde og Møre og Romsdal foregår 5 % av disse konsultasjonene h
 
 Tretti prosent av alle norske barn har årlig en eller flere konsultasjoner i spesialistpoliklinikker eller dagbehandlingsenheter. Kontaktfrekvensen for disse barna er 2,23 i boområde Finnmark og 2,85 i boområde Sørlandet. Forskjellen i kontaktfrekvens innebærer at det gjennomføres 620 flere konsultasjoner pr. 1 000 barn behandlet i boområde Sørlandet enn i boområde Finnmark.
 
-**Figur:** All poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
+![All poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/totalt_poli1.png "All poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![totalt_poli1](/helseatlas/img/no/barn/totalt_poli1.png)
+![All poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/totalt_poli2.png "All poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-**Figur:** All poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
-
-![totalt_poli2](/helseatlas/img/no/barn/totalt_poli2.png)
-
-**Figur:** All poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.
-
-![totalt_poli3](/helseatlas/img/no/barn/totalt_poli3.png)
+![All poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/totalt_poli3.png "All poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
