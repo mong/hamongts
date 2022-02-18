@@ -125,11 +125,11 @@ Forbruksraten er 1,4 ganger høyere for bosatte i boområde Sørlandet enn for b
 
 Poliklinikk og dagbehandling utgjør 93 % av alle pasientkontakter, men innleggelsene krever likevel en betydelig andel av de totale ressursene, på grunn av behovet for døgnbemanning av pleiepersonell og flere vaktlag med leger. Kontaktfrekvensen varierer fra 2,21 (Finnmark) til 2,92 (Sørlandet). Hvis boområdet med flest kontakter pr. pasient hadde redusert antall kontakter til nivået for boområdet med lavest kontaktfekvens, ville det ha ført til en reduksjon på 710 kontakter pr. 1 000 behandlede pasienter pr. år.
 
-![pediatri_totalt1](/helseatlas/img/no/barn/pediatri_totalt1.png "Alle kontakter, medisinske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Alle kontakter, medisinske tilstander, forbruksrater](/helseatlas/img/no/barn/pediatri_totalt1.png "Alle kontakter, medisinske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![pediatri_totalt2](/helseatlas/img/no/barn/pediatri_totalt2.png "Alle kontakter, medisinske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Alle kontakter, medisinske tilstander, kontakttype](/helseatlas/img/no/barn/pediatri_totalt2.png "Alle kontakter, medisinske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![pediatri_totalt3](/helseatlas/img/no/barn/pediatri_totalt3.png "Alle kontakter, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Alle kontakter, medisinske tilstander, pasientrater](/helseatlas/img/no/barn/pediatri_totalt3.png "Alle kontakter, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -149,11 +149,11 @@ Hvert år er legges 32 000 barn inn totalt 44 000 ganger med medisinsk diagnose 
 
 I boområde Vestfold er det dobbelt så mange sykehusinnleggelser og dobbelt så mange pasienter med innleggelse (pr. 100 000 barn), som i boområde Vestre Viken. Kontaktfrekvensen varierer fra 1,26 i boområde OUS til 1,42 i boområde Førde.
 
-![pediatri_innleggelser1](/helseatlas/img/no/barn/pediatri_innleggelser1.png "Medisinske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.")
+![Medisinske innleggelser, forbruksrater](/helseatlas/img/no/barn/pediatri_innleggelser1.png "Medisinske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.")
 
-![pediatri_innleggelser2](/helseatlas/img/no/barn/pediatri_innleggelser2.png "Medisinske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Medisinske innleggelser, hastegrad](/helseatlas/img/no/barn/pediatri_innleggelser2.png "Medisinske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![pediatri_innleggelser3](/helseatlas/img/no/barn/pediatri_innleggelser3.png "Medisinsk innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Medisinsk innleggelser, pasientrater](/helseatlas/img/no/barn/pediatri_innleggelser3.png "Medisinsk innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -173,11 +173,11 @@ Det gjennomføres årlig nærmere 550 000 polikliniske- og dagbehandlingskonsult
 
 I boområdene Førde og Møre og Romsdal gjennomføres henholdsvis 3 % og 4 % av konsultasjonene hos spesialister med offentlig driftsavtale, i OUS og Akershus 37 % og 39 %. Forbruksratene synes å være noe høyere i områder med et større innslag av private spesialister enn i områder med færre spesialister utenfor sykehus.
 
-![med_poli1](/helseatlas/img/no/barn/med_poli1.png "Poliklinikk/dagbehandling, medisinske tilstander, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Poliklinikk/dagbehandling, medisinske tilstander, forbruksrater](/helseatlas/img/no/barn/med_poli1.png "Poliklinikk/dagbehandling, medisinske tilstander, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![med_poli2](/helseatlas/img/no/barn/med_poli2.png "Poliklinikk/dagbehandling, medisinske tilstander, offentlig og privat, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Poliklinikk/dagbehandling, medisinske tilstander, offentlig og privat](/helseatlas/img/no/barn/med_poli2.png "Poliklinikk/dagbehandling, medisinske tilstander, offentlig og privat, forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![med_poli3](/helseatlas/img/no/barn/med_poli3.png "Poliklinikk/dagbehandling, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Poliklinikk/dagbehandling, medisinske tilstander, pasientrater](/helseatlas/img/no/barn/med_poli3.png "Poliklinikk/dagbehandling, medisinske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -203,9 +203,9 @@ Boområde OUS har 2,2 ganger så høy forbruksrate av kontakter med akutte diagn
 
 Et annet mønster finner man i forbruksratene for innleggelser. Boområdene Vestfold, Telemark og Innlandet, som alle ligger under landsgjennomsnittet når alle kontakter sees under ett, har likevel høye forbruksrater for innleggelser. Boområde Vestre Viken, Akershus og OUS, som har høye forbruksrater for alle kontakter, ligger lavest i forbruksrate for innleggelser. Stavanger ligger lavt i forbruksrate både for alle kontakter og for innleggelser.
 
-![akutt1](/helseatlas/img/no/barn/akutt1.png "Alle kontakter, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Alle kontakter, akuttdiagnoser](/helseatlas/img/no/barn/akutt1.png "Alle kontakter, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![akutt2](/helseatlas/img/no/barn/akutt2.png "Innleggelser, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Innleggelser, akuttdiagnoser](/helseatlas/img/no/barn/akutt2.png "Innleggelser, akuttdiagnoser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
 ### Kommentarer
 
@@ -225,11 +225,11 @@ Kontaktfrekvensen varierer fra 1,43 (boområde UNN) til 2,02 (boområdec Førde)
 
 Det er ingen systematisk endring i forbruksratene fra 2011 til 2014.
 
-![ped_epilepsi1](/helseatlas/img/no/barn/ped_epilepsi1.png "Epilepsi, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Epilepsi, innleggelser, forbruksrater](/helseatlas/img/no/barn/ped_epilepsi1.png "Epilepsi, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![ped_epilepsi2](/helseatlas/img/no/barn/ped_epilepsi2.png "Epilepsi, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Epilepsi, innleggelser, hastegrad](/helseatlas/img/no/barn/ped_epilepsi2.png "Epilepsi, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![ped_epilepsi3](/helseatlas/img/no/barn/ped_epilepsi3.png "Epilepsi, innleggelse, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Epilepsi, innleggelse, pasientrater](/helseatlas/img/no/barn/ped_epilepsi3.png "Epilepsi, innleggelse, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -247,11 +247,11 @@ Barn med forstoppelse utgjør 3 til 4 prosent av alle innleggelser av barn med m
 
 Barn med forstoppelse bosatt i boområde Sørlandet legges inn 3,9 ganger hyppigere enn barn bosatt i boområde UNN. I boområde OUS er 86 % av innleggelsene ø-hjelp, mens 42 % av innleggelsene i boområde Sørlandet er ø-hjelp. Det synes ikke å være systematisk forskjell i kontaktfrekvens, som gjennomgående er lav, mellom boområder med høy og lav forbrukssrate. Mange boområder, men ikke alle, viser en fallende forbruksrate fra 2011 til 2014.
 
-![pediatri_obstipasjon1](/helseatlas/img/no/barn/pediatri_obstipasjon1.png "Forstoppelse, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Forstoppelse, innleggelser, forbruksrater](/helseatlas/img/no/barn/pediatri_obstipasjon1.png "Forstoppelse, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![pediatri_obstipasjon2](/helseatlas/img/no/barn/pediatri_obstipasjon2.png "Forstoppelse, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Forstoppelse, innleggelser, hastegrad](/helseatlas/img/no/barn/pediatri_obstipasjon2.png "Forstoppelse, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![pediatri_obstipasjon3](/helseatlas/img/no/barn/pediatri_obstipasjon3.png "Forstoppelse, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Forstoppelse, innleggelser, pasientrater](/helseatlas/img/no/barn/pediatri_obstipasjon3.png "Forstoppelse, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -269,11 +269,11 @@ Innleggelser på grunn av bronkiolitt utgjør mellom 6 % og 7 % av alle innlegge
 
 Forbruksraten i boområde Innlandet er 2,6 ganger høyere enn forbruksraten i boområde Vestre Viken. Variasjonen i forbruksrater skyldes i stor grad at flere pasienter legges inn i høyforbruksområdene. Nesten alle pasientene i denne diagnosekategorien innlegges som øyeblikkelig hjelp.
 
-![pediatri_bronkiolitt1](/helseatlas/img/no/barn/pediatri_bronkiolitt1.png "Bronkiolitt, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Bronkiolitt, innleggelser, forbruksrater](/helseatlas/img/no/barn/pediatri_bronkiolitt1.png "Bronkiolitt, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![pediatri_bronkiolitt2](/helseatlas/img/no/barn/pediatri_bronkiolitt2.png "Bronkiolitt, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, gj.snitt 2011-2014.")
+![Bronkiolitt, innleggelser, hastegrad](/helseatlas/img/no/barn/pediatri_bronkiolitt2.png "Bronkiolitt, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-3 år, pr. boområde, gj.snitt 2011-2014.")
 
-![pediatri_bronkiolitt3](/helseatlas/img/no/barn/pediatri_bronkiolitt3.png "Bronkiolitt, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Bronkiolitt, innleggelser, pasientrater](/helseatlas/img/no/barn/pediatri_bronkiolitt3.png "Bronkiolitt, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-3 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -293,11 +293,11 @@ Boområde Bergen har forbruks- og pasientrater som er 2,8 ganger høyere enn boo
 
 Det er en tendens til fallende innleggelsesrater fra 2011 til 2014, spesielt i boområdene med de høyeste ratene. Variasjonen for boområdene med de tre laveste ratene er liten i perioden.
 
-![pediatri_luftvei1](/helseatlas/img/no/barn/pediatri_luftvei1.png "Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Virus- og luftveisinfeksjoner, innleggelser, forbruksrater](/helseatlas/img/no/barn/pediatri_luftvei1.png "Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![pediatri_luftvei2](/helseatlas/img/no/barn/pediatri_luftvei2.png "Virus- og luftveisinfeksjoner, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, gj.snitt 2011-2014.")
+![Virus- og luftveisinfeksjoner, innleggelser, hastegrad](/helseatlas/img/no/barn/pediatri_luftvei2.png "Virus- og luftveisinfeksjoner, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, gj.snitt 2011-2014.")
 
-![pediatri_luftvei3](/helseatlas/img/no/barn/pediatri_luftvei3.png "Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Virus- og luftveisinfeksjoner, innleggelser, pasientrater](/helseatlas/img/no/barn/pediatri_luftvei3.png "Virus- og luftveisinfeksjoner, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -319,11 +319,11 @@ Det er ingen tydelig forskjell i antall innleggelser pr. pasient (kontaktfrekven
 
 Man ser en tendens til fallende innleggelsesrater fra 2011 til 2014.
 
-![omgang_innl1](/helseatlas/img/no/barn/omgang_innl1.png "Omgangssyke, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Omgangssyke, innleggelser, forbruksrater](/helseatlas/img/no/barn/omgang_innl1.png "Omgangssyke, innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![omgang_innl2](/helseatlas/img/no/barn/omgang_innl2.png "Omgangssyke, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Omgangssyke, innleggelser, hastegrad](/helseatlas/img/no/barn/omgang_innl2.png "Omgangssyke, innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![omgang_innl3](/helseatlas/img/no/barn/omgang_innl3.png "Omgangssyke, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Omgangssyke, innleggelser, pasientrater](/helseatlas/img/no/barn/omgang_innl3.png "Omgangssyke, innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -343,11 +343,11 @@ Boområde Sørlandet har 2,5 ganger høyere forbruksrate og 1,7 ganger høyere p
 
 Det synes ikke være noen klar sammenheng mellom forbruksrater for poliklinikk og innleggelser. De to boområdene med høyest forbruksrate for poliklinikk (Sørlandet og Innlandet) har også høye forbruksrater for innleggelser, mens boområdene St. Olavs og OUS, som også har relativt mange polikliniske konsultasjoner, har lavest forbruksrater for innleggelser (se under hovedfunn Epilepsi - innleggelser).
 
-![epilepsi_poli1](/helseatlas/img/no/barn/epilepsi_poli1.png "Epilepsi, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Epilepsi, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/epilepsi_poli1.png "Epilepsi, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![epilepsi_poli2](/helseatlas/img/no/barn/epilepsi_poli2.png "Epilepsi, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Epilepsi, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/epilepsi_poli2.png "Epilepsi, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![epilepsi_poli3](/helseatlas/img/no/barn/epilepsi_poli3.png "Epilepsi, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Epilepsi, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/epilepsi_poli3.png "Epilepsi, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -367,11 +367,11 @@ Barn bosatt i Nord-Trøndelag har ca. fire ganger så mange polikliniske konsult
 
 Forstoppelse er en tilstand der tidlig intervensjon kan være viktig og både helsesøster og fastlege har viktige roller i tidlige faser.
 
-![obstipasjon_poli1](/helseatlas/img/no/barn/obstipasjon_poli1.png "Forstoppelse, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Forstoppelse, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/obstipasjon_poli1.png "Forstoppelse, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![obstipasjon_poli2](/helseatlas/img/no/barn/obstipasjon_poli2.png "Forstoppelse, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Forstoppelse, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/obstipasjon_poli2.png "Forstoppelse, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![obstipasjon_poli3](/helseatlas/img/no/barn/obstipasjon_poli3.png "Forstoppelse, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Forstoppelse, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/obstipasjon_poli3.png "Forstoppelse, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -391,13 +391,13 @@ I de fem boområdene med flest privatpraktiserende spesialister i barnesykdommer
 
 Mens kontaktfrekvensen i de fem boområdene med høy andel privat aktivitet er mellom 1,76 og 2,14, er kontaktfrekvensen for de med lavest andel privat aktivitet betydelig lavere. Dette tyder på at hver pasient kontrolleres oftere hos de private spesialistene enn på poliklinikkene i landet forøvrig. Forskjellen mellom høyeste og laveste kontaktfrekvens utgjør 740 flere konsultasjoner pr. 1 000 pasienter behandlet.
 
-![astma1](/helseatlas/img/no/barn/astma1.png "Astma, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Astma, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/astma1.png "Astma, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![astma2](/helseatlas/img/no/barn/astma2.png "Astma, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Astma, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/astma2.png "Astma, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
 **Figur:**
 
-![astma3](/helseatlas/img/no/barn/astma3.png "Astma, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Astma, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/astma3.png "Astma, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -419,11 +419,11 @@ Ca. 3 800 av konsultasjonene gjelder barn med bilyd på hjertet som ikke får p�
 
 Forbruksraten i boområde Førde er 2,2 ganger høyere enn raten for boområde Vestre Viken. Pasientraten for boområde Møre og Romsdal er 1,8 ganger høyere enn boområde UNN. Kontaktfrekvensen varier fra boområde Vestre Viken (1,37) til boområde Førde (1,88). Denne kontrasten tilsvarer 510 flere konsultasjoner pr. 1 000 pasienter behandlet.
 
-![kardiologi1](/helseatlas/img/no/barn/kardiologi1.png "Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Hjertemedisin, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/kardiologi1.png "Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![kardiologi2](/helseatlas/img/no/barn/kardiologi2.png "Hjertemedisin, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Hjertemedisin, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/kardiologi2.png "Hjertemedisin, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![kardiologi3](/helseatlas/img/no/barn/kardiologi3.png "Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Hjertemedisin, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/kardiologi3.png "Hjertemedisin, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -445,11 +445,11 @@ Kontaktfrekvensen varierer fra 1,45 i boområde Finnmark til 1,96 i boområde S�
 
 Sørlandet har den høyeste forbruksraten og er også det boområdet med størst andel private konsultasjoner. Det synes likevel ikke å være en gjennomgående sammenheng mellom totale forbruksrater og innslag av private spesialister i boområdene.
 
-![gastroenterologi1](/helseatlas/img/no/barn/gastroenterologi1.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Mage- og tarmsykdommer, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/gastroenterologi1.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![gastroenterologi2](/helseatlas/img/no/barn/gastroenterologi2.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Mage- og tarmsykdommer, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/gastroenterologi2.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![gastroenterologi3](/helseatlas/img/no/barn/gastroenterologi3.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Mage- og tarmsykdommer, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/gastroenterologi3.png "Mage- og tarmsykdommer, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -467,11 +467,11 @@ Det gjennomføres ca. 7 100 konsultasjoner hos 3 900 barn pr. år for sengevæti
 
 Kontaktfrekvensen varierer fra 1,29 i boområde Telemark til 2,74 i boområde Bergen. Det tilsvarer 1 450 konsultasjoner pr. 1 000 pasienter behandlet. Ca. 6 % av pasientene er under 6 år ved konsultasjonstidspunktet.
 
-![urologi1](/helseatlas/img/no/barn/urologi1.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Sengevæting og urinlekkasje, poliklinikk/dagbehandling, forbruksrater](/helseatlas/img/no/barn/urologi1.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![urologi2](/helseatlas/img/no/barn/urologi2.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Sengevæting og urinlekkasje, poliklinikk/dagbehandling, offentlig og privat](/helseatlas/img/no/barn/urologi2.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![urologi3](/helseatlas/img/no/barn/urologi3.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Sengevæting og urinlekkasje, poliklinikk/dagbehandling, pasientrater](/helseatlas/img/no/barn/urologi3.png "Sengevæting og urinlekkasje, poliklinikk/dagbehandling, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -493,11 +493,11 @@ Kirurgiske tilstander hos barn genererer ca. 270 000 konsultasjoner og innleggel
 
 Poliklinikk og dagbehandling utgjør 94 % av alle kirurgiske pasientkontakter. Barna som er i kontakt med spesialisthelsetjenesten har gjennomsnittlig mellom 1,61 og 1,89 kontakter pr. år.
 
-![kirurgi_totalt1](/helseatlas/img/no/barn/kirurgi_totalt1.png "Alle kontakter, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Alle kontakter, kirurgiske tilstander, forbruksrater](/helseatlas/img/no/barn/kirurgi_totalt1.png "Alle kontakter, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![kirurgi_totalt2](/helseatlas/img/no/barn/kirurgi_totalt2.png "Alle kontakter, kirurgiske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Alle kontakter, kirurgiske tilstander, kontakttype](/helseatlas/img/no/barn/kirurgi_totalt2.png "Alle kontakter, kirurgiske tilstander, kontakttype, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![kirurgi_totalt3](/helseatlas/img/no/barn/kirurgi_totalt3.png "Alle kontakter, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Alle kontakter, kirurgiske tilstander, pasientrater](/helseatlas/img/no/barn/kirurgi_totalt3.png "Alle kontakter, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kontakter pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -517,11 +517,11 @@ Både forbruks- og pasientraten for barn innlagt med kirurgisk diagnose er 1,8 g
 
 Det er ikke holdepunkter for ulik sykelighet eller ulikheter i rammevilkår mellom boområder som kan forklare variasjonen i forbruksratene. Forbrukssratene for kirurgi må imidlertid vurderes i lys av geografiske forhold som kan påvirke bruken av dagkirurgisk behandling.
 
-![kirurgi_innleggelser1](/helseatlas/img/no/barn/kirurgi_innleggelser1.png "Kirurgiske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.")
+![Kirurgiske innleggelser, forbruksrater](/helseatlas/img/no/barn/kirurgi_innleggelser1.png "Kirurgiske innleggelser, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år, referanseverdi og gj.snitt 2011-2014.")
 
-![kirurgi_innleggelser2](/helseatlas/img/no/barn/kirurgi_innleggelser2.png "Kirurgiske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Kirurgiske innleggelser, hastegrad](/helseatlas/img/no/barn/kirurgi_innleggelser2.png "Kirurgiske innleggelser, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![kirurgi_innleggelser3](/helseatlas/img/no/barn/kirurgi_innleggelser3.png "Kirurgiske innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kirurgiske innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
+![Kirurgiske innleggelser, pasientrater](/helseatlas/img/no/barn/kirurgi_innleggelser3.png "Kirurgiske innleggelser, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall kirurgiske innleggelser pr. pasient (kontaktfrekvens) og liggedøgnsrate.")
 
 ### Kommentarer
 
@@ -543,11 +543,11 @@ Det er årlig i overkant av 250 000 kirurgiske poliklinikk- og dagkonsultasjoner
 
 Mellom 7 % og 36 % av alle kirurgiske konsultasjoner foregår hos spesialister med privat driftsavtale med det offentlige. Fordelingen mellom private spesialister og sykehus synes ikke å påvirke totalforbruket.
 
-![kirurgi_poliklinikk1](/helseatlas/img/no/barn/kirurgi_poliklinikk1.png "Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Poliklinikk/dagbehandling, kirurgiske tilstander, forbruksrater](/helseatlas/img/no/barn/kirurgi_poliklinikk1.png "Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![kirurgi_poliklinikk2](/helseatlas/img/no/barn/kirurgi_poliklinikk2.png "Poliklinikk/dagbehandling, kirurgiske tilstander, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Poliklinikk/dagbehandling, kirurgiske tilstander, offentlig og privat](/helseatlas/img/no/barn/kirurgi_poliklinikk2.png "Poliklinikk/dagbehandling, kirurgiske tilstander, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![kirurgi_poliklinikk3](/helseatlas/img/no/barn/kirurgi_poliklinikk3.png "Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
+![Poliklinikk/dagbehandling, kirurgiske tilstander, pasientrater](/helseatlas/img/no/barn/kirurgi_poliklinikk3.png "Poliklinikk/dagbehandling, kirurgiske tilstander, aldersjusterte pasientrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014. Gj.snittlig antall konsultasjoner pr. pasient (kontaktfrekvens) og antall pasienter.")
 
 ### Kommentarer
 
@@ -569,11 +569,11 @@ I nærmere halvparten av boområdene er det arbeidsdeling mellom offentlige og p
 
 Fjerning av mandler gjøres oftest på barn i alderen 2 - 6 år, og oftere på gutter enn på jenter.
 
-![mandler1](/helseatlas/img/no/barn/mandler1.png "Kirurgi, fjerning av mandler, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Kirurgi, fjerning av mandler, forbruksrater](/helseatlas/img/no/barn/mandler1.png "Kirurgi, fjerning av mandler, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![mandler2](/helseatlas/img/no/barn/mandler2.png "Kirurgi, fjerning av mandler, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Kirurgi, fjerning av mandler, offentlig og privat](/helseatlas/img/no/barn/mandler2.png "Kirurgi, fjerning av mandler, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![mandler3](/helseatlas/img/no/barn/mandler3.png "Kirurgi, fjerning av mandler, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
+![Kirurgi, fjerning av mandler, antall inngrep, alder og kjønn](/helseatlas/img/no/barn/mandler3.png "Kirurgi, fjerning av mandler, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
 
 ### Kommentarer
 
@@ -593,11 +593,11 @@ Det har i gjennomsnitt vært utført 6 700 inngrep på barn 0-16 år pr. år. An
 
 Øredren settes oftest inn på barn i alderen 2-6 år, og det er mer vanlig at øredren settes inn på gutter enn på jenter. Det er ingen kjent geografisk variasjon i sykelighet, men stor variasjon i forbruksrater.
 
-![oredren1](/helseatlas/img/no/barn/oredren1.png "Kirurgi, innsetting av øredren, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Kirurgi, innsetting av øredren, forbruksrater](/helseatlas/img/no/barn/oredren1.png "Kirurgi, innsetting av øredren, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![oredren2](/helseatlas/img/no/barn/oredren2.png "Kirurgi, innsetting av øredren, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Kirurgi, innsetting av øredren, offentlig og privat](/helseatlas/img/no/barn/oredren2.png "Kirurgi, innsetting av øredren, offentlig og privat, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![oredren3](/helseatlas/img/no/barn/oredren3.png "Kirurgi, innsetting av øredren, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
+![Kirurgi, innsetting av øredren, antall inngrep, alder og kjønn](/helseatlas/img/no/barn/oredren3.png "Kirurgi, innsetting av øredren, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
 
 ### Kommentarer
 
@@ -617,11 +617,11 @@ Fjerning av blindtarmen er definert ved prosedyrekodene (NCSP) JEA00, JEA01 elle
 
 Fjerning av blindtarm er et inngrep som bare kan gjøres en gang. Det er svært få akutt betente blindtarmer som ikke fjernes kirurgisk. Det er derfor ikke grunn til å tro at man i boområder med de laveste forbruksratene behandler for få pasienter. I alle boområder vil imidlertid forbruksraten være høyere enn det reelle antallet blindtarmbetennelser fordi diagnosen kan være vanskelig å stille eksakt, og fordi en del blindtarmer fjernes selv om de ikke var betente.
 
-![blindtarm1](/helseatlas/img/no/barn/blindtarm1.png "Kirurgi, fjerning av blindtarmen, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
+![Kirurgi, fjerning av blindtarmen, forbruksrater](/helseatlas/img/no/barn/blindtarm1.png "Kirurgi, fjerning av blindtarmen, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
-![blindtarm2](/helseatlas/img/no/barn/blindtarm2.png "Kirurgi, fjerning av blindtarmen, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
+![Kirurgi, fjerning av blindtarmen, hastegrad](/helseatlas/img/no/barn/blindtarm2.png "Kirurgi, fjerning av blindtarmen, hastegrad, aldersjusterte forbruksrater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.")
 
-![blindtarm3](/helseatlas/img/no/barn/blindtarm3.png "Kirurgi, fjerning av blindtarmen, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
+![Kirurgi, fjerning av blindtarmen, antall inngrep, alder og kjønn](/helseatlas/img/no/barn/blindtarm3.png "Kirurgi, fjerning av blindtarmen, antall inngrep, alder og kjønn, gj.snitt 2011-2014.")
 
 ### Kommentarer
 
