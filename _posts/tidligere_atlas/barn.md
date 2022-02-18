@@ -6,7 +6,6 @@ pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true
 lang: no
 ---
-
 <div className="ingress">
 Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert.
 </div>
@@ -27,7 +26,7 @@ Antall konsultasjoner er høyest blant de yngste barna (under 4 år), og blant d
 
 **Figur:**  Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.
 
-![prim_kons1](/helseatlas/img/no/barn/prim_kons1.png)
+![Konsultasjoner i primærhelsetjenesten](/helseatlas/img/no/barn/prim_kons1.png "Konsultasjoner i primærhelsetjenesten, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, pr. år og gj.snitt 2011-2014.")
 
 **Figur:** Konsultasjoner i primærhelsetjenesten, fastlege og legevakt, aldersjusterte rater pr. 100 000 barn 0-16 år, pr. boområde, gj.snitt 2011-2014.
 
