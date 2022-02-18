@@ -29,17 +29,11 @@ Omtrent like mange kvinner og menn var registrert med kols hos fastlege og legev
 
 Hvert år ble det i gjennomsnitt målt lungefunksjonen hos 44 % av de som oppsøkte fastlege eller legevakt for kols i opptaksområdet til Sykehuset i Vestfold. Tilsvarende for opptaksområdet til Finnmarkssykehuset var 22 %, mens landsgjennomsnittet var 37 %.
 
-**Figur:** Personer med konsultasjon for kols hos fastlege eller legevakt fordelt på kjønn og alder. Gjennomsnittlig antall per år.
+![Personer med konsultasjon for kols hos fastlege eller legevakt fordelt på kjønn og alder](/helseatlas/img/no/kols/lege1.png "Personer med konsultasjon for kols hos fastlege eller legevakt fordelt på kjønn og alder. Gjennomsnittlig antall per år.")
 
-![lege1](/helseatlas/img/no/kols/lege1.png)
+![Personer med kols hos fastlege eller legevakt](/helseatlas/img/no/kols/lege2.png "Personer med kols hos fastlege eller legevakt. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.")
 
-**Figur:** Personer med kols hos fastlege eller legevakt. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
-
-![lege2](/helseatlas/img/no/kols/lege2.png)
-
-**Figur:** Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
-
-![lege3](/helseatlas/img/no/kols/lege3.png)
+![Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året](/helseatlas/img/no/kols/lege3.png "Andel personer med kols hos fastlege eller legevakt som har tatt spirometri hos fastlegen i løpet av året. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.")
 
 ### Kommentarer
 
@@ -61,17 +55,11 @@ I gjennomsnitt hadde 82 personer per 10 000 innbyggere poliklinisk kontakt for k
 
 Hvert år ble lungefunksjonen i gjennomsnitt målt hos 84 % av personene med poliklinisk kontakt for kols. Andelen var 78 % på offentlig finansierte sykehus og 95 % hos avtalespesialister.
 
-**Figur:** Personer med poliklinisk kontakt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
+![Personer med poliklinisk kontakt for kols fordelt på kjønn og alder](/helseatlas/img/no/kols/poliklinikk1.png "Personer med poliklinisk kontakt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.")
 
-![poliklinikk1](/helseatlas/img/no/kols/poliklinikk1.png)
+![Personer med poliklinisk kontakt for kols](/helseatlas/img/no/kols/poliklinikk2.png "Personer med poliklinisk kontakt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.")
 
-**Figur:** Personer med poliklinisk kontakt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
-
-![poliklinikk2](/helseatlas/img/no/kols/poliklinikk2.png)
-
-**Figur:** Andel personer med poliklinisk kontakt for kols som hadde tatt spirometri i løpet av ett år. Kjønns- og aldersstandardisert. Gjennomsnitt per år.
-
-![poliklinikk3](/helseatlas/img/no/kols/poliklinikk3.png)
+![Andel personer med poliklinisk kontakt for kols som hadde tatt spirometri i løpet av ett år](/helseatlas/img/no/kols/poliklinikk3.png "Andel personer med poliklinisk kontakt for kols som hadde tatt spirometri i løpet av ett år. Kjønns- og aldersstandardisert. Gjennomsnitt per år.")
 
 ### Kommentar
 
@@ -95,17 +83,11 @@ Det var nesten tre ganger så mange personer per 10 000 innbyggere som ble akutt
 
 Ventilasjonsstøtte (BiPAP) ble gitt ved over 3 000 av nesten 17 000 årlige akuttinnleggelser. Andelen akuttinnleggelser hvor ventilasjonsstøtte ble gitt varierte fra 13,7 % i opptaksområdet til OUS til 26,4 % i opptaksområdet til Sykehuset i Vestfold.
 
-**Figur:** Personer akuttinnlagt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.
+![Personer akuttinnlagt for kols fordelt på kjønn og alder](/helseatlas/img/no/kols/akutt1_0.png "Personer akuttinnlagt for kols fordelt på kjønn og alder. Gjennomsnittlig antall per år.")
 
-![akutt1_0](/helseatlas/img/no/kols/akutt1_0.png)
+![Personer akuttinnlagt for kols](/helseatlas/img/no/kols/akutt2_0.png "Personer akuttinnlagt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.")
 
-**Figur:** Personer akuttinnlagt for kols. Kjønns- og aldersstandardisert antall per 10 000 innbyggere. Gjennomsnitt per år.
-
-![akutt2_0](/helseatlas/img/no/kols/akutt2_0.png)
-
-**Figur:** Akuttinnleggelser for kols hvor ventilasjonsstøtte ble gitt. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.
-
-![akutt3](/helseatlas/img/no/kols/akutt3.png)
+![Akuttinnleggelser for kols hvor ventilasjonsstøtte ble gitt](/helseatlas/img/no/kols/akutt3.png "Akuttinnleggelser for kols hvor ventilasjonsstøtte ble gitt. Kjønns- og aldersstandardisert andel. Gjennomsnitt per år.")
 
 ### Kommentar
 
@@ -125,17 +107,13 @@ Rundt 2 500 personer som var 40 år eller eldre deltok på lungerehabilitering f
 
 Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandling ved et offentlig finansiert sykehus. Andelen varierte fra 34 % i opptaksområdet til St. Olavs hospital til 98 % i opptaksområdet til Sørlandet sykehus.
 
-**Figur:** Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder. Gjennomsnittlig antall per år.
-
-![rehab1](/helseatlas/img/no/kols/rehab1.png)
+![Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder](/helseatlas/img/no/kols/rehab1.png "Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder. Gjennomsnittlig antall per år.")
 
 **Tabell 1.** Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.
 
 **Privat** **Offentlig** **Begge** **Dagbehandling**       Personer 59 759 813 Dagbehandlinger totalt 821 6561 7382 Dagbehandlinger per person 13,9 8,6 9,1 **Døgnopphold**       Personer 604 1198 1789 Rehabiliteringsdøgn totalt 15 073 27 360 42 433 Rehabiliteringsdøgn per person 25,0 22,8 23,7
 
-**Figur:** Personer som deltok på lungerehabilitering for kols i 2015. Kjønns- og aldersstandardisert antall per 10 000 innbyggere.
-
-![rehab2](/helseatlas/img/no/kols/rehab2.png)
+![Personer som deltok på lungerehabilitering for kols i 2015](/helseatlas/img/no/kols/rehab2.png "Personer som deltok på lungerehabilitering for kols i 2015. Kjønns- og aldersstandardisert antall per 10 000 innbyggere.")
 
 ### Kommentarer
 
@@ -159,9 +137,7 @@ I Norge har røykevanene endret seg betydelig siden 1970-tallet da mer enn halvp
 
 Det er rimelig å vente at nedgangen i røyking isolert sett vil virke positivt inn på forekomsten av kols i Norge. Andre faktorer, som at befolkningen blir eldre, vil kunne virke i motsatt retning. Det er derfor vanskelig å anslå hvor mange personer som kommer til å ha kols i tiden fremover.
 
-**Figur:** Røykevaner blant kvinner og menn fra 1973 til 2016.
-
-![forekomst1](/helseatlas/img/no/kols/forekomst1.png)
+![Røykevaner blant kvinner og menn fra 1973 til 2016](/helseatlas/img/no/kols/forekomst1.png "Røykevaner blant kvinner og menn fra 1973 til 2016.")
 
 ## Lungekreft
 
@@ -169,9 +145,7 @@ Både lungekreft og kols er sterkt relatert til røyking. Det er derfor rimelig 
 
 Antall nye tilfeller av lungekreft varierer mellom helseforetakenes opptaksområder. Lungekreft forekommer dobbelt så hyppig blant bosatte i opptaksområdet til Finnmarkssykehuset som blant bosatte i opptaksområdet til Diakonhjemmet. Hvis bruk av helsetjenester ved kols gjenspeiler forekomst av kols, forventes lignende fordeling mellom opptaksområdene som figuren for nye tilfeller av lungekreft viser.
 
-**Figur:** Gjennomsnittlig antall nye tilfeller av lungekreft per 10 000 innbyggere per år i perioden 2006–15. Kolonnen viser gjennomsnittlig antall personer med nyoppstått lungekreft per år.
-
-![forekomst2](/helseatlas/img/no/kols/forekomst2.png)
+![Gjennomsnittlig antall nye tilfeller av lungekreft per 10 000 innbyggere per år](/helseatlas/img/no/kols/forekomst2.png "Gjennomsnittlig antall nye tilfeller av lungekreft per 10 000 innbyggere per år i perioden 2006–15. Kolonnen viser gjennomsnittlig antall personer med nyoppstått lungekreft per år.")
 
 ## Tolkning av variasjon
 
@@ -205,35 +179,3 @@ Her finner du beskrivelse av av de ulike opptaksområdene som Helseatlas kols ta
 - [Vestfold](http://www.helseatlas.no/atlas/boomrade/vestfold-2)
 - [Telemark](http://www.helseatlas.no/atlas/boomrade/telemark-2)
 - [Sørlandet](http://www.helseatlas.no/atlas/boomrade/s%C3%B8rlandet-2)
-
-## Kols
-
-Kols – kronisk obstruktiv lungesykdom, er en samlebetegnelse på sykdommer i lunger og luftveier med varig nedsatt lungefunksjon og karakterisert ved tung pust ved anstrengelse, kronisk hoste, og økt slimproduksjon. Graden av kols varierer fra ukompliserte til mer alvorlige stadier med betydelig nedsatt funksjonsevne og uførhet. Pasienter med kols har ofte flere sykdommer som kan øke behovet for innleggelser som f.eks. hjertesvikt.
-
-En kols-forverring kommer ofte i forbindelse med virus- og bakterieinfeksjoner og krever tiltak som gjerne starter utenfor sykehus. Det kan være å endre dosen av de medikamentene pasienten allerede bruker, eller oppstart av annen behandling med antibiotika eller steroider i tablettform. En alvorlig kols-forverring krever sykehusinnleggelse da pasienten ofte har respirasjonssvikt som krever pustehjelp. Mange kols-pasienter dør av hjertesykdom, men også ved akutt kolsforverringer er dødeligheten høy.
-
-### Resultater
-
-Blant eldre er det omtrent 8 200 akutte innleggelser pr. år med kols som diagnose. Akuttinnleggelse for kols-pasienter er som oftest forårsaket av kols-forverring. Gjennomsnittsalderen på pasientene er 82 år og det er omtrent lik andel av begge kjønn. Gjennomsnittlig liggetid er i overkant av 6 dager. Bosatte i OUS legges inn 60 % oftere enn bosatte i Førde.
-
-Andel som blir reinnlagt innen 30 dager etter utskrivelse for kols er 29 %. Andel reinnleggelser i opptaksområdet Indre Oslo (38 %) er 50 % høyere enn i opptaksområdet Finnmark (25 %) som har lavest andel. Det er ingen samvariasjon mellom liggetid ved primærinnleggelsen og andel pasienter som reinnlegges.
-
-21 % av eldre innlagt med kols dør innen 30 dager etter siste innleggelse, mens 43 % er døde ett år etter siste innleggelse. Til sammenligning dør 8 % pr. år i Norge av alle personer 75 år og eldre.
-
-**Figur:** Akutte innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
-
-![kols1](/helseatlas/img/no/kols/kols1.png)
-
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
-
-![kols2](/helseatlas/img/no/kols/kols2.png)
-
-**Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
-
-![kols3](/helseatlas/img/no/kols/kols3.png)
-
-### Kommentarer
-
-Variasjonen i både innleggelser, andel reinnleggelser og andel døde innen 30 dager etter innleggelse for kols vurderes til å være relativt liten.
-
-Relativt lang liggetid ved primærinnleggelsene, høy andel reinnleggelser og høy andel døde innen både 30 dager og ett år etter innleggelse, indikerer at eldre som legges inn for kols er en alvorlig syk gruppe.
