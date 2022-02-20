@@ -25,17 +25,11 @@ En konsultasjon er definert som direkte kontakt mellom lege og pasient, innehold
 
 Bosatte i opptaksområde Stavanger bruker fastlege på dagtid ca. 30 % mer enn bosatte i Finnmark. Bosatte i opptaksområde Finnmark bruker derimot legevakten mest, hele 3 ganger mer enn bosatte i Indre Oslo (opptaksområdene til Diakonhjemmet og Lovisenberg sykehus). Velger man å holde Finnmark utenfor på grunn av avvikende høye legevaktsrater, er variasjonen mer moderat med ca. 70 % forskjell mellom opptaksområdene til UNN og Indre Oslo.
 
-**Figur:** Fastlegekonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
+![Fastlegekonsultasjoner, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/almenn1.png "Fastlegekonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.")
 
-![almenn1](/helseatlas/img/no/eldre/almenn1.png)
+![Legevaktkonsultasjoner, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/almenn2.png "Legevaktkonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.")
 
-**Figur:** Legevaktkonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
-
-![almenn2](/helseatlas/img/no/eldre/almenn2.png)
-
-**Figur:** Andel av befolkningen i 2-årige aldersgrupper, som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.
-
-![almenn3](/helseatlas/img/no/eldre/almenn3.png)
+![Andel av befolkningen som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.](/helseatlas/img/no/eldre/almenn3.png "Andel av befolkningen i 2-årige aldersgrupper, som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.")
 
 ### Kommentarer
 
@@ -59,17 +53,11 @@ Det er ca. 1 117 000 polikliniske konsultasjoner blant eldre pr. år hvorav ca. 
 
 De eldre har ca. 179 000 innleggelser pr. år og 80 % av disse er akutte innleggelser. Bosatte i Finnmark legges ca. 30% oftere inn på sykehus enn bosatte i Østfold og variasjonen anses å være liten. 80 % av innleggelser hos eldre er akutte mot 70 % i pasientpopulasjonen under 75 år.
 
-**Figur:** Polikliniske konsultasjoner, ant. pr 1000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. kons. pr. år.
+![Polikliniske konsultasjoner, ant. pr 1000 innb. fordelt på off. og priv. tjenesteyter.](/helseatlas/img/no/eldre/spes1.png "Polikliniske konsultasjoner, ant. pr 1000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. kons. pr. år.")
 
-![spes1](/helseatlas/img/no/eldre/spes1.png)
+![Innleggelser, ant. pr. 1 000 innb. fordelt på akutte og planlagte innleggelser.](/helseatlas/img/no/eldre/spes2.png "Innleggelser, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på akutte og planlagte innleggelser. Gj.snittlig ant. ak. og pl. innl. pr. år.")
 
-**Figur:** Innleggelser, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på akutte og planlagte innleggelser. Gj.snittlig ant. ak. og pl. innl. pr. år.
-
-![spes2](/helseatlas/img/no/eldre/spes2.png)
-
-**Figur:** Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015, fordelt på 2-årige aldersgrupper.
-
-![spes3](/helseatlas/img/no/eldre/spes3.png)
+![Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015.](/helseatlas/img/no/eldre/spes3.png "Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015, fordelt på 2-årige aldersgrupper.")
 
 ### Kommentarer
 
@@ -89,13 +77,9 @@ Blant eldre er det årlig ca. 6 650 pasienter som legges inn med diagnosen hjert
 
 Årlig utføres vel 3 400 revaskulariseringsprosedyrer på eldre pasienter. Bosatte i Finnmark får utført revaskularisering omlag dobbelt så ofte som bosatte i Møre og Romsdal. Ratene for bosatte i Finnmark har falt betydelig i perioden. Det er ingen samvariasjon mellom pasienter med innleggelse for hjerteinfarkt og antall revaskulariseringer i de ulike opptaksområdene.
 
-**Figur:** Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.
+![Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb.](/helseatlas/img/no/eldre/hjerteinfarkt1.png "Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.")
 
-![hjerteinfarkt1](/helseatlas/img/no/eldre/hjerteinfarkt1.png)
-
-**Figur:** Revaskularisering, ant. inngrep pr. 1 000 innb. justert for kjønn og alder, gj.snitt og pr. år. Gj.snittlig ant. inngrep og pasienter pr. år.
-
-![hjerteinfarkt2](/helseatlas/img/no/eldre/hjerteinfarkt2.png)
+![Revaskularisering, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/hjerteinfarkt2.png "Revaskularisering, ant. inngrep pr. 1 000 innb. justert for kjønn og alder, gj.snitt og pr. år. Gj.snittlig ant. inngrep og pasienter pr. år.")
 
 ### Kommentarer
 
@@ -125,17 +109,11 @@ Det er ca. 6 700 innleggelser pr. år for pasienter med hjertesvikt som hoveddia
 
 Av de som har vært innlagt for hjertesvikt, reinnlegges 26 % innen 30 dager. Andel reinnleggelser er 60 % høyere i opptaksområdet NordTrøndelag enn i Telemark.
 
-**Figur:** Ant. konsultasjoner pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og konsultasjoner pr. pasient pr. år.
+![Ant. konsultasjoner pr. 1 000 innb.](/helseatlas/img/no/eldre/hjertesvikt1.png "Ant. konsultasjoner pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og konsultasjoner pr. pasient pr. år.")
 
-![hjertesvikt1](/helseatlas/img/no/eldre/hjertesvikt1.png)
+![Ant. innleggelser pr. 1 000 innb.](/helseatlas/img/no/eldre/hjertesvikt2.png "Ant. innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.")
 
-**Figur:** Ant. innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
-
-![hjertesvikt2](/helseatlas/img/no/eldre/hjertesvikt2.png)
-
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid primærinnl.
-
-![hjertesvikt3](/helseatlas/img/no/eldre/hjertesvikt3.png)
+![Reinnleggelser som andel av primærinnleggelser](/helseatlas/img/no/eldre/hjertesvikt3.png "Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid primærinnl.")
 
 ### Kommentarer
 
