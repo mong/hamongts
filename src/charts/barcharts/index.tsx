@@ -90,7 +90,6 @@ export const Barchart = <
 
   const series = toBarchart<BarchartData<Data, X, Y, ColorBy>, X>(data, x);
 
-  console.log(data.map((s) => s[y]));
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...schemeSet1],
