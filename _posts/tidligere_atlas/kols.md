@@ -109,21 +109,8 @@ Rundt 2 500 personer som var 40 år eller eldre deltok på lungerehabilitering f
 
 Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandling ved et offentlig finansiert sykehus. Andelen varierte fra 34 % i opptaksområdet til St. Olavs hospital til 98 % i opptaksområdet til Sørlandet sykehus.
 
-**Tabell:** Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.
-
-|                                | **Privat** | **Offentlig** | **Begge** |
-| ------------------------------ | ---------: | ------------: | --------: |
-| **Dagbehandling**              |
-| Personer                       |         59 |           759 |       813 |
-| Dagbehandlinger totalt         |        821 |          6561 |      7382 |
-| Dagbehandlinger per person     |       13,9 |           8,6 |       9,1 |
-| **Døgnopphold**                |
-| Personer                       |        604 |          1198 |      1789 |
-| Rehabiliteringsdøgn totalt     |     15 073 |        27 360 |    42 433 |
-| Rehabiliteringsdøgn per person |       25,0 |          22,8 |      23,7 |
-
 <table>
-<caption text-align="left">Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.</caption>
+<caption style="text-align: left"><strong>Tabell:</strong> Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.</caption>
 <thead><tr>
 <th></th>
 <th style="text-align:right"><strong>Privat</strong></th>
@@ -132,9 +119,6 @@ Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandli
 </tr></thead>
 <tbody><tr>
 <td><strong>Dagbehandling</strong></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
 </tr>
 <tr>
 <td>Personer</td>
@@ -156,9 +140,6 @@ Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandli
 </tr>
 <tr>
 <td><strong>Døgnopphold</strong></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
-<td style="text-align:right"></td>
 </tr>
 <tr>
 <td>Personer</td>
