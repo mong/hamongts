@@ -35,8 +35,9 @@ context("Classic atlases", () => {
   });
 
   it("should visit an IA", () => {
-    cy.visit("/utdatert/gyn/ia/index.html");
-    cy.get("button").contains("Last ned data");
+    cy.visit("/utdatert/gyn/ia");
+    cy.get("iframe");
+    cy.visit("/ia/no/gyn/index.html").get("button").contains("Last ned data");
   });
 
   it("should visit an atlas without ToC", () => {
