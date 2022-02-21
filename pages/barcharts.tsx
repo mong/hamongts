@@ -1,7 +1,7 @@
-import React from "react";
 import path from "path";
 import csv from "csvtojson";
 import { GetStaticProps } from "next";
+import fs from "fs";
 
 import Layout from "../src/components/Layout";
 
