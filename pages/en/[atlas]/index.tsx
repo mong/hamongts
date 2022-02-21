@@ -3,7 +3,7 @@ import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
 import matter from "gray-matter";
 
-import { AtlasContent } from "../../src/components/Atlas/classic";
+import { AtlasContent } from "../../../src/components/Atlas/classic";
 
 interface AtlasPageProps {
   content: string;
