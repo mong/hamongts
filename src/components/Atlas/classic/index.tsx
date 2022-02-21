@@ -75,7 +75,10 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
                     <figure>
                       <img src={src} alt={alt} title={alt} />
                       <figcaption>
-                        <strong>Figur:</strong> {title}
+                        <strong>
+                          {frontMatter.lang === "en" ? "Figure:" : "Figur:"}
+                        </strong>{" "}
+                        {title}
                       </figcaption>
                     </figure>
                   );
