@@ -70,6 +70,19 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
                   }
                   return <li>{children}</li>;
                 },
+                img({ src, alt, title }) {
+                  return (
+                    <figure>
+                      <img src={src} alt={alt} title={alt} />
+                      <figcaption>
+                        <strong>
+                          {frontMatter.lang === "en" ? "Figure:" : "Figur:"}
+                        </strong>{" "}
+                        {title}
+                      </figcaption>
+                    </figure>
+                  );
+                },
               }}
             >
               {text}

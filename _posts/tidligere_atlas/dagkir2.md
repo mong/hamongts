@@ -27,13 +27,9 @@ Antall acromionreseksjoner ble redusert til 5 950 inngrep (justert rate: 112 pr.
 
 For de fleste opptaksområdene begynte reduksjonen i omfanget av skulderkirurgi før publiseringen av Dagkirurgiatlaset i 2015. Da hadde allerede enkelte fagmiljø og regionale helseforetak hatt oppmerksomhet rundt høyt omfang en stund. I tillegg økte mengden dokumentasjon på at konservativ behandling har like god effekt som kirurgisk behandling.
 
-**Figur:** Acromionreseksjoner, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler
+![Acromionreseksjoner, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/skulder1.png "Acromionreseksjoner, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler")
 
-![skulder1](/helseatlas/img/no/dagkir2/skulder1.png)
-
-**Figur:** Antall acromionreseksjoner pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![skulder2](/helseatlas/img/no/dagkir2/skulder2.png)
+![Antall acromionreseksjoner](/helseatlas/img/no/dagkir2/skulder2.png "Antall acromionreseksjoner pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -53,13 +49,9 @@ På landsbasis sank antall meniskoperasjoner kraftig fra 2013 til 2017. I 2017 b
 
 Det er faglig enighet om at degenerative meniskskader hos eldre pasienter vanligvis ikke skal opereres. Fra 2013 til 2017 ble snittalderen for meniskopererte redusert med 4,7 år, og antall operasjoner for pasienter over 50 år ble redusert med 63 %, fra 7 200 til 2 700. Dette medførte en betydelig reduksjon i andelen opererte som var over 50 år, særlig i opptaksområdene til Helse Sør-Øst RHF. I opptaksområdene for Akershus, Sørlandet, OUS og Lovisenberg ble andelen over 50 år nær halvert i perioden, mens den forble omtrent uendret for opptaksområdene Førde, UNN og Helgeland.
 
-**Figur:** Menisk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Menisk, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/menisk1.png "Menisk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![menisk1](/helseatlas/img/no/dagkir2/menisk1.png)
-
-**Figur:** Andel av meniskopererte pasienter som var over 50 år i 2013 og 2017.
-
-![menisk2](/helseatlas/img/no/dagkir2/menisk2.png)
+![Andel av meniskopererte pasienter som var over 50 år i 2013 og 2017](/helseatlas/img/no/dagkir2/menisk2.png "Andel av meniskopererte pasienter som var over 50 år i 2013 og 2017.")
 
 ### Kommentar
 
@@ -79,13 +71,9 @@ Forskjellen mellom høyeste og laveste rate var 2,6 og dermed større i perioden
 
 Fra 2015 til 2017 ble antall inngrep pr. 100 000 innbyggere totalt i Norge redusert med 16 %, hvorav størst reduksjon ved offentlige sykehus. I 2017 ble det utført 4 600 inngrep (justert rate: 87 pr. 100 000) i Norge. En fjerdedel av inngrepene ble utført ved offentlig finansierte private sykehus eller hos avtalespesialister.
 
-**Figur:** Hallux valgus og hammertå, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Hallux valgus og hammertå, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/hallux1.png "Hallux valgus og hammertå, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![hallux1](/helseatlas/img/no/dagkir2/hallux1.png)
-
-**Figur:** Antall inngrep for hallux valgus og hammertå pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![hallux2](/helseatlas/img/no/dagkir2/hallux2.png)
+![Antall inngrep for hallux valgus og hammertå](/helseatlas/img/no/dagkir2/hallux2.png "Antall inngrep for hallux valgus og hammertå pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -105,13 +93,9 @@ I opptaksområdet Innlandet økte antall inngrep pr. 100 000 innbyggere med om l
 
 I perioden 2015–2017 var den geografiske variasjonen mellom opptaksområdene moderat. Bosatte i opptaksområdet Innlandet fikk da vel dobbelt så mange inngrep pr. 100 000 innbyggere som bosatte i opptaksområdet Førde.
 
-**Figur:** Utvalgt håndkirurgi, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Utvalgt håndkirurgi, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/hand1.png "Utvalgt håndkirurgi, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![hand1](/helseatlas/img/no/dagkir2/hand1.png)
-
-**Figur:** Antall inngrep for utvalgt håndkirurgi pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![hand2](/helseatlas/img/no/dagkir2/hand2.png)
+![Antall inngrep for utvalgt håndkirurgi](/helseatlas/img/no/dagkir2/hand2.png "Antall inngrep for utvalgt håndkirurgi pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -131,13 +115,9 @@ Fra 2013 til 2017 var antall inngrep pr. 100 000 innbyggere stabil for landet se
 
 I opptaksområdene Nord-Trøndelag og Stavanger gikk antall inngrep pr. 100 000 innbyggere gradvis ned fra godt over landsgjennomsnittet i 2013 til omtrent nasjonalt nivå i 2017. I opptaksområdet Telemark var det en gradvis økning fra under landsgjennomsnittet i 2013 til nasjonalt nivå i 2017. I enkelte andre opptaksområder var det betydelig variasjon over år.
 
-**Figur:** Karpaltunnelsyndrom, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Karpaltunnelsyndrom, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/karpal1.png "Karpaltunnelsyndrom, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![karpal1](/helseatlas/img/no/dagkir2/karpal1.png)
-
-**Figur:** Antall inngrep for karpaltunnelsyndrom pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![karpal2](/helseatlas/img/no/dagkir2/karpal2.png)
+![Antall inngrep for karpaltunnelsyndrom](/helseatlas/img/no/dagkir2/karpal2.png "Antall inngrep for karpaltunnelsyndrom pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -157,13 +137,9 @@ På landsbasis ble pasienten døgninnlagt ved 30 % av inngrepene for fjerning av
 
 I Sverige ble det gjort tonsillotomi i 44 % av inngrepene på tonsiller i perioden 2013–2015. I Norge ble tonsillotomi gjort i ca. 10 % av inngrepene på tonsiller i perioden 2015–2017. Det var noe variasjon i denne andelen mellom opptaksområdene. På grunn av lavt antall av tonsillotomier vil innslag av tilfeldig variasjon gi store utslag.
 
-**Figur:** Fjerning av mandler, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Fjerning av mandler, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/mandler1_0.png "Fjerning av mandler, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![mandler1_0](/helseatlas/img/no/dagkir2/mandler1_0.png)
-
-**Figur:** Fjerning av mandler, pr. 100 000 innbyggere, hel og delvis fjerning, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![mandler2_0](/helseatlas/img/no/dagkir2/mandler2_0.png)
+![Fjerning av mandler](/helseatlas/img/no/dagkir2/mandler2_0.png "Fjerning av mandler, pr. 100 000 innbyggere, hel og delvis fjerning, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -183,13 +159,9 @@ På landsbasis ble antall inngrep for øredren pr. 100 000 innbyggere redusert m
 
 Fra 2013 til 2017 var antall inngrep for øredren pr. 100 000 innbyggere omtrent likt eller synkende i alle opptaksområdene unntatt Vestre Viken. I opptaksområdet Nord-Trøndelag var raten svært høy frem til 2016 før den sank merkbart i 2017.
 
-**Figur:** Øredren, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Øredren, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/oredren1_0.png "Øredren, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![oredren1_0](/helseatlas/img/no/dagkir2/oredren1_0.png)
-
-**Figur:** Antall inngrep for øredren pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![oredren2_0](/helseatlas/img/no/dagkir2/oredren2_0.png)
+![Antall inngrep for øredren](/helseatlas/img/no/dagkir2/oredren2_0.png "Antall inngrep for øredren pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -209,13 +181,9 @@ Fra 2013 til 2017 var totalt antall kataraktoperasjoner pr. 100 000 innbyggere i
 
 I de fleste opptaksområdene endret raten seg lite fra 2013 til 2017. For opptaksområdet Finnmark var det betydelige årsvariasjoner, men ingen tydelig trend i retning flere eller færre operasjoner. I opptaksområdene Fonna og Vestfold sank imidlertid raten betydelig fra 2013 til 2017. Dette skyldes hovedsakelig nedgang i antall kataraktoperasjoner ved offentlig finansierte private sykehus eller hos avtalespesialister.
 
-**Figur:** Katarakt, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Katarakt, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/grastar1.png "Katarakt, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![grastar1](/helseatlas/img/no/dagkir2/grastar1.png)
-
-**Figur:** Antall inngrep for katarakt pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![grastar2](/helseatlas/img/no/dagkir2/grastar2.png)
+![Antall inngrep for katarakt](/helseatlas/img/no/dagkir2/grastar2.png "Antall inngrep for katarakt pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -233,13 +201,9 @@ I perioden 2015–2017 var variasjonen mellom opptaksområdene enda større enn 
 
 På landsbasis økte antall inngrep for tunge øyelokk til nesten 10 000 (justert rate: 187 pr. 100 000) i 2017. Spesielt var det kraftig økning for opptaksområdene Helgeland, Nordland og Møre og Romsdal. I perioden 2013–2017 ble 68–74 % av inngrepene utført av offentlig finansierte private behandlere hvorav nesten alle hos avtalespesialister. Det var stor variasjon mellom opptaksområdene i andelen av inngrepene for tunge øyelokk som ble utført ved offentlige sykehus.
 
-**Figur:** Tunge øyelokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Tunge øyelokk, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/oyelokk1.png "Tunge øyelokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![oyelokk1](/helseatlas/img/no/dagkir2/oyelokk1.png)
-
-**Figur:** Antall inngrep for tunge øyelokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![oyelokk2](/helseatlas/img/no/dagkir2/oyelokk2.png)
+![Antall inngrep for tunge øyelokk](/helseatlas/img/no/dagkir2/oyelokk2.png "Antall inngrep for tunge øyelokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -261,13 +225,9 @@ På landsbases ble kun 6 % av inngrepene utført ved private sykehus, men for op
 
 På landsbasis økte andelen operasjoner med bruk av kikkhullsteknikk jevnt fra en tredjedel i 2013 til over halvparten i 2017. Ingen av opptaksområdene hadde tydelig økning eller nedgang i antall inngrep for lyskebrokk pr. 100 000 innbyggere fra 2013 til 2017, men det var noe variasjon fra år til år.
 
-**Figur:** Lyskebrokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Lyskebrokk, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/lyskebrokk1.png "Lyskebrokk, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![lyskebrokk1](/helseatlas/img/no/dagkir2/lyskebrokk1.png)
-
-**Figur:** Antall inngrep for lyskebrokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![lyskebrokk2](/helseatlas/img/no/dagkir2/lyskebrokk2.png)
+![Antall inngrep for lyskebrokk](/helseatlas/img/no/dagkir2/lyskebrokk2.png "Antall inngrep for lyskebrokk pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -287,13 +247,9 @@ Fra 2013 til 2017 var det tydelig reduksjon i antall åreknuteoperasjoner pr. 10
 
 I perioden 2015–2017 ble tradisjonell kirurgi brukt i 38 % av åreknuteoperasjonene i Norge. Andelen varierte fra 97 % i opptaksområdet Finnmark til 21 % i opptaksområdet OUS.
 
-**Figur:** Åreknuter, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Åreknuter, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/areknuter1.png "Åreknuter, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![areknuter1](/helseatlas/img/no/dagkir2/areknuter1.png)
-
-**Figur:** Behandling av åreknuter pr. 100 000 innbyggere, tradisjonell kirurgi og ny teknikk, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![areknuter2](/helseatlas/img/no/dagkir2/areknuter2.png)
+![Behandling av åreknuter](/helseatlas/img/no/dagkir2/areknuter2.png "Behandling av åreknuter pr. 100 000 innbyggere, tradisjonell kirurgi og ny teknikk, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -311,13 +267,9 @@ I perioden 2015–2017 fikk bosatte i opptaksområdet Innlandet over tre ganger 
 
 Samlet for hele landet økte antall inngrep for hemoroider fra 2013 til 2017. I 2017 ble det utført vel 10 100 slike inngrep (justert rate: 192 pr. 100 000) i Norge. Økningen var størst i opptaksområdet Telemark hvor antall inngrep pr. 100 000 innbyggere ble nær doblet fra 2013 til 2017. Det var også økning i opptaksområdene Finnmark, Nordland, Helgeland, Førde, Fonna, Lovisenberg, Diakonhjemmet og Vestfold. I opptaksområdene UNN, St. Olavs og Innlandet var det nedgang. I perioden 2013–2017 ble de aller fleste inngrep for hemoroider gjort ved offentlige sykehus. Kun for bosatte i enkelte opptaksområder ble det utført en beskjeden mengde inngrep for hemoroider ved offentlig finansierte private sykehus eller hos avtalespesialister.
 
-**Figur:**  Hemoroider, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.
+![Hemoroider, utvikling i antall inngrep i perioden 2013–2017](/helseatlas/img/no/dagkir2/hemoroider1.png "Hemoroider, utvikling i antall inngrep pr. 100 000 innbyggere i perioden 2013–2017, justert for kjønn og alder. Fordelt på opptaksområder og offentlig eller privat behandler.")
 
-![hemoroider1](/helseatlas/img/no/dagkir2/hemoroider1.png)
-
-**Figur:**  Antall inngrep for hemoroider pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.
-
-![hemoroider2](/helseatlas/img/no/dagkir2/hemoroider2.png)
+![Antall inngrep for hemoroider](/helseatlas/img/no/dagkir2/hemoroider2.png "Antall inngrep for hemoroider pr. 100 000 innbyggere, justert for kjønn og alder. Gjennomsnitt pr. år for perioden 2015–2017.")
 
 ### Kommentar
 
