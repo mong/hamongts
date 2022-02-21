@@ -1,7 +1,6 @@
 import path from "path";
 import csv from "csvtojson";
 import { GetStaticProps } from "next";
-import fs from "fs";
 
 import Layout from "../src/components/Layout";
 
@@ -28,8 +27,6 @@ const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
   atlasData.forEach(
     (data) => (data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
   );
-
-  console.log(atlasData);
   return (
     <>
       <Layout lang="no">

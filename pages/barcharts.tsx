@@ -2,15 +2,12 @@ import React from "react";
 import path from "path";
 import csv from "csvtojson";
 import { GetStaticProps } from "next";
-import fs from "fs";
-import { AiOutlineCaretDown } from "react-icons/ai";
 
 import Layout from "../src/components/Layout";
 
 import styles from "../src/styles/Home.module.css";
 import { Barchart } from "../src/charts/barcharts";
 import { toBarchart } from "../src/helpers/functions/dataTransformation";
-import { PopUp } from "../src/components/popup";
 
 export interface AtlasData {
   innbyggere: number;
@@ -29,11 +26,9 @@ interface AbacusPageProps {
 }
 
 const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
-  /*
-  atlasData.forEach(
+  /*atlasData.forEach(
     (data) => (data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
-  );
-  */
+  );*/
 
   const bar = toBarchart(atlasData, ["andelRate1", "andelRate2"]);
 
@@ -41,27 +36,25 @@ const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
     <>
       <Layout lang="no">
         <main>
-          <div style={{ position: "relative" }}>
-            <div className={`${styles.atlasContent}s`}>
-              <Barchart
-                data={atlasData.filter((data) => data.year === "snitt")}
-                x={["andelRate1", "rate2"]}
-                y="bohf"
-                margin={{
-                  top: 20,
-                  bottom: 50,
-                  right: 20,
-                  left: 20,
-                }}
-                width={400}
-                height={500}
-                xLabel="X"
-                yLabel="y"
-                xMin={0}
-                xMax={4}
-                backgroundColor="#262626"
-              />
-            </div>
+          <div className={`${styles.atlasContent}`}>
+            <Barchart
+              data={atlasData.filter((data) => data.year === "snitt")}
+              x={["andelRate1", "rate2"]}
+              y="bohf"
+              margin={{
+                top: 20,
+                bottom: 50,
+                right: 20,
+                left: 20,
+              }}
+              width={400}
+              height={500}
+              xLabel="X"
+              yLabel="y"
+              xMin={0}
+              xMax={4}
+              backgroundColor="#262626"
+            />
           </div>
         </main>
       </Layout>

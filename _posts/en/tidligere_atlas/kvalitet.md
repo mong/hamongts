@@ -25,9 +25,7 @@ All regions reported low target attainment for indicators where other regions we
 
 Nationally the attainment was high for 9 quality indicators, moderate for 10, and low for 5 during the period 2017-2019.
 
-![heatmap_hf_rhf](/helseatlas/img/en/kvalitet/heatmap_hf_rhf.png)
-
-_General summary of quality of selected essential healthcare services, referral areas, high (green), moderate (yellow) and low (red) target attainment. Average 2017-2019. ++ denotes indicators with two target levels, high (green) and low (red)._
+![General summary of quality of selected essential healthcare services](/helseatlas/img/en/kvalitet/heatmap_hf_rhf.png "General summary of quality of selected essential healthcare services, referral areas, high (green), moderate (yellow) and low (red) target attainment. Average 2017-2019. ++ denotes indicators with two target levels, high (green) and low (red).")
 
 ### Comments
 
@@ -47,15 +45,11 @@ The Advisory Board for the Norwegian Myocardial Infarction Registry has found th
 
 High target attainment is considered by the Advisory Board to be that minimum 85 % of patients receive reperfusion therapy within the recommended time, moderate attainment is 70-85 %. Only 62 % of patients in Norway received treatment to open an occluded artery within the set period, and geographical differences were pronounced. Whereas 80 % of patients in the Akershus and Oslo referral areas were treated in time, less than 15 % were so treated in Finnmark, and 16 % in Helgeland. At the regional level, target attainment was lowest for Health North RHA (32 %), and highest in Health South-East RHA (67 %).
 
-![hjinfarkt_reperf_beh_ujust_png](/helseatlas/img/en/kvalitet/hjinfarkt_reperf_beh_ujust_png.png)
-
-_Proportion of patients with STEMI who received reperfusion therapy within recommended time. Age 18-84, average 2017-2019. \*Referral area has fewer than 10 cases on average per year._
+![Proportion of patients with STEMI who received reperfusion therapy within recommended time](/helseatlas/img/en/kvalitet/hjinfarkt_reperf_beh_ujust_png.png "Proportion of patients with STEMI who received reperfusion therapy within recommended time. Age 18-84, average 2017-2019. *Referral area has fewer than 10 cases on average per year.")
 
 For examination with coronary angiography, minimum 80 % of patients must be seen within 72 hours for high attainment, and 50-80 % for moderate attainment. Nationally, 62 % of patients were examined within 72 hours in the period 2017-2019. In the Sørlandet referral area, almost 80 % of patients were examined within the recommended time. In the UNN referral area, too, there was high attainment for coronary angiography . Attainment was lowest in the Møre og Romsdal and the Stavanger referral areas, where roughly 45 % of patients were examined within the recommended time. Regionally, 67 % of patients in Health North RHA were examined by coronary angiography within the recommended time, whereas the corresponding figure for Health Central RHA was lowest at 54 %.
 
-![hjinfarkt_nstemi_72_2maal_ujust_png](/helseatlas/img/en/kvalitet/hjinfarkt_nstemi_72_2maal_ujust_png.png)
-
-_Proportion of patients with non-STEMI who were examined by invasive procedure within 72 hours of admission._
+![Proportion of patients with non-STEMI who were examined by invasive procedure within 72 hours of admission](/helseatlas/img/en/kvalitet/hjinfarkt_nstemi_72_2maal_ujust_png.png "Proportion of patients with non-STEMI who were examined by invasive procedure within 72 hours of admission.")
 
 ### Comments
 
@@ -75,9 +69,7 @@ Vascular surgery can improve the blood circulation to areas that receive insuffi
 
 The occurrence of operations for vascular disease in legs varies a great deal, from 123 and 103 per 100,000 residents in the UNN and Østfold referral areas, to 39 and 42 respectively in the All Oslo and Førde referral areas for the same sample size.
 
-![norkar_unike_pas_u_just](/helseatlas/img/en/kvalitet/norkar_unike_pas_u_just.png)
-
-_Number of patients operated for vascular disease in legs per 100,000 residents, non-adjusted, referral areas. Columns show average rates, annual rate is shown by symbol. Figures on right show number of patients and population. Average per year 2017-2019._
+![Number of patients operated for vascular disease in legs per 100,000 residents](/helseatlas/img/en/kvalitet/norkar_unike_pas_u_just.png "Number of patients operated for vascular disease in legs per 100,000 residents, non-adjusted, referral areas. Columns show average rates, annual rate is shown by symbol. Figures on right show number of patients and population. Average per year 2017-2019.")
 
 There was geographical variation in target attainment for the indicator \textit{number of patients with symptomatic carotid stenosis treated within 14 days in the period 2017-2019}. Nine of 19 referral areas achieved high attainment, 9 achieved moderate attainment, and 1 attained low attainment. The share was highest in the UNN referral area and lowest in the Bergen referral area. Respectively 93 % and 50 % of patients residing in these referral areas were treated within 14 days. ![norkar_beh_14_ujust_2maal_eng](/helseatlas/img/en/kvalitet/norkar_beh_14_ujust_2maal_eng.png)
 
@@ -105,15 +97,11 @@ The national guidelines recommend that patients for whom thrombolysis is indicat
 
 In 17 of 19 referral areas, high target attainment was recorded for the proportion of patients with cerebral infarction who were treated with thrombolysis, whilst in two referral areas (St Olav and Finnmark), there was moderate attainment. The Bergen and Stavanger referral areas had a 30 % share, and most referral areas with high attainment showed a significantly higher level than the 15 % category limit. For referral area Finnmark, data from 2018 is missing, which, combined with the low number of patients, means the results are uncertain.
 
-![trombolyse_ujust_eng](/helseatlas/img/en/kvalitet/trombolyse_ujust_eng.png)
-
-_Proportion of patients with stroke treated using thrombolysis. Columns show average share, annual share with symbol. Figures on right show number of patients receiving thrombolysis (N) and number of patients with cerebral infarction (stroke) (actual relevant cases). Average per year in period 2017-2019._
+![Proportion of patients with stroke treated using thrombolysis](/helseatlas/img/en/kvalitet/trombolyse_ujust_eng.png "Proportion of patients with stroke treated using thrombolysis. Columns show average share, annual share with symbol. Figures on right show number of patients receiving thrombolysis (N) and number of patients with cerebral infarction (stroke) (actual relevant cases). Average per year in period 2017-2019.")
 
 More than half of patients in Norway were admitted later than 4 hours after the onset of symptoms. In Stavanger, 54 % of patients arrived at hospital within 4 hours, whilst in the St Olav and Finnmark referral areas the share was lowest at 38 %. Nationally there was no unambiguous trend towards admission to hospital with a stroke during the period 2017-2019.
 
-![tid_4t_ujust_eng](/helseatlas/img/en/kvalitet/tid_4t_ujust_eng.png)
-
-_Proportion of patients admitted within 4 hours after stroke, columns show average rates, annual rate shown with symbol. Figures to right show number of patients and population. Average per year 2017-2019._
+![Proportion of patients admitted within 4 hours after stroke](/helseatlas/img/en/kvalitet/tid_4t_ujust_eng.png "Proportion of patients admitted within 4 hours after stroke, columns show average rates, annual rate shown with symbol. Figures to right show number of patients and population. Average per year 2017-2019.")
 
 ### Comments
 
@@ -133,9 +121,7 @@ The Advisory Board for the Norwegian Invasive Cardiology Registry has not define
 
 There was geographical variation in the proportion of patients who experienced opening of narrow coronary arteries (PCI) during invasive coronary procedures. While 49 % of coronary angiographies led to PCI in the Førde referral area, the figure was only 36 % in the Oslo referral area.
 
-![noric_pci_ujust2021](/helseatlas/img/en/kvalitet/noric_pci_ujust2021.png)
-
-_Proportion of PCI in patients who received invasive coronary procedures, broken down by referral area, for the period 2017-2019._
+![Proportion of PCI in patients who received invasive coronary procedures](/helseatlas/img/en/kvalitet/noric_pci_ujust2021.png "Proportion of PCI in patients who received invasive coronary procedures, broken down by referral area, for the period 2017-2019.")
 
 The proportion of coronary angiographies leading to PCI was highest in the referral areas that simultaneously showed the lowest number of coronary angiographies per 1,000 residents, whilst in the referral areas with the lowest proportion of angiographies leading to PCI one found the highest number of coronary angiographies per 1,000 residents. Nationally, 41 % of patients received PCI procedures during other invasive coronary surgery. Regionally the differences were minimal.
 
@@ -143,9 +129,7 @@ The proportion of PCI during coronary angiographies was lowest in Health South-E
 
 Roughly 20 % of patients in Norway were examined by intracoronary pressure measurement during coronary angiography in the period 2017-2019, with geographical variations. Whereas 25 % of patients had pressure measurement in the St Olav referral area, roughly 16 % was the figure in the Finnmark, Nordland and UNN referral areas.
 
-![noric_trykkmaaling_ujust_eng](/helseatlas/img/en/kvalitet/noric_trykkmaaling_ujust_eng.png)
-
-_Proportion of procedures using pressure measurement to assess narrowing of coronary arteries in patients with stable coronary artery disease, broken down by referral area, for the period 2017-2019._
+![Proportion of procedures using pressure measurement to assess narrowing of coronary arteries in patients with stable coronary artery disease](/helseatlas/img/en/kvalitet/noric_trykkmaaling_ujust_eng.png "Proportion of procedures using pressure measurement to assess narrowing of coronary arteries in patients with stable coronary artery disease, broken down by referral area, for the period 2017-2019.")
 
 The results are reflected at the regional level, where target attainment was lowest in Health North RHA at 16 %, and highest in Health Central RHA at 24 %. Nationally the proportion of intracoronary pressure measurement rose from 19 % in 2017 to 23 % in 2019.
 
@@ -167,15 +151,11 @@ High target attainment for the proportion of patients with rectal cancer without
 
 The Advisory Board for the Norwegian Colorectal Cancer Registry has revised target attainment for the proportion of keyhole surgeries from 30 to 60 % for both variants in 2019. For rectal cancer, 16 of 21 referral areas rated high on this scale for the period. Nordland had the highest attainment at 93 % and Nord-Trøndelag the lowest at 32 %. For colon cancer, 10 of 21 referral areas achieved high target attainment for the entire period, with Telemark highest at 80 % and Førde lowest at 23 % (figures rather uncertain due to few reports).
 
-![lap_coloractal](/helseatlas/img/en/kvalitet/lap_coloractal.png)
-
-_Proportion of patients with colon and rectal cancer operated by keyhole surgery. Age 20-99 years (colon) and 25-96 years (rectal). Average 2017-2019. Target level for 2019._
+![Proportion of patients with colon and rectal cancer operated by keyhole surgery](/helseatlas/img/en/kvalitet/lap_coloractal.png "Proportion of patients with colon and rectal cancer operated by keyhole surgery. Age 20-99 years (colon) and 25-96 years (rectal). Average 2017-2019. Target level for 2019.")
 
 There were 14 of 21 referral areas that achieved high target attainment for the proportion of patients without a local relapse 5 years after surgery for rectal cancer. For the period as a whole, Sørlandet had the highest attainment at 99 %, and Diakonhjemmet had the lowest at 91 %. The results were stable during the period. The results are calculated statistically since there was insufficient observation time for this indicator.
 
-![endetarm_utentilbakefall_ujust](/helseatlas/img/en/kvalitet/endetarm_utentilbakefall_ujust.png)
-
-_Proportion of patients with rectal cancer with no local relapse 5 years after surgery, statistical calculation, age 25-96 years, average 2017-2019._
+![Proportion of patients with rectal cancer with no local relapse 5 years after surgery](/helseatlas/img/en/kvalitet/endetarm_utentilbakefall_ujust.png "Proportion of patients with rectal cancer with no local relapse 5 years after surgery, statistical calculation, age 25-96 years, average 2017-2019.")
 
 ### Comments
 
@@ -197,15 +177,11 @@ The Advisory Board for the National Quality Registry for Breast Cancer has defin
 
 Most of the referral areas had a high proportion of single operation interventions and the results showed little variation due to geographical area. The differences between residents of Finnmark, the referral area with the highest share, and of Østfold, with the lowest share, was roughly 11 percentage points. The small statistical sample for Finnmark means their results are somewhat uncertain.
 
-![bryst_ett_inngrep_ujust_eng](/helseatlas/img/en/kvalitet/bryst_ett_inngrep_ujust_eng.png)
-
-_Proportion of women, 19-99 years old, who only received one intervention on the primary tumour, broken down by referral areas, for period 2017-2019._
+![Proportion of women, 19-99 years old, who only received one intervention on the primary tumour](/helseatlas/img/en/kvalitet/bryst_ett_inngrep_ujust_eng.png "Proportion of women, 19-99 years old, who only received one intervention on the primary tumour, broken down by referral areas, for period 2017-2019.")
 
 For breast conserving surgery on tumours of less than 30 mm, 3 of the referral areas: Nordland, Nord-Trøndelag and Vestre Viken, achieved the target of 85%%. Of the total of 21 referral areas, 16 achieved moderate attainment, and 2 achieved low attainment. The geographical variation was relatively pronounced, from Nordland with 88.2%% to Fonna with 63.0%%. This is a gap of 25 percentage points.
 
-![bryst_brystbevarende_ujust_eng](/helseatlas/img/en/kvalitet/bryst_brystbevarende_ujust_eng.png)
-
-_Proportion of breast-conserving surgery performed on women, 19-99 years, tumour diameter less than 30 mm, broken down by referral area, for period 2017-2019._
+![Proportion of breast-conserving surgery performed on women, 19-99 years, tumour diameter less than 30 mm](/helseatlas/img/en/kvalitet/bryst_brystbevarende_ujust_eng.png "Proportion of breast-conserving surgery performed on women, 19-99 years, tumour diameter less than 30 mm, broken down by referral area, for period 2017-2019.")
 
 ### Comments
 
@@ -229,9 +205,7 @@ On average over the reported 3-year period almost 40 % of lung cancer patients i
 
 More than half the cases (55.8 %) were operated, whilst the remainder received radiotherapy. Of the 21 referral areas, 17 achieved high target attainment. There was some variation between the referral areas.
 
-![lunge_kur_todelt_eng](/helseatlas/img/en/kvalitet/lunge_kur_todelt_eng.png)
-
-_Proportion of patients with lung cancer who received curative therapy (surgery or radiotherapy), broken down by referral area, for period 2017-2019._
+![Proportion of patients with lung cancer who received curative therapy (surgery or radiotherapy)](/helseatlas/img/en/kvalitet/lunge_kur_todelt_eng.png "Proportion of patients with lung cancer who received curative therapy (surgery or radiotherapy), broken down by referral area, for period 2017-2019.")
 
 The share was highest in the St Olav referral area, where almost 50 % of patients were given curative therapy in the period 2017-2019. Telemark, Førde, Innlandet and Nordland had the lowest share and moderate attainment. The difference between the highest and lowest attaining referral areas was about 20 percentage points.
 
@@ -239,9 +213,7 @@ Of the patients who received curative therapy, the majority received surgical tr
 
 There was variation in the median survival for the period 2017-2019. Of the 21 referral areas, 9 returned low target attainment. The median survival time was greatest in the OUS referral area with 16.8 months, compared with 9.9 months in Vestfold, a difference of roughly 7 months. For most of the referral areas, there was positive development during the period, with an increase in median survival from 2017 to 2019.
 
-![lunge_median_overlevelse_ny2_just_png](/helseatlas/img/en/kvalitet/lunge_median_overlevelse_ny2_just_png.png)
-
-_Median survival in months for lung cancer patients, broken down by referral area, for period 2017-2019._
+![Median survival in months for lung cancer patients](/helseatlas/img/en/kvalitet/lunge_median_overlevelse_ny2_just_png.png "Median survival in months for lung cancer patients, broken down by referral area, for period 2017-2019.")
 
 Comments
 
@@ -265,15 +237,11 @@ The Advisory Board for the National Quality Register for Prostrate Cancer has de
 
 Most referral areas achieved high attainment for the proportion of prostrate patients receiving radical therapy. There were 4 referral areas: Nord-Trøndelag, Vestfold, St Olav and Telemark which returned low attainment. Førde and Stavanger returned the highest proportion of high-risk patients receiving radical therapy. The differences between referral areas with the highest and lowest shares was 30 percentage points for prostrate patients receiving radical therapy.
 
-![prostata_radikal_beh_ujust_eng](/helseatlas/img/en/kvalitet/prostata_radikal_beh_ujust_eng.png)
-
-_Proportion of high-risk patients, 38-79 years old, radical therapy, broken down by referral area, 2017-2018_
+![Proportion of high-risk patients, 38-79 years old, radical therapy](/helseatlas/img/en/kvalitet/prostata_radikal_beh_ujust_eng.png "Proportion of high-risk patients, 38-79 years old, radical therapy, broken down by referral area, 2017-2018")
 
 For the proportion of patients with a clear surgical margin after surgery of minor tumours (T2), 11 of the 21 referral areas achieved high target attainment (over 85 %), 9 had moderate attainment (75-84 %), and 1 referral area (Nordland) achieved low attainment (below 75 %). Telemark suffered a clearly downward trend, with low attainment in 2019. The difference between highest and lowest proportion of clear surgical margin spans roughly 25 percentage points.
 
-![prostata_ufri_rand_snu_ujust2](/helseatlas/img/en/kvalitet/prostata_ufri_rand_snu_ujust2.png)
-
-_{Proportion of men with clear surgical margin after removal of minor cancerous tumours (equal to or less than T2), broken down by referral area, for period 2017-2019._
+![Proportion of men with clear surgical margin after removal of minor cancerous tumours](/helseatlas/img/en/kvalitet/prostata_ufri_rand_snu_ujust2.png "Proportion of men with clear surgical margin after removal of minor cancerous tumours (equal to or less than T2), broken down by referral area, for period 2017-2019.")
 
 ### Comments
 
@@ -295,17 +263,13 @@ Management of blood glucose levels is done by monitoring the long-term blood glu
 
 High target attainment is reached when minimum 40 % of children and youth with type 1 diabetes have HbA1c below 53 mmol/mol. Only 25 % of children and youth in Norway had HbA1c below 53 mmol/mol in the period 2017-2019. The highest attainment was by Fonna (35 %) and St Olav (33 %), and the lowest was Telemark (16 %) and Bergen (15 %). Regional differences were less pronounced.
 
-![bdia_hba1c_low_ujust_eng](/helseatlas/img/en/kvalitet/bdia_hba1c_low_ujust_eng.png)
-
-_Proportion of children and youth age 0-17 years with HbA1c below 53 mmol/mol, broken down by referral area, for period 2017-2019. \*Referral area has fewer than 10 incidents on average per year._
+![Proportion of children and youth age 0-17 years with HbA1c below 53 mmol/mol](/helseatlas/img/en/kvalitet/bdia_hba1c_low_ujust_eng.png "Proportion of children and youth age 0-17 years with HbA1c below 53 mmol/mol, broken down by referral area, for period 2017-2019. *Referral area has fewer than 10 incidents on average per year.")
 
 Target attainment was highest for Health Central RHA (27 %) and the lowest was Health West RHA (23 %). Developments in the proportion of patients with HbA1c below 53 mmol/mol was generally positive during the period. Fonna and St Olav were the only referral areas with high attainment in 2019, reporting 40 % and 44 % respectively.
 
 There was geographical variation in the use of CGM among the referral areas. Whereas 86 % of patients in Nord-Trøndelag used CGM in the period 2017-2019, this compares with 54%% in Oslo and 52%% in Finnmark. There was also geographical variation in the use of CGM between the regions.
 
-![bdia_cgm_ujust_eng](/helseatlas/img/en/kvalitet/bdia_cgm_ujust_eng.png)
-
-_Proportion of children and youth, age 0-17 years, using CGM, broken down by referral area, for period 2017-2019._
+![Proportion of children and youth, age 0-17 years, using CGM](/helseatlas/img/en/kvalitet/bdia_cgm_ujust_eng.png "Proportion of children and youth, age 0-17 years, using CGM, broken down by referral area, for period 2017-2019.")
 
 The share was highest in Health Central RHA (75%) and lowest in Health South-East RHA (60 %). Development in the use of CGM was strong during the period, with an increase in all referral areas. There was a 25 percentage points higher proportion of children with type 1 diabetes using CGM in 2019 than in 2017. Regionally 85 % of patients in Health Central RHA used CGM in 2019, compared with 70 % in Health South-East RHA. In the regions Health North RHA and Health West RHA, 75 % and 78 % of patients, respectively, used CGM in 2019.
 
@@ -327,15 +291,11 @@ The Advisory Board for the Norwegian Diabetes Registry has worked out that patie
 
 High target attainment has been set by the Advisory Board as HbA1c equal to or below 53 mmol/mol for a minimum 25 % of patients, moderate attainment is 20-25 % of patients, and low attainment is below 20 %. Attainment was generally high during the period 2017-2019. Despite this, there were significant differences in the attainment for the various referral areas. Førde, which had the highest attainment in the period at 37 %, had almost double the proportion of patients with HbA1c equal to or below 53 mmol/mol compared to Østfold at 1 %. For the period, there was a generally positive development in most referral areas for a larger proportion of patients with HbA1c equal to or below 53 mmol/mol. At the regional level, target attainment was lowest in Health North RHA at 2 % and highest in Health West RHA and Health Central RHA at 2 % each.
 
-![diabetes_hba1c_low_ujust_eng](/helseatlas/img/en/kvalitet/diabetes_hba1c_low_ujust_eng.png)
-
-_Proportion of patients with HbA1c below 53 mmol/mol, broken down by referral area, for period 2017-2019._
+![Proportion of patients with HbA1c below 53 mmol/mol](/helseatlas/img/en/kvalitet/diabetes_hba1c_low_ujust_eng.png "Proportion of patients with HbA1c below 53 mmol/mol, broken down by referral area, for period 2017-2019.")
 
 When blood sugar (glucose) exceeds or equals 75 mmol/mol, the risk of developing late complications increases severely. Therefore, it is recommended that the proportion of patients with HbA1c below 75 mmol/mol shall be as high as possible. High attainment for HbA1c below 75 mmol/mol has been set at minimum 85 %, moderate attainment at 80-85 %, and low attainment at below 80 %. The result reveals major differences in the proportion of target attainment between referral areas. In the Diakonhjemmet referral area, 91 % of patients had HbA1c below 75 mmol/mol, compared with 79 % in the Østfold, Finnmark, Telemark and Helgeland referral areas. Regional differences were less pronounced. The lowest attainment was in Health North RHA at 82 %, and highest was Health Central RHA at 86 %. There was a generally positive development for all referral areas during the period, as all referral areas as a minimum showed a moderate attainment in 2019.
 
-![diabetes_hba1c_high_ujust_eng](/helseatlas/img/en/kvalitet/diabetes_hba1c_high_ujust_eng.png)
-
-_Proportion of patients with HbA1c below 75 mmol/mol, broken down by referral area, for period 2017-2019._
+![Proportion of patients with HbA1c below 75 mmol/mol](/helseatlas/img/en/kvalitet/diabetes_hba1c_high_ujust_eng.png "Proportion of patients with HbA1c below 75 mmol/mol, broken down by referral area, for period 2017-2019.")
 
 ### Comments
 
@@ -355,15 +315,11 @@ The Advisory Board for the National Hip Fracture Registry (jointly with the Nati
 
 Most of the referral areas reported moderate or low target attainment for the proportion of patients operated within 48 hours. Only 1 referral area, Telemark, reported high attainment, whilst 3 referral areas: UNN, Østfold and Akershus, reported low attainment. The results were stable in most referral areas throughout the period.
 
-![hofte_ventetid_tot_ujust2](/helseatlas/img/en/kvalitet/hofte_ventetid_tot_ujust2.png)
-
-_Proportion of patients 60 years and over operated within 48 hours after time of fracture, broken down by referral areas, for period 2017-2019._
+![Proportion of patients 60 years and over operated within 48 hours after time of fracture](/helseatlas/img/en/kvalitet/hofte_ventetid_tot_ujust2.png "Proportion of patients 60 years and over operated within 48 hours after time of fracture, broken down by referral areas, for period 2017-2019.")
 
 Of the referral areas, 16 had either high or moderate attainment for use of a cemented stem prosthesis for patients more than 70 years old, calculated from the overall result in the period. There were 3 referral areas: Sørlandet, Førde and UNN that stood out with low attainment for this indicator. The quality indicator showed great geographical variation. The difference between referral areas with the highest and lowest shares was no less than 50 percentage points.
 
-![hofte_sementert_ujust2](/helseatlas/img/en/kvalitet/hofte_sementert_ujust2.png)
-
-_Proportion of patients over 70 years old with dislocated femoral neck fracture receiving cemented stem prosthesis, broken down by referral areas, for period 2017-2019._
+![Proportion of patients over 70 years old with dislocated femoral neck fracture receiving cemented stem prosthesis](/helseatlas/img/en/kvalitet/hofte_sementert_ujust2.png "Proportion of patients over 70 years old with dislocated femoral neck fracture receiving cemented stem prosthesis, broken down by referral areas, for period 2017-2019.")
 
 ### Comments
 
@@ -385,15 +341,11 @@ The Advisory Board for the Norwegian Renal Registry has worked out that kidney t
 
 High target attainment has been set by the Advisory Board as minimum 80 % of kidney transplant patients with blood pressure below 130/80 mmHg, moderate attainment is 70-80 %, and low attainment is below 70 %. Only 43 % of kidney transplant patients showed a blood pressure below 130/80 mmHg, and the geographical differences were great. The Østfold referral area has almost double the proportion of patients (62 %) with below-recommended blood pressure, than Helgeland (33 %) in the period 2017-2019. All referral areas showed low attainment during the period, and Østfold was the only one to achieve moderate attainment in a single year. Regionally the attainment was lowest in Health North RHA and Health Central RHA (both 4 %) and highest in Health West RHA (4 %).
 
-![nyre_bt_eng](/helseatlas/img/en/kvalitet/nyre_bt_eng.png)
-
-_Proportion of kidney transplant patients with blood pressure below 130/80 mmHg, broken down by referral area, for period 2017-2019._
+![Proportion of kidney transplant patients with blood pressure below 130/80 mmHg](/helseatlas/img/en/kvalitet/nyre_bt_eng.png "Proportion of kidney transplant patients with blood pressure below 130/80 mmHg, broken down by referral area, for period 2017-2019.")
 
 High target attainment is when 80 % of patients have a weekly Kt/V above the set limit of 2.3, moderate corresponds to 70-80 %, and low is below 70 %. Only 71 % of patients in Norway showed a good effect from hemodialysis, and the geographical differences were great. Whereas 85 % of patients in the Førde referral area had good effect from hemodialysis, only 34 % of those in Østfold did so. At the regional level, target attainment was highest in Health North RHA (7 %) and lowest in Health South-East RHA (6 %).
 
-![nyre_hemodialyse_eng](/helseatlas/img/en/kvalitet/nyre_hemodialyse_eng.png)
-
-_Proportion of patients with satisfactory dialysis (hemodialysis), broken down by referral area, for period 2017-2019._
+![Proportion of patients with satisfactory dialysis (hemodialysis)](/helseatlas/img/en/kvalitet/nyre_hemodialyse_eng.png "Proportion of patients with satisfactory dialysis (hemodialysis), broken down by referral area, for period 2017-2019.")
 
 ### Comments
 

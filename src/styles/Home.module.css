@@ -28,7 +28,6 @@
 .header_links {
   text-align: end;
   align-self: center;
-  flex-grow: 1;
   padding-bottom: 10px;
   font-size: 18px;
   line-height: 24px;
@@ -139,7 +138,7 @@
   flex-wrap: wrap;
   position: relative;
   text-align: left;
-  justify-content: center;
+  justify-content: left;
 }
 .buttons > .block_buttons > .block_button {
   margin-right: 8px;

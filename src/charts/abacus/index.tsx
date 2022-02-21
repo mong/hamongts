@@ -70,7 +70,6 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
     domain: [xMin, xMax],
     range: [0, innerWidth],
   });
-  console.log(data);
   return (
     <svg style={{ backgroundColor }} width={width} height={height}>
       <Group left={margin.left} top={margin.top}>

@@ -25,17 +25,11 @@ En konsultasjon er definert som direkte kontakt mellom lege og pasient, innehold
 
 Bosatte i opptaksområde Stavanger bruker fastlege på dagtid ca. 30 % mer enn bosatte i Finnmark. Bosatte i opptaksområde Finnmark bruker derimot legevakten mest, hele 3 ganger mer enn bosatte i Indre Oslo (opptaksområdene til Diakonhjemmet og Lovisenberg sykehus). Velger man å holde Finnmark utenfor på grunn av avvikende høye legevaktsrater, er variasjonen mer moderat med ca. 70 % forskjell mellom opptaksområdene til UNN og Indre Oslo.
 
-**Figur:** Fastlegekonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
+![Fastlegekonsultasjoner, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/almenn1.png "Fastlegekonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.")
 
-![almenn1](/helseatlas/img/no/eldre/almenn1.png)
+![Legevaktkonsultasjoner, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/almenn2.png "Legevaktkonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.")
 
-**Figur:** Legevaktkonsultasjoner, ant. pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. og innb. pr. år.
-
-![almenn2](/helseatlas/img/no/eldre/almenn2.png)
-
-**Figur:** Andel av befolkningen i 2-årige aldersgrupper, som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.
-
-![almenn3](/helseatlas/img/no/eldre/almenn3.png)
+![Andel av befolkningen som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.](/helseatlas/img/no/eldre/almenn3.png "Andel av befolkningen i 2-årige aldersgrupper, som har hatt minst én kontakt med allmennlegetjenesten (fastlege og/eller legevakt) i 2015.")
 
 ### Kommentarer
 
@@ -59,17 +53,11 @@ Det er ca. 1 117 000 polikliniske konsultasjoner blant eldre pr. år hvorav ca. 
 
 De eldre har ca. 179 000 innleggelser pr. år og 80 % av disse er akutte innleggelser. Bosatte i Finnmark legges ca. 30% oftere inn på sykehus enn bosatte i Østfold og variasjonen anses å være liten. 80 % av innleggelser hos eldre er akutte mot 70 % i pasientpopulasjonen under 75 år.
 
-**Figur:** Polikliniske konsultasjoner, ant. pr 1000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. kons. pr. år.
+![Polikliniske konsultasjoner, ant. pr 1000 innb. fordelt på off. og priv. tjenesteyter.](/helseatlas/img/no/eldre/spes1.png "Polikliniske konsultasjoner, ant. pr 1000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. kons. pr. år.")
 
-![spes1](/helseatlas/img/no/eldre/spes1.png)
+![Innleggelser, ant. pr. 1 000 innb. fordelt på akutte og planlagte innleggelser.](/helseatlas/img/no/eldre/spes2.png "Innleggelser, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på akutte og planlagte innleggelser. Gj.snittlig ant. ak. og pl. innl. pr. år.")
 
-**Figur:** Innleggelser, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på akutte og planlagte innleggelser. Gj.snittlig ant. ak. og pl. innl. pr. år.
-
-![spes2](/helseatlas/img/no/eldre/spes2.png)
-
-**Figur:** Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015, fordelt på 2-årige aldersgrupper.
-
-![spes3](/helseatlas/img/no/eldre/spes3.png)
+![Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015.](/helseatlas/img/no/eldre/spes3.png "Andel av befolkningen som har hatt minst en kontakt i spesialisthelsetjenesten i 2015, fordelt på 2-årige aldersgrupper.")
 
 ### Kommentarer
 
@@ -89,13 +77,9 @@ Blant eldre er det årlig ca. 6 650 pasienter som legges inn med diagnosen hjert
 
 Årlig utføres vel 3 400 revaskulariseringsprosedyrer på eldre pasienter. Bosatte i Finnmark får utført revaskularisering omlag dobbelt så ofte som bosatte i Møre og Romsdal. Ratene for bosatte i Finnmark har falt betydelig i perioden. Det er ingen samvariasjon mellom pasienter med innleggelse for hjerteinfarkt og antall revaskulariseringer i de ulike opptaksområdene.
 
-**Figur:** Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.
+![Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb.](/helseatlas/img/no/eldre/hjerteinfarkt1.png "Hjerteinfarkt, ant. pasienter innlagt pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.")
 
-![hjerteinfarkt1](/helseatlas/img/no/eldre/hjerteinfarkt1.png)
-
-**Figur:** Revaskularisering, ant. inngrep pr. 1 000 innb. justert for kjønn og alder, gj.snitt og pr. år. Gj.snittlig ant. inngrep og pasienter pr. år.
-
-![hjerteinfarkt2](/helseatlas/img/no/eldre/hjerteinfarkt2.png)
+![Revaskularisering, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/hjerteinfarkt2.png "Revaskularisering, ant. inngrep pr. 1 000 innb. justert for kjønn og alder, gj.snitt og pr. år. Gj.snittlig ant. inngrep og pasienter pr. år.")
 
 ### Kommentarer
 
@@ -125,17 +109,11 @@ Det er ca. 6 700 innleggelser pr. år for pasienter med hjertesvikt som hoveddia
 
 Av de som har vært innlagt for hjertesvikt, reinnlegges 26 % innen 30 dager. Andel reinnleggelser er 60 % høyere i opptaksområdet NordTrøndelag enn i Telemark.
 
-**Figur:** Ant. konsultasjoner pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og konsultasjoner pr. pasient pr. år.
+![Ant. konsultasjoner pr. 1 000 innb.](/helseatlas/img/no/eldre/hjertesvikt1.png "Ant. konsultasjoner pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og konsultasjoner pr. pasient pr. år.")
 
-![hjertesvikt1](/helseatlas/img/no/eldre/hjertesvikt1.png)
+![Ant. innleggelser pr. 1 000 innb.](/helseatlas/img/no/eldre/hjertesvikt2.png "Ant. innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.")
 
-**Figur:** Ant. innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
-
-![hjertesvikt2](/helseatlas/img/no/eldre/hjertesvikt2.png)
-
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid primærinnl.
-
-![hjertesvikt3](/helseatlas/img/no/eldre/hjertesvikt3.png)
+![Reinnleggelser som andel av primærinnleggelser](/helseatlas/img/no/eldre/hjertesvikt3.png "Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid primærinnl.")
 
 ### Kommentarer
 
@@ -163,17 +141,11 @@ Det utføres årlig nesten 32 000 polikliniske ekkokardiografier på eldre pasie
 
 Rundt 9 000 polikliniske langtids-EKG’er gjennomføres årlig for eldre pasienter, hvorav 72 % i offentlige sykehus. Bosatte i Fonna utredes nesten 5 ganger så ofte som bosatte i opptaksområdet til St. Olavs hospital. Ratene for innsetting av pacemaker samvarierer tydelig med bruken av langtids-EKG.
 
-**Figur:** Poliklinisk arbeids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
+![Poliklinisk arbeids-EKG, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/utredninghjerte1.png "Poliklinisk arbeids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.")
 
-![utredninghjerte1](/helseatlas/img/no/eldre/utredninghjerte1.png)
+![Poliklinisk ekkokardiografi, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/utredninghjerte2.png "Poliklinisk ekkokardiografi, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.")
 
-**Figur:** Poliklinisk ekkokardiografi, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
-
-![utredninghjerte2](/helseatlas/img/no/eldre/utredninghjerte2.png)
-
-**Figur:** Poliklinisk langtids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
-
-![utredninghjerte3](/helseatlas/img/no/eldre/utredninghjerte3.png)
+![Poliklinisk langtids-EKG, ant. pr. 1 000 innb.](/helseatlas/img/no/eldre/utredninghjerte3.png "Poliklinisk langtids-EKG, ant. pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.")
 
 ### Kommentarer
 
@@ -195,13 +167,9 @@ Det settes årlig inn nesten 2 000 permanente pacemakere for eldre i Norge, hvil
 
 Det settes inn klart flest pacemakere som korrigerer for hjerterytmeforstyrrelser blant eldre pasienter. Rundt 130 nye pacemakere pr. år har en tilleggsfunksjon for å behandle hjertesvikt (CRT). Bosatte i Bergen, Førde og Fonna har noe høyere bruk av pacemaker med slik tilleggsfunksjon enn de andre opptaksområdene.
 
-**Figur:** Ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snitt ant. inngrep og innb. pr. år.
+![Pacemaker, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/pacemaker1.png "Ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snitt ant. inngrep og innb. pr. år.")
 
-![pacemaker1](/helseatlas/img/no/eldre/pacemaker1.png)
-
-**Figur:** Ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på pacemaker uten og med CRT. Gj.snittlig ant. uten og med CRT pr. år.
-
-![pacemaker2](/helseatlas/img/no/eldre/pacemaker2.png)
+![Pacemaker, ant. inngrep pr. 1 000 innb. fordelt på pacemaker uten og med CRT](/helseatlas/img/no/eldre/pacemaker2.png "Ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på pacemaker uten og med CRT. Gj.snittlig ant. uten og med CRT pr. år.")
 
 ### Kommentarer
 
@@ -225,17 +193,11 @@ Andel reinnleggelser innen 30 dager etter utskrivelse er 22 % for hele landet. D
 
 22% av de som legges inn på sykehus for lungebetennelse dør i løpet av de første 30 dager etter siste innleggelse og etter ett år er 42 % døde. Til sammenligning dør 8 % pr. år i Norge av alle personer 75 år og eldre.
 
-**Figur:** Akutte innleggelser pr. 1000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.
+![Lungebetennelse, akutte innleggelser pr. 1000 innb.](/helseatlas/img/no/eldre/lungebetennelse1.png "Akutte innleggelser pr. 1000 innb. justert for kjønn og alder. Gj.snittlig ant. pasienter og innb. pr. år.")
 
-![lungebetennelse1](/helseatlas/img/no/eldre/lungebetennelse1.png)
+![Lungebetennelse, reinnleggelser som andel av primærinnleggelser](/helseatlas/img/no/eldre/lungebetennelse2.png "Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.")
 
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
-
-![lungebetennelse2](/helseatlas/img/no/eldre/lungebetennelse2.png)
-
-**Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
-
-![lungebetennelse3](/helseatlas/img/no/eldre/lungebetennelse3.png)
+![Lungebetennelse, andel døde innen 30 dgr etter siste innleggelse](/helseatlas/img/no/eldre/lungebetennelse3.png "Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.")
 
 ### Kommentarer
 
@@ -259,17 +221,11 @@ Andel som blir reinnlagt innen 30 dager etter utskrivelse for kols er 29 %. Ande
 
 21 % av eldre innlagt med kols dør innen 30 dager etter siste innleggelse, mens 43 % er døde ett år etter siste innleggelse. Til sammenligning dør 8 % pr. år i Norge av alle personer 75 år og eldre.
 
-**Figur:** Akutte innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
+![Kols, akutte innleggelser pr. 1 000 innb.](/helseatlas/img/no/eldre/kols1.png "Akutte innleggelser pr. 1 000 innb. justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.")
 
-![kols1](/helseatlas/img/no/eldre/kols1.png)
+![Kols, reinnleggelser som andel av primærinnleggelser](/helseatlas/img/no/eldre/kols2.png "Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.")
 
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
-
-![kols2](/helseatlas/img/no/eldre/kols2.png)
-
-**Figur:** Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.
-
-![kols3](/helseatlas/img/no/eldre/kols3.png)
+![Kols, andel døde innen 30 dgr etter siste innleggelse](/helseatlas/img/no/eldre/kols3.png "Andel døde innen 30 dgr etter siste innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr, ant. og andel døde innen ett år.")
 
 ### Kommentarer
 
@@ -293,17 +249,11 @@ Det er nesten 7 000 akutte innleggelser pr. år med hoftebrudd blant eldre, og k
 
 Innen 30 dager etter innleggelse for hoftebrudd er 11 % av de eldre pasientene døde. Ett år etter hoftebrudd har andelen døde økt til 29 %. Til sammenligning dør 8 % pr. år i Norge av alle personer 75 år og eldre.
 
-**Figur:** Ant. innleggelser pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. brudd og pasienter pr. år.
+![Hoftebrudd, akutte innleggelser pr. 1 000 innb.](/helseatlas/img/no/eldre/hoftebrudd1.png "Ant. innleggelser pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. brudd og pasienter pr. år.")
 
-![hoftebrudd1](/helseatlas/img/no/eldre/hoftebrudd1.png)
+![Hoftebrudd, reinnleggelser som andel av primærinnleggelser](/helseatlas/img/no/eldre/hoftebrudd2.png "Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.")
 
-**Figur:** Reinnleggelser som andel av primærinnleggelser, justert for kjønn og alder. Gj.snittlig ant. reinnl., primærinnl. og liggetid for primærinnl.
-
-![hoftebrudd2](/helseatlas/img/no/eldre/hoftebrudd2.png)
-
-**Figur:** Andel døde innen 30 dager etter innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr., ant. og andel døde innen ett år.
-
-![hoftebrudd3](/helseatlas/img/no/eldre/hoftebrudd3.png)
+![Hoftebrudd, andel døde innen 30 dgr etter siste innleggelse](/helseatlas/img/no/eldre/hoftebrudd3.png "Andel døde innen 30 dager etter innleggelse, justert for kjønn og alder. Gj.snittlig ant. døde innen 30 dgr., ant. og andel døde innen ett år.")
 
 ### Kommentarer
 
@@ -327,13 +277,9 @@ Blant eldre settes det årlig inn om lag 2 300 primære hofteproteser på nesten
 
 Det settes årlig inn ca. 1 500 primære kneproteser på nesten like mange eldre pasienter. Kvinner er i flertall (65 %) og gjennomsnittsalderen er 79,4 år. Bosatte i opptaksområde Nord-Trøndelag får 60 % flere kneproteser enn bosatte i Telemark. Nasjonalt, og for de fleste opptaksområder, har antall primære kneproteser økt i perioden.
 
-**Figur:** Primære hofteproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.
+![Primære hofteproteser, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/leddproteser1.png "Primære hofteproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.")
 
-![leddproteser1](/helseatlas/img/no/eldre/leddproteser1.png)
-
-**Figur:** Primære kneproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.
-
-![leddproteser2](/helseatlas/img/no/eldre/leddproteser2.png)
+![Primære kneproteser, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/leddproteser2.png "Primære kneproteser, ant. inngrep pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. inngrep og innb. pr. år.")
 
 ### Kommentarer
 
@@ -357,13 +303,9 @@ Norsk hoftebruddregister registrerer årlig ca. 5 000 lårhalsbrudd i Norge og f
 
 Det er årlig om lag 4 000 lårhalsbrudd blant de eldre i Norge. 70 % av pasientene er kvinner og gjennomsnittsalderen er 85,6 år. Innsetting av protese ved lårhalsbrudd gjøres ca. 70 % oftere for bosatte i Østfold enn for bosatte i UNN-området.
 
-**Figur:** Håndleddsbrudd, andel konservativt behandlede brudd, justert for kjønn og alder. Gj.snittlig ant. konservativt og operativt behandlet pr. år.
+![Håndleddsbrudd, andel konservativt behandlede brudd](/helseatlas/img/no/eldre/handleddsbrudd1.png "Håndleddsbrudd, andel konservativt behandlede brudd, justert for kjønn og alder. Gj.snittlig ant. konservativt og operativt behandlet pr. år.")
 
-![handleddsbrudd1](/helseatlas/img/no/eldre/handleddsbrudd1.png)
-
-**Figur:** Lårhalsbrudd, andel behandlet med protese, justert for kjønn og alder. Gj.snittlig ant. brudd behandlet med protese og osteosyntese pr. år.
-
-![handleddsbrudd2](/helseatlas/img/no/eldre/handleddsbrudd2.png)
+![Lårhalsbrudd, andel behandlet med protese](/helseatlas/img/no/eldre/handleddsbrudd2.png "Lårhalsbrudd, andel behandlet med protese, justert for kjønn og alder. Gj.snittlig ant. brudd behandlet med protese og osteosyntese pr. år.")
 
 ### Kommentarer
 
@@ -391,17 +333,11 @@ På nasjonalt nivå blir 42 % av pasientene innlagt innen 4 timer etter symptomd
 
 I Norge blir 90 % av pasientene behandlet i slagenhet. I opptaksområ- det Akershus (99 %) blir nærmere 50 % flere av pasientene behandlet i slagenhet sammenliknet med Førde-området (67 %).
 
-**Figur:** Ant. innleggelser pr. 1 000 innb., gj.snitt for 2013–2015, justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.
+![Hjerneslag, antall innleggelser pr. 1 000 innb.](/helseatlas/img/no/eldre/hjerneslag1.png "Ant. innleggelser pr. 1 000 innb., gj.snitt for 2013–2015, justert for kjønn og alder. Gj.snittlig ant. innleggelser og pasienter pr. år.")
 
-![hjerneslag1](/helseatlas/img/no/eldre/hjerneslag1.png)
+![Hjerneslag, andel pasienter innlagt innen 4 timer etter symptomdebut](/helseatlas/img/no/eldre/hjerneslag2.png "Andel pasienter innlagt innen 4 timer etter symptomdebut, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. innlagt innen 4 timer og aktuell for innleggelse pr. år.")
 
-**Figur:** Andel pasienter innlagt innen 4 timer etter symptomdebut, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. innlagt innen 4 timer og aktuell for innleggelse pr. år.
-
-![hjerneslag2](/helseatlas/img/no/eldre/hjerneslag2.png)
-
-**Figur:** Andel pasienter behandlet i slagenhet, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. behandlet og aktuell for beh. i slagenhet pr. år.
-
-![hjerneslag3](/helseatlas/img/no/eldre/hjerneslag3.png)
+![Hjerneslag, andel pasienter behandlet i slagenhet](/helseatlas/img/no/eldre/hjerneslag3.png "Andel pasienter behandlet i slagenhet, 2014–2015, justert for kjønn og alder. Gj.snittlig ant. behandlet og aktuell for beh. i slagenhet pr. år.")
 
 ### Kommentarer
 
@@ -427,13 +363,9 @@ Parkinsons sykdom er kronisk og forverres gradvis. Den kan ikke kureres, men ved
 
 Årlig utføres det nesten 5 000 polikliniske konsultasjoner fordelt på ca. 2 900 eldre pasienter med Parkinsons sykdom som hoveddiagnose. Det synes å være en økende aktivitet de siste to årene. Gjennomsnittsalderen blant de eldre er 80,1 år og 45 % av pasientene er kvinner. Bosatte i Vestfold med Parkinsons sykdom bruker poliklinikk noe mer enn to ganger så ofte som bosatte i opptaksområdet til St. Olavs hospital. Også gjennomsnittlig antall oppmøter pr. pasient varierer betydelig mellom opptaksområdene, fra 1,3 til 2,4.
 
-**Figur:** Demens, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.
+![Demens, ant. konsultasjoner pr. 1 000 innb.](/helseatlas/img/no/eldre/demens1.png "Demens, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.")
 
-![demens1](/helseatlas/img/no/eldre/demens1.png)
-
-**Figur:** Parkinsons sykdom, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.
-
-![demens2](/helseatlas/img/no/eldre/demens2.png)
+![Parkinsons sykdom, ant. konsultasjoner pr. 1 000 innb.](/helseatlas/img/no/eldre/demens2.png "Parkinsons sykdom, ant. konsultasjoner pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. konsultasjoner, pasienter og kons. pr. pas. pr. år.")
 
 ### Kommentar
 
@@ -457,17 +389,11 @@ Blant eldre er det årlig 40 % flere nye krefttilfeller i opptaksområdet Vestfo
 
 Bosatte i opptaksområdet Vestfold får medikamentell kreftbehandling dobbelt så hyppig som bosatte i Finnmark. Bosatte i Sørlandet opptaksområde får strålebehandling dobbelt så ofte som bosatte i Telemark.
 
-**Figur:** Nye krefttilfeller i Norge pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder. Gj.snittlig ant. nye tilfeller pr. år.
+![Nye krefttilfeller i Norge pr. 1 000 innb., 75 år og eldre](/helseatlas/img/no/eldre/kreft1.png "Nye krefttilfeller i Norge pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder. Gj.snittlig ant. nye tilfeller pr. år.")
 
-![kreft1](/helseatlas/img/no/eldre/kreft1.png)
+![Medikamentell kreftbehandling, ant. pasienter pr. 1 000 innb.](/helseatlas/img/no/eldre/kreft2.png "Medikamentell kreftbehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.")
 
-**Figur:** Medikamentell kreftbehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.
-
-![kreft2](/helseatlas/img/no/eldre/kreft2.png)
-
-**Figur:** Strålebehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.
-
-![kreft3](/helseatlas/img/no/eldre/kreft3.png)
+![Strålebehandling, ant. pasienter pr. 1 000 innb.](/helseatlas/img/no/eldre/kreft3.png "Strålebehandling, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pasienter og oppm. pr. pasient pr. år.")
 
 ### Kommentarer
 
@@ -489,13 +415,9 @@ Det utføres om lag 21 000 inngrep for aldersbetinget grå stær pr. år blant e
 
 Årlig får nærmere 7 000 eldre pasienter gjentatt injeksjonsbehandling i øyet. Det er i hovedsak AMD som er indikasjon for behandlingen, deretter blodpropp og i mindre grad netthinneforandringer forårsaket av diabetes. Injeksjonsbehandling gis over dobbelt så ofte til bosatte i opptaksområdet til UNN sammenlignet med bosatte i Førde.
 
-**Figur:** Grå stær, ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.
+![Grå stær, ant. inngrep pr. 1 000 innb.](/helseatlas/img/no/eldre/oyesykdommer1.png "Grå stær, ant. inngrep pr. 1 000 innb., justert for kjønn og alder, fordelt på off. og priv. tjenesteyter. Gj.snittlig ant. off. og priv. pr. år.")
 
-![oyesykdommer1](/helseatlas/img/no/eldre/oyesykdommer1.png)
-
-**Figur:** Injeksjonsbehandling i øyet for tilstandene AMD, diabetisk retinopati og blodpropp, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pr. tilstand pr. år.
-
-![oyesykdommer2](/helseatlas/img/no/eldre/oyesykdommer2.png)
+![Injeksjonsbehandling i øyet for tilstandene AMD, diabetisk retinopati og blodpropp](/helseatlas/img/no/eldre/oyesykdommer2.png "Injeksjonsbehandling i øyet for tilstandene AMD, diabetisk retinopati og blodpropp, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Gj.snittlig ant. pr. tilstand pr. år.")
 
 ### Kommentarer
 
@@ -519,9 +441,7 @@ I 2015 fikk vel 17 000 eldre pasienter tilpasset nytt høreapparat. Kvinneandele
 
 Fire ganger så mange av de bosatte i Finnmark får tilpasset høreapparat som de bosatte i opptaksområdet St. Olavs. Dersom man velger å se bort fra St. Olavs, som har et betydelig, dog ukjent privatfinansiert forbruk, får nær dobbelt så mange av de bosatte i Finnmark tilpasset høreapparat som i Østfold.
 
-**Figur:** Høreapparat, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Fordelt på off. og priv. tjenesteyter, ant. off. og priv.
-
-![horeapparat1](/helseatlas/img/no/eldre/horeapparat1.png)
+![Høreapparat, ant. pasienter pr. 1 000 innb.](/helseatlas/img/no/eldre/horeapparat1.png "Høreapparat, ant. pasienter pr. 1 000 innb., justert for kjønn og alder. Fordelt på off. og priv. tjenesteyter, ant. off. og priv.")
 
 ### Kommentarer
 
@@ -549,13 +469,9 @@ Bosatte i opptaksområdet Telemark får biologisk legemiddel dobbelt så ofte so
 
 Omtrent 11 500 pasienter i alderen 50–74 år fikk i 2015 behandling med biologiske legemidler for de samme tilstandene. Behandlingsraten for den yngste aldersgruppen er om lag tre ganger høyere enn for den eldste aldersgruppen.
 
-**Figur:** Biologiske legemidler, ant. pasienter pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder, ant. pasienter og innb.
+![Biologiske legemidler, ant. pasienter pr. 1 000 innb., 75 år og eldre](/helseatlas/img/no/eldre/biologiske1.png "Biologiske legemidler, ant. pasienter pr. 1 000 innb., 75 år og eldre, justert for kjønn og alder, ant. pasienter og innb.")
 
-![biologiske1](/helseatlas/img/no/eldre/biologiske1.png)
-
-**Figur:** Biologiske legemidler, ant. pasienter pr. 1 000 innb., 50–74 år, justert for kjønn og alder, ant. pasienter og innb.
-
-![biologiske2](/helseatlas/img/no/eldre/biologiske2.png)
+![Biologiske legemidler, ant. pasienter pr. 1 000 innb., 50–74 år](/helseatlas/img/no/eldre/biologiske2.png "Biologiske legemidler, ant. pasienter pr. 1 000 innb., 50–74 år, justert for kjønn og alder, ant. pasienter og innb.")
 
 ### Kommentarer
 
@@ -571,13 +487,9 @@ Det er omtrent 370 000 eldre i Norge i 2017, og de utgjør 7 % av Norges totale 
 
 Det er store regionale forskjeller i andelen av befolkningen som er eldre. De eldre utgjør en dobbelt så stor andel av totalbefolkningen for opptaksområdet Innlandet (9 %) sammenliknet med opptaksområdet for Indre Oslo (4,5 %). Det er store geografiske forskjeller i aldersstrukturen. Noen opptaksområder har i dag en betydelig høyere andel eldre enn landsgjennomsnittet og forventes også å ha det i 2040 (Nordland, Helgeland, NordTrøndelag, Møre og Romsdal, Førde, Innlandet og Telemark). Mens andre opptaksområder har i dag en betydelig lavere andel eldre og forventes også å ha det i 2040 (Stavanger, Akershus, OUS og Indre Oslo).
 
-**Figur:** Andel av befolkningen som er 75 år eller eldre, 2013–2017 og framskrevet for 2017–2040 (SSB’s mellomalternativ og alternativ for sterk og svak aldring), fordelt på helseforetakenes opptaksområde. Stiplet linje er mellomalternativet for landet samlet. Kilde: SSB.
+![Andel av befolkningen som er 75 år eller eldre, 2013–2017 og framskrevet for 2017–2040](/helseatlas/img/no/eldre/befolkningsutvikling1.png "Andel av befolkningen som er 75 år eller eldre, 2013–2017 og framskrevet for 2017–2040 (SSB’s mellomalternativ og alternativ for sterk og svak aldring), fordelt på helseforetakenes opptaksområde. Stiplet linje er mellomalternativet for landet samlet. Kilde: SSB.")
 
-![befolkningsutvikling1](/helseatlas/img/no/eldre/befolkningsutvikling1.png)
-
-**Figur:** Eldres bruk av allmennlege- og spesialisthelsetjeneste som andel av hele befolkningens bruk, gj.snitt for årene 2013–2015. Stiplet linje angir eldre som andel av befolkningen (7%).
-
-![befolkningsutvikling2](/helseatlas/img/no/eldre/befolkningsutvikling2.png)
+![Eldres bruk av allmennlege- og spesialisthelsetjeneste som andel av hele befolkningens bruk](/helseatlas/img/no/eldre/befolkningsutvikling2.png "Eldres bruk av allmennlege- og spesialisthelsetjeneste som andel av hele befolkningens bruk, gj.snitt for årene 2013–2015. Stiplet linje angir eldre som andel av befolkningen (7%).")
 
 ## Konsekvenser
 
