@@ -37,8 +37,6 @@ Endometriebiopsi eller utskraping ble foretatt ved omlag halvparten av kontakten
 
 ![Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder](/helseatlas/img/no/gyn/blodninger_1.png "Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
 
-
-
 ![Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner](/helseatlas/img/no/gyn/blodninger_2.png "Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig eller privat tjenesteyter. Gjennomsnittlig antall kontakter til høyre. Utvalget er begrenset til kvinner som er 50 år eller eldre.")
 
 ### Kommentarer
@@ -62,8 +60,6 @@ Bruk av utskraping er mer utbredt for kvinner med hoved- eller bitilstand N95.0 
 National Health Services (NHS) i Storbritannia har nylig anbefalt at utskrapning ikke bør utføres for pasienter med kraftige menstruasjonsblødninger med mindre det er spesielle forhold som skulle tilsi at pasienten vil ha nytte av inngrepet. Vi finner at det årlig ble utført 582 utskrapinger hos norske kvinner med hoveddiagnose «N92 Kraftige og/eller hyppige blødninger».
 
 ![Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner](/helseatlas/img/no/gyn/figur_1.png "Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. kontakter i spesialisthelsetjenesten og kontakter hos fastlege eller legevakt. Gjennomsnittlig antall kontakter og andel kontakter hos fastlege til høyre.")
-
-
 
 ![Endometriebiopsi versus utskrapning, antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner](/helseatlas/img/no/gyn/figur_2.png "Antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og endometriebiopsi versus utskrapning. Gjennomsnittlig antall kontakter til høyre.")
 
@@ -117,11 +113,7 @@ I perioden 2015–2017 ble det årlig utført ca 1 000 steriliseringer av kvinne
 
 Andelen åpne inngrep, som hovedsakelig ble utført i forbindelse med planlagte keisersnitt, var rundt 50–70 % i de fleste opptaksområdene. Det ble i perioden 2015–2017 utført omlag 570 steriliseringer i året i forbindelse med keisersnitt. Ifølge Medisinsk fødselsregister ble det i samme periode utført omlag 3250 planlagte keisersnitt pr. år.
 
-
-
 ![Antall inngrep for sterilisering fordelt på alder](/helseatlas/img/no/gyn/skjermbilde_1_0.png "Antall inngrep for sterilisering fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
-
-
 
 ![Antall steriliseringer pr. 10 000 kvinner](/helseatlas/img/no/gyn/skjermbilde_2_0.png "Antall steriliseringer pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep og andel åpne inngrep til høyre. Utvalget er begrenset til kvinner i alderen 25–55 år.")
 
@@ -207,11 +199,7 @@ Nasjonalt ble livmoren fjernet (hystorektomi) for 27 % av kvinnene, andelen hyst
 
 Kirurgiske inngrep for endometriose kan gjøres åpent, laparaskopisk eller vaginalt. Andelen åpne inngrep varierte fra 27,5 % for bosatte i opptaksområdet UNN til 4,5 % for bosatte i opptaksområdet Bergen.
 
-
-
 ![Antall inngrep for endometriose pr. 10 000 kvinner](/helseatlas/img/no/gyn/endometriose1.png "Antall inngrep for endometriose pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
-
-
 
 ![Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/endometriose2.png "Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
@@ -271,11 +259,7 @@ Andelen inngrep der livmoren fjernes (hysterektomi) varierer fra 31 % for bosatt
 
 Andelen åpne inngrep varierte fra 18 % for bosatte i opptaksområdet Nord-Trøndelag til 1 % for bosatte i opptaksområdet Diakonhjemmet.
 
-
-
 ![Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner](/helseatlas/img/no/gyn/kraftige_blodninger1.png "Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. hysterektomier, fjerning av livmorslimhinne (ER/EA) og andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
-
-
 
 ![Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/kraftige_blodninger2.png "Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
@@ -350,8 +334,6 @@ I perioden 2015–2017 ble det årlig utført omlag 2 500 inkontinensoperasjoner
 Det er svært stor variasjon i omfanget av inngrep for urininkontinens pr. 10 000 kvinner mellom helseforetakenes opptaksområder. Kvinner bosatt i opptaksområdet Finnmark fikk i gjennomsnitt over åtte ganger så mange operasjoner for inkontinens som kvinner bosatt i opptaksområdet Lovisenberg, og omlag 4,5 ganger så mange operasjoner som kvinner bosatt i opptaksområdene Diakonhjemmet og Akershus. Ser vi bort fra de to opptaksområdene med de høyeste ratene (Finnmark og Nord-Trøndelag) og opptaksområdet Lovisenberg som ligger på bunn, er likevel den geografiske variasjonen stor. Kvinner bosatt i opptaksområdene Vestfold og UNN fikk omlag 2,5 ganger så mange operasjoner for inkontinens som kvinner bosatt i opptaksområdene Akershus og Diakonhjemmet.
 
 ![Antall inngrep for urininkontinens fordelt på alder](/helseatlas/img/no/gyn/urininkontinens1.png "Antall inngrep for urininkontinens fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
-
-
 
 ![Antall inngrep for urininkontinens pr. 10 000 kvinner](/helseatlas/img/no/gyn/urininkontinens2.png "Antall inngrep for urininkontinens pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.")
 
