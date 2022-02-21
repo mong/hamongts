@@ -1,6 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
-import { AiOutlineCloseCircle, AiOutlineCaretDown } from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useTransition, animated, easings } from "react-spring";
 
 import classNames from "./popup.module.css";
@@ -8,10 +8,10 @@ import { useKeys, useOnClickOutside } from "../../helpers/hooks";
 
 type PopUpProps = {
   btnComponent: () => React.ReactNode;
-  children: React.ReactNode;
+  children: string;
 };
 
-export const PopUp = ({ children, btnComponent }) => {
+export const PopUp = ({ children, btnComponent }: PopUpProps) => {
   const [active, setActive] = React.useState<boolean>(false);
   const ref = useOnClickOutside<HTMLDivElement>(() => setActive(false), active);
 
