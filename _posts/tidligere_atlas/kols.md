@@ -105,13 +105,80 @@ Analysene inkluderer personer med kols som deltok på lungerehabilitering ved de
 
 Rundt 2 500 personer som var 40 år eller eldre deltok på lungerehabilitering for kols i 2015. De fleste var mellom 60 og 80 år. I gjennomsnitt deltok 10 personer per 10 000 innbyggere på lungerehabilitering for kols. I opptaksområdet til St. Olavs hospital deltok tre ganger så mange per 10 000 innbyggere på lungerehabilitering som i opptaksområdet til Lovisenberg.
 
-Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandling ved et offentlig finansiert sykehus. Andelen varierte fra 34 % i opptaksområdet til St. Olavs hospital til 98 % i opptaksområdet til Sørlandet sykehus.
-
 ![Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder](/helseatlas/img/no/kols/rehab1.png "Personer som deltok på lungerehabilitering for kols i 2015 fordelt på kjønn og alder. Gjennomsnittlig antall per år.")
 
-**Tabell 1.** Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.
+Av alle personer med kols som deltok på lungerehabilitering, fikk 75 % behandling ved et offentlig finansiert sykehus. Andelen varierte fra 34 % i opptaksområdet til St. Olavs hospital til 98 % i opptaksområdet til Sørlandet sykehus.
 
-**Privat** **Offentlig** **Begge** **Dagbehandling**       Personer 59 759 813 Dagbehandlinger totalt 821 6561 7382 Dagbehandlinger per person 13,9 8,6 9,1 **Døgnopphold**       Personer 604 1198 1789 Rehabiliteringsdøgn totalt 15 073 27 360 42 433 Rehabiliteringsdøgn per person 25,0 22,8 23,7
+**Tabell:** Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.
+
+|                                | **Privat** | **Offentlig** | **Begge** |
+| ------------------------------ | ---------: | ------------: | --------: |
+| **Dagbehandling**              |
+| Personer                       |         59 |           759 |       813 |
+| Dagbehandlinger totalt         |        821 |          6561 |      7382 |
+| Dagbehandlinger per person     |       13,9 |           8,6 |       9,1 |
+| **Døgnopphold**                |
+| Personer                       |        604 |          1198 |      1789 |
+| Rehabiliteringsdøgn totalt     |     15 073 |        27 360 |    42 433 |
+| Rehabiliteringsdøgn per person |       25,0 |          22,8 |      23,7 |
+
+<table>
+<caption text-align="left">Lungerehabilitering for kols som dagbehandlinger og døgnopphold fordelt på privat og offentlig behandler.</caption>
+<thead><tr>
+<th></th>
+<th style="text-align:right"><strong>Privat</strong></th>
+<th style="text-align:right"><strong>Offentlig</strong></th>
+<th style="text-align:right"><strong>Begge</strong></th>
+</tr></thead>
+<tbody><tr>
+<td><strong>Dagbehandling</strong></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Personer</td>
+<td style="text-align:right">59</td>
+<td style="text-align:right">759</td>
+<td style="text-align:right">813</td>
+</tr>
+<tr>
+<td>Dagbehandlinger totalt</td>
+<td style="text-align:right">821</td>
+<td style="text-align:right">6561</td>
+<td style="text-align:right">7382</td>
+</tr>
+<tr>
+<td>Dagbehandlinger per person</td>
+<td style="text-align:right">13,9</td>
+<td style="text-align:right">8,6</td>
+<td style="text-align:right">9,1</td>
+</tr>
+<tr>
+<td><strong>Døgnopphold</strong></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Personer</td>
+<td style="text-align:right">604</td>
+<td style="text-align:right">1198</td>
+<td style="text-align:right">1789</td>
+</tr>
+<tr>
+<td>Rehabiliteringsdøgn totalt</td>
+<td style="text-align:right">15 073</td>
+<td style="text-align:right">27 360</td>
+<td style="text-align:right">42 433</td>
+</tr>
+<tr>
+<td>Rehabiliteringsdøgn per person</td>
+<td style="text-align:right">25,0</td>
+<td style="text-align:right">22,8</td>
+<td style="text-align:right">23,7</td>
+</tr>
+</table>
 
 ![Personer som deltok på lungerehabilitering for kols i 2015](/helseatlas/img/no/kols/rehab2.png "Personer som deltok på lungerehabilitering for kols i 2015. Kjønns- og aldersstandardisert antall per 10 000 innbyggere.")
 
