@@ -19,13 +19,9 @@ Det var stor forskjell på de ulike opptaksområdene med tanke på antall fødsl
 
 I treårsperioden vi studerer i atlaset (2015–2017) var det i gjennomsnitt registrert 58 198 fødsler pr. år i MFR hvorav 57 572 (98,4 %) er med i Helseatlas for fødselshjelp. Det var flest fødsler blant kvinner bosatt i opptaksområdene Bergen og Akershus (ca5 400 pr. år) og færrest i opptaksområdene Helgeland og Finnmark (ca 750 pr. år). Det var flest fødsler i perioden april – august, og færrest omkring årsskiftet. I juli var det gjennomsnittlig 173 fødsler pr. dag og i desember var det gjennomsnittlig 131 fødsler pr. dag. Variasjonene fra dag til dag var imidlertid betydelige.
 
-**Figur 1:** Antall fødsler i Helseatlas for fødselshjelp fordelt på førstegangsfødende og flergangsfødende.Gjennomsnitt pr. år for 2015–2017.
+![fodsler_figur1](/helseatlas/img/no/fodsel/fodsler_figur1.png "Antall fødsler i Helseatlas for fødselshjelp fordelt på førstegangsfødende og flergangsfødende.Gjennomsnitt pr. år for 2015–2017.")
 
-![fodsler_figur1](/helseatlas/img/no/fodsel/fodsler_figur1.png)
-
-**Figur 2:** Sesongvariasjon. Antall fødsler pr. dag og pr. uke gjennom året. Gjennomsnitt for 2015–2017.
-
-![fodsler_figur2](/helseatlas/img/no/fodsel/fodsler_figur2.png)
+![fodsler_figur2](/helseatlas/img/no/fodsel/fodsler_figur2.png "Sesongvariasjon. Antall fødsler pr. dag og pr. uke gjennom året. Gjennomsnitt for 2015–2017.")
 
 #### Flerlinger
 
@@ -69,13 +65,9 @@ I perioden 2015–2017 ble det årlig gjennomført nærmere 700 000 svangerskaps
 
 Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.
 
-**Figur 1:** Antall kontakter pr. svangerskap, opptaksområder, kontakter hos fastlege/legevakt/jordmor og i spesialisthelsetjenesten. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
+![svangerskapsomsorg_figur1](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur1.png "Antall kontakter pr. svangerskap, opptaksområder, kontakter hos fastlege/legevakt/jordmor og i spesialisthelsetjenesten. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-![svangerskapsomsorg_figur1](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur1.png)
-
-**Figur 2:** Antall førstegangsfødende med svangerskapsdiabetes pr. 1000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-
-![svangerskapsomsorg_figur2](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur2.png)
+![svangerskapsomsorg_figur2](/helseatlas/img/no/fodsel/svangerskapsomsorg_figur2.png "Antall førstegangsfødende med svangerskapsdiabetes pr. 1000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -87,7 +79,7 @@ Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der
 
 ## Igangsetting av fødsel
 
-2015–2017Noen ganger vil det være ønskelig å sette i gang vaginal fødsel. Dette gjelder vanligvis kvinner som har gått over termin, eller dersom det er andre medisinske forhold som gjør at en vil ha barnet ut før den naturlige spontane fødselen starter. Slik kunstig igangsetting kalles gjerne induksjon av fødsel.
+Noen ganger vil det være ønskelig å sette i gang vaginal fødsel. Dette gjelder vanligvis kvinner som har gått over termin, eller dersom det er andre medisinske forhold som gjør at en vil ha barnet ut før den naturlige spontane fødselen starter. Slik kunstig igangsetting kalles gjerne induksjon av fødsel.
 
 ### Bakgrunn
 
@@ -99,13 +91,9 @@ I perioden 2015–2017 fikk årlig omlag 5 900 førstegangsfødende og 6 600 fle
 
 Det var lite geografisk variasjon og høyeste rate var rundt 40 % høyere enn laveste rate. Det var klar samvariasjon mellom bruk av induksjon hos førstegangsfødende og bruk av induksjon hos flergangsfødende; de opptaksområdene som hadde de høyeste ratene for førstgangsfødende er i all hovedsak blant de opptaksområdene som hadde de høyeste ratene for flergangsfødende. Nasjonalt er det en tydelig økning i bruk av induksjon i perioden.
 
-**Figur 1:** Induksjon av fødsel. Antall førstegangsfødende med induksjon pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
+![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png "Induksjon av fødsel. Antall førstegangsfødende med induksjon pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png)
-
-**Figur 2:** Induksjon av fødsel. Antall flergangsfødende med induksjon pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-
-![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png)
+![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png "Induksjon av fødsel. Antall flergangsfødende med induksjon pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -117,7 +105,7 @@ Den geografiske variasjonen var såpass beskjeden at det ikke er grunnlag for å
 
 ## Epidural som smertelindring
 
-2015–2017Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter.
+Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter.
 
 ### Bakgrunn
 
@@ -135,11 +123,9 @@ Den geografiske variasjonen i bruk av epidural for flergangsfødende som fødte 
 
 Det var klar samvariasjon mellom bruk av epidural ved vaginal forløsning blant førstegangsfødende og flergangsfødende; opptaksområdene med de høyeste ratene for førstegangsfødende er i all hovedsak blant opptaksområdene med de høyeste ratene for flergangsfødende (vist i rapport).
 
-**Figur 1:** Antall førstegangsfødende med epidural pr. 1 000 vaginalt førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. _![epidural_figur1](/helseatlas/img/no/fodsel/epidural_figur1.png)_
+![epidural_figur1](/helseatlas/img/no/fodsel/epidural_figur1.png "Antall førstegangsfødende med epidural pr. 1 000 vaginalt førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-**Figur 2:** Antall flergangsfødende med epidural pr. 1 000 vaginalt flergangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. _![epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png)_
-
-#####
+[epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png "Antall flergangsfødende med epidural pr. 1 000 vaginalt flergangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -149,7 +135,7 @@ Samvariasjon mellom bruk av epidural for førstegangsfødende og flergangsføden
 
 ## Klipping (episiotomi)
 
-2015–2017Muskulaturen og vevet rundt skjeden og endetarmsåpningen er elastisk og tøyer seg under fødsel. Hvis barnet fødes raskt, oppnås ikke maksimal tøyning av vevet. Ved vaginal setefødsel eller ved instrumentell forløsning trengs mer plass. Da legges som oftest et klipp, en såkalt episiotomi som må sys etterpå. Også andre situasjoner kan gjøre klipping nødvendig. Klipping skal hindre skade på lukkemuskelen til endetarmen, men dette er ikke vitenskapelig bekreftet.
+Muskulaturen og vevet rundt skjeden og endetarmsåpningen er elastisk og tøyer seg under fødsel. Hvis barnet fødes raskt, oppnås ikke maksimal tøyning av vevet. Ved vaginal setefødsel eller ved instrumentell forløsning trengs mer plass. Da legges som oftest et klipp, en såkalt episiotomi som må sys etterpå. Også andre situasjoner kan gjøre klipping nødvendig. Klipping skal hindre skade på lukkemuskelen til endetarmen, men dette er ikke vitenskapelig bekreftet.
 
 ### Bakgrunn
 
@@ -165,11 +151,9 @@ Klipping ble utført på nær dobbelt så mange pr. 1 000 førstegangsfødende b
 
 For flergangsfødende som fødte vaginalt var variasjonen enda litt større. Klipping ble utført på over dobbelt så mange pr. 1 000 fødende bosatt i opptaksområdet Møre og Romsdal sammenliknet med opptaksområdet St. Olavs.
 
-**Figur 1:** Antall førstegangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017. ![klipping_figur1](/helseatlas/img/no/fodsel/klipping_figur1.png)
+![klipping_figur1](/helseatlas/img/no/fodsel/klipping_figur1.png "Antall førstegangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-**Figur 2:** Antall flergangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-
-![klipping_figur2](/helseatlas/img/no/fodsel/klipping_figur2.png)
+![klipping_figur2](/helseatlas/img/no/fodsel/klipping_figur2.png "Antall flergangsfødende med klipping pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -181,7 +165,7 @@ Det var moderat eller stor variasjon i forekomsten av klipping blant førstegang
 
 ## Instrumentell vaginal fødsel
 
-2015–2017Instrumentell vaginal fødsel er forløsning med tang eller vakuum (sugekopp) og utføres av en fødselslege. Forløsning med tang eller vakuum brukes når det av ulike grunner er behov for å få barnet raskt ut, eller hvis fødselen tar lang tid, den fødende er utslitt og riene svekkes.
+Instrumentell vaginal fødsel er forløsning med tang eller vakuum (sugekopp) og utføres av en fødselslege. Forløsning med tang eller vakuum brukes når det av ulike grunner er behov for å få barnet raskt ut, eller hvis fødselen tar lang tid, den fødende er utslitt og riene svekkes.
 
 ### Bakgrunn
 
@@ -197,13 +181,9 @@ På landsbasis endte ca. 23 % av alle vaginale fødsler for førstegangsfødende
 
 For flergangsfødende endte ca. 5 % av alle vaginale fødsler med førløsning ved hjelp av tang eller vakuum, og også her var det betydelige forskjeller mellom opptaksområdene. Av fødende bosatt i opptaksområdet Stavanger endte over dobbelt så mange med instrumentell vaginal fødsel som av fødende bosatt i opptaksområdet Vestfold. Andelen forløst med vakuum varierte fra 50,7 % i opptaksområdet Bergen til 99,0 % i opptaksområdet UNN.
 
-**Figur 1:** Antall førstegangsfødende med instrumentell vaginal fødsel, vakuum og tang, pr. 1 000 førstegangsfødende som fødte vaginalt, justert for alder. 2015-17, snitt pr. år.
+![instrumentell_figur1](/helseatlas/img/no/fodsel/instrumentell_figur1.png "Antall førstegangsfødende med instrumentell vaginal fødsel, vakuum og tang, pr. 1 000 førstegangsfødende som fødte vaginalt, justert for alder. 2015-17, snitt pr. år.")
 
-![instrumentell_figur1](/helseatlas/img/no/fodsel/instrumentell_figur1.png)
-
-**Figur 2:** Antall flergangsfødende med instrumentell vaginal fødsel, vakuum og tang, pr. 1 000 flergangsfødende som fødte vaginalt, justert for alder. 2015-17, snitt pr. år.
-
-![instrumentell_figur2](/helseatlas/img/no/fodsel/instrumentell_figur2.png)
+![instrumentell_figur2](/helseatlas/img/no/fodsel/instrumentell_figur2.png "Antall flergangsfødende med instrumentell vaginal fødsel, vakuum og tang, pr. 1 000 flergangsfødende som fødte vaginalt, justert for alder. 2015-17, snitt pr. år.")
 
 ### Kommentar
 
@@ -213,7 +193,7 @@ Den observerte variasjonen i bruk av instrumentell vaginal fødsel for førstega
 
 ## Keisersnitt
 
-2015–2017Akutt keisersnitt utføres når det er risiko for barnets eller mors liv. Et planlagt keisersnitt utføres som oftest fordi det er identifisert risikofaktorer som kan gi uheldige konsekvenser under en vaginal fødsel. Sannsynligheten for keisersnitt som forløsningsmetode er høyest der barnet ligger i seteleie, ved flerlingefødsel og der det er utført keisersnitt ved tidligere fødsler.
+Akutt keisersnitt utføres når det er risiko for barnets eller mors liv. Et planlagt keisersnitt utføres som oftest fordi det er identifisert risikofaktorer som kan gi uheldige konsekvenser under en vaginal fødsel. Sannsynligheten for keisersnitt som forløsningsmetode er høyest der barnet ligger i seteleie, ved flerlingefødsel og der det er utført keisersnitt ved tidligere fødsler.
 
 ### Bakgrunn
 
@@ -225,13 +205,9 @@ Totalt var omtrent en tredjedel av keisersnittene planlagte, dvs. at beslutninge
 
 For flergangsfødende var den geografiske variasjonen i antall keisersnitt større. Det ble utført mer enn dobbelt så mange keisersnitt pr. 1 000 fødsler for fødende bosatt i opptaksområdet Nord- Trøndelag som for fødende bosatt i opptaksområdet Bergen. Ser man bort fra opptaksområdet Nord-Trøndelag var variasjonen moderat også for flergangsfødende. Andelen akutte keisersnitt varierte fra 38,1 % for bosatte i opptaksområdet Diakonhjemmet til 57,4 % for bosatte i opptaksområdet Nordland.
 
-**Figur 1:** Keisersnitt, akutte og planlagte. Antall førstegangsfødende med keisersnitt pr. 1 000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
+![keisersnitt_figur1](/helseatlas/img/no/fodsel/keisersnitt_figur1.png "Keisersnitt, akutte og planlagte. Antall førstegangsfødende med keisersnitt pr. 1 000 førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-![keisersnitt_figur1](/helseatlas/img/no/fodsel/keisersnitt_figur1.png)
-
-**Figur 2:** Keisersnitt, akutte og planlagte. Antall flergangsfødende med keisersnitt pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-
-![keisersnitt_figur2](/helseatlas/img/no/fodsel/keisersnitt_figur2.png)
+![keisersnitt_figur2](/helseatlas/img/no/fodsel/keisersnitt_figur2.png "Keisersnitt, akutte og planlagte. Antall flergangsfødende med keisersnitt pr. 1 000 flergangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -243,7 +219,7 @@ Dette tyder på at det er tilnærmet lik indikasjon for operativt inngrep ved ak
 
 ## Komplikasjoner
 
-2015–2017Omkring 60 - 80 % av alle fødsler hos første- og flergangsfødende gjennomføres uten større inngrep eller komplikasjoner. Men inngrep som keisersnitt, vakuum eller tang må noen ganger utføres for å berge liv eller unngå komplikasjoner på kort eller lang sikt. Komplikasjoner som lav Apgar-skår hos barnet og alvorlig blødning eller stor fødselsrift hos mor oppstår heldigvis sjeldent.
+Omkring 60 - 80 % av alle fødsler hos første- og flergangsfødende gjennomføres uten større inngrep eller komplikasjoner. Men inngrep som keisersnitt, vakuum eller tang må noen ganger utføres for å berge liv eller unngå komplikasjoner på kort eller lang sikt. Komplikasjoner som lav Apgar-skår hos barnet og alvorlig blødning eller stor fødselsrift hos mor oppstår heldigvis sjeldent.
 
 ### Bakgrunn
 
@@ -259,13 +235,9 @@ Rundt 3,7 % av førstegangsfødende og 2,2 % av flergangsfødende som fødte vag
 
 I perioden 2015–2017 fikk årlig i underkant av 600 førstegangsfødende (2,9 %) og omlag 250 flergangsfødende (0,9 %) en fødselsrift grad 3–4 (vist i rapport). Det stor variasjon fra år til år og et betydelig innslag av tilfeldig variasjon i forekomst av store fødselsrifter.
 
-**Figur 1:** Antall førstegangsfødende med Apgar <7 etter 5 min. pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.
+![komplikasjoner_figur1](/helseatlas/img/no/fodsel/komplikasjoner_figur1.png "Antall førstegangsfødende med Apgar <7 etter 5 min. pr. 1 000 førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.")
 
-![komplikasjoner_figur1](/helseatlas/img/no/fodsel/komplikasjoner_figur1.png)
-
-**Figur 2:** Alvorlige blødninger over 1500 ml, antall pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.
-
-![komplikasjoner_figur2](/helseatlas/img/no/fodsel/komplikasjoner_figur2.png)
+![komplikasjoner_figur2](/helseatlas/img/no/fodsel/komplikasjoner_figur2.png "Alvorlige blødninger over 1500 ml, antall pr. 1 000 vaginalt førstegangsfødende fordelt på opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 
@@ -277,7 +249,7 @@ På grunn av lavt antallet hendelser, og stor tilfeldig variasjon, er det ikke m
 
 ## Barseltiden
 
-2015–2017Barseltiden varer fra fødsel og i omtrent seks uker. Det er tiden kroppen normalt bruker på å tilpasse seg fysisk og psykisk at svangerskapet er over, og at livet som småbarnsmor er begynt. Barselkvinner, deres nyfødte barn og familiene kan ha behov for tett oppfølging den første tiden.
+Barseltiden varer fra fødsel og i omtrent seks uker. Det er tiden kroppen normalt bruker på å tilpasse seg fysisk og psykisk at svangerskapet er over, og at livet som småbarnsmor er begynt. Barselkvinner, deres nyfødte barn og familiene kan ha behov for tett oppfølging den første tiden.
 
 ### Bakgrunn
 
@@ -291,13 +263,9 @@ For de fleste gjøres disse undersøkelsene mens mor og barn er på barselavdeli
 
 Fra og med 2017 rapporterte norske kommuner om antall hjemmebesøk utført av jordmor, i 2017 innen ett-to døgn og i 2018 innen tre døgn, etter hjemkomst fra føde- og barselavdeling. Det varstor geografisk variasjon i antall hjemmebesøk. Fem ganger så mange pr. 1000 barselkvinner bosatt i opptaksområdet Førde fikk hjemmebesøk av kommunal jordmor sammenliknet med barselkvinner bosatt i opptaksområdet Stavanger.
 
-**Figur 1:** Antall kontakter i barseltid pr. 1 000 fødsler, fastlege/legevakt og spesialisthelsetjeneste, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.
+![baarsel_figur1](/helseatlas/img/no/fodsel/baarsel_figur1.png "Antall kontakter i barseltid pr. 1 000 fødsler, fastlege/legevakt og spesialisthelsetjeneste, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015-2017.")
 
-![baarsel_figur1](/helseatlas/img/no/fodsel/baarsel_figur1.png)
-
-**Figur 2:** Antall hjemmebesøk av kommunal jordmor innen 3 døgn etter hjemkomst pr. 1 000 fødte, opptaksområder. Gjennomsnitt for 2017–2018. Opptaksområdene Lovisenberg, Diakonhjemmetog OUS samles til Oslo pga manglende opplysning om bydeler i Oslo kommune.
-
-![baarsel_figur2](/helseatlas/img/no/fodsel/baarsel_figur2.png)
+![baarsel_figur2](/helseatlas/img/no/fodsel/baarsel_figur2.png "Antall hjemmebesøk av kommunal jordmor innen 3 døgn etter hjemkomst pr. 1 000 fødte, opptaksområder. Gjennomsnitt for 2017–2018. Opptaksområdene Lovisenberg, Diakonhjemmetog OUS samles til Oslo pga manglende opplysning om bydeler i Oslo kommune.")
 
 ### Kommentar
 

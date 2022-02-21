@@ -23,17 +23,11 @@ Mer enn dobbelt så mange nyfødte legges inn på nyfødtavdeling i boområde Ve
 
 Liggedøgnsraten for alle nyfødte er nesten dobbelt så høy i boområde Telemark som i boområde Bergen/Førde (Fig.2). For terminfødte er det tre gangers forskjell i liggedøgnsratene og for sent premature barn er det mer enn to gangers forskjell. Boområde Bergen/Førde har de laveste ratene i begge tilfellene.
 
-**Figur:** Innlagt i nyfødtavdeling, antall pasienter pr. 1 000 fødte, alle gestasjonsaldre.
+![Innlagt i nyfødtavdeling, antall pasienter pr. 1 000 fødte, alle gestasjonsaldre](/helseatlas/img/no/nyfodt/innleggelser1.png "Innlagt i nyfødtavdeling, antall pasienter pr. 1 000 fødte, alle gestasjonsaldre.")
 
-![innleggelser1](/helseatlas/img/no/nyfodt/innleggelser1.png)
+![Innlagt i nyfødtavdeling, antall liggedøgn pr. 1 000 fødte, alle gestasjonsaldre](/helseatlas/img/no/nyfodt/innleggelser2.png "Innlagt i nyfødtavdeling, antall liggedøgn pr. 1 000 fødte, alle gestasjonsaldre.")
 
-**Figur:**  Innlagt i nyfødtavdeling, antall liggedøgn pr. 1 000 fødte, alle gestasjonsaldre.
-
-![innleggelser2](/helseatlas/img/no/nyfodt/innleggelser2.png)
-
-**Figur:** Variasjonsprofil, innleggelser, pasienter og liggetid. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
-
-_![innleggelser3](/helseatlas/img/no/nyfodt/innleggelser3.png)_
+![Variasjonsprofil, innleggelser, pasienter og liggetid](/helseatlas/img/no/nyfodt/innleggelser3.png "Variasjonsprofil, innleggelser, pasienter og liggetid. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._")
 
 ### Kommentarer
 
@@ -55,17 +49,11 @@ For bruk av antibiotika er variasjonen størst for terminfødte barn (gestasjons
 
 Variasjonen er relativt stor (Fig.3) også for sent premature barn (gestasjonsalder 34 uker til 36 uker og 6 dager), og noe mindre for tidlig premature (gestasjonsalder under 34 uker).
 
-**Figur:** Antibiotikabehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
+![Antibiotikabehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer](/helseatlas/img/no/nyfodt/infeksjoner1.png "Antibiotikabehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.")
 
-![infeksjoner1](/helseatlas/img/no/nyfodt/infeksjoner1.png)
+![Antibiotikabehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 37 uker eller mer](/helseatlas/img/no/nyfodt/infeksjoner2.png "Antibiotikabehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.")
 
-**Figur:** Antibiotikabehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
-
-![infeksjoner2](/helseatlas/img/no/nyfodt/infeksjoner2.png)
-
-**Figur:** Variasjonsprofil, antibiotikabehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
-
-_![infeksjoner3](/helseatlas/img/no/nyfodt/infeksjoner3.png)_
+![ariasjonsprofil, antibiotikabehandling, pasienter og behandlingsdøgn](/helseatlas/img/no/nyfodt/infeksjoner3.png "Variasjonsprofil, antibiotikabehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._")
 
 ### Kommentarer
 
@@ -87,17 +75,11 @@ Blant moderat premature barn (gestasjonsalder 28 til 37 uker) er det betydelig v
 
 Antall døgn med respiratorbehandling varierer enda mer mellom boområdene. For moderat premature barn gis barn i boområde Sørlandet over fem ganger så mange behandlingsdøgn som barn i boområdet Vestre Viken (Fig.2). For terminfødte barn gis det 3,4 ganger så mange behandlingsdøgn med respirator i boområde Telemark som i boområde Vestfold.
 
-**Figur:** Respiratorbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
+![Respiratorbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 28 - 37 uker](/helseatlas/img/no/nyfodt/respirator1.png "Respiratorbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.")
 
-![respirator1](/helseatlas/img/no/nyfodt/respirator1.png)
+![Respiratorbehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 28 - 37 uker](/helseatlas/img/no/nyfodt/respirator2.png "Respiratorbehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.")
 
-**Figur:** Respiratorbehandling, antall behandlingsdøgn pr. 1 000 fødte, gestasjonsalder 28 - 37 uker.
-
-![respirator2](/helseatlas/img/no/nyfodt/respirator2.png)
-
-**Figur:** Variasjonsprofil, respiratorbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
-
-_![respirator3](/helseatlas/img/no/nyfodt/respirator3.png)_
+![Variasjonsprofil, respiratorbehandling, pasienter og behandlingsdøgn](/helseatlas/img/no/nyfodt/respirator3.png "Variasjonsprofil, respiratorbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._")
 
 ### Kommentarer
 
@@ -119,17 +101,11 @@ Mer enn fem ganger så mange sent premature (gestasjonsalder 34-37 uker, Fig.1) 
 
 For lysbehandling er det tilsvarende variasjon. Mer enn fire ganger så mange sent premature (gestasjonsalder 34-37 uker, Fig.2) og mer enn 11 ganger så mange terminfødte legges inn for lysbehandling i boområde i Telemark som i boområde Bergen/Førde.
 
-**Figur:** Hypoglykemi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
+![Hypoglykemi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker](/helseatlas/img/no/nyfodt/lysbehandling1.png "Hypoglykemi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.")
 
-![lysbehandling1](/helseatlas/img/no/nyfodt/lysbehandling1.png)
+![Fototerapi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker](/helseatlas/img/no/nyfodt/lysbehandling2.png "Fototerapi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.")
 
-**Figur:** Fototerapi, antall pasienter pr. 1 000 fødte, gestasjonsalder 34 - 37 uker.
-
-![lysbehandling2](/helseatlas/img/no/nyfodt/lysbehandling2.png)
-
-**Figur:** Variasjonsprofil, hypoglykemi og fototerapi, pasienter. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
-
-_![lysbehandling3](/helseatlas/img/no/nyfodt/lysbehandling3.png)_
+![Variasjonsprofil, hypoglykemi og fototerapi, pasienter](/helseatlas/img/no/nyfodt/lysbehandling3.png "Variasjonsprofil, hypoglykemi og fototerapi, pasienter. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._")
 
 ### Kommentarer
 
@@ -151,17 +127,11 @@ For barn født prematurt (gestasjonsalder under 37 uker) er det 60 % forskjell p
 
 Både for terminfødte og prematurt fødte barn er variasjonen noe større for behandlingsdøgnratene med intensivbehandling enn for innleggelsesratene for slik behandling (Fig.3).
 
-**Figur:** Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.
+![Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer](/helseatlas/img/no/nyfodt/intensiv1.png "Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder 37 uker eller mer.")
 
-![intensiv1](/helseatlas/img/no/nyfodt/intensiv1.png)
+![Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder under 37 uker](/helseatlas/img/no/nyfodt/intensiv2.png "Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder under 37 uker.")
 
-**Figur:** Intensivbehandling, antall pasienter pr. 1 000 fødte, gestasjonsalder under 37 uker.
-
-![intensiv2](/helseatlas/img/no/nyfodt/intensiv2.png)
-
-**Figur:** Variasjonsprofil, intensivbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._
-
-_![intensiv3](/helseatlas/img/no/nyfodt/intensiv3.png)_
+![Variasjonsprofil, intensivbehandling, pasienter og behandlingsdøgn](/helseatlas/img/no/nyfodt/intensiv3.png "Variasjonsprofil, intensivbehandling, pasienter og behandlingsdøgn. _Ratio=Rate for boområde/nasjonal rate. Ratio for et boområde er lik én når raten for boområdet er lik nasjonal rate. Variasjonen er liten når mange boområder har ratio lik eller nært én._")
 
 ### Kommentarer
 
