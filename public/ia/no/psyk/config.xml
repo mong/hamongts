@@ -220,10 +220,10 @@
 	<Variable description="The lower limit of the map indicator" id="lowerLimit" />
 	<Variable description="The upper limit of the map indicator" id="upperLimit" />
 </SubstitutionVariables>
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/psykiskhelsevernogrus.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Rapport" tooltip="Last ned rapport" width="58" x="412" y="6" />
-<Button editable="true" height="15" href="http://www.helseatlas.no/om-helseatlasno" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om helseatlas" tooltip="Om helseatlas" width="65" x="662" y="6" />
-<Button editable="true" height="15" href="https://helseatlas.no/atlas/259/details" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Faktaark" tooltip="Last ned faktaark" width="58" x="546" y="6" />
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/psykiskhelsevernogtsb_data.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Last ned data" width="50" x="608" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/psykiskhelsevernogrus.pdf" id="___user_extra_36" moveable="true" removeable="true" resizeable="true" target="_blank" text="Rapport" tooltip="Last ned rapport" width="58" x="412" y="6" />
+<Button editable="true" height="15" href="/helseatlas/statisk/om" id="___user_extra_39" moveable="true" removeable="true" resizeable="true" target="_blank" text="Om helseatlas" tooltip="Om helseatlas" width="65" x="662" y="6" />
+<Button editable="true" height="15" href="/helseatlas/utdatert/psyk" id="___user_extra_37" moveable="true" removeable="true" resizeable="true" target="_blank" text="Faktaark" tooltip="Last ned faktaark" width="58" x="546" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/psykiskhelsevernogtsb_data.xlsx" id="___user_extra_38" moveable="true" removeable="true" resizeable="true" target="_blank" text="Data" tooltip="Last ned data" width="50" x="608" y="6" />
 <Component classes="ia-panel ia-panel-header ia-explorer-item" editable="true" height="433" icon="$IAICON/48x48/text_code.png" id="dataExplorer" moveable="true" name="Data Explorer" removeable="true" resizeable="true" visible="true" width="130" x="6" y="30">
 	<Description>The data explorer component of the report.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="Kart / pasientutval&lt;br&gt;&lt;small&gt;klikk på PDF-symbol for å sjå faktaark&lt;/small&gt;" />
@@ -235,7 +235,7 @@
 	<Property description="Should dates be reversed?" id="reverseDates" name="Reverse Dates?" type="boolean" value="false" />
 	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
 </Component>
-<Button editable="true" height="15" href="https://helseatlas.no/sites/default/files/helseatlaskols_hjelp_0.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hjelp" tooltip="Klikk her for brukerveiledning" width="50" x="732" y="6" />
+<Button editable="true" height="15" href="/helseatlas/files/helseatlaskols_hjelp_0.pdf" id="___user_extra_52" moveable="true" removeable="true" resizeable="true" target="_blank" text="Hjelp" tooltip="Klikk her for brukerveiledning" width="50" x="732" y="6" />
 <Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="71" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="260" x="539" y="550">
 	<Description>The comparison that shows the user information about comparison data.</Description>
 	<!-- <Property description="The title" id="title" name="Title" type="string" value="Landsgjennomsnitt&lt;small&gt; - klikk på Norge for å sjå linje i søylediagram&lt;/small&gt;" />-->
@@ -253,8 +253,8 @@
 	<Column alias="Tal" name="Tal" width="0.5" />
 	<Column alias="Innbyggarar" name="Innb" width="0.5" />
 </Table>
-<Button editable="true" height="15" href="http://helseatlas.no/statistikkformidling-ved-hjelp-av-kart" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fargegrupper" tooltip="Buområder er delt inn i grupper (farger) med metode naturlig brudd (Jenks’ natural breaks), og det er brukt fire grupper (i nokon tilfeller færre grupper). Gruppene er definert slik at det blir størst mogeleg forskjeller mellom gruppene og minst mogeleg forskjeller mellom opptaksområdene innad i kvar gruppe. Klikk for å lese meir" width="68" x="475" y="6" />
-<Image anchor="left" editable="true" id="___user_extra_54" maintain-aspect-ratio="false" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54_liten.png" target="_self" x="5" y="5" />
-<Image anchor="left" editable="true" id="___user_extra_57" maintain-aspect-ratio="true" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_57_vid.png" target="_blank" width="100" x="6" y="472" />
-<Image anchor="left" editable="true" id="___user_extra_56" maintain-aspect-ratio="true" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_56_liten.png" target="_self" x="14" y="550" />
+<Button editable="true" height="15" href="/helseatlas/statisk/kart" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fargegrupper" tooltip="Buområder er delt inn i grupper (farger) med metode naturlig brudd (Jenks’ natural breaks), og det er brukt fire grupper (i nokon tilfeller færre grupper). Gruppene er definert slik at det blir størst mogeleg forskjeller mellom gruppene og minst mogeleg forskjeller mellom opptaksområdene innad i kvar gruppe. Klikk for å lese meir" width="68" x="475" y="6" />
+<Image href="/helseatlas/utdatert/psyk" anchor="left" editable="true" id="___user_extra_54" maintain-aspect-ratio="false" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54_liten.png" target="_parent" x="5" y="5" />
+<Image href="/helseatlas" anchor="left" editable="true" id="___user_extra_57" maintain-aspect-ratio="true" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_57_vid.png" target="_parent" width="100" x="6" y="472" />
+<Image href="/helseatlas" anchor="left" editable="true" id="___user_extra_56" maintain-aspect-ratio="true" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_56_liten.png" target="_parent" x="14" y="550" />
 </AtlasInterface>
