@@ -40,7 +40,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
             headings: ["h2", "h3"],
           },
         ]
-      : [].flat,
+      : (arnfinn) => arnfinn,
   ];
 
   const remarkPlugins = [remarkGfm];
