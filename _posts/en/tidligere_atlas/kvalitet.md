@@ -72,9 +72,9 @@ The occurrence of operations for vascular disease in legs varies a great deal, f
 
 ![Number of patients operated for vascular disease in legs per 100,000 residents](/helseatlas/img/en/kvalitet/norkar_unike_pas_u_just.png "Number of patients operated for vascular disease in legs per 100,000 residents, non-adjusted, referral areas. Columns show average rates, annual rate is shown by symbol. Figures on right show number of patients and population. Average per year 2017-2019.")
 
-There was geographical variation in target attainment for the indicator \textit{number of patients with symptomatic carotid stenosis treated within 14 days in the period 2017-2019}. Nine of 19 referral areas achieved high attainment, 9 achieved moderate attainment, and 1 attained low attainment. The share was highest in the UNN referral area and lowest in the Bergen referral area. Respectively 93 % and 50 % of patients residing in these referral areas were treated within 14 days.
+There was geographical variation in target attainment for the indicator \textit{number of patients with symptomatic carotid stenosis treated within 14 days in the period 2017-2019}. Nine of 19 referral areas achieved high attainment, 9 achieved moderate attainment, and 1 attained low attainment. The share was highest in the UNN referral area and lowest in the Bergen referral area. Respectively 93 % and 50 % of patients residing in these referral areas were treated within 14 days. ![norkar_beh_14_ujust_2maal_eng](/helseatlas/img/en/kvalitet/norkar_beh_14_ujust_2maal_eng.png)
 
-![Proportion of patients with symptomatic carotid stenosis operated within 14 days](/helseatlas/img/en/kvalitet/norkar_beh_14_ujust_2maal_eng.png "Proportion of patients with symptomatic carotid stenosis operated within 14 days. Number operated within 14 days (N) and number operated (actual relevant cases) for 3-year period 2017-2019. *Share is calculated using N<10. ¤ Data missing for 1 year at least.")
+*Proportion of patients with symptomatic carotid stenosis operated within 14 days. Number operated within 14 days (N) and number operated (actual relevant cases) for 3-year period 2017-2019. *Share is calculated using N<10. ¤ Data missing for 1 year at least.\*
 
 ### Comments
 
