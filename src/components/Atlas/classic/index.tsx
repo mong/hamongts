@@ -29,7 +29,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
-  var rehypePlugins = [rehypeWrapWithDiv, rehypeRaw, rehypeSlug];
+  var rehypePlugins: any = [rehypeWrapWithDiv, rehypeRaw, rehypeSlug];
   if (frontMatter.toc) {
     rehypePlugins.push([
       rehypeToc,
@@ -70,6 +70,15 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
                     return <ListItem> {children}</ListItem>;
                   }
                   return <li>{children}</li>;
+                },
+                p({ children, node }) {
+                  if (
+                    node.children[0].type === "element" &&
+                    node.children[0].tagName === "img"
+                  ) {
+                    return <>{children}</>;
+                  }
+                  return <p>{children}</p>;
                 },
                 img({ src, alt, title }) {
                   return (
