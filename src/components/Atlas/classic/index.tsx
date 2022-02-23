@@ -29,7 +29,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
-  var rehypePlugins: any = [
+  const rehypePlugins: any = [
     rehypeWrapWithDiv,
     rehypeRaw,
     rehypeSlug,
@@ -43,6 +43,49 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
       : [].flat,
   ];
 
+  const remarkPlugins = [remarkGfm];
+
+  const components: any = {
+    nav({ children, className }) {
+      if (className === "toc") {
+        return <TableOfContents> {children}</TableOfContents>;
+      }
+      return <nav>{children}</nav>;
+    },
+    ol({ children, className }) {
+      if ((className ?? "").includes("toc")) {
+        return <OrderedList> {children}</OrderedList>;
+      }
+      return <ol>{children}</ol>;
+    },
+    li({ children, className }) {
+      if ((className ?? "").includes("toc")) {
+        return <ListItem> {children}</ListItem>;
+      }
+      return <li>{children}</li>;
+    },
+    p({ children, node }) {
+      if (
+        node.children[0].type === "element" &&
+        ["img", "a"].includes(node.children[0].tagName)
+      ) {
+        return <>{children}</>;
+      }
+      return <p>{children}</p>;
+    },
+    img({ src, alt, title }) {
+      return (
+        <figure>
+          <img src={src} alt={alt} title={alt} />
+          <figcaption>
+            <strong>{frontMatter.lang === "en" ? "Figure:" : "Figur:"}</strong>{" "}
+            {title}
+          </figcaption>
+        </figure>
+      );
+    },
+  };
+
   const text = `
   <h1>${frontMatter.mainTitle}</h1>
   ${content}
@@ -55,49 +98,8 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown
               rehypePlugins={rehypePlugins}
-              remarkPlugins={[remarkGfm]}
-              components={{
-                nav({ children, className }) {
-                  if (className === "toc") {
-                    return <TableOfContents> {children}</TableOfContents>;
-                  }
-                  return <nav>{children}</nav>;
-                },
-                ol({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <OrderedList> {children}</OrderedList>;
-                  }
-                  return <ol>{children}</ol>;
-                },
-                li({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <ListItem> {children}</ListItem>;
-                  }
-                  return <li>{children}</li>;
-                },
-                p({ children, node }) {
-                  if (
-                    node.children[0].type === "element" &&
-                    node.children[0].tagName === "img"
-                  ) {
-                    return <>{children}</>;
-                  }
-                  return <p>{children}</p>;
-                },
-                img({ src, alt, title }) {
-                  return (
-                    <figure>
-                      <img src={src} alt={alt} title={alt} />
-                      <figcaption>
-                        <strong>
-                          {frontMatter.lang === "en" ? "Figure:" : "Figur:"}
-                        </strong>{" "}
-                        {title}
-                      </figcaption>
-                    </figure>
-                  );
-                },
-              }}
+              remarkPlugins={remarkPlugins}
+              components={components}
             >
               {text}
             </ReactMarkdown>

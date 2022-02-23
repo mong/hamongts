@@ -7,9 +7,9 @@
   width: 80%;
 }
 
-.atlasContent p a {
+.atlasContent p a,
+.atlasContent a {
   color: revert;
-  text-decoration: revert;
 }
 
 .atlasContent table {
