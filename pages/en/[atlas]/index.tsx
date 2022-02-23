@@ -14,6 +14,7 @@ interface AtlasPageProps {
     pdfUrl: string;
     ia: boolean;
     lang: string;
+    toc: boolean;
   };
 }
 
