@@ -8,5 +8,6 @@ public/utdatert/*/ia/
 public/en/*/ia/
 package-lock.json
 **/*.min.*
+**/*-min.*
 tsconfig.json
 yarn.lock

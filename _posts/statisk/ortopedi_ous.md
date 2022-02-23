@@ -1,6 +1,6 @@
 ---
 filename: ortopedi_ous
-title: Buområde OUS for Helseatlas ortopedi 
+title: Buområde OUS for Helseatlas ortopedi
 lang: no
 ---
 
