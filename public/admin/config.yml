@@ -32,10 +32,10 @@ collections:
       - label: "Resultatboks"
         name: resultatboks
         widget: "list"
-        fields:
-          - { label: "Tittel", name: "title", widget: "string" }
-          - { label: "Ingress", name: "ingress", widget: "markdown" }
-          - { label: "Tolkning", name: "tolkning", widget: "markdown" }
+        types:
+          - { label: "Tittel", name: "title", widget: "object" }
+          - { label: "Ingress", name: "ingress", widget: "object" }
+          - { label: "Tolkning", name: "tolkning", widget: "object" }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
