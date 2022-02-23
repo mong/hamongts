@@ -1,4 +1,4 @@
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { Components } from "react-markdown";
 import rehypeToc from "rehype-toc";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
@@ -11,6 +11,7 @@ import { TableOfContents } from "../../toc";
 import { OrderedList } from "../../toc/orderedlist";
 import { ListItem } from "../../toc/listitem";
 import styles from "./classic.module.css";
+import { PluggableList } from "react-markdown/lib/react-markdown";
 
 interface AtlasContentProps {
   content: string;
@@ -29,7 +30,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
-  const rehypePlugins: any = [
+  const rehypePlugins: PluggableList = [
     rehypeWrapWithDiv,
     rehypeRaw,
     rehypeSlug,
@@ -40,12 +41,12 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
             headings: ["h2", "h3"],
           },
         ]
-      : (arnfinn) => arnfinn,
+      : () => (arnfinn) => arnfinn,
   ];
 
-  const remarkPlugins = [remarkGfm];
+  const remarkPlugins: PluggableList = [remarkGfm];
 
-  const components: any = {
+  const components: Components = {
     nav({ children, className }) {
       if (className === "toc") {
         return <TableOfContents> {children}</TableOfContents>;
