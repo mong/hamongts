@@ -33,9 +33,49 @@ collections:
         name: resultatboks
         widget: "list"
         types:
-          - { label: "Tittel", name: "title", widget: "object" }
-          - { label: "Ingress", name: "ingress", widget: "object" }
-          - { label: "Tolkning", name: "tolkning", widget: "object" }
+          - label: "Carousel"
+            name: "carousel"
+            widget: object
+            summary: "{{fields.header}}"
+            fields:
+              - {
+                  label: Header,
+                  name: header,
+                  widget: string,
+                  default: "Image Gallery",
+                }
+              - {
+                  label: Template,
+                  name: template,
+                  widget: string,
+                  default: "carousel.html",
+                }
+              - label: Images
+                name: images
+                widget: list
+                field: { label: Image, name: image, widget: image }
+          - label: "Spotlight"
+            name: "spotlight"
+            widget: object
+            fields:
+              - {
+                  label: Header,
+                  name: header,
+                  widget: string,
+                  default: "Spotlight",
+                }
+              - {
+                  label: Template,
+                  name: template,
+                  widget: string,
+                  default: "spotlight.html",
+                }
+              - {
+                  label: Text,
+                  name: text,
+                  widget: text,
+                  default: "Hello World",
+                }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
