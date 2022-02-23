@@ -4,8 +4,7 @@
 coverage/
 cypress/
 node_modules/
-public/utdatert/*/ia/
-public/en/*/ia/
+public/ia/
 package-lock.json
 **/*.min.*
 tsconfig.json
