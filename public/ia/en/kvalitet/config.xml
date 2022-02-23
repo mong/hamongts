@@ -17,7 +17,7 @@
 	<Property description="The z-index" id="zIndex" name="Z-Index" type="integer" value="2" />
 	<Property description="Hidden when the mouse is clicked outside" id="isPopUp" name="PopUp Window?" type="boolean" value="false" />
 	<Property description="Can it be exported to an image?" id="isExportable" name="Exportable?" type="boolean" value="false" />
-	<Property description="Any map copyright text" id="copyrightText" name="Map Copyright" type="string" value="Â© SKDE" />
+	<Property description="Any map copyright text" id="copyrightText" name="Map Copyright" type="string" value="© SKDE" />
 	<Property description="The path to any background images" id="backgroundMappingPath" name="Background Folder" type="string" value="./" />
 	<Property description="The maximum map zoom in map units (eg. Max Zoom Allowed:500000, Min Zoom Allowed:10000000). When using google maps use zoom levels 0 - 21 (eg. Max Zoom Allowed:15, Min Zoom Allowed:5)" id="maxZoomAllowed" name="Max Zoom Allowed" type="integer" value="-1" />
 	<Property description="The minimum map zoom in map units (eg. Max Zoom Allowed:500000, Min Zoom Allowed:10000000). When using google maps use zoom levels 0 - 21 (eg. Max Zoom Allowed:15, Min Zoom Allowed:5)" id="minZoomAllowed" name="Min Zoom Allowed" type="integer" value="-1" />
@@ -240,7 +240,7 @@
 	<Property description="Should dates be reversed?" id="reverseDates" name="Reverse Dates?" type="boolean" value="true" />
 	<Property description="Should non-selected explorer branches be closed when a new one is opened?" id="closeBranchesOnSelection" name="Close Explorer Branches On Selection?" type="boolean" value="true" />
 </Component>
-<Image anchor="left" editable="true" height="30" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./helseatlas.png" target="_self" x="5" y="5" />
+<Image href="/helseatlas/en/kvalitet" anchor="left" editable="true" height="30" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./helseatlas.png" target="_parent" x="5" y="5" />
 <Table classes="ia-panel ia-panel-header ia-table-header ia-table-cell ia-table-cell-numeric ia-table-cell-categoric ia-table-row-even ia-table-row-odd" editable="true" height="40" icon="$IAICON/48x48/table_sql.png" id="comparisonTable" moveable="true" name="Comparison Table" removeable="true" resizeable="true" visible="true" width="320" x="475" y="560">
 	<Description>The comparison that shows the user information about comparison data.</Description>
 	<Property description="The title" id="title" name="Title" type="string" value="" />
@@ -254,8 +254,6 @@
 	<Property description="The id of the colour scheme to use" id="colorSchemeId" name="Colour Scheme Name" type="string" value="skde1" />
 	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="true" />
 	<Property description="Link table to corresponding map features?" id="linkToMap" name="Link To Map Features" type="boolean" value="false" />
-	<!--          Column alias="Count" name="count" width="0.25" />
-      <Column alias="Rate" name="rate" width="0.25" /          -->
 	<Column alias="" name="name" width="0.4" />
 	<Column alias="" name="value" width="0.2" />
 	<Column alias="" name="opphold" width="0.2" />

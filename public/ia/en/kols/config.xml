@@ -250,11 +250,6 @@
 	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="false" />
 	<Column alias="Norway" name="#1" width="0.5" />
 </Table>
-<Button editable="true" height="15" href="https://helseatlas.no/en/communicating-statistics-using-maps"  id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
-<Image anchor="left" editable="true" height="20" id="copd_logo_eng" moveable="true" removeable="true" rescale="true" resizeable="true" src="./copd_logo_eng.png" target="_self" x="9" y="5" />
-<!--
-<Text anchor="left" editable="true" fill="#00509E" font-family="Calibri" font-size="20.0" font-style="normal" font-weight="bold" id="___user_extra_42" moveable="true" removeable="true" resizeable="true" rotate="0" target="_self" wrap-width="-1" x="9" y="5">COPD Healtcare atlas, 2013-2015</Text>
-<Image anchor="left" editable="true" href="https://www.helseatlas.no/en" id="___user_extra_48" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_48.png" target="_blank" width="110" x="8" y="475" />
-<Image anchor="left" editable="true" height="21" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54.jpg" target="_self" width="178" x="9" y="5" />
--->
+<Button editable="true" height="15" href="/helseatlas/en/static/map"  id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
+<Image href="/helseatlas/en/kols" anchor="left" editable="true" height="20" id="copd_logo_eng" moveable="true" removeable="true" rescale="true" resizeable="true" src="./copd_logo_eng.png" target="_parent" x="9" y="5" />
 </AtlasInterface>
