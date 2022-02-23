@@ -5,6 +5,7 @@ shortTitle: Day surgery atlas 2013–2017
 pdfUrl: /helseatlas/files/daysurgery_2013-2017.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for the different surgical procedures in the healthcare atlas Day Surgery in Norway 2013–2017

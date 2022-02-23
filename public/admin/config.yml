@@ -26,6 +26,7 @@ collections:
           name: "lang",
           widget: "select",
           options: ["no", "en"],
+          default: "no",
         }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
@@ -38,11 +39,13 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
+          default: "no",
         }
   - label: "Statiske sider"
     name: "statiske_sider"
@@ -63,11 +66,13 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
+          default: "en",
         }
   - label: "Statiske engelske sider"
     name: "statiske_sider_en"

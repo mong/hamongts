@@ -21,6 +21,7 @@ interface AtlasContentProps {
     pdfUrl: string;
     ia: boolean;
     lang: string;
+    toc: boolean;
   };
 }
 
@@ -28,6 +29,16 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
+  var rehypePlugins = [rehypeWrapWithDiv, rehypeRaw, rehypeSlug];
+  if (frontMatter.toc) {
+    rehypePlugins.push([
+      rehypeToc,
+      {
+        headings: ["h2", "h3"],
+      },
+    ]);
+  }
+
   const text = `
   <h1>${frontMatter.mainTitle}</h1>
   ${content}
@@ -39,17 +50,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown
-              rehypePlugins={[
-                rehypeWrapWithDiv,
-                rehypeRaw,
-                rehypeSlug,
-                [
-                  rehypeToc,
-                  {
-                    headings: ["h2", "h3"],
-                  },
-                ],
-              ]}
+              rehypePlugins={rehypePlugins}
               remarkPlugins={[remarkGfm]}
               components={{
                 nav({ children, className }) {

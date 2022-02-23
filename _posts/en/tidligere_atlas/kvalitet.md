@@ -5,6 +5,7 @@ shortTitle: Healthcare Quality Atlas
 pdfUrl: /helseatlas/files/kvalitetsatlas_engelsk.pdf
 ia: true
 lang: en
+toc: true
 ---
 
 ## Summary results

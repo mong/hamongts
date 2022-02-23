@@ -257,7 +257,7 @@
 	<Column alias="Number" name="Opphold" width="0.15" />
 	<Column alias="Inhabitants" name="Innbyggere" width="0.15" />
 </Table>
-<Button editable="true" height="15" href="http://helseatlas.no/en/communicating-statistics-using-maps" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
+<Button editable="true" height="15" href="/helseatlas/en/static/maps" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
 <Image anchor="left" editable="true" height="30" id="___user_extra_56" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_56.jpg" target="_self" width="119" x="9" y="506" />
 <Image anchor="left" css-class="ia-image" editable="true" height="20" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54.jpg" target="_self" width="280" x="8" y="7" />
 </AtlasInterface>

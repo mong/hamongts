@@ -5,6 +5,7 @@ shortTitle: Gynaecology, 2015–2017
 pdfUrl: /helseatlas/files/healthatlas-gynaecology.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for different patient samples in the Gynaecology Healthcare Atlas
