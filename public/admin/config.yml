@@ -38,6 +38,7 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",
@@ -63,6 +64,7 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",

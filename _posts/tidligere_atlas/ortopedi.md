@@ -5,6 +5,7 @@ shortTitle: Ortopedi, 2012–2016
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
 lang: no
+toc: false
 ---
 
 ## Faktaark

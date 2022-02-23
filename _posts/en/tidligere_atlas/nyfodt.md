@@ -5,6 +5,7 @@ shortTitle: Neonatal Atlas, 2009–2014
 pdfUrl: /helseatlas/files/norwegian-neonatal-healthcare.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for different patient samples in the Norwegian Neonatal Healthcare Atlas

@@ -5,6 +5,7 @@ shortTitle: Mental Healthcare 2014-2018
 pdfUrl: /helseatlas/files/mhc_report.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets:
