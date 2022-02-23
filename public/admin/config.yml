@@ -26,7 +26,6 @@ collections:
           name: "lang",
           widget: "select",
           options: ["no", "en"],
-          default: "no",
         }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
@@ -45,7 +44,6 @@ collections:
           name: "lang",
           widget: "select",
           options: ["no", "en"],
-          default: "no",
         }
   - label: "Statiske sider"
     name: "statiske_sider"
@@ -72,7 +70,6 @@ collections:
           name: "lang",
           widget: "select",
           options: ["no", "en"],
-          default: "en",
         }
   - label: "Statiske engelske sider"
     name: "statiske_sider_en"
