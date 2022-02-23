@@ -29,15 +29,19 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
-  var rehypePlugins: any = [rehypeWrapWithDiv, rehypeRaw, rehypeSlug];
-  if (frontMatter.toc) {
-    rehypePlugins.push([
-      rehypeToc,
-      {
-        headings: ["h2", "h3"],
-      },
-    ]);
-  }
+  var rehypePlugins: any = [
+    rehypeWrapWithDiv,
+    rehypeRaw,
+    rehypeSlug,
+    frontMatter.toc
+      ? [
+          rehypeToc,
+          {
+            headings: ["h2", "h3"],
+          },
+        ]
+      : [].flat,
+  ];
 
   const text = `
   <h1>${frontMatter.mainTitle}</h1>
