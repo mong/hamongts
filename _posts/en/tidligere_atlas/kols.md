@@ -5,6 +5,7 @@ shortTitle: COPD healthcare atlas, 2013–2015
 pdfUrl: /helseatlas/files/copd-healthcare-atlas.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for different patient samples in the COPD Healthcare Atlas

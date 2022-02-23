@@ -5,6 +5,7 @@ shortTitle: Orthopaedic, 2012-2016
 pdfUrl: /helseatlas/files/report_orthopaedic.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets:

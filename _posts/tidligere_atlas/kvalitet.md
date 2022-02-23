@@ -5,6 +5,7 @@ shortTitle: Kvalitet, 2017–2019
 pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
 lang: no
+toc: true
 ---
 
 ## Samlede resultater

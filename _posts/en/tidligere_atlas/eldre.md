@@ -5,6 +5,7 @@ shortTitle: Elderly Healthcare Atlas, 2013–2015
 pdfUrl: /helseatlas/files/healthcare-atlas-elderly.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for different patient samples in the Healthcare Atlas for the Elderly in Norway

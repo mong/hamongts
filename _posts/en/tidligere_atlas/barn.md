@@ -5,6 +5,7 @@ shortTitle: Child Healthcare Atlas, 2011–2014
 pdfUrl: /helseatlas/files/child-healthcare-atlas.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets for different patient samples in the Child Healthcare Atlas for Norway
