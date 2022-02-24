@@ -21,43 +21,33 @@ collections:
     widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
-      - { label: "Publiseringsnummer", name: "num", widget: "number" }
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Ingress", name: "ingress", widget: "string" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
+          default: "no",
         }
-      - label: "Resultatboks"
-        name: resultatboks
+      - label: "Innhold"
+        name: "innhold"
         widget: "list"
         types:
-          - label: "Carousel"
-            name: "carousel"
+          - label: "Tekst"
+            name: "tekst"
             widget: object
-            summary: "{{fields.header}}"
-            fields:
-              - {
-                  label: Header,
-                  name: header,
-                  widget: string,
-                  default: "Image Gallery",
-                }
-              - {
-                  label: Template,
-                  name: template,
-                  widget: string,
-                  default: "carousel.html",
-                }
-              - label: Images
-                name: images
-                widget: list
-                field: { label: Image, name: image, widget: image }
+            field: { label: "Avsnitt", name: "avsnitt", widget: "string" }
+          - label: "Figur"
+            name: "figur"
+            widget: object
+            field: { label: Image, name: image, widget: image }
           - label: "Spotlight"
             name: "spotlight"
             widget: object
+            summary: "{{fields.header}}"
             fields:
               - {
                   label: Header,
