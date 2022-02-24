@@ -2,7 +2,7 @@ backend:
   name: github
   repo: mong/hamongts
   branch: cms-fix
-  base_url: https://prod-mong-api.skde.org
+  base_url: https://qa-mong-api.skde.org
 
 publish_mode: editorial_workflow
 logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
