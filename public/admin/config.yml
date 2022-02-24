@@ -15,6 +15,7 @@ collections:
     name: "atlas"
     folder: "_posts/atlas"
     extension: json
+    format: json
     create: true
     identifier_field: filename
     widget: "list"
