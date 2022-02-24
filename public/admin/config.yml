@@ -11,9 +11,10 @@ public_folder: img
 site_url: https://qa.skde.no/helseatlas/
 locale: "nb_no"
 collections:
-  - label: "Atlas"
+  - label: "Atlas" # Nye atlas
     name: "atlas"
     folder: "_posts/atlas"
+    extension: json
     create: true
     identifier_field: filename
     widget: "list"
@@ -22,7 +23,6 @@ collections:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
-      - { label: "Tekstboks", name: "body", widget: "markdown" }
       - {
           label: "Språk",
           name: "lang",
