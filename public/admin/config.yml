@@ -44,6 +44,16 @@ collections:
             name: "figur"
             widget: object
             field: { label: Image, name: image, widget: image }
+          - label: "Faktaboks"
+            name: "faktaboks"
+            widget: object
+            fields:
+              - label: "Overskrift"
+                name: "overskrift"
+                widget: "string"
+              - label: "Tekst"
+                name: "tekst"
+                widget: "markdown"
           - label: "Spotlight"
             name: "spotlight"
             widget: object
