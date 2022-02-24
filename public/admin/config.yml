@@ -39,7 +39,7 @@ collections:
           - label: "Tekst"
             name: "tekst"
             widget: object
-            field: { label: "Avsnitt", name: "avsnitt", widget: "string" }
+            field: { label: "Avsnitt", name: "avsnitt", widget: "markdown" }
           - label: "Figur"
             name: "figur"
             widget: object
