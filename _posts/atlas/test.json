@@ -1,0 +1,30 @@
+{
+  "filename": "test",
+  "num": 2,
+  "mainTitle": "test",
+  "shortTitle": "test",
+  "lang": "no",
+  "resultatboks": [
+    {
+      "type": "carousel",
+      "header": "Image Gallery",
+      "template": "carousel.html"
+    },
+    {
+      "type": "spotlight",
+      "header": "Spotlight",
+      "template": "spotlight.html",
+      "text": "Hello World"
+    },
+    {
+      "type": "carousel",
+      "header": "Image Gallery",
+      "template": "carousel.html"
+    },
+    {
+      "type": "carousel",
+      "header": "Image Gallery",
+      "template": "carousel.html"
+    }
+  ]
+}
