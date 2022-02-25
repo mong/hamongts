@@ -50,7 +50,6 @@ collections:
           - label: "Faktaboks"
             name: "faktaboks"
             widget: object
-            hint: "En faktaboks, som i utgangspunktet er skjult men kan trykkes frem av bruker."
             fields:
               - label: "Overskrift"
                 name: "overskrift"
@@ -59,29 +58,24 @@ collections:
               - label: "Tekst"
                 name: "tekst"
                 widget: "markdown"
-          - label: "Spotlight"
-            name: "spotlight"
+                hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker."
+          - label: "Resultatboks"
+            name: "resultatboks"
             widget: object
-            summary: "{{fields.header}}"
+            summary: "{{fields.overskrift}}"
             fields:
-              - {
-                  label: Header,
-                  name: header,
-                  widget: string,
-                  default: "Spotlight",
-                }
-              - {
-                  label: Template,
-                  name: template,
-                  widget: string,
-                  default: "spotlight.html",
-                }
-              - {
-                  label: Text,
-                  name: text,
-                  widget: text,
-                  default: "Hello World",
-                }
+              - { label: Overskrift, name: overskrift, widget: string }
+              - { label: Ingress, name: ingress, widget: string }
+              - { label: Resultatbeskrivelse, name: resultat, widget: string }
+              - { label: Utvalgsbeskrivelse, name: utvalg, widget: string }
+              - label: Figurer
+                name: figurer
+                widget: list
+                types:
+                  - { label: "Tittel1", name: "mainTitle1", widget: "string" }
+                  - { label: "Tittel2", name: "mainTitle2", widget: "string" }
+                  - { label: "Tittel3", name: "mainTitle3", widget: "string" }
+
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
