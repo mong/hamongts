@@ -66,16 +66,24 @@ collections:
             fields:
               - { label: Overskrift, name: overskrift, widget: string }
               - { label: Ingress, name: ingress, widget: string }
-              - { label: Resultatbeskrivelse, name: resultat, widget: string }
-              - { label: Utvalgsbeskrivelse, name: utvalg, widget: string }
-              - label: Figurer
-                name: figurer
+              - label: Karusellelementer
+                name: karusell
                 widget: list
                 types:
-                  - { label: "Tittel1", name: "mainTitle1", widget: "string" }
-                  - { label: "Tittel2", name: "mainTitle2", widget: "string" }
-                  - { label: "Tittel3", name: "mainTitle3", widget: "string" }
-
+                  - label: "Element"
+                    name: "element"
+                    widget: "object"
+                    fields:
+                      - label: "Presentasjonsform"
+                        name: "presentasjonstype"
+                        widget: "select"
+                        multiple: true
+                        options:
+                          - { label: "Stolpediagram", value: "barchart" }
+                          - { label: "Tabell", value: table" }
+                          - { label: "Kart", value: "map" }
+              - { label: Utvalgsbeskrivelse, name: utvalg, widget: string }
+              - { label: Resultatbeskrivelse, name: resultat, widget: string }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
