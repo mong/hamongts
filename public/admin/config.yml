@@ -35,27 +35,22 @@ collections:
       - label: "Innhold"
         name: "innhold"
         widget: "list"
-        hint: "Selve innholdet i atlaset"
         types:
           - label: "Tekst"
             name: "tekst"
             widget: object
-            field:
-              {
-                label: "Tekst",
-                name: "tekst",
-                widget: "markdown",
-                hint: "Seksjon med tekst og eventuelle statiske figurer",
-              }
+            field: { label: "Avsnitt", name: "avsnitt", widget: "markdown" }
+          - label: "Figur"
+            name: "figur"
+            widget: object
+            field: { label: Image, name: image, widget: image }
           - label: "Faktaboks"
             name: "faktaboks"
             widget: object
-            hint: "En faktaboks, som i utgangspunktet er skjult men kan trykkes frem av bruker."
             fields:
               - label: "Overskrift"
                 name: "overskrift"
                 widget: "string"
-                hint: "Overskrift som vises på siden når resten av teksten er skjult"
               - label: "Tekst"
                 name: "tekst"
                 widget: "markdown"
