@@ -68,7 +68,7 @@ collections:
               - { label: Ingress, name: ingress, widget: string }
               - label: Karusell
                 name: karusell
-                widget: list
+                widget: object
                 fields:
                   - label: "Presentasjonsform"
                     name: "presentasjonstype"
