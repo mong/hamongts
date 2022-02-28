@@ -76,7 +76,7 @@ collections:
                     multiple: true
                     options:
                       - { label: "Stolpediagram", value: "barchart" }
-                      - { label: "Tabell", value: table" }
+                      - { label: "Tabell", value: "table" }
                       - { label: "Kart", value: "map" }
                   - label: "Datagrunnlag"
                     name: "data"

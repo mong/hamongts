@@ -16,10 +16,7 @@
       "ingress": "Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.",
       "karusell": [
         {
-          "presentasjonstype": [
-            "barchart",
-            "table\""
-          ],
+          "presentasjonstype": ["barchart", "table"],
           "data": "img/injeksjoner_artritt_med_uten_ul.csv"
         }
       ],

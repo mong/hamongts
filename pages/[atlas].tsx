@@ -18,65 +18,18 @@ import { ListItem } from "../src/components/toc/listitem";
 import styles from "../src/styles/Atlas.module.css";
 
 interface AtlasPageProps {
-  text: string;
   content: string;
-  frontMatter: {
-    num: string;
-    mainTitle: string;
-    shortTitle: string;
-    pdfUrl: string;
-    ia: boolean;
-    lang: string;
-    report_text: string;
-    map_text: string;
-    ingress: string;
-  };
 }
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
-  const text = `<h1>${frontMatter.mainTitle}</h1><div className=ingress>${frontMatter.ingress}</div>${content}`;
+const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
+  console.log(content);
+
   return (
     <>
       <Layout lang="no">
         <main>
-          <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
-            <ReactMarkdown
-              rehypePlugins={[
-                rehypeWrapWithDiv,
-                rehypeRaw,
-                rehypeSlug,
-                [
-                  rehypeToc,
-                  {
-                    headings: ["h2", "h3"],
-                  },
-                ],
-              ]}
-              remarkPlugins={[remarkGfm]}
-              components={{
-                nav({ children, className }) {
-                  if (className === "toc") {
-                    return <TableOfContents> {children}</TableOfContents>;
-                  }
-                  return <nav>{children}</nav>;
-                },
-                ol({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <OrderedList> {children}</OrderedList>;
-                  }
-                  return <ol>{children}</ol>;
-                },
-                li({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <ListItem> {children}</ListItem>;
-                  }
-                  return <li>{children}</li>;
-                },
-              }}
-            >
-              {text}
-            </ReactMarkdown>
+            <>{content}</>
           </div>
         </main>
       </Layout>
@@ -85,21 +38,24 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, frontMatter }) => {
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
-  const atlasDir = path.join(process.cwd(), "_posts/atlas");
-  const fullPath = path.join(atlasDir, `${context.params.atlas}.md`);
+  const fullPath = path.join(
+    process.cwd(),
+    "_posts/atlas",
+    `${context.params.atlas}.json`
+  );
   const file = fs.readFileSync(fullPath);
-  const { content, data } = matter(file);
+  const { content } = matter(file);
 
   return {
-    props: { content, frontMatter: { ...data } },
+    props: { content },
   };
 };
 
-export const getStaticPaths: GetStaticPaths = async (context) => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const atlasDir = path.join(process.cwd(), "_posts/atlas");
   const paths = fs
     .readdirSync(atlasDir)
-    .map((Info) => ({ params: { atlas: Info.replace(/.md?$/, "") } }));
+    .map((Info) => ({ params: { atlas: Info.replace(/.json?$/, "") } }));
 
   return {
     paths,
