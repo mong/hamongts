@@ -22,14 +22,23 @@ interface AtlasPageProps {
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
-  console.log(content);
+  const obj = JSON.parse(content);
 
   return (
     <>
-      <Layout lang="no">
+      <Layout lang={obj.lang}>
         <main>
-          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
-            <>{content}</>
+          <TopBanner
+            mainTitle={obj.shortTitle}
+            pdfUrl=""
+            lang={obj.lang}
+            ia={false}
+          />
+          <div className={`${styles.atlasContent}`}>
+            <h1>{obj.mainTitle}</h1>
+            <br />
+            <div className="ingress">{obj.ingress}</div>
+            <>{JSON.stringify(obj.innhold)}</>
           </div>
         </main>
       </Layout>
