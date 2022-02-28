@@ -82,10 +82,9 @@ collections:
                     name: "data"
                     widget: "file"
                     media_library:
-                      config:
-                        multiple: false
-                        media_folder: "data"
-                        choose_url: false
+                      multiple: false
+                      media_folder: "data"
+                      choose_url: false
               - { label: Utvalgsbeskrivelse, name: utvalg, widget: markdown }
               - { label: Resultatbeskrivelse, name: resultat, widget: markdown }
   - label: "Tidligere atlas"
