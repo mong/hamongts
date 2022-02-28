@@ -82,6 +82,14 @@ collections:
                           - { label: "Stolpediagram", value: "barchart" }
                           - { label: "Tabell", value: table" }
                           - { label: "Kart", value: "map" }
+                      - label: "Datagrunnlag"
+                        name: "data"
+                        widget: "file"
+                        media_library:
+                          config:
+                            multiple: false
+                            media_folder: "data"
+                            choose_url: false
               - { label: Utvalgsbeskrivelse, name: utvalg, widget: string }
               - { label: Resultatbeskrivelse, name: resultat, widget: string }
   - label: "Tidligere atlas"
