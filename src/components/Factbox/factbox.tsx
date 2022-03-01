@@ -5,7 +5,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ReactMarkdown from "react-markdown";
 
-export type FactBoxProps = {
+type FactBoxProps = {
   boxTitle: string;
   boxContent: string;
   id: string;

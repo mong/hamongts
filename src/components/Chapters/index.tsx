@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
-import { TextBox, TextBoxProps } from "../TextBox";
-import { FactBox, FactBoxProps } from "../Factbox";
+import React from "react";
+import { TextBox } from "../TextBox";
+import { FactBox } from "../Factbox";
 
 type tekst = {
   type: "tekst";
