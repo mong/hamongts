@@ -1,4 +1,4 @@
-import React, { cloneElement, createElement, Fragment } from "react";
+import React, { Fragment } from "react";
 import { TextBox } from "../TextBox";
 import { FactBox } from "../Factbox";
 
@@ -55,10 +55,19 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
         {innhold?.map((box, index) => {
           const Component = json2atlas[box["type"]];
           console.log(Component);
-          
-          return <Fragment key={index}>
-            <Component {...box} children={box.tekst} boxContent={box.tekst} boxTitle={box.overskrift} />
-            </Fragment>;
+          const props =
+            box.type === "faktaboks"
+              ? { boxContent: box.tekst, boxTitle: box.overskrift }
+              : box.type === "resultatboks"
+              ? { children: box.resultat }
+              : { children: box.tekst };
+
+          /* Husk: endre key til noe mer unikt to linjer under */
+          return (
+            <Fragment key={index}>
+              <Component {...props} />
+            </Fragment>
+          );
         })}
       </div>
     </>
