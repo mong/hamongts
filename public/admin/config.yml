@@ -36,7 +36,7 @@ collections:
         name: "kapittel"
         widget: "list"
         fields:
-          - { label: "Overskrift", name: "title", widget: "string" }
+          - { label: "Overskrift", name: "overskrift", widget: "string" }
           - label: "Innhold"
             name: "innhold"
             widget: "list"
@@ -57,7 +57,7 @@ collections:
                 widget: object
                 fields:
                   - label: "Overskrift"
-                    name: "title"
+                    name: "overskrift"
                     widget: "string"
                     hint: "Overskrift som vises på siden når resten av teksten er skjult"
                   - label: "Tekst"
