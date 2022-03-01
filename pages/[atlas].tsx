@@ -1,20 +1,9 @@
 import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
-
-import ReactMarkdown from "react-markdown";
 import matter from "gray-matter";
-import rehypeToc from "rehype-toc";
-import rehypeSlug from "rehype-slug";
-import rehypeRaw from "rehype-raw";
-import { rehypeWrapWithDiv } from "../src/helpers/functions/rehypeplugins";
-import remarkGfm from "remark-gfm";
-
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
-import { TableOfContents } from "../src/components/toc";
-import { OrderedList } from "../src/components/toc/orderedlist";
-import { ListItem } from "../src/components/toc/listitem";
 import styles from "../src/styles/Atlas.module.css";
 
 interface AtlasPageProps {
