@@ -33,12 +33,28 @@ type ChapterProps = {
   innhold: (tekst | faktaboks | resultatboks)[];
 };
 
-export const Chapter = ({ overskrift, innhold }: ChapterProps) => {
+type ChaptersProps = {
+  innhold: ChapterProps[];
+};
+
+export const Chapters = ({ innhold }: ChaptersProps) => {
+  return (
+    <>
+      {innhold.map((chapter) => (
+        <Chapter key={chapter.overskrift} {...chapter} />
+      ))}
+    </>
+  );
+};
+
+const Chapter = ({ innhold, overskrift }: ChapterProps) => {
+  console.log(innhold);
+
   return (
     <>
       <h2>{overskrift}</h2>
       <div>
-        {innhold.map((box) => {
+        {innhold?.map((box) => {
           return <> {json2atlas[box["type"]]} </>;
         })}
       </div>

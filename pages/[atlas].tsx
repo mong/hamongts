@@ -6,7 +6,7 @@ import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
 import Content2HTML from "../src/components/Atlas/content2html";
-import { Chapter } from "../src/components/Chapter";
+import { Chapters } from "../src/components/Chapters";
 
 interface AtlasPageProps {
   content: string;
@@ -15,7 +15,7 @@ interface AtlasPageProps {
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
   const obj = JSON.parse(content);
-  console.log(obj);
+  console.log(obj.kapittel);
 
   const body = JSON.stringify(obj.kapittel);
 
@@ -32,10 +32,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
           <div className={`${styles.atlasContent}`}>
             <h1>{obj.mainTitle}</h1>
             <div className="ingress">{obj.ingress}</div>
-            <Chapter
-              overskrift={obj.kapittel.overskrift}
-              innhold={obj.kapittel.innhold}
-            />
+            <Chapters innhold={obj.kapittel} />
             <Content2HTML content={body} />
           </div>
         </main>
