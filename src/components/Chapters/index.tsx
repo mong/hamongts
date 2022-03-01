@@ -57,7 +57,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
           console.log(Component);
           
           return <Fragment key={index}>
-            <Component {...box} children={box.tekst} />
+            <Component {...box} children={box.tekst} boxContent={box.tekst} boxTitle={box.overskrift} />
             </Fragment>;
         })}
       </div>
