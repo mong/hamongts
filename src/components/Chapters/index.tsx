@@ -1,4 +1,4 @@
-import React from "react";
+import React, { cloneElement, createElement, Fragment } from "react";
 import { TextBox } from "../TextBox";
 import { FactBox } from "../Factbox";
 
@@ -48,14 +48,17 @@ export const Chapters = ({ innhold }: ChaptersProps) => {
 };
 
 const Chapter = ({ innhold, overskrift }: ChapterProps) => {
-  console.log(innhold);
-
   return (
     <>
       <h2>{overskrift}</h2>
       <div>
-        {innhold?.map((box) => {
-          return <> {json2atlas[box["type"]]} </>;
+        {innhold?.map((box, index) => {
+          const Component = json2atlas[box["type"]];
+          console.log(Component);
+          
+          return <Fragment key={index}>
+            <Component {...box} children={box.tekst} />
+            </Fragment>;
         })}
       </div>
     </>
