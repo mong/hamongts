@@ -1,0 +1,32 @@
+{
+  "lang": "no",
+  "date": "2022-02-28T11:26:57.079Z",
+  "filename": "fodsel2",
+  "mainTitle": "Helseatlas for fødselshjelp 2.0",
+  "shortTitle": "Fødselshjelp",
+  "ingress": "Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.",
+  "innhold": [
+    {
+      "type": "tekst",
+      "tekst": "## Svangerskapsomsorg\n\nSvangerskapsomsorgen har som formål å forebygge alvorlige komplikasjoner og sykdom hos mor og barn. Ansvaret ligger hovedsakelig hos primærhelsetjenesten, og den gravide velger om kontrollene skal gjøres av jordmor eller lege. Spesialisthelsetjenesten ivaretar ultralydundersøkelser, oppfølging av kompliserte svangerskap og kontroller etter uke 40.\n\n### Bakgrunn\n\nFriske gravide tilbys et basisprogram med åtte svangerskapskontroller. Oppfølgingen blir tettere om sykdom eller risikofaktorer avdekkes.\n\nSvangerskapskontrollene tidlig i svangerskapet kartlegger forhold som kompliserende sykdommer, arvelige sykdommer, erfaringer knyttet til tidligere graviditet og fødsel, bruk av medikamenter, tobakk og alkohol samt psykososiale belastninger. Hensikten med de senere svangerskapskontrollene er å følge mor og barns helse og utvikling. Blant annet måles blodtrykk, urinen undersøkes og veksten av fosteret følges."
+    },
+    {
+      "type": "resultatboks",
+      "overskrift": "Svangerskapsdiabetes",
+      "ingress": "Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.",
+      "karusell": [
+        {
+          "presentasjonstype": ["barchart", "table"],
+          "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+        }
+      ],
+      "utvalg": "Tilstandskoder (fra kodeverket ICPC-2) W 85 Svangerskapsdiabetes",
+      "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer."
+    },
+    {
+      "type": "faktaboks",
+      "tekst": "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet og under fødsel for både mor og barn. Svangerskapsdiabetes forsvinner vanligvis etter fødselen, men kvinner som har hatt svangerskapsdiabetes har en økt risiko for å utvikle diabetes type 2 i neste svangerskap og senere i livet. Den økte forekomsten av svangerskapsdiabetes forklares ut fra økning i risikofaktorer for svangerskapsdiabetes, slik som overvekt, økende alder for førstegangsfødende og opprinnelse fra land\nmed høy forekomst av diabetes.",
+      "overskrift": "Svangeskapsdiabetes"
+    }
+  ]
+}
