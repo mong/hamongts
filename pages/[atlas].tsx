@@ -14,7 +14,9 @@ interface AtlasPageProps {
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
   const obj = JSON.parse(content);
-  const body = JSON.stringify(obj.innhold);
+  console.log(obj);
+
+  const body = JSON.stringify(obj.kapittel);
 
   return (
     <>
@@ -28,7 +30,6 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
           />
           <div className={`${styles.atlasContent}`}>
             <h1>{obj.mainTitle}</h1>
-            <br />
             <div className="ingress">{obj.ingress}</div>
             <Content2HTML content={body} />
           </div>

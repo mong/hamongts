@@ -3,7 +3,5 @@ interface Content2HTMLProps {
 }
 
 export default function Content2HTML({ content }: Content2HTMLProps) {
-  console.log({ content });
-
   return <> {content} </>;
 }
