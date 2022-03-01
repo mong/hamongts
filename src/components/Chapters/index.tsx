@@ -2,12 +2,6 @@ import React, { Fragment } from "react";
 import { TextBox, TextBoxProps } from "../TextBox";
 import { FactBox, FactBoxProps } from "../Factbox";
 
-const json2atlas = {
-  tekst: TextBox,
-  faktaboks: FactBox,
-  resultatboks: TextBox,
-};
-
 type tekst = {
   type: "tekst";
   tekst: string;
@@ -53,25 +47,25 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
       <h2>{overskrift}</h2>
       <div>
         {innhold?.map((box, index) => {
-          const Component = json2atlas[box["type"]];
-          console.log(Component);
-          const props: TextBoxProps | FactBoxProps =
-            box.type === "faktaboks"
-              ? {
-                  boxContent: box.tekst,
-                  boxTitle: box.overskrift,
-                  id: box.overskrift,
-                }
-              : box.type === "resultatboks"
-              ? { children: box.resultat }
-              : { children: box.tekst };
-
-          /* Husk: endre key til noe mer unikt to linjer under */
-          return (
-            <Fragment key={index}>
-              <Component {...props} />
-            </Fragment>
-          );
+          if (box.type === "faktaboks") {
+            return (
+              <FactBox
+                id={box.overskrift}
+                boxContent={box.tekst}
+                boxTitle={box.overskrift}
+              />
+            );
+          } else if (box.type === "resultatboks") {
+            return (
+              <FactBox
+                id={box.overskrift}
+                boxContent={box.resultat}
+                boxTitle={box.overskrift}
+              />
+            );
+          } else if (box.type === "tekst") {
+            return <TextBox>{box.tekst}</TextBox>;
+          }
         })}
       </div>
     </>
