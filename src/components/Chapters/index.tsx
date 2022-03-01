@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
-import { TextBox } from "../TextBox";
-import { FactBox } from "../Factbox";
+import { TextBox, TextBoxProps } from "../TextBox";
+import { FactBox, FactBoxProps } from "../Factbox";
 
 const json2atlas = {
   tekst: TextBox,
@@ -55,9 +55,13 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
         {innhold?.map((box, index) => {
           const Component = json2atlas[box["type"]];
           console.log(Component);
-          const props =
+          const props: TextBoxProps | FactBoxProps =
             box.type === "faktaboks"
-              ? { boxContent: box.tekst, boxTitle: box.overskrift }
+              ? {
+                  boxContent: box.tekst,
+                  boxTitle: box.overskrift,
+                  id: box.overskrift,
+                }
               : box.type === "resultatboks"
               ? { children: box.resultat }
               : { children: box.tekst };

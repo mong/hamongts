@@ -4,7 +4,7 @@ import rehypeRaw from "rehype-raw";
 import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
-type TextBoxProps = {
+export type TextBoxProps = {
   children: string;
 };
 
