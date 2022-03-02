@@ -90,7 +90,7 @@ collections:
                         widget: "file"
                         media_library:
                           multiple: false
-                          media_folder: "data"
+                          media_folder: "/data"
                           choose_url: false
                   - {
                       label: Utvalgsbeskrivelse,
