@@ -1,4 +1,4 @@
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown, { Components } from "react-markdown";
 import rehypeToc from "rehype-toc";
 import rehypeSlug from "rehype-slug";
 import rehypeRaw from "rehype-raw";
@@ -11,6 +11,7 @@ import { TableOfContents } from "../../toc";
 import { OrderedList } from "../../toc/orderedlist";
 import { ListItem } from "../../toc/listitem";
 import styles from "./classic.module.css";
+import { PluggableList } from "react-markdown/lib/react-markdown";
 
 interface AtlasContentProps {
   content: string;
@@ -21,6 +22,7 @@ interface AtlasContentProps {
     pdfUrl: string;
     ia: boolean;
     lang: string;
+    toc: boolean;
   };
 }
 
@@ -28,6 +30,63 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   content,
   frontMatter,
 }) => {
+  const rehypePlugins: PluggableList = [
+    rehypeWrapWithDiv,
+    rehypeRaw,
+    rehypeSlug,
+    frontMatter.toc
+      ? [
+          rehypeToc,
+          {
+            headings: ["h2", "h3"],
+          },
+        ]
+      : () => (arnfinn) => arnfinn,
+  ];
+
+  const remarkPlugins: PluggableList = [remarkGfm];
+
+  const components: Components = {
+    nav({ children, className }) {
+      if (className === "toc") {
+        return <TableOfContents> {children}</TableOfContents>;
+      }
+      return <nav>{children}</nav>;
+    },
+    ol({ children, className }) {
+      if ((className ?? "").includes("toc")) {
+        return <OrderedList> {children}</OrderedList>;
+      }
+      return <ol>{children}</ol>;
+    },
+    li({ children, className }) {
+      if ((className ?? "").includes("toc")) {
+        return <ListItem> {children}</ListItem>;
+      }
+      return <li>{children}</li>;
+    },
+    p({ children, node }) {
+      if (
+        node.children[0].type === "element" &&
+        ["img", "a"].includes(node.children[0].tagName)
+      ) {
+        return <>{children}</>;
+      }
+      return <p>{children}</p>;
+    },
+    img({ src, alt, title }) {
+      return (
+        <figure>
+          <img src={src} alt={alt} title={alt} />
+          <figcaption>
+            <strong>{frontMatter.lang === "en" ? "Figure:" : "Figur:"}</strong>{" "}
+            {title}
+          </figcaption>
+        </figure>
+      );
+    },
+  };
+
   const text = `
   <h1>${frontMatter.mainTitle}</h1>
   ${content}
@@ -39,38 +98,9 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown
-              rehypePlugins={[
-                rehypeWrapWithDiv,
-                rehypeRaw,
-                rehypeSlug,
-                [
-                  rehypeToc,
-                  {
-                    headings: ["h2", "h3"],
-                  },
-                ],
-              ]}
-              remarkPlugins={[remarkGfm]}
-              components={{
-                nav({ children, className }) {
-                  if (className === "toc") {
-                    return <TableOfContents> {children}</TableOfContents>;
-                  }
-                  return <nav>{children}</nav>;
-                },
-                ol({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <OrderedList> {children}</OrderedList>;
-                  }
-                  return <ol>{children}</ol>;
-                },
-                li({ children, className }) {
-                  if ((className ?? "").includes("toc")) {
-                    return <ListItem> {children}</ListItem>;
-                  }
-                  return <li>{children}</li>;
-                },
-              }}
+              rehypePlugins={rehypePlugins}
+              remarkPlugins={remarkPlugins}
+              components={components}
             >
               {text}
             </ReactMarkdown>

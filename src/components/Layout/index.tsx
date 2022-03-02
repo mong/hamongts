@@ -48,8 +48,8 @@ export default function Layout({
                   loader={imgLoader}
                   src={`/helseatlas/img/logos/helseatlas.svg`}
                   alt="Hjem"
-                  width={298}
-                  height={60}
+                  width={186}
+                  height={47}
                 />
               </a>
             </Link>

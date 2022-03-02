@@ -5,6 +5,7 @@ shortTitle: Gynekologi, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf
 ia: true
 lang: no
+toc: true
 ---
 
 <div className="ingress">
@@ -35,13 +36,9 @@ Nasjonalt foregikk omlag halvparten av kontaktene på et offentlig sykehus og ha
 
 Endometriebiopsi eller utskraping ble foretatt ved omlag halvparten av kontaktene. Andelen kontakter der biopsi eller utskraping ble gjort varierte fra 40 % for bosatte i opptaksområdet Akershus til 63 % for bosatte i opptaksområdet Helgeland.
 
-**Figur:** Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
+![Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder](/helseatlas/img/no/gyn/blodninger_1.png "Antall polikliniske kontakter for postmenopausale blødninger fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
 
-![blodninger_1](/helseatlas/img/no/gyn/blodninger_1.png)
-
-**Figur:** Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig eller privat tjenesteyter. Gjennomsnittlig antall kontakter til høyre. Utvalget er begrenset til kvinner som er 50 år eller eldre.
-
-![blodninger_2](/helseatlas/img/no/gyn/blodninger_2.png)
+![Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner](/helseatlas/img/no/gyn/blodninger_2.png "Antall polikliniske kontakter for postmenopausale blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig eller privat tjenesteyter. Gjennomsnittlig antall kontakter til høyre. Utvalget er begrenset til kvinner som er 50 år eller eldre.")
 
 ### Kommentarer
 
@@ -63,13 +60,9 @@ Bruk av utskraping er mer utbredt for kvinner med hoved- eller bitilstand N95.0 
 
 National Health Services (NHS) i Storbritannia har nylig anbefalt at utskrapning ikke bør utføres for pasienter med kraftige menstruasjonsblødninger med mindre det er spesielle forhold som skulle tilsi at pasienten vil ha nytte av inngrepet. Vi finner at det årlig ble utført 582 utskrapinger hos norske kvinner med hoveddiagnose «N92 Kraftige og/eller hyppige blødninger».
 
-**Figur:** Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. kontakter i spesialisthelsetjenesten og kontakter hos fastlege eller legevakt. Gjennomsnittlig antall kontakter og andel kontakter hos fastlege til høyre.
+![Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner](/helseatlas/img/no/gyn/figur_1.png "Antall kontakter med endometriebiopsi og inngrep med utskraping pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. kontakter i spesialisthelsetjenesten og kontakter hos fastlege eller legevakt. Gjennomsnittlig antall kontakter og andel kontakter hos fastlege til høyre.")
 
-![figur_1](/helseatlas/img/no/gyn/figur_1.png)
-
-**Figur:** Antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og endometriebiopsi versus utskrapning. Gjennomsnittlig antall kontakter til høyre.
-
-![figur_2](/helseatlas/img/no/gyn/figur_2.png)
+![Endometriebiopsi versus utskrapning, antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner](/helseatlas/img/no/gyn/figur_2.png "Antall kontakter i spesialisthelsetjenesten pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og endometriebiopsi versus utskrapning. Gjennomsnittlig antall kontakter til høyre.")
 
 ### Kommentarer
 
@@ -99,13 +92,9 @@ I all hovedsak var andelen utført i det private høyest i de opptaksområdene s
 
 Bruk av cervixbiopsi varierte også mye mellom opptaksområdene. Opptaksområdene i Nord-Norge utmerker seg med de høyeste ratene. Kvinner bosatt i opptaksområdet Nordland fikk utført over syv ganger så mange cervixbiopsier som kvinner bosatt i opptaksområdet Møre og Romsdal. Ser vi bort fra opptaksområdet Nordland, som har en mye høyere rate enn alle de andre opptaksområdene, er variasjonen fortsatt stor. Variasjonen mellom opptaksområdene i Sør-Norge er moderat.
 
-**Figur:** Antall polikliniske kontakter hvor det er foretatt kolposkopi og/eller cervixbiopsi pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Andel utført av privat behandler og gjennomsnittlig antall kontakter til høyre.
+![Antall polikliniske kontakter hvor det er foretatt kolposkopi og/eller cervixbiopsi pr. 10 000 kvinner](/helseatlas/img/no/gyn/bilde_1.png "Antall polikliniske kontakter hvor det er foretatt kolposkopi og/eller cervixbiopsi pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Andel utført av privat behandler og gjennomsnittlig antall kontakter til høyre.")
 
-![bilde_1](/helseatlas/img/no/gyn/bilde_1.png)
-
-**Figur:** Antall cervixbiopsier pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig sykehus eller avtalespesialist. Gjennomsnittlig antall kontakter til høyre.
-
-![bilde_2](/helseatlas/img/no/gyn/bilde_2.png)
+![Antall cervixbiopsier pr. 10 000 kvinner](/helseatlas/img/no/gyn/bilde_2.png "Antall cervixbiopsier pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og offentlig sykehus eller avtalespesialist. Gjennomsnittlig antall kontakter til høyre.")
 
 ### Kommentarer
 
@@ -125,13 +114,9 @@ I perioden 2015–2017 ble det årlig utført ca 1 000 steriliseringer av kvinne
 
 Andelen åpne inngrep, som hovedsakelig ble utført i forbindelse med planlagte keisersnitt, var rundt 50–70 % i de fleste opptaksområdene. Det ble i perioden 2015–2017 utført omlag 570 steriliseringer i året i forbindelse med keisersnitt. Ifølge Medisinsk fødselsregister ble det i samme periode utført omlag 3250 planlagte keisersnitt pr. år.
 
-**Figur:** Antall inngrep for sterilisering fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
+![Antall inngrep for sterilisering fordelt på alder](/helseatlas/img/no/gyn/skjermbilde_1_0.png "Antall inngrep for sterilisering fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
 
-![skjermbilde_1_0](/helseatlas/img/no/gyn/skjermbilde_1_0.png)
-
-**Figur:**  Antall steriliseringer pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep og andel åpne inngrep til høyre. Utvalget er begrenset til kvinner i alderen 25–55 år.
-
-![skjermbilde_2_0](/helseatlas/img/no/gyn/skjermbilde_2_0.png)
+![Antall steriliseringer pr. 10 000 kvinner](/helseatlas/img/no/gyn/skjermbilde_2_0.png "Antall steriliseringer pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep og andel åpne inngrep til høyre. Utvalget er begrenset til kvinner i alderen 25–55 år.")
 
 ### Kommentarer
 
@@ -159,9 +144,7 @@ Det er ingen grunn til å tro at det er ulik geografisk fordeling av forekomsten
 
 Det er mulig at kvinners preferanser i noen grad får påvirke bruken av kirurgisk behandling. Videre er omfanget av kirurgi ved spontanabort er såpass beskjedent at man må forvente et ikke ubetydelig innslag av tilfeldig variasjon. Det er vanskelig å fastslå hvorvidt ulikheter i pasientpreferanser og behov, og innslag av tilfeldig variasjon kan være tilstrekkelig til å forklare den observerte variasjonen, men variasjonen er såpass stor at det bør reises spørsmål om den kan være uberettiget.
 
-**Figur:** Antall inngrep etter spontanabort pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
-
-![skjermbilde_1](/helseatlas/img/no/gyn/skjermbilde_1.png)
+![Antall inngrep etter spontanabort pr. 10 000 kvinner](/helseatlas/img/no/gyn/skjermbilde_1.png "Antall inngrep etter spontanabort pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
 
 ## Kirurgi ved selvbestemt abort
 
@@ -169,9 +152,7 @@ Lov om svangerskapsavbrudd fra 1975 gir kvinnen selv rett til å bestemme om hun
 
 Den geografiske variasjonen i bruken av kirurgisk metode ved selvbestemt abort er svært stor og må ha andre årsaker enn variasjon i andelen medikamentelle behandlinger som ikke fører frem og ulike pasientpreferanser. Variasjonen må derfor anses som uberettiget.
 
-**Figur:** Andel selvbestemte aborter gjennomført kirurgisk i perioden 2015–2017. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
-
-![skjermbilde_2](/helseatlas/img/no/gyn/skjermbilde_2.png)
+![Andel selvbestemte aborter gjennomført kirurgisk](/helseatlas/img/no/gyn/skjermbilde_2.png "Andel selvbestemte aborter gjennomført kirurgisk i perioden 2015–2017. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
 
 ## Prøverørsbehandling
 
@@ -191,13 +172,9 @@ I opptaksområdet til Lovisenberg diakonale sykehus, som hadde den høyeste rate
 
 Andel fødende som var 39 år eller eldre varierer også mye mellom opptaksområdene. I opptaksområdene Diakonhjemmet og OUS var omlag 20 % av de som fikk behandling med IVF i en alder der resultatene ikke kan forventes å være veldig gode.
 
-**Figur:** Antall prøverørsbehandlinger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
+![Antall prøverørsbehandlinger pr. 10 000 kvinner](/helseatlas/img/no/gyn/proveror1.png "Antall prøverørsbehandlinger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
 
-![proveror1](/helseatlas/img/no/gyn/proveror1.png)
-
-**Figur:** Andel av kvinner som fikk prøverørsbehandling som var 39 år eller eldre. Gjennomsnittsalder for kvinnene i utvalget til høyre.
-
-![proveror2](/helseatlas/img/no/gyn/proveror2.png)
+![Andel av kvinner som fikk prøverørsbehandling som var 39 år eller eldre](/helseatlas/img/no/gyn/proveror2.png "Andel av kvinner som fikk prøverørsbehandling som var 39 år eller eldre. Gjennomsnittsalder for kvinnene i utvalget til høyre.")
 
 ### Kommentarer
 
@@ -223,13 +200,9 @@ Nasjonalt ble livmoren fjernet (hystorektomi) for 27 % av kvinnene, andelen hyst
 
 Kirurgiske inngrep for endometriose kan gjøres åpent, laparaskopisk eller vaginalt. Andelen åpne inngrep varierte fra 27,5 % for bosatte i opptaksområdet UNN til 4,5 % for bosatte i opptaksområdet Bergen.
 
-**Figur:**  Antall inngrep for endometriose pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
+![Antall inngrep for endometriose pr. 10 000 kvinner](/helseatlas/img/no/gyn/endometriose1.png "Antall inngrep for endometriose pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
 
-![endometriose1](/helseatlas/img/no/gyn/endometriose1.png)
-
-**Figur:**  Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
-
-![endometriose2](/helseatlas/img/no/gyn/endometriose2.png)
+![Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/endometriose2.png "Andel inngrep for endometriose gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
 ### Kommentarer
 
@@ -259,13 +232,9 @@ Andelen inngrep der livmoren blir fjernet (hysterektomi) var høy og varierte fr
 
 Det var stor variasjon i bruk av åpen kirurgi ved inngrep for muskelknuter i livmoren. Andelen åpne inngrep varierte fra 55 % for bosatte i opptaksområdet Nord-Trøndelag til 14 % for bosatte i opptaksområdet Vestfold.
 
-**Figur:** Antall inngrep for muskelknuter i livmor pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre.
+![Antall inngrep for muskelknuter i livmor pr. 10 000 kvinner](/helseatlas/img/no/gyn/myoner1.png "Antall inngrep for muskelknuter i livmor pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hystorektomier versus andre inngrep. Gjennomsnittlig antall inngrep til høyre.")
 
-![myoner1](/helseatlas/img/no/gyn/myoner1.png)
-
-**Figur:** Andel inngrep for muskelknuter i livmor gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
-
-![myoner2](/helseatlas/img/no/gyn/myoner2.png)
+![Andel inngrep for muskelknuter i livmor gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/myoner2.png "Andel inngrep for muskelknuter i livmor gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
 ### Kommentarer
 
@@ -291,13 +260,9 @@ Andelen inngrep der livmoren fjernes (hysterektomi) varierer fra 31 % for bosatt
 
 Andelen åpne inngrep varierte fra 18 % for bosatte i opptaksområdet Nord-Trøndelag til 1 % for bosatte i opptaksområdet Diakonhjemmet.
 
-**Figur:**  Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. hysterektomier, fjerning av livmorslimhinne (ER/EA) og andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.
+![Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner](/helseatlas/img/no/gyn/kraftige_blodninger1.png "Antall inngrep for kraftige og/eller hyppige blødninger pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde og hhv. hysterektomier, fjerning av livmorslimhinne (ER/EA) og andre inngrep. Gjennomsnittlig antall inngrep til høyre. Utvalget er begrenset til kvinner i aldersgruppen 16–55 år.")
 
-![kraftige_blodninger1](/helseatlas/img/no/gyn/kraftige_blodninger1.png)
-
-**Figur:**  Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
-
-![kraftige_blodninger2](/helseatlas/img/no/gyn/kraftige_blodninger2.png)
+![Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/kraftige_blodninger2.png "Andel inngrep for kraftige og/eller hyppige blødninger gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
 ### Kommentarer
 
@@ -323,13 +288,9 @@ Det var moderat variasjon mellom opptaksområdene i bruken av transcervikale inn
 
 Totalt sett er det ingen tydelig samvariasjon mellom ratene for bruk av hysterektomi og for bruk av transcervikale inngrep. Andelen hysterektomier var høyest i opptaksområdene Helgeland, Nord-Trøndelag og Finnmark og lavest i opptaksområdene St. Olavs, OUS, Diakonhjemmet og Lovisenberg.
 
-**Figur:** Antall hysterektomier og transcervikale innngrep pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde
+![Antall hysterektomier og transcervikale innngrep pr. 10 000 kvinner](/helseatlas/img/no/gyn/hysterektomi1.png "Antall hysterektomier og transcervikale innngrep pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde")
 
-![hysterektomi1](/helseatlas/img/no/gyn/hysterektomi1.png)
-
-**Figur:** Andel hysterektomier gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.
-
-![hysterektomi2](/helseatlas/img/no/gyn/hysterektomi2.png)
+![Andel hysterektomier gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep](/helseatlas/img/no/gyn/hysterektomi2.png "Andel hysterektomier gjennomført som hhv. åpne, laparaskopiske og vaginale inngrep.")
 
 ### Kommentarer
 
@@ -349,13 +310,9 @@ Det ble i perioden 2015–2017 utført omlag 4 000 inngrep årlig for skjede- og
 
 Bosatte i opptaksområdet til Finnmarkssykehuset HF, som har den høyeste raten, fikk omkring 25 % flere slike operasjoner enn kvinner bosatt i opptaksområdet til Helse Nord-Trøndelag HF, som har den nest høyeste raten. Bosatte i opptaksområdet Nord-Trøndelag fikk over dobbelt så mange operasjoner for fremfall som bosatte i opptaksområdene Diakonhjemmet og Lovisenberg, hvor ratene er lavest. Ser vi bort fra opptaksområdene med de høyeste og laveste ratene (Finnmark, Lovisenberg og Diakonhjemmet) var variasjonen moderat.
 
-**Figur:** Antall inngrep for skjede- og livmorfremfall fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
+![Antall inngrep for skjede- og livmorfremfall fordelt på alder](/helseatlas/img/no/gyn/fremfall1.png "Antall inngrep for skjede- og livmorfremfall fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
 
-![fremfall1](/helseatlas/img/no/gyn/fremfall1.png)
-
-**Figur:** Antall inngrep for skjede- og livmorfremfall pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.
-
-![fremfall2](/helseatlas/img/no/gyn/fremfall2.png)
+![Antall inngrep for skjede- og livmorfremfall pr. 10 000 kvinner](/helseatlas/img/no/gyn/fremfall2.png "Antall inngrep for skjede- og livmorfremfall pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.")
 
 ### Kommentarer
 
@@ -377,13 +334,9 @@ I perioden 2015–2017 ble det årlig utført omlag 2 500 inkontinensoperasjoner
 
 Det er svært stor variasjon i omfanget av inngrep for urininkontinens pr. 10 000 kvinner mellom helseforetakenes opptaksområder. Kvinner bosatt i opptaksområdet Finnmark fikk i gjennomsnitt over åtte ganger så mange operasjoner for inkontinens som kvinner bosatt i opptaksområdet Lovisenberg, og omlag 4,5 ganger så mange operasjoner som kvinner bosatt i opptaksområdene Diakonhjemmet og Akershus. Ser vi bort fra de to opptaksområdene med de høyeste ratene (Finnmark og Nord-Trøndelag) og opptaksområdet Lovisenberg som ligger på bunn, er likevel den geografiske variasjonen stor. Kvinner bosatt i opptaksområdene Vestfold og UNN fikk omlag 2,5 ganger så mange operasjoner for inkontinens som kvinner bosatt i opptaksområdene Akershus og Diakonhjemmet.
 
-**Figur:** Antall inngrep for urininkontinens fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.
+![Antall inngrep for urininkontinens fordelt på alder](/helseatlas/img/no/gyn/urininkontinens1.png "Antall inngrep for urininkontinens fordelt på alder, gjennomsnitt pr. år for perioden 2015–2017.")
 
-![urininkontinens1](/helseatlas/img/no/gyn/urininkontinens1.png)
-
-**Figur:**  Antall inngrep for urininkontinens pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.
-
-![urininkontinens2](/helseatlas/img/no/gyn/urininkontinens2.png)
+![Antall inngrep for urininkontinens pr. 10 000 kvinner](/helseatlas/img/no/gyn/urininkontinens2.png "Antall inngrep for urininkontinens pr. 10 000 kvinner, aldersjustert, gjennomsnitt pr. år for 2015–2017 fordelt på opptaksområde. Gjennomsnittlig antall inngrep til høyre.")
 
 ### Kommentarer
 

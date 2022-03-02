@@ -7,7 +7,24 @@
   width: 80%;
 }
 
-.atlasContent p a {
+.atlasContent p a,
+.atlasContent a {
   color: revert;
-  text-decoration: revert;
+}
+
+.atlasContent table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.atlasContent thead tr {
+  background-color: #95bde6;
+  text-align: left;
+}
+
+.atlasContent th,
+.atlasContent td {
+  padding: 2px 5px;
 }

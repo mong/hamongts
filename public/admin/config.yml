@@ -5,32 +5,107 @@ backend:
   base_url: https://qa-mong-api.skde.org
 
 publish_mode: editorial_workflow
-logo_url: https://www.skde.no/img/logos/SKDE_sort.png
+logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
 public_folder: img
+site_url: https://qa.skde.no/helseatlas/
+locale: "nb_no"
 collections:
-  - label: "Atlas"
+  - label: "Atlas" # Nye atlas
     name: "atlas"
     folder: "_posts/atlas"
+    extension: json
+    format: json
     create: true
     identifier_field: filename
+    widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
-      - { label: "Publiseringsnummer", name: "num", widget: "number" }
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
-      - { label: "Rapport", name: "pdfUrl", widget: "string" }
-      - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - { label: "Ingress", name: "ingress", widget: "string" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
+          default: "no",
         }
+      - label: "Kapittel"
+        name: "kapittel"
+        widget: "list"
+        fields:
+          - { label: "Overskrift", name: "overskrift", widget: "string" }
+          - label: "Innhold"
+            name: "innhold"
+            widget: "list"
+            hint: "Selve innholdet i atlaset"
+            types:
+              - label: "Tekst"
+                name: "tekst"
+                widget: object
+                field:
+                  {
+                    label: "Tekst",
+                    name: "tekst",
+                    widget: "markdown",
+                    hint: "Seksjon med tekst og eventuelle statiske figurer",
+                  }
+              - label: "Faktaboks"
+                name: "faktaboks"
+                widget: object
+                fields:
+                  - label: "Overskrift"
+                    name: "overskrift"
+                    widget: "string"
+                    hint: "Overskrift som vises på siden når resten av teksten er skjult"
+                  - label: "Tekst"
+                    name: "tekst"
+                    widget: "markdown"
+                    hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker."
+              - label: "Resultatboks"
+                name: "resultatboks"
+                widget: object
+                summary: "{{fields.overskrift}}"
+                fields:
+                  - { label: Overskrift, name: overskrift, widget: string }
+                  - { label: Ingress, name: ingress, widget: string }
+                  - { label: "Publiseringsdato", name: publisert, widget: date }
+                  - { label: "Sist oppdatert", name: oppdatert, widget: date }
+                  - label: Karusell
+                    name: karusell
+                    widget: object
+                    fields:
+                      - label: "Presentasjonsform"
+                        name: "presentasjonstype"
+                        widget: "select"
+                        multiple: true
+                        options:
+                          - { label: "Stolpediagram", value: "barchart" }
+                          - { label: "Tabell", value: "table" }
+                          - { label: "Kart", value: "map" }
+                      - label: "Datagrunnlag"
+                        name: "data"
+                        widget: "file"
+                        media_library:
+                          multiple: false
+                          media_folder: "/data"
+                          choose_url: false
+                  - {
+                      label: Utvalgsbeskrivelse,
+                      name: utvalg,
+                      widget: markdown,
+                    }
+                  - {
+                      label: Resultatbeskrivelse,
+                      name: resultat,
+                      widget: markdown,
+                    }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
-    create: true
+    create: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -38,16 +113,25 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
         }
+  - label: "Statiske sider"
+    name: "statiske_sider"
+    folder: "_posts/statisk"
+    create: true
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - { label: "Tittel", name: "title", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
   - label: "Tidligere engelske atlas"
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
-    create: true
+    create: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -55,9 +139,18 @@ collections:
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
+      - { label: "Innholdsfortegnelse?", name: "toc", widget: "boolean" }
       - {
           label: "Språk",
           name: "lang",
           widget: "select",
           options: ["no", "en"],
         }
+  - label: "Statiske engelske sider"
+    name: "statiske_sider_en"
+    folder: "_posts/en/static"
+    create: true
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - { label: "Tittel", name: "title", widget: "string" }
+      - { label: "Hovedtekst", name: "body", widget: "markdown" }
