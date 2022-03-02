@@ -56,13 +56,13 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
           const props =
             box.type === "faktaboks"
               ? {
-                boxContent: box.tekst,
-                boxTitle: box.overskrift,
-                id: box.overskrift,
-              }
+                  boxContent: box.tekst,
+                  boxTitle: box.overskrift,
+                  id: box.overskrift,
+                }
               : box.type === "resultatboks"
-                ? { children: box.resultat }
-                : { children: box.tekst };
+              ? { children: box.resultat }
+              : { children: box.tekst };
 
           const Component: React.FC<typeof props> = json2atlas[box.type];
           /* Husk: endre key til noe mer unikt to linjer under */

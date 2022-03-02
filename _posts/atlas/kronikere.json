@@ -20,9 +20,7 @@
           "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
           "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "overskrift": "Injeksjonsbehandlinger ved artritt",
@@ -40,9 +38,7 @@
           "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
           "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "Utvalg"
