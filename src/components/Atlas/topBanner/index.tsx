@@ -42,7 +42,7 @@ export const TopBanner: React.FC<TopBannerProps> = ({
           )}
           {ia && (
             <div className={style.map_button}>
-              <a href="ia/index.html">{lang === "en" ? "Map" : "Kart"}</a>
+              <a href="ia">{lang === "en" ? "Map" : "Kart"}</a>
             </div>
           )}
         </div>

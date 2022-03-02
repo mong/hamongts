@@ -5,6 +5,7 @@ shortTitle: Orthopaedic, 2012-2016
 pdfUrl: /helseatlas/files/report_orthopaedic.pdf
 ia: true
 lang: en
+toc: false
 ---
 
 ## Fact sheets:
@@ -31,6 +32,6 @@ The fact sheets contain a short summary of the results from the orthopaedic heal
 A hospital referral area determines the municipalities, or city areas the Regional health authority is responsible of serving. Referral area division may vary across professions.
 
 Area of residence
-In the health atlas, variation in health care use is assessed across different areas of residence. The analyses are carried out depending on in which municipality – or city area in Oslo – the patients reside. The areas of residence approximately comprise the hospital referral areas. An exception from the division is the case of Oslo, where the Lovisenberg Diaconal Hospital and Diakonhjemmet Hospital referral areas align with the Oslo University Hospital (OUS, Norwegian abbreviation) referral area. This is due to the fact that Lovisenberg Diaconal Hospital has no emergency care function or local hospital tasks in ortopaedic healthcare, like e.g. fractures. As a supplementary analysis, we have still assessed the health care use in OUS, Lovisenberg Diaconal Hospital and Diakonhjemmet Hospital – **[see analysis here](https://helseatlas.no/en/ous-hospital-referral-area-additional-analysis)**. Health care use analysed by area of residence shows the inhabitants’ use of health services, regardless of the actual place of treatment.
+In the health atlas, variation in health care use is assessed across different areas of residence. The analyses are carried out depending on in which municipality – or city area in Oslo – the patients reside. The areas of residence approximately comprise the hospital referral areas. An exception from the division is the case of Oslo, where the Lovisenberg Diaconal Hospital and Diakonhjemmet Hospital referral areas align with the Oslo University Hospital (OUS, Norwegian abbreviation) referral area. This is due to the fact that Lovisenberg Diaconal Hospital has no emergency care function or local hospital tasks in ortopaedic healthcare, like e.g. fractures. As a supplementary analysis, we have still assessed the health care use in OUS, Lovisenberg Diaconal Hospital and Diakonhjemmet Hospital – [see analysis here](/helseatlas/en/static/ortopedi_ous). Health care use analysed by area of residence shows the inhabitants’ use of health services, regardless of the actual place of treatment.
 
-An overview of the municipalities or city areas comprising which residential area can be found here: **[Download residential area](/helseatlas/files/orthopaedic_referral_area.pdf).**
+An overview of the municipalities or city areas comprising which residential area can be found here: [Download residential area](/helseatlas/files/orthopaedic_referral_area.pdf).

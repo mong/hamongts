@@ -4,6 +4,7 @@ mainTitle: Helseatlas for fødselshjelp
 shortTitle: Fødselshjelp, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
 ia: true
+toc: true
 lang: no
 ---
 
@@ -51,7 +52,7 @@ Rundt tre av ti kvinner som fødte barn i Norge i 2015–2017, var ikke selv fø
 
 ## Svangerskapsomsorg
 
-2015–2017Svangerskapsomsorgen har som formål å forebygge alvorlige komplikasjoner og sykdom hos mor og barn. Ansvaret ligger hovedsakelig hos primærhelsetjenesten, og den gravide velger om kontrollene skal gjøres av jordmor eller lege. Spesialisthelsetjenesten ivaretar ultralydundersøkelser, oppfølging av kompliserte svangerskap og kontroller etter uke 40.
+Svangerskapsomsorgen har som formål å forebygge alvorlige komplikasjoner og sykdom hos mor og barn. Ansvaret ligger hovedsakelig hos primærhelsetjenesten, og den gravide velger om kontrollene skal gjøres av jordmor eller lege. Spesialisthelsetjenesten ivaretar ultralydundersøkelser, oppfølging av kompliserte svangerskap og kontroller etter uke 40.
 
 ### Bakgrunn
 

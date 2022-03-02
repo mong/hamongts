@@ -35,8 +35,9 @@ context("Classic atlases", () => {
   });
 
   it("should visit an IA", () => {
-    cy.visit("/utdatert/gyn/ia/index.html");
-    cy.get("button").contains("Last ned data");
+    cy.visit("/utdatert/gyn/ia");
+    cy.get("iframe");
+    cy.visit("/ia/no/gyn/index.html").get("button").contains("Last ned data");
   });
 
   it("should visit an atlas without ToC", () => {
@@ -55,10 +56,8 @@ context("Classic atlases", () => {
 
 context("Modern atlases", () => {
   it("should visit an atlas", () => {
-    cy.visit("/kronikere");
-    cy.get("h1").contains("Helseatlas for kroniske sykdommer");
-    /* Go into the ToC */
-    cy.get("nav").get("ol").get("li").get("a").contains("Parkinson").click();
+    cy.visit("/fodsel2");
+    cy.get("h1").contains("Helseatlas for fødselshjelp 2.0");
   });
 });
 

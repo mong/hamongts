@@ -1,0 +1,49 @@
+{
+  "lang": "no",
+  "date": "2022-03-01T15:25:48.202Z",
+  "filename": "kronikere",
+  "mainTitle": "Kroniske sykdommer",
+  "shortTitle": "Kroniske sykdommer",
+  "ingress": "Kroniske sykdommer er ...",
+  "kapittel": [
+    {
+      "overskrift": "Kroniske inflammatoriske leddsykdommer (artritt)",
+      "innhold": [
+        {
+          "type": "tekst",
+          "tekst": "Artritt er en betennelsestilstand der immunforsvaret angriper kroppens celler i leddene. Artritt kan ramme både små og store ledd i kroppen.\n\n\r\nMennesker som er rammet av artritt kan oppleve smerter og funksjonsbegrensninger som kan gi redusert livskvalitet og i alvorlige tilfeller også redusert livslengde. De siste årene har nye behandlingsmetoder gitt vesentlig bedre leveutsikter for mennesker med artritt.\r"
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-01T15:27:02.628Z",
+          "oppdatert": "2022-03-01T15:27:02.657Z",
+          "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
+          "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
+          "karusell": {
+            "presentasjonstype": ["barchart"],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "overskrift": "Injeksjonsbehandlinger ved artritt",
+          "utvalg": "Utvalg..."
+        },
+        {
+          "type": "tekst",
+          "tekst": "I perioden 2018-2020 var det omlag 40 000 pasienter årlig som hadde en eller flere kontakter med spesialisthelsetjenesten for artritt (lenke til utvalgsdefinisjon?).\n\nAv disse hadde omlag halvparten revmatoid artritt (leddgikt), en fjerdedel hadde psoriasisartritt og en fjerdedel hadde artritt i rygg/bekken. Det var begrenset overlapp mellom disse tre gruppene (færre enn 1000 pasienter pr år).\n\n"
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-01T15:31:56.381Z",
+          "oppdatert": "2022-03-01T15:31:56.401Z",
+          "overskrift": "Antall kontakter",
+          "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
+          "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
+          "karusell": {
+            "presentasjonstype": ["barchart"],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "utvalg": "Utvalg"
+        }
+      ]
+    }
+  ]
+}
