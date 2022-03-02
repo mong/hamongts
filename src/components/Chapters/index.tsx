@@ -67,6 +67,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   title: box.overskrift,
                   intro: box.ingress,
                   selection: box.utvalg,
+                  id: box.overskrift,
                 }
               : { children: box.tekst };
 

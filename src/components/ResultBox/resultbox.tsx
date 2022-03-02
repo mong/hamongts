@@ -25,6 +25,8 @@ type ResultBoxProps = {
   selection: string;
   result: string;
   atlasData?: AtlasData[];
+  id: string;
+  lang?: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -32,6 +34,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   intro,
   selection,
   result,
+  id,
+  lang = "no",
 }) => {
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
@@ -48,20 +52,19 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
+          aria-controls={`${id}-content`}
+          id={`${id}-header`}
         >
           <div
             style={{
               width: "98%",
-              backgroundColor: "white",
               borderRadius: "10px",
               padding: "30px 20px 30px 20px",
               textAlign: "justify",
             }}
           >
             <h3> {title} </h3>
-            <p>{intro}</p>
+            <ReactMarkdown>{intro}</ReactMarkdown>
           </div>
         </AccordionSummary>
         <AccordionDetails>
@@ -97,8 +100,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel2a-content"
-              id="panel2a-header"
+              aria-controls={`${id}-content-selection`}
+              id={`${id}-content-selection`}
             >
               Utvalg
             </AccordionSummary>
