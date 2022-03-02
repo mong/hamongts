@@ -61,4 +61,29 @@ context("Modern atlases", () => {
   });
 });
 
+context("result box", () => {
+  it("should visit a result box", () => {
+    cy.visit("/resultbox");
+    cy.get("h3").contains("Lorem ipsum dolor sit amet");
+    cy.get("svg").click({ multiple: true, force: true })
+  });
+});
+
+context("factbox", () => {
+  it("should visit a factbox", () => {
+    cy.visit("/factbox");
+    cy.get("div").contains("Lorem ipsum dolor sit amet");
+    cy.get("svg").click({ multiple: true, force: true })
+  });
+});
+
+context("carousel", () => {
+  it("should visit a carousel", () => {
+    cy.visit("/carousel");
+    cy.get("h2").contains("Kroniske inflammatoriske leddsykdommer");
+    cy.get("svg").click({ multiple: true, force: true })
+  });
+});
+
+
 export {};

@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import { TextBox } from "../TextBox";
 import { FactBox } from "../Factbox";
+import { ResultBox } from "../ResultBox";
 
 type Tekst = {
   type: "tekst";
@@ -34,7 +35,7 @@ type ChaptersProps = {
 const json2atlas = {
   tekst: TextBox,
   faktaboks: FactBox,
-  resultatboks: FactBox,
+  resultatboks: ResultBox,
 };
 
 export const Chapters = ({ innhold }: ChaptersProps) => {
@@ -62,8 +63,10 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                 }
               : box.type === "resultatboks"
               ? {
-                  boxContent: box.resultat,
-                  boxTitle: box.overskrift,
+                  result: box.resultat,
+                  title: box.overskrift,
+                  intro: box.ingress,
+                  selection: box.utvalg,
                   id: box.overskrift,
                 }
               : { children: box.tekst };
