@@ -34,7 +34,7 @@ type ChaptersProps = {
 const json2atlas = {
   tekst: TextBox,
   faktaboks: FactBox,
-  resultatboks: TextBox,
+  resultatboks: FactBox,
 };
 
 export const Chapters = ({ innhold }: ChaptersProps) => {
@@ -61,7 +61,11 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   id: box.overskrift,
                 }
               : box.type === "resultatboks"
-              ? { children: box.resultat }
+              ? {
+                  boxContent: box.resultat,
+                  boxTitle: box.overskrift,
+                  id: box.overskrift,
+                }
               : { children: box.tekst };
 
           const Component: React.FC<typeof props> = json2atlas[box.type];
