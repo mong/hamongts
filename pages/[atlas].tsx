@@ -5,9 +5,11 @@ import matter from "gray-matter";
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
+import { Chapters } from "../src/components/Chapters";
 
 interface AtlasPageProps {
   content: string;
+  body: string;
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
@@ -25,9 +27,8 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
           />
           <div className={`${styles.atlasContent}`}>
             <h1>{obj.mainTitle}</h1>
-            <br />
             <div className="ingress">{obj.ingress}</div>
-            <>{JSON.stringify(obj.innhold)}</>
+            <Chapters innhold={obj.kapittel} />
           </div>
         </main>
       </Layout>
