@@ -20,7 +20,9 @@
           "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
           "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
+            "presentasjonstype": [
+              "barchart"
+            ],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "overskrift": "Injeksjonsbehandlinger ved artritt",
@@ -38,10 +40,105 @@
           "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
           "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
           "karusell": {
-            "presentasjonstype": ["barchart"],
+            "presentasjonstype": [
+              "barchart"
+            ],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "Utvalg"
+        }
+      ]
+    },
+    {
+      "overskrift": "Multippel Sklerose",
+      "innhold": [
+        {
+          "type": "tekst",
+          "tekst": "Multippel sklerose (MS) er en uhelbredelig sykdom som gir betennelse i sentralnervesystemet, og som kan føre til alvorlig funksjonstap for pasienten. For de fleste (omlag 90%) vil sykdommen være preget av atakker (relapsing-remitting MS, RRMS), mens omlag 10 % av pasientene vil oppleve gradvis forverring i funksjonsnivå (PPMS). "
+        },
+        {
+          "type": "tekst",
+          "tekst": "- 45% av kvinner og 38% av menn med MS fikk rehabilitering\r\n- Om lag 30% av pasienter med MS var i behandling med høyaktivt legemiddel\r\n- Bruk av off-label preparat varierte fra 10-75%\n\n\r\n\r\nAndel pasienter med MS i sykdomsmodulerende behandling med høyaktive legemidler, økte i perioden. Det var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det var et tydelig skifte i hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris. \r\nDet var stor geografisk variasjon i andel pasienter i høyaktiv behandling som fikk det billigste medikamentet. 75% av pasientene bosatt i opptaksområdet Bergen ble behandlet med off-label medikamentet Rituksimab, sammenlignet med om lag 10% av pasientene bosatt i opptaksområdene Vestre Viken, Østfold og OUS. \r\n"
+        },
+        {
+          "type": "tekst",
+          "tekst": "I Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år."
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-02T14:03:43.106Z",
+          "oppdatert": "2022-03-02T14:03:43.149Z",
+          "overskrift": "Pasienter med Multippel sklerose",
+          "ingress": "---",
+          "karusell": {
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "utvalg": "---",
+          "resultat": "I perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\n\r\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\n\r\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal. \r"
+        },
+        {
+          "type": "tekst",
+          "tekst": "![MS](img/ms.png \"MS\")\n\nDe fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen. Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
+        },
+        {
+          "type": "tekst",
+          "tekst": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt. God sykdomsmodulerende behandling kan forebygge behov for akuttinnleggelser "
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-02T14:21:04.920Z",
+          "oppdatert": "2022-03-02T14:21:04.959Z",
+          "overskrift": "Akuttinnleggelser",
+          "ingress": "---",
+          "karusell": {
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "utvalg": "---",
+          "resultat": "I perioden 2017-2019 var det i gjennomsnitt om lag 2500 akuttinnleggelser pr. år med diagnosen MS, hvilket gir en rate på 0,6 pr. 1000 innbyggere. I noen områder var årsvariasjonen stor. For områder med få innleggelser pr. år kan dette skyldes innslag av tilfeldig variasjon. "
+        },
+        {
+          "type": "tekst",
+          "tekst": "Det anbefales å gi høyeffektiv sykdomsbegrensende behandling til de fleste MS-pasienter, da slik behandling bremser invaliditetsutviklingen og gir mindre risiko for progressiv sykdom (kilde). Behandlingen kan gi alvorlige bivirkninger, og en del av de høyaktive medikamentene er svært kostbare. Prisen er årsak til at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som kan brukes. "
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-02T14:23:59.956Z",
+          "oppdatert": "2022-03-02T14:23:59.998Z",
+          "overskrift": "Høyaktive legemidler",
+          "ingress": "---",
+          "utvalg": "Høyaktiv behandling er definert i tråd med MS-registeret (årsrapport 2020, s. 24), med unntak av at HSCT-stamcelle ikke inngår i analysen, da vi ikke har tilgang til data om dette.",
+          "karusell": {
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen."
+        },
+        {
+          "type": "tekst",
+          "tekst": "MS fører til ulike former for og grader av funksjonssvikt. Pasienter med MS har derfor ofte bruk for rehabilitering. Rehabilitering foregår både i kommunehelsetjenesten og i spesialisthelsetjenesten.\n \r\nFordi datakvaliteten på dette området er varierende, og fordi rehabilitering for MS pasienter er lite belyst, viser vi her et overordnet bilde av dette området. \r\n"
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-02T14:25:19.896Z",
+          "oppdatert": "2022-03-02T14:25:19.967Z",
+          "overskrift": "Rehabilitering",
+          "resultat": "I overkant av 40% av MS pasienter fikk en form for rehabilitering i perioden 2018-2020. Andelen pasienter i rehabilitering varierte fra 32% i opptaksområdet Lovisenberg til om lag 48% av pasientene i opptaksområdet UNN. ",
+          "utvalg": "---",
+          "karusell": {
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "ingress": "---"
         }
       ]
     }
