@@ -4,10 +4,9 @@ mainTitle: Helseatlas for fødselshjelp
 shortTitle: Fødselshjelp, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
 ia: true
-lang: no
 toc: true
+lang: no
 ---
-
 <div className="ingress">
 Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
 </div>
@@ -52,7 +51,7 @@ Rundt tre av ti kvinner som fødte barn i Norge i 2015–2017, var ikke selv fø
 
 ## Svangerskapsomsorg
 
-2015–2017Svangerskapsomsorgen har som formål å forebygge alvorlige komplikasjoner og sykdom hos mor og barn. Ansvaret ligger hovedsakelig hos primærhelsetjenesten, og den gravide velger om kontrollene skal gjøres av jordmor eller lege. Spesialisthelsetjenesten ivaretar ultralydundersøkelser, oppfølging av kompliserte svangerskap og kontroller etter uke 40.
+Svangerskapsomsorgen har som formål å forebygge alvorlige komplikasjoner og sykdom hos mor og barn. Ansvaret ligger hovedsakelig hos primærhelsetjenesten, og den gravide velger om kontrollene skal gjøres av jordmor eller lege. Spesialisthelsetjenesten ivaretar ultralydundersøkelser, oppfølging av kompliserte svangerskap og kontroller etter uke 40.
 
 ### Bakgrunn
 
