@@ -1,7 +1,5 @@
 /// <reference types="cypress"/>
 
-import { multiply } from "cypress/types/lodash";
-
 context("Home Page", () => {
   beforeEach(() => {
     cy.visit("/");
