@@ -6,12 +6,14 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ReactMarkdown from "react-markdown";
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
+import { Barchart } from "../../charts/barcharts";
+import { Abacus } from "../../charts/abacus";
 
 interface AtlasData {
   innbyggere: number;
   bohf: string;
-  antall1: number;
-  antall2: number;
+  antallInjeksjonerMedUL: number;
+  antallInjeksjonerUtenUL: number;
   andelRate1: number;
   andelRate2: number;
   rate1: number;
@@ -24,7 +26,7 @@ type ResultBoxProps = {
   intro: string;
   selection: string;
   result: string;
-  atlasData?: AtlasData[];
+  atlasData: AtlasData[];
   id: string;
   lang?: string;
 };
@@ -35,11 +37,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
+  atlasData,
   lang = "no",
 }) => {
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
-  const childrenRef = React.useRef<HTMLElement[]>([]);
   return (
     <div
       style={{
@@ -65,12 +67,39 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           >
             <h3> {title} </h3>
             <ReactMarkdown>{intro}</ReactMarkdown>
+            <Abacus
+              data={atlasData.filter((data) => data.year === "snitt")}
+              x="rate1"
+              colorBy="bohf"
+              width={800}
+              height={80}
+              label="Antall per 10 000"
+              xMin={0}
+              xMax={3.0}
+            />
           </div>
         </AccordionSummary>
         <AccordionDetails>
           <Carousel active={0}>
             <CarouselItem label="Stolpediagram">
-              <img src="/helseatlas/img/ms.png"></img>
+              <Barchart
+                data={atlasData.filter((data) => data.year === "snitt")}
+                x={["andelRate1", "rate2"]}
+                y="bohf"
+                margin={{
+                  top: 20,
+                  bottom: 50,
+                  right: 20,
+                  left: 20,
+                }}
+                width={400}
+                height={500}
+                xLabel="X"
+                yLabel="y"
+                xMin={0}
+                xMax={4}
+                backgroundColor="#262626"
+              />
             </CarouselItem>
             <CarouselItem label="Kart">
               {" "}

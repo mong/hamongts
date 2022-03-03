@@ -21,15 +21,30 @@ type Resultatboks = {
   karusell: string[];
   utvalg: string;
   resultat: string;
+  data: AtlasData[];
 };
 
 type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
+  atlasData: AtlasData[];
+};
+
+type AtlasData = {
+  innbyggere: number;
+  bohf: string;
+  antallInjeksjonerMedUL: number;
+  antallInjeksjonerUtenUL: number;
+  andelRate1: number;
+  andelRate2: number;
+  rate1: number;
+  rate2: number;
+  year: number | string;
 };
 
 type ChaptersProps = {
   innhold: ChapterProps[];
+  atlasData: AtlasData[];
 };
 
 const json2atlas = {
@@ -38,17 +53,17 @@ const json2atlas = {
   resultatboks: ResultBox,
 };
 
-export const Chapters = ({ innhold }: ChaptersProps) => {
+export const Chapters = ({ innhold, atlasData }: ChaptersProps) => {
   return (
     <>
       {innhold.map((chapter) => (
-        <Chapter key={chapter.overskrift} {...chapter} />
+        <Chapter atlasData={atlasData} key={chapter.overskrift} {...chapter} />
       ))}
     </>
   );
 };
 
-const Chapter = ({ innhold, overskrift }: ChapterProps) => {
+const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
   return (
     <>
       <h2>{overskrift}</h2>
@@ -68,6 +83,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   intro: box.ingress,
                   selection: box.utvalg,
                   id: box.overskrift,
+                  atlasData: atlasData,
                 }
               : { children: box.tekst };
 
