@@ -87,10 +87,9 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
                     right: 60,
                     left: 130,
                   }}
-                  width={650}
-                  height={100}
+                  height={500}
                   xLabel="Injeksjoner artitt per 1 000 innbyggere"
-                  yLabel="Opptaksimråde"
+                  yLabel="Opptaksområder"
                   xMin={0}
                   xMax={4}
                   backgroundColor="white"
@@ -105,12 +104,12 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
                     top: 30,
                     bottom: 50,
                     right: 60,
-                    left: 130,
+                    left: 30,
                   }}
                   width={650}
                   height={500}
                   xLabel="Injeksjoner artitt per 1 000 innbyggere"
-                  yLabel="Opptaksimråde"
+                  yLabel="Opptaksområder"
                   xMin={0}
                   xMax={4}
                   backgroundColor="white"
