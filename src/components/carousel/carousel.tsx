@@ -20,36 +20,13 @@ type CarouselProps = {
 export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
   const [activeComp, setActiveComp] = useState<number>(active ?? 0);
   const prevComp = usePrevious(activeComp);
-
   const wrapperRef = React.useRef<HTMLDivElement>();
   const wrapperWidth = useResizeObserver(wrapperRef)?.contentRect.width ?? 0;
-  const wrapperHeight = useResizeObserver(wrapperRef)?.contentRect.height ?? 0;
-  const height = wrapperHeight - 100;
+  const height = 550;
   const width =
-    wrapperWidth < 350 ? 350 : wrapperWidth > 700 ? 700 : wrapperWidth;
-
-  const transitionList = React.Children.map(
-    children,
-    (child: React.ReactElement<CarouselItemProps>, i: number) => {
-      if (activeComp === i) {
-        return child;
-      }
-      return null;
-    }
-  );
-
-  const transition = useTransition(transitionList, {
-    from: { opacity: 0, x: prevComp < activeComp ? width : -width },
-    enter: { opacity: 1, x: 0 },
-    leave: { opacity: 0, x: prevComp < activeComp ? -width : width },
-    keys: transitionList.map((item, index) => `${item.props.label}_${index}`),
-  });
+    wrapperWidth < 350 ? 350 : wrapperWidth > 700 ? 700 : wrapperWidth * 0.95;
 
   const numberOfChildren: number = React.Children.count(children);
-
-  if (numberOfChildren === 0) {
-    return;
-  }
 
   const options = React.Children.map(
     children,
@@ -59,13 +36,24 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
     })
   );
 
+  const transition = useTransition(activeComp, {
+    from: { opacity: 0, x: prevComp < activeComp ? width : -width },
+    enter: { opacity: 1, x: 0 },
+    leave: { opacity: 0, x: prevComp < activeComp ? -width : width },
+    keys: `${activeComp}`,
+  });
+
+  if (numberOfChildren === 0) {
+    return;
+  }
+
   return (
     <div
+      className="WWW"
       style={{
         display: "flex",
         flexDirection: "column",
         width: "100%",
-        height: "600px",
         justifyContent: "space-around",
         alignItems: "center",
         overflow: "hidden",
@@ -76,7 +64,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
         <CarouselSelect
           value={activeComp}
           id={"id"}
-          label="Select"
+          label="Velg figur"
           options={options}
           onChange={(e: SelectChangeEvent<number>) =>
             setActiveComp(
@@ -92,7 +80,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
             onClick={() => setActiveComp((comp) => (comp < 1 ? comp : --comp))}
           >
             <span>
-              <GrPrevious size="28" color="black" />
+              <GrPrevious size="28" />
             </span>
           </button>
         </div>
@@ -107,7 +95,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
           {transition((styles, item) => {
             return (
               <animated.div style={{ position: "absolute", ...styles }}>
-                {item}
+                {children[item]}
               </animated.div>
             );
           })}
@@ -122,7 +110,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
             }
           >
             <span>
-              <GrNext size="28" color="black" />
+              <GrNext size="28" />
             </span>
           </button>
         </div>

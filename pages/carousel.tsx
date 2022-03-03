@@ -42,7 +42,7 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
     <Layout lang="no">
       <div
         style={{
-          width: "900px",
+          width: "90%",
           backgroundColor: "#f5f5f3",
           borderRadius: "10px",
           padding: "15px",
@@ -75,7 +75,7 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
             </div>
           </AccordionSummary>
           <AccordionDetails>
-            <Carousel active={0}>
+            <Carousel active={1}>
               <CarouselItem label="Stolpediagram1">
                 <Barchart
                   data={atlasData.filter((data) => data.year === "snitt")}
@@ -88,7 +88,7 @@ const CarouselPage = ({ atlasData }: CarouselPageProps): React.ReactElement => {
                     left: 130,
                   }}
                   width={650}
-                  height={500}
+                  height={100}
                   xLabel="Injeksjoner artitt per 1 000 innbyggere"
                   yLabel="Opptaksimråde"
                   xMin={0}
