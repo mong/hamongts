@@ -60,7 +60,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               width: "98%",
               borderRadius: "10px",
               padding: "30px 20px 30px 20px",
-              textAlign: "justify",
+              textAlign: "left",
             }}
           >
             <h3> {title} </h3>
@@ -115,7 +115,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               backgroundColor: "white",
               borderRadius: "10px",
               padding: "30px 20px 30px 20px",
-              textAlign: "justify",
+              textAlign: "left",
             }}
           >
             {" "}
