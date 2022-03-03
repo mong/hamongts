@@ -70,7 +70,7 @@ collections:
                 summary: "{{fields.overskrift}}"
                 fields:
                   - { label: Overskrift, name: overskrift, widget: string }
-                  - { label: Ingress, name: ingress, widget: string }
+                  - { label: Ingress, name: ingress, widget: markdown }
                   - { label: "Publiseringsdato", name: publisert, widget: date }
                   - { label: "Sist oppdatert", name: oppdatert, widget: date }
                   - label: Karusell
@@ -90,7 +90,7 @@ collections:
                         widget: "file"
                         media_library:
                           multiple: false
-                          media_folder: "data"
+                          media_folder: "/data"
                           choose_url: false
                   - {
                       label: Utvalgsbeskrivelse,
