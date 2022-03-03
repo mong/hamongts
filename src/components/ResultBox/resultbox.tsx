@@ -69,20 +69,15 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         </AccordionSummary>
         <AccordionDetails>
           <Carousel active={0}>
-            <CarouselItem label="Stolpediagram">Stolpediagram her</CarouselItem>
-            <CarouselItem label="Kart">Kart her</CarouselItem>
-            <CarouselItem label="Tabell" ref={childrenRef}>
-              <div
-                style={{
-                  backgroundColor: "lightgrey",
-                  width: "700px",
-                  height: "600px",
-                  marginTop: "10px",
-                  marginBottom: "20px",
-                }}
-              >
-                Tabell her
-              </div>
+            <CarouselItem label="Stolpediagram">
+              <img src="/helseatlas/img/ms.png"></img>
+            </CarouselItem>
+            <CarouselItem label="Kart">
+              {" "}
+              <img src="/helseatlas/img/map.png"></img>
+            </CarouselItem>
+            <CarouselItem label="Tabell">
+              <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
           <Accordion
