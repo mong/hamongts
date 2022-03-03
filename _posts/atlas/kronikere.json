@@ -24,7 +24,7 @@
             ],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
-          "ingress": "![Testeer bilde](img/ms.png \"fdsfds\")"
+          "ingress": "![Testeer bilde](/helseatlas/img/ms.png \"fdsfds\")"
         },
         {
           "type": "resultatboks",
