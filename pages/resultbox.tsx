@@ -1,6 +1,25 @@
+import path from "path";
+import csv from "csvtojson";
+import { GetStaticProps } from "next";
 import { ResultBox } from "../src/components/ResultBox";
 
-const ResultBoxPage = () => {
+export interface AtlasData {
+  innbyggere: number;
+  bohf: string;
+  antallInjeksjonerMedUL: number;
+  antallInjeksjonerUtenUL: number;
+  andelRate1: number;
+  andelRate2: number;
+  rate1: number;
+  rate2: number;
+  year: number | string;
+}
+
+interface AbacusPageProps {
+  atlasData: AtlasData[];
+}
+
+const ResultBoxPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
   return (
     <ResultBox
       title="Lorem ipsum dolor sit amet"
@@ -17,8 +36,26 @@ const ResultBoxPage = () => {
         deserunt mollit anim id est laborum"
       selection="test"
       id="test"
+      atlasData={atlasData}
     />
   );
+};
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const atlasDataDir = path.join(
+    process.cwd(),
+    "data/injeksjoner_artritt_med_uten_UL.csv"
+  );
+
+  const atlasData = await csv({
+    delimiter: ";",
+  }).fromFile(atlasDataDir);
+
+  return {
+    props: {
+      atlasData,
+    },
+  };
 };
 
 export default ResultBoxPage;
