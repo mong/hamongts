@@ -1,7 +1,6 @@
 import { AxisBottom } from "@visx/axis";
 import { scaleLinear, scaleOrdinal } from "@visx/scale";
 import { Group } from "@visx/group";
-import { schemeSet1 } from "d3-scale-chromatic";
 
 type AbacusData<Data, X extends string, ColorBy extends string | undefined> = {
   [k in X & keyof Data]: number | Date;
@@ -60,12 +59,13 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
 
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
-
+  const colors = ["#6CACE4", "#003087"];
   const colorScale = scaleOrdinal({
     domain: data.map((d) => d[colorBy]),
-    range: [...schemeSet1],
+    range: [...colors],
   });
 
+  data.push(data.filter((d) => d["bohf"] === "Norge")[0]);
   const xScale = scaleLinear<number>({
     domain: [xMin, xMax],
     range: [0, innerWidth],
