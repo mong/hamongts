@@ -14,11 +14,18 @@ type Faktaboks = {
   tekst: string;
 };
 
+type karusell = {
+  presentasjonstype: string[];
+  data: string;
+  xlabel: string;
+  ylabel: string;
+};
+
 type Resultatboks = {
   type: "resultatboks";
   overskrift: string;
   ingress: string;
-  karusell: string[];
+  karusell: karusell;
   utvalg: string;
   resultat: string;
   data: AtlasData[];
@@ -84,6 +91,8 @@ const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
                   selection: box.utvalg,
                   id: box.overskrift,
                   atlasData: atlasData,
+                  xlabel: box.karusell.xlabel,
+                  ylabel: box.karusell.ylabel,
                 }
               : { children: box.tekst };
 

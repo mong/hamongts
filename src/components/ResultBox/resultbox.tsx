@@ -29,6 +29,8 @@ type ResultBoxProps = {
   atlasData: AtlasData[];
   id: string;
   lang?: string;
+  xlabel: string;
+  ylabel: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -38,6 +40,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   result,
   id,
   atlasData,
+  xlabel,
+  ylabel,
   lang = "no",
 }) => {
   const [expanded, setExpanded] = React.useState<boolean>(false);
@@ -73,7 +77,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               colorBy="bohf"
               width={800}
               height={80}
-              label="Antall per 10 000"
+              label={xlabel}
               xMin={0}
               xMax={3.0}
             />
@@ -93,8 +97,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   left: 130,
                 }}
                 height={500}
-                xLabel="Injeksjoner artitt per 1 000 innbyggere"
-                yLabel="Opptaksområder"
+                xLabel={xlabel}
+                yLabel={ylabel}
                 xMin={0}
                 xMax={4}
                 backgroundColor="white"
@@ -126,7 +130,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               aria-controls={`${id}-content-selection`}
               id={`${id}-content-selection`}
             >
-              Utvalg
+              {lang === "no" ? "Utvalg" : "Selection"}
             </AccordionSummary>
             <AccordionDetails>
               <ReactMarkdown>{selection}</ReactMarkdown>
