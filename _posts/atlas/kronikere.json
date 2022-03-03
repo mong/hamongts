@@ -24,9 +24,7 @@
           "overskrift": "Pasienter med Multippel sklerose",
           "ingress": "I Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "---",
@@ -43,9 +41,7 @@
           "overskrift": "Akuttinnleggelser",
           "ingress": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt. God sykdomsmodulerende behandling kan forebygge behov for akuttinnleggelser ",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "---",
@@ -63,9 +59,7 @@
           "ingress": "---",
           "utvalg": "Høyaktiv behandling er definert i tråd med MS-registeret (årsrapport 2020, s. 24), med unntak av at HSCT-stamcelle ikke inngår i analysen, da vi ikke har tilgang til data om dette.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen."
@@ -82,9 +76,7 @@
           "resultat": "I overkant av 40% av MS pasienter fikk en form for rehabilitering i perioden 2018-2020. Andelen pasienter i rehabilitering varierte fra 32% i opptaksområdet Lovisenberg til om lag 48% av pasientene i opptaksområdet UNN. ",
           "utvalg": "---",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "ingress": "---"
@@ -102,11 +94,7 @@
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.\n\n![]()",
           "resultat": "De aller fleste pasientene hadde kontakter i både primær- og spesialisthelsetjenesten i perioden. \r\nAntall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet.\r\n",
           "karusell": {
-            "presentasjonstype": [
-              "barchart",
-              "table",
-              "map"
-            ],
+            "presentasjonstype": ["barchart", "table", "map"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "ingress": "Dette er en ingress."
@@ -119,9 +107,7 @@
           "utvalg": "Akuttinnleggelser med hoveddiagnose G40 (ekskl G40.5), eller G41 (status epileptikus).",
           "ingress": "Akuttinnleggelser ved epileptiske anfall forekommer normalt i begynnelsen av et sykdomsforløp, når pasienten er under utredning og ennå ikke har fått tilpasset medisinering med antiepileptika. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "resultat": "- Betydelig og uniform nedgang i pandemiåret 2020, gjennomsnittlig nedgang på 36% sammenlignet med 2019.\r\n- Omfanget av akuttinnleggelser mer enn halvert for bosatte i Lovisenberg, Telemark og Sørlandet i 2020\r\n- Betydelig variasjon i akuttinnleggelser også før pandemien, med dobbelt så høye rater i boområdet Førde, sammenlignet med bosatte i Diakonhjemmets opptaksområde.\r\n"
@@ -134,9 +120,7 @@
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "ingress": "Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "resultat": "Det var lite variasjon i bruk av polikliniske kontakter. Variasjonen i bruk av polikliniske kontakter skyldes i stor grad at antall kontakter per pasient varierte noe mellom opptaksområdene. For barn (0-17 år) var det større variasjon i bruk av polikliniske kontakter enn for voksne og variasjonen var størst for pasienter i alderen 65 år og eldre. Opptaksområdet Fonna hadde høyest rate for bruk av poliklinikk i aldersgruppen 65 år og eldre, men lavest rate i aldersgruppen 0-17 år."
@@ -157,9 +141,7 @@
           "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
           "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "overskrift": "Injeksjonsbehandlinger ved artritt",
@@ -177,9 +159,7 @@
           "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
           "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
           "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "Utvalg"

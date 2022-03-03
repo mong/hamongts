@@ -12,43 +12,43 @@ type BarchartData<
   X extends (string & keyof Data)[],
   Y extends keyof Data,
   ColorBy extends keyof Data
-  > = {
-    [k in keyof Data & keyof X]: number;
-  } & {
-    [k in Y]: string;
-  } & {
-    [k in ColorBy]?: number | string;
-  } & {
-    [k in keyof Data]?: number | string;
-  };
+> = {
+  [k in keyof Data & keyof X]: number;
+} & {
+  [k in Y]: string;
+} & {
+  [k in ColorBy]?: number | string;
+} & {
+  [k in keyof Data]?: number | string;
+};
 
 type BarchartProps<
   Data,
   X extends (string & keyof Data)[],
   Y extends string & keyof Data,
   ColorBy extends keyof Data
-  > = {
-    data: BarchartData<Data, X, Y, ColorBy>[];
-    x: X;
-    y: Y;
-    width?: number;
-    height?: number;
-    margin?: { top: number; bottom: number; right: number; left: number };
-    xLabel?: string;
-    yLabel?: string;
-    xMin?: number;
-    xMax: number;
-    backgroundColor?: string;
-    xAxisLineStroke?: string;
-    xAxisTickStroke?: string;
-    xAxisLineStrokeWidth?: number;
-    yAxisLineStroke?: string;
-    yAxisTickStroke?: string;
-    yAxisLineStrokeWidth?: number;
-    tickLength?: number;
-    yInnerPadding?: number;
-    yOuterPadding?: number;
-  };
+> = {
+  data: BarchartData<Data, X, Y, ColorBy>[];
+  x: X;
+  y: Y;
+  width?: number;
+  height?: number;
+  margin?: { top: number; bottom: number; right: number; left: number };
+  xLabel?: string;
+  yLabel?: string;
+  xMin?: number;
+  xMax: number;
+  backgroundColor?: string;
+  xAxisLineStroke?: string;
+  xAxisTickStroke?: string;
+  xAxisLineStrokeWidth?: number;
+  yAxisLineStroke?: string;
+  yAxisTickStroke?: string;
+  yAxisLineStrokeWidth?: number;
+  tickLength?: number;
+  yInnerPadding?: number;
+  yOuterPadding?: number;
+};
 
 export const Barchart = <
   Data,
