@@ -84,21 +84,20 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             <CarouselItem label="Stolpediagram">
               <Barchart
                 data={atlasData.filter((data) => data.year === "snitt")}
-                x={["andelRate1", "rate2"]}
+                x={["rate1", "rate2"]}
                 y="bohf"
                 margin={{
-                  top: 20,
+                  top: 30,
                   bottom: 50,
-                  right: 20,
-                  left: 20,
+                  right: 60,
+                  left: 130,
                 }}
-                width={400}
                 height={500}
-                xLabel="X"
-                yLabel="y"
+                xLabel="Injeksjoner artitt per 1 000 innbyggere"
+                yLabel="Opptaksområder"
                 xMin={0}
                 xMax={4}
-                backgroundColor="#262626"
+                backgroundColor="white"
               />
             </CarouselItem>
             <CarouselItem label="Kart">
