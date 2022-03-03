@@ -6,13 +6,27 @@ import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
 import { Chapters } from "../src/components/Chapters";
+import csv from "csvtojson";
 
 interface AtlasPageProps {
   content: string;
   body: string;
+  atlasData: AtlasData[];
 }
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
+interface AtlasData {
+  innbyggere: number;
+  bohf: string;
+  antallInjeksjonerMedUL: number;
+  antallInjeksjonerUtenUL: number;
+  andelRate1: number;
+  andelRate2: number;
+  rate1: number;
+  rate2: number;
+  year: number | string;
+}
+
+const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   const obj = JSON.parse(content);
 
   return (
@@ -28,7 +42,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
           <div className={`${styles.atlasContent}`}>
             <h1>{obj.mainTitle}</h1>
             <div className="ingress">{obj.ingress}</div>
-            <Chapters innhold={obj.kapittel} />
+            <Chapters innhold={obj.kapittel} atlasData={atlasData} />
           </div>
         </main>
       </Layout>
@@ -44,9 +58,16 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
+  const atlasDataDir = path.join(
+    process.cwd(),
+    "data/injeksjoner_artritt_med_uten_UL.csv"
+  );
+  const atlasData = await csv({
+    delimiter: ";",
+  }).fromFile(atlasDataDir);
 
   return {
-    props: { content },
+    props: { content, atlasData },
   };
 };
 
