@@ -8,28 +8,13 @@ import Layout from "../src/components/Layout";
 import styles from "../src/styles/Home.module.css";
 import { Barchart } from "../src/charts/barcharts";
 import { toBarchart } from "../src/helpers/functions/dataTransformation";
-
-export interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
-}
+import { AtlasData } from "../src/types";
 
 interface AbacusPageProps {
   atlasData: AtlasData[];
 }
 
 const AtlasPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
-  /*atlasData.forEach(
-    (data) => (data["bohf"] = data.bohf === "Norge" ? "Norge" : "annet")
-  );*/
-
   const bar = toBarchart(atlasData, ["andelRate1", "andelRate2"]);
 
   return (

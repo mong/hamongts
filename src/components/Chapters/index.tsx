@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { TextBox } from "../TextBox";
 import { FactBox } from "../Factbox";
 import { ResultBox } from "../ResultBox";
+import { AtlasData } from "../../types";
 
 type Tekst = {
   type: "tekst";
@@ -28,18 +29,6 @@ type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
   atlasData: AtlasData[];
-};
-
-type AtlasData = {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
 };
 
 type ChaptersProps = {

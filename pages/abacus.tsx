@@ -7,18 +7,7 @@ import Layout from "../src/components/Layout";
 
 import styles from "../src/styles/Home.module.css";
 import { Abacus } from "../src/charts/abacus";
-
-export interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
-}
+import { AtlasData } from "../src/types";
 
 interface AbacusPageProps {
   atlasData: AtlasData[];

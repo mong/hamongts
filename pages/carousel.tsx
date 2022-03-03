@@ -16,20 +16,7 @@ import { Barchart } from "../src/charts/barcharts";
 import Layout from "../src/components/Layout";
 import { Carousel } from "../src/components/carousel";
 import { CarouselItem } from "../src/components/carousel/carouelitem";
-
-import styles from "../src/styles/Home.module.css";
-
-interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
-}
+import { AtlasData } from "../src/types";
 
 type CarouselPageProps = {
   children?: React.ReactNode;
