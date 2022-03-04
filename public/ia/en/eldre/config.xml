@@ -256,7 +256,7 @@
 	<Column alias="Number" name="number" width="0.15" />
 	<Column alias="Born" name="born" width="0.15" />
 </Table>
-<Button editable="true" height="15" href="http://helseatlas.no/en/communicating-statistics-using-maps" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
+<Button editable="true" height="15" href="/helseatlas/en/static/map" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Color groups" tooltip="The hospital referral areas are divided into groups (colors) using the natural breaks method (Jenks&apos; natural breaks), and four groups are used (in some cases fewer groups). The method maximize the variation between groups and minimize the variation within groups. Click to read more" width="68" x="500" y="6" />
 <Image href="/helseatlas/en" anchor="left" editable="true" width="110" id="___user_extra_56" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_56.jpg" target="_parent" x="9" y="506" />
 <Image href="/helseatlas/en/eldre" anchor="left" editable="true" height="20" id="logo_elderly" moveable="true" removeable="true" rescale="true" resizeable="true" src="./logo_elderly.png" target="_parent" x="2" y="5" />
 <!--

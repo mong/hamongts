@@ -201,30 +201,3 @@ Antall nye tilfeller av lungekreft varierer mellom helseforetakenes opptaksområ
 Resultatene i tidligere helseatlas har for de aller fleste pasientutvalg blitt tolket med utgangspunkt i at det ikke har vært vesentlige geografiske forskjeller i sykelighet. For kols er imidlertid situasjonen en annen ettersom sykeligheten forventes å variere mellom opptaksområdene. Variasjon i bruk av helsetjenester er hensiktsmessig og å anse som berettiget om den harmonerer med tilsvarende forskjeller i tilgrunnliggende sykelighet.
 
 Forekomsten av kols i ulike opptaksområder er ikke kjent, men det finnes gode data på nye tilfeller av lungekreft. Vi forventer å finne flere personer med kolsdiagnose i opptaksområder med mange nye tilfeller av lungekreft. Den observerte variasjonen mellom opptaksområder i bruk av helsetjenester ved kols forventes å variere med forskjeller i antall nye tilfeller av lungekreft.
-
-## Opptaksområder
-
-Her finner du beskrivelse av av de ulike opptaksområdene som Helseatlas kols tar utgangspunkt i. Med opptaksområde menes de geografiske områdene som helseforetakene har ansvar for å betjene. Opptaksområdene er definert ut fra pasientens bostedskommune eller bydel.
-
-- [Finnmark](http://www.helseatlas.no/atlas/boomrade/finnmark-0)
-- [UNN](http://www.helseatlas.no/atlas/boomrade/unn-1)
-- [Nordland](http://www.helseatlas.no/atlas/boomrade/nordland-1)
-- [Helgeland](http://www.helseatlas.no/atlas/boomrade/helgeland-0)
-- [Nord-Trøndelag](http://www.helseatlas.no/atlas/boomrade/nord-tr%C3%B8ndelag-0)
-- [St. Olavs](http://www.helseatlas.no/atlas/boomrade/st-olavs-0)
-- [Møre og Romsdal](http://www.helseatlas.no/atlas/boomrade/m%C3%B8re-og-romsdal-1)
-- [Haraldsplass](http://www.helseatlas.no/atlas/boomrade/haraldsplass)
-- [Førde](http://www.helseatlas.no/atlas/boomrade/f%C3%B8rde-0)
-- [Bergen](http://www.helseatlas.no/atlas/boomrade/bergen-1)
-- [Fonna](http://www.helseatlas.no/atlas/boomrade/fonna-1)
-- [Stavanger](http://www.helseatlas.no/atlas/boomrade/stavanger-1)
-- [Østfold](http://www.helseatlas.no/atlas/boomrade/%C3%B8stfold-2)
-- [Akershus](http://www.helseatlas.no/atlas/boomrade/akershus-0)
-- [OUS](http://www.helseatlas.no/atlas/boomrade/ous-0)
-- [Lovisenberg](http://helseatlas.no/atlas/boomrade/lovisenberg)
-- [Diakonhjemmet](http://helseatlas.no/atlas/boomrade/diakonhjemmet)
-- [Innlandet](http://www.helseatlas.no/atlas/boomrade/innlandet-2)
-- [Vestre Viken](http://www.helseatlas.no/atlas/boomrade/vestre-viken-2)
-- [Vestfold](http://www.helseatlas.no/atlas/boomrade/vestfold-2)
-- [Telemark](http://www.helseatlas.no/atlas/boomrade/telemark-2)
-- [Sørlandet](http://www.helseatlas.no/atlas/boomrade/s%C3%B8rlandet-2)

@@ -8,93 +8,75 @@
       "features": [
         {
           "id": "1",
-          "name": "Finnmark",
-          "href": "http://www.helseatlas.no/artikler-boomrader/finnmark-article131934-41345.html"
+          "name": "Finnmark"
         },
         {
           "id": "2",
-          "name": "UNN",
-          "href": "http://www.helseatlas.no/artikler-boomrader/unn-article131961-41345.html"
+          "name": "UNN"
         },
         {
           "id": "3",
-          "name": "Nordland",
-          "href": "http://www.helseatlas.no/artikler-boomrader/nordland-article131950-41345.html"
+          "name": "Nordland"
         },
         {
           "id": "6",
-          "name": "Nord-Trøndelag",
-          "href": "http://www.helseatlas.no/artikler-boomrader/nord-trondelag-article131947-41345.html"
+          "name": "Nord-Trøndelag"
         },
         {
           "id": "7",
-          "name": "St. Olavs",
-          "href": "http://www.helseatlas.no/artikler-boomrader/st-olavs-article131963-41345.html"
+          "name": "St. Olavs"
         },
         {
           "id": "8",
-          "name": "Møre og Romsdal",
-          "href": "http://www.helseatlas.no/artikler-boomrader/more-og-romsdal-article131942-41345.html"
+          "name": "Møre og Romsdal"
         },
         {
           "id": "10",
-          "name": "Førde",
-          "href": "http://www.helseatlas.no/artikler-boomrader/forde-article131938-41345.html"
+          "name": "Førde"
         },
         {
           "id": "11",
-          "name": "Bergen",
-          "href": "http://www.helseatlas.no/artikler-boomrader/bergen-article131933-41345.html"
+          "name": "Bergen"
         },
         {
           "id": "12",
-          "name": "Fonna",
-          "href": "http://www.helseatlas.no/artikler-boomrader/fonna-article131937-41345.html"
+          "name": "Fonna"
         },
         {
           "id": "13",
-          "name": "Stavanger",
-          "href": "http://www.helseatlas.no/artikler-boomrader/stavanger-article131965-41345.html"
+          "name": "Stavanger"
         },
         {
           "id": "14",
-          "name": "Østfold",
-          "href": "http://www.helseatlas.no/artikler-boomrader/ostfold-article131952-41345.html"
+          "name": "Østfold"
         },
         {
           "id": "15",
-          "name": "Akershus",
-          "href": "http://www.helseatlas.no/artikler-boomrader/akershus-article131929-41345.html"
+          "name": "Akershus"
         },
         {
           "id": "16",
-          "name": "OUS",
-          "href": "http://www.helseatlas.no/artikler-boomrader/oslo-universitetssykehus-article131954-41345.html"
+          "name": "OUS"
         },
         {
           "id": "19",
-          "name": "Innlandet",
-          "href": "http://www.helseatlas.no/artikler-boomrader/innlandet-article131939-41345.html"
+          "name": "Innlandet"
         },
         {
           "id": "20",
-          "name": "Vestre Viken",
-          "href": "http://www.helseatlas.no/artikler-boomrader/vestre-viken-article131956-41345.html"
+          "name": "Vestre Viken"
         },
         {
           "id": "21",
-          "name": "Vestfold",
-          "href": "http://www.helseatlas.no/artikler-boomrader/vestfold-article131957-41345.html"
+          "name": "Vestfold"
         },
         {
           "id": "22",
-          "name": "Telemark",
-          "href": "http://www.helseatlas.no/artikler-boomrader/telemark-article131959-41345.html"
+          "name": "Telemark"
         },
         {
           "id": "23",
-          "name": "Sørlandet",
-          "href": "http://www.helseatlas.no/artikler-boomrader/sorlandet-article131962-41345.html"
+          "name": "Sørlandet"
         }
       ],
       "comparisonFeatures": [
@@ -111,7 +93,7 @@
               "id": "i0",
               "name": "Primærhelsetjenesten",
               "date": "Alle kontakter",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Prim_Kons.pdf",
+              "href": "/helseatlas/files/Prim_Kons.pdf",
               "type": "numeric",
               "values": [
                 158098, 160652, 154949, 172279, 160625, 164622, 165661, 153231,
@@ -192,7 +174,7 @@
               "id": "i1",
               "name": "Spesialisthelsetjenesten",
               "date": "Poliklinikk/dag",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/totalt_poli.pdf",
+              "href": "/helseatlas/files/totalt_poli.pdf",
               "type": "numeric",
               "values": [
                 65605, 67641, 69673, 85678, 80049, 77243, 79378, 80571, 66647,
@@ -272,7 +254,7 @@
               "id": "i1",
               "name": "Spesialisthelsetjenesten",
               "date": "Innleggelser",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/totalt_innleggelser.pdf",
+              "href": "/helseatlas/files/totalt_innleggelser.pdf",
               "type": "numeric",
               "values": [
                 6449, 4697, 7292, 6853, 5359, 6533, 7034, 5804, 6380, 5155,
@@ -351,7 +333,7 @@
               "id": "i1",
               "name": "Spesialisthelsetjenesten",
               "date": "Alle kontakter",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/totalt_totalt.pdf",
+              "href": "/helseatlas/files/totalt_totalt.pdf",
               "type": "numeric",
               "values": [
                 72062, 72337, 76965, 92527, 85418, 83777, 86411, 86385, 73029,
@@ -437,7 +419,7 @@
               "id": "i2",
               "name": "Kontakttype",
               "date": "Utvalgte akutte diagnoser",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_akutt.pdf",
+              "href": "/helseatlas/files/pediatri_akutt.pdf",
               "type": "numeric",
               "values": [
                 1970, 2648, 3415, 3983, 4249, 2594, 3142, 8056, 2365, 2438,
@@ -516,7 +498,7 @@
               "id": "i2",
               "name": "Kontakttype",
               "date": "Poliklinikk/dag",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_poli.pdf",
+              "href": "/helseatlas/files/pediatri_poli.pdf",
               "type": "numeric",
               "values": [
                 44364, 44131, 47308, 55739, 57488, 49871, 52142, 54014, 43432,
@@ -596,7 +578,7 @@
               "id": "i2",
               "name": "Kontakttype",
               "date": "Innleggelser",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_innleggelser.pdf",
+              "href": "/helseatlas/files/pediatri_innleggelser.pdf",
               "type": "numeric",
               "values": [
                 4441, 3209, 5296, 4916, 3524, 4407, 4902, 4026, 4519, 3586,
@@ -675,7 +657,7 @@
               "id": "i2",
               "name": "Kontakttype",
               "date": "Alle kontakter",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_totalt.pdf",
+              "href": "/helseatlas/files/pediatri_totalt.pdf",
               "type": "numeric",
               "values": [
                 48807, 47332, 52598, 60638, 61026, 54270, 57031, 58052, 47944,
@@ -755,7 +737,7 @@
               "id": "i3",
               "name": "Medisinske innleggelser",
               "date": "Omgangsyke",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_gastro.pdf",
+              "href": "/helseatlas/files/pediatri_gastro.pdf",
               "type": "numeric",
               "values": [
                 482, 366, 536, 508, 446, 502, 558, 543, 558, 398, 509, 400, 368,
@@ -834,7 +816,7 @@
               "id": "i3",
               "name": "Medisinske innleggelser",
               "date": "Virus- og luftveisinfeksjoner",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_luftvei.pdf",
+              "href": "/helseatlas/files/pediatri_luftvei.pdf",
               "type": "numeric",
               "values": [
                 371, 434, 533, 603, 418, 467, 606, 689, 438, 385, 413, 245, 281,
@@ -913,7 +895,7 @@
               "id": "i3",
               "name": "Medisinske innleggelser",
               "date": "Bronkiolitt, barn 0-3 år",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_bronkiolitt.pdf",
+              "href": "/helseatlas/files/pediatri_bronkiolitt.pdf",
               "type": "numeric",
               "values": [
                 656, 715, 952, 763, 1440, 980, 847, 1656, 976, 804, 1651, 934,
@@ -991,7 +973,7 @@
               "id": "i3",
               "name": "Medisinske innleggelser",
               "date": "Forstoppelse (obstipasjon)",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_obstipasjon.pdf",
+              "href": "/helseatlas/files/pediatri_obstipasjon.pdf",
               "type": "numeric",
               "values": [
                 150, 69, 216, 187, 133, 163, 233, 133, 117, 134, 98, 112, 79,
@@ -1070,7 +1052,7 @@
               "id": "i3",
               "name": "Medisinske innleggelser",
               "date": "Epilepsi",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_epilepsi.pdf",
+              "href": "/helseatlas/files/pediatri_epilepsi.pdf",
               "type": "numeric",
               "values": [
                 282, 213, 348, 221, 151, 262, 272, 212, 330, 209, 207, 218, 175,
@@ -1149,7 +1131,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Sengevæting og urinlekkasje (enurese)",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_urologi.pdf",
+              "href": "/helseatlas/files/pediatri_urologi.pdf",
               "type": "numeric",
               "values": [
                 455, 356, 588, 1199, 907, 623, 585, 968, 469, 249, 792, 545,
@@ -1228,7 +1210,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Mage- og tarmsykdommer",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_gastroenterologi.pdf",
+              "href": "/helseatlas/files/pediatri_gastroenterologi.pdf",
               "type": "numeric",
               "values": [
                 1908, 2479, 3188, 4086, 3984, 3378, 3362, 4218, 2279, 2185,
@@ -1307,7 +1289,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Hjertemedisin",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_kardiologi.pdf",
+              "href": "/helseatlas/files/pediatri_kardiologi.pdf",
               "type": "numeric",
               "values": [
                 1338, 1138, 1536, 1181, 1768, 2028, 2271, 1637, 1399, 1756,
@@ -1386,7 +1368,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Astma",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_astma.pdf",
+              "href": "/helseatlas/files/pediatri_astma.pdf",
               "type": "numeric",
               "values": [
                 3106, 2400, 3483, 3593, 3586, 2830, 3742, 3611, 2449, 1922,
@@ -1465,7 +1447,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Forstoppelse (obstipasjon)",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_obstipasjon_poli.pdf",
+              "href": "/helseatlas/files/pediatri_obstipasjon_poli.pdf",
               "type": "numeric",
               "values": [
                 724, 626, 985, 2488, 2230, 984, 1323, 1410, 625, 788, 1421, 878,
@@ -1544,7 +1526,7 @@
               "id": "i4",
               "name": "Medisinsk poliklinikk",
               "date": "Epilepsi",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/pediatri_epilepsi_poli.pdf",
+              "href": "/helseatlas/files/pediatri_epilepsi_poli.pdf",
               "type": "numeric",
               "values": [
                 664, 965, 896, 975, 1157, 883, 587, 871, 755, 787, 766, 874,
@@ -1629,7 +1611,7 @@
               "id": "i5",
               "name": "Kontakttype",
               "date": "Poliklinikk/dag",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_poliklinikk.pdf",
+              "href": "/helseatlas/files/kirurgi_poliklinikk.pdf",
               "type": "numeric",
               "values": [
                 21241, 23510, 22366, 29939, 22561, 27373, 27236, 26557, 23215,
@@ -1708,7 +1690,7 @@
               "id": "i5",
               "name": "Kontakttype",
               "date": "Innleggelser",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_innleggelser.pdf",
+              "href": "/helseatlas/files/kirurgi_innleggelser.pdf",
               "type": "numeric",
               "values": [
                 2015, 1496, 2002, 1950, 1833, 2135, 2144, 1776, 1870, 1567,
@@ -1787,7 +1769,7 @@
               "id": "i5",
               "name": "Kontakttype",
               "date": "Alle kontakter",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_totalt.pdf",
+              "href": "/helseatlas/files/kirurgi_totalt.pdf",
               "type": "numeric",
               "values": [
                 23255, 25005, 24367, 31889, 24392, 29507, 29380, 28333, 25085,
@@ -1866,7 +1848,7 @@
               "id": "i6",
               "name": "Utvalgte prosedyrer",
               "date": "Fjerning av blindtarmen",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_blindtarm.pdf",
+              "href": "/helseatlas/files/kirurgi_blindtarm.pdf",
               "type": "numeric",
               "values": [
                 71, 98, 103, 79, 114, 93, 124, 101, 105, 92, 116, 97, 98, 98,
@@ -1945,7 +1927,7 @@
               "id": "i6",
               "name": "Utvalgte prosedyrer",
               "date": "Innsetting av øredren",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_oredren.pdf",
+              "href": "/helseatlas/files/kirurgi_oredren.pdf",
               "type": "numeric",
               "values": [
                 716, 644, 706, 1259, 615, 809, 667, 381, 479, 936, 530, 466,
@@ -2024,7 +2006,7 @@
               "id": "i6",
               "name": "Utvalgte prosedyrer",
               "date": "Fjerning av mandler",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/kirurgi_mandler.pdf",
+              "href": "/helseatlas/files/kirurgi_mandler.pdf",
               "type": "numeric",
               "values": [
                 1366, 897, 1227, 833, 670, 1094, 1113, 795, 892, 728, 826, 896,
