@@ -9,6 +9,7 @@ import { CarouselItem } from "../carousel/carouelitem";
 import { Barchart } from "../../charts/barcharts";
 import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
+import styles from "./resultbox.module.css";
 
 type ResultBoxProps = {
   title: string;
@@ -36,28 +37,14 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
   return (
-    <div
-      style={{
-        width: "900px",
-        borderRadius: "10px",
-        padding: "15px",
-        margin: "10px",
-      }}
-    >
+    <div className={styles.resultBoxWrapper}>
       <Accordion sx={{ boxShadow: 6 }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
         >
-          <div
-            style={{
-              width: "98%",
-              borderRadius: "10px",
-              padding: "30px 20px 30px 20px",
-              textAlign: "left",
-            }}
-          >
+          <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
             <ReactMarkdown>{intro}</ReactMarkdown>
             <Abacus
@@ -113,15 +100,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               <ReactMarkdown>{selection}</ReactMarkdown>
             </AccordionDetails>
           </Accordion>
-          <div
-            style={{
-              width: "98%",
-              backgroundColor: "white",
-              borderRadius: "10px",
-              padding: "30px 20px 30px 20px",
-              textAlign: "left",
-            }}
-          >
+          <div className={styles.resultBoxSelectionContent}>
             {" "}
             <ReactMarkdown>{result}</ReactMarkdown>
           </div>
