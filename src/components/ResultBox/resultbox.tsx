@@ -34,11 +34,20 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   ylabel,
   lang = "no",
 }) => {
-  const [expanded, setExpanded] = React.useState<boolean>(false);
-  const handleChange = () => setExpanded((state) => !state);
+  const [expandedResultBox, setExpandedResultBox] =
+    React.useState<boolean>(false);
+  const [expandedSelection, setExpandedSelection] =
+    React.useState<boolean>(false);
+
+  const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
+    cb((state) => !state);
   return (
     <div className={styles.resultBoxWrapper}>
-      <Accordion sx={{ boxShadow: 6 }}>
+      <Accordion
+        sx={{ boxShadow: 6 }}
+        expanded={expandedResultBox}
+        onChange={() => handleChange(setExpandedResultBox)}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
@@ -88,7 +97,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
-          <Accordion sx={{ boxShadow: 0 }}>
+          <Accordion
+            sx={{ boxShadow: 0 }}
+            expanded={expandedSelection}
+            onChange={() => handleChange(setExpandedSelection)}
+          >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls={`${id}-content-selection`}
