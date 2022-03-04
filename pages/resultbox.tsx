@@ -37,6 +37,8 @@ const ResultBoxPage: React.FC<AbacusPageProps> = ({ atlasData }) => {
       selection="test"
       id="test"
       atlasData={atlasData}
+      xlabel="Antall ditt per 10 000 datt"
+      ylabel="Der vi bor"
     />
   );
 };

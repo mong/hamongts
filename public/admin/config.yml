@@ -91,6 +91,16 @@ collections:
                           multiple: false
                           media_folder: "/data"
                           choose_url: false
+                      - label: "x-akse-tekst"
+                        hint: "Tekst på x-aksen i stolpediagram/under abacus-plott"
+                        name: "xlabel"
+                        widget: string
+                        default: "Antall per 1 000 innbyggere"
+                      - label: "y-akse-tekst"
+                        hint: "Tekst over y-aksen i stolpediagram/under abacus-plott"
+                        name: "ylabel"
+                        widget: string
+                        default: "Opptaksområder"
                   - {
                       label: Utvalgsbeskrivelse,
                       name: utvalg,
