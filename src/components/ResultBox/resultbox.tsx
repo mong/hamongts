@@ -44,7 +44,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   return (
     <div className={styles.resultBoxWrapper}>
       <Accordion
-        sx={{ boxShadow: 6 }}
+        sx={{
+          boxShadow: 6,
+          ":hover": {
+            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
+            transition: "200ms ease-in",
+          },
+        }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
       >
@@ -65,6 +71,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               label={xlabel}
               xMin={0}
               xMax={3.0}
+              backgroundColor="inherit"
             />
           </div>
         </AccordionSummary>
