@@ -34,7 +34,7 @@
         },
         {
           "type": "tekst",
-          "tekst": "![MS](/helseatlas/img/ms.png \"MS\")\n\nDe fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen. Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
+          "tekst": "De fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n ![MS](/helseatlas/img/ms.png \"MS\")\n\n Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
         },
         {
           "type": "resultatboks",
@@ -181,6 +181,33 @@
             "ylabel": "Opptaksområder"
           },
           "utvalg": "Utvalg"
+        }
+      ]
+    },
+    {
+      "overskrift": "Parkinsons sykdom",
+      "innhold": [
+        {
+          "type": "faktaboks",
+          "overskrift": "Hva er Parkinsons sykdom",
+          "tekst": "Blablabalba\n"
+        },
+        {
+          "type": "tekst",
+          "tekst": "sdfjlskdfjsdjf\n\nfsdfjsdf\n\n\n\n\n\nfsdjfj"
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-04T08:09:45.546Z",
+          "oppdatert": "2022-03-04T08:09:45.583Z",
+          "overskrift": "Antall pasienter",
+          "ingress": "En liten introduksjon",
+          "karusell": {
+            "presentasjonstype": ["barchart", "table", "map"],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "utvalg": "Hoveddiagnose ditt og datt",
+          "resultat": "Veldig stor variasjon her ..."
         }
       ]
     }
