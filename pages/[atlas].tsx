@@ -8,6 +8,9 @@ import styles from "../src/styles/Atlas.module.css";
 import { Chapters } from "../src/components/Chapters";
 import { AtlasData } from "../src/types";
 import csv from "csvtojson";
+import { TableOfContents } from "../src/components/toc";
+import { OrderedList } from "../src/components/toc/orderedlist";
+import { ListItem } from "../src/components/toc/listitem";
 
 interface AtlasPageProps {
   content: string;
@@ -17,6 +20,7 @@ interface AtlasPageProps {
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   const obj = JSON.parse(content);
+  const tocContent: string[] = obj.kapittel.map((chapter) => chapter.overskrift);
 
   return (
     <>
@@ -28,10 +32,21 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
             lang={obj.lang}
             ia={false}
           />
-          <div className={`${styles.atlasContent}`}>
-            <h1>{obj.mainTitle}</h1>
-            <div className="ingress">{obj.ingress}</div>
-            <Chapters innhold={obj.kapittel} atlasData={atlasData} />
+          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
+            <TableOfContents>
+              <OrderedList>
+                {tocContent.map((cont) => (
+                  <ListItem key={cont}>
+                    <a href={`#${cont.toLowerCase().replace(" ", "-")}`}>{cont}</a>
+                  </ListItem>
+                ))}
+              </OrderedList>
+            </TableOfContents>
+            <div>
+              <h1>{obj.mainTitle}</h1>
+              <div className="ingress">{obj.ingress}</div>
+              <Chapters innhold={obj.kapittel} atlasData={atlasData} />
+            </div>
           </div>
         </main>
       </Layout>
