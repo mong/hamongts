@@ -62,18 +62,18 @@ export const Chapters = ({ innhold, atlasData }: ChaptersProps) => {
 const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
   return (
     <>
-      <h2>{overskrift}</h2>
+      <h2 id={overskrift.toLowerCase().replace(" ", "-")}>{overskrift}</h2>
       <div>
         {innhold.map((box, index) => {
           const props =
             box.type === "faktaboks"
               ? {
-                  boxContent: box.tekst,
-                  boxTitle: box.overskrift,
-                  id: box.overskrift,
-                }
+                boxContent: box.tekst,
+                boxTitle: box.overskrift,
+                id: box.overskrift,
+              }
               : box.type === "resultatboks"
-              ? {
+                ? {
                   result: box.resultat,
                   title: box.overskrift,
                   intro: box.ingress,
@@ -83,7 +83,7 @@ const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
                   xlabel: box.karusell.xlabel,
                   ylabel: box.karusell.ylabel,
                 }
-              : { children: box.tekst };
+                : { children: box.tekst };
 
           const Component: React.FC<typeof props> = json2atlas[box.type];
           /* Husk: endre key til noe mer unikt to linjer under */
