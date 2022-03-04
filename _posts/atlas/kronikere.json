@@ -7,37 +7,6 @@
   "ingress": "Kroniske sykdommer er ...",
   "kapittel": [
     {
-      "overskrift": "Parkinsons sykdom",
-      "innhold": [
-        {
-          "type": "faktaboks",
-          "overskrift": "Hva er Parkinsons sykdom",
-          "tekst": "Blablabalba\n"
-        },
-        {
-          "type": "tekst",
-          "tekst": "sdfjlskdfjsdjf\n\nfsdfjsdf\n\n\n\n\n\nfsdjfj"
-        },
-        {
-          "type": "resultatboks",
-          "publisert": "2022-03-04T08:09:45.546Z",
-          "oppdatert": "2022-03-04T08:09:45.583Z",
-          "overskrift": "Antall pasienter",
-          "ingress": "En liten introduksjon",
-          "karusell": {
-            "presentasjonstype": [
-              "barchart",
-              "table",
-              "map"
-            ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
-          },
-          "utvalg": "Hoveddiagnose ditt og datt",
-          "resultat": "Veldig stor variasjon her ..."
-        }
-      ]
-    },
-    {
       "overskrift": "Multippel Sklerose",
       "innhold": [
         {
@@ -214,6 +183,37 @@
             "data": "img/injeksjoner_artritt_med_uten_ul.csv"
           },
           "utvalg": "Utvalg"
+        }
+      ]
+    },
+    {
+      "overskrift": "Parkinsons sykdom",
+      "innhold": [
+        {
+          "type": "faktaboks",
+          "overskrift": "Hva er Parkinsons sykdom",
+          "tekst": "Blablabalba\n"
+        },
+        {
+          "type": "tekst",
+          "tekst": "sdfjlskdfjsdjf\n\nfsdfjsdf\n\n\n\n\n\nfsdjfj"
+        },
+        {
+          "type": "resultatboks",
+          "publisert": "2022-03-04T08:09:45.546Z",
+          "oppdatert": "2022-03-04T08:09:45.583Z",
+          "overskrift": "Antall pasienter",
+          "ingress": "En liten introduksjon",
+          "karusell": {
+            "presentasjonstype": [
+              "barchart",
+              "table",
+              "map"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+          },
+          "utvalg": "Hoveddiagnose ditt og datt",
+          "resultat": "Veldig stor variasjon her ..."
         }
       ]
     }
