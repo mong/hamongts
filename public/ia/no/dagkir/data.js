@@ -8,98 +8,79 @@
       "features": [
         {
           "id": "1",
-          "name": "Finnmark",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-finnmark-hf-bestar-av-folgende-kommuner-article132068-41356.html"
+          "name": "Finnmark"
         },
         {
           "id": "2",
-          "name": "UNN",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-unn-hf-bestar-av-folgende-kommuner-article132082-41356.html"
+          "name": "UNN"
         },
         {
           "id": "3",
-          "name": "Nordlandsykehuset",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-nordlandssykehuset-hf-bestar-av-folgende-kommuner-article132074-41356.html"
+          "name": "Nordlandsykehuset"
         },
         {
           "id": "4",
-          "name": "Helgelandsykehuset",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-helgeland-hf-bestar-av-folgende-kommuner-article132071-41356.html"
+          "name": "Helgelandsykehuset"
         },
         {
           "id": "6",
-          "name": "Nord-Trøndelag",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-nord-trondelag-hf-bestar-av-folgende-kommuner-article132075-41356.html"
+          "name": "Nord-Trøndelag"
         },
         {
           "id": "7",
-          "name": "St. Olavs",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-st-olavs-hospital-hf-bestar-av-folgende-kommuner-article132080-41356.html"
+          "name": "St. Olavs"
         },
         {
           "id": "8",
-          "name": "Møre og Romsdal",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-more-og-romsdal-hf-bestar-av-folgende-kommuner-article132073-41356.html"
+          "name": "Møre og Romsdal"
         },
         {
           "id": "10",
-          "name": "Førde",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-forde-hf-bestar-av-folgende-kommuner-article132070-41356.html"
+          "name": "Førde"
         },
         {
           "id": "11",
-          "name": "Bergen",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-bergen-hf-bestar-av-folgende-kommuner-article132067-41356.html"
+          "name": "Bergen"
         },
         {
           "id": "12",
-          "name": "Fonna",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-fonna-hf-bestar-av-folgende-kommuner-article132069-41356.html"
+          "name": "Fonna"
         },
         {
           "id": "13",
-          "name": "Stavanger",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-stavanger-hf-bestar-av-folgende-kommuner-article132079-41356.html"
+          "name": "Stavanger"
         },
         {
           "id": "14",
-          "name": "Østfold",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-ostfold-hf-bestar-av-folgende-kommuner-article132077-41356.html"
+          "name": "Østfold"
         },
         {
           "id": "15",
-          "name": "Akershus",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-akershus-hf-bestar-av-folgende-kommuner-article132066-41356.html"
+          "name": "Akershus"
         },
         {
           "id": "16",
-          "name": "Oslo",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-oslo-universitetssykehus-hf-bestar-av-folgende-kommuner-article132076-41356.html"
+          "name": "Oslo"
         },
         {
           "id": "17",
-          "name": "Innlandet",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-innlandet-hf-bestar-av-folgende-kommuner-article132072-41356.html"
+          "name": "Innlandet"
         },
         {
           "id": "18",
-          "name": "Vestre Viken",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-vestre-viken-hf-bestar-av-folgende-kommuner-article132084-41356.html"
+          "name": "Vestre Viken"
         },
         {
           "id": "19",
-          "name": "Vestfold",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-vestfold-hf-bestar-av-folgende-kommuner-article132083-41356.html"
+          "name": "Vestfold"
         },
         {
           "id": "20",
-          "name": "Telemark",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-telemark-hf-bestar-av-folgende-kommuner-article132081-41356.html"
+          "name": "Telemark"
         },
         {
           "id": "21",
-          "name": "Sørlandet",
-          "href": "http://www.helseatlas.no/artikler-boomrader/boomrade-sorlandet-hf-bestar-av-folgende-kommuner-article132078-41356.html"
+          "name": "Sørlandet"
         }
       ],
       "comparisonFeatures": [{ "id": "N1", "name": "Norge" }],
@@ -112,7 +93,7 @@
             {
               "id": "i0",
               "name": "Skulderkirurgi (Acromion)",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Skulderreseksjon%282%29.pdf",
+              "href": "/helseatlas/files/Skulderreseksjon.pdf",
               "type": "numeric",
               "values": [
                 252.121, 200.321, 144.635, 151.037, 218.569, 168.586, 284.777,
@@ -191,7 +172,7 @@
             {
               "id": "i1",
               "name": "Menisk",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Menisk%282%29.pdf",
+              "href": "/helseatlas/files/Menisk.pdf",
               "type": "numeric",
               "values": [
                 256.36, 255.172, 199.418, 183.742, 319.321, 294.97, 491.052,
@@ -270,7 +251,7 @@
             {
               "id": "i2",
               "name": "Hallux valgus og hammertå",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Hammertaa%282%29.pdf",
+              "href": "/helseatlas/files/Hammertaa.pdf",
               "type": "numeric",
               "values": [
                 108.302, 93.446, 97.523, 97.7, 97.366, 91.294, 115.431, 75.077,
@@ -349,7 +330,7 @@
             {
               "id": "i3",
               "name": "Utvalgt handkirurgi",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Handkir%282%29.pdf",
+              "href": "/helseatlas/files/Handkir.pdf",
               "type": "numeric",
               "values": [
                 68.134, 79.874, 91.502, 64.616, 67.229, 64.267, 104.366, 67.023,
@@ -428,7 +409,7 @@
             {
               "id": "i4",
               "name": "Karpaltunnelsyndrom",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/CTS%282%29.pdf",
+              "href": "/helseatlas/files/CTS.pdf",
               "type": "numeric",
               "values": [
                 97.772, 126.253, 124.644, 152.55, 166.952, 130.924, 148.711,
@@ -507,7 +488,7 @@
             {
               "id": "i5",
               "name": "Fjerning av mandler",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Tonsillektomi%282%29.pdf",
+              "href": "/helseatlas/files/Tonsillektomi.pdf",
               "type": "numeric",
               "values": [
                 487.285, 294.512, 345.636, 416.593, 245.934, 211.531, 355.232,
@@ -586,7 +567,7 @@
             {
               "id": "i6",
               "name": "Ventilasjonsrør i trommehinnen",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Oredren%283%29.pdf",
+              "href": "/helseatlas/files/Oredren.pdf",
               "type": "numeric",
               "values": [
                 182.926, 166.396, 136.531, 251.335, 262.689, 127.758, 206.941,
@@ -665,7 +646,7 @@
             {
               "id": "i7",
               "name": "Aldersbetinget grå stær",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Katarakt%282%29.pdf",
+              "href": "/helseatlas/files/Katarakt.pdf",
               "type": "numeric",
               "values": [
                 646.997, 639.838, 608.621, 716.244, 762.354, 759.796, 693.272,
@@ -744,7 +725,7 @@
             {
               "id": "i8",
               "name": "Tunge øyelokk",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/HengOye%282%29.pdf",
+              "href": "/helseatlas/files/HengOye.pdf",
               "type": "numeric",
               "values": [
                 123.493, 157.773, 153.255, 184.794, 244.601, 233.866, 145.62,
@@ -823,7 +804,7 @@
             {
               "id": "i9",
               "name": "Lyskebrokk",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Lyskebrokk%282%29.pdf",
+              "href": "/helseatlas/files/Lyskebrokk.pdf",
               "type": "numeric",
               "values": [
                 124.109, 121.238, 125.736, 110.742, 131.124, 116.889, 123.089,
@@ -902,7 +883,7 @@
             {
               "id": "i10",
               "name": "Åreknuter",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Varicer%282%29.pdf",
+              "href": "/helseatlas/files/Varicer.pdf",
               "type": "numeric",
               "values": [
                 75.488, 90.041, 119.762, 77.142, 124.53, 115.468, 145.837,
@@ -981,7 +962,7 @@
             {
               "id": "i11",
               "name": "Hemoroider",
-              "href": "http://www.helseatlas.no/getfile.php/SKDE%20INTER/Helseatlas/Hemoroider%282%29.pdf",
+              "href": "/helseatlas/files/Hemoroider.pdf",
               "type": "numeric",
               "values": [
                 240.165, 230.931, 131.466, 202.118, 92.035, 185.342, 146.348,
