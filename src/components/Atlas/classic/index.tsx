@@ -38,7 +38,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
       ? [
           rehypeToc,
           {
-            headings: ["h2", "h3"],
+            headings: ["h2"],
           },
         ]
       : () => (arnfinn) => arnfinn,
