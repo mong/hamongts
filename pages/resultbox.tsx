@@ -2,18 +2,7 @@ import path from "path";
 import csv from "csvtojson";
 import { GetStaticProps } from "next";
 import { ResultBox } from "../src/components/ResultBox";
-
-export interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
-}
+import { AtlasData } from "../src/types";
 
 interface AbacusPageProps {
   atlasData: AtlasData[];

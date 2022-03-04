@@ -6,24 +6,13 @@ import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
 import { Chapters } from "../src/components/Chapters";
+import { AtlasData } from "../src/types";
 import csv from "csvtojson";
 
 interface AtlasPageProps {
   content: string;
   body: string;
   atlasData: AtlasData[];
-}
-
-interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antallInjeksjonerMedUL: number;
-  antallInjeksjonerUtenUL: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
 }
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
