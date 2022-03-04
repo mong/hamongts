@@ -13,25 +13,14 @@ The fact sheets provide a brief description of the conditions and procedures, as
 </div>
 
 ### [Shoulder](/helseatlas/files/fact-sheet-shoulder.pdf)
-
 ### [Menisci](/helseatlas/files/fact-sheet-menisci.pdf)
-
 ### [Hallux valgus and hammer toe](/helseatlas/files/fact-sheet-hammer.pdf)
-
 ### [Hand surgery](/helseatlas/files/fact-sheet-hand.pdf)
-
 ### [Carpal tunnel syndrome](/helseatlas/files/fact-sheet-cts.pdf)
-
 ### [Tonsillectomy](/helseatlas/files/fact-sheet-tonsillectomy.pdf)
-
 ### [Aural ventilation tube](/helseatlas/files/fact-sheet-aural.pdf)
-
 ### [Cataract](/helseatlas/files/fact-sheet-cataract.pdf)
-
 ### [Droopy eyelids](/helseatlas/files/fact-sheet-droopy.pdf)
-
 ### [Inguinal hernia](/helseatlas/files/fact-sheet-inguinal.pdf)
-
 ### [Varicose](/helseatlas/files/fact-sheet-varicose.pdf)
-
 ### [Haemorrhoids](/helseatlas/files/fact-sheet-haemorrhoids.pdf)
