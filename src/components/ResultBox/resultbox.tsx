@@ -44,9 +44,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         margin: "10px",
       }}
     >
-      <Accordion
-        sx={{ boxShadow: 6 }}
-      >
+      <Accordion sx={{ boxShadow: 6 }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
@@ -103,19 +101,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
-          <Accordion
-            sx={{
-              fontFamily: "Open Sans",
-              boxShadow: 1,
-              ":hover": {
-                border: "2px solid #6CACE4",
-                boxShadow: 1,
-                transform: "none",
-              },
-            }}
-            expanded={expanded}
-            onChange={() => handleChange()}
-          >
+          <Accordion sx={{ boxShadow: 0 }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls={`${id}-content-selection`}
