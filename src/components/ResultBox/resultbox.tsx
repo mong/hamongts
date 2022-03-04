@@ -44,7 +44,9 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         margin: "10px",
       }}
     >
-      <Accordion>
+      <Accordion
+        sx={{ boxShadow: 6 }}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
