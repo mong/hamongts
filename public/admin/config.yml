@@ -50,6 +50,7 @@ collections:
               - label: "Tekst"
                 name: "tekst"
                 widget: object
+                summary: "{{field.tekst[0:80]}}"
                 field:
                   {
                     label: "Tekst",
