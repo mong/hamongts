@@ -32,7 +32,7 @@ type Resultatboks = {
   data: AtlasData[];
 };
 
-type ChapterProps = {
+export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
   atlasData: AtlasData[];
