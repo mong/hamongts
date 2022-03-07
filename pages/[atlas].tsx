@@ -25,9 +25,8 @@ type AtlasJson = {
   mainTitle: string;
   shortTitle: string;
   ingress: string;
-  kapittel: ChapterProps[]
-}
-
+  kapittel: ChapterProps[];
+};
 
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   const obj: AtlasJson = JSON.parse(content);
