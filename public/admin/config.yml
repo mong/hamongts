@@ -20,6 +20,12 @@ collections:
     widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
+      - {
+          label: "Publisert",
+          name: "publisert",
+          widget: "boolean",
+          default: false,
+        }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
