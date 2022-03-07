@@ -5,7 +5,7 @@ import matter from "gray-matter";
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
-import { Chapters } from "../src/components/Chapters";
+import { ChapterProps, Chapters } from "../src/components/Chapters";
 import { AtlasData } from "../src/types";
 import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
@@ -18,9 +18,26 @@ interface AtlasPageProps {
   atlasData: AtlasData[];
 }
 
+type AtlasJson = {
+  lang: "no" | "en";
+  date: Date;
+  filename: string;
+  mainTitle: string;
+  shortTitle: string;
+  ingress: string;
+  kapittel: ChapterProps[]
+}
+
+
 const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
-  const obj = JSON.parse(content);
-  const tocContent: string[] = obj.kapittel.map((chapter) => chapter.overskrift);
+  const obj: AtlasJson = JSON.parse(content);
+  const tocContent = obj.kapittel.map((chapter) => {
+    const level1 = chapter.overskrift;
+    const level2 = chapter.innhold
+      .filter((subChapter) => subChapter.type === "resultatboks")
+      .map((subChapter) => subChapter["overskrift"]);
+    return { level1, level2 };
+  });
 
   return (
     <>
@@ -35,11 +52,42 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <TableOfContents>
               <OrderedList>
-                {tocContent.map((cont) => (
-                  <ListItem key={cont}>
-                    <a href={`#${cont.toLowerCase().replace(" ", "-")}`}>{cont}</a>
-                  </ListItem>
-                ))}
+                {tocContent.map((cont) => {
+                  const level2Header = (
+                    <OrderedList>
+                      {cont.level2.map((level2) => {
+                        return (
+                          <ListItem
+                            key={level2.toLowerCase().replace(/\s/g, "-")}
+                          >
+                            <a
+                              href={`#${level2
+                                .toLowerCase()
+                                .replace(/\s/g, "-")}`}
+                            >
+                              {level2}
+                            </a>
+                          </ListItem>
+                        );
+                      })}
+                    </OrderedList>
+                  );
+
+                  return (
+                    <ListItem
+                      key={cont.level1.toLowerCase().replace(/\s/g, "-")}
+                    >
+                      <a
+                        href={`#${cont.level1
+                          .toLowerCase()
+                          .replace(/\s/g, "-")}`}
+                      >
+                        {cont.level1}
+                      </a>
+                      {level2Header}
+                    </ListItem>
+                  );
+                })}
               </OrderedList>
             </TableOfContents>
             <div>
