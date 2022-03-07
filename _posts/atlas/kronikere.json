@@ -173,11 +173,15 @@
           }
         },
         {
+          "type": "tekst",
+          "tekst": "Pasienter med epilepsi har ofte behov for hjelp med mer enn anfallskontroll. Tilleggsutfordringer som bivirkninger av medisiner eller psykososiale utfordringer er vanlig. [En undersøkelse](https://tidsskriftet.no/2018/02/debatt/bedre-informasjon-til-pasienter-med-epilepsi) blant pasienter med epilepsi og deres pårørende i 2017 viste at mange har behov for mer informasjon om egen sykdom."
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-04T14:15:26.611Z",
           "oppdatert": "2022-03-04T14:15:26.670Z",
           "overskrift": "Pasientoppfølging i spesialist- og kommunehelsetjeneste",
-          "ingress": "Pasienter med epilepsi har ofte behov for hjelp med mer enn anfallskontroll. Tilleggsutfordringer som bivirkninger av medisiner eller psykososiale utfordringer er vanlig. Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. [En undersøkelse](https://tidsskriftet.no/2018/02/debatt/bedre-informasjon-til-pasienter-med-epilepsi) blant pasienter med epilepsi og deres pårørende i 2017 viste at mange har behov for mer informasjon om egen sykdom. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
+          "ingress": "Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
