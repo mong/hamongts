@@ -56,7 +56,7 @@ context("Classic atlases", () => {
 
 context("Modern atlases", () => {
   it("should visit an atlas", () => {
-    cy.visit("/fodsel2");
+    cy.visit("/test_atlas");
     cy.get("h1").contains("Helseatlas for fødselshjelp 2.0");
   });
 });
