@@ -214,14 +214,14 @@
           "ingress": "Behandling med legemidler som forebygger epileptiske anfall er den viktigste og vanligste behandlingen for epilepsi. Omlag en tredjedel av epilepsipasienter oppnår imidlertid ikke anfallsfrihet ved slik behandling. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anbefales det at pasienter som ikke oppnår tilfredsstillende anfallskontroll ved medikamentell behandling bør vurderes for epilepsikirurgi. Kirurgi er den eneste potensielt kurative behandlingen for epilepsi. Det anslås et behov på 50-125 epilepsioperasjoner årlig. For pasienter med farmakoresistent epilepsi der kirurgi ikke er aktuelt, foreslår retningslinjen at vagus nervestimulering bør vurderes.",
           "karusell": {
             "presentasjonstype": [
-              "barchart"
+              "table"
             ],
             "data": "img/ms.png",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
           "utvalg": "utvalg",
-          "resultat": "resultater"
+          "resultat": "Tabell XX viser omfang av epilepsikirurgi, stimuleringer, stereotaktisk behandling mm. Antall epilepsioperasjoner varierte mellom 24-39 operasjoner per år, og er med dette mye lavere enn det anslått behovet på 50-125 operasjoner. Bruken av kirurgi var høyest i Helse Vest og lavest i Helse Nord. Bruken av stereotaktisk behandling var også størst i Helse Vest."
         }
       ]
     },
