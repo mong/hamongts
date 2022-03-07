@@ -27,29 +27,18 @@
           "overskrift": "Svangerskapsdiabetes",
           "ingress": "Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.",
           "karusell": {
-            "presentasjonstype": ["barchart", "table"],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+            "presentasjonstype": [
+              "barchart",
+              "table"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "xlabel": "tekst1",
+            "ylabel": "tekst2"
           },
           "utvalg": "Tilstandskoder (fra kodeverket ICPC-2) W 85 Svangerskapsdiabetes",
-          "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer."
-        }
-      ]
-    },
-    {
-      "overskrift": "Parkinson",
-      "innhold": [
-        {
-          "type": "tekst",
-          "tekst": "Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter."
-        },
-        {
-          "type": "faktaboks",
-          "tekst": "Et epiduralkateter, som er en tynn liten plastslange, settes inn ved hjelp av en nål mellom to ryggvirvler i korsryggen og blir liggende i ryggkanalen til fødselen er over. Kvinnen vil fortsatt kjenne riene og deltar aktivt i fødselen, men smertetoppene forsvinner. Det er jordmor i samråd med den gravide som vurderer behovet for epiduralbedøvelse, og det konfereres alltid med vakthavende fødselslege. Anestesilege legger kateteret.",
-          "overskrift": "Epiduralkateter"
-        },
-        {
-          "type": "tekst",
-          "tekst": "Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter."
+          "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer.",
+          "publisert": "2022-03-07T08:38:45.069Z",
+          "oppdatert": "2022-03-07T08:38:45.096Z"
         }
       ]
     }
