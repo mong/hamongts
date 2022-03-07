@@ -10,10 +10,7 @@ type TextBoxProps = {
 export const TextBox: React.FC<TextBoxProps> = ({ children }) => {
   return (
     <div>
-      <ReactMarkdown
-        rehypePlugins={[rehypeRaw]}
-        remarkPlugins={[remarkGfm]}
-      >
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkGfm]}>
         {children}
       </ReactMarkdown>
     </div>
