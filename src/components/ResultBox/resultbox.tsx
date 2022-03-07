@@ -54,7 +54,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           id={`${id}-header`}
         >
           <div className={styles.resultBoxTitleWrapper}>
-            <h3> {title} </h3>
+            <h3 id={title.toLocaleLowerCase().replace(/\s/g, "-")}>
+              {" "}
+              {title}{" "}
+            </h3>
             <ReactMarkdown>{intro}</ReactMarkdown>
             <Abacus
               data={atlasData.filter((data) => data.year === "snitt")}
