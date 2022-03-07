@@ -36,7 +36,7 @@
         },
         {
           "type": "tekst",
-          "tekst": "De fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n ![MS](/helseatlas/img/ms.png \"MS\")\n\n Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
+          "tekst": "De fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n\n![MS](/helseatlas/img/ms.png \"MS\")\n\n Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
         },
         {
           "type": "resultatboks",
@@ -148,7 +148,9 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png"
+            "data": "img/ms.png",
+            "ylabel": "Opptaksområder",
+            "xlabel": "Antall per 1 000"
           },
           "utvalg": "Utvalget her består av ???? barn i alderen 0-17 år, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "resultat": "For barn (0-17 år) var det større variasjon i bruk av polikliniske kontakter enn for voksne. Antall kontakter per pasient varierte mye - fra 1,6 kontakter pr år i opptaksområdene Førde og Helgeland til 3,1 kontakter pr år i opptaksområdet Lovisenberg."
@@ -165,7 +167,9 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png"
+            "data": "img/ms.png",
+            "ylabel": "Opptaksområder",
+            "xlabel": "Antall per 1 000"
           }
         },
         {
@@ -178,7 +182,9 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png"
+            "data": "img/ms.png",
+            "ylabel": "Opptaksområder",
+            "xlabel": "Antall per 1 000"
           },
           "utvalg": "Utvalg",
           "resultat": "Resultater"
@@ -193,7 +199,9 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png"
+            "data": "img/ms.png",
+            "ylabel": "Opptaksområder",
+            "xlabel": "Antall per 1 000"
           },
           "utvalg": "Utvalg",
           "resultat": "Resultater"
@@ -225,7 +233,9 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png"
+            "data": "img/ms.png",
+            "ylabel": "Opptaksområder",
+            "xlabel": "Antall per 1 000"
           },
           "utvalg": "utvalg",
           "resultat": "resultater"
@@ -256,7 +266,9 @@
               "table",
               "map"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "xlabel": "Antall per 1 000",
+            "ylabel": "Opptaksområder"
           },
           "utvalg": "Hoveddiagnose ditt og datt",
           "resultat": "Veldig stor variasjon her ..."
