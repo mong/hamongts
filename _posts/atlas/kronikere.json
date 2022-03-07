@@ -103,6 +103,10 @@
       "overskrift": "Epilepsi",
       "innhold": [
         {
+          "type": "tekst",
+          "tekst": "Her kommer en kort intro og oppsummering av hovedfunn\n\n\n\n* En liste\n* med de viktigste\n* funnene i \"kapittelet\""
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:30:29.379Z",
           "oppdatert": "2022-03-02T14:30:29.459Z",
