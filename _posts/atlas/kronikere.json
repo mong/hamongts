@@ -108,7 +108,7 @@
           "oppdatert": "2022-03-02T14:30:29.459Z",
           "overskrift": "Pasienter med epilepsi",
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.\n\n![]()",
-          "resultat": "Det var årlig omlag 28 000 pasienter i utvalget som hadde en eller flere kontakter i spesialist- eller kommunehelsetjenesten, hvorav omlag 4 800 var barn i alderen 0-17 år. Dette stemmer forholdsvis godt overens med anslaget på omlag 30 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. De aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Antall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten pr. 1000 innbyggere varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
+          "resultat": "Det var årlig omlag 28 000 pasienter i utvalget som hadde en eller flere kontakter i spesialist- eller kommunehelsetjenesten, hvorav omlag 4 800 var barn i alderen 0-17 år og XXX eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 30 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. NBNB! Noe om variasjon i pasientraten hos barn/eldre - den må vises i tabell (enten i denne resultatboksen eller i de to neste!)\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Antall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten pr. 1000 innbyggere varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
           "karusell": {
             "presentasjonstype": [
               "barchart",
@@ -161,7 +161,7 @@
           "oppdatert": "2022-03-04T14:13:08.157Z",
           "overskrift": "Polikliniske konsultasjoner for eldre (65 år og eldre)",
           "resultat": "Bruk av polikliniske konsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall kontakter per 1000 innbyggere var X ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. Antall kontakter per pasient varierte også mye, fra 1 kontakt pr år i opptaksområdene Lovisenberg, OUS og Møre og Romsdal til 0,4 kontakter pr år i opptaksområdet Fonna. Dette viser at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, som er anbefalt i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/).",
-          "ingress": "Ingress",
+          "ingress": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget (REF https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre).",
           "utvalg": "Utvalg",
           "karusell": {
             "presentasjonstype": [
@@ -171,23 +171,6 @@
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           }
-        },
-        {
-          "type": "resultatboks",
-          "publisert": "2022-03-04T14:13:40.153Z",
-          "oppdatert": "2022-03-04T14:13:40.206Z",
-          "overskrift": "Konsultasjoner hos fastlege og legevakt",
-          "ingress": "Ingress",
-          "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
-            "data": "img/ms.png",
-            "ylabel": "Opptaksområder",
-            "xlabel": "Antall per 1 000"
-          },
-          "utvalg": "Utvalg",
-          "resultat": "Resultater"
         },
         {
           "type": "resultatboks",
