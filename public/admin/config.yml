@@ -50,14 +50,21 @@ collections:
               - label: "Tekst"
                 name: "tekst"
                 widget: object
-                summary: "{{field.tekst[0:80]}}"
-                field:
-                  {
-                    label: "Tekst",
-                    name: "tekst",
-                    widget: "markdown",
-                    hint: "Seksjon med tekst og eventuelle statiske figurer",
-                  }
+                summary: "{{fields.beskrivelse}}"
+                fields:
+                  - {
+                      label: "Beskrivelse",
+                      name: "beskrivelse",
+                      widget: "string",
+                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
+                      required: false,
+                    }
+                  - {
+                      label: "Tekst",
+                      name: "tekst",
+                      widget: "markdown",
+                      hint: "Seksjon med tekst og eventuelle statiske figurer",
+                    }
               - label: "Faktaboks"
                 name: "faktaboks"
                 widget: object
