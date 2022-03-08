@@ -27,7 +27,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall behandlet MS-pasienter per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -326,5 +326,6 @@
         }
       ]
     }
-  ]
+  ],
+  "publisert": false
 }
