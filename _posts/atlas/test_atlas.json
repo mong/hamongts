@@ -41,6 +41,23 @@
           "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer.",
           "publisert": "2022-03-07T08:38:45.069Z",
           "oppdatert": "2022-03-07T08:38:45.096Z"
+        },
+        {
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall per 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ]
+          },
+          "publisert": "2022-03-08T12:33:47.556Z",
+          "oppdatert": "2022-03-08T12:33:47.589Z",
+          "utvalg": "dett eer en efsdf l",
+          "resultat": "dsvsgfwesdf",
+          "ingress": "fdsfsdfaf",
+          "overskrift": "qwerty"
         }
       ]
     }
