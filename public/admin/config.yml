@@ -61,6 +61,7 @@ collections:
               - label: "Faktaboks"
                 name: "faktaboks"
                 widget: object
+                summary: "{{fields.overskrift}}"
                 fields:
                   - label: "Overskrift"
                     name: "overskrift"
