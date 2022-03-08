@@ -336,6 +336,23 @@
           "overskrift": "Forebyggende behandling med botox",
           "utvalg": "bla bla",
           "resultat": "Figuren viser at de var stor geografisk variasjon i bruk av botulinumtoksin. 9,7 ganger flere unike pasienter ble behandlet med botulinumtoksin pr. 1000 innbyggere i opptaksområdet Førde, enn i Stavanger. Nasjonalt ble 54% av pasientene behandlet av privat avtalespesialist, men andelen varierte mellom 3% i Førde og 96% i opptaksområdet Diakonhjemmet."
+        },
+        {
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall per 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "/helseatlas/img/migrene_alle_sm_ant_fastlege_1820_bohf_aarsvar.png"
+          },
+          "publisert": "2022-03-08T15:35:16.211Z",
+          "oppdatert": "2022-03-08T15:35:16.308Z",
+          "overskrift": "Sykemeldinger",
+          "ingress": "Migrene",
+          "utvalg": "hhhh",
+          "resultat": "hhhh"
         }
       ]
     },
