@@ -16,6 +16,7 @@ collections:
     extension: json
     format: json
     create: false
+    delete: false
     identifier_field: filename
     widget: "list"
     fields:
@@ -139,6 +140,7 @@ collections:
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
     create: false
+    delete: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -165,6 +167,7 @@ collections:
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
     create: false
+    delete: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
