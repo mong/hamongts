@@ -11,6 +11,7 @@ import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
+import { RestaurantRounded } from "@mui/icons-material";
 
 interface AtlasPageProps {
   content: string;
@@ -28,7 +29,7 @@ type AtlasJson = {
   kapittel: ChapterProps[];
 };
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
+const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
   const obj: AtlasJson = JSON.parse(content);
   const tocContent = obj.kapittel.map((chapter) => {
     const level1 = chapter.overskrift;
@@ -38,67 +39,9 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
     return { level1, level2 };
   });
 
-  return (
-    <>
-      <Layout lang={obj.lang}>
-        <main>
-          <TopBanner
-            mainTitle={obj.shortTitle}
-            pdfUrl=""
-            lang={obj.lang}
-            ia={false}
-          />
-          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
-            <TableOfContents>
-              <OrderedList>
-                {tocContent.map((cont) => {
-                  const level2Header = (
-                    <OrderedList>
-                      {cont.level2.map((level2) => {
-                        return (
-                          <ListItem
-                            key={level2.toLowerCase().replace(/\s/g, "-")}
-                          >
-                            <a
-                              href={`#${level2
-                                .toLowerCase()
-                                .replace(/\s/g, "-")}`}
-                            >
-                              {level2}
-                            </a>
-                          </ListItem>
-                        );
-                      })}
-                    </OrderedList>
-                  );
+  console.log();
 
-                  return (
-                    <ListItem
-                      key={cont.level1.toLowerCase().replace(/\s/g, "-")}
-                    >
-                      <a
-                        href={`#${cont.level1
-                          .toLowerCase()
-                          .replace(/\s/g, "-")}`}
-                      >
-                        {cont.level1}
-                      </a>
-                      {level2Header}
-                    </ListItem>
-                  );
-                })}
-              </OrderedList>
-            </TableOfContents>
-            <div>
-              <h1>{obj.mainTitle}</h1>
-              <div className="ingress">{obj.ingress}</div>
-              <Chapters innhold={obj.kapittel} atlasData={atlasData} />
-            </div>
-          </div>
-        </main>
-      </Layout>
-    </>
-  );
+  return <div></div>;
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -109,16 +52,20 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
-  const atlasDataDir = path.join(
-    process.cwd(),
-    "data/injeksjoner_artritt_med_uten_UL.csv"
+
+  const atlasData = fs.readdirSync("public/data/");
+  /*  .map((files) => {
+    const fileContent = path.join(
+      "public/data/", files);
+      const data = csv().fromFile(fileContent)
+      return(data)
+    }*/ const data = await csv().fromFile(
+    path.join("public/data/", atlasData[0])
   );
-  const atlasData = await csv({
-    delimiter: ";",
-  }).fromFile(atlasDataDir);
+  console.log(data);
 
   return {
-    props: { content, atlasData },
+    props: { content },
   };
 };
 
