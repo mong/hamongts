@@ -11,7 +11,7 @@ import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
-import { RestaurantRounded } from "@mui/icons-material";
+
 
 interface AtlasPageProps {
   content: string;
@@ -29,7 +29,7 @@ type AtlasJson = {
   kapittel: ChapterProps[];
 };
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
+const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   const obj: AtlasJson = JSON.parse(content);
   const tocContent = obj.kapittel.map((chapter) => {
     const level1 = chapter.overskrift;
@@ -39,9 +39,9 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
     return { level1, level2 };
   });
 
-  console.log();
 
-  return <div></div>;
+
+  return <div>{atlasData.map((dt, i) => <div key={`${dt.bohf}${i}`}>{"dt.bohf"}</div>)}</div>;
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -53,19 +53,14 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
 
-  const atlasData = fs.readdirSync("public/data/");
-  /*  .map((files) => {
-    const fileContent = path.join(
-      "public/data/", files);
-      const data = csv().fromFile(fileContent)
-      return(data)
-    }*/ const data = await csv().fromFile(
-    path.join("public/data/", atlasData[0])
-  );
-  console.log(data);
+  const atlasData = await Promise.all(await fs.readdirSync("public/data/").map(async (files) => {
+    const fileContent = path.join("public/data/", files);
+    return await csv()
+      .fromFile(fileContent);
+  }));
 
   return {
-    props: { content },
+    props: { content, atlasData },
   };
 };
 
