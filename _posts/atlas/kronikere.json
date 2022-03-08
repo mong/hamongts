@@ -275,7 +275,31 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Ingress/hovedfunn her."
+          "tekst": "Migrene er en form for hodepine som kjennetegnes av episodiske hodepineanfall som ofte er ensidige og preget av pulserende smerte. Smertene ledsages ofte av kvalme, og overfølsomhet for lys-og lyd."
+        },
+        {
+          "type": "tekst",
+          "tekst": "Her skrives sammendraget",
+          "beskrivelse": "Sammendrag"
+        },
+        {
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall pasienter med migrene pr. 100 000 innbyggere",
+            "ylabel": "Bosatt i opptaksområdet",
+            "presentasjonstype": [
+              "barchart",
+              "table",
+              "map"
+            ],
+            "data": "/helseatlas/img/ms.png"
+          },
+          "publisert": "2022-03-08T13:18:11.103Z",
+          "oppdatert": "2022-03-08T13:18:11.235Z",
+          "overskrift": "Pasienter med migrene",
+          "ingress": "Det er anslått at 15% av kvinner og 7% av menn har migrene (Norsk Elektronisk legehåndbok), men alvorlighetsgraden av tilstanden varierer. Dette kan være en del av forklaringen på hvorfor  vi finner langt færre pasienter med migrene i helsetjentesten. En annen mulig årsak er underbehandling, eller mangel på gode behandlingsalternativer",
+          "utvalg": "Pasienter som er",
+          "resultat": "kfkffk"
         }
       ]
     },
