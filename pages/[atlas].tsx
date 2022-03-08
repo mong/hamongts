@@ -12,7 +12,6 @@ import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
 
-
 interface AtlasPageProps {
   content: string;
   body: string;
@@ -39,9 +38,13 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
     return { level1, level2 };
   });
 
-
-
-  return <div>{atlasData.map((dt, i) => <div key={`${dt.bohf}${i}`}>{"dt.bohf"}</div>)}</div>;
+  return (
+    <div>
+      {atlasData.map((dt, i) => (
+        <div key={`${dt.bohf}${i}`}>{"dt.bohf"}</div>
+      ))}
+    </div>
+  );
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -53,11 +56,12 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
 
-  const atlasData = await Promise.all(await fs.readdirSync("public/data/").map(async (files) => {
-    const fileContent = path.join("public/data/", files);
-    return await csv()
-      .fromFile(fileContent);
-  }));
+  const atlasData = await Promise.all(
+    await fs.readdirSync("public/data/").map(async (files) => {
+      const fileContent = path.join("public/data/", files);
+      return await csv().fromFile(fileContent);
+    })
+  );
 
   return {
     props: { content, atlasData },
