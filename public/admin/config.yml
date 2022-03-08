@@ -18,6 +18,9 @@ collections:
     create: false
     identifier_field: filename
     widget: "list"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - {
