@@ -24,8 +24,10 @@
           "overskrift": "Pasienter med Multippel sklerose",
           "ingress": "I Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall behandlet MS-pasienter per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -43,8 +45,10 @@
           "overskrift": "Akuttinnleggelser",
           "ingress": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt. God sykdomsmodulerende behandling kan forebygge behov for akuttinnleggelser ",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall akuttinnleggelser for MS per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -63,8 +67,10 @@
           "ingress": "---",
           "utvalg": "Høyaktiv behandling er definert i tråd med MS-registeret (årsrapport 2020, s. 24), med unntak av at HSCT-stamcelle ikke inngår i analysen, da vi ikke har tilgang til data om dette.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Andel MS-pasienter i høyaktiv behandling",
             "ylabel": "Opptaksområder"
           },
@@ -82,8 +88,10 @@
           "resultat": "I overkant av 40% av MS pasienter fikk en form for rehabilitering i perioden 2018-2020. Andelen pasienter i rehabilitering varierte fra 32% i opptaksområdet Lovisenberg til om lag 48% av pasientene i opptaksområdet UNN. ",
           "utvalg": "---",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -95,6 +103,10 @@
       "overskrift": "Epilepsi",
       "innhold": [
         {
+          "type": "tekst",
+          "tekst": "Her kommer en kort intro og oppsummering av hovedfunn\n\n\n\n* En liste\n* med de viktigste\n* funnene i \"kapittelet\""
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:30:29.379Z",
           "oppdatert": "2022-03-02T14:30:29.459Z",
@@ -102,8 +114,12 @@
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.\n\n![]()",
           "resultat": "Det var årlig omlag 28 000 pasienter i utvalget som hadde en eller flere kontakter i spesialist- eller kommunehelsetjenesten, hvorav omlag 4 800 var barn i alderen 0-17 år og XXX eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 30 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. NBNB! Noe om variasjon i pasientraten hos barn/eldre - den må vises i tabell (enten i denne resultatboksen eller i de to neste!)\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Antall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten pr. 1000 innbyggere varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
           "karusell": {
-            "presentasjonstype": ["barchart", "table", "map"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart",
+              "table",
+              "map"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -117,8 +133,10 @@
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "ingress": "Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -131,8 +149,10 @@
           "overskrift": "Polikliniske konsultasjoner for barn",
           "ingress": "Barn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/ms.png",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -145,28 +165,36 @@
           "oppdatert": "2022-03-04T14:13:08.157Z",
           "overskrift": "Polikliniske konsultasjoner for eldre (65 år og eldre)",
           "resultat": "Bruk av polikliniske konsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall kontakter per 1000 innbyggere var X ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. Antall kontakter per pasient varierte også mye, fra 1 kontakt pr år i opptaksområdene Lovisenberg, OUS og Møre og Romsdal til 0,4 kontakter pr år i opptaksområdet Fonna. Dette viser at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, som er anbefalt i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/).",
-          "ingress": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget (REF https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre).",
+          "ingress": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).",
           "utvalg": "Utvalg",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/ms.png",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           }
+        },
+        {
+          "type": "tekst",
+          "tekst": "Pasienter med epilepsi har ofte behov for hjelp med mer enn anfallskontroll. Tilleggsutfordringer som bivirkninger av medisiner eller psykososiale utfordringer er vanlig. [En undersøkelse](https://tidsskriftet.no/2018/02/debatt/bedre-informasjon-til-pasienter-med-epilepsi) blant pasienter med epilepsi og deres pårørende i 2017 viste at mange har behov for mer informasjon om egen sykdom."
         },
         {
           "type": "resultatboks",
           "publisert": "2022-03-04T14:15:26.611Z",
           "oppdatert": "2022-03-04T14:15:26.670Z",
           "overskrift": "Pasientoppfølging i spesialist- og kommunehelsetjeneste",
-          "ingress": "Ingress",
+          "ingress": "Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/ms.png",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
-          "utvalg": "Utvalg",
+          "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "resultat": "Resultater"
         },
         {
@@ -177,27 +205,35 @@
           "utvalg": "Akuttinnleggelser med hoveddiagnose G40 (ekskl G40.5), eller G41 (status epileptikus).",
           "ingress": "Akuttinnleggelser ved epileptiske anfall forekommer normalt i begynnelsen av et sykdomsforløp, når pasienten er under utredning og ennå ikke har fått tilpasset medisinering med antiepileptika. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
           "resultat": "For landet sett under ett var det i overkant av 6000 akuttinnleggelser per år knyttet til epileptiske anfall. Bruk av akuttinnleggelser ved epileptiske anfall var omtrent dobbelt så høyt i opptaksområdet Nord-Trøndelag sammenliknet med opptaksområdet Finnmark."
         },
         {
+          "type": "tekst",
+          "tekst": "Behandling med legemidler som forebygger epileptiske anfall er den viktigste og vanligste behandlingen for epilepsi. Omlag en tredjedel av epilepsipasienter oppnår imidlertid ikke anfallsfrihet ved slik behandling. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anbefales det at pasienter som ikke oppnår tilfredsstillende anfallskontroll ved medikamentell behandling bør vurderes for epilepsikirurgi. For pasienter med farmakoresistent epilepsi der kirurgi ikke er aktuelt, foreslår retningslinjen at vagus nervestimulering bør vurderes."
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-04T14:16:10.382Z",
           "oppdatert": "2022-03-04T14:16:10.444Z",
           "overskrift": "Intervensjoner",
-          "ingress": "Ingress",
+          "ingress": "Kirurgi er den eneste potensielt kurative behandlingen for epilepsi. Det anslås et behov på 50-125 epilepsioperasjoner årlig.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "table"
+            ],
+            "data": "img/ms.png",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
           "utvalg": "utvalg",
-          "resultat": "resultater"
+          "resultat": "Tabell XX viser omfang av epilepsikirurgi, stimuleringer, stereotaktisk behandling mm. Antall epilepsioperasjoner varierte mellom 24-39 operasjoner per år, og er med dette mye lavere enn det anslått behovet på 50-125 operasjoner. Bruken av kirurgi var høyest i Helse Vest og lavest i Helse Nord. Bruken av stereotaktisk behandling var også størst i Helse Vest."
         }
       ]
     },
@@ -220,8 +256,12 @@
           "overskrift": "Antall pasienter",
           "ingress": "En liten introduksjon",
           "karusell": {
-            "presentasjonstype": ["barchart", "table", "map"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart",
+              "table",
+              "map"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 1 000",
             "ylabel": "Opptaksområder"
           },
@@ -253,8 +293,10 @@
           "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
           "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -273,8 +315,10 @@
           "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
           "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
           "karusell": {
-            "presentasjonstype": ["barchart"],
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -282,6 +326,5 @@
         }
       ]
     }
-  ],
-  "publisert": false
+  ]
 }

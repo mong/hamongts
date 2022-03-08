@@ -32,7 +32,7 @@ type Resultatboks = {
   data: AtlasData[];
 };
 
-type ChapterProps = {
+export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
   atlasData: AtlasData[];
@@ -62,7 +62,7 @@ export const Chapters = ({ innhold, atlasData }: ChaptersProps) => {
 const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
   return (
     <>
-      <h2>{overskrift}</h2>
+      <h2 id={overskrift.toLowerCase().replace(/\s/g, "-")}>{overskrift}</h2>
       <div>
         {innhold.map((box, index) => {
           const props =
