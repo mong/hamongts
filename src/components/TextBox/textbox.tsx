@@ -1,7 +1,6 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
-import rehypeSlug from "rehype-slug";
 import remarkGfm from "remark-gfm";
 
 type TextBoxProps = {
@@ -11,10 +10,7 @@ type TextBoxProps = {
 export const TextBox: React.FC<TextBoxProps> = ({ children }) => {
   return (
     <div>
-      <ReactMarkdown
-        rehypePlugins={[rehypeRaw, rehypeSlug]}
-        remarkPlugins={[remarkGfm]}
-      >
+      <ReactMarkdown rehypePlugins={[rehypeRaw]} remarkPlugins={[remarkGfm]}>
         {children}
       </ReactMarkdown>
     </div>
