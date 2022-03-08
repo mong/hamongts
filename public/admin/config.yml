@@ -113,7 +113,7 @@ collections:
                         widget: "file"
                         media_library:
                           multiple: false
-                        media_folder: "public/data"
+                        media_folder: "/public/data"
                         public_folder: "/helseatlas/data"
                         choose_url: false
                       - label: "x-akse-tekst"
