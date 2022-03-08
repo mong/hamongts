@@ -11,7 +11,8 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "# Dette er en stor overskrift!\n\n## Dette er en litt mindre overskrift\n\nOg litt tekst her"
+          "tekst": "### Dette er en overskrift!\n\n```sas\ndata test;\nset test2;\nvar = 0;\nrun;\n```\n\nOg litt tekst her",
+          "beskrivelse": "Litt test-tekst"
         },
         {
           "type": "faktaboks",
@@ -20,7 +21,8 @@
         },
         {
           "type": "tekst",
-          "tekst": "Så sier vi litt mer her om blablabla.\n\n"
+          "tekst": "Så sier vi litt mer her om blablabla.\n\n![Kart](/helseatlas/img/map.png \"Variasjon i kirurgiske aborter etter jordmorbesøk\")",
+          "beskrivelse": "Kart"
         },
         {
           "type": "resultatboks",
