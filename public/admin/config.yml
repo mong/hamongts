@@ -6,7 +6,7 @@ backend:
 
 logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
-public_folder: img
+public_folder: /helseatlas/img
 site_url: https://qa.skde.no/helseatlas/
 locale: "nb_no"
 collections:
@@ -20,6 +20,12 @@ collections:
     widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
+      - {
+          label: "Publisert",
+          name: "publisert",
+          widget: "boolean",
+          default: false,
+        }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
@@ -44,16 +50,25 @@ collections:
               - label: "Tekst"
                 name: "tekst"
                 widget: object
-                field:
-                  {
-                    label: "Tekst",
-                    name: "tekst",
-                    widget: "markdown",
-                    hint: "Seksjon med tekst og eventuelle statiske figurer",
-                  }
+                summary: "{{fields.beskrivelse}}"
+                fields:
+                  - {
+                      label: "Beskrivelse",
+                      name: "beskrivelse",
+                      widget: "string",
+                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
+                      required: false,
+                    }
+                  - {
+                      label: "Tekst",
+                      name: "tekst",
+                      widget: "markdown",
+                      hint: "Seksjon med tekst og eventuelle statiske figurer",
+                    }
               - label: "Faktaboks"
                 name: "faktaboks"
                 widget: object
+                summary: "{{fields.overskrift}}"
                 fields:
                   - label: "Overskrift"
                     name: "overskrift"
@@ -89,7 +104,8 @@ collections:
                         widget: "file"
                         media_library:
                           multiple: false
-                          media_folder: "/data"
+                          media_folder: "public/data"
+                          public_folder: "/helseatlas/data"
                           choose_url: false
                       - label: "x-akse-tekst"
                         hint: "Tekst på x-aksen i stolpediagram/under abacus-plott"
