@@ -85,8 +85,16 @@ collections:
                 fields:
                   - { label: Overskrift, name: overskrift, widget: string }
                   - { label: Ingress, name: ingress, widget: markdown }
-                  - { label: "Publiseringsdato", name: publisert, widget: date }
-                  - { label: "Sist oppdatert", name: oppdatert, widget: date }
+                  - {
+                      label: "Publiseringsdato",
+                      name: publisert,
+                      widget: datetime,
+                    }
+                  - {
+                      label: "Sist oppdatert",
+                      name: oppdatert,
+                      widget: datetime,
+                    }
                   - label: Karusell
                     name: karusell
                     widget: object
