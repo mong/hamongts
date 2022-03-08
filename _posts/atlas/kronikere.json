@@ -25,27 +25,30 @@
           "ingress": "I Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.",
           "karusell": {
             "presentasjonstype": [
-              "barchart",
-              "table"
+              "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall behandlet MS-pasienter per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
-          "utvalg": "- - -",
-          "resultat": "I perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal. \n\nDe fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n\n Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
+          "utvalg": "---",
+          "resultat": "I perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\n\r\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\n\r\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal. \r"
+        },
+        {
+          "type": "tekst",
+          "tekst": "De fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n\n![MS](/helseatlas/img/ms.png \"MS\")\n\n Andelen pasienter som kun følges opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Det var om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil ha liten nytte av behandling i spesialisthelsetjenesten."
         },
         {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:21:04.920Z",
           "oppdatert": "2022-03-02T14:21:04.959Z",
           "overskrift": "Akuttinnleggelser",
-          "ingress": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt. God sykdomsmodulerende behandling kan forebygge behov for akuttinnleggelser ",
+          "ingress": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall akuttinnleggelser for MS per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -67,7 +70,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Andel MS-pasienter i høyaktiv behandling",
             "ylabel": "Opptaksområder"
           },
@@ -88,7 +91,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -116,7 +119,7 @@
               "table",
               "map"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -133,7 +136,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -205,7 +208,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -258,7 +261,7 @@
               "table",
               "map"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 1 000",
             "ylabel": "Opptaksområder"
           },
@@ -272,7 +275,31 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Ingress/hovedfunn her."
+          "tekst": "Migrene er en form for hodepine som kjennetegnes av episodiske hodepineanfall som ofte er ensidige og preget av pulserende smerte. Smertene ledsages ofte av kvalme, og overfølsomhet for lys-og lyd."
+        },
+        {
+          "type": "tekst",
+          "tekst": "Her skrives sammendraget",
+          "beskrivelse": "Sammendrag"
+        },
+        {
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall pasienter med migrene pr. 100 000 innbyggere",
+            "ylabel": "Bosatt i opptaksområdet",
+            "presentasjonstype": [
+              "barchart",
+              "table",
+              "map"
+            ],
+            "data": "/helseatlas/img/migrene_alle_1820_bohf_tredelt.png"
+          },
+          "publisert": "2022-03-08T13:18:11.103Z",
+          "oppdatert": "2022-03-08T13:18:11.235Z",
+          "overskrift": "Pasienter med migrene",
+          "ingress": "Det er anslått at 15% av kvinner og 7% av menn har migrene (Norsk Elektronisk legehåndbok), men alvorlighetsgraden av tilstanden varierer. Dette kan være en del av forklaringen på hvorfor  vi finner langt færre pasienter med migrene i helsetjentesten. En annen mulig årsak er underbehandling, eller mangel på gode behandlingsalternativer",
+          "utvalg": "Utvalget består av 53.627 personer pr. år, registrert med hoved- eller bidiagnose migrene, G43.0-G43.9  i NPR eller N89 (ICPC-2) i KPR, i perioden 2017-2020.  \n\nØvrige inklusjonskriterier:\n\n* Pasienten har minst tre kontakter med diagnosen migrene i perioden\n* Kontaktene som er grunnlag for inklusjon ligger på ulike dager. \n* Pasienten kan inkluderes på grunnlag av kontakter i enten NPR eller KPR, eller en kombinasjon av NPR og KPR-kontakter. \n\nUtvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
+          "resultat": "I perioden 2018-2020 ble det i gjennomsnitt behandlet om lag 54 000 personer med migrene i  kommune- og spesialisthelsetjenesten.\n\nUtvalget bestod av xx% kvinner og xx% menn. Gjennomsnittsalderen for utvalget var 42 år. \n\nDet var i gjennomsnitt 1600 unike pasienter med migrene i behandling i primær-og spesialisthelsetjenesten pr. 100 000 innbyggere bosatt i opptaksområdet Sørlandet pr. år, sammenlignet med om lag 1000 pr. 100 000 innbyggere i Bergen. \n\nRaten var relativt stabil fra år til år. Bemerk at kriteriene for utvalget (krav om tre kontakter med migrene-diagnosen) medfører at pasienter med enkeltkontakter ikke inkluderes i resultatene. Det var en stor stigning i unike pasienter med slike enkeltkontakter i 2020, hvilket sannsynligvis skyldes at nye medikamenter mot migrene ble tilgjengelig på blå resept i 2019."
         }
       ]
     },
@@ -293,7 +320,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -315,7 +342,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -324,5 +351,5 @@
       ]
     }
   ],
-  "publisert": true
+  "publisert": false
 }
