@@ -114,7 +114,7 @@ collections:
                         media_library:
                           multiple: false
                         media_folder: "/public/data"
-                        public_folder: "/helseatlas/data"
+                        public_folder: "data"
                         choose_url: false
                       - label: "x-akse-tekst"
                         hint: "Tekst på x-aksen i stolpediagram/under abacus-plott"
