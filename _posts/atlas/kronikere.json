@@ -126,6 +126,10 @@
           "ingress": "Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)\n\nFigur 2: Tredelt figur - pasientrate: spesialist, begge, primær\n\nTabellinnhold: \n\n* Pasientrate, alle pasienter (NPR+KPR)\n* Andel pasienter kun i primærhelsetj.\n* Antall pasienter\n* Antall innbyggere?\n\nDet har vært [anslått](https://tidsskriftet.no/2015/10/oversiktsartikkel/forekomst-av-epilepsi-i-de-nordiske-landene) at omlag seks av tusen i Norge har aktiv epilepsi - det vil si omlag 32 000 personer. Epilepsi rammer mennesker i alle aldre og kan arte seg svært ulikt fra person til person."
         },
         {
+          "type": "tekst",
+          "tekst": "Ved mistanke om epilepsi skal pasienten henvises til utredning i spesialisthelsetjenesten. Det vil innebære undersøkelse med [EEG](https://sml.snl.no/elektroencefalografi) og i enkelte tilfeller også en [MR](https://sml.snl.no/MR)-undersøkelse. Epilepsi behandles vanligvis med legemidler som skal forebygge anfall. Det finnes en rekke ulike medikamenter, og det kan være behov for både å prøve ulike medikamenter og å tilpasse dosering før man oppnår god anfallskontroll med et akseptabelt nivå av bivirkinger."
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:34:10.706Z",
           "oppdatert": "2022-03-02T14:34:10.752Z",
