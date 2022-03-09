@@ -202,6 +202,10 @@
           "resultat": "Resultater"
         },
         {
+          "type": "tekst",
+          "tekst": "Et epileptisk anfall vil ofte føre til en akuttinnleggelse på sykehus, særlig dersom personen ikke har kjent epilepsi. Også personer med kjent epilepsi vil kunne ha behov for innleggelse på sykehus ved epileptiske anfall. I sjeldne tilfeller kan en pasient få et langvarig epileptisk anfall, eller flere anfall med kort tid imellom. Denne tilstanden kalles [status epilepticus](https://sml.snl.no/status_epilepticus) og krever rask medisink behandling fordi det kan være skadelig for hjernen."
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:32:22.478Z",
           "oppdatert": "2022-03-02T14:32:22.533Z",
