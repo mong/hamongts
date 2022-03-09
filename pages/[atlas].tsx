@@ -11,6 +11,7 @@ import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
+import { DataContext } from "../src/components/Context";
 
 interface AtlasPageProps {
   content: string;
@@ -40,11 +41,63 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
 
   return (
     <DataContext.Provider value={atlasData} >
-    <div>
-      {atlasData.map((dt, i) => (
-          <div key={`${Object.keys(dt)}${i}`}>{Object.keys(dt)}</div>
-      ))}
-    </div>
+      <Layout lang={obj.lang}>
+        <main>
+          <TopBanner
+            mainTitle={obj.shortTitle}
+            pdfUrl=""
+            lang={obj.lang}
+            ia={false}
+          />
+          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
+            <TableOfContents>
+              <OrderedList>
+                {tocContent.map((cont) => {
+                  const level2Header = (
+                    <OrderedList>
+                      {cont.level2.map((level2) => {
+                        return (
+                          <ListItem
+                            key={level2.toLowerCase().replace(/\s/g, "-")}
+                          >
+                            <a
+                              href={`#${level2
+                                .toLowerCase()
+                                .replace(/\s/g, "-")}`}
+                            >
+                              {level2}
+                            </a>
+                          </ListItem>
+                        );
+                      })}
+                    </OrderedList>
+                  );
+
+                  return (
+                    <ListItem
+                      key={cont.level1.toLowerCase().replace(/\s/g, "-")}
+                    >
+                      <a
+                        href={`#${cont.level1
+                          .toLowerCase()
+                          .replace(/\s/g, "-")}`}
+                      >
+                        {cont.level1}
+                      </a>
+                      {level2Header}
+                    </ListItem>
+                  );
+                })}
+              </OrderedList>
+            </TableOfContents>
+            <div>
+              <h1>{obj.mainTitle}</h1>
+              <div className="ingress">{obj.ingress}</div>
+              <Chapters innhold={obj.kapittel} />
+            </div>
+          </div>
+        </main>
+      </Layout>
     </DataContext.Provider>
   );
 };
