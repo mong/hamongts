@@ -10,13 +10,15 @@ import { Barchart } from "../../charts/barcharts";
 import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
 import styles from "./resultbox.module.css";
+import { DataContext } from "../Context";
+import { karusell } from "../Chapters";
 
 type ResultBoxProps = {
   title: string;
+  carousel: karusell;
   intro: string;
   selection: string;
   result: string;
-  atlasData: AtlasData[];
   id: string;
   lang?: string;
   xlabel: string;
@@ -29,7 +31,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
-  atlasData,
   xlabel,
   ylabel,
   lang = "no",
