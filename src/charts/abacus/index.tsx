@@ -57,6 +57,7 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
   // color legend missing
   //tooltip missing
 
+  const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0])
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
   const colors = ["#6CACE4", "#003087"];
@@ -86,7 +87,7 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
         />
       </Group>
       <Group left={margin.left} top={margin.top}>
-        {data.map((d, i) => (
+        {figData.map((d, i) => (
           <circle
             key={`${d[x]}${i}`}
             r={circleRadiusDefalt}

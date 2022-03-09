@@ -33,12 +33,15 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   xlabel,
   ylabel,
   lang = "no",
+  carousel
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
   const [expandedSelection, setExpandedSelection] =
     React.useState<boolean>(false);
 
+  const atlasData = React.useContext(DataContext);
+  const figdata = atlasData[carousel.data]
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
@@ -65,25 +68,25 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {title}{" "}
             </h3>
             <ReactMarkdown>{intro}</ReactMarkdown>
-            <Abacus
-              data={atlasData.filter((data) => data.year === "snitt")}
-              x="rate1"
+            {figdata && <Abacus
+              data={figdata}
+              x="rateSnitt"
               colorBy="bohf"
               width={800}
               height={80}
               label={xlabel}
               xMin={0}
-              xMax={3.0}
+              xMax={7.0}
               backgroundColor="inherit"
-            />
+            />}
           </div>
         </AccordionSummary>
         <AccordionDetails>
           <Carousel active={0}>
             <CarouselItem label="Stolpediagram">
-              <Barchart
-                data={atlasData.filter((data) => data.year === "snitt")}
-                x={["rate1", "rate2"]}
+              {figdata && <Barchart
+                data={figdata}
+                x={["rateSnitt"]}
                 y="bohf"
                 margin={{
                   top: 30,
@@ -95,9 +98,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 xLabel={xlabel}
                 yLabel={ylabel}
                 xMin={0}
-                xMax={4}
+                xMax={7}
                 backgroundColor="white"
               />
+              }
             </CarouselItem>
             <CarouselItem label="Kart">
               {" "}
