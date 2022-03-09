@@ -40,7 +40,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   });
 
   return (
-    <DataContext.Provider value={atlasData} >
+    <DataContext.Provider value={atlasData}>
       <Layout lang={obj.lang}>
         <main>
           <TopBanner
@@ -114,9 +114,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const atlasData = await Promise.all(
     await fs.readdirSync("public/data/").map(async (files) => {
       const fileContent = path.join("public/data/", files);
-      const atlasData = await csv().fromFile(fileContent)
-      const data = {}
-      data[files] = atlasData
+      const atlasData = await csv().fromFile(fileContent);
+      const data = {};
+      data[files] = atlasData;
       return data;
     })
   );
