@@ -140,7 +140,7 @@
           "ingress": "Figur: Rate - polikliniske kontakter for barn m årsvariasjon\n\nTabellinnhold:\n\n* Rate - polikliniske kontakter for barn\n* Rate - pasientrate, barn (NPR+KPR)\n* Antall barn\n* Polikliniske kontakter per pasient, barn\n\nBarn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.",
           "karusell": {
             "presentasjonstype": ["barchart"],
-            "data": "img/ms.png",
+            "data": "/helseatlas/data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -157,7 +157,7 @@
           "utvalg": "Utvalg",
           "karusell": {
             "presentasjonstype": ["barchart"],
-            "data": "img/ms.png",
+            "data": "/helseatlas/data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           }
@@ -174,7 +174,7 @@
           "ingress": "Figur 1: Rate - kontakter i NPR+KPR m årsvariasjon\n\nFigur 2: Todelt - polikliniske kontakter + kontakter hos fastlege/legevakt\n\nTabellinnhold:\n\n* Rate - kontakter i NPR+KPR\n* Polikliniske kontakter per pasient\n* Kontakter hos fastlege/legevakt per pasient\n* Totalt antall kontakter per pasient?\n* Andel kontakter i spesialisthelsetjenesten?\n\nGrundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
           "karusell": {
             "presentasjonstype": ["barchart"],
-            "data": "img/ms.png",
+            "data": "/helseatlas/data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -212,7 +212,7 @@
           "ingress": "NB! Kun tabell! \"Spesialanalyse\" - skal den i resultatboks overhodet?\n\nKirurgi er den eneste potensielt kurative behandlingen for epilepsi. Det anslås et behov på 50-125 epilepsioperasjoner årlig.",
           "karusell": {
             "presentasjonstype": ["table"],
-            "data": "img/ms.png",
+            "data": "/helseatlas/data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -297,9 +297,7 @@
           "karusell": {
             "xlabel": "Antall per 1 000 innbyggere",
             "ylabel": "Opptaksområder",
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "/helseatlas/img/botox-todelt-figur.png"
           },
           "publisert": "2022-03-08T15:11:44.489Z",
@@ -314,9 +312,7 @@
           "karusell": {
             "xlabel": "Antall per 1 000 innbyggere",
             "ylabel": "Opptaksområder",
-            "presentasjonstype": [
-              "barchart"
-            ],
+            "presentasjonstype": ["barchart"],
             "data": "/helseatlas/img/migrene_alle_sm_ant_fastlege_1820_bohf_aarsvar.png"
           },
           "publisert": "2022-03-08T15:35:16.211Z",
