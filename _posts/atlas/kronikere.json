@@ -156,7 +156,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png",
+            "data": "data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -175,7 +175,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png",
+            "data": "data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           }
@@ -194,7 +194,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "img/ms.png",
+            "data": "data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -232,7 +232,7 @@
             "presentasjonstype": [
               "table"
             ],
-            "data": "img/ms.png",
+            "data": "data/epilepsi_pasienter_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
