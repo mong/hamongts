@@ -112,7 +112,7 @@
           "oppdatert": "2022-03-02T14:30:29.459Z",
           "overskrift": "Pasienter med epilepsi",
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.\n\n![]()",
-          "resultat": "Det var årlig omlag 28 000 pasienter i utvalget som hadde en eller flere kontakter i spesialist- eller kommunehelsetjenesten, hvorav omlag 4 800 var barn i alderen 0-17 år og XXX eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 30 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. NBNB! Noe om variasjon i pasientraten hos barn/eldre - den må vises i tabell (enten i denne resultatboksen eller i de to neste!)\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Antall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten pr. 1000 innbyggere varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
+          "resultat": "Det var årlig omlag 28 000 pasienter i utvalget som hadde en eller flere kontakter i spesialist- eller kommunehelsetjenesten, hvorav omlag 4 800 var barn i alderen 0-17 år og XXX eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 30 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. NB! Noe om kjønnsfordeling?\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Antall pasienter med epilepsi som ble fulgt opp i spesialisthelsetjenesten pr. 1000 innbyggere varierte svært lite. Andelen pasienter som kun hadde kontakter i primærhelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
           "karusell": {
             "presentasjonstype": [
               "barchart",
@@ -123,7 +123,7 @@
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
-          "ingress": "Det har vært [anslått](https://tidsskriftet.no/2015/10/oversiktsartikkel/forekomst-av-epilepsi-i-de-nordiske-landene) at omlag seks av hundre i Norge har aktiv epilepsi - det vil si omlag 30 000 personer. Epilepsi rammer mennesker i alle aldre og kan arte seg svært ulikt fra person til person."
+          "ingress": "Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)\n\nFigur 2: Tredelt figur - pasientrate: spesialist, begge, primær\n\nTabellinnhold: \n\n* Pasientrate, alle pasienter (NPR+KPR)\n* Andel pasienter kun i primærhelsetj.\n* Antall pasienter\n* Antall innbyggere?\n\nDet har vært [anslått](https://tidsskriftet.no/2015/10/oversiktsartikkel/forekomst-av-epilepsi-i-de-nordiske-landene) at omlag seks av hundre i Norge har aktiv epilepsi - det vil si omlag 30 000 personer. Epilepsi rammer mennesker i alle aldre og kan arte seg svært ulikt fra person til person."
         },
         {
           "type": "resultatboks",
@@ -131,7 +131,7 @@
           "oppdatert": "2022-03-02T14:34:10.752Z",
           "overskrift": "Polikliniske konsultasjoner",
           "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
-          "ingress": "Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov.",
+          "ingress": "Figur 1: Rate-Polikliniske konsultasjoner m årsvariasjon\n\nFigur 2: Rate - Polikliniske konsultasjoner off/priv?\n\nTabellinnhold:\n\n* Rate-Polikliniske konsultasjoner\n* Antall pasienter?\n* Kontakter per pasient\n\nIfølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -147,7 +147,7 @@
           "publisert": "2022-03-04T14:03:48.070Z",
           "oppdatert": "2022-03-04T14:03:48.162Z",
           "overskrift": "Polikliniske konsultasjoner for barn",
-          "ingress": "Barn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.",
+          "ingress": "Figur: Rate - polikliniske kontakter for barn m årsvariasjon\n\nTabellinnhold:\n\n* Rate - polikliniske kontakter for barn\n* Rate - pasientrate, barn (NPR+KPR)\n* Antall barn\n* Polikliniske kontakter per pasient, barn\n\nBarn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -165,7 +165,7 @@
           "oppdatert": "2022-03-04T14:13:08.157Z",
           "overskrift": "Polikliniske konsultasjoner for eldre (65 år og eldre)",
           "resultat": "Bruk av polikliniske konsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall kontakter per 1000 innbyggere var X ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. Antall kontakter per pasient varierte også mye, fra 1 kontakt pr år i opptaksområdene Lovisenberg, OUS og Møre og Romsdal til 0,4 kontakter pr år i opptaksområdet Fonna. Dette viser at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, som er anbefalt i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/).",
-          "ingress": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).",
+          "ingress": "\n\nFigur: Rate - polikliniske kontakter for eldre  m årsvariasjon\n\nTabellinnhold:\n\n* Rate - polikliniske kontakter for eldre\n* Rate - pasientrate, eldre (NPR+KPR)\n* Antall eldre\n* Polikliniske kontakter per pasient, eldre\n\nEpilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).",
           "utvalg": "Utvalg",
           "karusell": {
             "presentasjonstype": [
@@ -185,7 +185,7 @@
           "publisert": "2022-03-04T14:15:26.611Z",
           "oppdatert": "2022-03-04T14:15:26.670Z",
           "overskrift": "Pasientoppfølging i spesialist- og kommunehelsetjeneste",
-          "ingress": "Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
+          "ingress": "Figur 1: Rate - kontakter i NPR+KPR m årsvariasjon\n\nFigur 2: Todelt - polikliniske kontakter + kontakter hos fastlege/legevakt\n\nTabellinnhold:\n\n* Rate - kontakter i NPR+KPR\n* Polikliniske kontakter per pasient\n* Kontakter hos fastlege/legevakt per pasient\n* Totalt antall kontakter per pasient?\n* Andel kontakter i spesialisthelsetjenesten?\n\nGrundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -203,7 +203,7 @@
           "oppdatert": "2022-03-02T14:32:22.533Z",
           "overskrift": "Akuttinnleggelser for epilepsi",
           "utvalg": "Akuttinnleggelser med hoveddiagnose G40 (ekskl G40.5), eller G41 (status epileptikus).",
-          "ingress": "Akuttinnleggelser ved epileptiske anfall forekommer normalt i begynnelsen av et sykdomsforløp, når pasienten er under utredning og ennå ikke har fått tilpasset medisinering med antiepileptika. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall.",
+          "ingress": "Figur: Rate - akuttinnleggelser m årsvariasjon\n\nTabellinnhold:\n\n* Rate - akuttinnleggelser m årsvariasjon\n* Antall innleggelser\n* Antall innbyggere?\n\nAkuttinnleggelser ved epileptiske anfall forekommer normalt i begynnelsen av et sykdomsforløp, når pasienten er under utredning og ennå ikke har fått tilpasset medisinering med antiepileptika. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -223,7 +223,7 @@
           "publisert": "2022-03-04T14:16:10.382Z",
           "oppdatert": "2022-03-04T14:16:10.444Z",
           "overskrift": "Intervensjoner",
-          "ingress": "Kirurgi er den eneste potensielt kurative behandlingen for epilepsi. Det anslås et behov på 50-125 epilepsioperasjoner årlig.",
+          "ingress": "NB! Kun tabell! \"Spesialanalyse\" - skal den i resultatboks overhodet?\n\nKirurgi er den eneste potensielt kurative behandlingen for epilepsi. Det anslås et behov på 50-125 epilepsioperasjoner årlig.",
           "karusell": {
             "presentasjonstype": [
               "table"
