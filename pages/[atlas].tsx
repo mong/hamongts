@@ -59,7 +59,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const atlasData = await Promise.all(
     await fs.readdirSync("public/data/").map(async (files) => {
       const fileContent = path.join("public/data/", files);
-      return await csv().fromFile(fileContent);
+      const atlasData = await csv().fromFile(fileContent)
+      const data = {}
+      data[files] = atlasData
+      return data;
     })
   );
 
