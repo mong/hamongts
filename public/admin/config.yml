@@ -126,6 +126,21 @@ collections:
                         name: "ylabel"
                         widget: string
                         default: "Opptaksområder"
+                      - label: "Navn for rate 1"
+                        hint: "Navn som beskriver første rate i to-delt/tre-delt figur"
+                        name: "rate1"
+                        widget: string
+                        required: false
+                      - label: "Navn for rate 2"
+                        hint: "Navn som beskriver andre rate i to-delt/tre-delt figur"
+                        name: "rate2"
+                        widget: string
+                        required: false
+                      - label: "Navn for rate 3"
+                        hint: "Navn som beskriver tredje rate i tre-delt figur"
+                        name: "rate3"
+                        widget: string
+                        required: false
                   - {
                       label: Utvalgsbeskrivelse,
                       name: utvalg,
