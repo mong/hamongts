@@ -39,11 +39,13 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   });
 
   return (
+    <DataContext.Provider value={atlasData} >
     <div>
       {atlasData.map((dt, i) => (
-        <div key={`${dt.bohf}${i}`}>{"dt.bohf"}</div>
+          <div key={`${Object.keys(dt)}${i}`}>{Object.keys(dt)}</div>
       ))}
     </div>
+    </DataContext.Provider>
   );
 };
 
