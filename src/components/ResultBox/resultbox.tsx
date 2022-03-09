@@ -34,7 +34,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   xlabel,
   ylabel,
   lang = "no",
-  carousel
+  carousel,
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
@@ -42,7 +42,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const figdata = atlasData[carousel.data]
+  const figdata = atlasData[carousel.data];
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
@@ -69,40 +69,43 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {title}{" "}
             </h3>
             <ReactMarkdown>{intro}</ReactMarkdown>
-            {figdata && <Abacus
-              data={figdata}
-              x="rateSnitt"
-              colorBy="bohf"
-              width={800}
-              height={80}
-              label={xlabel}
-              xMin={0}
-              xMax={7.0}
-              backgroundColor="inherit"
-            />}
+            {figdata && (
+              <Abacus
+                data={figdata}
+                x="rateSnitt"
+                colorBy="bohf"
+                width={800}
+                height={80}
+                label={xlabel}
+                xMin={0}
+                xMax={7.0}
+                backgroundColor="inherit"
+              />
+            )}
           </div>
         </AccordionSummary>
         <AccordionDetails>
           <Carousel active={0}>
             <CarouselItem label="Stolpediagram">
-              {figdata && <Barchart
-                data={figdata}
-                x={["rateSnitt"]}
-                y="bohf"
-                margin={{
-                  top: 30,
-                  bottom: 50,
-                  right: 60,
-                  left: 130,
-                }}
-                height={500}
-                xLabel={xlabel}
-                yLabel={ylabel}
-                xMin={0}
-                xMax={7}
-                backgroundColor="white"
-              />
-              }
+              {figdata && (
+                <Barchart
+                  data={figdata}
+                  x={["rateSnitt"]}
+                  y="bohf"
+                  margin={{
+                    top: 30,
+                    bottom: 50,
+                    right: 60,
+                    left: 130,
+                  }}
+                  height={500}
+                  xLabel={xlabel}
+                  yLabel={ylabel}
+                  xMin={0}
+                  xMax={7}
+                  backgroundColor="white"
+                />
+              )}
             </CarouselItem>
             <CarouselItem label="Kart">
               {" "}

@@ -5,10 +5,10 @@ import { Group } from "@visx/group";
 type AbacusData<Data, X extends string, ColorBy extends string | undefined> = {
   [k in X & keyof Data]: number | Date;
 } & {
-    [k in ColorBy & keyof Data]?: number | string;
-  } & {
-    [k in keyof Data]?: number | string;
-  };
+  [k in ColorBy & keyof Data]?: number | string;
+} & {
+  [k in keyof Data]?: number | string;
+};
 
 type AbacusProps<Data, X extends string, ColorBy extends string | undefined> = {
   data: AbacusData<Data, X, ColorBy>[];
@@ -56,7 +56,7 @@ export const Abacus = <Data, X extends string, ColorBy extends string>({
   // color legend missing
   //tooltip missing
 
-  const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0])
+  const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
   const colors = ["#6CACE4", "#003087"];

@@ -119,12 +119,11 @@ export const getStaticProps: GetStaticProps = async (context) => {
       data[`data/${files}`] = atlasData;
       return data;
     })
-  )
-  const atlasData = fileData.reduce((result, data,) => {
-    const key: string = Object.keys(data)[0]
+  );
+  const atlasData = fileData.reduce((result, data) => {
+    const key: string = Object.keys(data)[0];
     result[key] = data[key];
-    return result
-
+    return result;
   }, {});
   return {
     props: { content, atlasData },
