@@ -3,13 +3,13 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ReactMarkdown from "react-markdown";
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
 import { Barchart } from "../../charts/barcharts";
 import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
 import styles from "./resultbox.module.css";
+import { Markdown } from "../Markdown";
 
 type ResultBoxProps = {
   title: string;
@@ -64,7 +64,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {" "}
               {title}{" "}
             </h3>
-            <ReactMarkdown>{intro}</ReactMarkdown>
+            <Markdown lang={lang}>{intro}</Markdown>
             <Abacus
               data={atlasData.filter((data) => data.year === "snitt")}
               x="rate1"
@@ -120,12 +120,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {lang === "no" ? "Utvalg" : "Selection"}
             </AccordionSummary>
             <AccordionDetails>
-              <ReactMarkdown>{selection}</ReactMarkdown>
+              <Markdown lang={lang}>{selection}</Markdown>
             </AccordionDetails>
           </Accordion>
           <div className={styles.resultBoxSelectionContent}>
             {" "}
-            <ReactMarkdown>{result}</ReactMarkdown>
+            <Markdown lang={lang}>{result}</Markdown>
           </div>
         </AccordionDetails>
       </Accordion>

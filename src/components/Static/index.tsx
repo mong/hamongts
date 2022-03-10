@@ -1,6 +1,4 @@
-import ReactMarkdown from "react-markdown";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
+import { Markdown } from "../Markdown";
 import Layout from "../Layout";
 import styles from "./static.module.css";
 
@@ -25,12 +23,7 @@ export const PageContent: React.FC<PageContentProps> = ({
           </div>
           <div className={styles.article}>
             <div className={styles.article__content}>
-              <ReactMarkdown
-                rehypePlugins={[rehypeRaw]}
-                remarkPlugins={[remarkGfm]}
-              >
-                {content}
-              </ReactMarkdown>
+              <Markdown lang={frontMatter.lang}>{content}</Markdown>
             </div>
           </div>
         </div>
