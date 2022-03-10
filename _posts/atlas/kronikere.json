@@ -404,6 +404,23 @@
           "ingress": "Migrene forekommer hyppigst hos personer i arbeidsfør alder, og diagnosen er forbundet med økt sykefravær og store kostnader for samfunnet. \n\nAutio H, Purmonen T, Kurki S, Mocevic E, Korolainen MA, Tuominen S, Lassenius MI, Nissilä M. Erenumab Decreases Headache-Related Sick Leave Days and Health Care Visits: A Retrospective Real-World Study in Working Patients with Migraine. Neurol Ther. 2022 Mar;11(1):223-235. doi: 10.1007/s40120-021-00303-x. Epub 2021 Dec 10. PMID: 34888760; PMCID: PMC8660656.\n\nEt samlemål på sykdomsbyrde i en befolkning er tap av leveår og tap av helse, også kalt helsetapsjusterte leveår (Disability adjusted life\nyears (DALY)).  For Norge utgjør migrene årlig om lag 37 000 DALY (FHI 2018) Til sammenligning var tilsvarende tall for brystkreft og depresjon henholdsvis 12 000 og 33 000 (FHI 2018).",
           "utvalg": "Her må utvalget beskrives",
           "resultat": "![file](/helseatlas/img/migrene_alle_sm_ant_fastlege_1820_bohf_aarsvar.png)\n\nOm lag 35 000 sykemeldinger pr. år ble skrevet ut hos fastlegen (?)(for pasienter med migrene el med diag migrene?). Egenmeldinger grunnet migrene registreres ikke, og det reelle sykefraværet knyttet til migrene må derfor antas å være høyere. \n\nRaten nasjonalt var 630 sykemeldinger pr. 100 000 innbyggere. Raten var lavest i opptaksområdet Diakonhjemmet, med 430 sykemeldinger pr. år og høyest for personer bosatt i opptaksområdet til UNN, hvor rater var i underkant av 800 pr. 100 000. For de fleste opptaksområder var det en økning i sykemeldingsraten i perioden."
+        },
+        {
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall per 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "presentasjonstype": [
+              "barchart"
+            ],
+            "data": "/helseatlas/img/migrene_alle_andel_ekons_1820_bohf_todelt1.png"
+          },
+          "publisert": "2022-03-10T09:46:30.748Z",
+          "oppdatert": "2022-03-10T09:46:30.908Z",
+          "overskrift": "E-konsultasjoner",
+          "ingress": "Andel e-konsultasjoner",
+          "utvalg": "beskriv utvalget",
+          "resultat": "Vi må først bestemme hvordan denne skal lages, om den skal med?"
         }
       ]
     },
