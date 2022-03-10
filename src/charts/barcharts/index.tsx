@@ -5,8 +5,6 @@ import { Group } from "@visx/group";
 
 import { toBarchart } from "../../helpers/functions/dataTransformation";
 
-import { useResizeObserver } from "../../helpers/hooks";
-
 type BarchartData<
   Data,
   X extends (string & keyof Data)[],
