@@ -42,7 +42,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const figdata = atlasData[carousel.data];
+  const figdata: AtlasData[] = atlasData[carousel.data];
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
