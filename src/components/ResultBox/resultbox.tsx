@@ -3,7 +3,6 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ReactMarkdown from "react-markdown";
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
 import { Barchart } from "../../charts/barcharts";
@@ -12,6 +11,8 @@ import { AtlasData } from "../../types";
 import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
+import { Markdown } from "../Markdown";
+
 
 type ResultBoxProps = {
   title: string;
@@ -68,20 +69,18 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {" "}
               {title}{" "}
             </h3>
-            <ReactMarkdown>{intro}</ReactMarkdown>
-            {figdata && (
-              <Abacus
-                data={figdata}
-                x="rateSnitt"
-                colorBy="bohf"
-                width={800}
-                height={80}
-                label={xlabel}
-                xMin={0}
-                xMax={7.0}
-                backgroundColor="inherit"
-              />
-            )}
+            <Markdown lang={lang}>{intro}</Markdown>
+            <Abacus
+              data={atlasData.filter((data) => data.year === "snitt")}
+              x="rate1"
+              colorBy="bohf"
+              width={800}
+              height={80}
+              label={xlabel}
+              xMin={0}
+              xMax={3.0}
+              backgroundColor="inherit"
+            />
           </div>
         </AccordionSummary>
         <AccordionDetails>
@@ -128,12 +127,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {lang === "no" ? "Utvalg" : "Selection"}
             </AccordionSummary>
             <AccordionDetails>
-              <ReactMarkdown>{selection}</ReactMarkdown>
+              <Markdown lang={lang}>{selection}</Markdown>
             </AccordionDetails>
           </Accordion>
           <div className={styles.resultBoxSelectionContent}>
             {" "}
-            <ReactMarkdown>{result}</ReactMarkdown>
+            <Markdown lang={lang}>{result}</Markdown>
           </div>
         </AccordionDetails>
       </Accordion>

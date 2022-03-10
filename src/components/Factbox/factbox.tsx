@@ -3,7 +3,7 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ReactMarkdown from "react-markdown";
+import { Markdown } from "../Markdown";
 
 type FactBoxProps = {
   boxTitle: string;
@@ -44,7 +44,7 @@ export const FactBox: React.FC<FactBoxProps> = ({
           {boxTitle}
         </AccordionSummary>
         <AccordionDetails>
-          <ReactMarkdown>{boxContent}</ReactMarkdown>
+          <Markdown lang="no">{boxContent}</Markdown>
         </AccordionDetails>
       </Accordion>
     </div>

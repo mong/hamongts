@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import { Markdown } from "../Markdown";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { useTransition, animated, easings } from "react-spring";
 
@@ -57,7 +57,7 @@ export const PopUp = ({ children, btnComponent }: PopUpProps) => {
               >
                 <AiOutlineCloseCircle style={{ alignSelf: "end" }} size={30} />
               </button>
-              <ReactMarkdown>{children}</ReactMarkdown>
+              <Markdown lang="no">{children}</Markdown>
             </animated.div>
           )
       )}
