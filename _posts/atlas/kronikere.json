@@ -74,7 +74,7 @@
             "xlabel": "Andel MS-pasienter i høyaktiv behandling",
             "ylabel": "Opptaksområder"
           },
-          "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen."
+          "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen.\n\n![](/helseatlas/img/antall_legemidler.png)\n\nDet var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det varierte fra år til år hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris, samt at nye studier gir ny kunnskap om medikamentene som kan føre til endringer i bruk."
         },
         {
           "type": "tekst",
