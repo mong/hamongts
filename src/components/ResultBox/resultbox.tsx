@@ -70,17 +70,19 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               {title}{" "}
             </h3>
             <Markdown lang={lang}>{intro}</Markdown>
-            <Abacus
-              data={atlasData.filter((data) => data.year === "snitt")}
-              x="rate1"
-              colorBy="bohf"
-              width={800}
-              height={80}
-              label={xlabel}
-              xMin={0}
-              xMax={3.0}
-              backgroundColor="inherit"
-            />
+            {figdata && (
+              <Abacus
+                data={figdata}
+                x="rateSnitt"
+                colorBy="bohf"
+                width={800}
+                height={80}
+                label={xlabel}
+                xMin={0}
+                xMax={7.0}
+                backgroundColor="inherit"
+              />
+            )}
           </div>
         </AccordionSummary>
         <AccordionDetails>
