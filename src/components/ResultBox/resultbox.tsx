@@ -13,7 +13,6 @@ import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
 
-
 type ResultBoxProps = {
   title: string;
   carousel: karusell;

@@ -46,6 +46,7 @@ type BarchartProps<
   tickLength?: number;
   yInnerPadding?: number;
   yOuterPadding?: number;
+  annualVar?: Partial<keyof Data>[];
 };
 
 export const Barchart = <
@@ -79,6 +80,7 @@ export const Barchart = <
   tickLength = 3,
   yInnerPadding = 0.3,
   yOuterPadding = 0.2,
+  annualVar,
 }: BarchartProps<Data, X, Y, ColorBy>) => {
   //missing
   // color legend
@@ -171,6 +173,35 @@ export const Barchart = <
             );
             return bars;
           })}
+          {!annualVar &&
+            data.map((d, i) => {
+              console.log(d);
+              return (
+                <Group top={yScale.bandwidth() / 2} key={`${d["bohf"]}${i}`}>
+                  <circle
+                    r={3}
+                    cx={xScale(d["rate2018"])}
+                    cy={yScale(d["bohf"].toString())}
+                    fill={"black"}
+                    stroke={"black"}
+                  />
+                  <circle
+                    r={5}
+                    cx={xScale(d["rate2019"])}
+                    cy={yScale(d["bohf"].toString())}
+                    fill={"grey"}
+                    stroke={"black"}
+                  />
+                  <circle
+                    r={7}
+                    cx={xScale(d["rate2020"])}
+                    cy={yScale(d["bohf"].toString())}
+                    fill="none"
+                    stroke={"black"}
+                  />
+                </Group>
+              );
+            })}
         </Group>
       </svg>
     </div>
