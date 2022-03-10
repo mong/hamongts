@@ -261,7 +261,7 @@
               "table",
               "map"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/parkinson_pasienter_alle.csv",
             "xlabel": "Antall pasienter per 1 000 innbyggere 18 - 105 år",
             "ylabel": "Opptaksområder"
           },
