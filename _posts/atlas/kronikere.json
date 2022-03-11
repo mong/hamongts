@@ -188,8 +188,8 @@
           "type": "resultatboks",
           "publisert": "2022-03-04T14:15:26.611Z",
           "oppdatert": "2022-03-04T14:15:26.670Z",
-          "overskrift": "Pasientoppfølging i spesialist- og kommunehelsetjeneste",
-          "ingress": "Figur 1: Rate - kontakter i NPR+KPR m årsvariasjon\n\nFigur 2: Todelt - polikliniske kontakter + kontakter hos fastlege/legevakt\n\nTabellinnhold:\n\n* Rate - kontakter i NPR+KPR\n* Polikliniske kontakter per pasient\n* Kontakter hos fastlege/legevakt per pasient\n* Totalt antall kontakter per pasient?\n* Andel kontakter i spesialisthelsetjenesten?\n\nGrundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.",
+          "overskrift": "Oppfølging i spesialist- og kommunehelsetjeneste for pasienter med epilepsi",
+          "ingress": "Figur 1: Rate - kontakter i NPR+KPR m årsvariasjon\n\nFigur 2: Todelt - polikliniske kontakter + kontakter hos fastlege/legevakt\n\nTabellinnhold:\n\n* Rate - kontakter i NPR+KPR\n* Polikliniske kontakter per pasient\n* Kontakter hos fastlege/legevakt per pasient\n* Totalt antall kontakter per pasient?\n* Andel kontakter i spesialisthelsetjenesten?\n\nGrundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.\n\nTotalt sett var det lite variasjon mellom opptaksområdene i bruk av kontakter i spesialist- og kommunehelsetjenesten. Arbeidsdelingen mellom spesialist- og kommunehelsetjenesten var noe ulik for barn og eldre enn for pasientpopulasjonen sett under ett.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -198,8 +198,8 @@
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
-          "utvalg": "Utvalget her består av 31. 401 personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Det er i tillegg stilt krav om gjentatt diagnose med minst ett års mellomrom for å bli inkludert i utvalget. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
-          "resultat": "Resultater"
+          "utvalg": "Utvalget består av XXXX personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021. For å bli inkludert i utvalget er det er stilt krav om minst tre kontakter i perioden 2018-2021 (fordelt på tre ulike dager) med en av de aktuelle diagnosekodene, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
+          "resultat": "Pasientene i utvalget fikk i snitt 2,4 kontakter pr. år, hos spesialist eller fastlege/legevakt. Omlag halvparten av kontaktene var hos spesialist. Det var lite variasjon mellom opptaksområdene. Dette gjelder både totalt antall kontakter pr. 1000 innbyggere, antall kontakter pr. pasient hos hhv. spesialist og fastlege/legevakt og fordelingen mellom kontakter i spesialist- og kommunehelsetjenesten. \n\n\nArbeidsdelingen mellom spesialist- og kommunehelsetjenesten var noe ulik for barn og eldre enn for pasientpopulasjonen sett under ett. Barn hadde færre kontakter hos fastlege/legevakt (i snitt 0,7 kontakter pr. år) og flere kontakter hos spesialist (i snitt 2,3 kontakter pr. år), mens eldre hadde færre kontakter hos spesialist (i snitt 0,7 kontakter pr år)."
         },
         {
           "type": "resultatboks",
