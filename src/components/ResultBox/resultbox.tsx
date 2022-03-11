@@ -70,17 +70,15 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
-              <Abacus
-                data={figdata}
-                x="rateSnitt"
-                colorBy="bohf"
-                width={800}
-                height={80}
-                label={xlabel}
-                xMin={0}
-                xMax={7.0}
-                backgroundColor="inherit"
-              />
+                <Abacus
+                  data={figdata}
+                  x="rateSnitt"
+                  colorBy="bohf"
+                  width={800}
+                  height={80}
+                  label={xlabel}
+                  backgroundColor="inherit"
+                />
             )}
           </div>
         </AccordionSummary>
@@ -101,8 +99,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   height={500}
                   xLabel={xlabel}
                   yLabel={ylabel}
-                  xMin={0}
-                  xMax={7}
                   backgroundColor="white"
                   annualVar={["rate2018", "rate2019", "rate2020"]}
                 />

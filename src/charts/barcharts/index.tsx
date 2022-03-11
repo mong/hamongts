@@ -2,7 +2,7 @@ import React from "react";
 import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
-
+import { max } from "d3-array";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
 import { AnnualVariation } from "./AnnualVariation";
 
@@ -12,17 +12,17 @@ export type BarchartData<
   Y extends keyof Data,
   ColorBy extends keyof Data,
   AnnualVar extends (keyof Data)[]
-  > = {
-    [k in keyof Data & keyof X]: number;
-  } & {
-    [k in Y]: string;
-  } & {
-    [k in ColorBy]?: number | string;
-  } & {
-    [k in keyof Data]?: number | string;
-  } & {
-    [k in keyof Data & keyof AnnualVar]?: number;
-  };
+> = {
+  [k in keyof Data & keyof X]: number;
+} & {
+  [k in Y]: string;
+} & {
+  [k in ColorBy]?: number | string;
+} & {
+  [k in keyof Data]?: number | string;
+} & {
+  [k in keyof Data & keyof AnnualVar]?: number;
+};
 
 type BarchartProps<
   Data,
@@ -30,30 +30,30 @@ type BarchartProps<
   Y extends string & keyof Data,
   ColorBy extends keyof Data,
   AnnualVar extends (string & keyof Data)[]
-  > = {
-    data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
-    x: X;
-    y: Y;
-    width?: number;
-    height?: number;
-    margin?: { top: number; bottom: number; right: number; left: number };
-    xLabel?: string;
-    yLabel?: string;
-    xMin?: number;
-    xMax: number;
-    backgroundColor?: string;
-    xAxisLineStroke?: string;
-    xAxisTickStroke?: string;
-    xAxisLineStrokeWidth?: number;
-    yAxisLineStroke?: string;
-    yAxisTickStroke?: string;
-    yAxisLineStrokeWidth?: number;
-    tickLength?: number;
-    yInnerPadding?: number;
-    yOuterPadding?: number;
-    annualVar?: AnnualVar;
-    annualVarLabels?: number[];
-  };
+> = {
+  data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
+  x: X;
+  y: Y;
+  width?: number;
+  height?: number;
+  margin?: { top: number; bottom: number; right: number; left: number };
+  xLabel?: string;
+  yLabel?: string;
+  xMin?: number;
+  xMax?: number;
+  backgroundColor?: string;
+  xAxisLineStroke?: string;
+  xAxisTickStroke?: string;
+  xAxisLineStrokeWidth?: number;
+  yAxisLineStroke?: string;
+  yAxisTickStroke?: string;
+  yAxisLineStrokeWidth?: number;
+  tickLength?: number;
+  yInnerPadding?: number;
+  yOuterPadding?: number;
+  annualVar?: AnnualVar;
+  annualVarLabels?: number[];
+};
 
 export const Barchart = <
   Data,
@@ -101,6 +101,15 @@ export const Barchart = <
     data,
     x
   );
+
+  const values = [
+    ...annualVar.flatMap((annual) =>
+      data.flatMap((dt) => parseInt(dt[annual]))
+    ),
+    ...series.flat().flat().flat(),
+  ];
+  const xMaxVal = xMax ? xMax : max(values) * 1.1;
+
   const colors = ["#003087", "#6CACE4"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -108,7 +117,7 @@ export const Barchart = <
   });
 
   const xScale = scaleLinear<number>({
-    domain: [xMin, xMax],
+    domain: [0, xMaxVal],
     range: [0, innerWidth],
   });
 
@@ -151,7 +160,7 @@ export const Barchart = <
             scale={xScale}
             strokeWidth={xAxisLineStrokeWidth}
             stroke={xAxisLineStroke}
-            tickValues={[xMin, xMax]}
+            tickValues={[xMin, xMaxVal]}
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}

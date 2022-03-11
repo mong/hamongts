@@ -1,6 +1,7 @@
 import { AxisBottom } from "@visx/axis";
-import { scaleLinear, scaleOrdinal } from "@visx/scale";
+import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
+import { max } from "d3-array";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -24,7 +25,7 @@ type AbacusProps<
   colorBy?: ColorBy;
   label?: string;
   xMin?: number;
-  xMax: number;
+  xMax?: number;
   backgroundColor?: string;
   axisLineStroke?: string;
   axisTickStroke?: string;
@@ -65,12 +66,15 @@ export const Abacus = <
   //tooltip missing
 
   const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
+  const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
+  const xMaxVal = xMax ? xMax : max(values) * 1.1;
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
   const colors = ["#6CACE4", "#003087"];
+  console.log(xMaxVal);
 
   const xScale = scaleLinear<number>({
-    domain: [xMin, xMax],
+    domain: [xMin, xMaxVal],
     range: [0, innerWidth],
   });
   return (
@@ -81,7 +85,7 @@ export const Abacus = <
           scale={xScale}
           strokeWidth={axisLineStrokeWidth}
           stroke={axisLineStroke}
-          tickValues={[xMin, xMax]}
+          tickValues={[xMin, xMaxVal]}
           tickLength={tickLength}
           tickStroke={axisTickStroke}
           tickTransform={`translate(0,-${tickLength / 2})`}
