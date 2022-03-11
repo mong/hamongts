@@ -34,14 +34,6 @@ export const AnnualVariation = function <
   return (
     <>
       <Group top={yScale.bandwidth() / 2}>
-        <line
-          x1={xScale(min(annualRates))}
-          x2={xScale(max(annualRates))}
-          y1={yScale(data[y].toString())}
-          y2={yScale(data[y].toString())}
-          stroke={"black"}
-          strokeWidth="2"
-        />
         {annualVar.reverse().map((d, i) => {
           return (
             <circle
@@ -59,6 +51,14 @@ export const AnnualVariation = function <
             />
           );
         })}
+        <line
+          x1={xScale(min(annualRates))}
+          x2={xScale(max(annualRates))}
+          y1={yScale(data[y].toString())}
+          y2={yScale(data[y].toString())}
+          stroke={"black"}
+          strokeWidth="2"
+        />
       </Group>
     </>
   );
