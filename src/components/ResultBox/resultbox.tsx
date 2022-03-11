@@ -104,6 +104,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   xMin={0}
                   xMax={7}
                   backgroundColor="white"
+                  annualVar={["rate2018", "rate2019", "rate2020"]}
                 />
               )}
             </CarouselItem>
