@@ -71,7 +71,6 @@ export const Abacus = <
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
   const colors = ["#6CACE4", "#003087"];
-  console.log(xMaxVal);
 
   const xScale = scaleLinear<number>({
     domain: [xMin, xMaxVal],
