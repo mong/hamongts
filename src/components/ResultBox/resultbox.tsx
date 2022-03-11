@@ -12,6 +12,7 @@ import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
+import { useResizeObserver } from "../../helpers/hooks";
 
 type ResultBoxProps = {
   title: string;
@@ -40,6 +41,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
   const [expandedSelection, setExpandedSelection] =
     React.useState<boolean>(false);
+  const resultBoxRef = React.useRef<HTMLDivElement>();
+  const containerObserver = useResizeObserver(resultBoxRef);
+  const width = resultBoxRef.current
+    ? containerObserver.contentRect.width * 0.7
+    : 0;
 
   const atlasData = React.useContext(DataContext);
   const figdata: AtlasData[] = atlasData[carousel.data];
@@ -48,6 +54,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   return (
     <div className={styles.resultBoxWrapper}>
       <Accordion
+        ref={resultBoxRef}
         sx={{
           boxShadow: 6,
           ":hover": {
@@ -63,22 +70,27 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           aria-controls={`${id}-content`}
           id={`${id}-header`}
         >
-          <div className={styles.resultBoxTitleWrapper}>
+          <div
+            className={styles.resultBoxTitleWrapper}
+            style={{ display: "flex", flexDirection: "column" }}
+          >
             <h3 id={title.toLocaleLowerCase().replace(/\s/g, "-")}>
               {" "}
               {title}{" "}
             </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
+              <div style={{ margin: "auto" }}>
                 <Abacus
                   data={figdata}
                   x="rateSnitt"
                   colorBy="bohf"
-                  width={800}
+                  width={width}
                   height={80}
                   label={xlabel}
                   backgroundColor="inherit"
                 />
+              </div>
             )}
           </div>
         </AccordionSummary>
@@ -96,6 +108,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                     right: 60,
                     left: 130,
                   }}
+                  width={width}
                   height={500}
                   xLabel={xlabel}
                   yLabel={ylabel}
