@@ -11,6 +11,7 @@ import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
+import { DataContext } from "../src/components/Context";
 
 interface AtlasPageProps {
   content: string;
@@ -39,7 +40,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   });
 
   return (
-    <>
+    <DataContext.Provider value={atlasData}>
       <Layout lang={obj.lang}>
         <main>
           <TopBanner
@@ -92,12 +93,12 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
             <div>
               <h1>{obj.mainTitle}</h1>
               <div className="ingress">{obj.ingress}</div>
-              <Chapters innhold={obj.kapittel} atlasData={atlasData} />
+              <Chapters innhold={obj.kapittel} />
             </div>
           </div>
         </main>
       </Layout>
-    </>
+    </DataContext.Provider>
   );
 };
 
@@ -109,14 +110,21 @@ export const getStaticProps: GetStaticProps = async (context) => {
   );
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
-  const atlasDataDir = path.join(
-    process.cwd(),
-    "data/injeksjoner_artritt_med_uten_UL.csv"
-  );
-  const atlasData = await csv({
-    delimiter: ";",
-  }).fromFile(atlasDataDir);
 
+  const fileData = await Promise.all(
+    await fs.readdirSync("public/data/").map(async (files) => {
+      const fileContent = path.join("public/data/", files);
+      const atlasData = await csv().fromFile(fileContent);
+      const data = {};
+      data[`data/${files}`] = atlasData;
+      return data;
+    })
+  );
+  const atlasData = fileData.reduce((result, data) => {
+    const key: string = Object.keys(data)[0];
+    result[key] = data[key];
+    return result;
+  }, {});
   return {
     props: { content, atlasData },
   };

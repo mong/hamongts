@@ -15,7 +15,7 @@ type Faktaboks = {
   tekst: string;
 };
 
-type karusell = {
+export type karusell = {
   presentasjonstype: string[];
   data: string;
   xlabel: string;
@@ -35,12 +35,10 @@ type Resultatboks = {
 export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
-  atlasData: AtlasData[];
 };
 
 type ChaptersProps = {
   innhold: ChapterProps[];
-  atlasData: AtlasData[];
 };
 
 const json2atlas = {
@@ -49,17 +47,17 @@ const json2atlas = {
   resultatboks: ResultBox,
 };
 
-export const Chapters = ({ innhold, atlasData }: ChaptersProps) => {
+export const Chapters = ({ innhold }: ChaptersProps) => {
   return (
     <>
       {innhold.map((chapter) => (
-        <Chapter atlasData={atlasData} key={chapter.overskrift} {...chapter} />
+        <Chapter key={chapter.overskrift} {...chapter} />
       ))}
     </>
   );
 };
 
-const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
+const Chapter = ({ innhold, overskrift }: ChapterProps) => {
   return (
     <>
       <h2 id={overskrift.toLowerCase().replace(/\s/g, "-")}>{overskrift}</h2>
@@ -79,7 +77,7 @@ const Chapter = ({ innhold, overskrift, atlasData }: ChapterProps) => {
                   intro: box.ingress,
                   selection: box.utvalg,
                   id: box.overskrift,
-                  atlasData: atlasData,
+                  carousel: box.karusell,
                   xlabel: box.karusell.xlabel,
                   ylabel: box.karusell.ylabel,
                 }
