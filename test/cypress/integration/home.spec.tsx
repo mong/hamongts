@@ -20,9 +20,7 @@ context("Home Page", () => {
     cy.visit("/statisk/kontakt");
     cy.get("a").contains("skde.helseatlas@helse-nord.no");
     cy.visit("/en/static/map");
-    cy.get("h1").contains(
-      "Communicating statistics by means of maps"
-    );
+    cy.get("h1").contains("Communicating statistics by means of maps");
     cy.visit("/en/static/about");
     cy.get("a").contains("Communicating statistics by means of maps");
     cy.visit("/en/static/contact");
@@ -66,7 +64,20 @@ context("Modern atlases", () => {
   it("should visit an atlas", () => {
     cy.visit("/test_atlas");
     cy.get("h1").contains("Helseatlas for fødselshjelp 2.0");
-    cy.get("h3").contains("Svangerskapsdiabetes").click().get("tspan").contains("tekst2")
+    /* Fact box */
+    cy.get("div")
+      .contains("Svangeskapsdiabetes")
+      .click()
+      .get("p")
+      .contains(
+        "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet"
+      );
+    /* Result box */
+    cy.get("h3")
+      .contains("Svangerskapsdiabetes")
+      .click()
+      .get("tspan")
+      .contains("tekst2");
   });
 });
 
