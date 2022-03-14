@@ -2,7 +2,6 @@
 .next/
 .nyc_output/
 coverage/
-cypress/
 node_modules/
 public/ia/
 package-lock.json
