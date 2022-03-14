@@ -66,6 +66,7 @@ context("Modern atlases", () => {
   it("should visit an atlas", () => {
     cy.visit("/test_atlas");
     cy.get("h1").contains("Helseatlas for fødselshjelp 2.0");
+    cy.get("h3").contains("Svangerskapsdiabetes").click().get("tspan").contains("tekst2")
   });
 });
 
