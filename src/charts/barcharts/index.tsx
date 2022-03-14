@@ -12,17 +12,17 @@ export type BarchartData<
   Y extends keyof Data,
   ColorBy extends keyof Data,
   AnnualVar extends (keyof Data)[]
-  > = {
-    [k in keyof Data & keyof X]: number;
-  } & {
-    [k in Y]: string;
-  } & {
-    [k in ColorBy]?: number | string;
-  } & {
-    [k in keyof Data]?: number | string;
-  } & {
-    [k in keyof Data & keyof AnnualVar]?: number;
-  };
+> = {
+  [k in keyof Data & keyof X]: number;
+} & {
+  [k in Y]: string;
+} & {
+  [k in ColorBy]?: number | string;
+} & {
+  [k in keyof Data]?: number | string;
+} & {
+  [k in keyof Data & keyof AnnualVar]?: number;
+};
 
 type BarchartProps<
   Data,
@@ -30,30 +30,30 @@ type BarchartProps<
   Y extends string & keyof Data,
   ColorBy extends keyof Data,
   AnnualVar extends (string & keyof Data)[]
-  > = {
-    data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
-    x: X;
-    y: Y;
-    width?: number;
-    height?: number;
-    margin?: { top: number; bottom: number; right: number; left: number };
-    xLabel?: string;
-    yLabel?: string;
-    xMin?: number;
-    xMax: number;
-    backgroundColor?: string;
-    xAxisLineStroke?: string;
-    xAxisTickStroke?: string;
-    xAxisLineStrokeWidth?: number;
-    yAxisLineStroke?: string;
-    yAxisTickStroke?: string;
-    yAxisLineStrokeWidth?: number;
-    tickLength?: number;
-    yInnerPadding?: number;
-    yOuterPadding?: number;
-    annualVar?: AnnualVar;
-    annualVarLabels?: number[];
-  };
+> = {
+  data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
+  x: X;
+  y: Y;
+  width?: number;
+  height?: number;
+  margin?: { top: number; bottom: number; right: number; left: number };
+  xLabel?: string;
+  yLabel?: string;
+  xMin?: number;
+  xMax: number;
+  backgroundColor?: string;
+  xAxisLineStroke?: string;
+  xAxisTickStroke?: string;
+  xAxisLineStrokeWidth?: number;
+  yAxisLineStroke?: string;
+  yAxisTickStroke?: string;
+  yAxisLineStrokeWidth?: number;
+  tickLength?: number;
+  yInnerPadding?: number;
+  yOuterPadding?: number;
+  annualVar?: AnnualVar;
+  annualVarLabels?: number[];
+};
 
 export const Barchart = <
   Data,
