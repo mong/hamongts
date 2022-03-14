@@ -9,4 +9,7 @@ export type AtlasData = {
   rate2: number;
   year: number | string;
   rateSnitt: number;
+  rate2018: number;
+  rate2019: number;
+  rate2020: number;
 };

@@ -13,7 +13,6 @@ import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
 
-
 type ResultBoxProps = {
   title: string;
   carousel: karusell;
@@ -105,6 +104,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   xMin={0}
                   xMax={7}
                   backgroundColor="white"
+                  annualVar={["rate2018", "rate2019", "rate2020"]}
                 />
               )}
             </CarouselItem>

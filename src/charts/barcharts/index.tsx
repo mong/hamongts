@@ -4,12 +4,14 @@ import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
 
 import { toBarchart } from "../../helpers/functions/dataTransformation";
+import { AnnualVariation } from "./AnnualVariation";
 
-type BarchartData<
+export type BarchartData<
   Data,
   X extends (string & keyof Data)[],
   Y extends keyof Data,
-  ColorBy extends keyof Data
+  ColorBy extends keyof Data,
+  AnnualVar extends (keyof Data)[]
 > = {
   [k in keyof Data & keyof X]: number;
 } & {
@@ -18,15 +20,18 @@ type BarchartData<
   [k in ColorBy]?: number | string;
 } & {
   [k in keyof Data]?: number | string;
+} & {
+  [k in keyof Data & keyof AnnualVar]?: number;
 };
 
 type BarchartProps<
   Data,
   X extends (string & keyof Data)[],
   Y extends string & keyof Data,
-  ColorBy extends keyof Data
+  ColorBy extends keyof Data,
+  AnnualVar extends (string & keyof Data)[]
 > = {
-  data: BarchartData<Data, X, Y, ColorBy>[];
+  data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
   x: X;
   y: Y;
   width?: number;
@@ -46,13 +51,16 @@ type BarchartProps<
   tickLength?: number;
   yInnerPadding?: number;
   yOuterPadding?: number;
+  annualVar?: AnnualVar;
+  annualVarLabels?: number[];
 };
 
 export const Barchart = <
   Data,
   X extends (string & keyof Data)[],
   Y extends string & keyof Data,
-  ColorBy extends string & keyof Data
+  ColorBy extends string & keyof Data,
+  AnnualVar extends (string & keyof Data)[]
 >({
   width = 600,
   height = 500,
@@ -79,7 +87,9 @@ export const Barchart = <
   tickLength = 3,
   yInnerPadding = 0.3,
   yOuterPadding = 0.2,
-}: BarchartProps<Data, X, Y, ColorBy>) => {
+  annualVar,
+  annualVarLabels,
+}: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
   //missing
   // color legend
   //tooltip
@@ -87,7 +97,10 @@ export const Barchart = <
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
 
-  const series = toBarchart<BarchartData<Data, X, Y, ColorBy>, X>(data, x);
+  const series = toBarchart<BarchartData<Data, X, Y, ColorBy, AnnualVar>, X>(
+    data,
+    x
+  );
   const colors = ["#003087", "#6CACE4"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -171,6 +184,20 @@ export const Barchart = <
             );
             return bars;
           })}
+          {annualVar &&
+            data.map((d, i) => {
+              return (
+                <AnnualVariation
+                  data={d}
+                  xScale={xScale}
+                  yScale={yScale}
+                  annualVar={annualVar}
+                  y={y}
+                  labels={annualVarLabels}
+                  key={`${d["bohf"]}${i}`}
+                />
+              );
+            })}
         </Group>
       </svg>
     </div>
