@@ -33,9 +33,11 @@
               "barchart",
               "table"
             ],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "data/epilepsi_pasienter_Barn.csv",
             "xlabel": "tekst1",
-            "ylabel": "tekst2"
+            "ylabel": "tekst2",
+            "rate1": "sykdom 1",
+            "rate2": "sykdom 2"
           },
           "utvalg": "Tilstandskoder (fra kodeverket ICPC-2) W 85 Svangerskapsdiabetes",
           "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer.",
