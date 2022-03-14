@@ -19,6 +19,14 @@ context("Home Page", () => {
     cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
     cy.visit("/statisk/kontakt");
     cy.get("a").contains("skde.helseatlas@helse-nord.no");
+    cy.visit("/en/static/map");
+    cy.get("h1").contains(
+      "Communicating statistics by means of maps"
+    );
+    cy.visit("/en/static/about");
+    cy.get("a").contains("Communicating statistics by means of maps");
+    cy.visit("/en/static/contact");
+    cy.get("a").contains("skde.helseatlas@helse-nord.no");
   });
 });
 
