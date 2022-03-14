@@ -404,49 +404,19 @@
       ]
     },
     {
-      "overskrift": "Kroniske inflammatoriske leddsykdommer (artritt) - EKSEMPELKAPITTEL",
+      "overskrift": "Utvalg av tilstander og pasienter i atlaset",
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Artritt er en betennelsestilstand der immunforsvaret angriper kroppens celler i leddene. Artritt kan ramme både små og store ledd i kroppen.\n\n\r\nMennesker som er rammet av artritt kan oppleve smerter og funksjonsbegrensninger som kan gi redusert livskvalitet og i alvorlige tilfeller også redusert livslengde. De siste årene har nye behandlingsmetoder gitt vesentlig bedre leveutsikter for mennesker med artritt.\r"
-        },
-        {
-          "type": "resultatboks",
-          "publisert": "2022-03-01T15:27:02.628Z",
-          "oppdatert": "2022-03-01T15:27:02.657Z",
-          "ingress": "Ved periodevise forverringer kan artritt behandles med injeksjon av kortisonpreparater direkte i leddene. Dette kan gjøres med eller uten ultralydveiledning, på sykehus eller hos privatpraktiserende spesialist (avtalespesialist). ",
-          "resultat": "I perioden 2018-2020 fikk bosatte i opptaksområdet Nordland omlag tre ganger så mange injeksjonsbehandlinger per 1000 innbyggere som bosatte i opptaksområdet Helgeland. Andel injeksjoner som ble gjort med ultralydveiledning varierte sterkt, fra 2,9% for bosatte i opptaksområdet Førde til 79% for bosatte i opptaksområdet Vestfold. Ultralydveiledning kan gi bedre treffsikkerhet og dermed potensielt bedre behandlingseffekt.",
-          "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
-            "data": "data/epilepsi_pasienter_alle.csv",
-            "xlabel": "Antall per 10 000 innbyggere",
-            "ylabel": "Opptaksområder"
-          },
-          "overskrift": "Injeksjonsbehandlinger ved artritt",
-          "utvalg": "Utvalg..."
+          "tekst": "*Atlaset tar for seg helsetjenestebruk for ti utvalgte kroniske sykdommer. De ti tilstandene er valgt ut på bakgrunn av fem kriterier, bl.a. knyttet til størrelsen på pasientgruppa og hvorvidt pasientene har behov for oppfølging i spesialisthelsetjenesten over tid. Pasientene som er inkludert i analysene i atlaset utgjør bare en andel av alle pasienter i Norge som har disse ti kroniske sykdommene.*"
         },
         {
           "type": "tekst",
-          "tekst": "I perioden 2018-2020 var det omlag 40 000 pasienter årlig som hadde en eller flere kontakter med spesialisthelsetjenesten for artritt (lenke til utvalgsdefinisjon?).\n\nAv disse hadde omlag halvparten revmatoid artritt (leddgikt), en fjerdedel hadde psoriasisartritt og en fjerdedel hadde artritt i rygg/bekken. Det var begrenset overlapp mellom disse tre gruppene (færre enn 1000 pasienter pr år).\n\n"
+          "tekst": "### Tilstandene\n\nI internasjonalt publisert litteratur finnes det ulike definisjoner av kronisk syke (e.g. REFREFREF). Avhengig av hvilken definisjon man velger vil kronisk syke omfatte en varierende andel av pasientene som behandles i spesialisthelsetjenesten. En bred definisjon vil kunne omfatte så mye som 50-60% av alle pasienter som årlig behandles i norsk spesialisthelsetjeneste. \nI helseatlaset har vi begrenset oss til å undersøke et utvalg kroniske somatiske tilstander. Tilstandene er valgt ut ved hjelp av fem kriterier, hvorav tre er knyttet til tilstanden og to til datagrunnlaget:\n\n1. Tilstanden er ikke-reversibel - kan behandles, men ikke kureres\n2. Pasienten opplever et vesentlig tap av helsestatus eller livskvalitet\n3. Pasienten har behov for oppfølging i spesialisthelsetjenesten over lengre tid\n4. Data har tilstrekkelig validitet (pålitelig koding)\n5. Pasientgruppa er stor nok til at det er mulig å skille tilfeldig og systematisk variasjon\n\n\nUt fra disse kriteriene har vi valgt ti tilstander som dekkes av atlaset. Disse er delt opp i tre «pakker» som vil publiseres hver for seg med noen måneders mellomrom.\n\n1. Nevrologiske tilstander\n   a.\tParkinsons sykdom\n   b.\tMultippel sklerose\n   c.\tEpilepsi\n   d.\tMigrene\n2. Autoimmune tilstander\n   a.\tPsoriasis\n   b.\tArtritt\n   c.\tInflammatorisk tarmsykdom\n3. Andre tilstander/oppdatering av tidligere analyser fra Helseatlas\n   a.\tHjertesvikt\n   b.\tKols\n   c.\tEndometriose"
         },
         {
-          "type": "resultatboks",
-          "publisert": "2022-03-01T15:31:56.381Z",
-          "oppdatert": "2022-03-01T15:31:56.401Z",
-          "overskrift": "Antall kontakter",
-          "resultat": "\r\nDet var stor geografisk variasjon i andelen pasienter med revmatoid artritt som hadde mange polikliniske kontakter (seks eller flere polikliniske kontakter pr år). For bosatte i opptaksområdene Diakonhjemmet og Lovisenberg var andelen pasienter med mange kontakter (24 %) fire ganger så høy som for bosatte i opptaksområdet Nord-Trøndelag (6%). Opptaksområdene Diakonhjemmet og Lovisenberg hadde også en lav andel (under 50%) med få kontakter (en eller to pr år). Opptaksområdet Helgeland hadde høyest andel med få kontakter (76 %). På individnivå var det en svak korrelasjon (Pearsons korrelasjonskoeffisient = 0,3) mellom ",
-          "ingress": "Ifølge [nasjonal prosedyre for diagnostikk, behandling og oppfølging av revmatoid artritt](https://www.legeforeningen.no/contentassets/17680701898944129b38d3540d917518/revmatoid-artritt-2017.pdf) skal behandling med DMARDs (Disease Modyfing AntiRheumatic Drugs – sykdomsmodifiserende legemidler) starte så snart diagnosen er avklart. Pasienten skal deretter til jevnlige kontroller, der kontrollhyppigheten avhenger av sykdomsaktivitet. Ved høy sykdomsaktivitet skal pasienten til kontroll hver måned og ved moderat sykdomsaktivitet hver andre måned (tilsvarende seks kontakter eller flere pr. år). Ved lav sykdomsaktivitet eller remisjon (bedring) skal pasienten til kontroll hver tredje måned. Dersom behandlingsmålet oppnås (pasienten opplever bedring eller vedvarende lav sykdomsaktivitet) kan pasienten møte til kontroll hver sjette måned eller sjeldnere (tilsvarende en eller to kontakter pr år).",
-          "karusell": {
-            "presentasjonstype": [
-              "barchart"
-            ],
-            "data": "data/epilepsi_pasienter_alle.csv",
-            "xlabel": "Antall per 10 000 innbyggere",
-            "ylabel": "Opptaksområder"
-          },
-          "utvalg": "Utvalg"
+          "type": "tekst",
+          "tekst": "### Overordnet pasientutvalg\n\nDatagrunnlaget for atlaset er aktivitetsdata fra spesialisthelsetjenesten fra Norsk pasientregister (NPR) og aktivitetsdata fra kommunehelsetjenesten fra Kommunalt pasient- og brukerregister (KPR) for perioden 2018-2021. Analysene i atlaset viser data for perioden 2019-2021. Tilstandskodene som kvalifiserer for inklusjon i de ulike gruppene er:\n\n| **Tilstand**       | **ICD-10**           | **ICPC-2** |\n| ------------------ | -------------------- | ---------- |\n| Epilepsi           | G 40, unntatt G 40.5 | N 88       |\n| Migrene            | G 43                 | N 89       |\n| Parkinson          | G 20                 | N 87       |\n| Multippel sklerose | G 35                 | N 86       |\n\n\n\nFor tilstandene Parkinsons sykdom, multippel sklerose, epilepsi og migrene har vi inkludert pasienter som har minst tre kontakter i spesialisthelsetjenesten (NPR) eller hos fastlege/legevakt (KPR) fordelt på tre ulike dager i løpet av inklusjonsperioden (2018-2021), med en av de aktuelle tilstandskodene. Minst en av kontaktene må være med en av de aktuelle tilstandskodene som hovedtilstand. \n\nDe fleste pasienter med Parkinson, multippel sklerose eller epilepsi vil ha jevnlig kontakt og oppfølging både hos sin fastlege og i spesialisthelsetjenesten. Det betyr at de fleste pasienter som i perioden hadde - eller ble utredet og fikk - en av disse diagnosene, vil bli inkludert i utvalget. Samtidig vil en del pasienter som i en utredningsfase fikk en preliminær diagnose som senere ble utelukket, sannsynligvis bli ekskludert fordi denne diagnosen ikke gjentas ved senere kontakter.\n\n\nMange pasienter med migrene har mer sporadisk kontakt med helsetjenesten. For denne pasientgruppen vil derfor kravet om minst tre kontakter bety at de migrenepasientene som er inkludert i atlaset kun utgjør en liten andel av alle som har migrene – den andelen migrenepasienter som i perioden hadde mest kontakt med helsetjenesten.\n\n\nEn utfordring ved inklusjonskravet om minst tre kontakter i perioden er at en del pasienter som startet utredning eller behandling i løpet av det siste året ikke vil rekke å få tre kontakter før året er omme, og antall pasienter i utvalget pr. år blir derfor litt lavere det siste året. Denne effekten antas imidlertid å være uavhengig av pasientens bosted og vil derfor ikke påvirke størrelsen på den geografiske variasjonen. \n\n\nPasientutvalget for de enkelte analysene kan avvike noe fra det overordnede utvalget i atlaset, og er beskrevet i detalj i tilknytning til presentasjonen av hvert enkelt resultat."
         }
       ]
     }
