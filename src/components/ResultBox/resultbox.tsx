@@ -64,10 +64,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           id={`${id}-header`}
         >
           <div className={styles.resultBoxTitleWrapper}>
-            <h3 id={title.toLocaleLowerCase().replace(/\s/g, "-")}>
-              {" "}
-              {title}{" "}
-            </h3>
+            <h3 id={id}> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus

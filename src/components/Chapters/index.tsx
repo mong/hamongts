@@ -58,9 +58,10 @@ export const Chapters = ({ innhold }: ChaptersProps) => {
 };
 
 const Chapter = ({ innhold, overskrift }: ChapterProps) => {
+  const mainID = overskrift.toLowerCase().replace(/\s/g, "-");
   return (
     <>
-      <h2 id={overskrift.toLowerCase().replace(/\s/g, "-")}>{overskrift}</h2>
+      <h2 id={mainID}>{overskrift}</h2>
       <div>
         {innhold.map((box, index) => {
           const props =
@@ -68,7 +69,10 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
               ? {
                   boxContent: box.tekst,
                   boxTitle: box.overskrift,
-                  id: box.overskrift,
+                  id:
+                    mainID +
+                    "-fact-" +
+                    box.overskrift.toLocaleLowerCase().replace(/\s/g, "-"),
                 }
               : box.type === "resultatboks"
               ? {
@@ -76,7 +80,10 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   title: box.overskrift,
                   intro: box.ingress,
                   selection: box.utvalg,
-                  id: box.overskrift,
+                  id:
+                    mainID +
+                    "_" +
+                    box.overskrift.toLocaleLowerCase().replace(/\s/g, "-"),
                   carousel: box.karusell,
                   xlabel: box.karusell.xlabel,
                   ylabel: box.karusell.ylabel,

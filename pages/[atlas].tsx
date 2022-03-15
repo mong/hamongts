@@ -58,10 +58,12 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
                       {cont.level2.map((level2) => {
                         return (
                           <ListItem
-                            key={level2.toLowerCase().replace(/\s/g, "-")}
+                            key={(cont.level1 + "_" + level2)
+                              .toLowerCase()
+                              .replace(/\s/g, "-")}
                           >
                             <a
-                              href={`#${level2
+                              href={`#${(cont.level1 + "_" + level2)
                                 .toLowerCase()
                                 .replace(/\s/g, "-")}`}
                             >
