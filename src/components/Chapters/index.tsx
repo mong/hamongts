@@ -72,7 +72,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   id:
                     mainID +
                     "-fact-" +
-                    box.overskrift.toLocaleLowerCase().replace(/\s/g, "-"),
+                    box.overskrift.toLowerCase().replace(/\s/g, "-"),
                 }
               : box.type === "resultatboks"
               ? {
@@ -83,7 +83,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   id:
                     mainID +
                     "_" +
-                    box.overskrift.toLocaleLowerCase().replace(/\s/g, "-"),
+                    box.overskrift.toLowerCase().replace(/\s/g, "-"),
                   carousel: box.karusell,
                   xlabel: box.karusell.xlabel,
                   ylabel: box.karusell.ylabel,
