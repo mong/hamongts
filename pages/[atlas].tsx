@@ -61,7 +61,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
                           .replace(/\s/g, "-");
                         return (
                           <ListItem key={level2ID}>
-                            <a href={`#${level2ID}`}></a>
+                            <a href={`#${level2ID}`}>{level2}</a>
                           </ListItem>
                         );
                       })}
