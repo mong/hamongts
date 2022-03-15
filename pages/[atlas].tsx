@@ -56,34 +56,23 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
                   const level2Header = (
                     <OrderedList>
                       {cont.level2.map((level2) => {
+                        const level2ID = (cont.level1 + "_" + level2)
+                          .toLowerCase()
+                          .replace(/\s/g, "-");
                         return (
-                          <ListItem
-                            key={level2.toLowerCase().replace(/\s/g, "-")}
-                          >
-                            <a
-                              href={`#${level2
-                                .toLowerCase()
-                                .replace(/\s/g, "-")}`}
-                            >
-                              {level2}
-                            </a>
+                          <ListItem key={level2ID}>
+                            <a href={`#${level2ID}`}></a>
                           </ListItem>
                         );
                       })}
                     </OrderedList>
                   );
-
+                  const level1ID = cont.level1
+                    .toLowerCase()
+                    .replace(/\s/g, "-");
                   return (
-                    <ListItem
-                      key={cont.level1.toLowerCase().replace(/\s/g, "-")}
-                    >
-                      <a
-                        href={`#${cont.level1
-                          .toLowerCase()
-                          .replace(/\s/g, "-")}`}
-                      >
-                        {cont.level1}
-                      </a>
+                    <ListItem key={level1ID}>
+                      <a href={`#${level1ID}`}>{cont.level1}</a>
                       {level2Header}
                     </ListItem>
                   );
