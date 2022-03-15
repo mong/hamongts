@@ -1,7 +1,7 @@
 {
   "lang": "no",
   "date": "2022-02-28T11:26:57.079Z",
-  "filename": "fodsel2",
+  "filename": "test_atlas",
   "mainTitle": "Helseatlas for fødselshjelp 2.0",
   "shortTitle": "Fødselshjelp",
   "ingress": "Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.",
@@ -11,7 +11,8 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "# Dette er en stor overskrift!\n\n## Dette er en litt mindre overskrift\n\nOg litt tekst her"
+          "tekst": "### Dette er en overskrift!\n\n```sas\ndata test;\nset test2;\nvar = 0;\nrun;\n```\n\nOg litt tekst her",
+          "beskrivelse": "Litt test-tekst"
         },
         {
           "type": "faktaboks",
@@ -20,38 +21,48 @@
         },
         {
           "type": "tekst",
-          "tekst": "Så sier vi litt mer her om blablabla.\n\n"
+          "tekst": "Så sier vi litt mer her om blablabla.\n\n![Kart](/helseatlas/img/map.png \"Variasjon i kirurgiske aborter etter jordmorbesøk\")",
+          "beskrivelse": "Kart"
         },
         {
           "type": "resultatboks",
           "overskrift": "Svangerskapsdiabetes",
           "ingress": "Det var stor geografisk variasjon i bruken av diagnosen svangerskapsdiabetes, og opptaksområde Førde utmerket seg spesielt med høye rater både for førstegangs- og flergangsfødende (flergangsfødende kun vist i rapport). Over fire ganger så mange pr. 1 000 førstegangsfødende bosatt i opptaksområdet Førde fikk diagnosen svangerskapsdiabetes som i opptaksområdet UNN. Ser man bort fra opptaksområdet Førde, var variasjonen mer moderat, men fortsatt betydelig.",
           "karusell": {
-            "presentasjonstype": ["barchart", "table"],
-            "data": "img/injeksjoner_artritt_med_uten_ul.csv"
+            "presentasjonstype": [
+              "barchart",
+              "table"
+            ],
+            "data": "data/epilepsi_pasienter_Barn.csv",
+            "xlabel": "tekst1",
+            "ylabel": "tekst2",
+            "rate1": "sykdom 1",
+            "rate2": "sykdom 2"
           },
           "utvalg": "Tilstandskoder (fra kodeverket ICPC-2) W 85 Svangerskapsdiabetes",
-          "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer."
-        }
-      ]
-    },
-    {
-      "overskrift": "Parkinson",
-      "innhold": [
-        {
-          "type": "tekst",
-          "tekst": "Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter."
+          "resultat": "Det var påfallende stor variasjon i bruk av diagnosen svangerskapsdiabetes, der opptaksområdet Førde skilte seg ut med svært høy rate. Befolkningssammensetningen i de ulike opptaksområdene kan ikke forklare forskjellene. Ulik etterlevelse av daværende nasjonale retningslinjer og varierende rapportering til MFR kan være forklaringer.",
+          "publisert": "2022-03-07T08:38:45.069Z",
+          "oppdatert": "2022-03-07T08:38:45.096Z"
         },
         {
-          "type": "faktaboks",
-          "tekst": "Et epiduralkateter, som er en tynn liten plastslange, settes inn ved hjelp av en nål mellom to ryggvirvler i korsryggen og blir liggende i ryggkanalen til fødselen er over. Kvinnen vil fortsatt kjenne riene og deltar aktivt i fødselen, men smertetoppene forsvinner. Det er jordmor i samråd med den gravide som vurderer behovet for epiduralbedøvelse, og det konfereres alltid med vakthavende fødselslege. Anestesilege legger kateteret.",
-          "overskrift": "Epiduralkateter"
-        },
-        {
-          "type": "tekst",
-          "tekst": "Mange kvinner vil beskrive smertene ved fødsel som de sterkeste de har opplevd. Bedre smertelindring kan være ett tiltak som kan reduserer fødselsangst og ønske om keisersnitt i neste svangerskap. Epidural smertelindring er en effektiv behandling av fødselssmerter."
+          "type": "resultatboks",
+          "karusell": {
+            "xlabel": "Antall per 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "presentasjonstype": [
+              "barchart"
+            ]
+          },
+          "publisert": "2022-03-08T12:33:47.556Z",
+          "oppdatert": "2022-03-08T12:33:47.589Z",
+          "utvalg": "dett eer en efsdf l",
+          "resultat": "dsvsgfwesdf",
+          "ingress": "fdsfsdfaf",
+          "overskrift": "qwerty"
         }
       ]
     }
-  ]
+  ],
+  "publisert": false
 }

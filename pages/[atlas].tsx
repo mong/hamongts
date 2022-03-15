@@ -5,18 +5,42 @@ import matter from "gray-matter";
 import Layout from "../src/components/Layout";
 import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
-import { Chapters } from "../src/components/Chapters";
+import { ChapterProps, Chapters } from "../src/components/Chapters";
+import { AtlasData } from "../src/types";
+import csv from "csvtojson";
+import { TableOfContents } from "../src/components/toc";
+import { OrderedList } from "../src/components/toc/orderedlist";
+import { ListItem } from "../src/components/toc/listitem";
+import { DataContext } from "../src/components/Context";
 
 interface AtlasPageProps {
   content: string;
   body: string;
+  atlasData: AtlasData[];
 }
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
-  const obj = JSON.parse(content);
+type AtlasJson = {
+  lang: "no" | "en";
+  date: Date;
+  filename: string;
+  mainTitle: string;
+  shortTitle: string;
+  ingress: string;
+  kapittel: ChapterProps[];
+};
+
+const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
+  const obj: AtlasJson = JSON.parse(content);
+  const tocContent = obj.kapittel.map((chapter) => {
+    const level1 = chapter.overskrift;
+    const level2 = chapter.innhold
+      .filter((subChapter) => subChapter.type === "resultatboks")
+      .map((subChapter) => subChapter["overskrift"]);
+    return { level1, level2 };
+  });
 
   return (
-    <>
+    <DataContext.Provider value={atlasData}>
       <Layout lang={obj.lang}>
         <main>
           <TopBanner
@@ -25,14 +49,45 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content }) => {
             lang={obj.lang}
             ia={false}
           />
-          <div className={`${styles.atlasContent}`}>
-            <h1>{obj.mainTitle}</h1>
-            <div className="ingress">{obj.ingress}</div>
-            <Chapters innhold={obj.kapittel} />
+          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
+            <TableOfContents>
+              <OrderedList>
+                {tocContent.map((cont) => {
+                  const level2Header = (
+                    <OrderedList>
+                      {cont.level2.map((level2) => {
+                        const level2ID = (cont.level1 + "_" + level2)
+                          .toLowerCase()
+                          .replace(/\s/g, "-");
+                        return (
+                          <ListItem key={level2ID}>
+                            <a href={`#${level2ID}`}></a>
+                          </ListItem>
+                        );
+                      })}
+                    </OrderedList>
+                  );
+                  const level1ID = cont.level1
+                    .toLowerCase()
+                    .replace(/\s/g, "-");
+                  return (
+                    <ListItem key={level1ID}>
+                      <a href={`#${level1ID}`}>{cont.level1}</a>
+                      {level2Header}
+                    </ListItem>
+                  );
+                })}
+              </OrderedList>
+            </TableOfContents>
+            <div>
+              <h1>{obj.mainTitle}</h1>
+              <div className="ingress">{obj.ingress}</div>
+              <Chapters innhold={obj.kapittel} />
+            </div>
           </div>
         </main>
       </Layout>
-    </>
+    </DataContext.Provider>
   );
 };
 
@@ -45,8 +100,22 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const file = fs.readFileSync(fullPath);
   const { content } = matter(file);
 
+  const fileData = await Promise.all(
+    await fs.readdirSync("public/data/").map(async (files) => {
+      const fileContent = path.join("public/data/", files);
+      const atlasData = await csv().fromFile(fileContent);
+      const data = {};
+      data[`data/${files}`] = atlasData;
+      return data;
+    })
+  );
+  const atlasData = fileData.reduce((result, data) => {
+    const key: string = Object.keys(data)[0];
+    result[key] = data[key];
+    return result;
+  }, {});
   return {
-    props: { content },
+    props: { content, atlasData },
   };
 };
 

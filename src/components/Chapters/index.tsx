@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { TextBox } from "../TextBox";
 import { FactBox } from "../Factbox";
 import { ResultBox } from "../ResultBox";
+import { AtlasData } from "../../types";
 
 type Tekst = {
   type: "tekst";
@@ -14,16 +15,24 @@ type Faktaboks = {
   tekst: string;
 };
 
+export type karusell = {
+  presentasjonstype: string[];
+  data: string;
+  xlabel: string;
+  ylabel: string;
+};
+
 type Resultatboks = {
   type: "resultatboks";
   overskrift: string;
   ingress: string;
-  karusell: string[];
+  karusell: karusell;
   utvalg: string;
   resultat: string;
+  data: AtlasData[];
 };
 
-type ChapterProps = {
+export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
 };
@@ -49,9 +58,10 @@ export const Chapters = ({ innhold }: ChaptersProps) => {
 };
 
 const Chapter = ({ innhold, overskrift }: ChapterProps) => {
+  const mainID = overskrift.toLowerCase().replace(/\s/g, "-");
   return (
     <>
-      <h2>{overskrift}</h2>
+      <h2 id={mainID}>{overskrift}</h2>
       <div>
         {innhold.map((box, index) => {
           const props =
@@ -59,7 +69,10 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
               ? {
                   boxContent: box.tekst,
                   boxTitle: box.overskrift,
-                  id: box.overskrift,
+                  id:
+                    mainID +
+                    "-fact-" +
+                    box.overskrift.toLowerCase().replace(/\s/g, "-"),
                 }
               : box.type === "resultatboks"
               ? {
@@ -67,7 +80,13 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   title: box.overskrift,
                   intro: box.ingress,
                   selection: box.utvalg,
-                  id: box.overskrift,
+                  id:
+                    mainID +
+                    "_" +
+                    box.overskrift.toLowerCase().replace(/\s/g, "-"),
+                  carousel: box.karusell,
+                  xlabel: box.karusell.xlabel,
+                  ylabel: box.karusell.ylabel,
                 }
               : { children: box.tekst };
 

@@ -3,30 +3,26 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import ReactMarkdown from "react-markdown";
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
-
-interface AtlasData {
-  innbyggere: number;
-  bohf: string;
-  antall1: number;
-  antall2: number;
-  andelRate1: number;
-  andelRate2: number;
-  rate1: number;
-  rate2: number;
-  year: number | string;
-}
+import { Barchart } from "../../charts/barcharts";
+import { Abacus } from "../../charts/abacus";
+import { AtlasData } from "../../types";
+import styles from "./resultbox.module.css";
+import { DataContext } from "../Context";
+import { karusell } from "../Chapters";
+import { Markdown } from "../Markdown";
 
 type ResultBoxProps = {
   title: string;
+  carousel: karusell;
   intro: string;
   selection: string;
   result: string;
-  atlasData?: AtlasData[];
   id: string;
   lang?: string;
+  xlabel: string;
+  ylabel: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -35,91 +31,107 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
+  xlabel,
+  ylabel,
   lang = "no",
+  carousel,
 }) => {
-  const [expanded, setExpanded] = React.useState<boolean>(false);
-  const handleChange = () => setExpanded((state) => !state);
-  const childrenRef = React.useRef<HTMLElement[]>([]);
+  const [expandedResultBox, setExpandedResultBox] =
+    React.useState<boolean>(false);
+  const [expandedSelection, setExpandedSelection] =
+    React.useState<boolean>(false);
+
+  const atlasData = React.useContext(DataContext);
+  const figdata: AtlasData[] = atlasData[carousel.data];
+  const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
+    cb((state) => !state);
   return (
-    <div
-      style={{
-        width: "900px",
-        borderRadius: "10px",
-        padding: "15px",
-        margin: "10px",
-      }}
-    >
-      <Accordion>
+    <div className={styles.resultBoxWrapper}>
+      <Accordion
+        sx={{
+          boxShadow: 6,
+          ":hover": {
+            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
+            transition: "200ms ease-in",
+          },
+        }}
+        expanded={expandedResultBox}
+        onChange={() => handleChange(setExpandedResultBox)}
+      >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
         >
-          <div
-            style={{
-              width: "98%",
-              borderRadius: "10px",
-              padding: "30px 20px 30px 20px",
-              textAlign: "justify",
-            }}
-          >
-            <h3> {title} </h3>
-            <ReactMarkdown>{intro}</ReactMarkdown>
+          <div className={styles.resultBoxTitleWrapper}>
+            <h3 id={id}> {title} </h3>
+            <Markdown lang={lang}>{intro}</Markdown>
+            {figdata && (
+              <Abacus
+                data={figdata}
+                x="rateSnitt"
+                colorBy="bohf"
+                width={800}
+                height={80}
+                label={xlabel}
+                xMin={0}
+                xMax={7.0}
+                backgroundColor="inherit"
+              />
+            )}
           </div>
         </AccordionSummary>
         <AccordionDetails>
           <Carousel active={0}>
-            <CarouselItem label="Stolpediagram">Stolpediagram her</CarouselItem>
-            <CarouselItem label="Kart">Kart her</CarouselItem>
-            <CarouselItem label="Tabell" ref={childrenRef}>
-              <div
-                style={{
-                  backgroundColor: "lightgrey",
-                  width: "700px",
-                  height: "600px",
-                  marginTop: "10px",
-                  marginBottom: "20px",
-                }}
-              >
-                Tabell her
-              </div>
+            <CarouselItem label="Stolpediagram">
+              {figdata && (
+                <Barchart
+                  data={figdata}
+                  x={["rateSnitt"]}
+                  y="bohf"
+                  margin={{
+                    top: 30,
+                    bottom: 50,
+                    right: 60,
+                    left: 130,
+                  }}
+                  height={500}
+                  xLabel={xlabel}
+                  yLabel={ylabel}
+                  xMin={0}
+                  xMax={7}
+                  backgroundColor="white"
+                  annualVar={["rate2018", "rate2019", "rate2020"]}
+                />
+              )}
+            </CarouselItem>
+            <CarouselItem label="Kart">
+              {" "}
+              <img src="/helseatlas/img/map.png"></img>
+            </CarouselItem>
+            <CarouselItem label="Tabell">
+              <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
           <Accordion
-            sx={{
-              fontFamily: "Open Sans",
-              boxShadow: 1,
-              ":hover": {
-                border: "2px solid #6CACE4",
-                boxShadow: 1,
-                transform: "none",
-              },
-            }}
-            expanded={expanded}
-            onChange={() => handleChange()}
+            sx={{ boxShadow: 0 }}
+            expanded={expandedSelection}
+            onChange={() => handleChange(setExpandedSelection)}
           >
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls={`${id}-content-selection`}
               id={`${id}-content-selection`}
             >
-              Utvalg
+              {lang === "no" ? "Utvalg" : "Selection"}
             </AccordionSummary>
             <AccordionDetails>
-              <ReactMarkdown>{selection}</ReactMarkdown>
+              <Markdown lang={lang}>{selection}</Markdown>
             </AccordionDetails>
           </Accordion>
-          <div
-            style={{
-              width: "98%",
-              backgroundColor: "white",
-              borderRadius: "10px",
-              padding: "30px 20px 30px 20px",
-              textAlign: "justify",
-            }}
-          >
+          <div className={styles.resultBoxSelectionContent}>
             {" "}
-            <ReactMarkdown>{result}</ReactMarkdown>
+            <Markdown lang={lang}>{result}</Markdown>
           </div>
         </AccordionDetails>
       </Accordion>

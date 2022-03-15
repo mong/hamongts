@@ -19,6 +19,12 @@ context("Home Page", () => {
     cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
     cy.visit("/statisk/kontakt");
     cy.get("a").contains("skde.helseatlas@helse-nord.no");
+    cy.visit("/en/static/map");
+    cy.get("h1").contains("Communicating statistics by means of maps");
+    cy.visit("/en/static/about");
+    cy.get("a").contains("Communicating statistics by means of maps");
+    cy.visit("/en/static/contact");
+    cy.get("a").contains("skde.helseatlas@helse-nord.no");
   });
 });
 
@@ -56,34 +62,23 @@ context("Classic atlases", () => {
 
 context("Modern atlases", () => {
   it("should visit an atlas", () => {
-    cy.visit("/fodsel2");
+    cy.visit("/test_atlas");
     cy.get("h1").contains("Helseatlas for fødselshjelp 2.0");
+    /* Fact box */
+    cy.get("div")
+      .contains("Svangeskapsdiabetes")
+      .click()
+      .get("p")
+      .contains(
+        "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet"
+      );
+    /* Result box */
+    cy.get("h3")
+      .contains("Svangerskapsdiabetes")
+      .click()
+      .get("tspan")
+      .contains("tekst2");
   });
 });
-
-context("result box", () => {
-  it("should visit a result box", () => {
-    cy.visit("/resultbox");
-    cy.get("h3").contains("Lorem ipsum dolor sit amet");
-    cy.get("svg").click({ multiple: true, force: true })
-  });
-});
-
-context("factbox", () => {
-  it("should visit a factbox", () => {
-    cy.visit("/factbox");
-    cy.get("div").contains("Lorem ipsum dolor sit amet");
-    cy.get("svg").click({ multiple: true, force: true })
-  });
-});
-
-context("carousel", () => {
-  it("should visit a carousel", () => {
-    cy.visit("/carousel");
-    cy.get("h2").contains("Kroniske inflammatoriske leddsykdommer");
-    cy.get("svg").click({ multiple: true, force: true })
-  });
-});
-
 
 export {};

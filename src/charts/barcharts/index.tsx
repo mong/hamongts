@@ -1,15 +1,17 @@
+import React from "react";
 import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
-import { schemeSet1 } from "d3-scale-chromatic";
-import { toBarchart } from "../../helpers/functions/dataTransformation";
-import { Series } from "d3-shape";
 
-type BarchartData<
+import { toBarchart } from "../../helpers/functions/dataTransformation";
+import { AnnualVariation } from "./AnnualVariation";
+
+export type BarchartData<
   Data,
   X extends (string & keyof Data)[],
   Y extends keyof Data,
-  ColorBy extends keyof Data
+  ColorBy extends keyof Data,
+  AnnualVar extends (keyof Data)[]
 > = {
   [k in keyof Data & keyof X]: number;
 } & {
@@ -18,15 +20,18 @@ type BarchartData<
   [k in ColorBy]?: number | string;
 } & {
   [k in keyof Data]?: number | string;
+} & {
+  [k in keyof Data & keyof AnnualVar]?: number;
 };
 
 type BarchartProps<
   Data,
   X extends (string & keyof Data)[],
   Y extends string & keyof Data,
-  ColorBy extends keyof Data
+  ColorBy extends keyof Data,
+  AnnualVar extends (string & keyof Data)[]
 > = {
-  data: BarchartData<Data, X, Y, ColorBy>[];
+  data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
   x: X;
   y: Y;
   width?: number;
@@ -46,15 +51,18 @@ type BarchartProps<
   tickLength?: number;
   yInnerPadding?: number;
   yOuterPadding?: number;
+  annualVar?: AnnualVar;
+  annualVarLabels?: number[];
 };
 
 export const Barchart = <
   Data,
   X extends (string & keyof Data)[],
   Y extends string & keyof Data,
-  ColorBy extends string & keyof Data
+  ColorBy extends string & keyof Data,
+  AnnualVar extends (string & keyof Data)[]
 >({
-  width = 400,
+  width = 600,
   height = 500,
   margin = {
     top: 20,
@@ -77,22 +85,26 @@ export const Barchart = <
   yAxisLineStrokeWidth = 0,
   yAxisTickStroke = "white",
   tickLength = 3,
-  yInnerPadding = 0.7,
+  yInnerPadding = 0.3,
   yOuterPadding = 0.2,
-}: BarchartProps<Data, X, Y, ColorBy>) => {
+  annualVar,
+  annualVarLabels,
+}: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
   //missing
   // color legend
   //tooltip
   //animation
-
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
 
-  const series = toBarchart<BarchartData<Data, X, Y, ColorBy>, X>(data, x);
-
+  const series = toBarchart<BarchartData<Data, X, Y, ColorBy, AnnualVar>, X>(
+    data,
+    x
+  );
+  const colors = ["#003087", "#6CACE4"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
-    range: [...schemeSet1],
+    range: [...colors],
   });
 
   const xScale = scaleLinear<number>({
@@ -108,57 +120,86 @@ export const Barchart = <
   });
 
   return (
-    <svg style={{ backgroundColor }} width={width} height={height}>
-      <Group left={margin.left} top={margin.top}>
-        <AxisLeft
-          top={-5}
-          left={6}
-          scale={yScale}
-          strokeWidth={yAxisLineStrokeWidth}
-          stroke={yAxisLineStroke}
-          tickValues={data.map((s) => s[y])}
-          tickStroke={yAxisTickStroke}
-          tickLabelProps={() => ({
-            fontSize: 12,
-            fill: "#d9d9d9",
+    <div style={{ margin: "auto" }}>
+      <svg style={{ backgroundColor }} width={width} height={height}>
+        <Group left={margin.left} top={margin.top}>
+          <AxisLeft
+            top={5}
+            left={-10}
+            scale={yScale}
+            strokeWidth={yAxisLineStrokeWidth}
+            stroke={yAxisLineStroke}
+            tickValues={data.map((s) => s[y])}
+            tickStroke={yAxisTickStroke}
+            tickLabelProps={() => ({
+              fontSize: 14,
+              fill: "black",
+              textAnchor: "end",
+            })}
+            label={yLabel}
+            labelProps={{
+              fontSize: 20,
+              x: -80,
+              y: -15,
+              transform: "(rotateX(90deg))",
+            }}
+          />
+        </Group>
+        <Group left={margin.left} top={margin.top + innerHeight}>
+          <AxisBottom
+            top={0}
+            scale={xScale}
+            strokeWidth={xAxisLineStrokeWidth}
+            stroke={xAxisLineStroke}
+            tickValues={[xMin, xMax]}
+            tickLength={tickLength}
+            tickStroke={xAxisTickStroke}
+            tickTransform={`translate(0,0)`}
+            label={xLabel}
+            labelProps={{
+              fontSize: 15,
+              x: 50,
+              y: 30,
+            }}
+          />
+        </Group>
+        <Group left={margin.left} top={margin.top}>
+          {series.map((d, i) => {
+            const bars = (
+              <Group fill={colorScale(d["key"])} key={`${i}`}>
+                {d.map((barData, i) => {
+                  return (
+                    <rect
+                      key={`${i}`}
+                      x={xScale(barData[0])}
+                      y={yScale(barData.data[y].toString())}
+                      width={xScale(Math.abs(barData[0] - barData[1]))}
+                      height={yScale.bandwidth()}
+                      stroke={colors[0]}
+                      strokeWidth={1}
+                    />
+                  );
+                })}
+              </Group>
+            );
+            return bars;
           })}
-          label={yLabel}
-        />
-      </Group>
-      <Group left={margin.left} top={margin.top + innerHeight}>
-        <AxisBottom
-          top={0}
-          scale={xScale}
-          strokeWidth={xAxisLineStrokeWidth}
-          stroke={xAxisLineStroke}
-          tickValues={[xMin, xMax]}
-          tickLength={tickLength}
-          tickStroke={xAxisTickStroke}
-          tickTransform={`translate(0,0)`}
-          label={xLabel}
-        />
-      </Group>
-      <Group left={margin.left} top={margin.top}>
-        {series.map((d, i) => {
-          const bars = (
-            <Group fill={colorScale(d["key"])} key={`${i}`}>
-              {d.map((barData, i) => {
-                return (
-                  <rect
-                    key={`${i}`}
-                    x={xScale(barData[0])}
-                    y={yScale(barData.data[y].toString())}
-                    width={xScale(Math.abs(barData[0] - barData[1]))}
-                    height={yScale.bandwidth()}
-                    stroke={schemeSet1[0]}
-                  />
-                );
-              })}
-            </Group>
-          );
-          return bars;
-        })}
-      </Group>
-    </svg>
+          {annualVar &&
+            data.map((d, i) => {
+              return (
+                <AnnualVariation
+                  data={d}
+                  xScale={xScale}
+                  yScale={yScale}
+                  annualVar={annualVar}
+                  y={y}
+                  labels={annualVarLabels}
+                  key={`${d["bohf"]}${i}`}
+                />
+              );
+            })}
+        </Group>
+      </svg>
+    </div>
   );
 };

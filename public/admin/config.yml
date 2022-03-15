@@ -4,10 +4,9 @@ backend:
   branch: develop
   base_url: https://qa-mong-api.skde.org
 
-publish_mode: editorial_workflow
 logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
-public_folder: img
+public_folder: /helseatlas/img
 site_url: https://qa.skde.no/helseatlas/
 locale: "nb_no"
 collections:
@@ -16,11 +15,18 @@ collections:
     folder: "_posts/atlas"
     extension: json
     format: json
-    create: true
+    create: false
+    delete: false
     identifier_field: filename
     widget: "list"
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
+      - {
+          label: "Publisert",
+          name: "publisert",
+          widget: "boolean",
+          default: false,
+        }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
@@ -45,16 +51,25 @@ collections:
               - label: "Tekst"
                 name: "tekst"
                 widget: object
-                field:
-                  {
-                    label: "Tekst",
-                    name: "tekst",
-                    widget: "markdown",
-                    hint: "Seksjon med tekst og eventuelle statiske figurer",
-                  }
+                summary: "{{fields.beskrivelse}}"
+                fields:
+                  - {
+                      label: "Beskrivelse",
+                      name: "beskrivelse",
+                      widget: "string",
+                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
+                      required: false,
+                    }
+                  - {
+                      label: "Tekst",
+                      name: "tekst",
+                      widget: "markdown",
+                      hint: "Seksjon med tekst og eventuelle statiske figurer",
+                    }
               - label: "Faktaboks"
                 name: "faktaboks"
                 widget: object
+                summary: "{{fields.overskrift}}"
                 fields:
                   - label: "Overskrift"
                     name: "overskrift"
@@ -70,9 +85,17 @@ collections:
                 summary: "{{fields.overskrift}}"
                 fields:
                   - { label: Overskrift, name: overskrift, widget: string }
-                  - { label: Ingress, name: ingress, widget: string }
-                  - { label: "Publiseringsdato", name: publisert, widget: date }
-                  - { label: "Sist oppdatert", name: oppdatert, widget: date }
+                  - { label: Ingress, name: ingress, widget: markdown }
+                  - {
+                      label: "Publiseringsdato",
+                      name: publisert,
+                      widget: datetime,
+                    }
+                  - {
+                      label: "Sist oppdatert",
+                      name: oppdatert,
+                      widget: datetime,
+                    }
                   - label: Karusell
                     name: karusell
                     widget: object
@@ -90,8 +113,34 @@ collections:
                         widget: "file"
                         media_library:
                           multiple: false
-                          media_folder: "/data"
-                          choose_url: false
+                        media_folder: "/public/data"
+                        public_folder: "data"
+                        choose_url: false
+                      - label: "x-akse-tekst"
+                        hint: "Tekst på x-aksen i stolpediagram/under abacus-plott"
+                        name: "xlabel"
+                        widget: string
+                        default: "Antall per 1 000 innbyggere"
+                      - label: "y-akse-tekst"
+                        hint: "Tekst over y-aksen i stolpediagram/under abacus-plott"
+                        name: "ylabel"
+                        widget: string
+                        default: "Opptaksområder"
+                      - label: "Navn for rate 1"
+                        hint: "Navn som beskriver første rate i to-delt/tre-delt figur"
+                        name: "rate1"
+                        widget: string
+                        required: false
+                      - label: "Navn for rate 2"
+                        hint: "Navn som beskriver andre rate i to-delt/tre-delt figur"
+                        name: "rate2"
+                        widget: string
+                        required: false
+                      - label: "Navn for rate 3"
+                        hint: "Navn som beskriver tredje rate i tre-delt figur"
+                        name: "rate3"
+                        widget: string
+                        required: false
                   - {
                       label: Utvalgsbeskrivelse,
                       name: utvalg,
@@ -106,6 +155,7 @@ collections:
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
     create: false
+    delete: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -132,6 +182,7 @@ collections:
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
     create: false
+    delete: false
     fields:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
