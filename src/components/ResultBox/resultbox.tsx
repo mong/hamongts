@@ -46,7 +46,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div className={styles.resultBoxWrapper}>
+    <div id={id} className={styles.resultBoxWrapper}>
       <Accordion
         sx={{
           boxShadow: 6,
@@ -64,7 +64,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           id={`${id}-header`}
         >
           <div className={styles.resultBoxTitleWrapper}>
-            <h3 id={id}> {title} </h3>
+            <h3> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
