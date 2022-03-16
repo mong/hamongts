@@ -60,8 +60,8 @@ export const Chapters = ({ innhold }: ChaptersProps) => {
 const Chapter = ({ innhold, overskrift }: ChapterProps) => {
   const mainID = overskrift.toLowerCase().replace(/\s/g, "-");
   return (
-    <>
-      <h2 id={mainID}>{overskrift}</h2>
+    <div id={mainID} style={{ paddingTop: "10px" }}>
+      <h2>{overskrift}</h2>
       <div>
         {innhold.map((box, index) => {
           const props =
@@ -99,6 +99,6 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };
