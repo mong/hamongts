@@ -8,7 +8,7 @@ import { useKeys, useOnClickOutside } from "../../helpers/hooks";
 
 type PopUpProps = {
   btnComponent: () => React.ReactNode;
-  children: string;
+  children: React.ReactNode;
 };
 
 export const PopUp = ({ children, btnComponent }: PopUpProps) => {
@@ -57,7 +57,7 @@ export const PopUp = ({ children, btnComponent }: PopUpProps) => {
               >
                 <AiOutlineCloseCircle style={{ alignSelf: "end" }} size={30} />
               </button>
-              <Markdown lang="no">{children}</Markdown>
+              {children}
             </animated.div>
           )
       )}
