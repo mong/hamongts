@@ -4,6 +4,7 @@ import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import { imgLoader } from "../../helpers/functions";
 import { useEffect, useState } from "react";
+import { SearchBar } from "../SearchBar";
 
 interface Props {
   children: any;
@@ -58,6 +59,7 @@ export default function Layout({
             <Link href={lang === "en" ? "/en/static/about" : "/statisk/om"}>
               <a>{lang === "en" ? "About" : "Om oss"}</a>
             </Link>
+            <SearchBar />
           </div>
         </header>
         {children}
