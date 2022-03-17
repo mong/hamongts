@@ -33,6 +33,9 @@ type AbacusProps<
   circleFillDefalt?: string;
   circleRadiusDefalt?: number;
   tickLength?: number;
+  tickLabelSize?: number;
+  labelSize?: number;
+  markerOpacity?: number;
 };
 
 export const Abacus = <
@@ -40,13 +43,13 @@ export const Abacus = <
   X extends string & keyof Data,
   ColorBy extends string & keyof Data
 >({
-  width = 400,
-  height = 60,
+  width = 800,
+  height = 80,
   margin = {
     top: 20,
-    bottom: 20,
-    right: 20,
-    left: 20,
+    bottom: 5,
+    right: 30,
+    left: 30,
   },
   colorLegend = false,
   colorBy,
@@ -57,12 +60,15 @@ export const Abacus = <
   xMax,
   backgroundColor = "white",
   axisLineStroke = "black",
-  axisLineStrokeWidth = 5,
+  axisLineStrokeWidth = 8,
   axisTickStroke = "black",
-  circleRadiusDefalt = 15,
-  tickLength = 20,
+  circleRadiusDefalt = 25,
+  tickLength = 30,
+  tickLabelSize = 20,
+  labelSize = 20,
+  markerOpacity = 0.8,
 }: AbacusProps<Data, X, ColorBy>) => {
-  // color legend missing
+  //color legend missing
   //tooltip missing
 
   const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
@@ -77,7 +83,12 @@ export const Abacus = <
     range: [0, innerWidth],
   });
   return (
-    <svg style={{ backgroundColor }} width={width} height={height}>
+    <svg
+      width="100%"
+      height={height}
+      style={{ backgroundColor }}
+      viewBox={`0 0 ${width} ${height}`}
+    >
       <Group left={margin.left} top={margin.top}>
         <AxisBottom
           top={0}
@@ -89,6 +100,15 @@ export const Abacus = <
           tickStroke={axisTickStroke}
           tickTransform={`translate(0,-${tickLength / 2})`}
           label={label}
+          tickLabelProps={() => ({
+            fontSize: tickLabelSize,
+            fill: "black",
+            textAnchor: "middle",
+          })}
+          labelProps={{
+            fontSize: labelSize,
+            textAnchor: "middle",
+          }}
         />
       </Group>
       <Group left={margin.left} top={margin.top}>
@@ -97,7 +117,7 @@ export const Abacus = <
             key={`${d[x]}${i}`}
             r={circleRadiusDefalt}
             cx={xScale(d[x])}
-            opacity={0.8}
+            opacity={markerOpacity}
             fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
             stroke={d["bohf"] === "Norge" ? "black" : "grey"}
           />
