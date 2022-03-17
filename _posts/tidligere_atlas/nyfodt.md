@@ -4,7 +4,7 @@ mainTitle: Norsk nyfødtmedisinsk helseatlas
 shortTitle: Nyfødtmedisin, 2009–2014
 pdfUrl: /helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

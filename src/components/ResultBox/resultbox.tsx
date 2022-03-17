@@ -20,7 +20,7 @@ type ResultBoxProps = {
   selection: string;
   result: string;
   id: string;
-  lang?: string;
+  lang: string;
   xlabel: string;
   ylabel: string;
 };
@@ -33,7 +33,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   id,
   xlabel,
   ylabel,
-  lang = "no",
+  lang,
   carousel,
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
@@ -123,7 +123,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               aria-controls={`${id}-content-selection`}
               id={`${id}-content-selection`}
             >
-              {lang === "no" ? "Utvalg" : "Selection"}
+              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
             </AccordionSummary>
             <AccordionDetails>
               <Markdown lang={lang}>{selection}</Markdown>

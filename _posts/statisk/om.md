@@ -1,7 +1,7 @@
 ---
 filename: om
 title: Om Helseatlas
-lang: no
+lang: nb
 ---
 
 - I Norge er det et mål at hele befolkningen skal ha et likeverdig tilbud av helsetjenester på tvers av geografi og sosiale grupper.

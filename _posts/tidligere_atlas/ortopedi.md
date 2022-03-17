@@ -4,7 +4,7 @@ mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi, 2012–2016
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
-lang: no
+lang: nn
 toc: false
 ---
 

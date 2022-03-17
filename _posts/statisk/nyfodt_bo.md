@@ -1,7 +1,7 @@
 ---
 filename: nyfodt_bo
 title: Boområder for nyfødtmedisinatlaset
-lang: no
+lang: nb
 ---
 
 <div className="ingress">
