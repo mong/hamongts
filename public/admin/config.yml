@@ -35,8 +35,8 @@ collections:
           label: "Språk",
           name: "lang",
           widget: "select",
-          options: ["no", "en"],
-          default: "no",
+          options: ["nb", "nn", "en"],
+          default: "nb",
         }
       - label: "Kapittel"
         name: "kapittel"
@@ -168,7 +168,8 @@ collections:
           label: "Språk",
           name: "lang",
           widget: "select",
-          options: ["no", "en"],
+          options: ["nb", "nn", "en"],
+          default: "nb",
         }
   - label: "Statiske sider"
     name: "statiske_sider"
@@ -178,6 +179,13 @@ collections:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Tittel", name: "title", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["nb", "nn", "en"],
+          default: "nb",
+        }
   - label: "Tidligere engelske atlas"
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
@@ -195,7 +203,8 @@ collections:
           label: "Språk",
           name: "lang",
           widget: "select",
-          options: ["no", "en"],
+          options: ["nb", "nn", "en"],
+          default: "en",
         }
   - label: "Statiske engelske sider"
     name: "statiske_sider_en"
@@ -205,3 +214,10 @@ collections:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Tittel", name: "title", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["nb", "nn", "en"],
+          default: "en",
+        }
