@@ -313,6 +313,11 @@
           "beskrivelse": "Sammendrag"
         },
         {
+          "type": "faktaboks",
+          "tekst": "Migrene er en form for hodepine som kjennetegnes av episodiske hodepineanfall som ofte er ensidige og preget av pulserende smerte. Smertene ledsages ofte av kvalme, og overfølsomhet for lys-og lyd.\n\nEt samlemål på sykdomsbyrde i en befolkning er tap av leveår og tap av helse, også kalt helsetapsjusterte leveår (Disability adjusted life\nyears (DALY)).  For Norge utgjør migrene årlig om lag 37 000 DALY (FHI 2018) Til sammenligning var tilsvarende tall for brystkreft og depresjon henholdsvis 12 000 og 33 000 (FHI 2018).  Migrene bidrar altså betydelig til sykdomsbyrden i den norske befolkningen, og diagnostisering og behandling av pasienter med migrene bør derfor prioriteres i helsevesenet.",
+          "overskrift": "Om migrene"
+        },
+        {
           "type": "resultatboks",
           "karusell": {
             "xlabel": "Antall pasienter med migrene pr. 100 000 innbyggere",
