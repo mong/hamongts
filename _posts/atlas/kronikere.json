@@ -43,7 +43,7 @@
           "publisert": "2022-03-02T14:21:04.920Z",
           "oppdatert": "2022-03-02T14:21:04.959Z",
           "overskrift": "Akuttinnleggelser",
-          "ingress": "Rate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt.",
+          "ingress": "**Figur: Ratefigur for akuttinnleggelser**\n\nRate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -64,7 +64,7 @@
           "publisert": "2022-03-02T14:23:59.956Z",
           "oppdatert": "2022-03-02T14:23:59.998Z",
           "overskrift": "Høyaktive legemidler",
-          "ingress": "---",
+          "ingress": "- - -\n\nFigur: Andelsfigur som viser andel av pasienter med MS som er i høyaktiv behandling",
           "utvalg": "Høyaktiv behandling er definert i tråd med MS-registeret (årsrapport 2020, s. 24), med unntak av at HSCT-stamcelle ikke inngår i analysen, da vi ikke har tilgang til data om dette.",
           "karusell": {
             "presentasjonstype": [
@@ -74,7 +74,7 @@
             "xlabel": "Andel MS-pasienter i høyaktiv behandling",
             "ylabel": "Opptaksområder"
           },
-          "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen.\n\n![](/helseatlas/img/antall_legemidler.png)\n\nDet var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det varierte fra år til år hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris, samt at nye studier gir ny kunnskap om medikamentene som kan føre til endringer i bruk."
+          "resultat": "Andel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen.\n\n![](/helseatlas/img/antall_legemidler.png)\n\n**Figur: Figur som viser antall pasienter i behandling med de ulike medikamentene. Foreslår en figur pr. år, da bruk av medikamenter varierer fra år til år, slik at et snitt ikke gir mening**\n\nDet var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det varierte fra år til år hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris, samt at nye studier gir ny kunnskap om medikamentene som kan føre til endringer i bruk."
         },
         {
           "type": "tekst",
@@ -95,7 +95,7 @@
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
-          "ingress": "---"
+          "ingress": "- - -\n\n**Figur 1: Andelsfigur som viser andel av MS-pasienter som har minst en rehabiliteringskontakt i perioden**\n\n**Figur2: samme som 1, med årsvariasjon**"
         }
       ]
     },
