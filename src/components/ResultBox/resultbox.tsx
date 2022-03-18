@@ -74,8 +74,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 width={800}
                 height={80}
                 label={xlabel}
-                xMin={0}
-                xMax={7.0}
                 backgroundColor="inherit"
               />
             )}
@@ -98,8 +96,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   height={500}
                   xLabel={xlabel}
                   yLabel={ylabel}
-                  xMin={0}
-                  xMax={7}
                   backgroundColor="white"
                   annualVar={["rate2018", "rate2019", "rate2020"]}
                 />
