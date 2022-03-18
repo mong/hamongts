@@ -229,6 +229,11 @@
           "beskrivelse": "Hovedfunn"
         },
         {
+          "type": "faktaboks",
+          "overskrift": "Om Parkinsons sykdom",
+          "tekst": "Parkinsons sykdom er en sykdom som rammer deler av hjernen, basalgangliene, som har som funksjon å finjustere bevegelsene. Sykdommen gir karakteristiske motoriske forstyrrelser som: \n\n* Skjelving i hvile (hviletremor)\n* Økt stivhet og motstand i ledd ved passiv bevegelse (rigiditet)\n* Langsomme bevegelser, startvansker, bråstopp i bevegelser (akinesi/bradykinesi)\n\nTo av disse tre symptomene må være tilstede for at diagnosen Parkinsons sykdom kan stilles. \n\nSykdommen er kronisk og forverrer seg gradvis. Alvorlighetsgraden og utviklingen av sykdommen varierer fra person til person, men de fleste får i løpet av noen år betydelig sykdomsbyrde, redusert livskvalitet og et betydelig hjelpebehov."
+        },
+        {
           "type": "resultatboks",
           "publisert": "2022-03-04T08:09:45.546Z",
           "oppdatert": "2022-03-04T08:09:45.583Z",
