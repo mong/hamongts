@@ -1,6 +1,7 @@
 import { InstantSearch, SearchBox, Hits } from "react-instantsearch-dom";
 import algoliasearch from "algoliasearch/lite";
 import { PopUp } from "../popup";
+import { SearchButton } from "../Btns/SearchButton";
 
 const searchClient = algoliasearch(
   "latency",
@@ -9,7 +10,7 @@ const searchClient = algoliasearch(
 
 export const SearchBar = () => {
   return (
-    <PopUp btnComponent={() => <button>SØK</button>}>
+    <PopUp btnComponent={() => <SearchButton />}>
       <InstantSearch indexName="bestbuy" searchClient={searchClient}>
         <SearchBox
           autoFocus

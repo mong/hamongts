@@ -1,0 +1,39 @@
+.button {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0;
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  transition: 0.1s;
+  font-size: 1rem;
+  margin-right: 3rem;
+}
+
+.buttonIconSearch {
+  content: "";
+  display: flex;
+  width: 1.5em;
+  height: 1.5em;
+  padding-top: 1.5em;
+  cursor: pointer;
+  background: transparent url(/helseatlas/img/search-blue.svg);
+}
+
+.buttonText {
+  letter-spacing: 0.03125rem;
+  display: block;
+  text-align: center;
+  margin-right: 6px;
+  font-family: Open Sans, Helvetica, sans-serif;
+  order: 1;
+  line-height: normal;
+  font-size: 1.125rem;
+  color: #034584;
+  text-transform: uppercase;
+  height: 1.5rem;
+  box-sizing: border-box;
+}
