@@ -74,8 +74,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 width={800}
                 height={80}
                 label={xlabel}
-                xMin={0}
-                xMax={7.0}
                 backgroundColor="inherit"
               />
             )}
