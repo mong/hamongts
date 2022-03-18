@@ -2,6 +2,7 @@ import React from "react";
 import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
+import { sum } from "d3-array";
 
 import { toBarchart } from "../../helpers/functions/dataTransformation";
 import { AnnualVariation } from "./AnnualVariation";
@@ -97,10 +98,22 @@ export const Barchart = <
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
 
+  const sorted = [...data].sort((first, second) => {
+    const firstVal = sum(x.map((xVal) => parseFloat(first[xVal])));
+    const secondVal = sum(x.map((xVal) => parseFloat(second[xVal])));
+    return secondVal - firstVal;
+  });
+
   const series = toBarchart<BarchartData<Data, X, Y, ColorBy, AnnualVar>, X>(
-    data,
+    sorted,
     x
   );
+
+  //used to find max values
+  const annualValues = annualVar
+    ? annualVar.flatMap((annual) => data.flatMap((dt) => parseInt(dt[annual])))
+    : [];
+  const values = [...annualValues, ...series.flat().flat().flat()];
   const colors = ["#003087", "#6CACE4"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -113,7 +126,7 @@ export const Barchart = <
   });
 
   const yScale = scaleBand<string>({
-    domain: data.map((s) => s[y]),
+    domain: sorted.map((s) => s[y]),
     range: [0, innerHeight],
     paddingInner: yInnerPadding,
     paddingOuter: yOuterPadding,
