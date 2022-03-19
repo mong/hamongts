@@ -4,7 +4,7 @@
   "filename": "kronikere",
   "mainTitle": "Helseatlas for utvalgte kroniske sykdommer",
   "shortTitle": "Utvalgte kroniske sykdommer",
-  "ingress": "Atlaset kartlegger geografisk variasjon i bruk av helsetjenester for et utvalg kroniske sykdommer.",
+  "ingress": "Får mennesker med kroniske sykdommer likeverdige helsetjenester, uansett hvor i Norge de bor?",
   "kapittel": [
     {
       "overskrift": "Pakke 1: Nevrologiske tilstander",
@@ -118,7 +118,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "###### Hovedfunn\n\n* Det var stor og uberettiget variasjon i bruk av spesialistkonsultasjoner for eldre (65 år og eldre) med epilepsi, resultatene tyder på at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, slik som anbefalt i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/).\n* Det var vesentlig geografisk variasjon i bruk av spesialistkontakter for barn. Resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted.\n* Noe om akuttinnleggelser?"
+          "tekst": "#### Hovedfunn\n\n* Det var stor og uberettiget variasjon i bruk av spesialistkonsultasjoner for eldre (65 år og eldre) med epilepsi, resultatene tyder på at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, slik som anbefalt i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/).\n* Det var vesentlig geografisk variasjon i bruk av spesialistkontakter for barn. Resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted.\n* Noe om akuttinnleggelser?"
         },
         {
           "type": "faktaboks",
