@@ -11,7 +11,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "I atlasets del som omhandler nevrologisk sykdommer er følgende tilstander inkludert:\n•\tParkinsons sykdom\n•\tMultippel sklerose\n•\tEpilepsi\n•\tMigrene"
+          "tekst": "I atlasets del som omhandler nevrologisk sykdommer er følgende tilstander inkludert:\n\n* Multippel sklerose\n* Epilepsi\n* Parkinsons sykdom\n* Migrene"
         },
         {
           "type": "faktaboks",
@@ -448,7 +448,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Har du spørsmål, ris eller ros? Ta gjerne kontakt!\n\nDu kan gjerne ta kontakt direkte med prosjektleder Kristel Guldhaugen (Kristel.Ailin.Sletten.Guldhaugen@helse-nord.no) eller medisinsk fagsjef for SKDE Eva Stensland (Eva.Stensland@helse-nord.no). \n\nDu kan også stille spørsmål til atlasteamet ved å sende en mail til helseatlas@skde.no."
+          "tekst": "Har du spørsmål, ris eller ros? Ta gjerne kontakt!\n\nDu kan gjerne ta kontakt direkte med prosjektleder [Kristel Guldhaugen](Kristel.Ailin.Sletten.Guldhaugen@helse-nord.no) eller medisinsk fagsjef for SKDE [Eva Stensland](Eva.Stensland@helse-nord.no). \n\nDu kan også stille spørsmål til atlasteamet ved å sende en mail til helseatlas@skde.no."
         }
       ]
     }
