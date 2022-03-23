@@ -23,8 +23,6 @@ export const FactBox: React.FC<FactBoxProps> = ({
       <Accordion
         sx={{
           fontFamily: "Open Sans",
-          fontWeight: "600",
-          color: "#033F85",
           boxShadow: 1,
           ":hover": {
             border: "2px solid #6CACE4",
@@ -38,6 +36,8 @@ export const FactBox: React.FC<FactBoxProps> = ({
         <AccordionSummary
           sx={{
             backgroundColor: "#E6EEF8",
+            fontWeight: "600",
+            color: "#033F85",
           }}
           expandIcon={<ExpandMoreIcon htmlColor="#033F85" fontSize="large" />}
           aria-controls={`${id}-content`}
