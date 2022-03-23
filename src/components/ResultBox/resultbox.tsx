@@ -65,7 +65,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         >
           <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
-            <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
                 data={figdata}
@@ -77,6 +76,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 backgroundColor="inherit"
               />
             )}
+            <Markdown lang={lang}>{intro}</Markdown>
           </div>
         </AccordionSummary>
         <AccordionDetails>
