@@ -25,18 +25,20 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Multippel sklerose (MS) er en uhelbredelig sykdom som gir betennelse i sentralnervesystemet, og som kan føre til alvorlig funksjonstap for pasienten. For de fleste (omlag 90%) vil sykdommen være preget av atakker (relapsing-remitting MS, RRMS), mens omlag 10 % av pasientene vil oppleve gradvis forverring i funksjonsnivå (PPMS). "
+          "tekst": "### Hovedfunn\n\n* 45% av kvinner og 38% av menn med MS fikk rehabilitering\n* Om lag 30% av pasienter med MS var i behandling med høyaktivt legemiddel\n* Bruk av off-label preparat varierte fra 10-75%\n\nAndel pasienter med MS i sykdomsmodulerende behandling med høyaktive legemidler, økte i perioden. Det var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det var et tydelig skifte i hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris. \nDet var stor geografisk variasjon i andel pasienter i høyaktiv behandling som fikk det billigste medikamentet. 75% av pasientene bosatt i opptaksområdet Bergen ble behandlet med off-label medikamentet Rituksimab, sammenlignet med om lag 10% av pasientene bosatt i opptaksområdene Vestre Viken, Østfold og OUS.",
+          "beskrivelse": "Hovedfunn"
         },
         {
-          "type": "tekst",
-          "tekst": "- 45% av kvinner og 38% av menn med MS fikk rehabilitering\r\n- Om lag 30% av pasienter med MS var i behandling med høyaktivt legemiddel\r\n- Bruk av off-label preparat varierte fra 10-75%\n\n\r\n\r\nAndel pasienter med MS i sykdomsmodulerende behandling med høyaktive legemidler, økte i perioden. Det var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det var et tydelig skifte i hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris. \r\nDet var stor geografisk variasjon i andel pasienter i høyaktiv behandling som fikk det billigste medikamentet. 75% av pasientene bosatt i opptaksområdet Bergen ble behandlet med off-label medikamentet Rituksimab, sammenlignet med om lag 10% av pasientene bosatt i opptaksområdene Vestre Viken, Østfold og OUS. \r\n"
+          "type": "faktaboks",
+          "overskrift": "Om Multippel sklerose",
+          "tekst": "Multippel sklerose (MS) er en uhelbredelig sykdom som gir betennelse i sentralnervesystemet, og som kan føre til alvorlig funksjonstap for pasienten. For de fleste (omlag 90%) vil sykdommen være preget av atakker (relapsing-remitting MS, RRMS), mens omlag 10 % av pasientene vil oppleve gradvis forverring i funksjonsnivå (PPMS)."
         },
         {
           "type": "resultatboks",
           "publisert": "2022-03-02T14:03:43.106Z",
           "oppdatert": "2022-03-02T14:03:43.149Z",
           "overskrift": "Pasienter med Multippel sklerose",
-          "ingress": "**Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)**\n\n**Figur 2: Tredelt figur - pasientrate: spesialist, begge, primær**\n\n\n\n**Tabellinnhold:** \n\n* **Pasientrate, alle pasienter (NPR+KPR)**\n* **Pasientrate, kvinner**\n* **Pasientrate, menn**\n* **Andel pasienter kun i primærhelsetj.**\n* **Antall pasienter**\n* **Antall innbyggere?**\n\n\n\nI Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.",
+          "ingress": "**Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)**\n\n**Figur 2: Tredelt figur - pasientrate: spesialist, begge, primær**\n\n**Tabellinnhold:** \n\n* **Pasientrate, alle pasienter (NPR+KPR)**\n* **Pasientrate, kvinner**\n* **Pasientrate, menn**\n* **Andel pasienter kun i primærhelsetj.**\n* **Antall pasienter**\n* **Antall innbyggere?**",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -46,7 +48,7 @@
             "ylabel": "Opptaksområder"
           },
           "utvalg": "---",
-          "resultat": "I perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\n\r\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\n\r\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal. \r"
+          "resultat": "#### Bakgrunn\n\nI Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.\n\n\n\nI perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal."
         },
         {
           "type": "tekst",
