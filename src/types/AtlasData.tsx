@@ -12,4 +12,7 @@ export type AtlasData = {
   rate2018: number;
   rate2019: number;
   rate2020: number;
+  pasienter: number;
+  kontakter: number;
+  kont_pr_pasient: number;
 };
