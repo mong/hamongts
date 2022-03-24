@@ -12,6 +12,7 @@ import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
+import { DataTable } from "../Table";
 
 type ResultBoxProps = {
   title: string;
@@ -101,12 +102,32 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 />
               )}
             </CarouselItem>
+            <CarouselItem label="Tabell">
+              {figdata && (
+                <DataTable
+                  data={figdata}
+                  headers={[
+                    { id: "bohf", label: "Opptaksområder", typeVar: "string" },
+                    {
+                      id: "innbyggere",
+                      label: "Innbyggere",
+                      typeVar: "number",
+                    },
+                    { id: "pasienter", label: "Pasienter", typeVar: "number" },
+                    { id: "kontakter", label: "Kontakter", typeVar: "number" },
+                    {
+                      id: "kont_pr_pasient",
+                      label: "kont pr pasient",
+                      typeVar: "number",
+                      signif: 1,
+                    },
+                  ]}
+                />
+              )}
+            </CarouselItem>
             <CarouselItem label="Kart">
               {" "}
               <img src="/helseatlas/img/map.png"></img>
-            </CarouselItem>
-            <CarouselItem label="Tabell">
-              <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
           <Accordion
