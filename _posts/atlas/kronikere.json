@@ -55,7 +55,7 @@
           "publisert": "2022-03-02T14:21:04.920Z",
           "oppdatert": "2022-03-02T14:21:04.959Z",
           "overskrift": "Akuttinnleggelser",
-          "ingress": "**Figur: Ratefigur for akuttinnleggelser med/uten årsvariasjon**\n\n**Tabellinnhold:**\n\n* **Rate - akuttinnleggelser m årsvariasjon**\n* **Antall innleggelser**\n* **Antall innbyggere?**\n\nRate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt.",
+          "ingress": "**Figur: Ratefigur for akuttinnleggelser med/uten årsvariasjon**\n\n**Tabellinnhold:**\n\n* **Rate - akuttinnleggelser m årsvariasjon**\n* **Antall innleggelser**\n* **Antall innleggelser pr. pas?**\n* **Antall innbyggere?**",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -65,7 +65,7 @@
             "ylabel": "Opptaksområder"
           },
           "utvalg": "---",
-          "resultat": "I perioden 2017-2019 var det i gjennomsnitt om lag 2500 akuttinnleggelser pr. år med diagnosen MS, hvilket gir en rate på 0,6 pr. 1000 innbyggere. I noen områder var årsvariasjonen stor. For områder med få innleggelser pr. år kan dette skyldes innslag av tilfeldig variasjon. "
+          "resultat": "I perioden 2017-2019 var det i gjennomsnitt om lag 2800 akuttinnleggelser pr. år med diagnosen MS, hvilket gir en rate på 0,6 pr. 1000 innbyggere. I noen områder var årsvariasjonen stor. For områder med få innleggelser pr. år kan dette skyldes innslag av tilfeldig variasjon. \n\nRate for akuttinnleggelser må ses i sammenheng med forekomst av sykdom. Det er forventelig med høyere rater for akuttinnleggelser i områder hvor det er flere MS pasienter. MS pasienter legges sannsynligvis inn når sykdommen debuterer, eller ved atakker hvor sykdommen forverres akutt."
         },
         {
           "type": "tekst",
