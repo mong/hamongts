@@ -104,25 +104,48 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             </CarouselItem>
             <CarouselItem label="Tabell">
               {figdata && (
-                <DataTable
-                  data={figdata}
-                  headers={[
-                    { id: "bohf", label: "Opptaksområder", typeVar: "string" },
-                    {
-                      id: "innbyggere",
-                      label: "Innbyggere",
-                      typeVar: "number",
-                    },
-                    { id: "pasienter", label: "Pasienter", typeVar: "number" },
-                    { id: "kontakter", label: "Kontakter", typeVar: "number" },
-                    {
-                      id: "kont_pr_pasient",
-                      label: "kont pr pasient",
-                      typeVar: "number",
-                      signif: 1,
-                    },
-                  ]}
-                />
+                <div style={{ width: "700px" }}>
+                  <DataTable
+                    data={figdata}
+                    headers={[
+                      {
+                        id: "bohf",
+                        label: "Opptaksområder",
+                        typeVar: "string",
+                      },
+                      {
+                        id: "rateSnitt",
+                        label: "Antall pr 1000",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "kontakter",
+                        label: "Kontakter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "pasienter",
+                        label: "Pasienter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "kont_pr_pas",
+                        label: "Kont pr pasient",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "innbyggere",
+                        label: "Innbyggere",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                    ]}
+                  />
+                </div>
               )}
             </CarouselItem>
             <CarouselItem label="Kart">
