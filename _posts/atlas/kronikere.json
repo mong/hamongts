@@ -72,7 +72,7 @@
           "publisert": "2022-03-02T14:23:59.956Z",
           "oppdatert": "2022-03-02T14:23:59.998Z",
           "overskrift": "Høyaktive legemidler",
-          "ingress": "- - -\n\n**Figur:  Andelsfigur som viser andel av pasienter med MS som er i høyaktiv behandling med/uten årsvariasjon**\n\n**Tabell:**\n\n* **Antall MS- pasienter**\n* **Antall MS-pasienter i høyaktiv behandling**\n* **Andel i behandling pr. år**",
+          "ingress": "- - -\n\n**Hovedfunn**\n\nDet var betydelig variasjon mellom opptaksområdene i andel pasienter med MS som var i behandling med høyaktive legemidler i perioden. Bruk av det billige off-label preparatet Rituksimab (Mabthera/Rixathon) varierte fra 10-75%. \n\n**Figur:  Andelsfigur som viser andel av pasienter med MS som er i høyaktiv behandling med/uten årsvariasjon**\n\n**Tabell:**\n\n* **Antall MS- pasienter**\n* **Antall MS-pasienter i høyaktiv behandling**\n* **Andel i behandling pr. år**",
           "utvalg": "Høyaktiv behandling er definert i tråd med MS-registerets årsrapport for 2020: (<https://www.kvalitetsregistre.no/sites/default/files/2021-06/Norsk%20MS_register%20%C3%85rsrapport%202020.pdf>), s. 24, med unntak av at HSCT-stamcelle ikke inngår i analysen, da vi ikke har tilgang til data om dette.\n\nHøyaktiv behandling omfatter: Rituksimab (Mabthera/Rixathon), Alemtuzumab (Lemtrada),  Natalizumab (Tysabri), Cladribin (Mavenclad), Fingolimod (Gilenya) og Ocrelizumab (Ocrevus).\n\nATC: L01XC02, L04AA34, L04AA23, L04AA40, L04AA27 og L04AA36\n\nSærkoder: 1XC02, 4AA34, 4AA23, 4AA40, 1XX03/4AA27 og 4AA36. [](https://www.kvalitetsregistre.no/sites/default/files/2021-06/Norsk%20MS_register%20%C3%85rsrapport%202020.pdf)",
           "karusell": {
             "presentasjonstype": [
