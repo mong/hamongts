@@ -12,6 +12,7 @@ import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
+import { DataTable } from "../Table";
 
 type ResultBoxProps = {
   title: string;
@@ -101,12 +102,55 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 />
               )}
             </CarouselItem>
+            <CarouselItem label="Tabell">
+              {figdata && (
+                <div style={{ width: "700px" }}>
+                  <DataTable
+                    data={figdata}
+                    headers={[
+                      {
+                        id: "bohf",
+                        label: "Opptaksområder",
+                        typeVar: "string",
+                      },
+                      {
+                        id: "rateSnitt",
+                        label: "Antall pr 1000",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "kontakter",
+                        label: "Kontakter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "pasienter",
+                        label: "Pasienter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "kont_pr_pas",
+                        label: "Kont pr pasient",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "innbyggere",
+                        label: "Innbyggere",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                    ]}
+                  />
+                </div>
+              )}
+            </CarouselItem>
             <CarouselItem label="Kart">
               {" "}
               <img src="/helseatlas/img/map.png"></img>
-            </CarouselItem>
-            <CarouselItem label="Tabell">
-              <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
           <Accordion
