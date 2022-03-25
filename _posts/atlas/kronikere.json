@@ -38,7 +38,7 @@
           "publisert": "2022-03-02T14:03:43.106Z",
           "oppdatert": "2022-03-02T14:03:43.149Z",
           "overskrift": "Pasienter med Multippel sklerose",
-          "ingress": "**Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)**\n\n**Figur 2: Tredelt figur - pasientrate: spesialist, begge, primær**\n\n**Tabellinnhold:** \n\n* **Pasientrate, alle pasienter (NPR+KPR)**\n* **Pasientrate, kvinner**\n* **Pasientrate, menn**\n* **Andel pasienter kun i primærhelsetj.**\n* **Antall pasienter**\n* **Antall innbyggere?**",
+          "ingress": "**Ulik sykelighet**\n\nOm lag dobbelt så mange kvinner som menn lever med sykdommen MS. Pasientraten var nesten dobbelt så høy i opptaksområdet Møre og Romsdal som i opptaksområdene Finnmark og Diakonhjemmet. \n\n\n\n\n\n**Figur 1: Pasientrate m årsvariasjon, alle pasienter (NPR+KPR)**\n\n**Figur 2: Tredelt figur - pasientrate: spesialist, begge, primær**\n\n**Tabellinnhold:** \n\n* **Pasientrate, alle pasienter (NPR+KPR)**\n* **Pasientrate, kvinner**\n* **Pasientrate, menn**\n* **Andel pasienter kun i primærhelsetj.**\n* **Antall pasienter**\n* **Antall innbyggere?**",
           "karusell": {
             "presentasjonstype": [
               "barchart"
@@ -48,7 +48,7 @@
             "ylabel": "Opptaksområder"
           },
           "utvalg": "---",
-          "resultat": "#### Bakgrunn\n\nI Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.\n\n\n\nI perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal."
+          "resultat": "#### Bakgrunn\n\nI Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.\n\n\n\n**Kjent ulik sykelighet**\n\nI perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 517 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år.\n\nDet var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal."
         },
         {
           "type": "tekst",
