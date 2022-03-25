@@ -7,6 +7,15 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import { getOrderComparator } from "../../helpers/functions/dataTransformation";
+import { formatLocale } from "d3-format";
+
+const formatDefinition = {
+  decimal: ",",
+  thousands: "\u202f",
+  grouping: [3],
+};
+
+const format = formatLocale(formatDefinition).format;
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
   data: Data[];
@@ -14,7 +23,7 @@ type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
     id: string & Partial<Headers>;
     label: string;
     typeVar: Data[Headers];
-    signif?: number;
+    format?: string;
   }[];
 };
 
@@ -78,7 +87,9 @@ export const DataTable = <
                     padding="none"
                     align={cell.typeVar === "number" ? "right" : "left"}
                   >
-                    {row[cell.id]}
+                    {cell.format
+                      ? format(cell.format)(row[cell.id])
+                      : row[cell.id]}
                   </TableCell>
                 ))}
               </TableRow>
