@@ -4,6 +4,8 @@ import Image from "next/image";
 
 import { imgLoader } from "../../helpers/functions";
 import styles from "../../styles/Home.module.css";
+import { SearchButton } from "../Btns/SearchButton";
+
 type HeaderProps = {
   origin: string;
   lang: "no" | "en";
@@ -53,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
             </Link>
           </div>
         </div>
-        <div className="search"></div>
+        <SearchButton lang={lang} />
         <div className="menu"></div>
       </div>
     </header>

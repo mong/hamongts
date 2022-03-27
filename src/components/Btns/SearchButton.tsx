@@ -1,10 +1,16 @@
 import classNames from "./Buttons.module.css";
 
-export const SearchButton = ({}) => {
+type SearchButtonProps = {
+  lang: "en" | "no";
+};
+
+export const SearchButton: React.FC<SearchButtonProps> = ({ lang }) => {
   return (
     <button className={classNames.button}>
       <span className={classNames.buttonIconSearch}></span>
-      <span className={classNames.buttonText}>Søk</span>
+      <span className={classNames.buttonText}>
+        {lang === "en" ? "Search" : "Søk"}
+      </span>
     </button>
   );
 };
