@@ -2,6 +2,8 @@
 num: 4
 mainTitle: Healthcare Atlas for the Elderly in Norway
 shortTitle: Elderly Healthcare Atlas, 2013–2015
+image: /helseatlas/img/eldre.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/healthcare-atlas-elderly.pdf
 ia: true
 lang: en

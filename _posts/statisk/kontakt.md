@@ -1,7 +1,7 @@
 ---
 filename: kontakt
 title: Kontaktinformasjon
-lang: no
+lang: nb
 ---
 
 ## SKDE

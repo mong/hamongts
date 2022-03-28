@@ -12,6 +12,7 @@ import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
+import { DataTable } from "../Table";
 
 type ResultBoxProps = {
   title: string;
@@ -20,7 +21,7 @@ type ResultBoxProps = {
   selection: string;
   result: string;
   id: string;
-  lang?: string;
+  lang: string;
   xlabel: string;
   ylabel: string;
 };
@@ -33,7 +34,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   id,
   xlabel,
   ylabel,
-  lang = "no",
+  lang,
   carousel,
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
@@ -65,7 +66,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         >
           <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
-            <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
                 data={figdata}
@@ -74,11 +74,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 width={800}
                 height={80}
                 label={xlabel}
-                xMin={0}
-                xMax={7.0}
                 backgroundColor="inherit"
               />
             )}
+            <Markdown lang={lang}>{intro}</Markdown>
           </div>
         </AccordionSummary>
         <AccordionDetails>
@@ -98,19 +97,60 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   height={500}
                   xLabel={xlabel}
                   yLabel={ylabel}
-                  xMin={0}
-                  xMax={7}
                   backgroundColor="white"
                   annualVar={["rate2018", "rate2019", "rate2020"]}
                 />
               )}
             </CarouselItem>
+            <CarouselItem label="Tabell">
+              {figdata && (
+                <div style={{ width: "700px" }}>
+                  <DataTable
+                    data={figdata}
+                    headers={[
+                      {
+                        id: "bohf",
+                        label: "Opptaksområder",
+                        typeVar: "string",
+                      },
+                      {
+                        id: "rateSnitt",
+                        label: "Antall pr 1000",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "kontakter",
+                        label: "Kontakter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "pasienter",
+                        label: "Pasienter",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                      {
+                        id: "kont_pr_pas",
+                        label: "Kont pr pasient",
+                        typeVar: "number",
+                        format: ".1f",
+                      },
+                      {
+                        id: "innbyggere",
+                        label: "Innbyggere",
+                        typeVar: "number",
+                        format: ",",
+                      },
+                    ]}
+                  />
+                </div>
+              )}
+            </CarouselItem>
             <CarouselItem label="Kart">
               {" "}
               <img src="/helseatlas/img/map.png"></img>
-            </CarouselItem>
-            <CarouselItem label="Tabell">
-              <img src="/helseatlas/img/table.png"></img>
             </CarouselItem>
           </Carousel>
           <Accordion
@@ -123,7 +163,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               aria-controls={`${id}-content-selection`}
               id={`${id}-content-selection`}
             >
-              {lang === "no" ? "Utvalg" : "Selection"}
+              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
             </AccordionSummary>
             <AccordionDetails>
               <Markdown lang={lang}>{selection}</Markdown>

@@ -2,6 +2,7 @@ import React from "react";
 import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
+import { max, sum } from "d3-array";
 
 import { toBarchart } from "../../helpers/functions/dataTransformation";
 import { AnnualVariation } from "./AnnualVariation";
@@ -40,7 +41,7 @@ type BarchartProps<
   xLabel?: string;
   yLabel?: string;
   xMin?: number;
-  xMax: number;
+  xMax?: number;
   backgroundColor?: string;
   xAxisLineStroke?: string;
   xAxisTickStroke?: string;
@@ -97,10 +98,23 @@ export const Barchart = <
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
 
+  const sorted = [...data].sort((first, second) => {
+    const firstVal = sum(x.map((xVal) => parseFloat(first[xVal])));
+    const secondVal = sum(x.map((xVal) => parseFloat(second[xVal])));
+    return secondVal - firstVal;
+  });
+
   const series = toBarchart<BarchartData<Data, X, Y, ColorBy, AnnualVar>, X>(
-    data,
+    sorted,
     x
   );
+
+  //used to find max values
+  const annualValues = annualVar
+    ? annualVar.flatMap((annual) => data.flatMap((dt) => parseInt(dt[annual])))
+    : [];
+  const values = [...annualValues, ...series.flat().flat().flat()];
+  const xMaxValue = xMax ? xMax : max(values) * 1.1;
   const colors = ["#003087", "#6CACE4"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -108,12 +122,12 @@ export const Barchart = <
   });
 
   const xScale = scaleLinear<number>({
-    domain: [xMin, xMax],
+    domain: [xMin, xMaxValue],
     range: [0, innerWidth],
   });
 
   const yScale = scaleBand<string>({
-    domain: data.map((s) => s[y]),
+    domain: sorted.map((s) => s[y]),
     range: [0, innerHeight],
     paddingInner: yInnerPadding,
     paddingOuter: yOuterPadding,
@@ -151,7 +165,7 @@ export const Barchart = <
             scale={xScale}
             strokeWidth={xAxisLineStrokeWidth}
             stroke={xAxisLineStroke}
-            tickValues={[xMin, xMax]}
+            numTicks={4}
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}

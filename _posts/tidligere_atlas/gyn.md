@@ -2,9 +2,11 @@
 num: 8
 mainTitle: Helseatlas for gynekologi
 shortTitle: Gynekologi, 2015–2017
+image: /helseatlas/img/gyn.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

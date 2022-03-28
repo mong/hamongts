@@ -1,7 +1,7 @@
 ---
 filename: kart
 title: Om statistikkformidling ved hjelp av kart
-lang: no
+lang: nb
 ---
 
 Kart er et kraftfullt formidlingsverktøy og gir oss et intuitivt og forenklet bilde over et tallmateriale. Men kart kan også være forførende og sterkt misvisende, og det er viktig at leseren er oppmerksom på noen helt grunnleggende momenter. Når en skal velge kartografiske uttrykksformer står en ovenfor en rekke valg som innebærer både fordeler og ulemper. Den mest brukte kartografiske metoden kalles koroplettkart (skravurkart). I slike kart gis hver arealenhet (i det interaktive atlaset benyttes opptaksområder (HF-områder) som arealenhet) en **fargetone** avhengig av hvilken klasse/gruppe dataverdien faller innenfor. Fordelen er at det er lett å identifisere områdene som beskrives, ulempen er at arealmessig store opptaksområder dominerer kartet visuelt, mens opptaksområder med lite areal får langt mindre oppmerksomhet.

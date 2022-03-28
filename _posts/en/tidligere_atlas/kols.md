@@ -2,6 +2,8 @@
 num: 5
 mainTitle: COPD Healthcare Atlas
 shortTitle: COPD healthcare atlas, 2013–2015
+image: /helseatlas/img/kols.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/copd-healthcare-atlas.pdf
 ia: true
 lang: en
