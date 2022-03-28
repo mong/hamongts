@@ -4,7 +4,7 @@ mainTitle: Helseatlas for kvalitet
 shortTitle: Kvalitet, 2017–2019
 pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

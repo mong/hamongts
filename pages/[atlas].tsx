@@ -20,7 +20,7 @@ interface AtlasPageProps {
 }
 
 type AtlasJson = {
-  lang: "no" | "en";
+  lang: "nb" | "en" | "nn";
   date: Date;
   filename: string;
   mainTitle: string;
@@ -82,7 +82,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
             <div>
               <h1>{obj.mainTitle}</h1>
               <div className="ingress">{obj.ingress}</div>
-              <Chapters innhold={obj.kapittel} />
+              <Chapters innhold={obj.kapittel} lang={obj.lang} />
             </div>
           </div>
         </main>

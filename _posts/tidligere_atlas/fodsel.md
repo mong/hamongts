@@ -5,7 +5,7 @@ shortTitle: Fødselshjelp, 2015–2017
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
 ia: true
 toc: true
-lang: no
+lang: nb
 ---
 
 <div className="ingress">

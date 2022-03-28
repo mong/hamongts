@@ -12,7 +12,12 @@ import { PluggableList } from "react-markdown/lib/react-markdown";
  *- Use GitHub Flavored Markdown (gfm)
  */
 
-export const Markdown = ({ children, lang }) => {
+type MarkdownProp = {
+  children: string;
+  lang?: string;
+};
+
+export const Markdown = ({ children, lang }: MarkdownProp) => {
   const rehypePlugins: PluggableList = [rehypeRaw, rehypeSlug];
   const remarkPlugins: PluggableList = [remarkGfm];
   const components: Components = {

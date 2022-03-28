@@ -1,7 +1,7 @@
 ---
 filename: ortopedi_ous
 title: Definitions of the OUS referral area for the orthopaedic healthcare atlas
-lang: no
+lang: en
 ---
 
 In the main analyses of the orthopaedic healthcare atlas, the hospital referral areas of Lovisenberg and Diakonhjemmet align with the referral area of Oslo University Hospital, denoted by its Norwegian abbreviation, OUS. The results from main analyses are shown in the report, in fact sheets as well as in the interactive map. Definitions of the OUS referral area as assumed in the report can be found here. In addition, health care use rates (number of operations or hospitalizations per 100 000 population) have been analyzed for each OUS subarea:

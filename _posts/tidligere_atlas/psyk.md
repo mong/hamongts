@@ -4,7 +4,7 @@ mainTitle: Helseatlas for psykisk helsevern og rusbehandling
 shortTitle: Psykisk helsevern og TSB, 2014-2018
 pdfUrl: /helseatlas/files/psykiskhelsevernogrus.pdf
 ia: true
-lang: no
+lang: nn
 toc: false
 ---
 
