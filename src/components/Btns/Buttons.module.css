@@ -17,11 +17,25 @@
 .buttonIconSearch {
   content: "";
   display: flex;
-  width: 1.5em;
-  height: 1.5em;
-  padding-top: 1.5em;
+  width: 1.3em;
+  height: 1.3em;
   cursor: pointer;
   background: transparent no-repeat url(/helseatlas/img/search-blue.svg);
+}
+
+.buttonBurgerIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.buttonBurgerIcon span {
+  display: block;
+  width: 20px;
+  background-color: #034584;
+  height: 1px;
 }
 
 .buttonText {
@@ -31,10 +45,8 @@
   margin-right: 6px;
   font-family: Open Sans, Helvetica, sans-serif;
   order: 1;
-  line-height: normal;
   font-size: 1.125rem;
   color: #034584;
   text-transform: uppercase;
-  height: 1.5rem;
   box-sizing: border-box;
 }

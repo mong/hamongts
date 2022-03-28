@@ -5,6 +5,7 @@ import Image from "next/image";
 import { imgLoader } from "../../helpers/functions";
 import styles from "../../styles/Home.module.css";
 import { SearchButton } from "../Btns/SearchButton";
+import { MenuButton } from "../Btns/MenuButton";
 
 type HeaderProps = {
   origin: string;
@@ -56,7 +57,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
           </div>
         </div>
         <SearchButton lang={lang} />
-        <div className="menu"></div>
+        <MenuButton lang={lang} />
       </div>
     </header>
   );
