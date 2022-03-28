@@ -13,7 +13,7 @@ interface AtlasPageProps {
     shortTitle: string;
     pdfUrl: string;
     ia: boolean;
-    lang: string;
+    lang: "nb" | "en" | "nn";
     toc: boolean;
   };
 }
