@@ -30,15 +30,18 @@ type Resultatboks = {
   utvalg: string;
   resultat: string;
   data: AtlasData[];
+  lang: string;
 };
 
 export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
+  lang: string;
 };
 
 type ChaptersProps = {
   innhold: ChapterProps[];
+  lang: string;
 };
 
 const json2atlas = {
@@ -47,17 +50,17 @@ const json2atlas = {
   resultatboks: ResultBox,
 };
 
-export const Chapters = ({ innhold }: ChaptersProps) => {
+export const Chapters = ({ innhold, lang }: ChaptersProps) => {
   return (
     <>
       {innhold.map((chapter) => (
-        <Chapter key={chapter.overskrift} {...chapter} />
+        <Chapter {...chapter} key={chapter.overskrift} lang={lang} />
       ))}
     </>
   );
 };
 
-const Chapter = ({ innhold, overskrift }: ChapterProps) => {
+const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
   const mainID = overskrift.toLowerCase().replace(/\s/g, "-");
   return (
     <div id={mainID} style={{ paddingTop: "10px" }}>
@@ -87,6 +90,7 @@ const Chapter = ({ innhold, overskrift }: ChapterProps) => {
                   carousel: box.karusell,
                   xlabel: box.karusell.xlabel,
                   ylabel: box.karusell.ylabel,
+                  lang: lang,
                 }
               : { children: box.tekst };
 
