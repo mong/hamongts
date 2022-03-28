@@ -30,6 +30,18 @@ collections:
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - {
+          label: "Forsidebilde",
+          name: "image",
+          widget: "file",
+          required: false,
+        }
+      - {
+          label: "Forsidetekst",
+          name: "frontpagetext",
+          widget: "string",
+          required: false,
+        }
       - { label: "Ingress", name: "ingress", widget: "string" }
       - {
           label: "Språk",
@@ -160,6 +172,8 @@ collections:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Forsidebilde", name: "image", widget: "file" }
+      - { label: "Forsidetekst", name: "frontpagetext", widget: "string" }
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }
@@ -195,6 +209,8 @@ collections:
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - { label: "Forsidebilde", name: "image", widget: "file" }
+      - { label: "Forsidetekst", name: "frontpagetext", widget: "string" }
       - { label: "Rapport", name: "pdfUrl", widget: "string" }
       - { label: "Hovedtekst", name: "body", widget: "markdown" }
       - { label: "Instant atlas?", name: "ia", widget: "boolean" }

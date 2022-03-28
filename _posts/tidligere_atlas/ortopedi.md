@@ -2,6 +2,8 @@
 num: 7
 mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi, 2012–2016
+image: img/ortopedi.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
 lang: nn

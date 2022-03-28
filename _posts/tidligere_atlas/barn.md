@@ -2,6 +2,8 @@
 num: 2
 mainTitle: Barnehelseatlas for Norge
 shortTitle: Barnehelseatlas, 2011–2014
+image: img/barn.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true
 lang: nb

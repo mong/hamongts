@@ -2,6 +2,8 @@
 num: 9
 mainTitle: Helseatlas for fødselshjelp
 shortTitle: Fødselshjelp, 2015–2017
+image: img/fodsel.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
 ia: true
 toc: true
