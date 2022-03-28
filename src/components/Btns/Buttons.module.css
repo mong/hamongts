@@ -1,4 +1,5 @@
 .button {
+  
   justify-content: space-between;
   flex-direction: row-reverse;
   font-size: 18px;
@@ -7,6 +8,7 @@
   cursor: pointer;
   border: none;
   background: none;
+  margin-left: 3rem;
   transition: 0.1s;
 }
 .button:hover,

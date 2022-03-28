@@ -4,6 +4,8 @@ import Image from "next/image";
 
 import { imgLoader } from "../../helpers/functions";
 import styles from "../../styles/Home.module.css";
+import HeaderClassNames from "./Header.module.css";
+
 import { SearchButton } from "../Btns/SearchButton";
 import { MenuButton } from "../Btns/MenuButton";
 
@@ -30,35 +32,28 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
           </a>
         </Link>
       </div>
-      <div className={styles.header_links}>
-        <div className="lang">
-          <div
-            style={{
-              borderRight: "1px solid #034584",
-              paddingRight: "10px",
-              fontWeight: lang === "en" ? undefined : 700,
-              textDecoration: "underline",
-            }}
-          >
-            <Link href={`${origin}/helseatlas`}>
-              <a>NO</a>
-            </Link>
+      <nav className={HeaderClassNames.headerNavContainer}>
+        <div className={HeaderClassNames.navButtons}>
+          <div className={HeaderClassNames.lang}>
+            <div
+              className={`${HeaderClassNames.no} ${lang === "no" ? HeaderClassNames.active : undefined}`}
+            >
+              <Link href={`${origin}/helseatlas`}>
+                <a>NO</a>
+              </Link>
+            </div>
+            <div
+              className={`${HeaderClassNames.eng} ${lang === "en" ? HeaderClassNames.active : undefined}`}
+            >
+              <Link href={`${origin}/helseatlas/en`}>
+                <a>ENG</a>
+              </Link>
+            </div>
           </div>
-          <div
-            style={{
-              paddingLeft: "10px",
-              fontWeight: lang === "no" ? undefined : 700,
-              textDecoration: "underline",
-            }}
-          >
-            <Link href={`${origin}/helseatlas/en`}>
-              <a>ENG</a>
-            </Link>
-          </div>
+          <SearchButton lang={lang} />
+          <MenuButton lang={lang} />
         </div>
-        <SearchButton lang={lang} />
-        <MenuButton lang={lang} />
-      </div>
+      </nav>
     </header>
   );
 };

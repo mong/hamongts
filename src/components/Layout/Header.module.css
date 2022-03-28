@@ -1,0 +1,36 @@
+.headerNavContainer{
+  width: auto;
+  margin: auto 0;
+}
+.navButtons{
+  display: flex;
+  justify-content: space-around;
+}
+.lang{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  margin-left: 3rem;
+
+}
+.no {
+  color: #034584;
+  border-right: 1px solid #034584;
+  padding-right: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  transition: 200ms ease-in;
+}
+
+.eng{
+  color: #034584;
+  padding-left: 10px;
+  font-weight: normal;
+  text-decoration: underline;
+  transition: 200ms ease-in;
+}
+
+.no.active,
+.eng.active{
+  font-weight: 700;
+}
