@@ -2,6 +2,8 @@
 num: 8
 mainTitle: Gynaecology Healthcare Atlas
 shortTitle: Gynaecology, 2015–2017
+image: img/gyn.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/healthatlas-gynaecology.pdf
 ia: true
 lang: en
