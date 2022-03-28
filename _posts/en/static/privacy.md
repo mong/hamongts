@@ -1,5 +1,5 @@
 ---
 filename: privacy
 title: Privacy
-lang: no
+lang: en
 ---

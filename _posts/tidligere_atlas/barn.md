@@ -4,7 +4,7 @@ mainTitle: Barnehelseatlas for Norge
 shortTitle: Barnehelseatlas, 2011–2014
 pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

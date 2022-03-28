@@ -4,7 +4,7 @@ mainTitle: Eldrehelseatlas for Norge
 shortTitle: Eldrehelseatlas, 2013–2015
 pdfUrl: /helseatlas/files/eldrehelseatlas_rapport.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

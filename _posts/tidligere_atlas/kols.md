@@ -4,7 +4,7 @@ mainTitle: Helseatlas kols
 shortTitle: Kols, 2013–2015
 pdfUrl: /helseatlas/files/helseatlas-kols-rapport.pdf
 ia: true
-lang: no
+lang: nb
 toc: true
 ---
 

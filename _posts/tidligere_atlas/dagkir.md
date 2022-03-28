@@ -4,7 +4,7 @@ mainTitle: Dagkirurgi i Norge 2011–2013
 shortTitle: Dagkirurgi,  2011–2013
 pdfUrl: /helseatlas/files/Rapporthelseatlas1_15.pdf
 ia: true
-lang: no
+lang: nb
 toc: false
 ---
 
