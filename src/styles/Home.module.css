@@ -18,7 +18,7 @@
 .header_container {
   display: flex;
   width: 100%;
-  max-width: max(1216px,95%);
+  max-width: max(1216px, 95%);
   height: fit-content;
   min-width: 400px;
   padding: 32px 0px 32px 0px;

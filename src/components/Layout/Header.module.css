@@ -1,17 +1,16 @@
-.headerNavContainer{
+.headerNavContainer {
   width: auto;
   margin: auto 0;
 }
-.navButtons{
+.navButtons {
   display: flex;
   justify-content: space-around;
 }
-.lang{
+.lang {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
   margin-left: 3rem;
-
 }
 .no {
   color: #034584;
@@ -22,7 +21,7 @@
   transition: 200ms ease-in;
 }
 
-.eng{
+.eng {
   color: #034584;
   padding-left: 10px;
   font-weight: normal;
@@ -31,6 +30,6 @@
 }
 
 .no.active,
-.eng.active{
+.eng.active {
   font-weight: 700;
 }

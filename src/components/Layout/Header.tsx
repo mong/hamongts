@@ -36,14 +36,18 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
         <div className={HeaderClassNames.navButtons}>
           <div className={HeaderClassNames.lang}>
             <div
-              className={`${HeaderClassNames.no} ${lang === "no" ? HeaderClassNames.active : undefined}`}
+              className={`${HeaderClassNames.no} ${
+                lang === "no" ? HeaderClassNames.active : undefined
+              }`}
             >
               <Link href={`${origin}/helseatlas`}>
                 <a>NO</a>
               </Link>
             </div>
             <div
-              className={`${HeaderClassNames.eng} ${lang === "en" ? HeaderClassNames.active : undefined}`}
+              className={`${HeaderClassNames.eng} ${
+                lang === "en" ? HeaderClassNames.active : undefined
+              }`}
             >
               <Link href={`${origin}/helseatlas/en`}>
                 <a>ENG</a>
