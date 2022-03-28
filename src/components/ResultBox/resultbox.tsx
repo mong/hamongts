@@ -21,7 +21,7 @@ type ResultBoxProps = {
   selection: string;
   result: string;
   id: string;
-  lang: string;
+  lang: "nb" | "en" | "nn";
   xlabel: string;
   ylabel: string;
 };

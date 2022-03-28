@@ -6,7 +6,7 @@ interface PageContentProps {
   content: string;
   frontMatter: {
     title: string;
-    lang: string;
+    lang: "nb" | "en" | "nn";
   };
 }
 
@@ -16,7 +16,7 @@ export const PageContent: React.FC<PageContentProps> = ({
 }) => {
   return (
     <>
-      <Layout lang={frontMatter.lang}>
+      <Layout lang={frontMatter.lang === "en" ? "en" : "no"}>
         <div className={styles.container}>
           <div className={styles.article__title}>
             <h1>{frontMatter.title}</h1>
