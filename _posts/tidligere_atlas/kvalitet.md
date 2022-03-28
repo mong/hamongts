@@ -2,6 +2,8 @@
 num: 11
 mainTitle: Helseatlas for kvalitet
 shortTitle: Kvalitet, 2017–2019
+image: img/kvalitet.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
 lang: nb

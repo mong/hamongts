@@ -2,6 +2,8 @@
 num: 3
 mainTitle: The Norwegian Neonatal Healthcare Atlas, 2009-2014
 shortTitle: Neonatal Atlas, 2009–2014
+image: img/nyfodt.png
+frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/norwegian-neonatal-healthcare.pdf
 ia: true
 lang: en
