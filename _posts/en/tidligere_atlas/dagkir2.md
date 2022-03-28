@@ -2,7 +2,7 @@
 num: 6
 mainTitle: Day surgery in Norway 2013–2017
 shortTitle: Day surgery atlas 2013–2017
-image: img/dagkir2.png
+image: /helseatlas/img/dagkir2.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/daysurgery_2013-2017.pdf
 ia: true

@@ -2,7 +2,7 @@
 num: 7
 mainTitle: Orthopaedic Healthcare Atlas for Norway
 shortTitle: Orthopaedic, 2012-2016
-image: img/ortopedi.png
+image: /helseatlas/img/ortopedi.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/report_orthopaedic.pdf
 ia: true

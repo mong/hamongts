@@ -2,7 +2,7 @@
 num: 5
 mainTitle: Helseatlas kols
 shortTitle: Kols, 2013–2015
-image: img/kols.png
+image: /helseatlas/img/kols.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/helseatlas-kols-rapport.pdf
 ia: true
