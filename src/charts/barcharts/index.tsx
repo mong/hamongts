@@ -115,7 +115,7 @@ export const Barchart = <
     : [];
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
-  const colors = ["#003087", "#6CACE4"];
+  const colors = ["#6CACE4", "#003087"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...colors],
@@ -189,7 +189,11 @@ export const Barchart = <
                       y={yScale(barData.data[y].toString())}
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
-                      stroke={colors[0]}
+                      fill={
+                        barData.data["bohf"].toString() === "Norge"
+                          ? colors[1]
+                          : colors[0]
+                      }
                       strokeWidth={1}
                     />
                   );
