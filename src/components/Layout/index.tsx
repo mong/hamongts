@@ -1,16 +1,16 @@
 import Link from "next/link";
-import Head from "next/head";
 import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import { imgLoader } from "../../helpers/functions";
 import { useEffect, useState } from "react";
-import { SearchBar } from "../SearchBar";
+import { LayoutHead } from "./LayoutHead";
+import { Header } from "./Header";
 
 interface Props {
   children: any;
   title?: string;
   page?: string;
-  lang: string;
+  lang: "no" | "en";
 }
 
 export default function Layout({
@@ -25,43 +25,9 @@ export default function Layout({
 
   return (
     <>
-      <Head>
-        <title>{title}</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta property="og:site_name" content="Helse Nord RHF"></meta>
-        <meta
-          name="description"
-          content="The healthcare atlases on Helseatlas.no are a tool for comparing the population's use of health services in different geographical areas, regardless of where the patients actually receive treatment."
-        />
-        <link rel="icon" href="/helseatlas/img/logos/favicon.ico" />
-      </Head>
+      <LayoutHead title={title} />
       <div className={styles.grid_wrapper}>
-        <header className={`${styles.header_container}`}>
-          <div className={styles.header_logo}>
-            <Link
-              href={`${origin}${
-                lang === "en" ? "/helseatlas/en" : "/helseatlas"
-              }`}
-            >
-              <a rel="home">
-                <Image
-                  loader={imgLoader}
-                  src={`/helseatlas/img/logos/helseatlas.svg`}
-                  alt="Hjem"
-                  width={186}
-                  height={47}
-                />
-              </a>
-            </Link>
-          </div>
-          <div className={styles.header_links}>
-            <Link href={lang === "en" ? "/en/static/about" : "/statisk/om"}>
-              <a>{lang === "en" ? "About" : "Om oss"}</a>
-            </Link>
-            <SearchBar />
-          </div>
-        </header>
+        <Header origin={origin} lang={lang} />
         {children}
         <footer className={`${styles.full_bleed} ${styles.footer_container}`}>
           <div className={styles.footer__top}>

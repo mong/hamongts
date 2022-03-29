@@ -21,7 +21,7 @@ interface AtlasContentProps {
     shortTitle: string;
     pdfUrl: string;
     ia: boolean;
-    lang: string;
+    lang: "nb" | "en" | "nn";
     toc: boolean;
   };
 }
@@ -93,7 +93,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   `;
   return (
     <>
-      <Layout lang={frontMatter.lang}>
+      <Layout lang={frontMatter.lang === "en" ? "en" : "no"}>
         <main>
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>

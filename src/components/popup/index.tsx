@@ -1,6 +1,5 @@
 import React from "react";
-import { Markdown } from "../Markdown";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineClose } from "react-icons/ai";
 import { useTransition, animated, easings } from "react-spring";
 
 import classNames from "./popup.module.css";
@@ -33,14 +32,14 @@ export const PopUp = ({ children, btnComponent }: PopUpProps) => {
 
   return (
     <div ref={ref}>
-      <button
+      <div
         className={classNames.popUpBtn}
         onClick={() => {
           setActive(!active);
         }}
       >
         {btnComponent()}
-      </button>
+      </div>
       {transitions(
         (styles, item) =>
           item && (
@@ -52,10 +51,14 @@ export const PopUp = ({ children, btnComponent }: PopUpProps) => {
             >
               <button
                 className={classNames.closeBtn}
-                style={{}}
                 onClick={() => setActive(false)}
               >
-                <AiOutlineCloseCircle style={{ alignSelf: "end" }} size={30} />
+                <AiOutlineClose
+                  strokeWidth={"1px"}
+                  color="#034584"
+                  style={{ alignSelf: "end" }}
+                  size={30}
+                />
               </button>
               {children}
             </animated.div>
