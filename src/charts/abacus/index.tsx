@@ -55,7 +55,7 @@ export const Abacus = <
   xMax,
   backgroundColor = "white",
   axisLineStroke = "black",
-  axisLineStrokeWidth = 5,
+  axisLineStrokeWidth = 2,
   axisTickStroke = "black",
   circleRadiusDefalt = 15,
   tickLength = 20,
@@ -78,11 +78,15 @@ export const Abacus = <
           scale={xScale}
           strokeWidth={axisLineStrokeWidth}
           stroke={axisLineStroke}
-          tickValues={[xMin, xMaxVal]}
+          numTicks={4}
           tickLength={tickLength}
           tickStroke={axisTickStroke}
           tickTransform={`translate(0,-${tickLength / 2})`}
           label={label}
+          labelProps={{
+            fontSize: 15,
+            textAnchor: "middle",
+          }}
         />
       </Group>
       <Group left={margin.left} top={margin.top}>
