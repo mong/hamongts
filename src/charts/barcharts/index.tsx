@@ -172,8 +172,7 @@ export const Barchart = <
             label={xLabel}
             labelProps={{
               fontSize: 15,
-              x: 50,
-              y: 30,
+              textAnchor: "middle",
             }}
           />
         </Group>
