@@ -48,13 +48,13 @@
           "karusell": {
             "xlabel": "Antall per 1 000 innbyggere",
             "ylabel": "Opptaksområder",
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "data/epilepsi_pasienter_Barn.csv",
             "presentasjonstype": [
               "barchart"
             ]
           },
           "publisert": "2022-03-08T12:33:47.556Z",
-          "oppdatert": "2022-03-08T12:33:47.589Z",
+          "oppdatert": "2022-03-30T11:32:19.372Z",
           "utvalg": "dett eer en efsdf l",
           "resultat": "dsvsgfwesdf",
           "ingress": "fdsfsdfaf",
