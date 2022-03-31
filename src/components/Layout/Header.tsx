@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { imgLoader } from "../../helpers/functions";
-import styles from "../../styles/Home.module.css";
 import HeaderClassNames from "./Header.module.css";
 
 import { SearchButton } from "../Btns/SearchButton";
@@ -45,8 +44,8 @@ const SearchBar: React.FC<SearchBarProps> = ({ lang }) => {
 
 export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
   return (
-    <header className={`${styles.header_container}`}>
-      <div className={styles.header_logo}>
+    <header className={`${HeaderClassNames.headerContainer}`}>
+      <div className={HeaderClassNames.headerLogo}>
         <Link
           href={`${origin}${lang === "en" ? "/helseatlas/en" : "/helseatlas"}`}
         >

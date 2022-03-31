@@ -1,6 +1,8 @@
 import path from "path";
 import styles from "../src/styles/Home.module.css";
 import Layout from "../src/components/Layout";
+import { MainBanner } from "../src/components/MainBanner/MainBanner";
+
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
@@ -42,18 +44,13 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
 
   return (
     <Layout lang="no">
-      <div className={styles.full_bleed}>
-        <div className={styles.banner_article}>
-          <div className={styles.banner_article__content}>
-            <h1>Likeverdige helsetjenester - uansett hvor du bor?</h1>
-            <p>
-              Helseatlas sammenlikner befolkningens bruk av helsetjenester
-              gjennom interaktive kart, rapporter og faktaark.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
+      <MainBanner />
+    </Layout>
+  );
+};
+
+/*
+ <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
         <div className={`${styles.buttons}`}>
           <div className={styles.block_buttons}>
             {LinksNew}
@@ -61,9 +58,8 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
           </div>
         </div>
       </div>
-    </Layout>
-  );
-};
+
+*/
 
 export const getStaticProps: GetStaticProps = async () => {
   const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
