@@ -1,5 +1,5 @@
 import { AxisBottom } from "@visx/axis";
-import { scaleLinear, scaleOrdinal } from "@visx/scale";
+import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max } from "d3-array";
 
@@ -48,8 +48,6 @@ export const Abacus = <
     right: 20,
     left: 20,
   },
-  colorLegend = false,
-  colorBy,
   data,
   label,
   x,
@@ -57,18 +55,14 @@ export const Abacus = <
   xMax,
   backgroundColor = "white",
   axisLineStroke = "black",
-  axisLineStrokeWidth = 5,
+  axisLineStrokeWidth = 2,
   axisTickStroke = "black",
   circleRadiusDefalt = 15,
   tickLength = 20,
 }: AbacusProps<Data, X, ColorBy>) => {
-  // color legend missing
-  //tooltip missing
-
   const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
   const xMaxVal = xMax ? xMax : max(values) * 1.1;
-  const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
   const colors = ["#6CACE4", "#003087"];
 
@@ -84,11 +78,15 @@ export const Abacus = <
           scale={xScale}
           strokeWidth={axisLineStrokeWidth}
           stroke={axisLineStroke}
-          tickValues={[xMin, xMaxVal]}
+          numTicks={4}
           tickLength={tickLength}
           tickStroke={axisTickStroke}
           tickTransform={`translate(0,-${tickLength / 2})`}
           label={label}
+          labelProps={{
+            fontSize: 15,
+            textAnchor: "middle",
+          }}
         />
       </Group>
       <Group left={margin.left} top={margin.top}>
@@ -99,7 +97,6 @@ export const Abacus = <
             cx={xScale(d[x])}
             opacity={0.8}
             fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
-            stroke={d["bohf"] === "Norge" ? "black" : "grey"}
           />
         ))}
       </Group>
