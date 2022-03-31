@@ -3,7 +3,7 @@ num: 4
 mainTitle: Eldrehelseatlas for Norge
 shortTitle: Eldrehelseatlas, 2013–2015
 image: /helseatlas/img/eldre.png
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Eldrehelseatlas for Norge beskriver variasjon i eldres bruk av sentrale somatiske spesialisthelsetjenester i forhold til bosted. 
 pdfUrl: /helseatlas/files/eldrehelseatlas_rapport.pdf
 ia: true
 lang: nb
