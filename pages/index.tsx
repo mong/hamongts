@@ -5,6 +5,8 @@ import { MainBanner } from "../src/components/MainBanner/MainBanner";
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
+import fs from "fs";
+import matter from "gray-matter";
 
 interface HomeProps {
   atlasInfo: {
@@ -74,11 +76,17 @@ export const getStaticProps: GetStaticProps = async () => {
   const atlasInfo = getMDInfo(atlasDir);
   const atlasDirNew = path.join(process.cwd(), "_posts/atlas");
   const atlasInfoNew = getMDInfo(atlasDirNew);
+  const menuFile = fs.readFileSync(
+    path.join(process.cwd(), "_posts/meny/norsk.md")
+  );
+  const { content, data } = matter(menuFile);
 
   return {
     props: {
       atlasInfo,
       atlasInfoNew,
+      content,
+      frontMatter: { ...data },
     },
   };
 };
