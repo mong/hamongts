@@ -11,4 +11,6 @@ fi
 # Remove hard spaces in file (thousands separator)
 sed -i 's/\ //g' $i
 
+sed -i 's/ratesnitt/rateSnitt/g' $i
+
 done
