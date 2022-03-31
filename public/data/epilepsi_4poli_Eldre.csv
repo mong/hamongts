@@ -1,4 +1,4 @@
-bohf,innbyggere,pasienter,kontakter_poli,polikont_pr_pas,rate2018,rate2019,rate2020,rateSnitt,off_rate,priv_rate,andel_off_poli,andel_priv_poli
+bohf,innbyggere,pasienter,kontakter,kont_pr_pas,rate2018,rate2019,rate2020,rateSnitt,off_rate,priv_rate,andel_off_poli,andel_priv_poli
 Finnmark,13657,93,55,0.5892857143,4.0876,3.8275,3.9504,3.9487,3.9487,0,1,0
 UNN,36156,237,141,0.5943661972,4.3024,3.3684,3.9379,3.8635,3.8547,0.00877,0.9977297989,0.0022702011
 Nordland,26995,183,151,0.8269581056,5.5309,6.3688,4.7494,5.5529,5.5529,0,1,0
