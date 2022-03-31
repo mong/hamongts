@@ -43,7 +43,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/MS_1pasienter_alle.csv",
             "xlabel": "Antall behandlet MS-pasienter per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -60,7 +60,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/MS_2akutt_alle.csv",
             "xlabel": "Antall akuttinnleggelser for MS per 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -246,7 +246,7 @@
               "table",
               "map"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/parkinson_1pasienter_alle.csv",
             "xlabel": "Antall pasienter per 1 000 innbyggere 18 - 105 år",
             "ylabel": "Opptaksområder"
           },
@@ -261,7 +261,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_pasienter_alle.csv"
+            "data": "data/parkinson_2poli_alle.csv"
           },
           "publisert": "2022-03-09T11:49:34.602Z",
           "oppdatert": "2022-03-09T11:49:34.712Z",
@@ -278,7 +278,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_pasienter_alle.csv"
+            "data": "data/parkinson_3FLLV_alle.csv"
           },
           "publisert": "2022-03-09T11:49:37.754Z",
           "oppdatert": "2022-03-09T11:49:37.865Z",
@@ -295,7 +295,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_pasienter_alle.csv"
+            "data": "data/parkinson_4NPRKPR_alle.csv"
           },
           "publisert": "2022-03-09T11:49:40.096Z",
           "oppdatert": "2022-03-09T11:49:40.209Z",
@@ -329,7 +329,7 @@
               "table",
               "map"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv"
+            "data": "data/Migrene_1pasienter_alle.csv"
           },
           "publisert": "2022-03-08T13:18:11.103Z",
           "oppdatert": "2022-03-08T13:18:11.235Z",
@@ -348,7 +348,7 @@
               "table",
               "map"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv"
+            "data": "data/Migrene_2poli_alle.csv"
           },
           "publisert": "2022-03-08T14:19:06.841Z",
           "oppdatert": "2022-03-08T14:19:06.935Z",
