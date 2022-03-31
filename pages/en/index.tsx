@@ -4,6 +4,7 @@ import Layout from "../../src/components/Layout";
 import { AtlasLink } from "../../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../../src/helpers/functions/markdownHelpers";
+import { MainBanner } from "../../src/components/MainBanner/MainBanner";
 
 interface HomeProps {
   atlasInfo: {
@@ -27,18 +28,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
 
   return (
     <Layout lang="en">
-      <div className={styles.full_bleed}>
-        <div className={styles.banner_article}>
-          <div className={styles.banner_article__content}>
-            <h1>Equitable health services – regardless of where you live?</h1>
-            <p>
-              The Norwegian healthcare atlases compares the population&apos;s
-              use of health services using interactive maps, reports and fact
-              sheets.
-            </p>
-          </div>
-        </div>
-      </div>
+      <MainBanner lang="en" />
       <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
         <div className={`${styles.buttons}`}>
           <h2>Helseatlas</h2>

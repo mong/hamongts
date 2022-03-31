@@ -45,12 +45,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
   return (
     <Layout lang="no">
       <MainBanner />
-    </Layout>
-  );
-};
-
-/*
- <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
+      <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
         <div className={`${styles.buttons}`}>
           <div className={styles.block_buttons}>
             {LinksNew}
@@ -58,8 +53,9 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
           </div>
         </div>
       </div>
-
-*/
+    </Layout>
+  );
+};
 
 export const getStaticProps: GetStaticProps = async () => {
   const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
