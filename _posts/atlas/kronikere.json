@@ -128,7 +128,7 @@
               "table",
               "map"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_1pasienter_alle.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -145,7 +145,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_2poli_alle.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
@@ -161,7 +161,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_3poli_Barn.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -180,7 +180,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_4poli_Eldre.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           }
@@ -195,7 +195,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_5primspes_alle.csv",
             "ylabel": "Opptaksområder",
             "xlabel": "Antall per 1 000"
           },
@@ -213,7 +213,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/epilepsi_6akutt_alle.csv",
             "xlabel": "Antall per 10 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
