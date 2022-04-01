@@ -45,7 +45,13 @@
           "id": "bohf",
           "label": "Opptaksområder",
           "typeVar": "string",
-          "format": "rateSnit"
+          "format": "NULL"
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Pasientrate, alle pasienter",
+          "typeVar": "number",
+          "format": ",.1f"
         },
         {
           "id": "pas_rate_barn",
