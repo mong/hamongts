@@ -1,0 +1,54 @@
+.linkOuterWrapper {
+  max-width: 47%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #e3f3ef;
+  transition: 100ms ease-in;
+  flex: 1 1 45%;
+}
+
+.linkOuterWrapper:hover,
+.linkOuterWrapper:focus {
+  background-color: #c6e6df;
+}
+
+.linkOuterWrapper:hover .linkTitle,
+.linkOuterWrapper:focus .linkTitle {
+  text-decoration: underline;
+}
+
+.linkInnerWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.linkImageWrapper {
+  justify-self: start;
+  align-self: flex-start;
+}
+
+.linkText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 320px;
+}
+
+.linkTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.01em;
+  padding: 40px 20px 0px 20px;
+}
+
+.linkIngress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 20px 0 20px;
+  text-decoration: none !important;
+}

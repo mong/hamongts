@@ -12,12 +12,16 @@ interface HomeProps {
     article: string;
     frontMatter: {
       shortTitle: string;
+      image: string;
+      frontpagetext: string;
     };
   }[];
   atlasInfoNew: {
     article: string;
     frontMatter: {
       shortTitle: string;
+      image: string;
+      frontpagetext: string;
     };
   }[];
 }
@@ -27,32 +31,38 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
     <AtlasLink
       key={atlas.article}
       linkTo={`utdatert/${atlas.article}`}
-      style={{ height: "200px" }}
-    >
-      <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLink>
+      imageSource={atlas.frontMatter.image}
+      linkTitle={atlas.frontMatter.shortTitle}
+      linkText={atlas.frontMatter.frontpagetext}
+    />
   ));
   const LinksNew = atlasInfoNew.map((atlas) => (
     <AtlasLink
       key={atlas.article}
       linkTo={atlas.article}
-      style={{ height: "200px" }}
-    >
-      <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLink>
+      imageSource={atlas.frontMatter.image}
+      linkTitle={atlas.frontMatter.shortTitle}
+      linkText={atlas.frontMatter.frontpagetext}
+    />
   ));
 
   return (
     <Layout lang="no">
-      <MainBanner />
-      <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
-        <div className={`${styles.buttons}`}>
-          <div className={styles.block_buttons}>
-            {LinksNew}
-            {Links}
-          </div>
+      <main>
+        <MainBanner />
+        <div
+          style={{
+            maxWidth: "min(1216px, 95%)",
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            margin: "40px auto",
+          }}
+        >
+          {LinksNew}
+          {Links}
         </div>
-      </div>
+      </main>
     </Layout>
   );
 };

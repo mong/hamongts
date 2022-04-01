@@ -20,7 +20,7 @@ export const MainBanner = ({
   const engIngress =
     "The Norwegian healthcare atlases compares the population's use of health services using interactive maps, reports and fact sheets.";
   return (
-    <main className={classNames.main}>
+    <div className={classNames.main}>
       <div className={classNames.headerMain}>
         <div className={classNames.pageImage}>
           <Image
@@ -41,6 +41,6 @@ export const MainBanner = ({
           {lang === "en" ? engIngress : ingress}
         </div>
       </div>
-    </main>
+    </div>
   );
 };
