@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall akuttinnleggelser per 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -37,26 +37,14 @@
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
+          "id": "kontakter",
+          "label": "Antall innleggelser",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.0f"
         },
         {
-          "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
+          "id": "innbyggere",
+          "label": "Antall innbyggere",
           "typeVar": "number",
           "format": ",.0f"
         }

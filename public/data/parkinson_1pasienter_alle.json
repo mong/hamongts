@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -19,6 +19,23 @@
         "2020",
         "2021"
       ]
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "spes_rate",
+        "overlapp_rate",
+        "prim_rate"
+      ],
+      "xLegend": [
+        "Spesialist",
+        "Overlapp",
+        "Primær"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
+      "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
@@ -37,22 +54,10 @@
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
           "id": "andel3_prim",
           "label": "Andel pasienter kun i primærhelsetj.",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.1%"
         },
         {
           "id": "pasienter",

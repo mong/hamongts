@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner for Parkinson per 1 000 innbyggere 18–105 år",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -19,6 +19,21 @@
         "2020",
         "2021"
       ]
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "off_rate",
+        "priv_rate"
+      ],
+      "xLegend": [
+        "Offentlig",
+        "Privat"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall per 10 000 innbyggere",
+      "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
@@ -37,28 +52,16 @@
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
+          "id": "andel_off_poli",
+          "label": "Andel offentlig",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.1%"
         },
         {
-          "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
+          "id": "andel_priv_poli",
+          "label": "Andel privat",
           "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },

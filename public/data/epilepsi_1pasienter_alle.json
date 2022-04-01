@@ -69,7 +69,7 @@
           "id": "andel3_prim",
           "label": "Andel pasienter kun i primærhelsetj.",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.1%"
         },
         {
           "id": "pasienter",

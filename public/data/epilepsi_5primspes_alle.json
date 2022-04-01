@@ -21,6 +21,21 @@
       ]
     },
     {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "polikont_rate",
+        "FLLV_rate"
+      ],
+      "xLegend": [
+        "Poliklinikk",
+        "Fastlege/legevakt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall per 1 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
       "type": "table",
       "data": "qwerty",
       "columns": [
@@ -37,28 +52,22 @@
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
+          "id": "kont_pr_pas",
+          "label": "Polikliniske kontakter pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
+          "id": "legekons_pr_pas",
+          "label": "Kontakter hos fastlege/legevakt per pasient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
-          "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
+          "id": "andel_poli_kont",
+          "label": "Andel kontakter i spesialisthelsetjenesten",
           "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },

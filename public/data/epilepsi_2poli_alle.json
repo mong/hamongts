@@ -21,6 +21,21 @@
       ]
     },
     {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "off_rate",
+        "priv_rate"
+      ],
+      "xLegend": [
+        "Offentlig",
+        "Privat"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall per 10 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
       "type": "table",
       "data": "qwerty",
       "columns": [
@@ -37,28 +52,16 @@
           "format": ",.1f"
         },
         {
-          "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
+          "id": "kontakter",
+          "label": "Antall innleggelser",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "kont_pr_pas",
+          "label": "Antall innleggelser pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
         }
       ]
     },
