@@ -45,7 +45,7 @@
           "id": "bohf",
           "label": "Opptaksområder",
           "typeVar": "string",
-          "format": "NULL"
+          "format": ""
         },
         {
           "id": "rateSnitt",
@@ -78,6 +78,11 @@
           "format": ",.0f"
         }
       ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "rateSnitt"
     },
     {
       "type": "data",
