@@ -44,32 +44,32 @@
         {
           "id": "bohf",
           "label": "Opptaksområder",
-          "typeVar": "string"
-        },
-        {
-          "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
-          "typeVar": "1.f"
+          "typeVar": "string",
+          "format": "rateSnit"
         },
         {
           "id": "pas_rate_barn",
           "label": "Pasientrate, barn",
-          "typeVar": "1.f"
+          "typeVar": "number",
+          "format": ",.1f"
         },
         {
           "id": "pas_rate_eldre",
           "label": "Pasientrate, eldre",
-          "typeVar": "1.f"
+          "typeVar": "number",
+          "format": ",.1f"
         },
         {
           "id": "andel3_prim",
           "label": "Andel pasienter kun i primærhelsetj.",
-          "typeVar": "1.f"
+          "typeVar": "number",
+          "format": ",.1f"
         },
         {
           "id": "pasienter",
           "label": "Antall pasienter",
-          "typeVar": "1.f"
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },
