@@ -27,13 +27,14 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
-  const Links = atlasInfo.map((atlas) => (
+  const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
       linkTo={`utdatert/${atlas.article}`}
       imageSource={atlas.frontMatter.image}
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
+      wide={i === 0}
     />
   ));
   const LinksNew = atlasInfoNew.map((atlas) => (
@@ -57,6 +58,8 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
             justifyContent: "space-between",
             flexWrap: "wrap",
             margin: "40px auto",
+            paddingLeft: "16px",
+            paddingRight: "16px",
           }}
         >
           {LinksNew}

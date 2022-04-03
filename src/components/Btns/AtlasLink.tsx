@@ -12,6 +12,7 @@ interface Props {
   linkText: string;
   className?: string;
   style?: CSSProperties;
+  wide?: boolean;
 }
 
 export const AtlasLink: React.FC<Props> = ({
@@ -20,10 +21,15 @@ export const AtlasLink: React.FC<Props> = ({
   linkTo,
   imageSource,
   linkTitle,
+  wide,
   linkText,
 }) => {
   return (
-    <div className={classNames.linkOuterWrapper}>
+    <div
+      className={`${classNames.linkOuterWrapper} ${
+        wide ? classNames.wide : ""
+      }`}
+    >
       <Link href={`/${linkTo}`}>
         <a>
           <div className={classNames.linkInnerWrapper}>
@@ -34,6 +40,7 @@ export const AtlasLink: React.FC<Props> = ({
                 alt={"atlas photo"}
                 width={1160}
                 height={740}
+                layout="intrinsic"
               />
             </div>
             <div className={classNames.linkText}>
