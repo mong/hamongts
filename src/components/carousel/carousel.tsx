@@ -32,7 +32,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
     children,
     (child: React.ReactElement<CarouselItemProps>, i: number) => ({
       value: i,
-      label: child.props.label ?? `figur ${i + 1}`,
+      label: child ? child.props.label : `figur ${i + 1}`,
     })
   );
 
