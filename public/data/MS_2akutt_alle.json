@@ -46,7 +46,7 @@
           "id": "kont_pr_pas",
           "label": "Antall innleggelser pr. pas.",
           "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1f"
         }
       ]
     },
