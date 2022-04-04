@@ -43,6 +43,52 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
+  const carouselData = carousel.data
+    .replace(/data\//, "")
+    .replace(/.csv$/, ".json");
+  const boxData: any =
+    atlasData[carouselData] !== undefined
+      ? Object.values(atlasData[carouselData])[0]
+      : undefined;
+  const dataCarousel =
+    boxData !== undefined ? (
+      <Carousel active={0}>
+        {boxData
+          .map((bd, i, obj) => {
+            const objdata = obj.filter((o) => o.type === "data")[0]["data"];
+
+            if (bd.type === "barchart") {
+              return (
+                <CarouselItem label={"barchart " + (i + 1)}>
+                  <Barchart
+                    margin={{
+                      top: 30,
+                      bottom: 50,
+                      right: 60,
+                      left: 130,
+                    }}
+                    height={500}
+                    {...bd}
+                    data={objdata}
+                  />
+                </CarouselItem>
+              );
+            }
+            if (bd.type === "table") {
+              return (
+                <CarouselItem label={"table" + i}>
+                  <DataTable headers={bd.columns} data={objdata} />
+                </CarouselItem>
+              );
+            }
+            return null;
+          })
+          .filter((elm) => elm !== null)}
+      </Carousel>
+    ) : undefined;
+
+  //console.log(dataCarousel)
+
   const figdata: AtlasData[] = atlasData[carousel.data];
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
@@ -81,78 +127,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <Carousel active={0}>
-            <CarouselItem label="Stolpediagram">
-              {figdata && (
-                <Barchart
-                  data={figdata}
-                  x={["rateSnitt"]}
-                  y="bohf"
-                  margin={{
-                    top: 30,
-                    bottom: 50,
-                    right: 60,
-                    left: 130,
-                  }}
-                  height={500}
-                  xLabel={xlabel}
-                  yLabel={ylabel}
-                  backgroundColor="white"
-                  annualVar={["rate2018", "rate2019", "rate2020"]}
-                />
-              )}
-            </CarouselItem>
-            <CarouselItem label="Tabell">
-              {figdata && (
-                <div style={{ width: "700px" }}>
-                  <DataTable
-                    data={figdata}
-                    headers={[
-                      {
-                        id: "bohf",
-                        label: "Opptaksområder",
-                        typeVar: "string",
-                      },
-                      {
-                        id: "rateSnitt",
-                        label: "Antall pr 1000",
-                        typeVar: "number",
-                        format: ".1f",
-                      },
-                      {
-                        id: "kontakter",
-                        label: "Kontakter",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                      {
-                        id: "pasienter",
-                        label: "Pasienter",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                      {
-                        id: "kont_pr_pas",
-                        label: "Kont pr pasient",
-                        typeVar: "number",
-                        format: ".1f",
-                      },
-                      {
-                        id: "innbyggere",
-                        label: "Innbyggere",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                    ]}
-                  />
-                </div>
-              )}
-            </CarouselItem>
-            <CarouselItem label="Kart">
-              {" "}
-              <img src="/helseatlas/img/map.png"></img>
-            </CarouselItem>
-          </Carousel>
+          {dataCarousel}
+
           <Accordion
             sx={{ boxShadow: 0 }}
             expanded={expandedSelection}
