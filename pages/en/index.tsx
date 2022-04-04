@@ -11,19 +11,22 @@ interface HomeProps {
     article: string;
     frontMatter: {
       shortTitle: string;
+      image: string;
+      frontpagetext: string;
     };
   }[];
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
-  const Links = atlasInfo.map((atlas) => (
+  const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
       linkTo={`en/${atlas.article}`}
-      style={{ height: "200px" }}
-    >
-      <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLink>
+      imageSource={atlas.frontMatter.image}
+      linkTitle={atlas.frontMatter.shortTitle}
+      linkText={atlas.frontMatter.frontpagetext}
+      wide={i === 0}
+    />
   ));
 
   return (
