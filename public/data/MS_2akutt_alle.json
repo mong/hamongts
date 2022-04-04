@@ -1,0 +1,308 @@
+{
+  "MS_2akutt_alle": [
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "rateSnitt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall akuttinnleggelser for MS per 1 000 innbyggere",
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2019",
+        "rate2020",
+        "rate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
+    },
+    {
+      "type": "table",
+      "data": "qwerty",
+      "columns": [
+        {
+          "id": "bohf",
+          "label": "Opptaksområder",
+          "typeVar": "string",
+          "format": ""
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Pasientrate, alle pasienter",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "kontakter",
+          "label": "Antall innleggelser",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "kont_pr_pas",
+          "label": "Antall innleggelser pr. pas.",
+          "typeVar": "number",
+          "format": ",.0f"
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "rateSnitt"
+    },
+    {
+      "type": "data",
+      "label": "qwerty",
+      "description": "Hoveddatasettet for gitt resultatboks",
+      "data": [
+        {
+          "bohf": "Finnmark",
+          "innbyggere": 60708,
+          "pasienter": 138,
+          "rate2018": 0.6802,
+          "rate2019": 0.4633,
+          "rate2020": 0.5278,
+          "rateSnitt": 0.5595,
+          "kontakter": 33,
+          "kont_pr_pas": 0.2361445783
+        },
+        {
+          "bohf": "UNN",
+          "innbyggere": 155601,
+          "pasienter": 455,
+          "rate2018": 1.0478,
+          "rate2019": 0.8454,
+          "rate2020": 0.758,
+          "rateSnitt": 0.8843,
+          "kontakter": 139,
+          "kont_pr_pas": 0.3052708638
+        },
+        {
+          "bohf": "Nordland",
+          "innbyggere": 109805,
+          "pasienter": 348,
+          "rate2018": 0.677,
+          "rate2019": 0.7367,
+          "rate2020": 0.7031,
+          "rateSnitt": 0.7045,
+          "kontakter": 78,
+          "kont_pr_pas": 0.224137931
+        },
+        {
+          "bohf": "Helgeland",
+          "innbyggere": 62630,
+          "pasienter": 219,
+          "rate2018": 0.6896,
+          "rate2019": 0.8558,
+          "rate2020": 0.9887,
+          "rateSnitt": 0.8356,
+          "kontakter": 53,
+          "kont_pr_pas": 0.2401215805
+        },
+        {
+          "bohf": "Nord-Trøndelag",
+          "innbyggere": 106379,
+          "pasienter": 392,
+          "rate2018": 1.0164,
+          "rate2019": 0.9484,
+          "rate2020": 0.7663,
+          "rateSnitt": 0.9081,
+          "kontakter": 101,
+          "kont_pr_pas": 0.2568027211
+        },
+        {
+          "bohf": "St. Olav",
+          "innbyggere": 262229,
+          "pasienter": 921,
+          "rate2018": 0.6866,
+          "rate2019": 0.7626,
+          "rate2020": 0.7223,
+          "rateSnitt": 0.7245,
+          "kontakter": 183,
+          "kont_pr_pas": 0.1989869754
+        },
+        {
+          "bohf": "Møre og Romsdal",
+          "innbyggere": 208635,
+          "pasienter": 885,
+          "rate2018": 1.0947,
+          "rate2019": 0.9706,
+          "rate2020": 0.9761,
+          "rateSnitt": 1.0141,
+          "kontakter": 218,
+          "kont_pr_pas": 0.2459510358
+        },
+        {
+          "bohf": "Førde",
+          "innbyggere": 85097,
+          "pasienter": 302,
+          "rate2018": 0.9689,
+          "rate2019": 0.6106,
+          "rate2020": 0.4747,
+          "rateSnitt": 0.6852,
+          "kontakter": 58,
+          "kont_pr_pas": 0.1918412348
+        },
+        {
+          "bohf": "Bergen",
+          "innbyggere": 355587,
+          "pasienter": 1129,
+          "rate2018": 0.8244,
+          "rate2019": 0.8897,
+          "rate2020": 0.6285,
+          "rateSnitt": 0.7807,
+          "kontakter": 268,
+          "kont_pr_pas": 0.2373081464
+        },
+        {
+          "bohf": "Fonna",
+          "innbyggere": 139728,
+          "pasienter": 435,
+          "rate2018": 0.8842,
+          "rate2019": 0.9019,
+          "rate2020": 0.6366,
+          "rateSnitt": 0.8065,
+          "kontakter": 113,
+          "kont_pr_pas": 0.2605363985
+        },
+        {
+          "bohf": "Stavanger",
+          "innbyggere": 279974,
+          "pasienter": 844,
+          "rate2018": 0.5354,
+          "rate2019": 0.4106,
+          "rate2020": 0.415,
+          "rateSnitt": 0.4529,
+          "kontakter": 123,
+          "kont_pr_pas": 0.1456770628
+        },
+        {
+          "bohf": "Østfold",
+          "innbyggere": 249593,
+          "pasienter": 794,
+          "rate2018": 0.6624,
+          "rate2019": 0.7581,
+          "rate2020": 0.5736,
+          "rateSnitt": 0.6638,
+          "kontakter": 173,
+          "kont_pr_pas": 0.2173730592
+        },
+        {
+          "bohf": "Akershus",
+          "innbyggere": 442958,
+          "pasienter": 1430,
+          "rate2018": 0.6047,
+          "rate2019": 0.6078,
+          "rate2020": 0.5054,
+          "rateSnitt": 0.5719,
+          "kontakter": 254,
+          "kont_pr_pas": 0.1778140294
+        },
+        {
+          "bohf": "OUS",
+          "innbyggere": 215555,
+          "pasienter": 553,
+          "rate2018": 0.5513,
+          "rate2019": 0.5942,
+          "rate2020": 0.5265,
+          "rateSnitt": 0.5576,
+          "kontakter": 105,
+          "kont_pr_pas": 0.1905910736
+        },
+        {
+          "bohf": "Lovisenberg",
+          "innbyggere": 132850,
+          "pasienter": 297,
+          "rate2018": 0.5241,
+          "rate2019": 0.4551,
+          "rate2020": 0.5296,
+          "rateSnitt": 0.5035,
+          "kontakter": 52,
+          "kont_pr_pas": 0.1739618406
+        },
+        {
+          "bohf": "Diakonhjemmet",
+          "innbyggere": 116260,
+          "pasienter": 272,
+          "rate2018": 0.5882,
+          "rate2019": 0.5202,
+          "rate2020": 0.2967,
+          "rateSnitt": 0.4671,
+          "kontakter": 50,
+          "kont_pr_pas": 0.182374541
+        },
+        {
+          "bohf": "Innlandet",
+          "innbyggere": 273677,
+          "pasienter": 1074,
+          "rate2018": 0.7447,
+          "rate2019": 0.7167,
+          "rate2020": 0.5705,
+          "rateSnitt": 0.6759,
+          "kontakter": 191,
+          "kont_pr_pas": 0.1775846011
+        },
+        {
+          "bohf": "Vestre Viken",
+          "innbyggere": 378757,
+          "pasienter": 1149,
+          "rate2018": 0.7335,
+          "rate2019": 0.661,
+          "rate2020": 0.5109,
+          "rateSnitt": 0.6336,
+          "kontakter": 247,
+          "kont_pr_pas": 0.2146794314
+        },
+        {
+          "bohf": "Vestfold",
+          "innbyggere": 194234,
+          "pasienter": 624,
+          "rate2018": 0.7557,
+          "rate2019": 0.7797,
+          "rate2020": 0.7235,
+          "rateSnitt": 0.7528,
+          "kontakter": 154,
+          "kont_pr_pas": 0.2474612507
+        },
+        {
+          "bohf": "Telemark",
+          "innbyggere": 139029,
+          "pasienter": 454,
+          "rate2018": 0.6877,
+          "rate2019": 0.3843,
+          "rate2020": 0.5627,
+          "rateSnitt": 0.546,
+          "kontakter": 80,
+          "kont_pr_pas": 0.1756061719
+        },
+        {
+          "bohf": "Sørlandet",
+          "innbyggere": 237810,
+          "pasienter": 843,
+          "rate2018": 0.6501,
+          "rate2019": 0.5644,
+          "rate2020": 0.4876,
+          "rateSnitt": 0.566,
+          "kontakter": 135,
+          "kont_pr_pas": 0.1600790514
+        },
+        {
+          "bohf": "Norge",
+          "innbyggere": 4207096,
+          "pasienter": 13560,
+          "rate2018": 0.7238,
+          "rate2019": 0.6876,
+          "rate2020": 0.5915,
+          "rateSnitt": 0.6671,
+          "kontakter": 2806,
+          "kont_pr_pas": 0.2069516482
+        }
+      ]
+    }
+  ]
+}
