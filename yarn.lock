@@ -2883,10 +2883,10 @@ d3-array@2, d3-array@^2.3.0:
   dependencies:
     internmap "^1.0.0"
 
-"d3-array@2 - 3", "d3-array@2.10.0 - 3", d3-array@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.1.2.tgz#0ff48dd08220aa38644c4e32c1afb0ee612180a3"
-  integrity sha512-j6VwO2P+uRmioX74H7qi79G/bHRlMAhc0pLEPlnQpjN9Mj/lCnIi/mpk6mphpUdR01T97y/LBqm03ydUnC9uzQ==
+"d3-array@2 - 3", "d3-array@2.10.0 - 3", d3-array@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-3.1.4.tgz#f7edb5bfcf6d939d0f6a561876ab281c466ea693"
+  integrity sha512-H8lM97Gr9+LAR4WVHETCMt6LlWtLJVMCKsz1ojors+/PvAs2QqdLa20BuYvU11/DU+nLF0GVWL5Rv3jSgo2KmA==
   dependencies:
     internmap "1 - 2"
 
