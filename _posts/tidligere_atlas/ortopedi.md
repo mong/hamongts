@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z",
 num: 7
 mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi, 2012–2016

@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z",
 num: 10
 mainTitle: Helseatlas for psykisk helsevern og rusbehandling
 shortTitle: Psykisk helsevern og TSB, 2014-2018

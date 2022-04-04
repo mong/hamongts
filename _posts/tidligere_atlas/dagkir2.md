@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z",
 num: 6
 mainTitle: Dagkirurgi i Norge 2013–2017
 shortTitle: Dagkirurgi, 2013–2017

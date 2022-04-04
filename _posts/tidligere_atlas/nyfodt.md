@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 3
 mainTitle: Norsk nyfødtmedisinsk helseatlas
 shortTitle: Nyfødtmedisin, 2009–2014
