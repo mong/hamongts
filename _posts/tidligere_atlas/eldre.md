@@ -1,7 +1,8 @@
 ---
+date: "2017-06-15T12:00:00.000Z"
 num: 4
 mainTitle: Eldrehelseatlas for Norge
-shortTitle: Eldrehelseatlas, 2013–2015
+shortTitle: Eldrehelseatlas
 image: /helseatlas/img/eldre.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/eldrehelseatlas_rapport.pdf

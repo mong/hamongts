@@ -1,7 +1,8 @@
 ---
+date: "2016-12-13T12:00:00.000Z"
 num: 3
 mainTitle: Norsk nyfødtmedisinsk helseatlas
-shortTitle: Nyfødtmedisin, 2009–2014
+shortTitle: Nyfødtmedisin
 image: /helseatlas/img/nyfodt.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf

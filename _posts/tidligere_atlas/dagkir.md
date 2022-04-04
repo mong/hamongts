@@ -1,7 +1,8 @@
 ---
+date: "2015-01-13T12:00:00.000Z"
 num: 1
 mainTitle: Dagkirurgi i Norge 2011–2013
-shortTitle: Dagkirurgi,  2011–2013
+shortTitle: Dagkirurgi
 image: /helseatlas/img/dagkir.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/Rapporthelseatlas1_15.pdf
