@@ -37,6 +37,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
       .map((subChapter) => subChapter["overskrift"]);
     return { level1, level2 };
   });
+
   return (
     <DataContext.Provider value={atlasData}>
       <Layout lang={obj.lang === "en" ? "en" : "no"}>
@@ -105,9 +106,8 @@ export const getStaticProps: GetStaticProps = async (context) => {
       .map(async (files) => {
         const filePath = path.join("public/data/", files);
         const fileContent = fs.readFileSync(filePath, "utf-8");
-        const atlasData = await JSON.parse(fileContent);
         const data = {};
-        data[files] = atlasData;
+        data[files] = fileContent;
         return data;
       })
   );

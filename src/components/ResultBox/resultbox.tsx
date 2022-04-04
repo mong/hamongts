@@ -48,7 +48,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     .replace(/.csv$/, ".json");
   const boxData: any =
     atlasData[carouselData] !== undefined
-      ? Object.values(atlasData[carouselData])[0]
+      ? Object.values(JSON.parse(atlasData[carouselData]))[0]
       : undefined;
   const dataCarousel =
     boxData !== undefined ? (
