@@ -12,7 +12,6 @@ import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
 import { DataContext } from "../src/components/Context";
 
-
 interface AtlasPageProps {
   content: string;
   body: string;
