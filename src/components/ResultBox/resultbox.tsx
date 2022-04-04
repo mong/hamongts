@@ -55,11 +55,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
       <Carousel active={0}>
         {boxData
           .map((bd, i, obj) => {
-            const objdata = obj.filter((o) => o.type === "data")[0]["data"];
-
+            const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem label={"barchart " + (i + 1)}>
+                <CarouselItem label={i + 1 + ". Stolpediagram "}>
                   <Barchart
                     margin={{
                       top: 30,
@@ -69,27 +68,36 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                     }}
                     height={500}
                     {...bd}
-                    data={objdata}
+                    data={figData}
                   />
                 </CarouselItem>
               );
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem label={"table" + i}>
-                  <DataTable headers={bd.columns} data={objdata} />
+                <CarouselItem label={i + 1 + ". Tabell"}>
+                  <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
             }
+            if (bd.type === "map") {
+              return (
+                <CarouselItem label={i + 1 + ". Kart"}>
+                  <img src="/helseatlas/img/map.png" />
+                </CarouselItem>
+              );
+            }
+
             return null;
           })
           .filter((elm) => elm !== null)}
       </Carousel>
     ) : undefined;
 
-  //console.log(dataCarousel)
+  const figdata: AtlasData[] = boxData
+    ? boxData.filter((d) => d.type === "data")[0]["data"]
+    : null;
 
-  const figdata: AtlasData[] = atlasData[carousel.data];
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
