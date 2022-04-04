@@ -86,8 +86,8 @@ export const Barchart = <
   yAxisLineStrokeWidth = 0,
   yAxisTickStroke = "white",
   tickLength = 3,
-  yInnerPadding = 0.3,
-  yOuterPadding = 0.2,
+  yInnerPadding = 0.2,
+  yOuterPadding = 0.1,
   annualVar,
   annualVarLabels,
 }: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
@@ -115,10 +115,15 @@ export const Barchart = <
     : [];
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
-  const colors = ["#6CACE4", "#003087"];
+  const colors = ["#003087", "#6CACE4", "#95bde6"];
+  const nationColors = ["#4c4c4c", "#969696", "#c3c3c3"];
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...colors],
+  });
+  const nationColorScale = scaleOrdinal({
+    domain: series.map((s) => s.key),
+    range: [...nationColors],
   });
 
   const xScale = scaleLinear<number>({
@@ -190,7 +195,16 @@ export const Barchart = <
                       height={yScale.bandwidth()}
                       fill={
                         barData.data["bohf"].toString() === "Norge"
-                          ? colors[1]
+                          ? x.length === 1
+                            ? nationColors[2]
+                            : nationColorScale(d["key"])
+                          : x.length === 1
+                          ? colors[2]
+                          : colorScale(d["key"])
+                      }
+                      stroke={
+                        barData.data["bohf"].toString() === "Norge"
+                          ? nationColors[0]
                           : colors[0]
                       }
                       strokeWidth={1}
