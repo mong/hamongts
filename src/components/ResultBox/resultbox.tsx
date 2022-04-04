@@ -46,10 +46,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const carouselData = carousel.data
     .replace(/data\//, "")
     .replace(/.csv$/, ".json");
+
   const boxData: any =
     atlasData[carouselData] !== undefined
       ? Object.values(JSON.parse(atlasData[carouselData]))[0]
       : undefined;
+
   const dataCarousel =
     boxData !== undefined ? (
       <Carousel active={0}>
@@ -58,7 +60,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem label={i + 1 + ". Stolpediagram "}>
+                <CarouselItem
+                  key={bd.type + i + id}
+                  label={i + 1 + ". Stolpediagram "}
+                >
                   <Barchart
                     margin={{
                       top: 30,
@@ -75,14 +80,14 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem label={i + 1 + ". Tabell"}>
+                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
                   <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
             }
             if (bd.type === "map") {
               return (
-                <CarouselItem label={i + 1 + ". Kart"}>
+                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
                   <img src="/helseatlas/img/map.png" />
                 </CarouselItem>
               );
