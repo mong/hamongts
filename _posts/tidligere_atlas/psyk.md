@@ -1,8 +1,8 @@
 ---
-date: "2022-03-01T12:00:00.000Z"
+date: "2020-06-09T12:00:00.000Z"
 num: 10
 mainTitle: Helseatlas for psykisk helsevern og rusbehandling
-shortTitle: Psykisk helsevern og TSB, 2014-2018
+shortTitle: Psykisk helsevern og TSB
 image: /helseatlas/img/psyk.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/psykiskhelsevernogrus.pdf

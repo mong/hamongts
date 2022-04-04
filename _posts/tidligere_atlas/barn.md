@@ -2,7 +2,7 @@
 date: "2015-09-29T12:00:00.000Z"
 num: 2
 mainTitle: Barnehelseatlas for Norge
-shortTitle: Barnehelseatlas, 2011–2014
+shortTitle: Barnehelseatlas
 image: /helseatlas/img/barn.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam

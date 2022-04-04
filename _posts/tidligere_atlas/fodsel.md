@@ -1,8 +1,8 @@
 ---
-date: "2022-03-01T12:00:00.000Z"
+date: "2019-04-03T12:00:00.000Z"
 num: 9
 mainTitle: Helseatlas for fødselshjelp
-shortTitle: Fødselshjelp, 2015–2017
+shortTitle: Fødselshjelp
 image: /helseatlas/img/fodsel.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
