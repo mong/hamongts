@@ -1,5 +1,5 @@
 ---
-date: "2022-03-01T12:00:00.000Z"
+date: "2015-09-29T12:00:00.000Z"
 num: 2
 mainTitle: Barnehelseatlas for Norge
 shortTitle: Barnehelseatlas, 2011–2014
