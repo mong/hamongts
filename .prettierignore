@@ -9,3 +9,4 @@ package-lock.json
 tsconfig.json
 yarn.lock
 _posts/
+public/data
