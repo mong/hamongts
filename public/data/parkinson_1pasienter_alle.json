@@ -10,14 +10,14 @@
       "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
       "yLabel": "Opptaksområder",
       "annualVar": [
+        "rate2018",
         "rate2019",
-        "rate2020",
-        "rate2021"
+        "rate2020"
       ],
       "annualVarLabels": [
+        "2018",
         "2019",
-        "2020",
-        "2021"
+        "2020"
       ]
     },
     {
