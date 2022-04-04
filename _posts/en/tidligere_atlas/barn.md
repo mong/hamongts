@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 2
 mainTitle: Child healthcare atlas for Norway
 shortTitle: Child Healthcare Atlas, 2011–2014

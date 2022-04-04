@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 5
 mainTitle: COPD Healthcare Atlas
 shortTitle: COPD healthcare atlas, 2013–2015

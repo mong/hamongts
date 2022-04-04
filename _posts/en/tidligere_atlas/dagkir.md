@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 1
 mainTitle: Day surgery in Norway 2011–2013
 shortTitle: Day surgery atlas, 2011–2013

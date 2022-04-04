@@ -1,5 +1,5 @@
 ---
-date: "2022-03-01T12:00:00.000Z",
+date: "2022-03-01T12:00:00.000Z"
 num: 11
 mainTitle: Helseatlas for kvalitet
 shortTitle: Kvalitet, 2017–2019

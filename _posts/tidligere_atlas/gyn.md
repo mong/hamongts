@@ -1,5 +1,5 @@
 ---
-date: "2022-03-01T12:00:00.000Z",
+date: "2022-03-01T12:00:00.000Z"
 num: 8
 mainTitle: Helseatlas for gynekologi
 shortTitle: Gynekologi, 2015–2017

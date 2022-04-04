@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 10
 mainTitle: Healthcare Atlas for Mental Healthcare and Substance Abuse Treatment
 shortTitle: Mental Healthcare 2014-2018

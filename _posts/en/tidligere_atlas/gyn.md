@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 8
 mainTitle: Gynaecology Healthcare Atlas
 shortTitle: Gynaecology, 2015–2017

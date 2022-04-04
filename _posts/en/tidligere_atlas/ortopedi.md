@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 7
 mainTitle: Orthopaedic Healthcare Atlas for Norway
 shortTitle: Orthopaedic, 2012-2016

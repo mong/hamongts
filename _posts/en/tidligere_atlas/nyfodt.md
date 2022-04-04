@@ -1,4 +1,5 @@
 ---
+date: "2022-03-01T12:00:00.000Z"
 num: 3
 mainTitle: The Norwegian Neonatal Healthcare Atlas, 2009-2014
 shortTitle: Neonatal Atlas, 2009–2014
