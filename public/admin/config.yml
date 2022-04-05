@@ -1,3 +1,4 @@
+local_backend: true
 backend:
   name: github
   repo: mong/hamongts
@@ -163,6 +164,77 @@ collections:
                       name: resultat,
                       widget: markdown,
                     }
+  - label: "Data"
+    name: "data"
+    folder: "_posts/data"
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: innhold
+    widget: "list"
+    fields:
+      - label: "Innhold"
+        name: "innhold"
+        widget: "list"
+        types:
+          - label: "Barchart"
+            name: "barchart"
+            widget: object
+            fields:
+              - { label: "Type", name: "type", widget: "string" }
+              - { label: "Datasett", name: "data", widget: "string" }
+              - { label: "y", name: "y", widget: "string" }
+              - { label: "yLabel", name: "yLabel", widget: "string" }
+              - { label: "x", name: "x", widget: "list" }
+              - { label: "xLabel", name: "xLabel", widget: "string" }
+              - {
+                  label: "xLegend",
+                  name: "xLegend",
+                  widget: "list",
+                  required: false,
+                }
+              - {
+                  label: "annualVar",
+                  name: "annualVar",
+                  widget: "list",
+                  required: false,
+                }
+              - {
+                  label: "annualVarLabels",
+                  name: "annualVarLabels",
+                  widget: "list",
+                  required: false,
+                }
+          - label: "Table"
+            name: "table"
+            widget: object
+            fields:
+              - { label: "Type", name: "type", widget: "string" }
+              - { label: "Datasett", name: "data", widget: "string" }
+              - label: "Kolonner"
+                name: "columns"
+                widget: "list"
+                fields:
+                  - { type: "id", name: "id", widget: "string" }
+                  - { type: "label", name: "label", widget: "string" }
+                  - { type: "typeVar", name: "typeVar", widget: "string" }
+                  - {
+                      type: "format",
+                      name: "format",
+                      widget: "string",
+                      required: false,
+                    }
+          - label: "Map"
+            name: "map"
+            widget: object
+            fields:
+              - { type: "Type", name: "type", widget: "string" }
+          - label: "Data"
+            name: "data"
+            widget: object
+            fields:
+              - { type: "Type", name: "type", widget: "string" }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
