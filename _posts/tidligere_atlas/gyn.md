@@ -1,7 +1,8 @@
 ---
+date: "2019-01-08T12:00:00.000Z"
 num: 8
 mainTitle: Helseatlas for gynekologi
-shortTitle: Gynekologi, 2015–2017
+shortTitle: Gynekologi
 image: /helseatlas/img/gyn.png
 frontpagetext: I helseatlas for gynekologi har vi kartlagt geografisk variasjon i bruken av et utvalg av spesialisthelsetjenester innen gynekologi i perioden 2015–2017.
 pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf

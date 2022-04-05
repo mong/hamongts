@@ -7,7 +7,6 @@ import { TopBanner } from "../src/components/Atlas/topBanner";
 import styles from "../src/styles/Atlas.module.css";
 import { ChapterProps, Chapters } from "../src/components/Chapters";
 import { AtlasData } from "../src/types";
-import csv from "csvtojson";
 import { TableOfContents } from "../src/components/toc";
 import { OrderedList } from "../src/components/toc/orderedlist";
 import { ListItem } from "../src/components/toc/listitem";
@@ -101,13 +100,16 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const { content } = matter(file);
 
   const fileData = await Promise.all(
-    await fs.readdirSync("public/data/").map(async (files) => {
-      const fileContent = path.join("public/data/", files);
-      const atlasData = await csv().fromFile(fileContent);
-      const data = {};
-      data[`data/${files}`] = atlasData;
-      return data;
-    })
+    await fs
+      .readdirSync("public/data/")
+      .filter((files) => files.includes(".json"))
+      .map(async (files) => {
+        const filePath = path.join("public/data/", files);
+        const fileContent = fs.readFileSync(filePath, "utf-8");
+        const data = {};
+        data[files] = fileContent;
+        return data;
+      })
   );
   const atlasData = fileData.reduce((result, data) => {
     const key: string = Object.keys(data)[0];
