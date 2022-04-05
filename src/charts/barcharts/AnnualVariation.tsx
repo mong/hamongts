@@ -2,7 +2,6 @@ import { Group } from "@visx/group";
 import { scaleLinear } from "@visx/scale";
 import { ScaleBand, ScaleLinear } from "d3-scale";
 import { max, min } from "d3-array";
-import { reverse } from "cypress/types/lodash";
 
 type AnnualVariaionProps<Data, AnnualVar> = {
   data: Data;
