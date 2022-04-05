@@ -115,8 +115,11 @@
               "map"
             ],
             "data": "data/epilepsi_1pasienter_alle.csv",
-            "xlabel": "Antall per 10 000 innbyggere",
-            "ylabel": "Opptaksområder"
+            "xlabel": "Antall med epilepsi pr. 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "rate1": "Kun behandlet i spesialisthelsetjenesten",
+            "rate2": "Behandlet i spesialist- og kommunehelsetjenesten",
+            "rate3": "Kun behandlet i kommunehelsetjenesten"
           },
           "ingress": "Totalt sett finner vi svært lite variasjon i antall pasienter med epilepsi pr. 1000 innbyggere, men for barn og eldre var det noe variasjon."
         },
@@ -132,8 +135,10 @@
               "barchart"
             ],
             "data": "data/epilepsi_2poli_alle.csv",
-            "xlabel": "Antall per 10 000 innbyggere",
-            "ylabel": "Opptaksområder"
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "rate1": "Offentlig (på sykehus)",
+            "rate2": "Privat (avtalespesialist)"
           },
           "resultat": "#### Bakgrunn\n\nVed mistanke om epilepsi skal pasienten henvises til utredning i spesialisthelsetjenesten. Det vil innebære undersøkelse med [EEG](https://sml.snl.no/elektroencefalografi) og i enkelte tilfeller også en [MR](https://sml.snl.no/MR)-undersøkelse. Epilepsi behandles vanligvis med legemidler som skal forebygge anfall. Det finnes en rekke ulike medikamenter, og det kan være behov for både å prøve ulike medikamenter og å tilpasse dosering før man oppnår god anfallskontroll med et akseptabelt nivå av bivirkinger. Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov. \n\n#### Resultater\n\nDet var lite variasjon i bruk av spesialistkontakter for hele pasientutvalget sett under ett (se også egne resultater for barn og eldre). Variasjonen i bruk av spesialistkontakter skyldes i stor grad at antall kontakter per pasient varierte noe mellom opptaksområdene - fra 0,9 kontakter pr år for bosatte i opptaksområdene UNN og Førde til 1,5 kontakter pr år for bosatte i opptaksområdene OUS og Lovisenberg. Dette tyder på at pasienter med epilepsi i hovedsak får oppfølging i spesialisthelsetjenesten i tråd med anbefalingen. Antall kontakter per pasient ligger imidlertid såpass lavt i enkelte opptaksområder at det kan stilles spørsmål ved om anbefalingen i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/) om en årlig kontroll for alle pasienter blir fulgt.\n\n#### Kirurgi og intervensjoner\n\nTilpassing av medisinering er en viktig del av oppfølgingen i spesialisthelsetjenesten for pasienter med epilepsi. Omlag en tredjedel av epilepsipasienter oppnår imidlertid ikke anfallsfrihet ved slik behandling. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anbefales det at pasienter som ikke oppnår tilfredsstillende anfallskontroll ved medikamentell behandling bør vurderes for epilepsikirurgi. For pasienter med farmakoresistent epilepsi der kirurgi ikke er aktuelt, foreslår retningslinjen at vagus nervestimulering bør vurderes. ***En setning eller to om stereotaktisk behandling her - Eva skriver.***\n\nKirurgi er den eneste potensielt kurative behandlingen for epilepsi. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anslås det et behov på 50-125 epilepsioperasjoner årlig.\n\n| Prosedyre                              | Antall 2018 | Antall 2019 | Antall 2020 |\n| -------------------------------------- | ----------- | ----------- | ----------- |\n| Kirurgisk behandling                   | 39          | 27          | 24          |\n| Vagus nervestimulering                 | 109         | 109         | 106         |\n| Stereotaktisk intrakraniell behandling | 47          | 42          | 46          |\n\nTabellen over viser omfang av epilepsikirurgi, stimuleringer, stereotaktisk behandling mm. Antall epilepsioperasjoner varierte mellom 24-39 operasjoner per år, og er med dette mye lavere enn det anslått behovet på 50-125 operasjoner. Bruken av kirurgi var høyest i Helse Vest og lavest i Helse Nord. Bruken av stereotaktisk behandling var også størst i Helse Vest."
         },
@@ -149,7 +154,7 @@
             ],
             "data": "data/epilepsi_3poli_Barn.csv",
             "ylabel": "Opptaksområder",
-            "xlabel": "Antall per 1 000"
+            "xlabel": "Antall spesialistkonsultasjoner pr 1 000 innbyggere"
           },
           "utvalg": "Utvalget består av XXXX personer i alderen 0-17 år, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) i NPR i perioden 2018-2021. \nFor å bli inkludert i utvalget er det er i tillegg stilt krav om minst tre kontakter (fordelt på tre ulike dager) med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
           "resultat": "#### Bakgrunn\n\nBarn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.\n\n#### Resultater\n\nFor barn (0-17 år) var det større variasjon både i antall pasienter pr. 1000 innbyggere og i bruk av spesialistkontakter enn for voksne. Det er ingen kjent geografisk variasjon i forekomsten av epilepsi blant barn i Norge, og det er derfor grunn til å stille spørsmål ved om den observerte variasjonen i antall epilepsipasienter pr. 1000 barn kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos barn.\n\nAntall spesialistkonsultasjoner pr. 1000 barn var 2,5 ganger høyere for bosatte i opptaksområdet Sørlandet enn for bosatte i opptaksområdet Førde. Antall spesialistkonsultasjoner pr 1000 barn varierte imidlertid mye fra år til år, noe som kan indikere et betydelig innslag av tilfeldig variasjon. ***Økning i perioden???***\n\nAntall kontakter per pasient varierte også mye - fra 1,6 kontakter pr år for barn bosatt i opptaksområdene Førde og Helgeland til 3,1 kontakter pr år for barn bosatt i opptaksområdet Lovisenberg.\n\nOverordnet sett mener vi at disse resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted."
