@@ -107,7 +107,7 @@
           "oppdatert": "2022-03-02T14:30:29.459Z",
           "overskrift": "Pasienter med epilepsi",
           "utvalg": "Utvalget består av XXXX personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021. For å bli inkludert i utvalget er det er stilt krav om minst tre kontakter i perioden 2018-2021 (fordelt på tre ulike dager) med en av de aktuelle diagnosekodene, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.\n\n![]()",
-          "resultat": "#### Bakgrunn\n\nEpilepsi rammer mennesker i alle aldre og kan arte seg svært ulikt fra person til person. Det har vært [anslått](https://tidsskriftet.no/2015/10/oversiktsartikkel/forekomst-av-epilepsi-i-de-nordiske-landene) at omlag seks av tusen i Norge har aktiv epilepsi - det vil si omlag 32 000 personer. Dette anslaget stemmer forholdsvis godt overens med resultatene som presenteres her. \n\n#### Resultater\n\nDet var årlig omlag 28 000 pasienter i utvalget, hvorav omlag 4 800 var barn i alderen 0-17 år og 5600 eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 32 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. Det var omtrent like mange menn og kvinner i utvalget.\n\nTotalt sett varierte antall pasienter pr. 1000 innbyggere svært lite mellom opptaksområdene. For barn og eldre var det imidlertid noe variasjon mellom opptaksområdene i antall pasienter pr 1000 innbyggere.\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Andelen pasienter som kun hadde kontakter i kommunehelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
+          "resultat": "Epilepsi rammer mennesker i alle aldre og kan arte seg svært ulikt fra person til person. Det har vært [anslått](https://tidsskriftet.no/2015/10/oversiktsartikkel/forekomst-av-epilepsi-i-de-nordiske-landene) at omlag seks av tusen i Norge har aktiv epilepsi - det vil si omlag 32 000 personer. Dette anslaget stemmer forholdsvis godt overens med resultatene som presenteres her. \n\nDet var årlig omlag 28 000 pasienter i utvalget, hvorav omlag 4 800 var barn i alderen 0-17 år og 5600 eldre i alderen 65 år og eldre. Dette stemmer forholdsvis godt overens med anslaget på omlag 32 000 personer med aktiv epilepsi i Norge, da vi ikke nødvendigvis har fanget opp alle epilepsipasienter gjennom vårt pasientutvalg. Det var omtrent like mange menn og kvinner i utvalget.\n\nTotalt sett varierte antall pasienter pr. 1000 innbyggere svært lite mellom opptaksområdene. For barn og eldre var det imidlertid noe variasjon mellom opptaksområdene i antall pasienter pr 1000 innbyggere.\n\nDe aller fleste pasientene i utvalget hadde kontakter i både kommune- og spesialisthelsetjenesten i perioden. Andelen pasienter som kun hadde kontakter i kommunehelsetjenesten varierte fra 15 % i opptaksområdene Østfold og Fonna til 6 % i opptaksområdene Nordland og Diakonhjemmet. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering som får tilstrekkelig oppfølging gjennom kontakt med fastlege.",
           "karusell": {
             "presentasjonstype": [
               "barchart",
@@ -140,7 +140,7 @@
             "rate1": "Offentlig (på sykehus)",
             "rate2": "Privat (avtalespesialist)"
           },
-          "resultat": "#### Bakgrunn\n\nVed mistanke om epilepsi skal pasienten henvises til utredning i spesialisthelsetjenesten. Det vil innebære undersøkelse med [EEG](https://sml.snl.no/elektroencefalografi) og i enkelte tilfeller også en [MR](https://sml.snl.no/MR)-undersøkelse. Epilepsi behandles vanligvis med legemidler som skal forebygge anfall. Det finnes en rekke ulike medikamenter, og det kan være behov for både å prøve ulike medikamenter og å tilpasse dosering før man oppnår god anfallskontroll med et akseptabelt nivå av bivirkinger. Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov. \n\n#### Resultater\n\nDet var lite variasjon i bruk av spesialistkontakter for hele pasientutvalget sett under ett (se også egne resultater for barn og eldre). Variasjonen i bruk av spesialistkontakter skyldes i stor grad at antall kontakter per pasient varierte noe mellom opptaksområdene - fra 0,9 kontakter pr år for bosatte i opptaksområdene UNN og Førde til 1,5 kontakter pr år for bosatte i opptaksområdene OUS og Lovisenberg. Dette tyder på at pasienter med epilepsi i hovedsak får oppfølging i spesialisthelsetjenesten i tråd med anbefalingen. Antall kontakter per pasient ligger imidlertid såpass lavt i enkelte opptaksområder at det kan stilles spørsmål ved om anbefalingen i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/) om en årlig kontroll for alle pasienter blir fulgt.\n\n#### Kirurgi og intervensjoner\n\nTilpassing av medisinering er en viktig del av oppfølgingen i spesialisthelsetjenesten for pasienter med epilepsi. Omlag en tredjedel av epilepsipasienter oppnår imidlertid ikke anfallsfrihet ved slik behandling. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anbefales det at pasienter som ikke oppnår tilfredsstillende anfallskontroll ved medikamentell behandling bør vurderes for epilepsikirurgi. For pasienter med farmakoresistent epilepsi der kirurgi ikke er aktuelt, foreslår retningslinjen at vagus nervestimulering bør vurderes. ***En setning eller to om stereotaktisk behandling her - Eva skriver.***\n\nKirurgi er den eneste potensielt kurative behandlingen for epilepsi. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anslås det et behov på 50-125 epilepsioperasjoner årlig.\n\n| Prosedyre                              | Antall 2018 | Antall 2019 | Antall 2020 |\n| -------------------------------------- | ----------- | ----------- | ----------- |\n| Kirurgisk behandling                   | 39          | 27          | 24          |\n| Vagus nervestimulering                 | 109         | 109         | 106         |\n| Stereotaktisk intrakraniell behandling | 47          | 42          | 46          |\n\nTabellen over viser omfang av epilepsikirurgi, stimuleringer, stereotaktisk behandling mm. Antall epilepsioperasjoner varierte mellom 24-39 operasjoner per år, og er med dette mye lavere enn det anslått behovet på 50-125 operasjoner. Bruken av kirurgi var høyest i Helse Vest og lavest i Helse Nord. Bruken av stereotaktisk behandling var også størst i Helse Vest."
+          "resultat": "Ved mistanke om epilepsi skal pasienten henvises til utredning i spesialisthelsetjenesten. Det vil innebære undersøkelse med [EEG](https://sml.snl.no/elektroencefalografi) og i enkelte tilfeller også en [MR](https://sml.snl.no/MR)-undersøkelse. Epilepsi behandles vanligvis med legemidler som skal forebygge anfall. Det finnes en rekke ulike medikamenter, og det kan være behov for både å prøve ulike medikamenter og å tilpasse dosering før man oppnår god anfallskontroll med et akseptabelt nivå av bivirkinger. Ifølge [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) bør alle pasienter med en kronisk epilepsi ha en årlig kontroll hos spesialist, i tillegg til oppfølging hos fastlege. Hyppigheten av kontroller skal ellers tilpasses den enkeltes behov. \n\nDet var lite variasjon i bruk av spesialistkontakter for hele pasientutvalget sett under ett (se også egne resultater for barn og eldre). Variasjonen i bruk av spesialistkontakter skyldes i stor grad at antall kontakter per pasient varierte noe mellom opptaksområdene - fra 0,9 kontakter pr år for bosatte i opptaksområdene UNN og Førde til 1,5 kontakter pr år for bosatte i opptaksområdene OUS og Lovisenberg. Dette tyder på at pasienter med epilepsi i hovedsak får oppfølging i spesialisthelsetjenesten i tråd med anbefalingen. Antall kontakter per pasient ligger imidlertid såpass lavt i enkelte opptaksområder at det kan stilles spørsmål ved om anbefalingen i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/) om en årlig kontroll for alle pasienter blir fulgt.\n\nTilpassing av medisinering er en viktig del av oppfølgingen i spesialisthelsetjenesten for pasienter med epilepsi. Omlag en tredjedel av epilepsipasienter oppnår imidlertid ikke anfallsfrihet ved slik behandling. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anbefales det at pasienter som ikke oppnår tilfredsstillende anfallskontroll ved medikamentell behandling bør vurderes for epilepsikirurgi. For pasienter med farmakoresistent epilepsi der kirurgi ikke er aktuelt, foreslår retningslinjen at vagus nervestimulering bør vurderes. ***En setning eller to om stereotaktisk behandling her - Eva skriver.***\n\nKirurgi er den eneste potensielt kurative behandlingen for epilepsi. I [retningslinjen for behandling av epilepsi](https://www.epilepsibehandling.no/) anslås det et behov på 50-125 epilepsioperasjoner årlig.\n\n| Prosedyre                              | Antall 2018 | Antall 2019 | Antall 2020 |\n| -------------------------------------- | ----------- | ----------- | ----------- |\n| Kirurgisk behandling                   | 39          | 27          | 24          |\n| Vagus nervestimulering                 | 109         | 109         | 106         |\n| Stereotaktisk intrakraniell behandling | 47          | 42          | 46          |\n\nTabellen over viser omfang av epilepsikirurgi, stimuleringer, stereotaktisk behandling mm. Antall epilepsioperasjoner varierte mellom 24-39 operasjoner per år, og er med dette mye lavere enn det anslått behovet på 50-125 operasjoner. Bruken av kirurgi var høyest i Helse Vest og lavest i Helse Nord. Bruken av stereotaktisk behandling var også størst i Helse Vest."
         },
         {
           "type": "resultatboks",
@@ -157,14 +157,14 @@
             "xlabel": "Antall spesialistkonsultasjoner pr 1 000 innbyggere"
           },
           "utvalg": "Utvalget består av XXXX personer i alderen 0-17 år, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) i NPR i perioden 2018-2021. \nFor å bli inkludert i utvalget er det er i tillegg stilt krav om minst tre kontakter (fordelt på tre ulike dager) med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
-          "resultat": "#### Bakgrunn\n\nBarn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.\n\n#### Resultater\n\nFor barn (0-17 år) var det større variasjon både i antall pasienter pr. 1000 innbyggere og i bruk av spesialistkontakter enn for voksne. Det er ingen kjent geografisk variasjon i forekomsten av epilepsi blant barn i Norge, og det er derfor grunn til å stille spørsmål ved om den observerte variasjonen i antall epilepsipasienter pr. 1000 barn kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos barn.\n\nAntall spesialistkonsultasjoner pr. 1000 barn var 2,5 ganger høyere for bosatte i opptaksområdet Sørlandet enn for bosatte i opptaksområdet Førde. Antall spesialistkonsultasjoner pr 1000 barn varierte imidlertid mye fra år til år, noe som kan indikere et betydelig innslag av tilfeldig variasjon. ***Økning i perioden???***\n\nAntall kontakter per pasient varierte også mye - fra 1,6 kontakter pr år for barn bosatt i opptaksområdene Førde og Helgeland til 3,1 kontakter pr år for barn bosatt i opptaksområdet Lovisenberg.\n\nOverordnet sett mener vi at disse resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted."
+          "resultat": "Barn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.\n\nFor barn (0-17 år) var det større variasjon både i antall pasienter pr. 1000 innbyggere og i bruk av spesialistkontakter enn for voksne. Det er ingen kjent geografisk variasjon i forekomsten av epilepsi blant barn i Norge, og det er derfor grunn til å stille spørsmål ved om den observerte variasjonen i antall epilepsipasienter pr. 1000 barn kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos barn.\n\nAntall spesialistkonsultasjoner pr. 1000 barn var 2,5 ganger høyere for bosatte i opptaksområdet Sørlandet enn for bosatte i opptaksområdet Førde. Antall spesialistkonsultasjoner pr 1000 barn varierte imidlertid mye fra år til år, noe som kan indikere et betydelig innslag av tilfeldig variasjon. ***Økning i perioden???***\n\nAntall kontakter per pasient varierte også mye - fra 1,6 kontakter pr år for barn bosatt i opptaksområdene Førde og Helgeland til 3,1 kontakter pr år for barn bosatt i opptaksområdet Lovisenberg.\n\nOverordnet sett mener vi at disse resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted."
         },
         {
           "type": "resultatboks",
           "publisert": "2022-03-04T14:13:08.078Z",
           "oppdatert": "2022-03-04T14:13:08.157Z",
           "overskrift": "Spesialistkonsultasjoner for eldre (65 år og eldre)",
-          "resultat": "#### Bakgrunn\n\nEpilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).\n\n#### Resultater\n\nAntall pasienter pr 1000 innbyggere varierte med en faktor på omlag 1,8 fra 4,7 pr. 1000 innbyggere for eldre bosatt i opptaksområdet Fonna til 8,3 pr. 1000 innbyggere for eldre bosatt i opptaksområdet Lovisenberg. Vi mener dette gir grunnlag for å spørre om den observerte variasjonen kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos eldre.\n\nBruk av spesialistkonsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall kontakter pr 1000 innbyggere var fire ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. Den geografiske variasjonen i bruk av spesialistkonsultasjoner for eldre med epilepsi vurderes som uberettiget.\n\nAntall kontakter pr pasient varierte også mye, fra 1 kontakt pr år for eldre bosatt i opptaksområdene Lovisenberg, OUS og Møre og Romsdal til 0,4 kontakter pr år for eldre bosatt i opptaksområdet Fonna. Dette viser at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, slik som anbefalt i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/).",
+          "resultat": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).\n\nAntall pasienter pr 1000 innbyggere varierte med en faktor på omlag 1,8 fra 4,7 pr. 1000 innbyggere for eldre bosatt i opptaksområdet Fonna til 8,3 pr. 1000 innbyggere for eldre bosatt i opptaksområdet Lovisenberg. Vi mener dette gir grunnlag for å spørre om den observerte variasjonen kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos eldre.\n\nBruk av spesialistkonsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall kontakter pr 1000 innbyggere var fire ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. Den geografiske variasjonen i bruk av spesialistkonsultasjoner for eldre med epilepsi vurderes som uberettiget.\n\nAntall kontakter pr pasient varierte også mye, fra 1 kontakt pr år for eldre bosatt i opptaksområdene Lovisenberg, OUS og Møre og Romsdal til 0,4 kontakter pr år for eldre bosatt i opptaksområdet Fonna. Dette viser at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, slik som anbefalt i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/).",
           "ingress": "Bruk av spesialistkonsultasjoner varierte mye mellom opptaksområdene for aldersgruppen 65 år og eldre, og variasjonen vurderes som uberettiget. Resultatene tyder også på at de fleste eldre pasienter med epilepsi ikke får årlig oppfølging hos spesialist, slik som anbefalt i [Kunnskapsbasert retningslinje om epilepsi](https://www.epilepsibehandling.no/).",
           "utvalg": "Utvalget består av XXXX personer i alderen 65 år eller eldre, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) i NPR i perioden 2018-2021. \n\n\nFor å bli inkludert i utvalget er det er i tillegg stilt krav om minst tre kontakter (fordelt på tre ulike dager) med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
           "karusell": {
@@ -173,7 +173,7 @@
             ],
             "data": "data/epilepsi_4poli_Eldre.csv",
             "ylabel": "Opptaksområder",
-            "xlabel": "Antall per 1 000"
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere"
           }
         },
         {
@@ -188,10 +188,12 @@
             ],
             "data": "data/epilepsi_5primspes_alle.csv",
             "ylabel": "Opptaksområder",
-            "xlabel": "Antall per 1 000"
+            "xlabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+            "rate1": "Konsultasjoner i spesialisthelsetjenesten",
+            "rate2": "Konsultasjoner i kommunehelsetjenesten"
           },
           "utvalg": "Utvalget består av XXXX personer, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021. For å bli inkludert i utvalget er det er stilt krav om minst tre kontakter i perioden 2018-2021 (fordelt på tre ulike dager) med en av de aktuelle diagnosekodene, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
-          "resultat": "#### Bakgrunn\n\nPasienter med epilepsi har ofte behov for hjelp med mer enn anfallskontroll. Tilleggsutfordringer som bivirkninger av medisiner eller psykososiale utfordringer er vanlig. [En undersøkelse](https://tidsskriftet.no/2018/02/debatt/bedre-informasjon-til-pasienter-med-epilepsi) blant pasienter med epilepsi og deres pårørende i 2017 viste at mange har behov for mer informasjon om egen sykdom. Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.\n\n#### Resultater\n\nPasientene i utvalget fikk i snitt 2,4 kontakter pr. år, hos spesialist eller fastlege/legevakt. Omlag halvparten av kontaktene var hos spesialist. Det var lite variasjon mellom opptaksområdene. Dette gjelder både totalt antall kontakter pr. 1000 innbyggere, antall kontakter pr. pasient hos hhv. spesialist og fastlege/legevakt og fordelingen mellom kontakter i spesialist- og kommunehelsetjenesten. \n\nArbeidsdelingen mellom spesialist- og kommunehelsetjenesten var noe ulik for barn og eldre enn for pasientpopulasjonen sett under ett. Barn hadde færre kontakter hos fastlege/legevakt (i snitt 0,7 kontakter pr. år) og flere kontakter hos spesialist (i snitt 2,3 kontakter pr. år), mens eldre hadde færre kontakter hos spesialist (i snitt 0,7 kontakter pr år)."
+          "resultat": "Pasienter med epilepsi har ofte behov for hjelp med mer enn anfallskontroll. Tilleggsutfordringer som bivirkninger av medisiner eller psykososiale utfordringer er vanlig. [En undersøkelse](https://tidsskriftet.no/2018/02/debatt/bedre-informasjon-til-pasienter-med-epilepsi) blant pasienter med epilepsi og deres pårørende i 2017 viste at mange har behov for mer informasjon om egen sykdom. Grundig informasjon og et individuelt tilpasset og helhetlig tilbud er viktig for å mestre hverdagen med epilepsi. Tilstrekkelig oppfølging både hos fastlege og i spesialisthelsetjenesten og god samhandling mellom nivåene, gir grunnlag for mestring og et godt tilpasset behandlingstilbud.\n\nPasientene i utvalget fikk i snitt 2,4 kontakter pr. år, hos spesialist eller fastlege/legevakt. Omlag halvparten av kontaktene var hos spesialist. Det var lite variasjon mellom opptaksområdene. Dette gjelder både totalt antall kontakter pr. 1000 innbyggere, antall kontakter pr. pasient hos hhv. spesialist og fastlege/legevakt og fordelingen mellom kontakter i spesialist- og kommunehelsetjenesten. \n\nArbeidsdelingen mellom spesialist- og kommunehelsetjenesten var noe ulik for barn og eldre enn for pasientpopulasjonen sett under ett. Barn hadde færre kontakter hos fastlege/legevakt (i snitt 0,7 kontakter pr. år) og flere kontakter hos spesialist (i snitt 2,3 kontakter pr. år), mens eldre hadde færre kontakter hos spesialist (i snitt 0,7 kontakter pr år)."
         },
         {
           "type": "resultatboks",
@@ -205,10 +207,10 @@
               "barchart"
             ],
             "data": "data/epilepsi_6akutt_alle.csv",
-            "xlabel": "Antall per 10 000 innbyggere",
+            "xlabel": "Antall akuttinnleggelser pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
-          "resultat": "#### Bakgrunn\n\nEt epileptisk anfall vil ofte føre til en akuttinnleggelse på sykehus, særlig dersom personen ikke har kjent epilepsi. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall. I sjeldne tilfeller kan en pasient få et langvarig epileptisk anfall, eller flere anfall med kort tid imellom. Denne tilstanden kalles [status epilepticus](https://sml.snl.no/status_epilepticus) og krever rask medisinsk behandling fordi det kan være skadelig for hjernen.\n\n#### Resultater\n\nFor landet sett under ett var det i overkant av 6000 akuttinnleggelser per år knyttet til epileptiske anfall. Bruk av akuttinnleggelser ved epileptiske anfall var omtrent dobbelt så høyt i opptaksområdet Nord-Trøndelag sammenliknet med opptaksområdet Finnmark."
+          "resultat": "Et epileptisk anfall vil ofte føre til en akuttinnleggelse på sykehus, særlig dersom personen ikke har kjent epilepsi. Mange pasienter vil kunne bli anfallsfri gjennom bruk av medisiner, men for en del pasienter er epilepsien vanskeligere å regulere og disse vil kunne ha behov for gjentatte akuttinnleggelser ved epileptiske anfall. I sjeldne tilfeller kan en pasient få et langvarig epileptisk anfall, eller flere anfall med kort tid imellom. Denne tilstanden kalles [status epilepticus](https://sml.snl.no/status_epilepticus) og krever rask medisinsk behandling fordi det kan være skadelig for hjernen.\n\nFor landet sett under ett var det i overkant av 6000 akuttinnleggelser per år knyttet til epileptiske anfall. Bruk av akuttinnleggelser ved epileptiske anfall var omtrent dobbelt så høyt i opptaksområdet Nord-Trøndelag sammenliknet med opptaksområdet Finnmark."
         }
       ]
     },
@@ -238,8 +240,11 @@
               "map"
             ],
             "data": "data/parkinson_1pasienter_alle.csv",
-            "xlabel": "Antall pasienter per 1 000 innbyggere 18 - 105 år",
-            "ylabel": "Opptaksområder"
+            "xlabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "rate1": "Kun behandlet i spesialisthelsetjenesten",
+            "rate2": "Behandlet i spesialist- og kommunehelsetjenesten",
+            "rate3": "Kun behandlet i kommunehelsetjenesten"
           },
           "utvalg": "Utvalget består av 14 236 personer som var registrert med minst tre hoved- eller bidiagnoser G20 (ICD-10) eller N87 (ICPC-2) i NPR eller KPR i perioden 2017-2020.  Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "resultat": "I Norge har det vært anslått at rundt 7-8000 nordmenn har Parkinsons sykdom ([Helsedirektoratet 2017](https://www.helsedirektoratet.no/rapporter/statusrapport-hjernehelse/Statusrapport%20hjernehelse.pdf/_/attachment/inline/7d59bc61-6239-4d06-9aa6-987ee4454850:288b5a0f60e635edcfc3a872158af2cbd37eb6dc/Statusrapport%20hjernehelse.pdf), [Store medisinske leksikon 2021](https://sml.snl.no/Parkinsons_sykdom)). Forekomsten øker med alder, og debut før 30 års alder er svært sjelden. De fleste får symptomer på sykdommen etter at de har fylt 50 år, og menn rammes oftere enn kvinner ([NEL 2021](https://nevrologi.legehandboka.no/handboken/sykdommer/bevegelsesforstyrrelser/sykdommer-og-symptomer/parkinsons-sykdom/)).\n\nSamlet var det årlig i underkant 11 400 pasienter som ble behandlet for Parkinsons sykdom i kommune- og spesialisthelsetjenesten i perioden 2018 – 2020. Dette er et høyere antall pasienter som har denne sykdommen enn hva som oftest nevnes som anslag i Norge (7 – 8 000). Antallet er også noe høyt sett hen til andre anslag nasjonalt og internasjonalt. Tysnes og Storstein ([2017](https://pubmed.ncbi.nlm.nih.gov/28150045/)) fastslår at 1 – 2 personer per 1 000 har Parkinsons sykdom til enhver tid, hvilket gir et pasientanslag på 5 330 – 10 660 totalt i Norge. \n60,6 % av pasientene er menn og 39,4 % er kvinner. Gjennomsnittsalderen er 73,9 år (median 75 år). Kvinner som har Parkinsons sykdom er noe eldre enn menn med en gjennomsnittsalder på 74,8 år (median 76 år), mot mennenes gjennomsnittsalder på 72,8 år (median 74 år).\nDet var betydelig færre pasienter med Parkinsons sykdom i Finnmark enn ellers i landet. Finnmark har begrenset nevrologikapasitet og dekkes delvis med nevrologiske tjenester gjennom ambulering fra UNN Tromsø. Det kan reises spørsmål ved om utrednings- og diagnostiseringskapasiteten innvirker på hvor mange pasienter som oppdages i Finnmark.\n\nDe fleste pasientene mottar tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 92 % av pasientene får enten alle sine tjenester i spesialisthelsetjenesten eller både i kommune- og spesialisthelsetjenesten. \nRundt 950 pasienter fikk årlig alle sine tjenester i kommunehelsetjenesten. Det var en litt høyere andel kvinner (42 %) og noe høyere gjennomsnittsalder for både menn (75,2 år) og kvinner (77,1 år) blant pasientene som utelukkende ble fulgt opp i kommunehelsetjenesten. Det er relativt stor variasjon i hvor mange pasienter som kun følges opp i kommunehelsetjenesten – 4 % av pasientene bosatt i opptaksområdene Bergen og Nordland mot 13 % av pasientene bosatt i opptaksområdet til St. Olavs hospital. Dette antas hovedsakelig å være pasienter med stabil sykdom og fungerende medisinering og pasienter som vil ha liten nytte av behandling i spesialisthelsetjenesten på grunn av langt fremtredende Parkinsons eller andre sykdommer."
@@ -247,12 +252,14 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall spesialistkonsultasjoner for Parkinson per 1 000 innbyggere 18 - 105 år",
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_2poli_alle.csv"
+            "data": "data/parkinson_2poli_alle.csv",
+            "rate1": "Offentlig (på sykehus)",
+            "rate2": "Privat (avtalespesialist)"
           },
           "publisert": "2022-03-09T11:49:34.602Z",
           "oppdatert": "2022-03-09T11:49:34.712Z",
@@ -264,12 +271,14 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall konsultasjoner hos fastlege/legevakt per 1 000 innbyggere 18 - 105 år",
+            "xlabel": "Antall konsultasjoner hos fastlege/legevakt pr 1 000 innbyggere",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_3FLLV_alle.csv"
+            "data": "data/parkinson_3FLLV_alle.csv",
+            "rate1": "Konsultasjoner hos fastlege",
+            "rate2": "Konsultasjoner i legevakt"
           },
           "publisert": "2022-03-09T11:49:37.754Z",
           "oppdatert": "2022-03-09T11:49:37.865Z",
@@ -281,19 +290,21 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall konsultasjoner per 1 000 innbyggere 18 - 105 år",
+            "xlabel": "Antall konsultasjoner pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/parkinson_4NPRKPR_alle.csv"
+            "data": "data/parkinson_4NPRKPR_alle.csv",
+            "rate1": "Konsultasjoner i kommunehelsetjenesten",
+            "rate2": "Konsultasjoner i spesialisthelsetjenesten"
           },
           "publisert": "2022-03-09T11:49:40.096Z",
           "oppdatert": "2022-03-09T11:49:40.209Z",
           "overskrift": "Pasientoppfølging i spesialist- og kommunehelsetjeneste",
           "ingress": "Når norske parkinsonpasienter ses under ett fikk hver pasient 3,6 konsultasjoner per år hos spesialister og fastlege/legevakt, og det var lite variasjon mellom opptaksområdene. 44 % av konsultasjonene var i sykehusenes poliklinikker eller hos avtalespesialister og 56 % hos fastlege/legevakt. Det er noe variasjon i hvor stor andel av oppfølgingen som ble gitt i spesialisthelsetjenesten mellom opptaksområdene, fra 58 % i Telemark til 35 % i Finnmark og Fonna.",
           "utvalg": "Utvalget består av konsultasjoner hos fastlege, i legevakt, hos avtalespesialist eller i poliklinikk for Parkinsons sykdom i perioden 2018-2021.",
-          "resultat": "Parkinsons sykdom gir en rekke motoriske og ikke-motoriske problemer med varierende alvorlighetsgrad, men i løpet av noen år får de fleste pasienter en betydelig sykdomsbyrde og redusert livskvalitet. Symptomdempende medikamenter vil ofte få redusert effekt over tid, med påfølgende fluktuasjoner i symptomer og sykdomsbyrde. Det er behov for et helhetlig behandlingstilbud for hele pasientgruppen, og tilstrekkelig oppfølging hos fastlege og i sykehus gir grunnlag for godt individuelt tilpassede behandlingstiltak ([Helsedirektoratet 2017](https://www.helsedirektoratet.no/rapporter/statusrapport-hjernehelse/Statusrapport%20hjernehelse.pdf/_/attachment/inline/7d59bc61-6239-4d06-9aa6-987ee4454850:288b5a0f60e635edcfc3a872158af2cbd37eb6dc/Statusrapport%20hjernehelse.pdf), [www.parkinson.no](https://parkinson.no/behandling-og-rehabilitering/fagpersoner-i-helsetjenesten/fastlegen)).\n\nNorske parkinsonpasienter fikk årlig 7,7 konsultasjoner i poliklinikk og hos fastlege/legevakt per 1 000 innbyggere i perioden 2018-2020. Bosatte i opptaksområdet til Diakonhjemmet hadde 9,3 konsultasjoner per 1 000 innbyggere, hvilket er 80 % flere konsultasjoner enn bosatte i Finnmark hvor raten var 5,4 konsultasjoner per 1 000 innbyggere.\nSett hen til antall pasienter konsultasjonene fordeles på, var det i midlertid bosatte i opptaksområde Førde som fikk færrest konsultasjoner per år. I gjennomsnitt fikk bosatte i Førde 3,1 konsultasjoner hos fastlege/legevakt eller i sykehusenes poliklinikker per år i perioden 2018-2020, en konsultasjon mindre per pasient enn det bosatte i opptaksområde Stavanger, som hadde flest konsultasjoner per pasient, fikk. \nNår norske parkinsonpasienter ses under ett fikk hver pasient 3,6 konsultasjoner, hvorav 44 % i sykehusenes poliklinikker eller hos avtalespesialister og 56 % hos fastlege/legevakt.\nDet er noe variasjon i hvor stor andel av oppfølgingen som ble gitt i spesialisthelsetjenesten mellom opptaksområdene, fra 58 % i Telemark til 35 % i Finnmark og Fonna. Konsultasjoner hos fastlege jevner i noen grad ut variasjonen i bruk av polikliniske konsultasjoner i sykehusene mellom bosatte i ulike deler av landet.\n\n![Antall konsultasjoner per pasient etter kjønn og alder, 2018 - 2020](/helseatlas/img/kjonnalder_konspers.svg \"Antall konsultasjoner per pasient etter kjønn og alder, 2018 - 2020\")\n\nYngre pasienter med Parkinsons sykdom fikk flere konsultasjoner i poliklinikk og hos fastlege/legevakt enn eldre pasienter i perioden 2018 - 2020 sett samlet. Dette antas å henge sammen med utredning og oppstart av behandling. Fra rundt 60 til 70 års alder ligger antall konsultasjoner per pasient relativt stabilt, deretter faller konsultasjonshyppigheten gradvis med økende alder. Tallene er ikke justert for dødelighet da slike opplysninger ikke var tilgjengelig for dette atlaset.  Det er ikke noen systematisk variasjon mellom kjønnene når det gjelder hvor mange konsultasjoner pasientene fikk."
+          "resultat": "Parkinsons sykdom gir en rekke motoriske og ikke-motoriske problemer med varierende alvorlighetsgrad, men i løpet av noen år får de fleste pasienter en betydelig sykdomsbyrde og redusert livskvalitet. Symptomdempende medikamenter vil ofte få redusert effekt over tid, med påfølgende fluktuasjoner i symptomer og sykdomsbyrde. Det er behov for et helhetlig behandlingstilbud for hele pasientgruppen, og tilstrekkelig oppfølging hos fastlege og i sykehus gir grunnlag for godt individuelt tilpassede behandlingstiltak ([Helsedirektoratet 2017](https://www.helsedirektoratet.no/rapporter/statusrapport-hjernehelse/Statusrapport%20hjernehelse.pdf/_/attachment/inline/7d59bc61-6239-4d06-9aa6-987ee4454850:288b5a0f60e635edcfc3a872158af2cbd37eb6dc/Statusrapport%20hjernehelse.pdf), [www.parkinson.no](https://parkinson.no/behandling-og-rehabilitering/fagpersoner-i-helsetjenesten/fastlegen)).\n\nNorske parkinsonpasienter fikk årlig 7,7 konsultasjoner i poliklinikk og hos fastlege/legevakt per 1 000 innbyggere i perioden 2018-2020. Bosatte i opptaksområdet til Diakonhjemmet hadde 9,3 konsultasjoner per 1 000 innbyggere, hvilket er 80 % flere konsultasjoner enn bosatte i Finnmark hvor raten var 5,4 konsultasjoner per 1 000 innbyggere.\nSett hen til antall pasienter konsultasjonene fordeles på, var det i midlertid bosatte i opptaksområde Førde som fikk færrest konsultasjoner per år. I gjennomsnitt fikk bosatte i Førde 3,1 konsultasjoner hos fastlege/legevakt eller i sykehusenes poliklinikker per år i perioden 2018-2020, en konsultasjon mindre per pasient enn det bosatte i opptaksområde Stavanger, som hadde flest konsultasjoner per pasient, fikk. \nNår norske parkinsonpasienter ses under ett fikk hver pasient 3,6 konsultasjoner, hvorav 44 % i sykehusenes poliklinikker eller hos avtalespesialister og 56 % hos fastlege/legevakt.\nDet er noe variasjon i hvor stor andel av oppfølgingen som ble gitt i spesialisthelsetjenesten mellom opptaksområdene, fra 58 % i Telemark til 35 % i Finnmark og Fonna. Konsultasjoner hos fastlege jevner i noen grad ut variasjonen i bruk av polikliniske konsultasjoner i sykehusene mellom bosatte i ulike deler av landet.\n\n![Antall konsultasjoner pr. pasient etter kjønn og alder](/helseatlas/img/kjonnalder_konspers.svg \"Antall konsultasjoner pr. pasient etter kjønn og alder\")\n\nYngre pasienter med Parkinsons sykdom fikk flere konsultasjoner i poliklinikk og hos fastlege/legevakt enn eldre pasienter i perioden 2018 - 2020 sett samlet. Dette antas å henge sammen med utredning og oppstart av behandling. Fra rundt 60 til 70 års alder ligger antall konsultasjoner per pasient relativt stabilt, deretter faller konsultasjonshyppigheten gradvis med økende alder. Tallene er ikke justert for dødelighet da slike opplysninger ikke var tilgjengelig for dette atlaset.  Det er ikke noen systematisk variasjon mellom kjønnene når det gjelder hvor mange konsultasjoner pasientene fikk."
         }
       ]
     },
@@ -313,14 +324,17 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall pasienter med migrene pr. 100 000 innbyggere",
-            "ylabel": "Bosatt i opptaksområdet",
+            "xlabel": "Antall med migrene pr. 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart",
               "table",
               "map"
             ],
-            "data": "data/Migrene_1pasienter_alle.csv"
+            "data": "data/Migrene_1pasienter_alle.csv",
+            "rate1": "Kun behandlet i spesialisthelsetjenesten",
+            "rate2": "Behandlet i spesialist- og kommunehelsetjenesten",
+            "rate3": "Kun behandlet i kommunehelsetjenesten"
           },
           "publisert": "2022-03-08T13:18:11.103Z",
           "oppdatert": "2022-03-08T13:18:11.235Z",
@@ -332,7 +346,7 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall per 1 000 innbyggere",
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart",
@@ -351,12 +365,15 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall per 1 000 innbyggere",
+            "xlabel": "Antall behandlet med botulintoksin pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv"
+            "data": "data/epilepsi_pasienter_alle.csv",
+            "rate1": "Offentlig (på sykehus)",
+            "rate2": "Både offentlig og privat",
+            "rate3": "Privat (avtalespesialist)"
           },
           "publisert": "2022-03-08T15:11:44.489Z",
           "oppdatert": "2022-03-08T15:11:44.580Z",
@@ -368,7 +385,7 @@
         {
           "type": "resultatboks",
           "karusell": {
-            "xlabel": "Antall per 1 000 innbyggere",
+            "xlabel": "Andel pasienter med minst en sykemelding",
             "ylabel": "Opptaksområder",
             "presentasjonstype": [
               "barchart"
