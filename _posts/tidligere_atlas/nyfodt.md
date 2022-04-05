@@ -4,7 +4,7 @@ num: 3
 mainTitle: Norsk nyfødtmedisinsk helseatlas
 shortTitle: Nyfødtmedisin
 image: /helseatlas/img/nyfodt.png
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Norsk nyfødtmedisinsk helseatlas omhandler alle nyfødte barn som har vært innlagt i avdelinger for syke nyfødte i Norge i perioden 2009 til 2014.
 pdfUrl: /helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf
 ia: true
 lang: nb

@@ -4,7 +4,7 @@ num: 1
 mainTitle: Dagkirurgi i Norge 2011–2013
 shortTitle: Dagkirurgi
 image: /helseatlas/img/dagkir.png
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Atlaset som omhander dagkirurgi var piloten fra Helseatlas. Atlaset ble lansert i januar 2015 og har fått mye oppmerksomhet, både nasjonalt og internasjonalt.
 pdfUrl: /helseatlas/files/Rapporthelseatlas1_15.pdf
 ia: true
 lang: nb

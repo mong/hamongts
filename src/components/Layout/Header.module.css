@@ -1,6 +1,18 @@
+.headerContainer {
+  display: flex;
+  max-width: min(1216px, 95%);
+  height: fit-content;
+  padding: 24px 16px 24px 16px;
+  margin: auto;
+  justify-content: space-between;
+}
 .headerNavContainer {
   width: auto;
   margin: auto 0;
+  z-index: 1;
+}
+.headerLogo {
+  z-index: 1;
 }
 .navButtons {
   display: flex;
@@ -78,8 +90,7 @@
 .searchBar button {
   width: 3rem;
   height: 3rem;
-  background: transparent no-repeat 50%/2rem
-    url(/helseatlas/img/search-blue.svg);
+  background: transparent no-repeat url(/helseatlas/img/search-blue.svg);
   cursor: pointer;
   border: none;
 }

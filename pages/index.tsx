@@ -1,6 +1,7 @@
 import path from "path";
-import styles from "../src/styles/Home.module.css";
 import Layout from "../src/components/Layout";
+import { MainBanner } from "../src/components/MainBanner/MainBanner";
+
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
@@ -10,57 +11,60 @@ interface HomeProps {
     article: string;
     frontMatter: {
       shortTitle: string;
+      image: string;
+      frontpagetext: string;
     };
   }[];
   atlasInfoNew: {
     article: string;
     frontMatter: {
       shortTitle: string;
+      image: string;
+      frontpagetext: string;
     };
   }[];
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
-  const Links = atlasInfo.map((atlas) => (
+  const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
       linkTo={`utdatert/${atlas.article}`}
-      style={{ height: "200px" }}
-    >
-      <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLink>
+      imageSource={atlas.frontMatter.image}
+      linkTitle={atlas.frontMatter.shortTitle}
+      linkText={atlas.frontMatter.frontpagetext}
+      wide={i === 0}
+    />
   ));
   const LinksNew = atlasInfoNew.map((atlas) => (
     <AtlasLink
       key={atlas.article}
       linkTo={atlas.article}
-      style={{ height: "200px" }}
-    >
-      <div>{atlas.frontMatter.shortTitle} </div>
-    </AtlasLink>
+      imageSource={atlas.frontMatter.image}
+      linkTitle={atlas.frontMatter.shortTitle}
+      linkText={atlas.frontMatter.frontpagetext}
+    />
   ));
 
   return (
     <Layout lang="no">
-      <div className={styles.full_bleed}>
-        <div className={styles.banner_article}>
-          <div className={styles.banner_article__content}>
-            <h1>Likeverdige helsetjenester - uansett hvor du bor?</h1>
-            <p>
-              Helseatlas sammenlikner befolkningens bruk av helsetjenester
-              gjennom interaktive kart, rapporter og faktaark.
-            </p>
-          </div>
+      <main>
+        <MainBanner />
+        <div
+          style={{
+            maxWidth: "min(1216px, 95%)",
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            margin: "40px auto",
+            paddingLeft: "16px",
+            paddingRight: "16px",
+          }}
+        >
+          {LinksNew}
+          {Links}
         </div>
-      </div>
-      <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
-        <div className={`${styles.buttons}`}>
-          <div className={styles.block_buttons}>
-            {LinksNew}
-            {Links}
-          </div>
-        </div>
-      </div>
+      </main>
     </Layout>
   );
 };
