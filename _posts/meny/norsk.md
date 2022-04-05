@@ -1,6 +1,6 @@
 ---
-title: Innholdsmeny
-lang: nb
+title: Norsk
+lang: "no"
 ---
 
 ## Om oss

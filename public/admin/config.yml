@@ -174,8 +174,8 @@ collections:
           label: "Språk",
           name: "lang",
           widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "nb",
+          options: ["no", "en"],
+          default: "no",
         }
       - {
           label: "Meny",
