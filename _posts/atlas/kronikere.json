@@ -357,9 +357,9 @@
           },
           "publisert": "2022-03-08T14:19:06.841Z",
           "oppdatert": "2022-03-08T14:19:06.935Z",
-          "overskrift": "Poliklinikk",
+          "overskrift": "Spesialistkonsultasjoner ",
           "utvalg": "Her beskrives utvalget",
-          "resultat": "Migreneanfall forekommer med ulik hyppighet og alvorlighetsgrad hos ulike pasienter, og behandling og oppfølging må derfor tilpasses den enkelte.\n\nI perioden 2018-2020 var det årlig i gjennomsnitt 30 000 polikliniske konsultasjoner med diagnose migrene i spesialisthelsetjenesten. Bruk av polikliniske konsultasjoner varierte mellom opptaksområdene, med 2,9 ganger flere konsultasjoner pr. 100 000 innbyggere i opptaksområdet Sørlandet enn i Stavanger.  Denne variasjonen forklares delvis av at pasientraten varierer mellom opptaksområdene. (Sett inn kontakter pr pas).",
+          "resultat": "Migreneanfall forekommer med ulik hyppighet og alvorlighetsgrad hos ulike pasienter, og behandling og oppfølging må derfor tilpasses den enkelte.\n\nI perioden 2018-2020 var det årlig i gjennomsnitt 30 000 konsultasjoner med diagnose migrene i spesialisthelsetjenesten. Bruk av spesialistkonsultasjoner varierte mellom opptaksområdene, med 2,9 ganger flere konsultasjoner pr. 1000 innbyggere i opptaksområdet Sørlandet sammenlignet med Stavanger.\n\nPasienter med migrene bosatt i opptaksområdene Stavanger, Fonna, Finnmark og UNN fikk i gjennomsnitt 0,3 spesialistkonsultasjoner pr. pasient pr. år. For bosatte i opptaksområdet Diakonhjemmet var tilsvarende tall 0,9. Nasjonalt fikk hver pasient med migrene i gjennomsnitt 0,6 spesialistkonsultasjoner pr. år. \n\nDet var en stor økning i bruk av spesialistkonsultasjoner i perioden. En forklaring på denne økningen kan være at nye, forebyggende medikamenter mot migrene ble tilgjengelige på blå resept sent i 2019.",
           "ingress": "jjj"
         },
         {
@@ -397,7 +397,7 @@
           "overskrift": "Sykemeldinger",
           "ingress": "Geografisk variasjon og migrene. ....",
           "utvalg": "Personer i migreneutvalget med minst en sykemelding med diagnose G43.0-G43.9 (ICD-10) eller N89 (ICPC-2) i perioden 2018-2020.",
-          "resultat": "![file]()\n\nMigrene forekommer hyppigst hos personer i arbeidsfør alder, og diagnosen er forbundet med økt sykefravær og store kostnader for samfunnet (<https://link.springer.com/article/10.1007/s40120-021-00303-x>)\n\nOm lag 35 000 sykemeldinger pr. år ble skrevet ut hos fastlegen eller på legevakt for pasienter med i migreneutvalget. Egenmeldinger grunnet migrene registreres ikke, og det reelle sykefraværet knyttet til migrene er derfor høyere. \n\nRaten nasjonalt var 630 sykemeldinger pr. 100 000 innbyggere. Raten var lavest i opptaksområdet Diakonhjemmet, med 430 sykemeldinger pr. år og høyest for personer bosatt i opptaksområdet til UNN, hvor rater var i underkant av 800 pr. 100 000. For de fleste opptaksområder var det en økning i sykemeldingsraten i perioden."
+          "resultat": "Migrene forekommer hyppigst hos personer i arbeidsfør alder, og diagnosen er forbundet med økt sykefravær og store kostnader for samfunnet (<https://link.springer.com/article/10.1007/s40120-021-00303-x>)\n\nOm lag 35 000 sykemeldinger pr. år ble skrevet ut hos fastlegen eller på legevakt for pasienter med i migreneutvalget. Egenmeldinger grunnet migrene registreres ikke, og det reelle sykefraværet knyttet til migrene er derfor høyere. \n\nRaten nasjonalt var 630 sykemeldinger pr. 100 000 innbyggere. Raten var lavest i opptaksområdet Diakonhjemmet, med 430 sykemeldinger pr. år og høyest for personer bosatt i opptaksområdet til UNN, hvor rater var i underkant av 800 pr. 100 000. For de fleste opptaksområder var det en økning i sykemeldingsraten i perioden."
         }
       ]
     },
