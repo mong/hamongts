@@ -101,10 +101,10 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
   const fileData = await Promise.all(
     await fs
-      .readdirSync("public/data/")
+      .readdirSync(path.join(process.cwd(), "_posts/data"))
       .filter((files) => files.includes(".json"))
       .map(async (files) => {
-        const filePath = path.join("public/data/", files);
+        const filePath = path.join(process.cwd(), "_posts/data", files);
         const fileContent = fs.readFileSync(filePath, "utf-8");
         const data = {};
         data[files] = fileContent;
