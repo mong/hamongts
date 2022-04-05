@@ -21,7 +21,7 @@
       ]
     },
     {
-      "overskrift": "Multippel Sklerose (MS)",
+      "overskrift": "Multippel sklerose (MS)",
       "innhold": [
         {
           "type": "tekst",
@@ -37,15 +37,18 @@
           "type": "resultatboks",
           "publisert": "2022-03-02T14:03:43.106Z",
           "oppdatert": "2022-03-02T14:03:43.149Z",
-          "overskrift": "Pasienter med Multippel sklerose",
+          "overskrift": "Pasienter med multippel sklerose",
           "ingress": "Om lag dobbelt så mange kvinner som menn lever med sykdommen MS. Pasientraten var nesten dobbelt så høy i opptaksområdet Møre og Romsdal som i opptaksområdene Finnmark og Diakonhjemmet.",
           "karusell": {
             "presentasjonstype": [
               "barchart"
             ],
             "data": "data/MS_1pasienter_alle.csv",
-            "xlabel": "Antall behandlet MS-pasienter per 1 000 innbyggere",
-            "ylabel": "Opptaksområder"
+            "xlabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
+            "ylabel": "Opptaksområder",
+            "rate1": "Kun behandlet i spesialisthelsetjenesten",
+            "rate2": "Behandlet i spesialist- og kommunehelsetjenesten",
+            "rate3": "Kun behandlet i kommunehelsetjenesten"
           },
           "utvalg": "- - -\n\nUtvalget består av 13 560 personer pr. år som var registrert med minst tre N86-diagnoser (ICPC-2) i KPR, hvorav minst en hoveddiagnose,  eller minst tre hoved-eller bidiagnoser G35 (ICD-10) i NPR i perioden 2017-2020.  Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2018-2020.",
           "resultat": "I Norge har det vært anslått at rundt 13 000 nordmenn har MS (Norsk MS-register og biobank), men det finnes ikke en sikker kilde for å finne nøyaktig antall pasienter som lever med denne sykdommen. Sykdomsdebut ses hyppigst hos voksne i alderen 20-40 år.\n\nI perioden 2018 – 2020 ble det i gjennomsnitt behandlet 13 560 pasienter pr. år i kommune- og spesialisthelsetjenesten.\n\nPopulasjonen bestod av 69% kvinner og 31% menn. Gjennomsnittsalderen for begge kjønn var 52 år. Det var 2,4 pasienter med MS pr. 1000 innbyggere i opptaksområdene Finnmark og Diakonhjemmet, sammenlignet med om lag 4 pr. 1000 innbyggere i Møre og Romsdal. \n\nDe fleste pasientene mottok tjenester både i kommunehelsetjenesten og i spesialisthelsetjenesten. 97 % av pasientene fikk enten alle sine tjenester i spesialisthelsetjenesten eller både i kommunehelse- og spesialisthelsetjenesten. Om lag 850 pasienter fikk årlig alle sine tjenester i spesialisthelsetjenesten. Disse pasientene hadde en gjennomsnittsalder på 47 år, altså noe lavere enn totalpopulasjonen.\n\n Andelen pasienter som kun ble fulgt opp i kommunehelsetjenesten varierte fra 1% i opptaksområdet Helgeland til 5% i opptaksområdene Østfold og Innlandet. Nasjonalt var det om lag 450 slike pasienter pr. år, og gjennomsnittsalderen var 65 år, altså noe høyere enn totalpopulasjonen. Dette antas å være pasienter med stabil sykdom som vil hatt liten nytte av behandling i spesialisthelsetjenesten.\n\nI overkant av 40% av MS pasientene hadde minst en kontakt med spesialist- eller kommunehelsetjenesten med henblikk på gjenopptrening  i perioden 2018-2020. Gjennomsnittsalderen for pasienter som hadde slike kontakter var noe høyere enn gjennomsnittsalderen for MS-populasjonen."
@@ -79,10 +82,10 @@
               "barchart"
             ],
             "data": "data/epilepsi_pasienter_alle.csv",
-            "xlabel": "Andel MS-pasienter i høyaktiv behandling",
+            "xlabel": "Andel MS-pasienter som fikk høyaktiv behandling",
             "ylabel": "Opptaksområder"
           },
-          "resultat": "Det anbefales å gi høyeffektiv sykdomsbegrensende behandling til de fleste MS-pasienter, da slik behandling bremser invaliditetsutviklingen og gir mindre risiko for progressiv sykdom (kilde). Behandlingen kan gi alvorlige bivirkninger, og en del av de høyaktive medikamentene er svært kostbare. Prisen er årsak til at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som til en hver tid kan brukes. \n\nAndel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen. Andel pasienter behandlet med Rituksimab varierte mye mellom opptaksområdene. xx% av pasientene bosatt i opptaksområdet Bergen var i behandling med Rituksimab, sammenlignet med xx% i opptaksområdet OUS. \n\n\n\n![](/helseatlas/img/antall_legemidler.png)\n\nDet var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det varierte fra år til år hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris, samt at nye studier gir ny kunnskap om medikamentene som kan føre til endringer i bruk."
+          "resultat": "Det anbefales å gi høyeffektiv sykdomsbegrensende behandling til de fleste MS-pasienter, da slik behandling bremser invaliditetsutviklingen og gir mindre risiko for progressiv sykdom (kilde). Behandlingen kan gi alvorlige bivirkninger, og en del av de høyaktive medikamentene er svært kostbare. Prisen er årsak til at beslutningsforum for Nye metoder har begrenset hvilke medikamenter som til en hver tid kan brukes. \n\nAndel pasienter i høyaktiv behandling varierte fra 20% i opptaksområdet Diakonhjemmet til 44% av pasienter bosatt i opptaksområdet Bergen. Andel pasienter i høyaktiv behandling økte for alle opptaksområder i perioden, men det var fortsatt variasjon i 2019, hvor 25% av pasienter bosatt i opptaksområdene Diakonhjemmet og Østfold var i høyaktiv behandling, sammenlignet med om lag 50% i opptaksområdet Bergen. Andel pasienter behandlet med Rituksimab varierte mye mellom opptaksområdene. xx% av pasientene bosatt i opptaksområdet Bergen var i behandling med Rituksimab, sammenlignet med xx% i opptaksområdet OUS. \n\n![](/helseatlas/img/antall_legemidler.png \"Antall pasienter som fikk behandling med ulike høyaktive legemidler\")\n\nDet var i stor grad de samme legemidlene som var i bruk fra 20? til 20?, men det varierte fra år til år hvilke legemidler som ble brukt mest. Dette skyldes sannsynligvis at beslutningsforum for Nye metoder har begrenset mulighetene for bruk av noen medikamenter, begrunnet ut fra pris, samt at nye studier gir ny kunnskap om medikamentene som kan føre til endringer i bruk."
         }
       ]
     },
