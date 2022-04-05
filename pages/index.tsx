@@ -13,6 +13,7 @@ interface HomeProps {
       shortTitle: string;
       image: string;
       frontpagetext: string;
+      date: Date;
     };
   }[];
   atlasInfoNew: {
@@ -21,11 +22,13 @@ interface HomeProps {
       shortTitle: string;
       image: string;
       frontpagetext: string;
+      date: Date;
     };
   }[];
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
+  console.log(atlasInfo);
   const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
@@ -34,6 +37,8 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
       wide={i === 0}
+      date={atlas.frontMatter.date}
+      newlyUpdated={i === 0}
     />
   ));
   const LinksNew = atlasInfoNew.map((atlas) => (
@@ -43,6 +48,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       imageSource={atlas.frontMatter.image}
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
+      date={atlas.frontMatter.date}
     />
   ));
 
