@@ -1,10 +1,10 @@
 import path from "path";
-import styles from "../../src/styles/Home.module.css";
 import Layout from "../../src/components/Layout";
+import { MainBanner } from "../../src/components/MainBanner/MainBanner";
+
 import { AtlasLink } from "../../src/components/Btns/AtlasLink";
 import { GetStaticProps } from "next";
 import { getMDInfo } from "../../src/helpers/functions/markdownHelpers";
-import { MainBanner } from "../../src/components/MainBanner/MainBanner";
 
 interface HomeProps {
   atlasInfo: {
@@ -31,17 +31,27 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
 
   return (
     <Layout lang="en">
-      <MainBanner lang="en" />
-      <div className={`${styles.full_bleed} ${styles.buttons_container}`}>
-        <div className={`${styles.buttons}`}>
-          <div className={styles.block_buttons}>{Links}</div>
+      <main>
+        <MainBanner lang="en" />
+        <div
+          style={{
+            maxWidth: "min(1216px, 95%)",
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+            margin: "40px auto",
+            paddingLeft: "16px",
+            paddingRight: "16px",
+          }}
+        >
+          {Links}
         </div>
-      </div>
+      </main>
     </Layout>
   );
 };
 
-export const getStaticProps: GetStaticProps = async (context) => {
+export const getStaticProps: GetStaticProps = async () => {
   const atlasDir = path.join(process.cwd(), "_posts/en/tidligere_atlas");
   const atlasInfo = getMDInfo(atlasDir);
 

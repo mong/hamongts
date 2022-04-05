@@ -1,5 +1,4 @@
 import path from "path";
-import styles from "../src/styles/Home.module.css";
 import Layout from "../src/components/Layout";
 import { MainBanner } from "../src/components/MainBanner/MainBanner";
 
