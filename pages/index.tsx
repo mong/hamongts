@@ -28,7 +28,6 @@ interface HomeProps {
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
-  console.log(atlasInfo);
   const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
