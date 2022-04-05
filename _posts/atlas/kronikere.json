@@ -64,7 +64,7 @@
               "barchart"
             ],
             "data": "data/MS_2akutt_alle.csv",
-            "xlabel": "Antall akuttinnleggelser for MS per 1 000 innbyggere",
+            "xlabel": "Antall akuttinnleggelser for MS pr. 1 000 innbyggere",
             "ylabel": "Opptaksområder"
           },
           "utvalg": "- - -\n\nAkuttinnleggelser i perioden 2018-2020 med hoved-eller bidiagnose G35.",
@@ -154,7 +154,7 @@
             ],
             "data": "data/epilepsi_3poli_Barn.csv",
             "ylabel": "Opptaksområder",
-            "xlabel": "Antall spesialistkonsultasjoner pr 1 000 innbyggere"
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 barn"
           },
           "utvalg": "Utvalget består av XXXX personer i alderen 0-17 år, registrert med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) i NPR i perioden 2018-2021. \nFor å bli inkludert i utvalget er det er i tillegg stilt krav om minst tre kontakter (fordelt på tre ulike dager) med hoved- eller bidiagnose G40.0-G40.4, G40.6-G40.9 (ICD-10) eller N88 (ICPC-2) i NPR eller KPR i perioden 2018-2021, hvorav minst en av kontaktene må ha en av de aktuelle diagnosekodene registrert som hoveddiagnose. Utvalget inkluderer kun pasienter under oppfølging eller behandling i perioden 2019-2021.",
           "resultat": "Barn med epilepsi vil vanligvis følges opp i en barneavdeling, mens voksne pasienter får oppfølging ved en nevrologisk avdeling. Det vil derfor kunne være forskjeller i hvor mye tjenester barn og voksne med epilepsi får i spesialisthelsetjenesten.\n\nFor barn (0-17 år) var det større variasjon både i antall pasienter pr. 1000 innbyggere og i bruk av spesialistkontakter enn for voksne. Det er ingen kjent geografisk variasjon i forekomsten av epilepsi blant barn i Norge, og det er derfor grunn til å stille spørsmål ved om den observerte variasjonen i antall epilepsipasienter pr. 1000 barn kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos barn.\n\nAntall spesialistkonsultasjoner pr. 1000 barn var 2,5 ganger høyere for bosatte i opptaksområdet Sørlandet enn for bosatte i opptaksområdet Førde. Antall spesialistkonsultasjoner pr 1000 barn varierte imidlertid mye fra år til år, noe som kan indikere et betydelig innslag av tilfeldig variasjon. ***Økning i perioden???***\n\nAntall kontakter per pasient varierte også mye - fra 1,6 kontakter pr år for barn bosatt i opptaksområdene Førde og Helgeland til 3,1 kontakter pr år for barn bosatt i opptaksområdet Lovisenberg.\n\nOverordnet sett mener vi at disse resultatene gir grunn til å spørre om bruk av spesialistkonsultasjoner for barn med epilepsi er likeverdig fordelt uavhengig av bosted."
@@ -173,7 +173,7 @@
             ],
             "data": "data/epilepsi_4poli_Eldre.csv",
             "ylabel": "Opptaksområder",
-            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere"
+            "xlabel": "Antall spesialistkonsultasjoner pr. 1 000 eldre"
           }
         },
         {
