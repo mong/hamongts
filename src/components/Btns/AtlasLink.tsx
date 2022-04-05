@@ -16,6 +16,7 @@ interface Props {
   wide?: boolean;
   date: Date;
   newlyUpdated?: boolean;
+  lang: "no" | "en";
 }
 
 const formatTime = timeFormat("%d.%m.%Y");
@@ -30,6 +31,7 @@ export const AtlasLink: React.FC<Props> = ({
   linkText,
   date,
   newlyUpdated,
+  lang,
 }) => {
   return (
     <div
@@ -56,7 +58,8 @@ export const AtlasLink: React.FC<Props> = ({
                   newlyUpdated ? classNames.newlyUpdated : ""
                 }`}
               >
-                Oppdatert: <strong>{formatTime(new Date(date))}</strong>
+                {lang === "en" ? "Published: " : "Publisert: "}
+                <strong>{formatTime(new Date(date))}</strong>
               </div>
               <div className={classNames.linkTitle}>{linkTitle}</div>
               <div className={classNames.linkIngress}>

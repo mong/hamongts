@@ -38,6 +38,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       wide={i === 0}
       date={atlas.frontMatter.date}
       newlyUpdated={i === 0}
+      lang={"no"}
     />
   ));
   const LinksNew = atlasInfoNew.map((atlas) => (
@@ -48,6 +49,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
       date={atlas.frontMatter.date}
+      lang={"no"}
     />
   ));
 
