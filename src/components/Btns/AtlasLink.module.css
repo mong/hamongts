@@ -81,48 +81,11 @@
 }
 
 .linkDate {
-  position: relative;
+  display: flex;
+  align-items: center;
   font-size: 16px;
   padding: 0 0 0 20px;
   margin-top: 20px;
-}
-
-.linkDate::before {
-  content: "";
-  display: inline-block;
-  border-radius: 100%;
-  margin-right: 10px;
-  width: 8px !important;
-  height: 8px !important;
-  background-color: black;
-}
-
-.newlyUpdated.linkDate {
-  color: #033f85;
-}
-
-.newlyUpdated.linkDate::before {
-  content: "";
-  display: inline-block;
-  background-color: #033f85;
-}
-
-.newlyUpdated.linkDate::before {
-  content: "";
-  display: inline-block;
-  background-color: #033f85;
-}
-
-.newlyUpdated.linkDate::after {
-  content: "";
-  position: absolute;
-  top: 3px;
-  left: 14px;
-  border-radius: 100%;
-  width: 16px !important;
-  height: 16px !important;
-  background-color: none;
-  border: 2px solid #033f85;
 }
 
 .linkTitle {
@@ -140,4 +103,30 @@
   font-size: 16px;
   padding: 0 20px 0 20px;
   text-decoration: none !important;
+}
+
+.innerDot {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.outerCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 16px !important;
+  height: 16px !important;
+  border: none;
+  margin: 5px;
+}
+
+.newlyUpdated .innerDot {
+  background-color: #033f85;
+}
+
+.newlyUpdated .outerCircle {
+  border: 2px solid #033f85;
 }

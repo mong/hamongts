@@ -58,6 +58,9 @@ export const AtlasLink: React.FC<Props> = ({
                   newlyUpdated ? classNames.newlyUpdated : ""
                 }`}
               >
+                <div className={classNames.outerCircle}>
+                  <div className={classNames.innerDot}></div>
+                </div>
                 {lang === "en" ? "Published: " : "Publisert: "}
                 <strong>{formatTime(new Date(date))}</strong>
               </div>
