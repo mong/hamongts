@@ -24,7 +24,7 @@ export const Footer: React.FC<{}> = ({}) => {
         </div>
 
         <div className={classNames.footerBottom}>
-          <div>
+          <div className={classNames.logo}>
             <Link href="https://helse-nord.no/">
               <a title="Link til Helse Nord">
                 <Image
@@ -37,7 +37,7 @@ export const Footer: React.FC<{}> = ({}) => {
               </a>
             </Link>
           </div>
-          <div>
+          <div className={classNames.logo}>
             <Link href="https://www.skde.no/">
               <a title="Link til SKDE">
                 <Image
@@ -50,7 +50,7 @@ export const Footer: React.FC<{}> = ({}) => {
               </a>
             </Link>
           </div>
-          <div>
+          <div className={classNames.logo}>
             <Link href="https://helse-forde.no/">
               <a title="Link til Helse Førde">
                 <Image
@@ -63,7 +63,7 @@ export const Footer: React.FC<{}> = ({}) => {
               </a>
             </Link>
           </div>
-          <div>
+          <div className={classNames.logo}>
             <Link href="https://helse-vest.no/">
               <a title="Link til Helse Vest">
                 <Image

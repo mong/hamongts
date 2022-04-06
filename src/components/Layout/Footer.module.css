@@ -16,8 +16,8 @@
 .footerBottom {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: baseline;
-  margin: auto;
+  max-width: 1216px;
   margin-top: 3rem;
 }
