@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2018",
@@ -29,12 +29,12 @@
         "prim_rate"
       ],
       "xLegend": [
-        "Spesialist",
-        "Overlapp",
-        "Primær"
+        "Kun spes.helsetj.",
+        "Spes. og kommunehelsetj.",
+        "Kun kommunehelsetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {

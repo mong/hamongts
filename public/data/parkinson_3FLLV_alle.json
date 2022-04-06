@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner hos fastlege/legevakt per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2018",
@@ -32,7 +32,7 @@
         "Legevakt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 10 000 innbyggere",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {

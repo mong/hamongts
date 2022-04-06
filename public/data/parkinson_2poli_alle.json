@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner for Parkinson per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2018",
@@ -28,11 +28,11 @@
         "priv_rate"
       ],
       "xLegend": [
-        "Offentlig",
-        "Privat"
+        "Offentlig (på sykehus)",
+        "Privat (avtalespesialist)"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 10 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
