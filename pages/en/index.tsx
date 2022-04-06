@@ -13,6 +13,7 @@ interface HomeProps {
       shortTitle: string;
       image: string;
       frontpagetext: string;
+      date: Date;
     };
   }[];
 }
@@ -26,6 +27,8 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
       wide={i === 0}
+      date={atlas.frontMatter.date}
+      lang={"en"}
     />
   ));
 

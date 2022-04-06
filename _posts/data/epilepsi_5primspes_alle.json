@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2018",
@@ -28,11 +28,11 @@
         "FLLV_rate"
       ],
       "xLegend": [
-        "Poliklinikk",
+        "Spesialist",
         "Fastlege/legevakt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
