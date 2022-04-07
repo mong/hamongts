@@ -47,6 +47,12 @@
           "label": "Antall pasienter",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "innbyggere",
+          "label": "Antall innbyggere",
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },
