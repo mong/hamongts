@@ -1,5 +1,5 @@
 {
-  "parkinson_1pasienter_alle": [
+  "innhold": [
     {
       "type": "barchart",
       "data": "qwerty",
@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2018",
@@ -29,12 +29,12 @@
         "prim_rate"
       ],
       "xLegend": [
-        "Spesialist",
-        "Overlapp",
-        "Primær"
+        "Kun spes.helsetj.",
+        "Spes. og kommunehelsetj.",
+        "Kun kommunehelsetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter per 1 000 innbyggere 18–105 år",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
@@ -49,13 +49,13 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Pasientrate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
+          "label": "Andel kun i kommunehelsetj.",
           "typeVar": "number",
           "format": ",.1%"
         },

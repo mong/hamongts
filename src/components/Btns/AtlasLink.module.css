@@ -12,7 +12,7 @@
   max-width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #e3f3ef;
+  background: #e6eef8;
   transition: 100ms ease-in;
   flex: 1 1 100%;
 }
@@ -27,6 +27,7 @@
   height: 350px;
   flex: 1;
 }
+
 .linkOuterWrapper.wide .linkText {
   flex: 1;
   height: 350px;
@@ -53,6 +54,17 @@
   z-index: 2;
 }
 
+.wide.linkOuterWrapper:hover,
+.wide.linkOuterWrapper:focus {
+  background-color: rgba(0, 48, 135, 0.2);
+}
+
+.wide.linkOuterWrapper:hover .linkImageWrapper::before,
+.wide.linkOuterWrapper:focus .linkImageWrapper::before {
+  background-color: rgba(0, 48, 135, 0.5);
+  opacity: 0.3;
+}
+
 .linkOuterWrapper:hover .linkImageWrapper::before,
 .linkOuterWrapper:focus .linkImageWrapper::before {
   background-color: #c6e6df;
@@ -74,9 +86,50 @@
 .linkText {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: flex-start;
-  height: 320px;
+  padding: 20px 25px 0 25px;
+  height: 300px;
+}
+
+.linkDateContainer {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.date {
+  margin-left: 3px;
+}
+
+.newlyUpdated {
+  color: #033f85;
+}
+
+.innerDot {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #000;
+  border-radius: 100%;
+}
+
+.newlyUpdated .innerDot {
+  background-color: #033f85;
+}
+
+.outerCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 16px !important;
+  height: 16px !important;
+  border: none;
+  margin-right: 5px;
+}
+
+.newlyUpdated .outerCircle {
+  border: 2px solid #033f85;
 }
 
 .linkTitle {
@@ -85,13 +138,12 @@
   font-size: 36px;
   line-height: 49px;
   letter-spacing: 0.01em;
-  padding: 40px 20px 0px 20px;
+  padding-top: 20px;
 }
 
 .linkIngress {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  padding: 0 20px 0 20px;
   text-decoration: none !important;
 }
