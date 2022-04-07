@@ -4,7 +4,7 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "rateSnitt"
+        "ratesnitt"
       ],
       "y": "bohf",
       "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
