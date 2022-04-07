@@ -8,17 +8,7 @@
       ],
       "y": "bohf",
       "xLabel": "Antall pasienter med minst en sykemelding per 1 000 innbygger",
-      "yLabel": "Opptaksområder",
-      "annualVar": [
-        "rate2018",
-        "rate2019",
-        "rate2020"
-      ],
-      "annualVarLabels": [
-        "2018",
-        "2019",
-        "2020"
-      ]
+      "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
