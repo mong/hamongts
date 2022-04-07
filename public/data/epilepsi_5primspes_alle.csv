@@ -1,4 +1,4 @@
-bohf,innbyggere,pasienter,prim_rate,primkont_pr_pas,polikont_rate,rate2018,rate2019,rate2020,ratesnitt,ant_legekons,legekons_pr_pas,FLLV_rate,andel_prim_kont,andel_poli_kont
+bohf,innbyggere,pasienter,prim_rate,primkont_pr_pas,polikont_rate,rate2018,rate2019,rate2020,rateSnitt,ant_legekons,legekons_pr_pas,FLLV_rate,andel_prim_kont,andel_poli_kont
 Finnmark,75835,367,0.6263,1.80835604,4.7792,12.9985,14.2414,13.5038,13.5605,1020,2.7801998183,8.7813687162,0.6475683544,0.3524316456
 UNN,194125,1076,0.8637,1.4920979238,5.2337,13.1556,13.1027,14.0672,13.4381,2617,2.432599938,8.2044154184,0.6105329695,0.3894670305
 Nordland,137389,774,0.4367,1.0749031425,7.5167,12.5438,13.6596,14.5776,13.5954,1851,2.3904433922,6.0787388776,0.4471176819,0.5528823181

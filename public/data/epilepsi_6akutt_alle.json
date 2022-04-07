@@ -4,7 +4,7 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "ratesnitt"
+        "rateSnitt"
       ],
       "y": "bohf",
       "xLabel": "Antall akuttinnleggelser pr. 1 000 innbyggere",
@@ -31,7 +31,7 @@
           "format": ""
         },
         {
-          "id": "ratesnitt",
+          "id": "rateSnitt",
           "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
@@ -53,7 +53,7 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "ratesnitt"
+      "x": "rateSnitt"
     },
     {
       "type": "data",
@@ -67,7 +67,7 @@
           "rate2018": 0.6253,
           "rate2019": 0.7591,
           "rate2020": 0.8472,
-          "ratesnitt": 0.7429,
+          "rateSnitt": 0.7429,
           "ant_akutt": 57,
           "akutt_pr_pas": 0.1562216167
         },
@@ -78,7 +78,7 @@
           "rate2018": 0.8161,
           "rate2019": 0.9582,
           "rate2020": 0.7977,
-          "ratesnitt": 0.8569,
+          "rateSnitt": 0.8569,
           "ant_akutt": 171,
           "akutt_pr_pas": 0.1589711807
         },
@@ -89,7 +89,7 @@
           "rate2018": 0.8021,
           "rate2019": 0.781,
           "rate2020": 0.7133,
-          "ratesnitt": 0.7663,
+          "rateSnitt": 0.7663,
           "ant_akutt": 107,
           "akutt_pr_pas": 0.1386138614
         },
@@ -100,7 +100,7 @@
           "rate2018": 0.9041,
           "rate2019": 0.8699,
           "rate2020": 1.0827,
-          "ratesnitt": 0.9486,
+          "rateSnitt": 0.9486,
           "ant_akutt": 75,
           "akutt_pr_pas": 0.1863149217
         },
@@ -111,7 +111,7 @@
           "rate2018": 1.2683,
           "rate2019": 0.964,
           "rate2020": 0.8658,
-          "ratesnitt": 1.0326,
+          "rateSnitt": 1.0326,
           "ant_akutt": 148,
           "akutt_pr_pas": 0.1792796439
         },
@@ -122,7 +122,7 @@
           "rate2018": 0.9991,
           "rate2019": 0.8651,
           "rate2020": 0.8035,
-          "ratesnitt": 0.8858,
+          "rateSnitt": 0.8858,
           "ant_akutt": 286,
           "akutt_pr_pas": 0.1674790407
         },
@@ -133,7 +133,7 @@
           "rate2018": 0.8917,
           "rate2019": 0.8254,
           "rate2020": 0.8349,
-          "ratesnitt": 0.8504,
+          "rateSnitt": 0.8504,
           "ant_akutt": 232,
           "akutt_pr_pas": 0.1611560694
         },
@@ -144,7 +144,7 @@
           "rate2018": 1.246,
           "rate2019": 1.1443,
           "rate2020": 1.047,
-          "ratesnitt": 1.1428,
+          "rateSnitt": 1.1428,
           "ant_akutt": 134,
           "akutt_pr_pas": 0.2393111639
         },
@@ -155,7 +155,7 @@
           "rate2018": 0.9799,
           "rate2019": 0.932,
           "rate2020": 0.9191,
-          "ratesnitt": 0.9443,
+          "rateSnitt": 0.9443,
           "ant_akutt": 421,
           "akutt_pr_pas": 0.1833769253
         },
@@ -166,7 +166,7 @@
           "rate2018": 0.9204,
           "rate2019": 0.8908,
           "rate2020": 0.8467,
-          "ratesnitt": 0.8858,
+          "rateSnitt": 0.8858,
           "ant_akutt": 161,
           "akutt_pr_pas": 0.1700632467
         },
@@ -177,7 +177,7 @@
           "rate2018": 0.6373,
           "rate2019": 0.6879,
           "rate2020": 0.7226,
-          "ratesnitt": 0.6828,
+          "rateSnitt": 0.6828,
           "ant_akutt": 240,
           "akutt_pr_pas": 0.1345937851
         },
@@ -188,7 +188,7 @@
           "rate2018": 0.7025,
           "rate2019": 0.7213,
           "rate2020": 0.589,
-          "ratesnitt": 0.6706,
+          "rateSnitt": 0.6706,
           "ant_akutt": 213,
           "akutt_pr_pas": 0.1263844937
         },
@@ -199,7 +199,7 @@
           "rate2018": 0.7312,
           "rate2019": 0.7185,
           "rate2020": 0.751,
-          "ratesnitt": 0.7337,
+          "rateSnitt": 0.7337,
           "ant_akutt": 409,
           "akutt_pr_pas": 0.1347845207
         },
@@ -210,7 +210,7 @@
           "rate2018": 1.045,
           "rate2019": 1.0175,
           "rate2020": 0.8869,
-          "ratesnitt": 0.9832,
+          "rateSnitt": 0.9832,
           "ant_akutt": 238,
           "akutt_pr_pas": 0.1638366223
         },
@@ -221,7 +221,7 @@
           "rate2018": 1.1194,
           "rate2019": 1.0357,
           "rate2020": 0.7738,
-          "ratesnitt": 0.9747,
+          "rateSnitt": 0.9747,
           "ant_akutt": 102,
           "akutt_pr_pas": 0.1397800183
         },
@@ -232,7 +232,7 @@
           "rate2018": 0.677,
           "rate2019": 0.806,
           "rate2020": 0.5494,
-          "ratesnitt": 0.6756,
+          "rateSnitt": 0.6756,
           "ant_akutt": 94,
           "akutt_pr_pas": 0.1443987667
         },
@@ -243,7 +243,7 @@
           "rate2018": 0.933,
           "rate2019": 0.8699,
           "rate2020": 0.7523,
-          "ratesnitt": 0.8521,
+          "rateSnitt": 0.8521,
           "ant_akutt": 299,
           "akutt_pr_pas": 0.151894452
         },
@@ -254,7 +254,7 @@
           "rate2018": 0.7633,
           "rate2019": 0.7395,
           "rate2020": 0.6955,
-          "ratesnitt": 0.7339,
+          "rateSnitt": 0.7339,
           "ant_akutt": 354,
           "akutt_pr_pas": 0.148246472
         },
@@ -265,7 +265,7 @@
           "rate2018": 0.6096,
           "rate2019": 0.5402,
           "rate2020": 0.5476,
-          "ratesnitt": 0.5664,
+          "rateSnitt": 0.5664,
           "ant_akutt": 139,
           "akutt_pr_pas": 0.1150881057
         },
@@ -276,7 +276,7 @@
           "rate2018": 0.687,
           "rate2019": 0.8024,
           "rate2020": 0.6782,
-          "ratesnitt": 0.7219,
+          "rateSnitt": 0.7219,
           "ant_akutt": 132,
           "akutt_pr_pas": 0.1348122867
         },
@@ -287,7 +287,7 @@
           "rate2018": 0.9661,
           "rate2019": 0.9276,
           "rate2020": 0.7396,
-          "ratesnitt": 0.8789,
+          "rateSnitt": 0.8789,
           "ant_akutt": 270,
           "akutt_pr_pas": 0.1688230384
         },
@@ -298,7 +298,7 @@
           "rate2018": 0.839,
           "rate2019": 0.8143,
           "rate2020": 0.7565,
-          "ratesnitt": 0.8033,
+          "rateSnitt": 0.8033,
           "ant_akutt": 4282,
           "akutt_pr_pas": 0.1536529353
         }

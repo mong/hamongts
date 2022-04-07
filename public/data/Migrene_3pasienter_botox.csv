@@ -1,4 +1,4 @@
-bohf,innbyggere,pasienter,ratesnitt,rate2018,rate2019,rate2020,ant_botox_pas,botox_off_rate,ant_botox_off,botox_avt_rate,ant_botox_avt,botox_begge_rate,ant_botox_begge,andel3_btx_off,andel3_btx_avt,andel3_btx_begge,andel3_btx_ikkeoff
+bohf,innbyggere,pasienter,rateSnitt,rate2018,rate2019,rate2020,ant_botox_pas,botox_off_rate,ant_botox_off,botox_avt_rate,ant_botox_avt,botox_begge_rate,ant_botox_begge,andel3_btx_off,andel3_btx_avt,andel3_btx_begge,andel3_btx_ikkeoff
 Finnmark,60708,671,6.9080,5.9056,8.0528,6.5521,46,5.9522,39,0.3908,2,0.5650,4,0.8616428425,0.0565668048,0.0817903526,0.1383571575
 UNN,155601,1915,5.8405,5.1052,6.8561,5.6351,112,5.4191,103,0.2407,5,0.1807,4,0.9278389792,0.0412204097,0.0309406111,0.0721610208
 Nordland,109805,1354,6.7220,5.3522,7.7627,7.0426,91,6.4346,87,0.0488,1,0.2386,3,0.9572477261,0.0072618653,0.0354904087,0.0427522739
