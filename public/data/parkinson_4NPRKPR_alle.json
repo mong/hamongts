@@ -44,7 +44,10 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "legekons_pr_pas"
+      "x": "legekons_pr_pas",
+      "jenks1": 1,
+      "jenks2": 2,
+      "jenks3": 3
     },
     {
       "type": "data",

@@ -49,7 +49,10 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "andel3_btx_begge"
+      "x": "andel3_btx_begge",
+      "jenks1": 1,
+      "jenks2": 2,
+      "jenks3": 3
     },
     {
       "type": "data",

@@ -59,7 +59,10 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt"
+      "x": "rateSnitt",
+      "jenks1": 1,
+      "jenks2": 2,
+      "jenks3": 3
     },
     {
       "type": "data",
