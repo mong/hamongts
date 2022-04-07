@@ -40,6 +40,7 @@
   font-size: 48px;
   font-weight: 600;
   line-height: 65px;
+  letter-spacing: 1%;
   font-family: Open Sans, Helvetica, sans-serif;
   text-align: center;
   background: none;
@@ -52,6 +53,7 @@
   margin: auto;
   font-family: Open Sans, Helvetica, sans-serif;
   text-align: center;
+  line-height: 35px;
 }
 
 .pageIngress {

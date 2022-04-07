@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { imgLoader } from "../../helpers/functions";
-import HeaderClassNames from "./Header.module.css";
+import classNames from "./Header.module.css";
 
 import { SearchButton } from "../Btns/SearchButton";
 import { MenuButton } from "../Btns/MenuButton";
@@ -20,7 +20,7 @@ type SearchBarProps = {
 
 const SearchBar: React.FC<SearchBarProps> = ({ lang }) => {
   return (
-    <div className={HeaderClassNames.searchBar}>
+    <div className={classNames.searchBar}>
       <h1>{lang === "en" ? "Search" : "Søk"}</h1>
       <form>
         <label htmlFor="header-search-input">
@@ -44,8 +44,8 @@ const SearchBar: React.FC<SearchBarProps> = ({ lang }) => {
 
 export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
   return (
-    <header className={`${HeaderClassNames.headerContainer}`}>
-      <div className={HeaderClassNames.headerLogo}>
+    <header className={`${classNames.headerContainer}`}>
+      <div className={classNames.headerLogo}>
         <Link
           href={`${origin}${lang === "en" ? "/helseatlas/en" : "/helseatlas"}`}
         >
@@ -60,12 +60,12 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
           </a>
         </Link>
       </div>
-      <nav className={HeaderClassNames.headerNavContainer}>
-        <div className={HeaderClassNames.navButtons}>
-          <div className={HeaderClassNames.lang}>
+      <nav className={classNames.headerNavContainer}>
+        <div className={classNames.navButtons}>
+          <div className={classNames.lang}>
             <div
-              className={`${HeaderClassNames.no} ${
-                lang === "no" ? HeaderClassNames.active : undefined
+              className={`${classNames.no} ${
+                lang === "no" ? classNames.active : undefined
               }`}
             >
               <Link href={`${origin}/helseatlas`}>
@@ -73,8 +73,8 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
               </Link>
             </div>
             <div
-              className={`${HeaderClassNames.eng} ${
-                lang === "en" ? HeaderClassNames.active : undefined
+              className={`${classNames.eng} ${
+                lang === "en" ? classNames.active : undefined
               }`}
             >
               <Link href={`${origin}/helseatlas/en`}>
