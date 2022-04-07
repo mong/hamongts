@@ -7,6 +7,7 @@ import classNames from "./Header.module.css";
 
 import { SearchButton } from "../Btns/SearchButton";
 import { MenuButton } from "../Btns/MenuButton";
+import { Menu } from "../Menu";
 import { PopUp } from "../popup";
 
 type HeaderProps = {
@@ -86,7 +87,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
             <SearchBar lang={lang} />{" "}
           </PopUp>
           <PopUp btnComponent={() => <MenuButton lang={lang} />}>
-            {"MENY"}
+            <Menu lang={lang} />
           </PopUp>
         </div>
       </nav>
