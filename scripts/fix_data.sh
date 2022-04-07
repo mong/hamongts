@@ -19,8 +19,8 @@ fi
 echo "Fjerne 'hard space' i fil $i"
 sed -i 's/\ //g' $i
 
-#echo "Endre fra ratesnitt til rateSnitt i fil $i"
-#sed -i 's/ratesnitt/rateSnitt/g' $i
+echo "Endre fra ratesnitt til rateSnitt i fil $i"
+sed -i 's/ratesnitt/rateSnitt/g' $i
 
 #sed -i 's/kontakter_poli/kontakter/g' $i
 #sed -i 's/ant_akutt/kontakter/g' $i
