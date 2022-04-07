@@ -32,19 +32,19 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter",
-          "label": "Antall innleggelser",
+          "label": "Antall akuttinnl.",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "kont_pr_pas",
-          "label": "Antall innleggelser pr. pas.",
+          "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         }

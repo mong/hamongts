@@ -49,13 +49,13 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Pasientrate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
+          "label": "Andel kun i kommunehelsetj.",
           "typeVar": "number",
           "format": ",.1%"
         },

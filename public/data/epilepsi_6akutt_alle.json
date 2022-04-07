@@ -32,13 +32,13 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter",
-          "label": "Antall innleggelser",
+          "label": "Antall akuttinl.",
           "typeVar": "number",
           "format": ",.0f"
         },

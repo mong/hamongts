@@ -47,25 +47,25 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kont_pr_pas",
-          "label": "Polikliniske kontakter pr. pas.",
+          "label": "Spes.konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "legekons_pr_pas",
-          "label": "Kontakter hos fastlege/legevakt per pasient",
+          "label": "Konsult. fastlege/legevakt pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
-          "label": "Andel kontakter i spesialisthelsetjenesten",
+          "label": "Andel konsult. i spes. helsetj.",
           "typeVar": "number",
           "format": ",.1%"
         }

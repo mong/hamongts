@@ -47,7 +47,7 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -58,10 +58,10 @@
           "format": ",.1%"
         },
         {
-          "id": "andel_LV_kont",
-          "label": "Andel legevakt",
+          "id": "primkont_pr_pas",
+          "label": "Konsult. pr. pas.",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.1f"
         }
       ]
     },

@@ -32,7 +32,7 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -44,7 +44,7 @@
         },
         {
           "id": "kont_pr_pas",
-          "label": "Antall innleggelser pr. pas.",
+          "label": "Spes. konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         }

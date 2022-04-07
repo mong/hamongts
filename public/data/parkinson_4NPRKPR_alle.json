@@ -23,19 +23,19 @@
         },
         {
           "id": "legekons_pr_pas",
-          "label": "Konsultasjoner per pasient",
+          "label": "Konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
-          "label": "Andel spesialist",
+          "label": "Andel spes.helsetj.",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "andel_prim_kont",
-          "label": "Andel primær",
+          "label": "Andel kommunehelsetj.",
           "typeVar": "number",
           "format": ",.1%"
         }

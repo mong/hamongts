@@ -32,15 +32,15 @@
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle pasienter",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
-          "id": "andel3_prim",
-          "label": "Andel pasienter kun i primærhelsetj.",
+          "id": "polikont_pr_pas",
+          "label": "Spes.konsult. pr. pas.",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.1f"
         },
         {
           "id": "pasienter",
