@@ -2,20 +2,43 @@ import React from "react";
 import Link from "next/link";
 
 type MenuProps = {
-  lang?: "no" | "en";
+  lang: "no" | "en";
 };
 
 export const Menu: React.FC<MenuProps> = ({ lang }) => {
+  console.log({ lang });
+
+  return <>{lang === "en" ? <MenuEng /> : <MenuNo />}</>;
+};
+
+const MenuEng = () => {
   return (
-    <>
+    <ul>
+      <span>About</span>
       <ul>
-        <span>Om oss</span>
-        <ul>
-          <li>
-            <Link href="/statisk/om">Helseatlas</Link>
-          </li>
-        </ul>
+        <li>
+          <Link href="/en/static/about">Helseatlas</Link>
+        </li>
+        <li>
+          <Link href="/en/static/contact">Contact</Link>
+        </li>
       </ul>
-    </>
+    </ul>
+  );
+};
+
+const MenuNo = () => {
+  return (
+    <ul>
+      <span>Om oss</span>
+      <ul>
+        <li>
+          <Link href="/statisk/om">Helseatlas</Link>
+        </li>
+        <li>
+          <Link href="/statisk/kontakt">Kontakt</Link>
+        </li>
+      </ul>
+    </ul>
   );
 };

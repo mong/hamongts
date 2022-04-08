@@ -164,26 +164,6 @@ collections:
                       name: resultat,
                       widget: markdown,
                     }
-  - label: "Meny"
-    name: "meny"
-    folder: "_posts/meny"
-    create: false
-    delete: false
-    fields:
-      - { label: "Overskrift", name: "title", widget: "string" }
-      - {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["no", "en"],
-          default: "no",
-        }
-      - {
-          label: "Meny",
-          name: "body",
-          widget: "markdown",
-          hint: "Selve menyen, som lister",
-        }
   - label: "Tidligere atlas"
     name: "tidligere_atlas"
     folder: "_posts/tidligere_atlas"
