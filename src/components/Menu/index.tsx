@@ -8,10 +8,10 @@ type MenuProps = {
 export const Menu: React.FC<MenuProps> = ({ lang }) => {
   console.log({ lang });
 
-  return <>{lang === "en" ? <MenuEng /> : <MenuNo />}</>;
+  return <>{lang === "en" ? <EnglishMenu /> : <NorskMeny />}</>;
 };
 
-const MenuEng = () => {
+const EnglishMenu = () => {
   return (
     <ul>
       <span>About</span>
@@ -27,7 +27,7 @@ const MenuEng = () => {
   );
 };
 
-const MenuNo = () => {
+const NorskMeny = () => {
   return (
     <ul>
       <span>Om oss</span>
