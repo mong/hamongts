@@ -1,9 +1,10 @@
 ---
+date: "2017-10-18T12:00:00.000Z"
 num: 5
 mainTitle: Helseatlas kols
-shortTitle: Kols, 2013–2015
+shortTitle: Kols
 image: /helseatlas/img/kols.png
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Helseatlas kols beskriver variasjon i bruk av fastlege og legevakt, poliklinikk, akuttinnleggelser og rehabilitering i forhold til bosted for personer med kols.
 pdfUrl: /helseatlas/files/helseatlas-kols-rapport.pdf
 ia: true
 lang: nb

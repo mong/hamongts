@@ -30,18 +30,18 @@ type Resultatboks = {
   utvalg: string;
   resultat: string;
   data: AtlasData[];
-  lang: string;
+  lang: "nb" | "en" | "nn";
 };
 
 export type ChapterProps = {
   overskrift: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
-  lang: string;
+  lang: "nb" | "en" | "nn";
 };
 
 type ChaptersProps = {
   innhold: ChapterProps[];
-  lang: string;
+  lang: "nb" | "en" | "nn";
 };
 
 const json2atlas = {

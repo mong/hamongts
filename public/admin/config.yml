@@ -169,6 +169,7 @@ collections:
     create: false
     delete: false
     fields:
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }
@@ -206,6 +207,7 @@ collections:
     create: false
     delete: false
     fields:
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
       - { label: "Kort tittel", name: "shortTitle", widget: "string" }

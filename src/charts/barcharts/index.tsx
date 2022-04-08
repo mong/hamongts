@@ -2,8 +2,10 @@ import React from "react";
 import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
-import { max, sum } from "d3-array";
+import { max, sum, min } from "d3-array";
 
+import { ColorLegend } from "./ColorLegend";
+import { AnnualVarLegend } from "./AnnualVarLegend";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
 import { AnnualVariation } from "./AnnualVariation";
 
@@ -42,6 +44,7 @@ type BarchartProps<
   yLabel?: string;
   xMin?: number;
   xMax?: number;
+  xLegend?: string[];
   backgroundColor?: string;
   xAxisLineStroke?: string;
   xAxisTickStroke?: string;
@@ -86,13 +89,13 @@ export const Barchart = <
   yAxisLineStrokeWidth = 0,
   yAxisTickStroke = "white",
   tickLength = 3,
-  yInnerPadding = 0.3,
-  yOuterPadding = 0.2,
+  yInnerPadding = 0.2,
+  yOuterPadding = 0.1,
+  xLegend,
   annualVar,
   annualVarLabels,
 }: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
   //missing
-  // color legend
   //tooltip
   //animation
   const innerHeight = height - margin.top - margin.bottom;
@@ -115,10 +118,17 @@ export const Barchart = <
     : [];
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
-  const colors = ["#003087", "#6CACE4"];
+
+  const colors = ["#003087", "#6CACE4", "#95bde6"];
+  const nationColors = ["#4c4c4c", "#969696", "#c3c3c3"];
+
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...colors],
+  });
+  const nationColorScale = scaleOrdinal({
+    domain: series.map((s) => s.key),
+    range: [...nationColors],
   });
 
   const xScale = scaleLinear<number>({
@@ -132,6 +142,17 @@ export const Barchart = <
     paddingInner: yInnerPadding,
     paddingOuter: yOuterPadding,
   });
+
+  //annual var scales
+  const colorFillScale = scaleLinear()
+    .domain([
+      parseFloat(min(annualVarLabels ?? [0])),
+      parseFloat(max(annualVarLabels ?? [1])),
+    ])
+    .range(["black", "white"]);
+  const sizeScale = scaleLinear<number>()
+    .domain([min(annualVarLabels ?? [0]), max(annualVarLabels ?? [0])])
+    .range([2, yScale.bandwidth() / 2]);
 
   return (
     <div style={{ margin: "auto" }}>
@@ -172,8 +193,7 @@ export const Barchart = <
             label={xLabel}
             labelProps={{
               fontSize: 15,
-              x: 50,
-              y: 30,
+              textAnchor: "middle",
             }}
           />
         </Group>
@@ -189,7 +209,20 @@ export const Barchart = <
                       y={yScale(barData.data[y].toString())}
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
-                      stroke={colors[0]}
+                      fill={
+                        barData.data["bohf"].toString() === "Norge"
+                          ? x.length === 1
+                            ? nationColors[2]
+                            : nationColorScale(d["key"])
+                          : x.length === 1
+                          ? colors[2]
+                          : colorScale(d["key"])
+                      }
+                      stroke={
+                        barData.data["bohf"].toString() === "Norge"
+                          ? nationColors[0]
+                          : colors[0]
+                      }
                       strokeWidth={1}
                     />
                   );
@@ -206,6 +239,8 @@ export const Barchart = <
                   xScale={xScale}
                   yScale={yScale}
                   annualVar={annualVar}
+                  colorFillScale={colorFillScale}
+                  sizeScale={sizeScale}
                   y={y}
                   labels={annualVarLabels}
                   key={`${d["bohf"]}${i}`}
@@ -214,6 +249,17 @@ export const Barchart = <
             })}
         </Group>
       </svg>
+      {annualVar && (
+        <AnnualVarLegend
+          colorFillScale={colorFillScale}
+          sizeScale={sizeScale}
+          values={annualVar}
+          labels={annualVarLabels}
+        />
+      )}
+      {x.length > 1 && (
+        <ColorLegend colorScale={colorScale} labels={xLegend} values={x} />
+      )}
     </div>
   );
 };

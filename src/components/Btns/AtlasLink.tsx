@@ -1,24 +1,78 @@
 import Link from "next/link";
-import { CSSProperties, ReactNode } from "react";
-import styles from "../../styles/Home.module.css";
+import Image from "next/image";
+import { CSSProperties } from "react";
+import classNames from "./AtlasLink.module.css";
+import { timeFormat } from "d3-time-format";
+
+import { imgLoader } from "../../helpers/functions";
 
 interface Props {
-  children: ReactNode;
   linkTo: string;
+  imageSource: string;
+  linkTitle: string;
+  linkText: string;
   className?: string;
   style?: CSSProperties;
+  wide?: boolean;
+  date: Date;
+  newlyUpdated?: boolean;
+  lang: "no" | "en";
 }
 
-export const AtlasLink = (props: Props) => {
-  const { children, style, className, linkTo } = props;
+const formatTime = timeFormat("%d.%m.%Y");
 
+export const AtlasLink: React.FC<Props> = ({
+  style,
+  className,
+  linkTo,
+  imageSource,
+  linkTitle,
+  wide,
+  linkText,
+  date,
+  newlyUpdated,
+  lang,
+}) => {
   return (
     <div
-      className={`${styles.block_button} ${className ?? ""}`}
-      style={{ ...style }}
+      className={`${classNames.linkOuterWrapper} ${
+        wide ? classNames.wide : ""
+      }`}
     >
       <Link href={`/${linkTo}`}>
-        <a style={{ width: "100%", height: "100%" }}>{children}</a>
+        <a>
+          <div className={classNames.linkInnerWrapper}>
+            <div className={classNames.linkImageWrapper}>
+              <Image
+                loader={imgLoader}
+                src={imageSource}
+                alt={"atlas photo"}
+                width={1160}
+                height={740}
+                layout="intrinsic"
+              />
+            </div>
+            <div className={classNames.linkText}>
+              <div
+                className={`${classNames.linkDateContainer} ${
+                  newlyUpdated ? classNames.newlyUpdated : ""
+                }`}
+              >
+                <div className={classNames.outerCircle}>
+                  <div className={classNames.innerDot}></div>
+                </div>
+                {lang === "en" ? "Published:" : "Publisert:"}
+                <strong className={classNames.date}>
+                  {formatTime(new Date(date))}
+                </strong>
+              </div>
+              <div className={classNames.linkTitle}>{linkTitle}</div>
+              <div className={classNames.linkIngress}>
+                <p>{linkText}</p>
+              </div>
+            </div>
+          </div>
+        </a>
       </Link>
     </div>
   );

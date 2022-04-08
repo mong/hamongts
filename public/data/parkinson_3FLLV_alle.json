@@ -1,0 +1,425 @@
+{
+  "innhold": [
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "rateSnitt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2018",
+        "rate2019",
+        "rate2020"
+      ],
+      "annualVarLabels": [
+        "2018",
+        "2019",
+        "2020"
+      ]
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "FL_rate",
+        "LV_rate"
+      ],
+      "xLegend": [
+        "Fastlege",
+        "Legevakt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
+      "type": "table",
+      "data": "qwerty",
+      "columns": [
+        {
+          "id": "bohf",
+          "label": "Opptaksområder",
+          "typeVar": "string",
+          "format": ""
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Rate",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "andel_FL_kont",
+          "label": "Andel fastlege",
+          "typeVar": "number",
+          "format": ",.1%"
+        },
+        {
+          "id": "primkont_pr_pas",
+          "label": "Konsult. pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "rateSnitt",
+      "jenks": [
+        {
+          "CLUSTER": 1,
+          "max": "  4.1594"
+        },
+        {
+          "CLUSTER": 2,
+          "max": "  5.1794"
+        },
+        {
+          "CLUSTER": 3,
+          "max": "  6.1401"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "label": "qwerty",
+      "description": "Hoveddatasettet for gitt resultatboks",
+      "data": [
+        {
+          "bohf": "Finnmark",
+          "innbyggere": 60708,
+          "pasienter": 127.666666667,
+          "kontakter_prim": 284,
+          "primkont_pr_pas": 2.22454308094,
+          "rate2018": 4.88511714686,
+          "rate2019": 4.4525871115,
+          "rate2020": 4.22811173239,
+          "rateSnitt": 4.5158261008,
+          "FL_rate": 4.20159393981,
+          "LV_rate": 0.314232160986,
+          "andel_FL_kont": 0.930415353919,
+          "andel_LV_kont": 0.0695846460808
+        },
+        {
+          "bohf": "UNN",
+          "innbyggere": 155600.666667,
+          "pasienter": 429,
+          "kontakter_prim": 1036.66666667,
+          "primkont_pr_pas": 2.41647241647,
+          "rate2018": 6.16043466912,
+          "rate2019": 6.07639579105,
+          "rate2020": 6.51078868292,
+          "rateSnitt": 6.25308886672,
+          "FL_rate": 5.91130318356,
+          "LV_rate": 0.341785683155,
+          "andel_FL_kont": 0.945341304043,
+          "andel_LV_kont": 0.0546586959566
+        },
+        {
+          "bohf": "Nordland",
+          "innbyggere": 109805.333333,
+          "pasienter": 308.666666667,
+          "kontakter_prim": 584.666666667,
+          "primkont_pr_pas": 1.89416846652,
+          "rate2018": 4.53983423637,
+          "rate2019": 4.59520511085,
+          "rate2020": 5.09305070462,
+          "rateSnitt": 4.74761447109,
+          "FL_rate": 4.47350706607,
+          "LV_rate": 0.274107405018,
+          "andel_FL_kont": 0.942264182004,
+          "andel_LV_kont": 0.057735817996
+        },
+        {
+          "bohf": "Helgeland",
+          "innbyggere": 62630,
+          "pasienter": 235.333333333,
+          "kontakter_prim": 465,
+          "primkont_pr_pas": 1.97592067989,
+          "rate2018": 6.44756963513,
+          "rate2019": 6.3556513543,
+          "rate2020": 5.89274874257,
+          "rateSnitt": 6.22007891747,
+          "FL_rate": 5.6711541902,
+          "LV_rate": 0.548924727264,
+          "andel_FL_kont": 0.911749555826,
+          "andel_LV_kont": 0.0882504441741
+        },
+        {
+          "bohf": "Nord-Trøndelag",
+          "innbyggere": 106379.333333,
+          "pasienter": 378.666666667,
+          "kontakter_prim": 751,
+          "primkont_pr_pas": 1.98327464789,
+          "rate2018": 6.13205951033,
+          "rate2019": 6.11307592419,
+          "rate2020": 6.18937226479,
+          "rateSnitt": 6.14009956165,
+          "FL_rate": 5.90746470627,
+          "LV_rate": 0.232634855379,
+          "andel_FL_kont": 0.962112201432,
+          "andel_LV_kont": 0.0378877985679
+        },
+        {
+          "bohf": "St. Olav",
+          "innbyggere": 262229,
+          "pasienter": 677.666666667,
+          "kontakter_prim": 1298.33333333,
+          "primkont_pr_pas": 1.91588785047,
+          "rate2018": 4.81629779375,
+          "rate2019": 4.89570615971,
+          "rate2020": 5.80478483512,
+          "rateSnitt": 5.17935047559,
+          "FL_rate": 4.98670715019,
+          "LV_rate": 0.1926433254,
+          "andel_FL_kont": 0.962805504994,
+          "andel_LV_kont": 0.0371944950063
+        },
+        {
+          "bohf": "Møre og Romsdal",
+          "innbyggere": 208635,
+          "pasienter": 697.333333333,
+          "kontakter_prim": 1419.66666667,
+          "primkont_pr_pas": 2.03585086042,
+          "rate2018": 6.42612851259,
+          "rate2019": 5.96298435792,
+          "rate2020": 6.04596574724,
+          "rateSnitt": 6.13953536746,
+          "FL_rate": 5.91377629928,
+          "LV_rate": 0.225759068179,
+          "andel_FL_kont": 0.96322863952,
+          "andel_LV_kont": 0.0367713604804
+        },
+        {
+          "bohf": "Førde",
+          "innbyggere": 85097,
+          "pasienter": 279.666666667,
+          "kontakter_prim": 642.333333333,
+          "primkont_pr_pas": 2.29678188319,
+          "rate2018": 6.51668656683,
+          "rate2019": 6.340086328,
+          "rate2020": 6.65690711293,
+          "rateSnitt": 6.49233422165,
+          "FL_rate": 6.13800175699,
+          "LV_rate": 0.354332464664,
+          "andel_FL_kont": 0.945422947654,
+          "andel_LV_kont": 0.0545770523461
+        },
+        {
+          "bohf": "Bergen",
+          "innbyggere": 355586.666667,
+          "pasienter": 959.333333333,
+          "kontakter_prim": 1811.66666667,
+          "primkont_pr_pas": 1.88846421126,
+          "rate2018": 5.54227657366,
+          "rate2019": 4.95535842292,
+          "rate2020": 5.78797999243,
+          "rateSnitt": 5.4294902188,
+          "FL_rate": 5.27412493398,
+          "LV_rate": 0.15536528482,
+          "andel_FL_kont": 0.971384922238,
+          "andel_LV_kont": 0.0286150777621
+        },
+        {
+          "bohf": "Fonna",
+          "innbyggere": 139727.666667,
+          "pasienter": 461,
+          "kontakter_prim": 1064.33333333,
+          "primkont_pr_pas": 2.30874909617,
+          "rate2018": 7.10983194881,
+          "rate2019": 7.00886574783,
+          "rate2020": 7.34021178515,
+          "rateSnitt": 7.15252594345,
+          "FL_rate": 6.99083296574,
+          "LV_rate": 0.161692977715,
+          "andel_FL_kont": 0.97739358389,
+          "andel_LV_kont": 0.0226064161099
+        },
+        {
+          "bohf": "Stavanger",
+          "innbyggere": 279974.333333,
+          "pasienter": 641,
+          "kontakter_prim": 1507.33333333,
+          "primkont_pr_pas": 2.35153406136,
+          "rate2018": 6.35741253445,
+          "rate2019": 6.40411172084,
+          "rate2020": 6.11885622007,
+          "rateSnitt": 6.28781383836,
+          "FL_rate": 6.11153868109,
+          "LV_rate": 0.176275157276,
+          "andel_FL_kont": 0.971965589026,
+          "andel_LV_kont": 0.0280344109745
+        },
+        {
+          "bohf": "Østfold",
+          "innbyggere": 249593,
+          "pasienter": 780.333333333,
+          "kontakter_prim": 1617.33333333,
+          "primkont_pr_pas": 2.07261853909,
+          "rate2018": 6.27172291292,
+          "rate2019": 5.7149225473,
+          "rate2020": 5.80788435,
+          "rateSnitt": 5.93143304499,
+          "FL_rate": 5.69572175077,
+          "LV_rate": 0.235711294216,
+          "andel_FL_kont": 0.960260649926,
+          "andel_LV_kont": 0.0397393500742
+        },
+        {
+          "bohf": "Akershus",
+          "innbyggere": 442957.666667,
+          "pasienter": 991.333333333,
+          "kontakter_prim": 2354.66666667,
+          "primkont_pr_pas": 2.37525218561,
+          "rate2018": 5.43692713648,
+          "rate2019": 5.08345662231,
+          "rate2020": 6.14443251907,
+          "rateSnitt": 5.56414585088,
+          "FL_rate": 5.39109475078,
+          "LV_rate": 0.173051100104,
+          "andel_FL_kont": 0.968898892168,
+          "andel_LV_kont": 0.0311011078325
+        },
+        {
+          "bohf": "OUS",
+          "innbyggere": 215555,
+          "pasienter": 445.333333333,
+          "kontakter_prim": 1044,
+          "primkont_pr_pas": 2.34431137725,
+          "rate2018": 5.89605069807,
+          "rate2019": 6.30110903962,
+          "rate2020": 6.8990631705,
+          "rateSnitt": 6.37808479335,
+          "FL_rate": 6.24155702638,
+          "LV_rate": 0.136527766966,
+          "andel_FL_kont": 0.978594237708,
+          "andel_LV_kont": 0.0214057622921
+        },
+        {
+          "bohf": "Lovisenberg",
+          "innbyggere": 132850.333333,
+          "pasienter": 127.666666667,
+          "kontakter_prim": 251,
+          "primkont_pr_pas": 1.96605744125,
+          "rate2018": 4.96536297361,
+          "rate2019": 5.18870289904,
+          "rate2020": 6.3282353122,
+          "rateSnitt": 5.52203084843,
+          "FL_rate": 5.37642136644,
+          "LV_rate": 0.145609481989,
+          "andel_FL_kont": 0.973631171939,
+          "andel_LV_kont": 0.0263688280609
+        },
+        {
+          "bohf": "Diakonhjemmet",
+          "innbyggere": 116259.666667,
+          "pasienter": 329.666666667,
+          "kontakter_prim": 705.333333333,
+          "primkont_pr_pas": 2.13953488372,
+          "rate2018": 6.05170301356,
+          "rate2019": 6.28793915795,
+          "rate2020": 7.58652470029,
+          "rateSnitt": 6.64127831258,
+          "FL_rate": 6.52245905603,
+          "LV_rate": 0.118819256558,
+          "andel_FL_kont": 0.982108977976,
+          "andel_LV_kont": 0.0178910220241
+        },
+        {
+          "bohf": "Innlandet",
+          "innbyggere": 273677,
+          "pasienter": 815.333333333,
+          "kontakter_prim": 1746.66666667,
+          "primkont_pr_pas": 2.14227309894,
+          "rate2018": 5.2683938868,
+          "rate2019": 5.20915907033,
+          "rate2020": 5.41844625288,
+          "rateSnitt": 5.30420880539,
+          "FL_rate": 5.17820938906,
+          "LV_rate": 0.125999416326,
+          "andel_FL_kont": 0.976245389096,
+          "andel_LV_kont": 0.0237546109042
+        },
+        {
+          "bohf": "Vestre Viken",
+          "innbyggere": 378757.333333,
+          "pasienter": 1086.66666667,
+          "kontakter_prim": 2690,
+          "primkont_pr_pas": 2.4754601227,
+          "rate2018": 6.63302570368,
+          "rate2019": 6.61000227094,
+          "rate2020": 7.23842854618,
+          "rateSnitt": 6.8332151929,
+          "FL_rate": 6.59861155076,
+          "LV_rate": 0.234603642136,
+          "andel_FL_kont": 0.965667166112,
+          "andel_LV_kont": 0.0343328338875
+        },
+        {
+          "bohf": "Vestfold",
+          "innbyggere": 194233.666667,
+          "pasienter": 549,
+          "kontakter_prim": 1168.66666667,
+          "primkont_pr_pas": 2.12871888282,
+          "rate2018": 5.64346706191,
+          "rate2019": 5.13022303406,
+          "rate2020": 5.57192854777,
+          "rateSnitt": 5.45127868063,
+          "FL_rate": 5.31171897213,
+          "LV_rate": 0.139559708503,
+          "andel_FL_kont": 0.974398720616,
+          "andel_LV_kont": 0.025601279384
+        },
+        {
+          "bohf": "Telemark",
+          "innbyggere": 139029.333333,
+          "pasienter": 385,
+          "kontakter_prim": 667.333333333,
+          "primkont_pr_pas": 1.73333333333,
+          "rate2018": 4.35713611549,
+          "rate2019": 4.01652900912,
+          "rate2020": 4.11216407982,
+          "rateSnitt": 4.15939692672,
+          "FL_rate": 4.07741219537,
+          "LV_rate": 0.0819847313563,
+          "andel_FL_kont": 0.980289274431,
+          "andel_LV_kont": 0.0197107255693
+        },
+        {
+          "bohf": "Sørlandet",
+          "innbyggere": 237810,
+          "pasienter": 667,
+          "kontakter_prim": 1549.66666667,
+          "primkont_pr_pas": 2.32333833083,
+          "rate2018": 6.55595599784,
+          "rate2019": 6.16310102214,
+          "rate2020": 6.55817033113,
+          "rateSnitt": 6.41784571226,
+          "FL_rate": 6.24501478291,
+          "LV_rate": 0.172830929344,
+          "andel_FL_kont": 0.973070257982,
+          "andel_LV_kont": 0.0269297420182
+        },
+        {
+          "bohf": "Norge",
+          "innbyggere": 4207096,
+          "pasienter": 11372.6666667,
+          "kontakter_prim": 24659.6666667,
+          "primkont_pr_pas": 2.16832756903,
+          "rate2018": 5.83886978438,
+          "rate2019": 5.63734395003,
+          "rate2020": 6.0906869436,
+          "rateSnitt": 5.8575532411,
+          "FL_rate": 5.65983176264,
+          "LV_rate": 0.197721478464,
+          "andel_FL_kont": 0.966245039469,
+          "andel_LV_kont": 0.0337549605315
+        }
+      ]
+    }
+  ]
+}

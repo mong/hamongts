@@ -1,0 +1,427 @@
+{
+  "innhold": [
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "rateSnitt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2018",
+        "rate2019",
+        "rate2020"
+      ],
+      "annualVarLabels": [
+        "2018",
+        "2019",
+        "2020"
+      ]
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "spes_rate",
+        "overlapp_rate",
+        "prim_rate"
+      ],
+      "xLegend": [
+        "Kun spes.helsetj.",
+        "Spes. og kommunehelsetj.",
+        "Kun kommunehelsetj."
+      ],
+      "y": "bohf",
+      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
+      "type": "table",
+      "data": "qwerty",
+      "columns": [
+        {
+          "id": "bohf",
+          "label": "Opptaksområder",
+          "typeVar": "string",
+          "format": ""
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Pasientrate",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "andel3_prim",
+          "label": "Andel kun i kommunehelsetj.",
+          "typeVar": "number",
+          "format": ",.1%"
+        },
+        {
+          "id": "pasienter",
+          "label": "Antall pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "rateSnitt",
+      "jenks": [
+        {
+          "CLUSTER": 1,
+          "max": "  2.0433"
+        },
+        {
+          "CLUSTER": 2,
+          "max": "  2.5004"
+        },
+        {
+          "CLUSTER": 3,
+          "max": "  2.7622"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "label": "qwerty",
+      "description": "Hoveddatasettet for gitt resultatboks",
+      "data": [
+        {
+          "bohf": "Finnmark",
+          "rate2018": 2.29542153608,
+          "rate2019": 2.06327319212,
+          "rate2020": 1.78298132469,
+          "rateSnitt": 2.04325983509,
+          "innbyggere": 60708,
+          "pasienter": 127.666666667,
+          "kontakter": 884.333333333,
+          "kont_pr_pas": 6.92689295039,
+          "prim_rate": 0.225101788737,
+          "spes_rate": 0.048593405715,
+          "overlapp_rate": 1.76956464064,
+          "andel3_prim": 0.110167970256
+        },
+        {
+          "bohf": "UNN",
+          "rate2018": 2.63663703743,
+          "rate2019": 2.58719860984,
+          "rate2020": 2.53691109092,
+          "rateSnitt": 2.58700057904,
+          "innbyggere": 155600.666667,
+          "pasienter": 429,
+          "kontakter": 4057,
+          "kont_pr_pas": 9.45687645688,
+          "prim_rate": 0.248732267456,
+          "spes_rate": 0.0574973873686,
+          "overlapp_rate": 2.28077092422,
+          "andel3_prim": 0.0961469701519
+        },
+        {
+          "bohf": "Nordland",
+          "rate2018": 2.53794912362,
+          "rate2019": 2.55503210833,
+          "rate2020": 2.41469983772,
+          "rateSnitt": 2.50042174405,
+          "innbyggere": 109805.333333,
+          "pasienter": 308.666666667,
+          "kontakter": 2383.33333333,
+          "kont_pr_pas": 7.72138228942,
+          "prim_rate": 0.0968054399575,
+          "spes_rate": 0.0646771176687,
+          "overlapp_rate": 2.33893918642,
+          "andel3_prim": 0.0387156447459
+        },
+        {
+          "bohf": "Helgeland",
+          "rate2018": 3.14901027108,
+          "rate2019": 3.26914536784,
+          "rate2020": 2.99524963357,
+          "rateSnitt": 3.13400499696,
+          "innbyggere": 62630,
+          "pasienter": 235.333333333,
+          "kontakter": 1884,
+          "kont_pr_pas": 8.00566572238,
+          "prim_rate": 0.264584599506,
+          "spes_rate": 0.0970889144975,
+          "overlapp_rate": 2.77233148296,
+          "andel3_prim": 0.0844237963126
+        },
+        {
+          "bohf": "Nord-Trøndelag",
+          "rate2018": 3.17880631128,
+          "rate2019": 3.05912723802,
+          "rate2020": 2.92623717276,
+          "rateSnitt": 3.05285483854,
+          "innbyggere": 106379.333333,
+          "pasienter": 378.666666667,
+          "kontakter": 3325,
+          "kont_pr_pas": 8.78080985915,
+          "prim_rate": 0.237249627109,
+          "spes_rate": 0.0668837277494,
+          "overlapp_rate": 2.74872148368,
+          "andel3_prim": 0.0777140216802
+        },
+        {
+          "bohf": "St. Olav",
+          "rate2018": 2.78588596948,
+          "rate2019": 2.72279690105,
+          "rate2020": 2.61425807519,
+          "rateSnitt": 2.70596859205,
+          "innbyggere": 262229,
+          "pasienter": 677.666666667,
+          "kontakter": 5192.66666667,
+          "kont_pr_pas": 7.66256763404,
+          "prim_rate": 0.361521813215,
+          "spes_rate": 0.0892853016403,
+          "overlapp_rate": 2.25516147719,
+          "andel3_prim": 0.133601629478
+        },
+        {
+          "bohf": "Møre og Romsdal",
+          "rate2018": 3.13518271122,
+          "rate2019": 3.05526097009,
+          "rate2020": 2.82212770691,
+          "rateSnitt": 3.00106905571,
+          "innbyggere": 208635,
+          "pasienter": 697.333333333,
+          "kontakter": 5464.66666667,
+          "kont_pr_pas": 7.83652007648,
+          "prim_rate": 0.177105858165,
+          "spes_rate": 0.113429731154,
+          "overlapp_rate": 2.71053346639,
+          "andel3_prim": 0.0590142562124
+        },
+        {
+          "bohf": "Førde",
+          "rate2018": 2.95441751817,
+          "rate2019": 2.85733705141,
+          "rate2020": 2.65505971686,
+          "rateSnitt": 2.81915571644,
+          "innbyggere": 85097,
+          "pasienter": 279.666666667,
+          "kontakter": 2370.33333333,
+          "kont_pr_pas": 8.47556615018,
+          "prim_rate": 0.287578945442,
+          "spes_rate": 0.079615740456,
+          "overlapp_rate": 2.45196103055,
+          "andel3_prim": 0.102008890025
+        },
+        {
+          "bohf": "Bergen",
+          "rate2018": 2.87598433391,
+          "rate2019": 2.9480009799,
+          "rate2020": 2.78874235766,
+          "rateSnitt": 2.86948814042,
+          "innbyggere": 355586.666667,
+          "pasienter": 959.333333333,
+          "kontakter": 5699.66666667,
+          "kont_pr_pas": 5.94127866574,
+          "prim_rate": 0.12772908169,
+          "spes_rate": 0.174988965352,
+          "overlapp_rate": 2.56677009338,
+          "andel3_prim": 0.0445128453017
+        },
+        {
+          "bohf": "Fonna",
+          "rate2018": 3.23990136753,
+          "rate2019": 3.15996450193,
+          "rate2020": 2.88917629257,
+          "rateSnitt": 3.09287186206,
+          "innbyggere": 139727.666667,
+          "pasienter": 461,
+          "kontakter": 3120.33333333,
+          "kont_pr_pas": 6.76861894432,
+          "prim_rate": 0.315908310987,
+          "spes_rate": 0.0498648625679,
+          "overlapp_rate": 2.7270986885,
+          "andel3_prim": 0.102140769187
+        },
+        {
+          "bohf": "Stavanger",
+          "rate2018": 2.71393751256,
+          "rate2019": 2.73184446742,
+          "rate2020": 2.63279995703,
+          "rateSnitt": 2.69166440353,
+          "innbyggere": 279974.333333,
+          "pasienter": 641,
+          "kontakter": 5055.66666667,
+          "kont_pr_pas": 7.88715548622,
+          "prim_rate": 0.125826430849,
+          "spes_rate": 0.153403739471,
+          "overlapp_rate": 2.41243423321,
+          "andel3_prim": 0.04674670092
+        },
+        {
+          "bohf": "Østfold",
+          "rate2018": 3.04867522278,
+          "rate2019": 2.89589219003,
+          "rate2020": 2.65552973166,
+          "rateSnitt": 2.86413034325,
+          "innbyggere": 249593,
+          "pasienter": 780.333333333,
+          "kontakter": 5547.33333333,
+          "kont_pr_pas": 7.10892780863,
+          "prim_rate": 0.234855885418,
+          "spes_rate": 0.199201467485,
+          "overlapp_rate": 2.43007299035,
+          "andel3_prim": 0.081999021438
+        },
+        {
+          "bohf": "Akershus",
+          "rate2018": 2.43556675845,
+          "rate2019": 2.35735807636,
+          "rate2020": 2.26392901638,
+          "rateSnitt": 2.35085870562,
+          "innbyggere": 442957.666667,
+          "pasienter": 991.333333333,
+          "kontakter": 7214.66666667,
+          "kont_pr_pas": 7.27774041695,
+          "prim_rate": 0.219030875345,
+          "spes_rate": 0.0758051752194,
+          "overlapp_rate": 2.05602265506,
+          "andel3_prim": 0.0931705826559
+        },
+        {
+          "bohf": "OUS",
+          "rate2018": 2.65172870257,
+          "rate2019": 2.86074556709,
+          "rate2020": 2.70020562133,
+          "rateSnitt": 2.73948925709,
+          "innbyggere": 215555,
+          "pasienter": 445.333333333,
+          "kontakter": 3483,
+          "kont_pr_pas": 7.82110778443,
+          "prim_rate": 0.24021157374,
+          "spes_rate": 0.144564006709,
+          "overlapp_rate": 2.35471367664,
+          "andel3_prim": 0.0876848022377
+        },
+        {
+          "bohf": "Lovisenberg",
+          "rate2018": 2.44752131663,
+          "rate2019": 2.81197368358,
+          "rate2020": 2.75619232094,
+          "rateSnitt": 2.67117928533,
+          "innbyggere": 132850.333333,
+          "pasienter": 127.666666667,
+          "kontakter": 891.333333333,
+          "kont_pr_pas": 6.9817232376,
+          "prim_rate": 0.14884070272,
+          "spes_rate": 0.29298193361,
+          "overlapp_rate": 2.229356649,
+          "andel3_prim": 0.0557209707104
+        },
+        {
+          "bohf": "Diakonhjemmet",
+          "rate2018": 3.20846741031,
+          "rate2019": 3.14154047679,
+          "rate2020": 2.90286072363,
+          "rateSnitt": 3.0771269416,
+          "innbyggere": 116259.666667,
+          "pasienter": 329.666666667,
+          "kontakter": 2358.66666667,
+          "kont_pr_pas": 7.15470171891,
+          "prim_rate": 0.168619859487,
+          "spes_rate": 0.143999510394,
+          "overlapp_rate": 2.76450757172,
+          "andel3_prim": 0.0547978236477
+        },
+        {
+          "bohf": "Innlandet",
+          "rate2018": 2.48797206285,
+          "rate2019": 2.47753599726,
+          "rate2020": 2.44815532701,
+          "rateSnitt": 2.47158569459,
+          "innbyggere": 273677,
+          "pasienter": 815.333333333,
+          "kontakter": 6969,
+          "kont_pr_pas": 8.54742436631,
+          "prim_rate": 0.222061169976,
+          "spes_rate": 0.113791476785,
+          "overlapp_rate": 2.13573304783,
+          "andel3_prim": 0.0898456284408
+        },
+        {
+          "bohf": "Vestre Viken",
+          "rate2018": 2.74584443649,
+          "rate2019": 2.80904858138,
+          "rate2020": 2.73168903985,
+          "rateSnitt": 2.76223671986,
+          "innbyggere": 378757.333333,
+          "pasienter": 1086.66666667,
+          "kontakter": 8643,
+          "kont_pr_pas": 7.9536809816,
+          "prim_rate": 0.285545497445,
+          "spes_rate": 0.0790642406905,
+          "overlapp_rate": 2.39762698172,
+          "andel3_prim": 0.103374738085
+        },
+        {
+          "bohf": "Vestfold",
+          "rate2018": 2.6058449112,
+          "rate2019": 2.62546073846,
+          "rate2020": 2.44654291739,
+          "rateSnitt": 2.55802909285,
+          "innbyggere": 194233.666667,
+          "pasienter": 549,
+          "kontakter": 4633.33333333,
+          "kont_pr_pas": 8.43958712811,
+          "prim_rate": 0.212344028377,
+          "spes_rate": 0.0761210992812,
+          "overlapp_rate": 2.26956396519,
+          "andel3_prim": 0.0830107949009
+        },
+        {
+          "bohf": "Telemark",
+          "rate2018": 2.41311203118,
+          "rate2019": 2.42729427167,
+          "rate2020": 2.34298719029,
+          "rateSnitt": 2.3953697314,
+          "innbyggere": 139029.333333,
+          "pasienter": 385,
+          "kontakter": 3121,
+          "kont_pr_pas": 8.10649350649,
+          "prim_rate": 0.180853220536,
+          "spes_rate": 0.103087889582,
+          "overlapp_rate": 2.11142862128,
+          "andel3_prim": 0.0755011713498
+        },
+        {
+          "bohf": "Sørlandet",
+          "rate2018": 2.81593747405,
+          "rate2019": 2.78743749837,
+          "rate2020": 2.69111050818,
+          "rateSnitt": 2.76137467346,
+          "innbyggere": 237810,
+          "pasienter": 667,
+          "kontakter": 5601.33333333,
+          "kont_pr_pas": 8.39780109945,
+          "prim_rate": 0.296666899306,
+          "spes_rate": 0.0700622726838,
+          "overlapp_rate": 2.39464550147,
+          "andel3_prim": 0.107434497085
+        },
+        {
+          "bohf": "Norge",
+          "rate2018": 2.75812267144,
+          "rate2019": 2.74222817393,
+          "rate2020": 2.60845458043,
+          "rateSnitt": 2.70153706579,
+          "innbyggere": 4207096,
+          "pasienter": 11372.6666667,
+          "kontakter": 87899.6666667,
+          "kont_pr_pas": 7.72902866522,
+          "prim_rate": 0.2254795289,
+          "spes_rate": 0.107528801686,
+          "overlapp_rate": 2.3685287352,
+          "andel3_prim": 0.0834634222701
+        }
+      ]
+    }
+  ]
+}

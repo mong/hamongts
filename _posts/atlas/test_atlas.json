@@ -1,9 +1,8 @@
 {
+  "filename": "test_atlas",
+  "publisert": false,
   "lang": "nb",
   "date": "2022-02-28T11:26:57.079Z",
-  "filename": "test_atlas",
-  "mainTitle": "Helseatlas for fødselshjelp 2.0",
-  "shortTitle": "Fødselshjelp",
   "ingress": "Hovedfunn fra Helseatlas for fødselshjelp er oppsummert under. Oppsummeringene inneholder også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.",
   "kapittel": [
     {
@@ -11,7 +10,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "### Dette er en overskrift!\n\n```sas\ndata test;\nset test2;\nvar = 0;\nrun;\n```\n\nOg litt tekst her",
+          "tekst": "### Dette er en overskrift!\n\n```sas\ndata test;\nset test2;\nvar = 0;\nrun;\n```\n\nOg litt tekst her\n\n\n\n![]()",
           "beskrivelse": "Litt test-tekst"
         },
         {
@@ -33,7 +32,7 @@
               "barchart",
               "table"
             ],
-            "data": "data/epilepsi_pasienter_Barn.csv",
+            "data": "data/test_data.csv",
             "xlabel": "tekst1",
             "ylabel": "tekst2",
             "rate1": "sykdom 1",
@@ -49,13 +48,13 @@
           "karusell": {
             "xlabel": "Antall per 1 000 innbyggere",
             "ylabel": "Opptaksområder",
-            "data": "/helseatlas/data/injeksjoner_artritt_med_uten_ul.csv",
+            "data": "data/test_data.csv",
             "presentasjonstype": [
               "barchart"
             ]
           },
           "publisert": "2022-03-08T12:33:47.556Z",
-          "oppdatert": "2022-03-08T12:33:47.589Z",
+          "oppdatert": "2022-03-30T11:32:19.372Z",
           "utvalg": "dett eer en efsdf l",
           "resultat": "dsvsgfwesdf",
           "ingress": "fdsfsdfaf",
@@ -64,5 +63,7 @@
       ]
     }
   ],
-  "publisert": false
+  "image": "/helseatlas/img/colourbox30300429.jpg",
+  "shortTitle": "Fødselshjelp",
+  "mainTitle": "Helseatlas for MS og fødselshjelp"
 }

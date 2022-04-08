@@ -21,7 +21,7 @@ type ResultBoxProps = {
   selection: string;
   result: string;
   id: string;
-  lang: string;
+  lang: "nb" | "en" | "nn";
   xlabel: string;
   ylabel: string;
 };
@@ -43,7 +43,66 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const figdata: AtlasData[] = atlasData[carousel.data];
+  const carouselData = carousel.data
+    .replace(/data\//, "")
+    .replace(/.csv$/, ".json");
+
+  const boxData: any =
+    atlasData[carouselData] !== undefined
+      ? Object.values(JSON.parse(atlasData[carouselData]))[0]
+      : undefined;
+
+  const dataCarousel =
+    boxData !== undefined ? (
+      <Carousel active={0}>
+        {boxData
+          .map((bd, i, obj) => {
+            const figData = obj.filter((o) => o.type === "data")[0]["data"];
+            if (bd.type === "barchart") {
+              return (
+                <CarouselItem
+                  key={bd.type + i + id}
+                  label={i + 1 + ". Stolpediagram "}
+                >
+                  <Barchart
+                    margin={{
+                      top: 30,
+                      bottom: 50,
+                      right: 60,
+                      left: 130,
+                    }}
+                    height={500}
+                    {...bd}
+                    data={figData}
+                  />
+                </CarouselItem>
+              );
+            }
+            if (bd.type === "table") {
+              return (
+                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
+                  <DataTable headers={bd.columns} data={figData} />
+                </CarouselItem>
+              );
+            }
+            if (bd.type === "map") {
+              return (
+                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
+                  <img src="/helseatlas/img/map.png" />
+                </CarouselItem>
+              );
+            }
+
+            return null;
+          })
+          .filter((elm) => elm !== null)}
+      </Carousel>
+    ) : undefined;
+
+  const figdata: AtlasData[] = boxData
+    ? boxData.filter((d) => d.type === "data")[0]["data"]
+    : null;
+
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
@@ -66,6 +125,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         >
           <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
+            <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
                 data={figdata}
@@ -77,82 +137,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 backgroundColor="inherit"
               />
             )}
-            <Markdown lang={lang}>{intro}</Markdown>
           </div>
         </AccordionSummary>
         <AccordionDetails>
-          <Carousel active={0}>
-            <CarouselItem label="Stolpediagram">
-              {figdata && (
-                <Barchart
-                  data={figdata}
-                  x={["rateSnitt"]}
-                  y="bohf"
-                  margin={{
-                    top: 30,
-                    bottom: 50,
-                    right: 60,
-                    left: 130,
-                  }}
-                  height={500}
-                  xLabel={xlabel}
-                  yLabel={ylabel}
-                  backgroundColor="white"
-                  annualVar={["rate2018", "rate2019", "rate2020"]}
-                />
-              )}
-            </CarouselItem>
-            <CarouselItem label="Tabell">
-              {figdata && (
-                <div style={{ width: "700px" }}>
-                  <DataTable
-                    data={figdata}
-                    headers={[
-                      {
-                        id: "bohf",
-                        label: "Opptaksområder",
-                        typeVar: "string",
-                      },
-                      {
-                        id: "rateSnitt",
-                        label: "Antall pr 1000",
-                        typeVar: "number",
-                        format: ".1f",
-                      },
-                      {
-                        id: "kontakter",
-                        label: "Kontakter",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                      {
-                        id: "pasienter",
-                        label: "Pasienter",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                      {
-                        id: "kont_pr_pas",
-                        label: "Kont pr pasient",
-                        typeVar: "number",
-                        format: ".1f",
-                      },
-                      {
-                        id: "innbyggere",
-                        label: "Innbyggere",
-                        typeVar: "number",
-                        format: ",",
-                      },
-                    ]}
-                  />
-                </div>
-              )}
-            </CarouselItem>
-            <CarouselItem label="Kart">
-              {" "}
-              <img src="/helseatlas/img/map.png"></img>
-            </CarouselItem>
-          </Carousel>
+          {dataCarousel}
+
           <Accordion
             sx={{ boxShadow: 0 }}
             expanded={expandedSelection}

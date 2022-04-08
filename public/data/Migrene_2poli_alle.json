@@ -1,0 +1,416 @@
+{
+  "innhold": [
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "rateSnitt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2018",
+        "rate2019",
+        "rate2020"
+      ],
+      "annualVarLabels": [
+        "2018",
+        "2019",
+        "2020"
+      ]
+    },
+    {
+      "type": "table",
+      "data": "qwerty",
+      "columns": [
+        {
+          "id": "bohf",
+          "label": "Opptaksområder",
+          "typeVar": "string",
+          "format": ""
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Rate",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "polikont_pr_pas",
+          "label": "Spes.konsult. pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "pasienter",
+          "label": "Antall pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "innbyggere",
+          "label": "Antall innbyggere",
+          "typeVar": "number",
+          "format": ",.0f"
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "rateSnitt",
+      "jenks": [
+        {
+          "CLUSTER": 1,
+          "max": "  3.9345"
+        },
+        {
+          "CLUSTER": 2,
+          "max": "  5.6652"
+        },
+        {
+          "CLUSTER": 3,
+          "max": "  7.7855"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "label": "qwerty",
+      "description": "Hoveddatasettet for gitt resultatboks",
+      "data": [
+        {
+          "bohf": "Finnmark",
+          "innbyggere": 60708,
+          "pasienter": 671.333333333,
+          "kontakter_poli": 221,
+          "polikont_pr_pas": 0.329195630586,
+          "rate2018": 2.8307742964,
+          "rate2019": 3.81744999752,
+          "rate2020": 4.83926765333,
+          "rateSnitt": 3.82451486279,
+          "off_rate": 3.52234911001,
+          "priv_rate": 0.302165752785,
+          "andel_off_poli": 0.920992396781,
+          "andel_priv_poli": 0.0790076032191
+        },
+        {
+          "bohf": "UNN",
+          "innbyggere": 155600.666667,
+          "pasienter": 1915,
+          "kontakter_poli": 593.666666667,
+          "polikont_pr_pas": 0.31000870322,
+          "rate2018": 3.0564402024,
+          "rate2019": 4.09776877145,
+          "rate2020": 4.65098464271,
+          "rateSnitt": 3.93452831452,
+          "off_rate": 3.79751060424,
+          "priv_rate": 0.13701771028,
+          "andel_off_poli": 0.96517556888,
+          "andel_priv_poli": 0.0348244311204
+        },
+        {
+          "bohf": "Nordland",
+          "innbyggere": 109805.333333,
+          "pasienter": 1353.66666667,
+          "kontakter_poli": 589.666666667,
+          "polikont_pr_pas": 0.435606993351,
+          "rate2018": 4.05887479223,
+          "rate2019": 5.68666263234,
+          "rate2020": 7.23884748762,
+          "rateSnitt": 5.66518123042,
+          "off_rate": 5.48614753727,
+          "priv_rate": 0.179033693151,
+          "andel_off_poli": 0.968397534718,
+          "andel_priv_poli": 0.031602465282
+        },
+        {
+          "bohf": "Helgeland",
+          "innbyggere": 62630,
+          "pasienter": 752,
+          "kontakter_poli": 418,
+          "polikont_pr_pas": 0.55585106383,
+          "rate2018": 5.93654768036,
+          "rate2019": 6.2468331632,
+          "rate2020": 9.53689475455,
+          "rateSnitt": 7.22785515679,
+          "off_rate": 7.03149858695,
+          "priv_rate": 0.196356569842,
+          "andel_off_poli": 0.972833355735,
+          "andel_priv_poli": 0.0271666442648
+        },
+        {
+          "bohf": "Nord-Trøndelag",
+          "innbyggere": 106379.333333,
+          "pasienter": 1346,
+          "kontakter_poli": 709.666666667,
+          "polikont_pr_pas": 0.527241208519,
+          "rate2018": 5.02337049091,
+          "rate2019": 6.37948341458,
+          "rate2020": 10.1728504035,
+          "rateSnitt": 7.17864402183,
+          "off_rate": 6.50673610459,
+          "priv_rate": 0.671907917235,
+          "andel_off_poli": 0.906401833662,
+          "andel_priv_poli": 0.0935981663378
+        },
+        {
+          "bohf": "St. Olav",
+          "innbyggere": 262229,
+          "pasienter": 3460,
+          "kontakter_poli": 2360,
+          "polikont_pr_pas": 0.682080924855,
+          "rate2018": 7.00996728653,
+          "rate2019": 9.10501601156,
+          "rate2020": 11.0186390599,
+          "rateSnitt": 9.06000008927,
+          "off_rate": 5.21921072921,
+          "priv_rate": 3.84078936006,
+          "andel_off_poli": 0.57607181874,
+          "andel_priv_poli": 0.42392818126
+        },
+        {
+          "bohf": "Møre og Romsdal",
+          "innbyggere": 208635,
+          "pasienter": 2751.33333333,
+          "kontakter_poli": 1681,
+          "polikont_pr_pas": 0.610976496244,
+          "rate2018": 7.09958622355,
+          "rate2019": 8.51593046742,
+          "rate2020": 9.67395259604,
+          "rateSnitt": 8.42811956117,
+          "off_rate": 8.0498395549,
+          "priv_rate": 0.37828000627,
+          "andel_off_poli": 0.955116915046,
+          "andel_priv_poli": 0.0448830849544
+        },
+        {
+          "bohf": "Førde",
+          "innbyggere": 85097,
+          "pasienter": 896.333333333,
+          "kontakter_poli": 672.333333333,
+          "polikont_pr_pas": 0.750092971365,
+          "rate2018": 6.98347744085,
+          "rate2019": 8.57164941616,
+          "rate2020": 9.81679250724,
+          "rateSnitt": 8.45877314636,
+          "off_rate": 7.94970614284,
+          "priv_rate": 0.509067003526,
+          "andel_off_poli": 0.939817867826,
+          "andel_priv_poli": 0.0601821321742
+        },
+        {
+          "bohf": "Bergen",
+          "innbyggere": 355586.666667,
+          "pasienter": 3645.33333333,
+          "kontakter_poli": 1698,
+          "polikont_pr_pas": 0.46580102414,
+          "rate2018": 3.60251332592,
+          "rate2019": 4.49583148716,
+          "rate2020": 6.06628374246,
+          "rateSnitt": 4.72750679064,
+          "off_rate": 2.56359006226,
+          "priv_rate": 2.16391672837,
+          "andel_off_poli": 0.542271048101,
+          "andel_priv_poli": 0.457728951899
+        },
+        {
+          "bohf": "Fonna",
+          "innbyggere": 139727.666667,
+          "pasienter": 1556,
+          "kontakter_poli": 489,
+          "polikont_pr_pas": 0.314267352185,
+          "rate2018": 3.03094449677,
+          "rate2019": 3.45637352835,
+          "rate2020": 4.29947449304,
+          "rateSnitt": 3.59542363028,
+          "off_rate": 3.0888388717,
+          "priv_rate": 0.506584758583,
+          "andel_off_poli": 0.859102901167,
+          "andel_priv_poli": 0.140897098833
+        },
+        {
+          "bohf": "Stavanger",
+          "innbyggere": 279974.333333,
+          "pasienter": 3142,
+          "kontakter_poli": 969.666666667,
+          "polikont_pr_pas": 0.308614470613,
+          "rate2018": 2.73307734923,
+          "rate2019": 3.39619171973,
+          "rate2020": 3.75869584289,
+          "rateSnitt": 3.29998185389,
+          "off_rate": 3.19257501736,
+          "priv_rate": 0.107406836528,
+          "andel_off_poli": 0.967452294805,
+          "andel_priv_poli": 0.0325477051945
+        },
+        {
+          "bohf": "Østfold",
+          "innbyggere": 249593,
+          "pasienter": 3591,
+          "kontakter_poli": 1910,
+          "polikont_pr_pas": 0.531885268727,
+          "rate2018": 6.46749452559,
+          "rate2019": 7.56603368383,
+          "rate2020": 9.31564593315,
+          "rateSnitt": 7.78548836821,
+          "off_rate": 3.52959706154,
+          "priv_rate": 4.25589130667,
+          "andel_off_poli": 0.453355896844,
+          "andel_priv_poli": 0.546644103156
+        },
+        {
+          "bohf": "Akershus",
+          "innbyggere": 442957.666667,
+          "pasienter": 6090,
+          "kontakter_poli": 4207.66666667,
+          "polikont_pr_pas": 0.690914066776,
+          "rate2018": 6.77772679733,
+          "rate2019": 8.781238649,
+          "rate2020": 11.8640191719,
+          "rateSnitt": 9.16405602935,
+          "off_rate": 3.21578946595,
+          "priv_rate": 5.9482665634,
+          "andel_off_poli": 0.350913335279,
+          "andel_priv_poli": 0.649086664721
+        },
+        {
+          "bohf": "OUS",
+          "innbyggere": 215555,
+          "pasienter": 2771.33333333,
+          "kontakter_poli": 2089.66666667,
+          "polikont_pr_pas": 0.754029348088,
+          "rate2018": 7.93890967368,
+          "rate2019": 8.81960549523,
+          "rate2020": 10.8405885529,
+          "rateSnitt": 9.20903724113,
+          "off_rate": 1.24635311729,
+          "priv_rate": 7.96268412384,
+          "andel_off_poli": 0.135340219032,
+          "andel_priv_poli": 0.864659780968
+        },
+        {
+          "bohf": "Lovisenberg",
+          "innbyggere": 132850.333333,
+          "pasienter": 1620.33333333,
+          "kontakter_poli": 1047.33333333,
+          "polikont_pr_pas": 0.646369059864,
+          "rate2018": 6.44629840501,
+          "rate2019": 6.52091137404,
+          "rate2020": 8.36331252494,
+          "rateSnitt": 7.12831362328,
+          "off_rate": 0.91463220417,
+          "priv_rate": 6.21368141911,
+          "andel_off_poli": 0.128309759153,
+          "andel_priv_poli": 0.871690240847
+        },
+        {
+          "bohf": "Diakonhjemmet",
+          "innbyggere": 116259.666667,
+          "pasienter": 1274.66666667,
+          "kontakter_poli": 1137.66666667,
+          "polikont_pr_pas": 0.892520920502,
+          "rate2018": 8.68401309588,
+          "rate2019": 9.32234327354,
+          "rate2020": 10.9001767596,
+          "rateSnitt": 9.6436761011,
+          "off_rate": 1.09887751173,
+          "priv_rate": 8.54479858937,
+          "andel_off_poli": 0.113947990394,
+          "andel_priv_poli": 0.886052009606
+        },
+        {
+          "bohf": "Innlandet",
+          "innbyggere": 273677,
+          "pasienter": 3816,
+          "kontakter_poli": 1654.33333333,
+          "polikont_pr_pas": 0.433525506639,
+          "rate2018": 5.47256965522,
+          "rate2019": 6.13749348912,
+          "rate2020": 7.54060210231,
+          "rateSnitt": 6.38104228949,
+          "off_rate": 3.92585535934,
+          "priv_rate": 2.45518693015,
+          "andel_off_poli": 0.615237320368,
+          "andel_priv_poli": 0.384762679632
+        },
+        {
+          "bohf": "Vestre Viken",
+          "innbyggere": 378757.333333,
+          "pasienter": 5125,
+          "kontakter_poli": 3289.66666667,
+          "polikont_pr_pas": 0.641886178862,
+          "rate2018": 7.00108119547,
+          "rate2019": 7.66846328076,
+          "rate2020": 11.0426440347,
+          "rateSnitt": 8.57602277897,
+          "off_rate": 1.7379686954,
+          "priv_rate": 6.83805408357,
+          "andel_off_poli": 0.202654393557,
+          "andel_priv_poli": 0.797345606443
+        },
+        {
+          "bohf": "Vestfold",
+          "innbyggere": 194233.666667,
+          "pasienter": 2514,
+          "kontakter_poli": 1410,
+          "polikont_pr_pas": 0.560859188544,
+          "rate2018": 6.12144890173,
+          "rate2019": 6.9869072041,
+          "rate2020": 8.80497258092,
+          "rateSnitt": 7.30868037472,
+          "off_rate": 5.87499846184,
+          "priv_rate": 1.43368191288,
+          "andel_off_poli": 0.803838471602,
+          "andel_priv_poli": 0.196161528398
+        },
+        {
+          "bohf": "Telemark",
+          "innbyggere": 139029.333333,
+          "pasienter": 1631,
+          "kontakter_poli": 642.333333333,
+          "polikont_pr_pas": 0.393827917433,
+          "rate2018": 3.34297749694,
+          "rate2019": 4.32804018005,
+          "rate2020": 6.92697594064,
+          "rateSnitt": 4.86086915887,
+          "off_rate": 3.16278899127,
+          "priv_rate": 1.6980801676,
+          "andel_off_poli": 0.650663263689,
+          "andel_priv_poli": 0.349336736311
+        },
+        {
+          "bohf": "Sørlandet",
+          "innbyggere": 237810,
+          "pasienter": 3704.66666667,
+          "kontakter_poli": 2282,
+          "polikont_pr_pas": 0.61597984524,
+          "rate2018": 7.482325004,
+          "rate2019": 9.82438659359,
+          "rate2020": 11.7355262341,
+          "rateSnitt": 9.68922750853,
+          "off_rate": 3.29543973178,
+          "priv_rate": 6.39378777675,
+          "andel_off_poli": 0.34011377366,
+          "andel_priv_poli": 0.65988622634
+        },
+        {
+          "bohf": "Norge",
+          "innbyggere": 4207096,
+          "pasienter": 53627,
+          "kontakter_poli": 30072.6666667,
+          "polikont_pr_pas": 0.56077473412,
+          "rate2018": 5.72226868889,
+          "rate2019": 6.90276824047,
+          "rate2020": 8.8030261667,
+          "rateSnitt": 7.14896778432,
+          "off_rate": 3.6033715049,
+          "priv_rate": 3.54559627942,
+          "andel_off_poli": 0.504040808913,
+          "andel_priv_poli": 0.495959191087
+        }
+      ]
+    }
+  ]
+}

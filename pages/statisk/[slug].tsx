@@ -11,7 +11,7 @@ interface Props {
   content: string;
   frontMatter: {
     title: string;
-    lang: string;
+    lang: "nb" | "en" | "nn";
   };
 }
 
