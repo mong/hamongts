@@ -6,8 +6,6 @@ type MenuProps = {
 };
 
 export const Menu: React.FC<MenuProps> = ({ lang }) => {
-  console.log({ lang });
-
   return <>{lang === "en" ? <EnglishMenu /> : <NorskMeny />}</>;
 };
 
