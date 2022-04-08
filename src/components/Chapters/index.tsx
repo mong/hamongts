@@ -80,7 +80,7 @@ const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
                     mainID +
                     "_" +
                     box.overskrift.toLowerCase().replace(/\s/g, "-"),
-                  carousel: box.data,
+                  carousel: box.karusell,
                   lang: lang,
                 }
               : { children: box.tekst };

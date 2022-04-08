@@ -10,7 +10,6 @@ import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
 import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
-import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
 
