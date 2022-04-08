@@ -21,8 +21,6 @@ type ResultBoxProps = {
   result: string;
   id: string;
   lang: "nb" | "en" | "nn";
-  xlabel: string;
-  ylabel: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({

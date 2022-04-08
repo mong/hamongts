@@ -18,11 +18,10 @@ type Faktaboks = {
 type Resultatboks = {
   type: "resultatboks";
   overskrift: string;
+  data: string;
   ingress: string;
-  karusell: string;
   utvalg: string;
   resultat: string;
-  data: AtlasData[];
   lang: "nb" | "en" | "nn";
 };
 
@@ -80,8 +79,8 @@ const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
                     mainID +
                     "_" +
                     box.overskrift.toLowerCase().replace(/\s/g, "-"),
-                  carousel: box.karusell,
                   lang: lang,
+                  carousel: box.data,
                 }
               : { children: box.tekst };
 
