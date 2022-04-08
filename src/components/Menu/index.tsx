@@ -12,7 +12,7 @@ export const Menu: React.FC<MenuProps> = ({ lang }) => {
         <span>Om oss</span>
         <ul>
           <li>
-            <Link href="/helseatlas/statisk/om">Helseatlas</Link>
+            <Link href="/statisk/om">Helseatlas</Link>
           </li>
         </ul>
       </ul>
