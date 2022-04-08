@@ -35,7 +35,7 @@
         },
         {
           "type": "resultatboks",
-          "data": "data/test_data.json",
+          "data": "test_data.json",
           "publisert": "2022-03-08T12:33:47.556Z",
           "oppdatert": "2022-03-30T11:32:19.372Z",
           "utvalg": "dett eer en efsdf l",
