@@ -7,10 +7,10 @@ type MainBannerProps = {
   lang?: "nb" | "nn" | "en";
   title?: string;
   ingress?: string;
-  imageSource?: File;
+  imageSource?: string;
 };
 
-export const MainBanner = ({
+export const MainBanner: React.FC<MainBannerProps> = ({
   lang = "no",
   title = "Likeverdige helsetjenester - uansett hvor du bor?",
   ingress = "I Norge er det et mål at hele befolkningen skal ha et likeverdig tilbud av helsetjenester på tvers av geografi og sosiale grupper. Helseatlas er et verktøy for å sammenlikne befolkningens bruk av helsetjenester i forskjellige geografiske områder, uavhengig av hvilket sted pasientene behandles.",

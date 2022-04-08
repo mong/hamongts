@@ -54,15 +54,17 @@ export const AtlasLink: React.FC<Props> = ({
             </div>
             <div className={classNames.linkText}>
               <div
-                className={`${classNames.linkDate} ${
+                className={`${classNames.linkDateContainer} ${
                   newlyUpdated ? classNames.newlyUpdated : ""
                 }`}
               >
                 <div className={classNames.outerCircle}>
                   <div className={classNames.innerDot}></div>
                 </div>
-                {lang === "en" ? "Published: " : "Publisert: "}
-                <strong>{formatTime(new Date(date))}</strong>
+                {lang === "en" ? "Published:" : "Publisert:"}
+                <strong className={classNames.date}>
+                  {formatTime(new Date(date))}
+                </strong>
               </div>
               <div className={classNames.linkTitle}>{linkTitle}</div>
               <div className={classNames.linkIngress}>

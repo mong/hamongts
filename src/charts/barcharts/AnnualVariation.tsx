@@ -1,5 +1,5 @@
 import { Group } from "@visx/group";
-import { scaleLinear } from "@visx/scale";
+import { DefaultOutput } from "@visx/scale";
 import { ScaleBand, ScaleLinear } from "d3-scale";
 import { max, min } from "d3-array";
 
@@ -7,8 +7,11 @@ type AnnualVariaionProps<Data, AnnualVar> = {
   data: Data;
   y: keyof Data;
   annualVar: AnnualVar;
-  xScale: ScaleLinear<number, number, any>;
+  xScale: ScaleLinear<number, number, never>;
+  colorFillScale: ScaleLinear<DefaultOutput, DefaultOutput, never>;
+  sizeScale: ScaleLinear<number, number, never>;
   yScale: ScaleBand<string>;
+
   labels?: number[];
 };
 
@@ -21,15 +24,12 @@ export const AnnualVariation = function <
   yScale,
   annualVar,
   y,
+  colorFillScale,
+  sizeScale,
   labels,
 }: AnnualVariaionProps<D, AnnualVar>) {
   const annualRates = annualVar.map((v) => data[v]);
-  const colorFillScale = scaleLinear()
-    .domain([parseFloat(min(labels)), parseFloat(max(labels))])
-    .range(["black", "white"]);
-  const sizeScale = scaleLinear<number>()
-    .domain([min(labels), max(labels)])
-    .range([2, yScale.bandwidth() / 2]);
+
   return (
     <>
       <Group top={yScale.bandwidth() / 2}>

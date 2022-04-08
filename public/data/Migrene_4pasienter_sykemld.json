@@ -1,0 +1,307 @@
+{
+  "innhold": [
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "rateSnitt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall pasienter med minst en sykemelding per 1 000 innbygger",
+      "yLabel": "Opptaksområder"
+    },
+    {
+      "type": "table",
+      "data": "qwerty",
+      "columns": [
+        {
+          "id": "bohf",
+          "label": "Opptaksområder",
+          "typeVar": "string",
+          "format": ""
+        },
+        {
+          "id": "rateSnitt",
+          "label": "Rate",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "ant_sykempas",
+          "label": "Antall med minst en sykemelding",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "innbyggere",
+          "label": "Antall innbyggere",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "andel_sykem",
+          "label": "Andel med sykemelding",
+          "typeVar": "number",
+          "format": ",.1%"
+        }
+      ]
+    },
+    {
+      "type": "map",
+      "data": "qwerty",
+      "x": "andel3_btx_begge",
+      "jenks1": 1,
+      "jenks2": 2,
+      "jenks3": 3
+    },
+    {
+      "type": "data",
+      "label": "qwerty",
+      "description": "Hoveddatasettet for gitt resultatboks",
+      "data": [
+        {
+          "bohf": "Finnmark",
+          "innbyggere": 60708,
+          "pasienter": 671,
+          "rateSnitt": 2.4937,
+          "rate2018": 2.4108,
+          "rate2019": 8.0528,
+          "rate2020": 6.5521,
+          "ant_sykempas": 144,
+          "andel_sykem": 0.2140019861
+        },
+        {
+          "bohf": "UNN",
+          "innbyggere": 155601,
+          "pasienter": 1915,
+          "rateSnitt": 2.7917,
+          "rate2018": 2.7454,
+          "rate2019": 6.8561,
+          "rate2020": 5.6351,
+          "ant_sykempas": 420,
+          "andel_sykem": 0.2191470844
+        },
+        {
+          "bohf": "Nordland",
+          "innbyggere": 109805,
+          "pasienter": 1354,
+          "rateSnitt": 2.3475,
+          "rate2018": 2.1423,
+          "rate2019": 7.7627,
+          "rate2020": 7.0426,
+          "ant_sykempas": 242,
+          "andel_sykem": 0.1790199458
+        },
+        {
+          "bohf": "Helgeland",
+          "innbyggere": 62630,
+          "pasienter": 752,
+          "rateSnitt": 2.2847,
+          "rate2018": 2.0738,
+          "rate2019": 8.8539,
+          "rate2020": 8.7668,
+          "ant_sykempas": 130,
+          "andel_sykem": 0.1733156028
+        },
+        {
+          "bohf": "Nord-Trøndelag",
+          "innbyggere": 106379,
+          "pasienter": 1346,
+          "rateSnitt": 2.6398,
+          "rate2018": 2.3309,
+          "rate2019": 8.3102,
+          "rate2020": 8.1651,
+          "ant_sykempas": 258,
+          "andel_sykem": 0.191679049
+        },
+        {
+          "bohf": "St. Olav",
+          "innbyggere": 262229,
+          "pasienter": 3460,
+          "rateSnitt": 2.7333,
+          "rate2018": 2.506,
+          "rate2019": 12.806,
+          "rate2020": 12.2046,
+          "ant_sykempas": 719,
+          "andel_sykem": 0.2078034682
+        },
+        {
+          "bohf": "Møre og Romsdal",
+          "innbyggere": 208635,
+          "pasienter": 2751,
+          "rateSnitt": 2.7396,
+          "rate2018": 2.5338,
+          "rate2019": 11.4362,
+          "rate2020": 9.2826,
+          "ant_sykempas": 536,
+          "andel_sykem": 0.1946934819
+        },
+        {
+          "bohf": "Førde",
+          "innbyggere": 85097,
+          "pasienter": 896,
+          "rateSnitt": 2.1729,
+          "rate2018": 1.903,
+          "rate2019": 18.6025,
+          "rate2020": 18.403,
+          "ant_sykempas": 169,
+          "andel_sykem": 0.1881740424
+        },
+        {
+          "bohf": "Bergen",
+          "innbyggere": 355587,
+          "pasienter": 3645,
+          "rateSnitt": 2.4943,
+          "rate2018": 2.3663,
+          "rate2019": 6.8035,
+          "rate2020": 7.7273,
+          "ant_sykempas": 905,
+          "andel_sykem": 0.24835406
+        },
+        {
+          "bohf": "Fonna",
+          "innbyggere": 139728,
+          "pasienter": 1556,
+          "rateSnitt": 2.0557,
+          "rate2018": 1.7937,
+          "rate2019": 4.4554,
+          "rate2020": 4.179,
+          "ant_sykempas": 275,
+          "andel_sykem": 0.176949443
+        },
+        {
+          "bohf": "Stavanger",
+          "innbyggere": 279974,
+          "pasienter": 3142,
+          "rateSnitt": 2.2068,
+          "rate2018": 2.1717,
+          "rate2019": 2.3236,
+          "rate2020": 2.1243,
+          "ant_sykempas": 653,
+          "andel_sykem": 0.2079354976
+        },
+        {
+          "bohf": "Østfold",
+          "innbyggere": 249593,
+          "pasienter": 3591,
+          "rateSnitt": 2.8058,
+          "rate2018": 2.6031,
+          "rate2019": 6.1302,
+          "rate2020": 6.073,
+          "ant_sykempas": 672,
+          "andel_sykem": 0.1871345029
+        },
+        {
+          "bohf": "Akershus",
+          "innbyggere": 442958,
+          "pasienter": 6090,
+          "rateSnitt": 2.8929,
+          "rate2018": 2.735,
+          "rate2019": 11.0713,
+          "rate2020": 13.3763,
+          "ant_sykempas": 1310,
+          "andel_sykem": 0.2151067323
+        },
+        {
+          "bohf": "OUS",
+          "innbyggere": 215555,
+          "pasienter": 2771,
+          "rateSnitt": 2.6495,
+          "rate2018": 2.6221,
+          "rate2019": 11.8353,
+          "rate2020": 13.1268,
+          "ant_sykempas": 640,
+          "andel_sykem": 0.230935771
+        },
+        {
+          "bohf": "Lovisenberg",
+          "innbyggere": 132850,
+          "pasienter": 1620,
+          "rateSnitt": 2.0369,
+          "rate2018": 2.147,
+          "rate2019": 10.4809,
+          "rate2020": 13.1019,
+          "ant_sykempas": 345,
+          "andel_sykem": 0.2129191524
+        },
+        {
+          "bohf": "Diakonhjemmet",
+          "innbyggere": 116260,
+          "pasienter": 1275,
+          "rateSnitt": 1.8525,
+          "rate2018": 1.8985,
+          "rate2019": 14.2821,
+          "rate2020": 16.6393,
+          "ant_sykempas": 233,
+          "andel_sykem": 0.1825313808
+        },
+        {
+          "bohf": "Innlandet",
+          "innbyggere": 273677,
+          "pasienter": 3816,
+          "rateSnitt": 2.7295,
+          "rate2018": 2.5093,
+          "rate2019": 6.2681,
+          "rate2020": 6.7523,
+          "ant_sykempas": 685,
+          "andel_sykem": 0.179594689
+        },
+        {
+          "bohf": "Vestre Viken",
+          "innbyggere": 378757,
+          "pasienter": 5125,
+          "rateSnitt": 2.7154,
+          "rate2018": 2.7475,
+          "rate2019": 9.5231,
+          "rate2020": 10.6898,
+          "ant_sykempas": 1020,
+          "andel_sykem": 0.1990243902
+        },
+        {
+          "bohf": "Vestfold",
+          "innbyggere": 194234,
+          "pasienter": 2514,
+          "rateSnitt": 2.3857,
+          "rate2018": 2.3258,
+          "rate2019": 7.3655,
+          "rate2020": 7.9746,
+          "ant_sykempas": 449,
+          "andel_sykem": 0.1785998409
+        },
+        {
+          "bohf": "Telemark",
+          "innbyggere": 139029,
+          "pasienter": 1631,
+          "rateSnitt": 2.3474,
+          "rate2018": 2.1156,
+          "rate2019": 5.9152,
+          "rate2020": 7.1862,
+          "ant_sykempas": 302,
+          "andel_sykem": 0.1849581034
+        },
+        {
+          "bohf": "Sørlandet",
+          "innbyggere": 237810,
+          "pasienter": 3705,
+          "rateSnitt": 2.7917,
+          "rate2018": 2.5923,
+          "rate2019": 11.3172,
+          "rate2020": 11.4563,
+          "ant_sykempas": 654,
+          "andel_sykem": 0.1765341011
+        },
+        {
+          "bohf": "Norge",
+          "innbyggere": 4207096,
+          "pasienter": 53627,
+          "rateSnitt": 2.5576,
+          "rate2018": 2.4326,
+          "rate2019": 9.0086,
+          "rate2020": 9.4647,
+          "ant_sykempas": 10761,
+          "andel_sykem": 0.2006638447
+        }
+      ]
+    }
+  ]
+}

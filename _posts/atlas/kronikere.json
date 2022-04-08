@@ -365,7 +365,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "data/epilepsi_pasienter_alle.csv",
+            "data": "data/Migrene_3pasienter_botox.csv",
             "rate1": "Offentlig (på sykehus)",
             "rate2": "Både offentlig og privat",
             "rate3": "Privat (avtalespesialist)"
@@ -385,7 +385,7 @@
             "presentasjonstype": [
               "barchart"
             ],
-            "data": "/helseatlas/img/migrene_alle_sm_ant_fastlege_1820_bohf_aarsvar.png"
+            "data": "data/Migrene_4pasienter_sykemld.csv"
           },
           "publisert": "2022-03-08T15:35:16.211Z",
           "oppdatert": "2022-03-08T15:35:16.308Z",
