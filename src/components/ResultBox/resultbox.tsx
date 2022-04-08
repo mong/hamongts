@@ -38,11 +38,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const carouselData = carousel.replace(/data\//, "").replace(/.csv$/, ".json");
 
   const boxData: any =
-    atlasData[carouselData] !== undefined
-      ? Object.values(JSON.parse(atlasData[carouselData]))[0]
+    atlasData[carousel] !== undefined
+      ? Object.values(JSON.parse(atlasData[carousel]))[0]
       : undefined;
 
   const dataCarousel =
