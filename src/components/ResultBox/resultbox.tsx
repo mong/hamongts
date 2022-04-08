@@ -16,7 +16,7 @@ import { DataTable } from "../Table";
 
 type ResultBoxProps = {
   title: string;
-  carousel: karusell;
+  carousel: string;
   intro: string;
   selection: string;
   result: string;
@@ -32,8 +32,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
-  xlabel,
-  ylabel,
   lang,
   carousel,
 }) => {
@@ -43,9 +41,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const carouselData = carousel.data
-    .replace(/data\//, "")
-    .replace(/.csv$/, ".json");
+  const carouselData = carousel.replace(/data\//, "").replace(/.csv$/, ".json");
 
   const boxData: any =
     atlasData[carouselData] !== undefined
@@ -133,7 +129,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 colorBy="bohf"
                 width={800}
                 height={80}
-                label={xlabel}
+                label={boxData[0].xLabel}
                 backgroundColor="inherit"
               />
             )}
