@@ -64,7 +64,7 @@ export const Abacus = <
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
   const xMaxVal = xMax ? xMax : max(values) * 1.1;
   const innerWidth = width - margin.left - margin.right;
-  const colors = ["#6CACE4", "#003087"];
+  const colors = ["#AB6CA6", "#68B39C"];
 
   const xScale = scaleLinear<number>({
     domain: [xMin, xMaxVal],
