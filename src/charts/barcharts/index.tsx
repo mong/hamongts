@@ -220,10 +220,10 @@ export const Barchart = <
                       fill={
                         barData.data["bohf"].toString() === "Norge"
                           ? x.length === 1
-                            ? nationColors[1]
+                            ? nationColors[2]
                             : nationColorScale(d["key"])
                           : x.length === 1
-                          ? colors[1]
+                          ? colors[2]
                           : colorScale(d["key"])
                       }
                     />
