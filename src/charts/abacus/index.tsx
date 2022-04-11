@@ -64,7 +64,7 @@ export const Abacus = <
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
   const xMaxVal = xMax ? xMax : max(values) * 1.1;
   const innerWidth = width - margin.left - margin.right;
-  const colors = ["#AB6CA6", "#68B39C"];
+  const colors = ["rgba(135, 24, 157, 0.6)", "rgba(0, 193, 159, 0.6)"];
 
   const xScale = scaleLinear<number>({
     domain: [xMin, xMaxVal],
@@ -95,7 +95,6 @@ export const Abacus = <
             key={`${d[x]}${i}`}
             r={circleRadiusDefalt}
             cx={xScale(d[x])}
-            opacity={0.8}
             fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
           />
         ))}
