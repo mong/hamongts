@@ -10,20 +10,17 @@ import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
 import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
-import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
 
 type ResultBoxProps = {
   title: string;
-  carousel: karusell;
+  carousel: string;
   intro: string;
   selection: string;
   result: string;
   id: string;
   lang: "nb" | "en" | "nn";
-  xlabel: string;
-  ylabel: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -32,8 +29,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
-  xlabel,
-  ylabel,
   lang,
   carousel,
 }) => {
@@ -43,13 +38,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     React.useState<boolean>(false);
 
   const atlasData = React.useContext(DataContext);
-  const carouselData = carousel.data
-    .replace(/data\//, "")
-    .replace(/.csv$/, ".json");
 
   const boxData: any =
-    atlasData[carouselData] !== undefined
-      ? Object.values(JSON.parse(atlasData[carouselData]))[0]
+    atlasData[carousel] !== undefined
+      ? Object.values(JSON.parse(atlasData[carousel]))[0]
       : undefined;
 
   const dataCarousel =
@@ -133,7 +125,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 colorBy="bohf"
                 width={800}
                 height={80}
-                label={xlabel}
+                label={boxData[0].xLabel}
                 backgroundColor="inherit"
               />
             )}

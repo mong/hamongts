@@ -110,50 +110,14 @@ collections:
                       widget: datetime,
                     }
                   - label: Karusell
-                    name: karusell
-                    widget: object
-                    fields:
-                      - label: "Presentasjonsform"
-                        name: "presentasjonstype"
-                        widget: "select"
-                        multiple: true
-                        options:
-                          - { label: "Stolpediagram", value: "barchart" }
-                          - { label: "Tabell", value: "table" }
-                          - { label: "Kart", value: "map" }
-                      - label: "Datagrunnlag"
-                        name: "data"
-                        widget: "file"
-                        media_library:
-                          multiple: false
-                        media_folder: "/public/data"
-                        public_folder: "data"
-                        choose_url: false
-                      - label: "x-akse-tekst"
-                        hint: "Tekst på x-aksen i stolpediagram/under abacus-plott"
-                        name: "xlabel"
-                        widget: string
-                        default: "Antall per 1 000 innbyggere"
-                      - label: "y-akse-tekst"
-                        hint: "Tekst over y-aksen i stolpediagram/under abacus-plott"
-                        name: "ylabel"
-                        widget: string
-                        default: "Opptaksområder"
-                      - label: "Navn for rate 1"
-                        hint: "Navn som beskriver første rate i to-delt/tre-delt figur"
-                        name: "rate1"
-                        widget: string
-                        required: false
-                      - label: "Navn for rate 2"
-                        hint: "Navn som beskriver andre rate i to-delt/tre-delt figur"
-                        name: "rate2"
-                        widget: string
-                        required: false
-                      - label: "Navn for rate 3"
-                        hint: "Navn som beskriver tredje rate i tre-delt figur"
-                        name: "rate3"
-                        widget: string
-                        required: false
+                    name: data
+                    widget: file
+                    media_library:
+                      multiple: false
+                    media_folder: "/public/data"
+                    public_folder: ""
+                    choose_url: false
+                    hint: "Datafil, i json-format, som inneholder definisjon av karusell"
                   - {
                       label: Utvalgsbeskrivelse,
                       name: utvalg,
