@@ -4,11 +4,25 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "kont_pr_pas",
-        "VAR7"
+        "primkont_pr_pas",
+        "polikont_pr_pas"
+      ],
+      "xLegend": [
+        "Primærhelsetj.",
+        "Poliklinikk"
       ],
       "y": "bohf",
       "xLabel": "Antall konsultasjoner pr. pasient",
+      "yLabel": "Opptaksområder"
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "andel_poli_kont"
+      ],
+      "y": "bohf",
+      "xLabel": "Andel konsultasjoner i spesialisthelsetj.",
       "yLabel": "Opptaksområder"
     },
     {
@@ -22,7 +36,7 @@
           "format": ""
         },
         {
-          "id": "legekons_pr_pas",
+          "id": "rateSnitt",
           "label": "Konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
@@ -44,7 +58,7 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "legekons_pr_pas",
+      "x": "rateSnitt",
       "jenks": [
         {
           "CLUSTER": 1,
@@ -76,9 +90,9 @@
           "rate2018": 7.62416552891,
           "rate2019": 6.89864600443,
           "rate2020": 5.87261500451,
-          "rateSnitt": 6.78236876609,
+          "rateSnitt_old": 6.78236876609,
           "ant_legekons": 425.666666667,
-          "legekons_pr_pas": 3.33420365535,
+          "rateSnitt": 3.33420365535,
           "andel_prim_kont": 0.66581842665,
           "andel_poli_kont": 0.33418157335
         },
@@ -93,9 +107,9 @@
           "rate2018": 10.2706942655,
           "rate2019": 10.3105784862,
           "rate2020": 10.509254002,
-          "rateSnitt": 10.365468419,
+          "rateSnitt_old": 10.365468419,
           "ant_legekons": 1720,
-          "legekons_pr_pas": 4.00932400932,
+          "rateSnitt": 4.00932400932,
           "andel_prim_kont": 0.603261581047,
           "andel_poli_kont": 0.396738418953
         },
@@ -110,9 +124,9 @@
           "rate2018": 8.2457127907,
           "rate2019": 8.63592052228,
           "rate2020": 8.57793041506,
-          "rateSnitt": 8.48920071383,
+          "rateSnitt_old": 8.48920071383,
           "ant_legekons": 1042.66666667,
-          "legekons_pr_pas": 3.37796976242,
+          "rateSnitt": 3.37796976242,
           "andel_prim_kont": 0.559253412793,
           "andel_poli_kont": 0.440746587207
         },
@@ -127,9 +141,9 @@
           "rate2018": 10.6178662328,
           "rate2019": 11.0307449908,
           "rate2020": 10.5904486495,
-          "rateSnitt": 10.7280168704,
+          "rateSnitt_old": 10.7280168704,
           "ant_legekons": 799,
-          "legekons_pr_pas": 3.39518413598,
+          "rateSnitt": 3.39518413598,
           "andel_prim_kont": 0.579797645045,
           "andel_poli_kont": 0.420202354955
         },
@@ -144,9 +158,9 @@
           "rate2018": 12.2046857345,
           "rate2019": 11.6014044862,
           "rate2020": 12.1124036307,
-          "rateSnitt": 11.9671880361,
+          "rateSnitt_old": 11.9671880361,
           "ant_legekons": 1469,
-          "legekons_pr_pas": 3.87940140845,
+          "rateSnitt": 3.87940140845,
           "andel_prim_kont": 0.513077887898,
           "andel_poli_kont": 0.486922112102
         },
@@ -161,9 +175,9 @@
           "rate2018": 8.86904114736,
           "rate2019": 8.42386926927,
           "rate2020": 9.54403390225,
-          "rateSnitt": 8.94964516861,
+          "rateSnitt_old": 8.94964516861,
           "ant_legekons": 2242.33333333,
-          "legekons_pr_pas": 3.30890309887,
+          "rateSnitt": 3.30890309887,
           "andel_prim_kont": 0.578721321126,
           "andel_poli_kont": 0.421278678874
         },
@@ -178,9 +192,9 @@
           "rate2018": 11.3579223904,
           "rate2019": 10.5857061378,
           "rate2020": 10.0654804823,
-          "rateSnitt": 10.6541056995,
+          "rateSnitt_old": 10.6541056995,
           "ant_legekons": 2462,
-          "legekons_pr_pas": 3.53059273423,
+          "rateSnitt": 3.53059273423,
           "andel_prim_kont": 0.576260039146,
           "andel_poli_kont": 0.423739960854
         },
@@ -195,9 +209,9 @@
           "rate2018": 10.4155077754,
           "rate2019": 10.2189984546,
           "rate2020": 9.57123186154,
-          "rateSnitt": 10.0469178545,
+          "rateSnitt_old": 10.0469178545,
           "ant_legekons": 986.666666667,
-          "legekons_pr_pas": 3.52800953516,
+          "rateSnitt": 3.52800953516,
           "andel_prim_kont": 0.646201582984,
           "andel_poli_kont": 0.353798417016
         },
@@ -212,9 +226,9 @@
           "rate2018": 9.26230997212,
           "rate2019": 9.1051459273,
           "rate2020": 10.3414351814,
-          "rateSnitt": 9.5753620033,
+          "rateSnitt_old": 9.5753620033,
           "ant_legekons": 3192.33333333,
-          "legekons_pr_pas": 3.3276580959,
+          "rateSnitt": 3.3276580959,
           "andel_prim_kont": 0.567027149149,
           "andel_poli_kont": 0.432972850851
         },
@@ -229,9 +243,9 @@
           "rate2018": 10.9981810613,
           "rate2019": 10.4826586423,
           "rate2020": 10.3540919758,
-          "rateSnitt": 10.6034639741,
+          "rateSnitt_old": 10.6034639741,
           "ant_legekons": 1574.66666667,
-          "legekons_pr_pas": 3.41576283442,
+          "rateSnitt": 3.41576283442,
           "andel_prim_kont": 0.674546163491,
           "andel_poli_kont": 0.325453836509
         },
@@ -246,9 +260,9 @@
           "rate2018": 11.436161322,
           "rate2019": 11.7319535834,
           "rate2020": 10.522665656,
-          "rateSnitt": 11.214196911,
+          "rateSnitt_old": 11.214196911,
           "ant_legekons": 2691.66666667,
-          "legekons_pr_pas": 4.19916796672,
+          "rateSnitt": 4.19916796672,
           "andel_prim_kont": 0.560701215455,
           "andel_poli_kont": 0.439298784545
         },
@@ -263,9 +277,9 @@
           "rate2018": 11.2692466568,
           "rate2019": 10.6991478775,
           "rate2020": 10.1864940057,
-          "rateSnitt": 10.7151009967,
+          "rateSnitt_old": 10.7151009967,
           "ant_legekons": 2925.66666667,
-          "legekons_pr_pas": 3.74925245622,
+          "rateSnitt": 3.74925245622,
           "andel_prim_kont": 0.553558295606,
           "andel_poli_kont": 0.446441704394
         },
@@ -280,9 +294,9 @@
           "rate2018": 8.63001628845,
           "rate2019": 8.17834750069,
           "rate2020": 8.89934408749,
-          "rateSnitt": 8.57429583876,
+          "rateSnitt_old": 8.57429583876,
           "ant_legekons": 3636,
-          "legekons_pr_pas": 3.66778749159,
+          "rateSnitt": 3.66778749159,
           "andel_prim_kont": 0.648933271667,
           "andel_poli_kont": 0.351066728333
         },
@@ -297,9 +311,9 @@
           "rate2018": 10.3812670958,
           "rate2019": 10.9891370745,
           "rate2020": 11.1686775115,
-          "rateSnitt": 10.8611399818,
+          "rateSnitt_old": 10.8611399818,
           "ant_legekons": 1774,
-          "legekons_pr_pas": 3.98353293413,
+          "rateSnitt": 3.98353293413,
           "andel_prim_kont": 0.587238982651,
           "andel_poli_kont": 0.412761017349
         },
@@ -314,9 +328,9 @@
           "rate2018": 8.70267530001,
           "rate2019": 8.93056681467,
           "rate2020": 10.5119067556,
-          "rateSnitt": 9.40758326086,
+          "rateSnitt_old": 9.40758326086,
           "ant_legekons": 438.666666667,
-          "legekons_pr_pas": 3.43603133159,
+          "rateSnitt": 3.43603133159,
           "andel_prim_kont": 0.586976558731,
           "andel_poli_kont": 0.413023441269
         },
@@ -331,9 +345,9 @@
           "rate2018": 11.923951482,
           "rate2019": 11.7141990607,
           "rate2020": 12.6823055665,
-          "rateSnitt": 12.0990121894,
+          "rateSnitt_old": 12.0990121894,
           "ant_legekons": 1288.66666667,
-          "legekons_pr_pas": 3.90899898888,
+          "rateSnitt": 3.90899898888,
           "andel_prim_kont": 0.548910787806,
           "andel_poli_kont": 0.451089212194
         },
@@ -348,9 +362,9 @@
           "rate2018": 9.92933239465,
           "rate2019": 9.65686053091,
           "rate2020": 10.252825835,
-          "rateSnitt": 9.95359432711,
+          "rateSnitt_old": 9.95359432711,
           "ant_legekons": 3269.66666667,
-          "legekons_pr_pas": 4.0102207686,
+          "rateSnitt": 4.0102207686,
           "andel_prim_kont": 0.532893810123,
           "andel_poli_kont": 0.467106189877
         },
@@ -365,9 +379,9 @@
           "rate2018": 11.0240530755,
           "rate2019": 10.3342536398,
           "rate2020": 11.3310366493,
-          "rateSnitt": 10.9008784389,
+          "rateSnitt_old": 10.9008784389,
           "ant_legekons": 4285.33333333,
-          "legekons_pr_pas": 3.94355828221,
+          "rateSnitt": 3.94355828221,
           "andel_prim_kont": 0.626849958118,
           "andel_poli_kont": 0.373150041882
         },
@@ -382,9 +396,9 @@
           "rate2018": 10.9098581585,
           "rate2019": 9.45900354679,
           "rate2020": 9.55658934533,
-          "rateSnitt": 9.96856419907,
+          "rateSnitt_old": 9.96856419907,
           "ant_legekons": 2137,
-          "legekons_pr_pas": 3.89253187614,
+          "rateSnitt": 3.89253187614,
           "andel_prim_kont": 0.546846925171,
           "andel_poli_kont": 0.453153074829
         },
@@ -399,9 +413,9 @@
           "rate2018": 8.93486095464,
           "rate2019": 9.63718016826,
           "rate2020": 8.73912611251,
-          "rateSnitt": 9.11263843076,
+          "rateSnitt_old": 9.11263843076,
           "ant_legekons": 1463.33333333,
-          "legekons_pr_pas": 3.80086580087,
+          "rateSnitt": 3.80086580087,
           "andel_prim_kont": 0.456442660194,
           "andel_poli_kont": 0.543557339806
         },
@@ -416,9 +430,9 @@
           "rate2018": 11.8277450732,
           "rate2019": 11.5316124409,
           "rate2020": 11.5617278235,
-          "rateSnitt": 11.6270979217,
+          "rateSnitt_old": 11.6270979217,
           "ant_legekons": 2811.33333333,
-          "legekons_pr_pas": 4.21489255372,
+          "rateSnitt": 4.21489255372,
           "andel_prim_kont": 0.551973136845,
           "andel_poli_kont": 0.448026863155
         },
@@ -433,9 +447,9 @@
           "rate2018": 10.2534379865,
           "rate2019": 9.94554062768,
           "rate2020": 10.1907736616,
-          "rateSnitt": 10.1289297246,
+          "rateSnitt_old": 10.1289297246,
           "ant_legekons": 42635.6666667,
-          "legekons_pr_pas": 3.74895949352,
+          "rateSnitt": 3.74895949352,
           "andel_prim_kont": 0.578299326818,
           "andel_poli_kont": 0.421700673182
         }
