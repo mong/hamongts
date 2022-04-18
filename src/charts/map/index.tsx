@@ -87,8 +87,8 @@ export const Map: React.FC<MapProps> = ({
   ];
 
   const colorScale = scaleThreshold<number, string>()
-    .domain(classes)
-    .range(color);
+    .domain(classes?classes:[])
+    .range(color?color:[]);
 
   const colors = [
     "rgba(135, 24, 157, 0.2)",
