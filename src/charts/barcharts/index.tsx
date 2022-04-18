@@ -119,8 +119,16 @@ export const Barchart = <
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
 
-  const colors = ["#003087", "#6CACE4", "#95bde6"];
-  const nationColors = ["#4c4c4c", "#969696", "#c3c3c3"];
+  const colors = [
+    "rgba(135, 24, 157, 1)",
+    "rgba(135, 24, 157, 0.8)",
+    "rgba(135, 24, 157, 0.6)",
+  ];
+  const nationColors = [
+    "rgba(0, 193, 159, 1)",
+    "rgba(0, 193, 159, 0.8)",
+    "rgba(0, 193, 159, 0.6)",
+  ];
 
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -218,12 +226,6 @@ export const Barchart = <
                           ? colors[2]
                           : colorScale(d["key"])
                       }
-                      stroke={
-                        barData.data["bohf"].toString() === "Norge"
-                          ? nationColors[0]
-                          : colors[0]
-                      }
-                      strokeWidth={1}
                     />
                   );
                 })}

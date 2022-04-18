@@ -15,21 +15,13 @@ type Faktaboks = {
   tekst: string;
 };
 
-export type karusell = {
-  presentasjonstype: string[];
-  data: string;
-  xlabel: string;
-  ylabel: string;
-};
-
 type Resultatboks = {
   type: "resultatboks";
   overskrift: string;
+  data: string;
   ingress: string;
-  karusell: karusell;
   utvalg: string;
   resultat: string;
-  data: AtlasData[];
   lang: "nb" | "en" | "nn";
 };
 
@@ -87,10 +79,8 @@ const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
                     mainID +
                     "_" +
                     box.overskrift.toLowerCase().replace(/\s/g, "-"),
-                  carousel: box.karusell,
-                  xlabel: box.karusell.xlabel,
-                  ylabel: box.karusell.ylabel,
                   lang: lang,
+                  carousel: box.data,
                 }
               : { children: box.tekst };
 
