@@ -18,7 +18,7 @@ type FeatureShape = {
   };
 };
 
-type MapData = {
+export type MapData = {
   type: "FeatureCollection";
   features: FeatureShape[];
 };
@@ -28,6 +28,7 @@ type MapProps = {
   mapAttr?: any[];
   dataToMap?: any[];
   connection?: any;
+  attrName?: string;
   classes?: number[];
   color?: string[];
 };
@@ -42,7 +43,7 @@ const ObjectIDToBoHF = [
   { BoHF_num: 8, bohf: "Møre og Romsdal" },
   { BoHF_num: 10, bohf: "Førde" },
   { BoHF_num: 11, bohf: "Bergen" },
-  { BoHF_num: 12, bohf: "Fønna" },
+  { BoHF_num: 12, bohf: "Fonna" },
   { BoHF_num: 13, bohf: "Stavanger" },
   { BoHF_num: 14, bohf: "Østfold" },
   { BoHF_num: 15, bohf: "Akershus" },
@@ -59,8 +60,9 @@ const ObjectIDToBoHF = [
 export const Map: React.FC<MapProps> = ({
   mapData,
   mapAttr,
-  dataToMap,
-  connection,
+  dataToMap = ObjectIDToBoHF,
+  connection = { mapData: "BoHF_num", mapAttr: "bohf" },
+  attrName,
   classes,
   color,
 }) => {
@@ -77,7 +79,6 @@ export const Map: React.FC<MapProps> = ({
   const initPath = geoPath().projection(initialProjection);
 
   const bounds = initPath.bounds(mapData);
-  console.log(bounds);
   const hscale = (initScale * width) / (bounds[1][0] - bounds[0][0]);
   const vscale = (initScale * height) / (bounds[1][1] - bounds[0][1]);
   const scale = hscale < vscale ? 0.98 * hscale : 0.98 * vscale;
@@ -87,35 +88,8 @@ export const Map: React.FC<MapProps> = ({
   ];
 
   const colorScale = scaleThreshold<number, string>()
-    .domain(classes?classes:[])
-    .range(color?color:[]);
-
-  const colors = [
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-    "rgba(135, 24, 157, 0.2)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
-    "rgba(135, 24, 157, 0.4)",
-  ];
+    .domain(classes ? classes : [])
+    .range(color ? color : []);
 
   const projection = geoMercator()
     .scale(scale)
@@ -124,20 +98,29 @@ export const Map: React.FC<MapProps> = ({
   const pathGenerator = geoPath().projection(projection);
 
   return (
-    <div style={{ width: "90%", height: "100%", margin: "auto" }}>
+    <div style={{ width: "100%", height: "100%", margin: "auto" }}>
       <svg
         width={"100%"}
         height={"100%"}
         viewBox={`0 0 ${width} ${height}`}
         style={{ backgroundColor: "none" }}
       >
-        <rect width={width} height={height} stroke={"black"} fill={"none"} />
         {mapData.features.map((d, i) => {
+          const mapId = connection.mapData;
+          const attrID = connection.mapAttr;
+          const hf = dataToMap.filter(
+            (dtm) => dtm[mapId] === d.properties[mapId]
+          )[0][attrID];
+
+          const attr = mapAttr.filter((attribute) => {
+            return attribute[attrID] === hf;
+          })[0];
+          const val = attr ? attr[attrName] : undefined;
           return (
             <path
               key={`map-feature-${i}`}
               d={pathGenerator(d.geometry)}
-              fill={d.properties.BoHF_num === 23 ? colors[i] : "none"}
+              fill={val ? colorScale(val) : "none"}
               stroke={"black"}
               strokeWidth={0.4}
               className={i + ""}
