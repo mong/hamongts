@@ -8,8 +8,8 @@ import Layout from "../src/components/Layout";
 const Maps = ({ mapData }) => {
   return (
     <Layout lang="no">
-      <div style={{width:"95%", maxWidth: "1000px", margin: "auto"}}>
-      <Map mapAttr={[""]} mapData={mapData} />
+      <div style={{ width: "95%", maxWidth: "1000px", margin: "auto" }}>
+        <Map mapAttr={[""]} mapData={mapData} />
       </div>
     </Layout>
   );
