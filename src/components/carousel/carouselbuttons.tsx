@@ -2,12 +2,18 @@ import React from "react";
 import styles from "./carouselbuttons.module.css";
 
 type CarouselButtonsProps = {
+  options: {
+    value: number;
+    label: string;
+    icon: JSX.Element;
+  }[];
   nrOfButtons: number;
   activeCarousel: number;
   onClick?: (nr: number) => any;
 };
 
 export const CarouselButtons: React.FC<CarouselButtonsProps> = ({
+  options,
   nrOfButtons,
   onClick,
   activeCarousel,
@@ -18,22 +24,22 @@ export const CarouselButtons: React.FC<CarouselButtonsProps> = ({
     }
   };
   return (
-    <ul className={styles.bulletscontainer}>
-      {Array(nrOfButtons)
-        .fill(0)
-        .map((a, i) => {
-          return (
-            <li className={styles.bulletcontainer} key={i}>
-              <button
-                aria-label={"show item " + i}
-                className={`${styles.bullet} ${
-                  i === activeCarousel ? styles.active : ""
-                }`}
-                onClick={() => clickHandler(i)}
-              ></button>
-            </li>
-          );
-        })}
+    <ul className={styles.buttonscontainer}>
+      {options.map((optn, i) => {
+        return (
+          <li className={styles.bulletcontainer} key={i}>
+            <button
+              aria-label={"show item " + i}
+              className={`${styles.bullet} ${
+                i === activeCarousel ? styles.active : ""
+              }`}
+              onClick={() => clickHandler(i)}
+            >
+              {optn.icon}
+            </button>
+          </li>
+        );
+      })}
     </ul>
   );
 };

@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { useTransition, animated } from "react-spring";
-import { GrNext, GrPrevious } from "react-icons/gr";
-import { SelectChangeEvent } from "@mui/material";
-
-import { useResizeObserver, usePrevious } from "../../helpers/hooks";
 import { CarouselItemProps } from "./carouelitem";
 import { CarouselButtons } from "./carouselbuttons";
+import { BiBarChart, BiMapPin } from "react-icons/bi";
+import { VscTable } from "react-icons/vsc";
 
 import styles from "./carousel.module.css";
+
+const chartIcons = {
+  barchart: <BiBarChart color="white" size="28px" />,
+  table: <VscTable color="white" size="28px" />,
+  map: <BiMapPin color="white" size="28px" />,
+};
 
 type CarouselProps = {
   active?: number;
@@ -18,12 +21,6 @@ type CarouselProps = {
 
 export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
   const [activeComp, setActiveComp] = useState<number>(active ?? 0);
-  const prevComp = usePrevious(activeComp);
-  const wrapperRef = React.useRef<HTMLDivElement>();
-  const wrapperWidth = useResizeObserver(wrapperRef)?.contentRect.width ?? 0;
-  const height = 550;
-  const width =
-    wrapperWidth < 350 ? 350 : wrapperWidth > 700 ? 700 : wrapperWidth * 0.95;
 
   const numberOfChildren: number = React.Children.count(children);
 
@@ -32,15 +29,11 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
     (child: React.ReactElement<CarouselItemProps>, i: number) => ({
       value: i,
       label: child ? child.props.label : `figur ${i + 1}`,
+      icon: chartIcons[child.props.label],
     })
   );
 
-  const transition = useTransition(activeComp, {
-    from: { opacity: 0, x: prevComp < activeComp ? width : -width },
-    enter: { opacity: 1, x: 0 },
-    leave: { opacity: 0, x: prevComp < activeComp ? -width : width },
-    keys: `${activeComp}`,
-  });
+  console.log(options);
 
   if (numberOfChildren === 0) {
     return;
@@ -48,42 +41,24 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
 
   return (
     <div
-      className="dataPresentation"
+      className={styles.carouselWrapper}
       style={{
         display: "flex",
         flexDirection: "column",
-        width: "100%",
         justifyContent: "space-around",
         alignItems: "center",
         overflow: "hidden",
       }}
-      ref={wrapperRef}
     >
       {numberOfChildren > 1 && (
         <CarouselButtons
+          options={options}
           activeCarousel={activeComp}
           nrOfButtons={numberOfChildren}
           onClick={(i) => setActiveComp(i)}
         />
       )}
-      <div className={styles.carouselWrapper}>
-        <div
-          className={styles.carousel}
-          style={{
-            overflowX: wrapperWidth < 350 ? "scroll" : "hidden",
-            width: width + "px",
-            height: height + "px",
-          }}
-        >
-          {transition((styles, item) => {
-            return (
-              <animated.div style={{ position: "absolute", ...styles }}>
-                {children[item]}
-              </animated.div>
-            );
-          })}
-        </div>
-      </div>
+      <div className={styles.carousel}>{children[activeComp]}</div>
     </div>
   );
 };

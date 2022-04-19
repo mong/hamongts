@@ -55,10 +55,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem
-                  key={bd.type + i + id}
-                  label={i + 1 + ". Stolpediagram "}
-                >
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <Barchart
                     margin={{
                       top: 30,
@@ -75,7 +72,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
@@ -86,7 +83,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 : undefined;
 
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   {jenks ? (
                     <div style={{ width: "500px" }}>
                       <Map
