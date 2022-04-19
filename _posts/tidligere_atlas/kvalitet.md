@@ -3,7 +3,7 @@ date: "2021-01-18T12:00:00.000Z"
 num: 11
 mainTitle: Helseatlas for kvalitet
 shortTitle: Kvalitet
-image: /helseatlas/img/kvalitet.png
+image: /helseatlas/img/kvalitet.jpg
 frontpagetext: Helseatlas for kvalitet i nødvendige helsetjenester er basert på informasjon om i underkant av 100 000 pasienter og behandlinger årlig, hvorav noen kan ha fått samme behandling flere ganger eller ha flere sykdommer.
 pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
