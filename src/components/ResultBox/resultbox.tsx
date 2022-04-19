@@ -12,6 +12,7 @@ import styles from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
+import { Map, MapData } from "../../charts/map";
 
 type ResultBoxProps = {
   title: string;
@@ -37,11 +38,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const [expandedSelection, setExpandedSelection] =
     React.useState<boolean>(false);
 
-  const atlasData = React.useContext(DataContext);
+  const atlasData: { atlasData: any; mapData: MapData } =
+    React.useContext(DataContext);
 
+  const mapData = atlasData.mapData;
   const boxData: any =
-    atlasData[carousel] !== undefined
-      ? Object.values(JSON.parse(atlasData[carousel]))[0]
+    atlasData.atlasData[carousel] !== undefined
+      ? Object.values(JSON.parse(atlasData.atlasData[carousel]))[0]
       : undefined;
 
   const dataCarousel =
@@ -78,9 +81,30 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
               );
             }
             if (bd.type === "map") {
+              const jenks = bd.jenks
+                ? bd.jenks.map((j) => parseFloat(j.max))
+                : undefined;
+
               return (
                 <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
-                  <img src="/helseatlas/img/map.png" />
+                  {jenks ? (
+                    <div style={{ width: "500px" }}>
+                      <Map
+                        mapData={mapData}
+                        color={[
+                          "rgba(135, 24, 157, 0.8)",
+                          "rgba(135, 24, 157, 0.6)",
+                          "rgba(135, 24, 157, 0.4)",
+                          "rgba(135, 24, 157, 0.2)",
+                        ]}
+                        classes={jenks}
+                        attrName={bd.x}
+                        mapAttr={figData}
+                      />
+                    </div>
+                  ) : (
+                    <img src="/helseatlas/img/map.png" />
+                  )}
                 </CarouselItem>
               );
             }
