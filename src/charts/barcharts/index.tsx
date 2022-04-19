@@ -120,14 +120,14 @@ export const Barchart = <
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
 
   const colors = [
-    "rgba(135, 24, 157, 1)",
-    "rgba(135, 24, 157, 0.8)",
-    "rgba(135, 24, 157, 0.6)",
+    "rgba(171, 108, 166, 1)",
+    "rgba(171, 108, 166, 0.7)",
+    "rgba(171, 108, 166, 0.4)",
   ];
   const nationColors = [
-    "rgba(0, 193, 159, 1)",
-    "rgba(0, 193, 159, 0.8)",
-    "rgba(0, 193, 159, 0.6)",
+    "rgba(104, 179, 156, 1)",
+    "rgba(104, 179, 156, 0.7)",
+    "rgba(104, 179, 156, 0.4)",
   ];
 
   const colorScale = scaleOrdinal({
@@ -220,10 +220,10 @@ export const Barchart = <
                       fill={
                         barData.data["bohf"].toString() === "Norge"
                           ? x.length === 1
-                            ? nationColors[2]
+                            ? nationColors[0]
                             : nationColorScale(d["key"])
                           : x.length === 1
-                          ? colors[2]
+                          ? colors[0]
                           : colorScale(d["key"])
                       }
                     />
