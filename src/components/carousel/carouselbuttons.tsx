@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "./carouselbullets.module.css";
+import styles from "./carouselbuttons.module.css";
 
-type CarouselBulletsProps = {
-  nrOfBullets: number;
+type CarouselButtonsProps = {
+  nrOfButtons: number;
   activeCarousel: number;
   onClick?: (nr: number) => any;
 };
 
-export const CarouselBullets: React.FC<CarouselBulletsProps> = ({
-  nrOfBullets,
+export const CarouselButtons: React.FC<CarouselButtonsProps> = ({
+  nrOfButtons,
   onClick,
   activeCarousel,
 }) => {
@@ -19,7 +19,7 @@ export const CarouselBullets: React.FC<CarouselBulletsProps> = ({
   };
   return (
     <ul className={styles.bulletscontainer}>
-      {Array(nrOfBullets)
+      {Array(nrOfButtons)
         .fill(0)
         .map((a, i) => {
           return (
