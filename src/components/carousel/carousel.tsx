@@ -5,8 +5,7 @@ import { SelectChangeEvent } from "@mui/material";
 
 import { useResizeObserver, usePrevious } from "../../helpers/hooks";
 import { CarouselItemProps } from "./carouelitem";
-import { CarouselSelect } from "./carouselselect";
-import { CarouselBullets } from "./carouselbullets";
+import { CarouselButtons } from "./carouselbuttons";
 
 import styles from "./carousel.module.css";
 
@@ -49,7 +48,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
 
   return (
     <div
-      className="WWW"
+      className="dataPresentation"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -61,29 +60,13 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
       ref={wrapperRef}
     >
       {numberOfChildren > 1 && (
-        <CarouselSelect
-          value={activeComp}
-          id={"id"}
-          label="Velg figur"
-          options={options}
-          onChange={(e: SelectChangeEvent<number>) =>
-            setActiveComp(
-              typeof e.target.value === "number" ? e.target.value : 0
-            )
-          }
+        <CarouselButtons
+          activeCarousel={activeComp}
+          nrOfButtons={numberOfChildren}
+          onClick={(i) => setActiveComp(i)}
         />
       )}
       <div className={styles.carouselWrapper}>
-        <div className={styles.prev}>
-          <button
-            aria-label="show previous item"
-            onClick={() => setActiveComp((comp) => (comp < 1 ? comp : --comp))}
-          >
-            <span>
-              <GrPrevious size="28" />
-            </span>
-          </button>
-        </div>
         <div
           className={styles.carousel}
           style={{
@@ -100,28 +83,7 @@ export const Carousel: React.FC<CarouselProps> = ({ active, children }) => {
             );
           })}
         </div>
-        <div className={styles.next}>
-          <button
-            aria-label="show next item"
-            onClick={() =>
-              setActiveComp((comp) =>
-                comp < numberOfChildren - 1 ? ++comp : comp
-              )
-            }
-          >
-            <span>
-              <GrNext size="28" />
-            </span>
-          </button>
-        </div>
       </div>
-      {numberOfChildren > 1 && (
-        <CarouselBullets
-          activeCarousel={activeComp}
-          nrOfBullets={numberOfChildren}
-          onClick={(i) => setActiveComp(i)}
-        />
-      )}
     </div>
   );
 };
