@@ -3,7 +3,7 @@ date: "2022-03-01T12:00:00.000Z"
 num: 5
 mainTitle: COPD Healthcare Atlas
 shortTitle: COPD healthcare atlas
-image: /helseatlas/img/kols.png
+image: /helseatlas/img/kols.jpg
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/copd-healthcare-atlas.pdf
 ia: true

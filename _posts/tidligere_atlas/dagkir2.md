@@ -3,7 +3,7 @@ date: "2018-11-01T12:00:00.000Z"
 num: 6
 mainTitle: Dagkirurgi i Norge 2013–2017
 shortTitle: Dagkirurgi
-image: /helseatlas/img/dagkir2.png
+image: /helseatlas/img/dagkir2.jpg
 frontpagetext: I det andre helseatlaset på dagkirurgi beskrives utviklingen i omfang og variasjon mellom helseforetakenes opptaksområder for de samme tolv inngrepene som i det første dagkirurgiatlaset, denne gang for perioden 2013–2017.
 pdfUrl: /helseatlas/files/dagkirurgi_2013-2017.pdf
 ia: true

@@ -3,7 +3,7 @@ date: "2016-12-13T12:00:00.000Z"
 num: 3
 mainTitle: Norsk nyfødtmedisinsk helseatlas
 shortTitle: Nyfødtmedisin
-image: /helseatlas/img/nyfodt.png
+image: /helseatlas/img/nyfodt.jpg
 frontpagetext: Norsk nyfødtmedisinsk helseatlas omhandler alle nyfødte barn som har vært innlagt i avdelinger for syke nyfødte i Norge i perioden 2009 til 2014.
 pdfUrl: /helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf
 ia: true
