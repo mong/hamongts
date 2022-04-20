@@ -1,68 +1,36 @@
 import React from "react";
-import { AiOutlineClose } from "react-icons/ai";
-import { useTransition, animated, easings } from "react-spring";
 
-import classNames from "./popup.module.css";
-import { useKeys, useOnClickOutside } from "../../helpers/hooks";
+import { PopUpButton } from "./popupbtn";
+import { PopUpContent } from "./popupcontent";
 
 type PopUpProps = {
   btnComponent: () => React.ReactNode;
   children: React.ReactNode;
+  innerContentStyle?: React.CSSProperties;
 };
 
-export const PopUp = ({ children, btnComponent }: PopUpProps) => {
+export const PopUp = ({
+  children,
+  btnComponent,
+  innerContentStyle,
+}: PopUpProps) => {
   const [active, setActive] = React.useState<boolean>(false);
-  const ref = useOnClickOutside<HTMLDivElement>(() => setActive(false), active);
-
-  const transitions = useTransition(active, {
-    from: { opacity: 0, transform: "scale(0.95)" },
-    enter: { opacity: 1, transform: "scale(1)" },
-    leave: { opacity: 0, transform: "scale(0.95)" },
-    config: (it, ind, state) => ({
-      easing: state === "leave" ? easings.easeInQuad : easings.easeOutQuad,
-      duration: state === "leave" ? 75 : 100,
-    }),
-  });
-  const handleKeyDown = (event: KeyboardEvent) => {
-    if (event.defaultPrevented) return;
-    setActive(false);
-    event.preventDefault();
-  };
-  useKeys(["Escape", "Esc"], "keydown", handleKeyDown);
 
   return (
-    <div ref={ref}>
-      <div
-        className={classNames.popUpBtn}
-        onClick={() => {
-          setActive(!active);
-        }}
-      >
-        {btnComponent()}
-      </div>
-      {transitions(
-        (styles, item) =>
-          item && (
-            <animated.div
-              className={classNames.popUpContent}
-              style={{
-                ...styles,
-              }}
-            >
-              <button
-                className={classNames.closeBtn}
-                onClick={() => setActive(false)}
-              >
-                <AiOutlineClose
-                  strokeWidth={"1px"}
-                  color="#034584"
-                  style={{ alignSelf: "end" }}
-                  size={30}
-                />
-              </button>
-              {children}
-            </animated.div>
-          )
+    <div>
+      <PopUpButton
+        btnComponent={btnComponent}
+        active={active}
+        setActive={setActive}
+      />
+      {active && (
+        <PopUpContent
+          active={active}
+          setActive={setActive}
+          innerContentStyle={innerContentStyle}
+        >
+          {children}
+        </PopUpContent>
       )}
     </div>
   );
