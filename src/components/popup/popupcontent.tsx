@@ -26,7 +26,7 @@ export const PopUpContent: React.FC<PopUpContentProps> = ({
 
   const transitions = useTransition(active, {
     from: { background: "rgba(172, 181, 189, 0)", transform: "scale(0.95)" },
-    enter: { background: "rgba(172, 181, 189, 0.4)", transform: "scale(1)" },
+    enter: { background: "rgba(172, 181, 189, 0.5)", transform: "scale(1)" },
     leave: { background: "rgba(172, 181, 189, 0)", transform: "scale(0.95)" },
     config: (it, ind, state) => ({
       easing: state === "leave" ? easings.easeInQuad : easings.easeOutQuad,
