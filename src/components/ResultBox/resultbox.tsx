@@ -35,8 +35,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
-  const [expandedSelection, setExpandedSelection] =
-    React.useState<boolean>(false);
 
   const atlasData: { atlasData: any; mapData: MapData } =
     React.useContext(DataContext);
@@ -49,7 +47,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 
   const dataCarousel =
     boxData !== undefined ? (
-      <Carousel active={0}>
+      <Carousel active={0} selection={selection} lang={lang}>
         {boxData
           .map((bd, i, obj) => {
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
@@ -154,23 +152,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         </AccordionSummary>
         <AccordionDetails>
           {dataCarousel}
-
-          <Accordion
-            sx={{ boxShadow: 0 }}
-            expanded={expandedSelection}
-            onChange={() => handleChange(setExpandedSelection)}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls={`${id}-content-selection`}
-              id={`${id}-content-selection`}
-            >
-              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
-            </AccordionSummary>
-            <AccordionDetails>
-              <Markdown lang={lang}>{selection}</Markdown>
-            </AccordionDetails>
-          </Accordion>
           <div className={styles.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
