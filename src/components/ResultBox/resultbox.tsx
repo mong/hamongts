@@ -121,10 +121,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
       <Accordion
         sx={{
           boxShadow: 6,
-          ":hover": {
-            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
-            transition: "200ms ease-in",
-          },
         }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
@@ -133,6 +129,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
+          sx={{
+            backgroundColor: "#FAFAFA",
+            ":hover": {
+              backgroundColor: expandedResultBox ? "" : "rgb(241, 241, 241)",
+              transition: "200ms ease-in",
+            },
+          }}
         >
           <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
@@ -150,7 +153,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             )}
           </div>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails
+          sx={{
+            backgroundColor: "#F2F2F2",
+          }}
+        >
           {dataCarousel}
           <div className={styles.resultBoxSelectionContent}>
             {" "}
