@@ -10,14 +10,14 @@
       "xLabel": "Antall akuttinnleggelser pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
-        "rate2018",
         "rate2019",
-        "rate2020"
+        "rate2020",
+        "rate2021"
       ],
       "annualVarLabels": [
-        "2018",
         "2019",
-        "2020"
+        "2020",
+        "2021"
       ]
     },
     {
