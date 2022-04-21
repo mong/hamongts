@@ -3,7 +3,7 @@ date: "2022-03-01T12:00:00.000Z"
 num: 9
 mainTitle: Obstetrics Healthcare Atlas
 shortTitle: Obstetrics
-image: /helseatlas/img/fodsel.png
+image: /helseatlas/img/fodsel.jpg
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/obstetric_healthcare_atlas.pdf
 ia: true

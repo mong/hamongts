@@ -2,7 +2,6 @@ import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useTransition, animated, easings } from "react-spring";
 
 import { Carousel } from "../carousel";
@@ -37,8 +36,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
-  const [expandedSelection, setExpandedSelection] =
-    React.useState<boolean>(false);
 
   const atlasData: { atlasData: any; mapData: MapData } =
     React.useContext(DataContext);
@@ -62,16 +59,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 
   const dataCarousel =
     boxData !== undefined ? (
-      <Carousel active={0}>
+      <Carousel active={0} selection={selection} lang={lang}>
         {boxData
           .map((bd, i, obj) => {
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem
-                  key={bd.type + i + id}
-                  label={i + 1 + ". Stolpediagram "}
-                >
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <Barchart
                     margin={{
                       top: 30,
@@ -88,7 +82,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
@@ -99,7 +93,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 : undefined;
 
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   {jenks ? (
                     <div style={{ width: "500px" }}>
                       <Map
@@ -141,15 +135,21 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         sx={{
           boxShadow: 6,
           borderBottom: "3px solid #033F85",
-          ":hover": {
-            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
-            transition: "200ms ease-in",
-          },
         }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
       >
-        <AccordionSummary aria-controls={`${id}-content`} id={`${id}-header`}>
+        <AccordionSummary
+          aria-controls={`${id}-content`}
+          id={`${id}-header`}
+          sx={{
+            backgroundColor: "#FAFAFA",
+            ":hover": {
+              backgroundColor: expandedResultBox ? "" : "rgb(241, 241, 241)",
+              transition: "200ms ease-in",
+            },
+          }}
+        >
           <div className={classNames.resultBoxTitleWrapper}>
             <h3> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
@@ -166,25 +166,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             )}
           </div>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails
+          sx={{
+            backgroundColor: "#F2F2F2",
+          }}
+        >
           {dataCarousel}
-
-          <Accordion
-            sx={{ boxShadow: 0 }}
-            expanded={expandedSelection}
-            onChange={() => handleChange(setExpandedSelection)}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls={`${id}-content-selection`}
-              id={`${id}-content-selection`}
-            >
-              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
-            </AccordionSummary>
-            <AccordionDetails>
-              <Markdown lang={lang}>{selection}</Markdown>
-            </AccordionDetails>
-          </Accordion>
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>

@@ -23,7 +23,6 @@ export const FactBox: React.FC<FactBoxProps> = ({
     <div style={{ marginBottom: "10px" }}>
       <Accordion
         sx={{
-          fontFamily: "Open Sans",
           boxShadow: 1,
           borderBottom: "2px solid #033F85",
         }}

@@ -3,7 +3,7 @@ date: "2015-01-13T12:00:00.000Z"
 num: 1
 mainTitle: Dagkirurgi i Norge 2011–2013
 shortTitle: Dagkirurgi
-image: /helseatlas/img/dagkir.png
+image: /helseatlas/img/dagkir.jpg
 frontpagetext: Atlaset som omhander dagkirurgi var piloten fra Helseatlas. Atlaset ble lansert i januar 2015 og har fått mye oppmerksomhet, både nasjonalt og internasjonalt.
 pdfUrl: /helseatlas/files/Rapporthelseatlas1_15.pdf
 ia: true
