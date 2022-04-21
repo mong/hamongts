@@ -1,5 +1,5 @@
 ---
-date: 2018-12-10T12:00:00.000Z
+date: "2018-12-10T12:00:00.000Z"
 num: 7
 mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi

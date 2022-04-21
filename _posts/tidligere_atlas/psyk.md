@@ -1,5 +1,5 @@
 ---
-date: 2020-06-09T12:00:00.000Z
+date: "2020-06-09T12:00:00.000Z"
 num: 10
 mainTitle: Helseatlas for psykisk helsevern og rusbehandling
 shortTitle: Psykisk helsevern og TSB
