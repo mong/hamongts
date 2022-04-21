@@ -22,7 +22,6 @@ export const FactBox: React.FC<FactBoxProps> = ({
     <div>
       <Accordion
         sx={{
-          fontFamily: "Open Sans",
           boxShadow: 1,
           ":hover": {
             border: "2px solid #6CACE4",

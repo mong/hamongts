@@ -1,44 +1,37 @@
 .carouselWrapper {
   display: flex;
-  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  padding: 10px;
 }
 
 .carousel {
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px 20px 10px;
+  overflow-x: auto;
 }
 
-.prev {
-  position: absolute;
-  background-color: none;
-  height: 100%;
-  width: 15%;
-  left: -10%;
-  z-index: 30;
-}
-
-.next {
-  position: absolute;
-  background-color: none;
-  height: 100%;
-  width: 15%;
-  left: 95%;
-  z-index: 30;
-}
-
-.prev button,
-.next button {
+.selectionBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #033f85;
+  border: none;
+  background: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration-line: underline;
   cursor: pointer;
-  height: 100%;
-  width: 100%;
-  background: inherit;
-  border: inherit;
-  transition: ease-out 200ms;
 }
 
-.prev button:hover,
-.next button:hover,
-.prev button:active,
-.next button:active {
-  background-color: rgba(108, 172, 228, 0.1);
+.selectionBtn span {
+  margin-left: 5px;
 }

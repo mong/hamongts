@@ -35,8 +35,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
-  const [expandedSelection, setExpandedSelection] =
-    React.useState<boolean>(false);
 
   const atlasData: { atlasData: any; mapData: MapData } =
     React.useContext(DataContext);
@@ -49,16 +47,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 
   const dataCarousel =
     boxData !== undefined ? (
-      <Carousel active={0}>
+      <Carousel active={0} selection={selection} lang={lang}>
         {boxData
           .map((bd, i, obj) => {
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem
-                  key={bd.type + i + id}
-                  label={i + 1 + ". Stolpediagram "}
-                >
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <Barchart
                     margin={{
                       top: 30,
@@ -75,7 +70,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
@@ -86,7 +81,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 : undefined;
 
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   {jenks ? (
                     <div style={{ width: "500px" }}>
                       <Map
@@ -126,10 +121,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
       <Accordion
         sx={{
           boxShadow: 6,
-          ":hover": {
-            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
-            transition: "200ms ease-in",
-          },
         }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
@@ -138,6 +129,13 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
+          sx={{
+            backgroundColor: "#FAFAFA",
+            ":hover": {
+              backgroundColor: expandedResultBox ? "" : "rgb(241, 241, 241)",
+              transition: "200ms ease-in",
+            },
+          }}
         >
           <div className={styles.resultBoxTitleWrapper}>
             <h3> {title} </h3>
@@ -155,25 +153,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             )}
           </div>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails
+          sx={{
+            backgroundColor: "#F2F2F2",
+          }}
+        >
           {dataCarousel}
-
-          <Accordion
-            sx={{ boxShadow: 0 }}
-            expanded={expandedSelection}
-            onChange={() => handleChange(setExpandedSelection)}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls={`${id}-content-selection`}
-              id={`${id}-content-selection`}
-            >
-              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
-            </AccordionSummary>
-            <AccordionDetails>
-              <Markdown lang={lang}>{selection}</Markdown>
-            </AccordionDetails>
-          </Accordion>
           <div className={styles.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>

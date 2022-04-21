@@ -4,11 +4,13 @@ num: 10
 mainTitle: Helseatlas for psykisk helsevern og rusbehandling
 shortTitle: Psykisk helsevern og TSB
 image: /helseatlas/img/psyk.jpg
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Helseatlas for psykisk helsevern og rusbehandling gir oversikt
+  over bruk av psykisk helsevern og tverrfagleg spesialisert rusbehandling, og
+  analyserer geografisk variasjon i bruk av tenestene i Noreg i 2014–2018.
 pdfUrl: /helseatlas/files/psykiskhelsevernogrus.pdf
 ia: true
-lang: nn
 toc: false
+lang: nn
 ---
 
 Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
