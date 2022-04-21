@@ -8,7 +8,17 @@
       ],
       "y": "bohf",
       "xLabel": "Andel MS-pasienter med høyaktive legemidler",
-      "yLabel": "Opptaksområder"
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "lmrate2019",
+        "lmrate2020",
+        "lmrate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
     },
     {
       "type": "table",
