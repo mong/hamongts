@@ -143,7 +143,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             {figdata && (
               <Abacus
                 data={figdata}
-                x="rateSnitt"
+                x={
+                  boxData
+                    .filter((boxd) => boxd.type === "map")
+                    .map((boxd) => boxd.x)[0]
+                }
                 colorBy="bohf"
                 width={800}
                 height={80}
