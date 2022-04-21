@@ -31,18 +31,20 @@
 }
 
 .horizontal {
-  top: 16px;
-  left: 13px;
   min-width: 16px;
   max-width: 16px;
-  border: 1px solid #fff;
+  min-height: 2px;
+  max-height: 2px;
+  background-color: #fff;
 }
 
 .vertical {
   position: relative;
   left: -9px;
-  top: 1px;
-  min-height: 20px;
-  max-height: 20px;
-  border: 1px solid #fff;
+  top: 0px;
+  min-width: 2px;
+  max-width: 2px;
+  min-height: 16px;
+  max-height: 16px;
+  background-color: #fff;
 }
