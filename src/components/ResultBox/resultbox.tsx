@@ -113,6 +113,9 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const figdata: AtlasData[] = boxData
     ? boxData.filter((d) => d.type === "data")[0]["data"]
     : null;
+  const abacusX: Exclude<keyof AtlasData, "year" | "bohf"> = boxData
+    .filter((boxd) => boxd.type === "map")
+    .map((boxd) => boxd.x)[0];
 
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
@@ -143,11 +146,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             {figdata && (
               <Abacus
                 data={figdata}
-                x={
-                  boxData
-                    .filter((boxd) => boxd.type === "map")
-                    .map((boxd) => boxd.x)[0]
-                }
+                x={abacusX}
                 colorBy="bohf"
                 width={800}
                 height={80}
