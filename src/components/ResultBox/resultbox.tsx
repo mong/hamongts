@@ -2,13 +2,14 @@ import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useTransition, animated, easings } from "react-spring";
+
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
 import { Barchart } from "../../charts/barcharts";
 import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
-import styles from "./resultbox.module.css";
+import classNames from "./resultbox.module.css";
 import { DataContext } from "../Context";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
@@ -44,6 +45,17 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
     atlasData.atlasData[carousel] !== undefined
       ? Object.values(JSON.parse(atlasData.atlasData[carousel]))[0]
       : undefined;
+
+  const transitions = useTransition(expandedResultBox, {
+    from: { transform: "translate(0,-40px)" },
+    enter: { transform: "translate(0,0)" },
+    leave: { transform: "translate(0,-40px)" },
+
+    config: (it, ind, state) => ({
+      easing: easings.easeInQuad, // : easings.easeOutQuad,
+      duration: 200,
+    }),
+  });
 
   const dataCarousel =
     boxData !== undefined ? (
@@ -117,16 +129,17 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div id={id} className={styles.resultBoxWrapper}>
+    <div id={id} className={classNames.resultBoxWrapper}>
       <Accordion
+        disableGutters
         sx={{
           boxShadow: 6,
+          borderBottom: "3px solid #033F85",
         }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
           sx={{
@@ -137,7 +150,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             },
           }}
         >
-          <div className={styles.resultBoxTitleWrapper}>
+          <div className={classNames.resultBoxTitleWrapper}>
             <h3> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
@@ -159,12 +172,31 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           }}
         >
           {dataCarousel}
-          <div className={styles.resultBoxSelectionContent}>
+          <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
           </div>
         </AccordionDetails>
       </Accordion>
+      <div
+        className={classNames.crossWrapper}
+        role="button"
+        aria-controls={`${id}-content-selection`}
+        onClick={() => setExpandedResultBox(!expandedResultBox)}
+      >
+        <span className={classNames.horizontal}></span>
+        {transitions(
+          (styles, items) =>
+            !items && (
+              <animated.span
+                className={classNames.vertical}
+                style={{
+                  ...styles,
+                }}
+              />
+            )
+        )}
+      </div>
     </div>
   );
 };
