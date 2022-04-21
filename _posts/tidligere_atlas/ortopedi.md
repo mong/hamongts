@@ -3,7 +3,7 @@ date: "2018-12-10T12:00:00.000Z"
 num: 7
 mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi
-image: /helseatlas/img/ortopedi.png
+image: /helseatlas/img/ortopedi.jpg
 frontpagetext: I helseatlas i ortopedi for Noreg har vi kartlagt geografisk
   variasjon i bruk av spesialisthelsetenester innan ortopedi i 2012–2016.
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
