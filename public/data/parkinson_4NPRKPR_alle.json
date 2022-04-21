@@ -4,25 +4,11 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "primkont_pr_pas",
-        "polikont_pr_pas"
-      ],
-      "xLegend": [
-        "Primærhelsetj.",
-        "Poliklinikk"
+        "kont_pr_pas",
+        "VAR7"
       ],
       "y": "bohf",
       "xLabel": "Antall konsultasjoner pr. pasient",
-      "yLabel": "Opptaksområder"
-    },
-    {
-      "type": "barchart",
-      "data": "qwerty",
-      "x": [
-        "andel_poli_kont"
-      ],
-      "y": "bohf",
-      "xLabel": "Andel konsultasjoner i spesialisthelsetj.",
       "yLabel": "Opptaksområder"
     },
     {
@@ -36,7 +22,7 @@
           "format": ""
         },
         {
-          "id": "rateSnitt",
+          "id": "legekons_pr_pas",
           "label": "Konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
@@ -58,7 +44,7 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt",
+      "x": "legekons_pr_pas",
       "jenks": [
         {
           "CLUSTER": 1,
