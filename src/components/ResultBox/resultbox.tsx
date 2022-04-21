@@ -47,6 +47,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
       : undefined;
 
   const transitions = useTransition(expandedResultBox, {
+    initial: { transform: "translate(0,0)" },
     from: { transform: "translate(0,-40px)" },
     enter: { transform: "translate(0,0)" },
     leave: { transform: "translate(0,-40px)" },
