@@ -1,9 +1,10 @@
 ---
+filename: "barn"
+image: /helseatlas/img/no/barn/frontpage.jpg
 date: "2022-03-01T12:00:00.000Z"
 num: 2
 mainTitle: Child healthcare atlas for Norway
 shortTitle: Child Healthcare Atlas
-image: /helseatlas/img/barn.jpg
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/child-healthcare-atlas.pdf
 ia: true
