@@ -4,11 +4,35 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "kont_pr_pas",
-        "VAR7"
+        "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner pr. pasient",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2019",
+        "rate2020",
+        "rate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
+    },
+    {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "polikont_rate",
+        "primkont_rate"
+      ],
+      "xLegend": [
+        "Spesialist",
+        "Fastlege/legevakt"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
@@ -22,8 +46,8 @@
           "format": ""
         },
         {
-          "id": "legekons_pr_pas",
-          "label": "Konsult. pr. pas.",
+          "id": "ratesnitt",
+          "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -34,10 +58,10 @@
           "format": ",.1%"
         },
         {
-          "id": "andel_prim_kont",
-          "label": "Andel kommunehelsetj.",
+          "id": "ant_legekons",
+          "label": "Ant. kons.",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.1f"
         }
       ]
     },
@@ -69,6 +93,7 @@
           "bohf": "Finnmark",
           "innbyggere": 60664,
           "pasienter": 128,
+          "kontakter": 475,
           "primkont_rate": 4.72952422021,
           "primkont_pr_pas": 2.328125,
           "polikont_rate": 2.06714201948,
@@ -86,6 +111,7 @@
           "bohf": "UNN",
           "innbyggere": 155748.333333,
           "pasienter": 443,
+          "kontakter": 2018.66666667,
           "primkont_rate": 6.60682785578,
           "primkont_pr_pas": 2.48156508653,
           "polikont_rate": 4.22049910774,
@@ -103,6 +129,7 @@
           "bohf": "Nordland",
           "innbyggere": 110493.333333,
           "pasienter": 323.333333333,
+          "kontakter": 1277.33333333,
           "primkont_rate": 5.19943175921,
           "primkont_pr_pas": 1.99587628866,
           "polikont_rate": 4.0032407228,
@@ -120,6 +147,7 @@
           "bohf": "Helgeland",
           "innbyggere": 62532.3333333,
           "pasienter": 243,
+          "kontakter": 958.333333333,
           "primkont_rate": 6.34135932358,
           "primkont_pr_pas": 1.95747599451,
           "polikont_rate": 5.0591111504,
@@ -137,6 +165,7 @@
           "bohf": "Nord-Trøndelag",
           "innbyggere": 106589,
           "pasienter": 377,
+          "kontakter": 1690,
           "primkont_rate": 6.19591355825,
           "primkont_pr_pas": 2.01414677277,
           "polikont_rate": 5.81812729113,
@@ -154,6 +183,7 @@
           "bohf": "St. Olav",
           "innbyggere": 265559.333333,
           "pasienter": 690.333333333,
+          "kontakter": 2766,
           "primkont_rate": 5.75973939717,
           "primkont_pr_pas": 2.11685176243,
           "polikont_rate": 4.00678889234,
@@ -171,6 +201,7 @@
           "bohf": "Møre og Romsdal",
           "innbyggere": 209615.666667,
           "pasienter": 707.333333333,
+          "kontakter": 3005.66666667,
           "primkont_rate": 6.27569958477,
           "primkont_pr_pas": 2.06550424128,
           "polikont_rate": 4.95966747862,
@@ -188,6 +219,7 @@
           "bohf": "Førde",
           "innbyggere": 85207.3333333,
           "pasienter": 289.666666667,
+          "kontakter": 1150.66666667,
           "primkont_rate": 6.70398500269,
           "primkont_pr_pas": 2.29113924051,
           "polikont_rate": 3.54072021847,
@@ -205,6 +237,7 @@
           "bohf": "Bergen",
           "innbyggere": 358888,
           "pasienter": 961,
+          "kontakter": 4097.33333333,
           "primkont_rate": 5.7122241843,
           "primkont_pr_pas": 2.00624349636,
           "polikont_rate": 4.77693721203,
@@ -222,6 +255,7 @@
           "bohf": "Fonna",
           "innbyggere": 140218,
           "pasienter": 464,
+          "kontakter": 1829.33333333,
           "primkont_rate": 7.38885905017,
           "primkont_pr_pas": 2.39152298851,
           "polikont_rate": 3.51529575295,
@@ -239,6 +273,7 @@
           "bohf": "Stavanger",
           "innbyggere": 282988.666667,
           "pasienter": 663.333333333,
+          "kontakter": 3011.33333333,
           "primkont_rate": 6.69225984838,
           "primkont_pr_pas": 2.45075376884,
           "polikont_rate": 4.9030701594,
@@ -256,6 +291,7 @@
           "bohf": "Østfold",
           "innbyggere": 252406.333333,
           "pasienter": 766.333333333,
+          "kontakter": 3190,
           "primkont_rate": 6.0332382463,
           "primkont_pr_pas": 2.17050891692,
           "polikont_rate": 4.54747776428,
@@ -273,6 +309,7 @@
           "bohf": "Akershus",
           "innbyggere": 449568.666667,
           "pasienter": 1021.66666667,
+          "kontakter": 4359.33333333,
           "primkont_rate": 6.18027248628,
           "primkont_pr_pas": 2.5898858075,
           "polikont_rate": 3.0814575615,
@@ -290,6 +327,7 @@
           "bohf": "OUS",
           "innbyggere": 218202,
           "pasienter": 466.333333333,
+          "kontakter": 2153.66666667,
           "primkont_rate": 7.06984495981,
           "primkont_pr_pas": 2.48320228735,
           "polikont_rate": 4.66932547168,
@@ -307,6 +345,7 @@
           "bohf": "Lovisenberg",
           "innbyggere": 136184.333333,
           "pasienter": 136.333333333,
+          "kontakter": 551,
           "primkont_rate": 6.30442185569,
           "primkont_pr_pas": 2.15892420538,
           "polikont_rate": 4.18324270257,
@@ -324,6 +363,7 @@
           "bohf": "Diakonhjemmet",
           "innbyggere": 117501.666667,
           "pasienter": 333.333333333,
+          "kontakter": 1564.66666667,
           "primkont_rate": 7.56305345207,
           "primkont_pr_pas": 2.445,
           "polikont_rate": 5.56736849578,
@@ -341,6 +381,7 @@
           "bohf": "Innlandet",
           "innbyggere": 274507.666667,
           "pasienter": 846.333333333,
+          "kontakter": 3863,
           "primkont_rate": 5.83885247315,
           "primkont_pr_pas": 2.27530523828,
           "polikont_rate": 4.8320765729,
@@ -358,6 +399,7 @@
           "bohf": "Vestre Viken",
           "innbyggere": 382236.333333,
           "pasienter": 1128.66666667,
+          "kontakter": 5024.66666667,
           "primkont_rate": 7.20297718602,
           "primkont_pr_pas": 2.5413467218,
           "polikont_rate": 4.10232850975,
@@ -375,6 +417,7 @@
           "bohf": "Vestfold",
           "innbyggere": 196326.333333,
           "pasienter": 550.666666667,
+          "kontakter": 2349.33333333,
           "primkont_rate": 5.5708585936,
           "primkont_pr_pas": 2.19552058111,
           "polikont_rate": 4.16417776362,
@@ -392,6 +435,7 @@
           "bohf": "Telemark",
           "innbyggere": 139439.333333,
           "pasienter": 400,
+          "kontakter": 1691.66666667,
           "primkont_rate": 4.35504653353,
           "primkont_pr_pas": 1.75916666667,
           "polikont_rate": 5.25625244746,
@@ -409,6 +453,7 @@
           "bohf": "Sørlandet",
           "innbyggere": 239908.333333,
           "pasienter": 674.666666667,
+          "kontakter": 3096,
           "primkont_rate": 6.60958812654,
           "primkont_pr_pas": 2.39179841897,
           "polikont_rate": 5.14535300829,
@@ -426,6 +471,7 @@
           "bohf": "Norge",
           "innbyggere": 4244785,
           "pasienter": 11614.3333333,
+          "kontakter": 50123,
           "primkont_rate": 6.21807556376,
           "primkont_pr_pas": 2.27511982321,
           "polikont_rate": 4.3906703791,
