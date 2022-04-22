@@ -11,7 +11,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "De ti utvalgte tilstandene i atlaset er delt opp i tre deler som vil publiseres hver for seg med noen måneders mellomrom. Første del av atlaset ble publisert 29 april 2022 og omhandler fire nevrologiske tilstander:\n\n* Multippel sklerose\n* Epilepsi\n* Parkinsons sykdom\n* Migrene\n\nDe to andre delene omhandler hhv. tre autoimmune sykdommer (psoriasis, innflammatorisk tarmsykdom og artritt) og tre sykdommer som har vært behandlet i tidligere helseatlas fra SKDE hvor vi nå gjør oppdaterte analyser (kols, endometriose og hjertesvikt)."
+          "tekst": "De ti utvalgte tilstandene i atlaset er delt opp i tre deler som vil publiseres hver for seg med noen måneders mellomrom. Første del av atlaset ble publisert 29 april 2022 og omhandler fire nevrologiske tilstander: multippel sklerose, epilepsi, parkinsons sykdom og migrene.\n\nDe to andre delene omhandler hhv. tre autoimmune sykdommer (psoriasis, innflammatorisk tarmsykdom og artritt) og tre sykdommer som har vært behandlet i tidligere helseatlas fra SKDE hvor vi nå gjør oppdaterte analyser (kols, endometriose og hjertesvikt)."
         },
         {
           "type": "faktaboks",
@@ -21,7 +21,7 @@
         {
           "type": "faktaboks",
           "overskrift": "Datagrunnlag",
-          "tekst": "Datagrunnlaget for atlaset er aktivitetsdata fra spesialisthelsetjenesten fra Norsk pasientregister (NPR) og aktivitetsdata fra kommunehelsetjenesten fra Kommunalt pasient- og brukerregister (KPR) for perioden 2018-2021. Fra KPR er det hovedsakelig data om bruk av fastlege og legevakttjenester som er benyttet. Analysene i atlaset viser data for perioden 2019-2021. \n\nData for innbyggertall er hentet fra SSB. \n\nSKDE er eneansvarlig for tolkning og presentasjon av de utleverte data. NPR/KPR har ikke ansvar for analyser eller tolkninger basert på dataene.\n\n**NB! Migrene- reseptregisteret.**"
+          "tekst": "Datagrunnlaget for atlaset er aktivitetsdata fra spesialisthelsetjenesten fra Norsk pasientregister (NPR) og aktivitetsdata fra kommunehelsetjenesten fra Kommunalt pasient- og brukerregister (KPR) for perioden 2018-2021. Fra KPR er det hovedsakelig data om bruk av fastlege og legevakttjenester som er benyttet. Det betyr at konsultasjoner med allmennleger ansatt ved institusjoner i kommunene som f.eks. på sykehjem, ikke er inkludert i analysene.\n\nAnalysene i atlaset viser data for perioden 2019-2021. \n\nData for innbyggertall er hentet fra SSB. \n\nSKDE er eneansvarlig for tolkning og presentasjon av de utleverte data. NPR/KPR har ikke ansvar for analyser eller tolkninger basert på dataene.\n\n**NB! Migrene- reseptregisteret.**"
         },
         {
           "type": "faktaboks",
