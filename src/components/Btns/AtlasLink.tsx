@@ -33,8 +33,6 @@ export const AtlasLink: React.FC<Props> = ({
   newlyUpdated,
   lang,
 }) => {
-  console.log(imageSource);
-
   return (
     <div
       className={`${classNames.linkOuterWrapper} ${
