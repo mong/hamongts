@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -32,7 +32,7 @@
         "Legevakt"
       ],
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {

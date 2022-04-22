@@ -46,7 +46,7 @@
           "format": ""
         },
         {
-          "id": "ratesnitt",
+          "id": "rateSnitt",
           "label": "Rate",
           "typeVar": "number",
           "format": ",.1f"
@@ -61,7 +61,7 @@
           "id": "ant_legekons",
           "label": "Ant. kons.",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.0f"
         }
       ]
     },

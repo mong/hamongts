@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
+      "xLabel": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -31,10 +31,10 @@
       "xLegend": [
         "Kun spes.helsetj.",
         "Spes. og kommunehelsetj.",
-        "Kun kommunehelsetj."
+        "Kun allmennlegetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall med Parkinsons sykdom pr. 1 000 innbyggere",
+      "xLabel": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
