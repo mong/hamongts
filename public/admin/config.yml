@@ -138,6 +138,7 @@ collections:
     media_folder: "/public/img/no/{{filename}}"
     public_folder: "/helseatlas/img/no/{{filename}}"
     choose_url: false
+    identifier_field: mainTitle
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
@@ -182,6 +183,7 @@ collections:
     media_folder: "/public/img/en/{{filename}}"
     public_folder: "/helseatlas/img/en/{{filename}}"
     choose_url: false
+    identifier_field: mainTitle
     fields:
       - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
