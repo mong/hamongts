@@ -46,7 +46,7 @@
           "id": "akutt_pr_pas",
           "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
-          "format": ",.2f"
+          "format": ",.1f"
         }
       ]
     },

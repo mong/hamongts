@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter med minst en sykemelding per 1 000 innbygger",
+      "xLabel": "Andel pasienter med minst en sykemelding",
       "yLabel": "Opptaksområder"
     },
     {
@@ -21,28 +21,22 @@
           "format": ""
         },
         {
-          "id": "rateSnitt",
-          "label": "Rate",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "ant_sykempas",
-          "label": "Antall med minst en sykemelding",
-          "typeVar": "number",
-          "format": ",.0f"
-        },
-        {
-          "id": "innbyggere",
-          "label": "Antall innbyggere",
-          "typeVar": "number",
-          "format": ",.0f"
-        },
-        {
-          "id": "andel_sykem",
+          "id": "andel_pct_sm",
           "label": "Andel med sykemelding",
           "typeVar": "number",
           "format": ",.1%"
+        },
+        {
+          "id": "ant_sykempas",
+          "label": "Antall sykemeldt minst en gang",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "pasienter",
+          "label": "Antall pasienter med migrene",
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },
@@ -53,15 +47,15 @@
       "jenks": [
         {
           "CLUSTER": 1,
-          "max": "  1.9965"
+          "max": " 17.9408"
         },
         {
           "CLUSTER": 2,
-          "max": "  2.3262"
+          "max": " 20.4686"
         },
         {
           "CLUSTER": 3,
-          "max": "  2.7513"
+          "max": " 21.7723"
         }
       ]
     },
@@ -74,243 +68,243 @@
           "bohf": "Finnmark",
           "innbyggere": 60664,
           "pasienter": 743.333333333,
-          "rateSnitt": 2.81242620005,
-          "rate2019": 2.45661596869,
+          "rateSnitt": 21.6162374068,
+          "rate2019": 20.6154013021,
           "rate2020": 6.05333586112,
           "rate2021": 4.30787335651,
           "ant_sykempas": 161.333333333,
-          "andel_sykem": 0.217040358744
+          "andel_pct_sm": 0.216162374068
         },
         {
           "bohf": "UNN",
           "innbyggere": 155748.333333,
           "pasienter": 2082,
-          "rateSnitt": 3.01458519052,
-          "rate2019": 2.75381468756,
+          "rateSnitt": 21.772315407,
+          "rate2019": 21.0656333584,
           "rate2020": 5.25100395078,
           "rate2021": 5.3762213603,
           "ant_sykempas": 453.333333333,
-          "andel_sykem": 0.217739353186
+          "andel_pct_sm": 0.21772315407
         },
         {
           "bohf": "Nordland",
           "innbyggere": 110493.333333,
           "pasienter": 1520.33333333,
-          "rateSnitt": 2.6086736106,
-          "rate2019": 2.28631270132,
+          "rateSnitt": 17.9407779765,
+          "rate2019": 17.4838911362,
           "rate2020": 6.62151371243,
           "rate2021": 8.39903358233,
           "ant_sykempas": 271.666666667,
-          "andel_sykem": 0.178688884017
+          "andel_pct_sm": 0.179407779765
         },
         {
           "bohf": "Helgeland",
           "innbyggere": 62532.3333333,
           "pasienter": 791.333333333,
-          "rateSnitt": 2.6592533208,
-          "rate2019": 2.21544733753,
+          "rateSnitt": 19.0703941542,
+          "rate2019": 17.3205180458,
           "rate2020": 8.50397198312,
           "rate2021": 11.7033582981,
           "ant_sykempas": 151,
-          "andel_sykem": 0.190817186184
+          "andel_pct_sm": 0.190703941542
         },
         {
           "bohf": "Nord-Trøndelag",
           "innbyggere": 106589,
           "pasienter": 1502,
-          "rateSnitt": 2.91298976845,
-          "rate2019": 2.69592264782,
+          "rateSnitt": 19.2116307076,
+          "rate2019": 19.4984121314,
           "rate2020": 7.64316779131,
           "rate2021": 7.45091971029,
           "ant_sykempas": 284.666666667,
-          "andel_sykem": 0.189525077674
+          "andel_pct_sm": 0.192116307076
         },
         {
           "bohf": "St. Olav",
           "innbyggere": 265559.333333,
           "pasienter": 3900.33333333,
-          "rateSnitt": 3.01809092071,
-          "rate2019": 2.73872427433,
+          "rateSnitt": 20.4685989329,
+          "rate2019": 20.5479637651,
           "rate2020": 11.3471334076,
           "rate2021": 12.5773907231,
           "ant_sykempas": 804,
-          "andel_sykem": 0.206136227673
+          "andel_pct_sm": 0.204685989329
         },
         {
           "bohf": "Møre og Romsdal",
           "innbyggere": 209615.666667,
           "pasienter": 2990.33333333,
-          "rateSnitt": 2.99604855484,
-          "rate2019": 2.8441899284,
+          "rateSnitt": 20.1887251323,
+          "rate2019": 20.0785983797,
           "rate2020": 8.93427703088,
           "rate2021": 9.96462218529,
           "ant_sykempas": 587,
-          "andel_sykem": 0.196299186267
+          "andel_pct_sm": 0.201887251323
         },
         {
           "bohf": "Førde",
           "innbyggere": 85207.3333333,
           "pasienter": 1020,
-          "rateSnitt": 2.60017923938,
-          "rate2019": 2.43417802183,
+          "rateSnitt": 20.359150708,
+          "rate2019": 19.9936951465,
           "rate2020": 17.4093862701,
           "rate2021": 15.7464796805,
           "ant_sykempas": 201.666666667,
-          "andel_sykem": 0.197712418301
+          "andel_pct_sm": 0.20359150708
         },
         {
           "bohf": "Bergen",
           "innbyggere": 358888,
           "pasienter": 3893.66666667,
-          "rateSnitt": 2.65276057497,
-          "rate2019": 2.6382695332,
+          "rateSnitt": 24.7774749481,
+          "rate2019": 26.1716574878,
           "rate2020": 7.25965990799,
           "rate2021": 7.69105014311,
           "ant_sykempas": 972,
-          "andel_sykem": 0.249636161288
+          "andel_pct_sm": 0.247774749481
         },
         {
           "bohf": "Fonna",
           "innbyggere": 140218,
           "pasienter": 1658,
-          "rateSnitt": 2.30229081978,
-          "rate2019": 2.04450661809,
+          "rateSnitt": 19.0556111682,
+          "rate2019": 17.59894005,
           "rate2020": 3.87545279747,
           "rate2021": 4.32017556046,
           "ant_sykempas": 308.333333333,
-          "andel_sykem": 0.185967028548
+          "andel_pct_sm": 0.190556111682
         },
         {
           "bohf": "Stavanger",
           "innbyggere": 282988.666667,
           "pasienter": 3419,
-          "rateSnitt": 2.32618154557,
-          "rate2019": 2.25607831156,
+          "rateSnitt": 20.0329390302,
+          "rate2019": 20.8755945373,
           "rate2020": 1.9618124039,
           "rate2021": 2.70207836723,
           "ant_sykempas": 694.666666667,
-          "andel_sykem": 0.203178317247
+          "andel_pct_sm": 0.200329390302
         },
         {
           "bohf": "Østfold",
           "innbyggere": 252406.333333,
           "pasienter": 3912,
-          "rateSnitt": 3.02415811238,
-          "rate2019": 2.98392219808,
+          "rateSnitt": 18.7426303797,
+          "rate2019": 19.4583728676,
           "rate2020": 5.62494296358,
           "rate2021": 5.85990001968,
           "ant_sykempas": 728.333333333,
-          "andel_sykem": 0.186179277437
+          "andel_pct_sm": 0.187426303797
         },
         {
           "bohf": "Akershus",
           "innbyggere": 449568.666667,
           "pasienter": 6661.33333333,
-          "rateSnitt": 3.06680163478,
-          "rate2019": 3.04387147308,
+          "rateSnitt": 21.1985621248,
+          "rate2019": 22.3162504179,
           "rate2020": 12.7374351172,
           "rate2021": 13.426402153,
           "ant_sykempas": 1409.66666667,
-          "andel_sykem": 0.211619295436
+          "andel_pct_sm": 0.211985621248
         },
         {
           "bohf": "OUS",
           "innbyggere": 218202,
           "pasienter": 3038.66666667,
-          "rateSnitt": 2.75126664204,
-          "rate2019": 2.71950473531,
+          "rateSnitt": 21.5733696412,
+          "rate2019": 22.7284239558,
           "rate2020": 12.4910126017,
           "rate2021": 13.6416520413,
           "ant_sykempas": 675.333333333,
-          "andel_sykem": 0.222246599386
+          "andel_pct_sm": 0.215733696412
         },
         {
           "bohf": "Lovisenberg",
           "innbyggere": 136184.333333,
           "pasienter": 1802,
-          "rateSnitt": 2.11514982,
-          "rate2019": 2.09378443996,
+          "rateSnitt": 18.6005129394,
+          "rate2019": 19.2768674673,
           "rate2020": 12.2784378827,
           "rate2021": 12.8180932652,
           "ant_sykempas": 372.666666667,
-          "andel_sykem": 0.206807251202
+          "andel_pct_sm": 0.186005129394
         },
         {
           "bohf": "Diakonhjemmet",
           "innbyggere": 117501.666667,
           "pasienter": 1370,
-          "rateSnitt": 1.99654971231,
-          "rate2019": 1.95011406652,
+          "rateSnitt": 18.7583417873,
+          "rate2019": 19.1685245207,
           "rate2020": 15.7556775713,
           "rate2021": 17.3815057894,
           "ant_sykempas": 251.333333333,
-          "andel_sykem": 0.183454987835
+          "andel_pct_sm": 0.187583417873
         },
         {
           "bohf": "Innlandet",
           "innbyggere": 274507.666667,
           "pasienter": 4070.33333333,
-          "rateSnitt": 3.00397576642,
-          "rate2019": 2.79279801361,
+          "rateSnitt": 18.9009766141,
+          "rate2019": 18.6645353934,
           "rate2020": 6.4988759662,
           "rate2021": 7.73290196942,
           "ant_sykempas": 755,
-          "andel_sykem": 0.185488493981
+          "andel_pct_sm": 0.189009766141
         },
         {
           "bohf": "Vestre Viken",
           "innbyggere": 382236.333333,
           "pasienter": 5478.33333333,
-          "rateSnitt": 2.85073476042,
-          "rate2019": 2.7092114879,
+          "rateSnitt": 20.199263718,
+          "rate2019": 20.1328044203,
           "rate2020": 10.0801997806,
           "rate2021": 11.2506971174,
           "ant_sykempas": 1076,
-          "andel_sykem": 0.196410100395
+          "andel_pct_sm": 0.20199263718
         },
         {
           "bohf": "Vestfold",
           "innbyggere": 196326.333333,
           "pasienter": 2750,
-          "rateSnitt": 2.67960471883,
-          "rate2019": 2.52929415483,
+          "rateSnitt": 18.897782913,
+          "rate2019": 18.9447893455,
           "rate2020": 7.57344593426,
           "rate2021": 7.79871727671,
           "ant_sykempas": 506.666666667,
-          "andel_sykem": 0.184242424242
+          "andel_pct_sm": 0.18897782913
         },
         {
           "bohf": "Telemark",
           "innbyggere": 139439.333333,
           "pasienter": 1768.66666667,
-          "rateSnitt": 2.61903087278,
-          "rate2019": 2.42948874078,
+          "rateSnitt": 19.523008664,
+          "rate2019": 18.9092859362,
           "rate2020": 6.85759779497,
           "rate2021": 7.65626665173,
           "ant_sykempas": 336.666666667,
-          "andel_sykem": 0.190350546551
+          "andel_pct_sm": 0.19523008664
         },
         {
           "bohf": "Sørlandet",
           "innbyggere": 239908.333333,
           "pasienter": 4035.33333333,
-          "rateSnitt": 3.01124777967,
-          "rate2019": 2.89562517134,
+          "rateSnitt": 17.5316751708,
+          "rate2019": 17.9087152367,
           "rate2020": 10.7284702826,
           "rate2021": 13.7897802112,
           "ant_sykempas": 710.333333333,
-          "andel_sykem": 0.176028415662
+          "andel_pct_sm": 0.175316751708
         },
         {
           "bohf": "Norge",
           "innbyggere": 4244785,
           "pasienter": 58407,
-          "rateSnitt": 2.75978728308,
-          "rate2019": 2.63305801309,
+          "rateSnitt": 20.0622221429,
+          "rate2019": 20.3438484961,
           "rate2020": 8.93207434252,
           "rate2021": 9.8293088277,
           "ant_sykempas": 11711.6666667,
-          "andel_sykem": 0.200518202727
+          "andel_pct_sm": 0.200622221429
         }
       ]
     }
