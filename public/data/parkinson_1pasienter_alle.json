@@ -56,7 +56,7 @@
         },
         {
           "id": "andel3_prim",
-          "label": "Andel kun i kommunehelsetj.",
+          "label": "Andel kun i allmennlegetj.",
           "typeVar": "number",
           "format": ",.1%"
         },

@@ -33,7 +33,7 @@
         },
         {
           "id": "andel_pct_lm",
-          "label": "Andel som bruker legemiddel",
+          "label": "Andel som bruker høyaktive legemidler",
           "typeVar": "number",
           "format": ",.1%"
         },

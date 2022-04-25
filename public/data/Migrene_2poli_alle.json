@@ -28,8 +28,8 @@
         "priv_rate"
       ],
       "xLegend": [
-        "Offentlig (sykehus)",
-        "Privat (Avtalespesialist)"
+        "Sykehus",
+        "Avtalespesialist"
       ],
       "y": "bohf",
       "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",

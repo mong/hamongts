@@ -59,6 +59,12 @@
           "format": ",.1%"
         },
         {
+          "id": "legekons_pr_pas",
+          "label": "Konsult. pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
           "id": "ant_legekons",
           "label": "Ant. kons.",
           "typeVar": "number",
@@ -69,7 +75,7 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "legekons_pr_pas",
+      "x": "rateSnitt",
       "caption": "Antall konsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
