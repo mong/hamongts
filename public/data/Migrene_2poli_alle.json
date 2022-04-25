@@ -21,8 +21,24 @@
       ]
     },
     {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "off_rate",
+        "priv_rate"
+      ],
+      "xLegend": [
+        "Offentlig (sykehus)",
+        "Privat (Avtalespesialist)"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -37,20 +53,20 @@
           "format": ",.1f"
         },
         {
+          "id": "andel_off_poli",
+          "label": "Andel offentlig",
+          "typeVar": "number",
+          "format": ",.1%"
+        },
+        {
           "id": "polikont_pr_pas",
-          "label": "Spes.konsult. pr. pas.",
+          "label": "Spes.kons. pr. pas",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
-          "id": "pasienter",
-          "label": "Antall pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
-        },
-        {
-          "id": "innbyggere",
-          "label": "Antall innbyggere",
+          "id": "kontakter_poli",
+          "label": "Ant. spes.kons.",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -60,6 +76,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,

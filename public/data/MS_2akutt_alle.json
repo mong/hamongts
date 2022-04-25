@@ -23,6 +23,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -46,7 +47,7 @@
           "id": "akutt_pr_pas",
           "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
-          "format": ",.2f"
+          "format": ",.1f"
         }
       ]
     },
@@ -54,6 +55,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall akuttinnleggelser pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,

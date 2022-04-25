@@ -1,9 +1,10 @@
 ---
+filename: barn
 date: "2015-09-29T12:00:00.000Z"
 num: 2
 mainTitle: Barnehelseatlas for Norge
 shortTitle: Barnehelseatlas
-image: /helseatlas/img/barn.jpg
+image: /helseatlas/img/no/barn/frontpage.jpg
 frontpagetext: Barnehelseatlaset gir et innblikk i fordelingen av helsetjenester til barn i Norge. Tilsammen er 10,6 millioner kontakter mellom barn og helsetjenesten er analysert.
 pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true

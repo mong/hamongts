@@ -133,7 +133,14 @@ collections:
     folder: "_posts/tidligere_atlas"
     create: false
     delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/no/{{filename}}"
+    public_folder: "/helseatlas/img/no/{{filename}}"
+    choose_url: false
+    identifier_field: mainTitle
     fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
@@ -171,7 +178,14 @@ collections:
     folder: "_posts/en/tidligere_atlas"
     create: false
     delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/en/{{filename}}"
+    public_folder: "/helseatlas/img/en/{{filename}}"
+    choose_url: false
+    identifier_field: mainTitle
     fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
       - { label: "Publiseringsdato", name: "date", widget: "datetime" }
       - { label: "Publiseringsnummer", name: "num", widget: "number" }
       - { label: "Tittel", name: "mainTitle", widget: "string" }
