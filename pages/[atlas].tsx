@@ -116,7 +116,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
         return data;
       })
   );
-  const mapDataPath = "public/data/new.geojson";
+  const mapDataPath = "public/data/kronikere.geojson";
   const mapData = JSON.parse(fs.readFileSync(mapDataPath, "utf-8"));
   const atlasData = fileData.reduce((result, data) => {
     const key: string = Object.keys(data)[0];
