@@ -125,9 +125,9 @@ export const Barchart = <
     "rgba(171, 108, 166, 0.4)",
   ];
   const nationColors = [
-    "rgba(104, 179, 156, 1)",
-    "rgba(104, 179, 156, 0.7)",
-    "rgba(104, 179, 156, 0.4)",
+    "rgba(191, 206, 214, 1)",
+    "rgba(191, 206, 214, 0.7)",
+    "rgba(191, 206, 214, 0.4)",
   ];
 
   const colorScale = scaleOrdinal({
