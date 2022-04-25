@@ -34,20 +34,20 @@ context("Classic atlases", () => {
   });
 
   it("should visit an atlas", () => {
-    cy.visit("/utdatert/kvalitet");
+    cy.visit("/v1/kvalitet");
     cy.get("h1").contains("Helseatlas for kvalitet");
     /* Go into the ToC */
     cy.get("nav").get("ol").get("li").get("a").contains("Brystkreft").click();
   });
 
   it("should visit an IA", () => {
-    cy.visit("/utdatert/gyn/ia");
+    cy.visit("/v1/gyn/ia");
     cy.get("iframe");
     cy.visit("/ia/no/gyn/index.html").get("button").contains("Last ned data");
   });
 
   it("should visit an atlas without ToC", () => {
-    cy.visit("/utdatert/psyk");
+    cy.visit("/v1/psyk");
     cy.get("h1").contains("Helseatlas for psykisk helsevern og rusbehandling");
     cy.get("nav").get("ol").get("li");
   });
