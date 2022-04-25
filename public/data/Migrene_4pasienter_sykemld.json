@@ -13,6 +13,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -44,6 +45,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Andel pasienter med minst en sykemelding",
       "jenks": [
         {
           "CLUSTER": 1,

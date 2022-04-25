@@ -40,6 +40,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -64,6 +65,12 @@
           "label": "Antall pasienter",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "innbyggere",
+          "label": "Antall innbyggere",
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },
@@ -71,6 +78,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall med multippel sklerose pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,
