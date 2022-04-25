@@ -38,6 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -62,6 +63,12 @@
           "label": "Konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
+        },
+        {
+          "id": "kontakter_prim",
+          "label": "Ant.kons.",
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },
@@ -69,6 +76,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,
