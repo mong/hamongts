@@ -44,13 +44,46 @@ const NorskMeny = () => {
               </ul>
             </ul>
             <ul>
-              <span className={classNames.title}>Om oss</span>
+              <span className={classNames.title}>Våre helseatlas</span>
               <ul>
                 <li>
-                  <Link href="/statisk/om">Helseatlas</Link>
+                  <Link href="/v1/kvalitet">Helseatlas for kvalitet</Link>
                 </li>
                 <li>
-                  <Link href="/statisk/kontakt">Kontakt</Link>
+                  <Link href="/v1/psyk">
+                    Helseatlas for psykisk helsevern og rusbehandling
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/v1/fodsel">Helseatlas for fødselshjelp</Link>
+                </li>
+                <li>
+                  <Link href="/v1/gyn">Helseatlas for gynekologi</Link>
+                </li>
+                <li>
+                  <Link href="/v1/ortopedi">
+                    Helseatlas i ortopedi for Noreg
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/v1/dagkir2">Dagkirurgi i Norge 2013–2017</Link>
+                </li>
+                <li>
+                  <Link href="/v1/kols">Helseatlas kols</Link>
+                </li>
+                <li>
+                  <Link href="/v1/eldre">Eldrehelseatlas for Norge</Link>
+                </li>
+                <li>
+                  <Link href="/v1/nyfodt">
+                    Norsk nyfødtmedisinsk helseatlas
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/v1/barn">Barnehelseatlas for Norge</Link>
+                </li>
+                <li>
+                  <Link href="/v1/dagkir">Dagkirurgi i Norge 2011–2013</Link>
                 </li>
               </ul>
             </ul>
