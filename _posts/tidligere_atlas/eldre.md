@@ -1,9 +1,10 @@
 ---
+filename: "eldre"
+image: /helseatlas/img/no/eldre/frontpage.jpg
 date: "2017-06-15T12:00:00.000Z"
 num: 4
 mainTitle: Eldrehelseatlas for Norge
 shortTitle: Eldrehelseatlas
-image: /helseatlas/img/eldre.jpg
 frontpagetext: Eldrehelseatlas for Norge beskriver variasjon i eldres bruk av sentrale somatiske spesialisthelsetjenester i forhold til bosted. 
 pdfUrl: /helseatlas/files/eldrehelseatlas_rapport.pdf
 ia: true
