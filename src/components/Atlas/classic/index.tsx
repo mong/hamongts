@@ -1,3 +1,4 @@
+import React from "react";
 import ReactMarkdown, { Components } from "react-markdown";
 import rehypeToc from "rehype-toc";
 import rehypeSlug from "rehype-slug";
@@ -55,15 +56,39 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
     },
     ol({ children, className }) {
       if ((className ?? "").includes("toc")) {
-        return <OrderedList> {children}</OrderedList>;
+        return (
+          <OrderedList>
+            {" "}
+            {React.Children.map(children, (child, i) => {
+              if (React.isValidElement(child)) {
+                return child;
+              }
+            })}
+          </OrderedList>
+        );
       }
       return <ol>{children}</ol>;
     },
-    li({ children, className }) {
-      if ((className ?? "").includes("toc")) {
-        return <ListItem> {children}</ListItem>;
+    li(node) {
+      if ((node.className ?? "").includes("toc")) {
+        return (
+          <ListItem
+            expanded={
+              Object.hasOwn(node, "expanded") ? node["expanded"] : undefined
+            }
+            i={Object.hasOwn(node, "i") ? node["i"] : undefined}
+            setExpanded={
+              Object.hasOwn(node, "setExpanded")
+                ? node["setExpanded"]
+                : undefined
+            }
+          >
+            {" "}
+            {node.children}
+          </ListItem>
+        );
       }
-      return <li>{children}</li>;
+      return <li>{node.children}</li>;
     },
     p({ children, node }) {
       if (
