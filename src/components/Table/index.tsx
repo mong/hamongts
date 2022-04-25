@@ -46,6 +46,7 @@ export const DataTable = <
   return (
     <TableContainer>
       <Table>
+        <caption>Gjennomsnittsverdier for perioden 2019–2021</caption>
         <TableHead>
           <TableRow>
             {headers.map((header, i) => (
