@@ -250,7 +250,7 @@
 	<Property description="Show the legend colour in the table?" id="showLegendColor" name="Show Legend Colour" type="boolean" value="false" />
 	<Column alias="Norge" name="#1" width="0.5" />
 </Table>
-<Image href="/helseatlas/utdatert/eldre" anchor="left" editable="true" height="20" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54.jpg" target="_parent" x="10" y="5" />
+<Image href="/helseatlas/v1/eldre" anchor="left" editable="true" height="20" id="___user_extra_54" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_54.jpg" target="_parent" x="10" y="5" />
 <Button editable="true" height="15" href="/helseatlas/statisk/kart" id="___user_extra_55" moveable="true" removeable="true" resizeable="true" target="_blank" text="Fargegrupper" tooltip="Opptaksområdene er delt inn i grupper (farger) med metoden naturlig brudd (Jenks’ natural breaks), og det er brukt fire grupper (i noen tilfeller færre grupper). Gruppene defineres slik at det er størst mulig forskjeller mellom gruppene og minst mulig forskjeller mellom opptaksområdene innad i hver gruppe. Klikk for å lese mer" width="68" x="339" y="6" />
 <Image anchor="left" editable="true" height="95" href="/helseatlas" id="___user_extra_57" moveable="true" removeable="true" rescale="true" resizeable="true" src="./___user_extra_57.jpg" target="_parent" x="8" y="475" />
 </AtlasInterface>
