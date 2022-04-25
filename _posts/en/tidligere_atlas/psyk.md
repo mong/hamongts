@@ -1,9 +1,10 @@
 ---
+filename: "psyk"
+image: /helseatlas/img/no/psyk/frontpage.jpg
 date: "2022-03-01T12:00:00.000Z"
 num: 10
 mainTitle: Healthcare Atlas for Mental Healthcare and Substance Abuse Treatment
 shortTitle: Mental Healthcare
-image: /helseatlas/img/psyk.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/mhc_report.pdf
 ia: true

@@ -1,9 +1,10 @@
 ---
+filename: "fodsel"
+image: /helseatlas/img/no/fodsel/frontpage.jpg
 date: "2019-04-03T12:00:00.000Z"
 num: 9
 mainTitle: Helseatlas for fødselshjelp
 shortTitle: Fødselshjelp
-image: /helseatlas/img/fodsel.png
 frontpagetext: Helseatlas for fødselshjelp er det andre av to atlas innen gynekologi og fødselshjelp som er laget av SKDE etter initiativ fra Norsk gynekologisk forening.
 pdfUrl: /helseatlas/files/helseatlas-fodselshjelp.pdf
 ia: true

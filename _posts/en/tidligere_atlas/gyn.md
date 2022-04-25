@@ -1,9 +1,10 @@
 ---
+filename: "gyn"
+image: /helseatlas/img/no/gyn/frontpage.jpg
 date: "2022-03-01T12:00:00.000Z"
 num: 8
 mainTitle: Gynaecology Healthcare Atlas
 shortTitle: Gynaecology
-image: /helseatlas/img/gyn.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/healthatlas-gynaecology.pdf
 ia: true

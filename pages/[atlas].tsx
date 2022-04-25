@@ -16,6 +16,7 @@ interface AtlasPageProps {
   content: string;
   body: string;
   atlasData: AtlasData[];
+  mapData: any;
 }
 
 type AtlasJson = {
@@ -28,7 +29,11 @@ type AtlasJson = {
   kapittel: ChapterProps[];
 };
 
-const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
+const AtlasPage: React.FC<AtlasPageProps> = ({
+  content,
+  atlasData,
+  mapData,
+}) => {
   const obj: AtlasJson = JSON.parse(content);
   const tocContent = obj.kapittel.map((chapter) => {
     const level1 = chapter.overskrift;
@@ -39,7 +44,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({ content, atlasData }) => {
   });
 
   return (
-    <DataContext.Provider value={atlasData}>
+    <DataContext.Provider value={{ atlasData, mapData }}>
       <Layout lang={obj.lang === "en" ? "en" : "no"}>
         <main>
           <TopBanner
@@ -111,13 +116,15 @@ export const getStaticProps: GetStaticProps = async (context) => {
         return data;
       })
   );
+  const mapDataPath = "public/data/kronikere.geojson";
+  const mapData = JSON.parse(fs.readFileSync(mapDataPath, "utf-8"));
   const atlasData = fileData.reduce((result, data) => {
     const key: string = Object.keys(data)[0];
     result[key] = data[key];
     return result;
   }, {});
   return {
-    props: { content, atlasData },
+    props: { content, atlasData, mapData },
   };
 };
 

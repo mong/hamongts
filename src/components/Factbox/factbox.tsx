@@ -2,7 +2,8 @@ import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { BsCaretDownFill } from "react-icons/bs";
+
 import { Markdown } from "../Markdown";
 
 type FactBoxProps = {
@@ -19,16 +20,11 @@ export const FactBox: React.FC<FactBoxProps> = ({
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
   return (
-    <div>
+    <div style={{ marginBottom: "10px" }}>
       <Accordion
         sx={{
-          fontFamily: "Open Sans",
           boxShadow: 1,
-          ":hover": {
-            border: "2px solid #6CACE4",
-            boxShadow: 1,
-            transform: "none",
-          },
+          borderBottom: "2px solid #033F85",
         }}
         expanded={expanded}
         onChange={() => handleChange()}
@@ -38,8 +34,11 @@ export const FactBox: React.FC<FactBoxProps> = ({
             backgroundColor: "#E6EEF8",
             fontWeight: "600",
             color: "#033F85",
+            ":hover": {
+              backgroundColor: "rgba(3,69,132,0.2)",
+            },
           }}
-          expandIcon={<ExpandMoreIcon htmlColor="#033F85" fontSize="large" />}
+          expandIcon={<BsCaretDownFill color="#033F85" fontSize="large" />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
         >

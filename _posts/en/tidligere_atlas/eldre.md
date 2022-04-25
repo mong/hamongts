@@ -1,9 +1,10 @@
 ---
+filename: "eldre"
+image: /helseatlas/img/no/eldre/frontpage.jpg
 date: "2022-03-01T12:00:00.000Z"
 num: 4
 mainTitle: Healthcare Atlas for the Elderly in Norway
 shortTitle: Elderly Healthcare Atlas
-image: /helseatlas/img/eldre.png
 frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
 pdfUrl: /helseatlas/files/healthcare-atlas-elderly.pdf
 ia: true

@@ -1,18 +1,24 @@
 ---
-date: "2015-01-13T12:00:00.000Z"
+filename: dagkir
+frontpagetext: Atlaset som omhander dagkirurgi var piloten fra Helseatlas.
+  Atlaset ble lansert i januar 2015 og har fått mye oppmerksomhet, både
+  nasjonalt og internasjonalt.
 num: 1
 mainTitle: Dagkirurgi i Norge 2011–2013
 shortTitle: Dagkirurgi
-image: /helseatlas/img/dagkir.png
-frontpagetext: Atlaset som omhander dagkirurgi var piloten fra Helseatlas. Atlaset ble lansert i januar 2015 og har fått mye oppmerksomhet, både nasjonalt og internasjonalt.
+image: /helseatlas/img/no/dagkir/frontpage.jpg
 pdfUrl: /helseatlas/files/Rapporthelseatlas1_15.pdf
 ia: true
-lang: nb
 toc: false
+lang: nb
+date: "2015-01-13T12:00:00.000Z"
 ---
-
 <div className="ingress">
 Hovedfunnene er oppsummert i faktaarkene under, som også inneholder en kort beskrivelse av tilstand og inngrep. Det gis videre informasjon om befolkningens forbruk av inngrepet i geografiske områder. Med forbruk menes andel av befolkningen som får utført inngrepet. Befolkningens forbruk måles som antall inngrep pr. 100 000 innbyggere. Forskjeller i forbruk mellom de geografiske områdene er kort kommentert.
+
+
+
+dsafda
 </div>
 
 ### [Skulderkirurgi](/helseatlas/files/Skulderreseksjon.pdf) (Acromionreseksjon)

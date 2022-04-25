@@ -40,6 +40,32 @@ export const Markdown = ({ children, lang }: MarkdownProp) => {
         </figure>
       );
     },
+    table({ children }) {
+      return (
+        <table
+          style={{
+            borderCollapse: "collapse",
+            margin: "auto",
+            borderTop: "2px solid black",
+            borderBottom: "2px solid black",
+          }}
+        >
+          {children}
+        </table>
+      );
+    },
+    th({ children }) {
+      return (
+        <th
+          style={{ borderBottom: "1px solid black", margin: 0, padding: "3px" }}
+        >
+          {children}
+        </th>
+      );
+    },
+    td({ children }) {
+      return <td style={{ padding: "2px 10px" }}>{children}</td>;
+    },
     a({ href, children }) {
       return (
         <a href={href} target="_blank" rel="noreferrer">

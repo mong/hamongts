@@ -1,0 +1,133 @@
+import { geoMercator, geoPath } from "d3-geo";
+import { scaleThreshold } from "d3-scale";
+
+type FeatureShape = {
+  type: "Feature";
+  id: string;
+  geometry: {
+    type: "MultiPolygon";
+    coordinates: [number, number][][][];
+  };
+  properties: {
+    OBJECTID_1: number;
+    BoHF_num: number;
+    OBJECTID: number;
+    Shape_Leng: number;
+    Shape_Le_1: number;
+    Shape_Area: number;
+  };
+};
+
+export type MapData = {
+  type: "FeatureCollection";
+  features: FeatureShape[];
+};
+
+type MapProps = {
+  mapData: MapData;
+  mapAttr?: any[];
+  dataToMap?: any[];
+  connection?: any;
+  attrName?: string;
+  classes?: number[];
+  color?: string[];
+};
+
+const ObjectIDToBoHF = [
+  { BoHF_num: 1, bohf: "Finnmark" },
+  { BoHF_num: 2, bohf: "UNN" },
+  { BoHF_num: 3, bohf: "Nordland" },
+  { BoHF_num: 4, bohf: "Helgeland" },
+  { BoHF_num: 6, bohf: "Nord-Trøndelag" },
+  { BoHF_num: 7, bohf: "St. Olav" },
+  { BoHF_num: 8, bohf: "Møre og Romsdal" },
+  { BoHF_num: 10, bohf: "Førde" },
+  { BoHF_num: 11, bohf: "Bergen" },
+  { BoHF_num: 12, bohf: "Fonna" },
+  { BoHF_num: 13, bohf: "Stavanger" },
+  { BoHF_num: 14, bohf: "Østfold" },
+  { BoHF_num: 15, bohf: "Akershus" },
+  { BoHF_num: 16, bohf: "OUS" },
+  { BoHF_num: 17, bohf: "Lovisenberg" },
+  { BoHF_num: 18, bohf: "Diakonhjemmet" },
+  { BoHF_num: 19, bohf: "Innlandet" },
+  { BoHF_num: 20, bohf: "Vestre Viken" },
+  { BoHF_num: 21, bohf: "Vestfold" },
+  { BoHF_num: 22, bohf: "Telemark" },
+  { BoHF_num: 23, bohf: "Sørlandet" },
+];
+
+export const Map: React.FC<MapProps> = ({
+  mapData,
+  mapAttr,
+  dataToMap = ObjectIDToBoHF,
+  connection = { mapData: "BoHF_num", mapAttr: "bohf" },
+  attrName,
+  classes,
+  color,
+}) => {
+  const width = 1000;
+  const height = 1000;
+
+  const initCenter = geoPath().centroid(mapData);
+  const initOffset: [number, number] = [width / 2, height / 2 - height * 0.11];
+  const initScale = 150;
+  const initialProjection = geoMercator()
+    .scale(initScale)
+    .center(initCenter)
+    .translate(initOffset);
+  const initPath = geoPath().projection(initialProjection);
+
+  const bounds = initPath.bounds(mapData);
+  const hscale = (initScale * width) / (bounds[1][0] - bounds[0][0]);
+  const vscale = (initScale * height) / (bounds[1][1] - bounds[0][1]);
+  const scale = hscale < vscale ? 0.98 * hscale : 0.98 * vscale;
+  const offset: [number, number] = [
+    width - (bounds[0][0] + bounds[1][0]) / 2,
+    height - (bounds[0][1] + bounds[1][1]) / 2,
+  ];
+
+  const colorScale = scaleThreshold<number, string>()
+    .domain(classes ? classes : [])
+    .range(color ? color : []);
+
+  const projection = geoMercator()
+    .scale(scale)
+    .center(initCenter)
+    .translate(offset);
+  const pathGenerator = geoPath().projection(projection);
+
+  return (
+    <div style={{ width: "100%", height: "100%", margin: "auto" }}>
+      <svg
+        width={"100%"}
+        height={"100%"}
+        viewBox={`0 0 ${width} ${height}`}
+        style={{ backgroundColor: "none" }}
+      >
+        {mapData.features.map((d, i) => {
+          const mapId = connection.mapData;
+          const attrID = connection.mapAttr;
+          const hf = dataToMap.filter(
+            (dtm) => dtm[mapId] === d.properties[mapId]
+          )[0][attrID];
+
+          const attr = mapAttr.filter((attribute) => {
+            return attribute[attrID] === hf;
+          })[0];
+          const val = attr ? attr[attrName] : undefined;
+          return (
+            <path
+              key={`map-feature-${i}`}
+              d={pathGenerator(d.geometry)}
+              fill={val ? colorScale(val) : "none"}
+              stroke={"black"}
+              strokeWidth={0.4}
+              className={i + ""}
+            />
+          );
+        })}
+      </svg>
+    </div>
+  );
+};

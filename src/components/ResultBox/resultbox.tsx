@@ -2,28 +2,27 @@ import React from "react";
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useTransition, animated, easings } from "react-spring";
+
 import { Carousel } from "../carousel";
 import { CarouselItem } from "../carousel/carouelitem";
 import { Barchart } from "../../charts/barcharts";
 import { Abacus } from "../../charts/abacus";
 import { AtlasData } from "../../types";
-import styles from "./resultbox.module.css";
+import classNames from "./resultbox.module.css";
 import { DataContext } from "../Context";
-import { karusell } from "../Chapters";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
+import { Map, MapData } from "../../charts/map";
 
 type ResultBoxProps = {
   title: string;
-  carousel: karusell;
+  carousel: string;
   intro: string;
   selection: string;
   result: string;
   id: string;
   lang: "nb" | "en" | "nn";
-  xlabel: string;
-  ylabel: string;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -32,38 +31,42 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   selection,
   result,
   id,
-  xlabel,
-  ylabel,
   lang,
   carousel,
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
-  const [expandedSelection, setExpandedSelection] =
-    React.useState<boolean>(false);
 
-  const atlasData = React.useContext(DataContext);
-  const carouselData = carousel.data
-    .replace(/data\//, "")
-    .replace(/.csv$/, ".json");
+  const atlasData: { atlasData: any; mapData: MapData } =
+    React.useContext(DataContext);
 
+  const mapData = atlasData.mapData;
   const boxData: any =
-    atlasData[carouselData] !== undefined
-      ? Object.values(JSON.parse(atlasData[carouselData]))[0]
+    atlasData.atlasData[carousel] !== undefined
+      ? Object.values(JSON.parse(atlasData.atlasData[carousel]))[0]
       : undefined;
+
+  const transitions = useTransition(expandedResultBox, {
+    initial: { transform: "translate(0,0)" },
+    from: { transform: "translate(0,-40px)" },
+    enter: { transform: "translate(0,0)" },
+    leave: { transform: "translate(0,-40px)" },
+
+    config: (it, ind, state) => ({
+      easing: easings.easeInQuad, // : easings.easeOutQuad,
+      duration: 200,
+    }),
+  });
 
   const dataCarousel =
     boxData !== undefined ? (
-      <Carousel active={0}>
+      <Carousel active={0} selection={selection} lang={lang}>
         {boxData
           .map((bd, i, obj) => {
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem
-                  key={bd.type + i + id}
-                  label={i + 1 + ". Stolpediagram "}
-                >
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <Barchart
                     margin={{
                       top: 30,
@@ -80,15 +83,36 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Tabell"}>
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
                   <DataTable headers={bd.columns} data={figData} />
                 </CarouselItem>
               );
             }
             if (bd.type === "map") {
+              const jenks = bd.jenks
+                ? bd.jenks.map((j) => parseFloat(j.max))
+                : undefined;
+
               return (
-                <CarouselItem key={bd.type + i + id} label={i + 1 + ". Kart"}>
-                  <img src="/helseatlas/img/map.png" />
+                <CarouselItem key={bd.type + i + id} label={bd.type}>
+                  {jenks ? (
+                    <div style={{ width: "500px" }}>
+                      <Map
+                        mapData={mapData}
+                        color={[
+                          "rgba(171, 108, 166, 0.25)",
+                          "rgba(171, 108, 166, 0.5)",
+                          "rgba(171, 108, 166, 0.75)",
+                          "rgba(171, 108, 166, 1.0)",
+                        ]}
+                        classes={jenks}
+                        attrName={bd.x}
+                        mapAttr={figData}
+                      />
+                    </div>
+                  ) : (
+                    <img src="/helseatlas/img/map.png" />
+                  )}
                 </CarouselItem>
               );
             }
@@ -102,68 +126,81 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const figdata: AtlasData[] = boxData
     ? boxData.filter((d) => d.type === "data")[0]["data"]
     : null;
+  const abacusX: Exclude<keyof AtlasData, "year" | "bohf"> = boxData
+    .filter((boxd) => boxd.type === "map")
+    .map((boxd) => boxd.x)[0];
 
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div id={id} className={styles.resultBoxWrapper}>
+    <div id={id} className={classNames.resultBoxWrapper}>
       <Accordion
+        disableGutters
         sx={{
           boxShadow: 6,
-          ":hover": {
-            backgroundColor: expandedResultBox ? "" : "rgba(241, 241, 241,0.8)",
-            transition: "200ms ease-in",
-          },
+          borderBottom: "3px solid #033F85",
         }}
         expanded={expandedResultBox}
         onChange={() => handleChange(setExpandedResultBox)}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
           aria-controls={`${id}-content`}
           id={`${id}-header`}
+          sx={{
+            backgroundColor: "#FAFAFA",
+            ":hover": {
+              backgroundColor: expandedResultBox ? "" : "rgb(241, 241, 241)",
+              transition: "200ms ease-in",
+            },
+          }}
         >
-          <div className={styles.resultBoxTitleWrapper}>
+          <div className={classNames.resultBoxTitleWrapper}>
             <h3> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
                 data={figdata}
-                x="rateSnitt"
+                x={abacusX}
                 colorBy="bohf"
                 width={800}
                 height={80}
-                label={xlabel}
+                label={boxData[0].xLabel}
                 backgroundColor="inherit"
               />
             )}
           </div>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails
+          sx={{
+            backgroundColor: "#F2F2F2",
+          }}
+        >
           {dataCarousel}
-
-          <Accordion
-            sx={{ boxShadow: 0 }}
-            expanded={expandedSelection}
-            onChange={() => handleChange(setExpandedSelection)}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls={`${id}-content-selection`}
-              id={`${id}-content-selection`}
-            >
-              {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
-            </AccordionSummary>
-            <AccordionDetails>
-              <Markdown lang={lang}>{selection}</Markdown>
-            </AccordionDetails>
-          </Accordion>
-          <div className={styles.resultBoxSelectionContent}>
+          <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
           </div>
         </AccordionDetails>
       </Accordion>
+      <div
+        className={classNames.crossWrapper}
+        role="button"
+        aria-controls={`${id}-content-selection`}
+        onClick={() => setExpandedResultBox(!expandedResultBox)}
+      >
+        <span className={classNames.horizontal}></span>
+        {transitions(
+          (styles, items) =>
+            !items && (
+              <animated.span
+                className={classNames.vertical}
+                style={{
+                  ...styles,
+                }}
+              />
+            )
+        )}
+      </div>
     </div>
   );
 };
