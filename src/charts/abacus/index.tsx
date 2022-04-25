@@ -84,7 +84,7 @@ export const Abacus = <
           tickTransform={`translate(0,-${tickLength / 2})`}
           label={label}
           labelProps={{
-            fontSize: 15,
+            fontSize: 16,
             textAnchor: "middle",
           }}
         />
