@@ -21,8 +21,24 @@
       ]
     },
     {
+      "type": "barchart",
+      "data": "qwerty",
+      "x": [
+        "off_rate",
+        "priv_rate"
+      ],
+      "xLegend": [
+        "Offentlig (på sykehus)",
+        "Privat (avtalespesialist)"
+      ],
+      "y": "bohf",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "yLabel": "Opptaksområder"
+    },
+    {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -37,8 +53,8 @@
           "format": ",.1f"
         },
         {
-          "id": "pasienter",
-          "label": "Antall pasienter",
+          "id": "kontakter_poli",
+          "label": "Antall spes. konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         },
@@ -47,6 +63,18 @@
           "label": "Spes. konsult. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
+        },
+        {
+          "id": "pasienter",
+          "label": "Antall pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "andel_priv_poli",
+          "label": "Andel privat",
+          "typeVar": "number",
+          "format": ",.1%"
         }
       ]
     },
@@ -54,6 +82,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 barn",
       "jenks": [
         {
           "CLUSTER": 1,

@@ -23,6 +23,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -37,14 +38,26 @@
           "format": ",.1f"
         },
         {
-          "id": "pasienter",
-          "label": "Antall pasienter",
+          "id": "kontakter_poli",
+          "label": "Antall spes. konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
           "label": "Spes. konsult. pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
+        },
+        {
+          "id": "pasienter",
+          "label": "Antall pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "legerateeldre",
+          "label": "Rate, kons. hos spes. eller allmennlege",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -54,6 +67,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
       "jenks": [
         {
           "CLUSTER": 1,

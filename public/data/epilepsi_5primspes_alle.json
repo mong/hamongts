@@ -29,7 +29,7 @@
       ],
       "xLegend": [
         "Spesialist",
-        "Fastlege/legevakt"
+        "Allmennlege"
       ],
       "y": "bohf",
       "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
@@ -38,6 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
       "columns": [
         {
           "id": "bohf",
@@ -53,27 +54,21 @@
         },
         {
           "id": "polikont_pr_pas",
-          "label": "Spes.konsult. pr. pas.",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "primkont_pr_pas",
-          "label": "Konsult. fastlege/legevakt pr. pas.",
-          "typeVar": "number",
-          "format": ",.1f"
-        },
-        {
-          "id": "legekons_pr_pas",
-          "label": "Totalt kons. pr pas",
+          "label": "Konsultasjoner pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
-          "label": "Andel konsult. i spes. helsetj.",
+          "label": "Andel konsultasjoner hos spesialist",
           "typeVar": "number",
           "format": ",.1%"
+        },
+        {
+          "id": "legerateeldre",
+          "label": "Rate, eldre",
+          "typeVar": "number",
+          "format": ",.1f"
         }
       ]
     },
@@ -81,6 +76,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
+      "caption": "Antall konsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,
@@ -117,7 +113,8 @@
           "legekons_pr_pas": 2.85040797824,
           "FLLV_rate": 8.90880744054,
           "andel_prim_kont": 0.633702776435,
-          "andel_poli_kont": 0.366297223565
+          "andel_poli_kont": 0.366297223565,
+          "legerateeldre": 16.2595003988
         },
         {
           "bohf": "UNN",
@@ -135,7 +132,8 @@
           "legekons_pr_pas": 2.50321789764,
           "FLLV_rate": 8.5412804833,
           "andel_prim_kont": 0.607871084129,
-          "andel_poli_kont": 0.392128915871
+          "andel_poli_kont": 0.392128915871,
+          "legerateeldre": 12.4552460876
         },
         {
           "bohf": "Nordland",
@@ -153,7 +151,8 @@
           "legekons_pr_pas": 2.51444350042,
           "FLLV_rate": 6.37977613757,
           "andel_prim_kont": 0.440654258226,
-          "andel_poli_kont": 0.559345741774
+          "andel_poli_kont": 0.559345741774,
+          "legerateeldre": 11.7009322841
         },
         {
           "bohf": "Helgeland",
@@ -171,7 +170,8 @@
           "legekons_pr_pas": 2.19818331957,
           "FLLV_rate": 5.33936956817,
           "andel_prim_kont": 0.461682041747,
-          "andel_poli_kont": 0.538317958253
+          "andel_poli_kont": 0.538317958253,
+          "legerateeldre": 9.6039829146
         },
         {
           "bohf": "Nord-Trøndelag",
@@ -189,7 +189,8 @@
           "legekons_pr_pas": 2.30266940452,
           "FLLV_rate": 6.69731921468,
           "andel_prim_kont": 0.482728917433,
-          "andel_poli_kont": 0.517271082567
+          "andel_poli_kont": 0.517271082567,
+          "legerateeldre": 13.7587145866
         },
         {
           "bohf": "St. Olav",
@@ -207,7 +208,8 @@
           "legekons_pr_pas": 2.46491904395,
           "FLLV_rate": 6.45245109496,
           "andel_prim_kont": 0.504913820152,
-          "andel_poli_kont": 0.495086179848
+          "andel_poli_kont": 0.495086179848,
+          "legerateeldre": 12.6237987805
         },
         {
           "bohf": "Møre og Romsdal",
@@ -225,7 +227,8 @@
           "legekons_pr_pas": 2.7618079096,
           "FLLV_rate": 7.09112562505,
           "andel_prim_kont": 0.462119335484,
-          "andel_poli_kont": 0.537880664516
+          "andel_poli_kont": 0.537880664516,
+          "legerateeldre": 15.3399171378
         },
         {
           "bohf": "Førde",
@@ -243,7 +246,8 @@
           "legekons_pr_pas": 2.192,
           "FLLV_rate": 6.57984082554,
           "andel_prim_kont": 0.55640266401,
-          "andel_poli_kont": 0.44359733599
+          "andel_poli_kont": 0.44359733599,
+          "legerateeldre": 13.8547927767
         },
         {
           "bohf": "Bergen",
@@ -261,7 +265,8 @@
           "legekons_pr_pas": 2.27750844719,
           "FLLV_rate": 5.20275927286,
           "andel_prim_kont": 0.463017820653,
-          "andel_poli_kont": 0.536982179347
+          "andel_poli_kont": 0.536982179347,
+          "legerateeldre": 8.18865450793
         },
         {
           "bohf": "Fonna",
@@ -279,7 +284,8 @@
           "legekons_pr_pas": 2.40795847751,
           "FLLV_rate": 6.78959877361,
           "andel_prim_kont": 0.528626332746,
-          "andel_poli_kont": 0.471373667254
+          "andel_poli_kont": 0.471373667254,
+          "legerateeldre": 8.30126932167
         },
         {
           "bohf": "Stavanger",
@@ -297,7 +303,8 @@
           "legekons_pr_pas": 2.59944802208,
           "FLLV_rate": 6.7633509812,
           "andel_prim_kont": 0.531372913362,
-          "andel_poli_kont": 0.468627086638
+          "andel_poli_kont": 0.468627086638,
+          "legerateeldre": 13.6317766266
         },
         {
           "bohf": "Østfold",
@@ -315,7 +322,8 @@
           "legekons_pr_pas": 2.54454865182,
           "FLLV_rate": 7.6148085924,
           "andel_prim_kont": 0.554980618325,
-          "andel_poli_kont": 0.445019381675
+          "andel_poli_kont": 0.445019381675,
+          "legerateeldre": 12.2184220953
         },
         {
           "bohf": "Akershus",
@@ -333,7 +341,8 @@
           "legekons_pr_pas": 2.9577813678,
           "FLLV_rate": 7.893941251,
           "andel_prim_kont": 0.496850341805,
-          "andel_poli_kont": 0.503149658195
+          "andel_poli_kont": 0.503149658195,
+          "legerateeldre": 12.9431834824
         },
         {
           "bohf": "OUS",
@@ -351,7 +360,8 @@
           "legekons_pr_pas": 2.72469906375,
           "FLLV_rate": 6.95744757748,
           "andel_prim_kont": 0.468580834542,
-          "andel_poli_kont": 0.531419165458
+          "andel_poli_kont": 0.531419165458,
+          "legerateeldre": 17.8801734718
         },
         {
           "bohf": "Lovisenberg",
@@ -369,7 +379,8 @@
           "legekons_pr_pas": 2.60939659143,
           "FLLV_rate": 5.82457357097,
           "andel_prim_kont": 0.43185988233,
-          "andel_poli_kont": 0.56814011767
+          "andel_poli_kont": 0.56814011767,
+          "legerateeldre": 17.9924951782
         },
         {
           "bohf": "Diakonhjemmet",
@@ -387,7 +398,8 @@
           "legekons_pr_pas": 2.43997990959,
           "FLLV_rate": 4.85520502835,
           "andel_prim_kont": 0.429218207341,
-          "andel_poli_kont": 0.570781792659
+          "andel_poli_kont": 0.570781792659,
+          "legerateeldre": 13.0944000796
         },
         {
           "bohf": "Innlandet",
@@ -405,7 +417,8 @@
           "legekons_pr_pas": 2.31028161973,
           "FLLV_rate": 6.80326013826,
           "andel_prim_kont": 0.491798741782,
-          "andel_poli_kont": 0.508201258218
+          "andel_poli_kont": 0.508201258218,
+          "legerateeldre": 10.9671636378
         },
         {
           "bohf": "Vestre Viken",
@@ -423,7 +436,8 @@
           "legekons_pr_pas": 2.49357468564,
           "FLLV_rate": 6.93530116342,
           "andel_prim_kont": 0.557743235751,
-          "andel_poli_kont": 0.442256764249
+          "andel_poli_kont": 0.442256764249,
+          "legerateeldre": 11.6403091268
         },
         {
           "bohf": "Vestfold",
@@ -441,7 +455,8 @@
           "legekons_pr_pas": 2.42602739726,
           "FLLV_rate": 6.65645047132,
           "andel_prim_kont": 0.548623635231,
-          "andel_poli_kont": 0.451376364769
+          "andel_poli_kont": 0.451376364769,
+          "legerateeldre": 9.47844560539
         },
         {
           "bohf": "Telemark",
@@ -459,7 +474,8 @@
           "legekons_pr_pas": 2.24800831313,
           "FLLV_rate": 6.98169320283,
           "andel_prim_kont": 0.556214458513,
-          "andel_poli_kont": 0.443785541487
+          "andel_poli_kont": 0.443785541487,
+          "legerateeldre": 10.9175682034
         },
         {
           "bohf": "Sørlandet",
@@ -477,7 +493,8 @@
           "legekons_pr_pas": 2.60376577695,
           "FLLV_rate": 6.86462232943,
           "andel_prim_kont": 0.503395561319,
-          "andel_poli_kont": 0.496604438681
+          "andel_poli_kont": 0.496604438681,
+          "legerateeldre": 10.5332824314
         },
         {
           "bohf": "Norge",
@@ -495,7 +512,8 @@
           "legekons_pr_pas": 2.53201609087,
           "FLLV_rate": 6.77307839359,
           "andel_prim_kont": 0.509117039243,
-          "andel_poli_kont": 0.490882960757
+          "andel_poli_kont": 0.490882960757,
+          "legerateeldre": 12.0778540677
         }
       ]
     }
