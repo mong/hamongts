@@ -56,19 +56,12 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
     },
     ol({ children, className }) {
       if ((className ?? "").includes("toc")) {
-        const [expanded, setExpanded] = React.useState<number | "none" | "all">(
-          "none"
-        );
         return (
           <OrderedList>
             {" "}
             {React.Children.map(children, (child, i) => {
               if (React.isValidElement(child)) {
-                return React.cloneElement(child, {
-                  expanded,
-                  setExpanded,
-                  i,
-                });
+                return child;
               }
             })}
           </OrderedList>
