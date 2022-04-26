@@ -12,26 +12,254 @@ ia: true
 toc: false
 lang: nn
 ---
-## Faktaark
+<div className="ingress">
+Hovudfunn frå Helseatlas i ortopedi for Noreg er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar pr. 100 000 innbyggarar eller som prosentdelar av pasientane som får ei gitt teneste. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
+</div>
 
-Faktaarka inneheld ei kort oppsummering av resultata frå helseatlas i ortopedi. Kvar av tilstandane er skildra og innbyggarane sin bruk av helsetenester vist gjennom figurar og tekst. Innbyggarane sin bruk av helsetenester er oppsummert og vist som tal operasjonar eller innleggingar per 100 000 innbyggarar per buområde. Variasjonen i bruk av helsetenester er kort kommentert.
-Ved behov for eller ønske om eksakt definisjon av utval som er brukt i analysane – ta gjerne kontakt.
+## Hofteleddsartrose
 
-* [Hofteleddsartrose](/helseatlas/files/ortopedi_faktaark_hofteleddsartrose.pdf)
+Hofteleddsartrose skuldast  slitasje mot brusken på leddflatene over lengre tid. Meir enn 50 % av innbyggarane over 65 år har symptomgivande hofteleddsartrose, og førekomsten aukar sterkt med alderen. Omtrent 20 % har artrose i begge hofter. Smerte og redusert bevegelse i hofteleddet blir ofte gradvis verre. Dei fleste oppnår gode resultat med enkle tiltak som fysisk trening og smertelindrande medisinar. Ved invalidiserande hofteleddsartrose hos personar over 50 år, er innsetting av hofteprotese standardbehandling.
 
-  ![](/helseatlas/img/no/ortopedi/o1ho-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png)
+### Bakgrunn
 
-  ![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-prosrate-medaarsrate-faktaark-1.png)
+Hofteleddsartrose er definert ved hovud- eller bidiagnose M16 (ICD-10). Pasientar med hofteleddsartrose som også har hoftebrot (S72.0, S72.1, S72.2) i tilvisingsperioden er ekskluderte. Operativ behandling er definert ved diagnostisert hofteleddsartrose og samtidig ein eller fleire av  prosedyrekodane NFB01, NFB02, NFB03, NFB11, NFB12, NFB13, NFB20, NFB30, NFB40, NFB99, NFF11, NFF31, NFF91 (NCSP). Pasientar som er 18 år eller eldre er inkludert, med unntak i figur som viser kjønns- og aldersfordeling for opererte (alle aldrar).
 
-  ![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png)
-* [Kneleddsartrose](/helseatlas/files/ortopedi_faktaark_kneleddsartrose.pdf)
-* [Artroskopi ved degenerative knelidingar](/helseatlas/files/ortopedi_faktaark_artroskopi_ved_degenerative_knelidingar.pdf)
-* [Tommelartrose](/helseatlas/files/ortopedi_faktaark_tommelartrose.pdf)
-* [Handleddsbrot](/helseatlas/files/ortopedi_faktaark_handleddsbrot.pdf)
-* [Ankelbrot](/helseatlas/files/ortopedi_faktaark_ankelbrot.pdf)
-* [Hoftebrot](/helseatlas/files/ortopedi_faktaark_hoftebrot.pdf)
-* [Skulderbrot](/helseatlas/files/ortopedi_faktaark_skulderbrot.pdf)
-* [Kragebeinsbrot](/helseatlas/files/ortopedi_faktaark_kragebeinsbrot.pdf)
+Det er årleg i gjennomsnitt over 7 400 pasientar med hofteleddsartrose som blir operert. Det utgjer halvparten av pasientane som er i kontakt med spesialisthelsetenesta på grunn av hofteleddsartrose.
+
+![]( "Samla tal operasjonar for hofteleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er flest operasjonar for hofteleddsartrose per innbyggar i buområde Nord-Trøndelag, og færrast i buområde Finnmark. Prosentdel opererte er høgast i buområde Stavanger (62 %) og lågast i buområde Finnmark (39 %). Tal operasjonar per innbyggar er stabilt over tid på landsnivå, men det er ei merkbar endring frå år til år i enkelte buområde. 
+
+Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde er det ein forholdsvis stor del av pasientane som blir opererte på offentlege sjukehus i eit anna buområde.
+
+Det er store forskjellar mellom buområda i operasjonsteknikk brukt for innsetting av totalprotese. På landsnivå er det relativt jamn fordeling; innsetting av totalprotese med hybridteknikk (41 %), insetting utan sement (30 %) og insetting med sement (29 %).
+
+![]( "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for hofteleddsartrose mellom buområda er relativt liten. Den kan til dels skuldast forskjellar mellom områda i genetiske faktorar eller andre kjenneteikn hos pasientane (type arbeid mv). Vi antar likevel at variasjonen heller skuldast skilnader i tilvisningspraksis, kapasitet og liknande faktorar, og karakteriserar derfor variasjonen som uønska.
+
+## Kneleddsartrose
+
+Kneleddsartrose skuldast slitasje av brusken på leddflatene over lang tid. Meir enn 30 % av innbyggarane over 65 år har kneleddsartose, og det er dobbelt så mange kvinner som menn med tilstanden. Smerte og redusert bevegelse i kneleddet blir ofte gradvis verre. Dei fleste oppnår gode resultat med enkle tiltak som fysisk trening og smertelindrande medisinar. Proteseoperasjon kan bli aktuell i sein fase av sjukdommen, og mange pasientar oppnår god smertelindring, betre funksjon og livskvalitet.
+
+### Bakgrunn
+
+Kneleddsartrose er definert ved hovud- eller bidiagnose M17 (ICD-10). Operativ behandling er definert ved diagnostisert kneleddsartrose og samtidig ein eller fleire av prosedyrekodane NGB01, NGB02, NGB03, NGB04, NGB11, NGB12, NGB13, NGB14, NGB20, NGB30, NGB40, NGB99, NGK59, NGK69 (NCSP).  Pasientar som er 18 år eller eldre er inkludert, med unntak for figur som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt omtrent 5 500 pasientar men kneleddsartrose som blir operert med innsetting av protese eller med osteotomi. Det utgjer ein fjerdedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av kneleddsartrose.
+
+![]( "Samla tal operasjonar for kneleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er nesten dobbelt så vanleg å blir operert for kneleddsartrose, med innsetting av protese eller med osteotomi, i buområde Førde som i buområde OUS. Prosentdel opererte er lågast i buområde Finnmark (20 %) og høgast i buområde Vestfold (31 %). Tal operasjonar per innbyggar ser ut til å auke i mange buområde og på landsnivå. 
+
+Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde er det ein forholdsvis stor del av pasientane som blir opererte på offentleg sjukehus i eit anna buområde.
+
+Innsetting av totalprotese utgjer på landsnivå 85 % av operasjonane, delprotese 11 % og osteotomi 4 %.
+
+![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for kneleddsartrose mellom buområda er moderat. Buområde Førde skil seg ut med høgast operasjonsrate, men mellom dei andre buområda er variasjonen relativt liten. Det føreligg ikkje kunnskap om forskjellar i førekomst av kneleddsartrose som kan forklare variasjonen, og den er vurdert til å vere uønska. 
+
+Operativ behandling av kneleddsartrose auka litt i perioden. Dette er i samsvar med trendar i andre nordiske land og med tilrådingar i Noreg. 
+
+## Artroskopi ved degenerative knelidingar
+
+Artroskopi (kikholsoperasjon) av kneleddet er den vanlegaste ortopediske operasjonen i Noreg. Halvparten av pasientane er 50 år eller eldre, og dei fleste har ei degenerativ kneliding, dvs. aldersrelaterte endringar i kneleddet, som slitasje av bruskoverflater (artrose) eller rifter i meniskar. Studiar har vist at artroskopi ved degenerative knelidingar, med skyljing av leddet og fjerning av meniskflikar og lause bruskbitar, har liten eller ingen effekt. Mellom anna i Helse Sør-Øst RHF har ein jobba målretta for å endre praksis, og vi ser i dei siste åra ein tydeleg nedgang i tal kneartroskopiar.
+
+### Bakgrunn
+
+Degenerative knelidingar er definert ved hovud- eller bidiagnose M17, M22.4, M23.2, M23.3, M23.4, M23.8 eller M23.9 (ICD-10). Operativ behandling (artroskopi) er definert ved diagnostisert degenerativ kneliding og samtidig ein eller fleire av  prosedyrekodane NGA11, NGD01, NGD11, NGD91, NGF01, NGF11, NGF31, NGF91 (NCSP) eller takstkode K05b. Pasientar som er 50 år eller eldre er inkludert, med unntak av i figuren som viser kjønns- og aldersfordeling på opererte (alle aldrar).
+
+Årleg tal artroskopiar, for pasientar 50 år og eldre, minkar i perioden frå nær 9 000 til omtrent 4 000 for landet samla. 
+
+![]( "Samla tal artroskopiar for degenerative knelidingar, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er meir enn fire ganger så vanleg med artroskopi for degenerative knelidingar i buområde Førde som i buområde Stavanger, og tal artroskopiar går ned i nesten alle buområda.  
+
+Over halvparten av artroskopiane er utført ved offentlege sjukehus (65 %), dei aller fleste i pasienten sitt buområde. I seks av buområda blir omtrent halvparten av artroskopiane utført på private anbodssjukehus eller hos avtalespesialistar, og prosentdelen er størst (65 %) i buområde St. Olavs.
+
+I 37 % av artroskopiane er hovudtilstanden kneleddsartrose, og prosentdelen varierer mellom buområda frå 18 % i buområde OUS til 63 % i buområde Bergen.
+
+![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i bruk av artroskopi som behandling for degenerative knelidingar hos pasientar 50 år og eldre er særleg stor. Det føreligg ikkje kunnskap om variasjon i førekomsten av degenerative knelidingar som kan forklare variasjonen, og den blir karakterisert som uønska. Variasjonen skuldast truleg forskjellar i preferanser og tilbod i spesialisthelsetenesta i ulike deler av landet.
+
+Det er ein tydleg reduksjon i tal artroskopiar i perioden, men bruken av artroskopisk kirurgi ved degenerative knelidingar er fortsatt uforholdsmessig stor.
+
+## Tommelartrose
+
+Tommelartrose skuldast slitasje av brusken på leddflatene over lengre tid, hos yngre ofte etter tidlegare skade eller brot. Om lag 10 % av personar over 30 år har tommelartrose, men ikkje alle har symptom. Smerte og redusert bevegelse i leddet blir ofte gradvis verre. Mange oppnår gode resultat med enkle tiltak som smertelindrande medisinar og avlasting med skinne. Operativ behandling kan vurderast ved lang tids utvikling av tilstanden; enten  rekonstruksjon av leddfunksjonen, avstiving av leddet eller innsetting av kunstig ledd (protese). Sjølv om det ikkje er fagleg semje om beste metode, oppnår pasientane ofte god smertelindring og god funksjon etter operasjon.
+
+### Bakgrunn
+
+Tommelartrose er definert ved hovud- eller bidiagnose M18 (ICD-10). Operativ behandling er definert ved diagnostisert tommelartrose og samtidig ein eller fleire av  prosedyrekodane NDB01, NDB02, NDB03, NDB11, NDB12, NDB13, NDB20, NDB30, NDB40, NDB50, NDB80, NDB81, NDB82, NDB99, NDG02, NDG12, NDG22, NDG32, NDG42, NDG52, NDG92, NDK11 eller enkelte kodar frå kategoriblokkene NDE, NDF, NDK eller NDL (NCSP). Pasientar som er 18 år eller eldre er inkludert, med unntak i figuren som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt omtrent 800 pasientar med tommelartrose som blir operert i Noreg. Det utgjer i ein tredjedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av tommelartrose.
+
+![]( "Samla tal operasjonar for tommelartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er tre gonger så vanleg å bli operert for tommelartrose i buområde Fonna som i buområde OUS. Med få operasjonar kan ein stor del av variasjonen likevel vere tilfeldig. Tal operasjonar per innbyggar ser ut til å auke i enkelte buområde. Prosentdel opererte er høgast i buområde Stavanger (42 %) og lågast i buområde OUS (16 %).  
+
+Dei fleste (93 %) blir opererte på offentleg sjukehus. I enkelte buområde er det ein forholdsvis stor del av pasientane som blir opererte på offentleg sjukehus i eit anna buområde (opp til 75 %), eller ved offentleg finansierte private tenestetilbydarar (opp til 41 %).
+
+Det er stor variasjon i bruk av operasjonsteknikk mellom buområda. I løpet av perioden blir ekskisjonsartroplastikk den mest brukte. Interposisjonsartroplastikk er i slutten av perioden den nest vanlegaste.
+
+![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012--2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Vi har vurdert at den systematiske variasjonen i operativ behandling av tommelartrose er moderat til stor. Siden det er ikkje kjent at førekomsten av tommelartrose varierer tilsvarande mellom ulike deler av landet har vi vurdert variasjonen i operasjonsrate også er uønska.
+
+## Handleddsbrot
+
+Handleddsbrot er den mest vanlege brotskaden i Noreg, og utgjer omtrent 20 % av alle brot. Dette er blant dei høgaste førekomstane i verda. Det er flest gutar under 20 år og kvinner eldre enn 50 år som blir ramma av handleddsbrot. Nasjonale retningslinjer for behandling av handleddsbrot hos vaksne (publisert i 2013) er utarbeidd for å redusere variasjonen i behandlingsrutinane mellom sjukehusa, og for å gi pasientane ei optimal behandling. Stabile brot blir behandla konservativt, mens operasjon blir tilrådd ved ustabile handleddsbrot. Retninglinene tilrår operasjon med innsetting av plate, framfor ekstern fiksasjon eller andre måtar for å fiksere brotet. Når pasienten har lågt funksjonsnivå blir det tilrådd å vere tilbakehalden med operativ behandling.
+
+### Bakgrunn
+
+Handleddsbrot er definert ved hovud- eller bidiagnose S52.5 eller S52.6 (ICD-10). Operativ behandling er definert ved diagnostisert handleddsbrot og samtidig ein eller fleire av prosedyrekodane NCJ25, NCJ27, NCJ35, NCJ37, NCJ45, NCJ47, NCJ55, NCJ57, NCJ65, NCJ67, NCJ75, NCJ77, NCJ85, NCJ87, NCJ95, NCJ97 (NCSP).  Konservativ behandling er definert ved  diagnostisert handleddsbrot og fråvere av prosedyrekodar. Pasientar som er 18 år eller eldre er inkludert, med unntak i figur som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
+
+Det skjer årleg i gjennomsnitt omtrent 12 500 handleddsbrot i Noreg, og en tredjedel av brota blir opererte.
+
+![]( "Tal operasjonar for handleddsbrot for heile landet i perioden 2012 – 2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Brotrate: Tal handleddsbrot per 100~000 innbyggarar (18 år og eldre) per år i perioden 2012 – 2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
+
+### Resultat
+
+Det er meir enn dobbelt så vanleg å bli operert for handleddsbrot i buområde Førde som i buområde Helgelandssykehuset. 
+
+I buområda Finnmark og Helgelandssykehuset blir  22 % av handleddsbrota opererte, mot 47 % i buområde Vestfold. På landsnivå blir 31 % av alle handleddsbrot opererte.
+
+Fiksasjon med plate er den vanlegaste operasjonsmetoden i nesten alle buområda. Berre i buområda Stavanger og Helgelandssykehuset blir ekstern fiksasjon brukt i stor grad.
+
+![]( "Operasjonsrate: Tal opererte handleddsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012 – 2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for handleddsbrot er stor. Ein del av variasjonen skuldast skilnader i førekomst mellom buområda, men variasjonen både i prosentdel opererte og operasjonsrate er så pass stor at det er grunn til å tru at det framleis er ein komponent av uønska variasjon i behandling av handleddsbrot i perioden.
+
+I åra etter publiseringa av nasjonale retningslinjer (2013), ser vi at behandlingspraksis blir meir einsarta i landet. Variasjonen i operasjonsrate minkar, ved at operasjonsratane i buområde med flest og færrast operasjonar per innbyggar går mot landsgjennomsnittet.
+
+## Ankelbrot
+
+Ankelbrot er den nest vanlegaste brottypen i Noreg, og utgjer ca. 9 % av alle brot. Både unge menn og kvinner over 65 år er godt representert i pasientgruppa. Tal ankelbrot har auka i dei seinare åra, både på grunn av fleire eldre, og fordi fleire deltek i sport som kan føre til slik skade. Den vanlegaste typen ankelbrot er eit isolert brot på ein av "kulane" (malleolane) i ankelen, og utgjer 75 % av ankelbrota. Stabile brot kan vanlegvis behandlast konservativt, mens meir kompliserte brot som regel krev operasjon. Operativ behandling av ankelbrot har auka, som fylgje av påvist samanheng mellom nøyaktig gjenoppretting av feilstillinga i brotet, og betre ankelfunksjon. Auke i behandling av høgenergiskadar hos unge har også ført til at fleire friske og spreke eldre pasientar med ankelbrot blir operert.
+
+### Bakgrunn
+
+Ankelbrot er definert ved hovud- eller bidiagnose S82.3, S82.4, S82.5, S82.6, S82.7 eller S82.8 (ICD-10). Operativ behandling av ankelbrot er definert ved  diagnostisert ankelbrot og samtidig ein eller fleire av prosedyrekodane NHJ20, NHJ21, NHJ22, NHJ23, NHJ30, NHJ31, NHJ32, NHJ33, NHJ40, NHJ41, NHJ42, NHJ43, NHJ60, NHJ61, NHJ62, NHJ63, NHJ70, NHJ71, NHJ72, NHJ73, NHJ80, NHJ81, NHJ82, NHJ83, NHJ90, NHJ91, NHJ92, NHJ93 (NCSP). Konservativ behandling er definert ved diagnostisert ankelbrot og fråver av prosedyrekodar. Pasientar som er 18 år eller eldre er inkludert, med unntak av i figuren som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
+
+Det skjer årleg i gjennomsnitt over 9 000 ankelbrot i Noreg. Ein tredjedel av brota blir opererte.
+
+![]( "Tal operasjonar for ankelbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Brotrate: Tal ankelbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
+
+### Resultat
+
+Variasjonen mellom buområda i kor mange som blir operert for ankelbrot er større enn det som skuldast tilfeldigheiter. Buområde Nord-Trøndelag har flest og buområde Stavanger færrast opererte ankelbrot per innbyggar. 
+
+Prosentdel opererte ankelbrot varierer frå nær 30 % i buområda Stavanger og Finnmark, til 42 % i buområde Østfold. På landsnivå blir 33 % av alle ankelbrot opererte.
+
+![]( "Operasjonsrate: Tal opererte ankelbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for ankelbrot er moderat til liten. Buområde Stavanger skil seg ut med låg operasjonsrate. Variasjonen mellom øvrige buområde er liten. 
+
+Brotraten varierer lite mellom buområda, og vi har vurdert at variasjonen først og fremst kan reflektere variasjonen i førekomst av ankelbrot. Brotraten kan forklare noko av variasjonen i operasjonsratar, men vi ser variasjon også i prosentdel opererte, der buområde Østfold skil seg ut med ein større prosentdel. Det vanskeleg å vurdere om den observerte variasjonen er uønska.
+
+## Hoftebrot
+
+Hoftebrot er ein av dei tre vanlegaste typar  brot i Noreg, og Noreg har høgast førekomst av hoftebrot i Europa. Hovuddelen av pasientane er eldre kvinner, og pasientane er ofte skrøpelege og har som regel fleire sjukdommar. Behandlinga for hoftebrot er operasjon innan det første eller andre døgnet etter skaden, med enten innsetting av protese eller fiksasjon av brotet. Brei geriatrisk vurdering av eldre pasientar med hoftebrot kan resultere i høgare overleving, kortare liggetid, lågare kostnader og færre som blir utskrivne til institusjon. Norske retningslinjer for tverrfagleg behandling av hoftebrot (publisert i 2018) gir tilrådingar om behandling og rehabilitering.
+
+### Bakgrunn
+
+Operativ behandling av hoftebrot er definert ved hovud- eller bidiagnose S72.0, S72.1 eller S72.2 (ICD-10) og samtidig ein eller fleire av  prosedyrekodane i kategoriblokka NFB, eller NFJ20, NFJ21, NFJ22, NFJ30, NFJ31, NFJ32, NFJ40, NFJ41, NFJ42, NFJ50, NFJ51, NFJ52, NFJ60, NFJ61, NFJ62, NFJ70, NFJ71, NFJ72, NFJ80, NFJ81, NFJ82, NFJ90, NFJ91, NFJ92. Pasientar 18 år eller eldre er inkludert i utvalet, med unntak i figuren som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
+
+Det skjer årleg i gjennomsnitt nær 9~000 hoftebrot i Noreg. Av desse er 61 % lårhalsbrot og 39 % trokantære brot. 
+
+![]( "Tal operasjonar for hoftebrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: tal opererte lårhalsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratene er justerte for kjønn og alder.")
+
+### Resultat
+
+Tal opererte lårhalsbrot per innbyggar er høgare enn gjennomsnittet i buområda Østfold og Innlandet, og litt lågare enn gjennomsnittet i buområda OUS og Vestre Viken. Den vanlegaste behandlinga for lårhalsbrot er innsetting av delprotese (62 %), og prosentdelen varierar mellom buområda frå 37 % i buområde Helgelandssykehuset, til 77 % i buområde Østfold.
+
+Tal opererte trokantære brot per innbyggar er høgare enn gjennomsnittet i buområde Innlandet, og lågare enn gjennomsnittet i buområda Finnmark og Stavanger. For trokantære brot er fiksasjon med margnagle eller glideskrue dei to vanlegaste operasjonsteknikkane. Margnagle blir mest brukt i buområda Østfold (94 %) og Førde (over 92 %) og glideskrue i buområde Stavanger (79 %). Andre fiksasjonsmetodar er vanlegast i buområde Finnmark (72 %). 
+
+![]( "Operasjonsrate: tal opererte trokantære brot (hoftebrot som ikkje er lårhalsbrot) per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonar for hoftebrot er større enn det som skuldast tilfeldigheter, men likevel liten. Dei aller fleste pasientane med hoftebrot blir opererete, og det er fagleg semje om operasjonsindikasjonane. Vi har vurdert at variasjonen i operasjonsratane primært reflekterer variasjonen i førekomst av hoftebrot, og er dermed ønska.
+
+Pasientar som blir operert for hoftebrot ligg i gjennomsnitt 5,9 døgn på sjukehus. Liggetida i buområdet med lengst liggetid (Førde) er 3 dagar lengre enn i buområde med kortast liggetid (Stavanger).
+
+## Skulderbrot
+
+Skulderbrot utgjer omlag 5 % av ekstremitetsbrota hos vaksne. Hos personar over 60 år er skulderbrot den tredje mest vanlege typen brot, etter hofte- og handleddsbrot. Konservativ behandling kan vere aktuelt i omlag 80 % av skulderbrota. Ved stor feilstilling eller når beinet er knust i fleire bitar kan det bli aktuelt å operere. Det skjer ved innsetting av enten pinnar, plater eller protese. I 20 - 35 % oppstår også skade på nerver og blodkar ved skulderbrot, og skada blodtilførsel til beinet eller manglande tilheling av brotet kan på eit seinare tidspunkt føre til behov for proteseoperasjon.
+
+### Bakgrunn
+
+Skulderbrot er definert ved hovud- eller bidiagnose S42.2 (ICD-10). Operativ behandling er definert ved diagnostisert skulderbrot og samtidig ein eller fleire av prosedyrekodane NBJ21, NBJ31, NBJ41, NBJ51, NBJ61, NBJ71, NBJ81, NBJ91, NBB02, NBB12, NBB20, NBB30, NBB40, NBB99 (NCSP).  Konservativ behandling er definert ved  diagnostisert skulderbrot og fråvere av prosedyrekodar. Pasientar som er 18 år eller eldre er inkludert, med unntak av i figuren som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
+
+Det skjer årleg i gjennomsnitt over 5 500 skulderbrot i Noreg, og 16 % av brota blir opererte.
+
+![]( "Tal operasjonar for skulderbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Brotrate: Tal skulderbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
+
+### Resultat
+
+Det er tre gonger så vanleg å bli operert i buområde Førde, som i buområde UNN. Fordi det er få operasjonar i perioden kan ein relativt stor del av den observerte variasjonen vere tilfeldig. For buområde Finnmark er tal pasientar med skulderbrot i perioden så lite at operasjonraten er usikker.
+
+Tal operasjonar per år er stabil på landsnivå, med til dels store endringar i buområda. Tydlegast i buområde Førde der tal operasjonar går ned gjennom heile perioden. 
+
+Buområda Østfold og Førde skil seg ut med 25 % opererte skulderbrot, mens prosentdelen er lågast i buområda OUS (13 %), Bergen (12 %), UNN (11 %) og Finnmark.
+
+![]( "Operasjonsrate: Tal opererte skulderbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Finnmark: det er færre enn 40 unike personar som ligg til grunn for utrekninga, og raten er derfor usikker.")
+
+### Kommentar
+
+Den systematiske variasjonen i operativ behandling av skulderbrot er moderat til stor. Variasjonen i brotrate er ikkje stor mellom buområda og det er grunn til å tru at det er uønska variasjon i operativ behandling av skulderbrot. 
+
+Prosentdel opererte skulderbrot er litt lågare enn venta, men i samsvar med kor stor del av pasientar med skulderbrot som, både nasjonalt og internasjonalt, ein reknar med har nytte av operativ behandling.
+
+## Kragebeinsbrot
+
+ Førekomsten av kragebeinsbrot er aukande, og utgjer 5 - 10 % av alle brot. Det er oftast barn og unge som bryt kragebeinet, og det er vanlegare hos menn enn kvinner. I omlag 80 % av tilfella, skjer brotet i midtre tredjedel av beinet, mens brot i ytre og indre tredjedel er mindre vanlege. Hos barn er brotet av ein litt anna karakter, på grunn av meir fleksible knoklar, og det gror raskare saman. Dei fleste vaksne med kragebeinsbrot blir behandla konservativt, og for barn er konservativ behandling hovudregelen. Operasjon blir i hovudsak vurdert ved stor feilstilling, eller fare for skade på blodkar, lunge, og nervesenter som ligg rett under beinet. Operasjon kan også vurderast ved behandling av unge og aktive pasientar med behov for rask tilbakekomst til fysisk aktivitet. Det har i fleire land vore ein auke i tal pasientar, både unge og vaksne, som blir operativt behandla ved kragebeinsbrot. Dette trass i diskusjonen om nytten er større enn risikoen ved operativ behandling av kragebeinsbrot hos unge.
+
+### Bakgrunn
+
+Kragebeinsbrot er definert ved hovud- eller bidiagnose S42.0 (ICD-10). Operativ behandling er definert ved diagnostisert skulderbrot og samtidig ein eller fleire av  prosedyrekodane NBJ22, NBJ32, NBJ42, NBJ52, NBJ62, NBJ72, NBJ82, NBJ92 (NCSP).  Konservativ behandling er definert ved  diagnostisert skulderbrot og fråvere av prosedyrekodar. Pasientar i alle aldrar er inkludert. 
+
+Det skjer årleg i gjennomsnitt nær 5 000 kragebeinsbrot i Noreg, og 13 % av brota blir operert. 
+
+
+
 * [Prolaps i korsryggen](/helseatlas/files/ortopedi_faktaark_prolaps_i_korsryggen.pdf)
 * [Spinal stenose i korsryggen](/helseatlas/files/ortopedi_faktaark_spinal_stenose_i_korsryggen.pdf)
 * [Andre korsryggsmerter](/helseatlas/files/ortopedi_faktaark_andre_korsryggsmerter.pdf)
