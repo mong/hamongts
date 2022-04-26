@@ -9,7 +9,7 @@ frontpagetext: I helseatlas i ortopedi for Noreg har vi kartlagt geografisk
   variasjon i bruk av spesialisthelsetenester innan ortopedi i 2012–2016.
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
-toc: false
+toc: true
 lang: nn
 ---
 <div className="ingress">
