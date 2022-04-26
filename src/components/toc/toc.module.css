@@ -4,11 +4,34 @@
   top: 10px;
 }
 
-.toc {
-  text-align: left;
-  margin-right: 20px;
-  max-width: 200px;
-  min-width: 200px;
-  overflow: hidden;
-  margin-top: 180px;
+@media screen and (min-width: 943px) {
+  .toc_small_wrapper {
+    display: none;
+  }
+  .toc {
+    text-align: left;
+    margin-right: 40px;
+    max-width: 200px;
+    min-width: 200px;
+    overflow: hidden;
+    margin-top: 180px;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 942px) {
+  .toc_large {
+    display: none;
+  }
+  .toc_small_wrapper {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    position: sticky;
+    z-index: 999;
+  }
+  .toc_small_content {
+    margin: 10px auto;
+    width: 100%;
+  }
 }

@@ -53,7 +53,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
             lang={obj.lang}
             ia={false}
           />
-          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
+          <div className={`${styles.atlasContent}`}>
             <TableOfContents>
               <OrderedList>
                 {tocContent.map((cont) => {
