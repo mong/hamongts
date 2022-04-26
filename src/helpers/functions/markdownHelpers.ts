@@ -15,7 +15,7 @@ export const getMDInfo = (dirPath: string) => {
 
       const { data } = matter(rawContent, {
         engines: {
-          yaml: (s) => yaml.safeLoad(s, { schema: yaml.JSON_SCHEMA }),
+          yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }),
         },
       });
       const article = fn.replace(/\.md$/, "");
