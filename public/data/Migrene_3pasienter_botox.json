@@ -8,7 +8,17 @@
       ],
       "y": "bohf",
       "xLabel": "Andel pasienter som bruker Botulintoksin",
-      "yLabel": "Opptaksområder"
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2019",
+        "rate2020",
+        "rate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
     },
     {
       "type": "barchart",
@@ -28,7 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019-2021",
       "columns": [
         {
           "id": "bohf",
