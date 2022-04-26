@@ -86,9 +86,52 @@ Degenerative knelidingar er definert ved hovud- eller bidiagnose M17, M22.4, M23
 
 ![]( "Samla tal artroskopiar for degenerative knelidingar, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
+![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
+### Resultat
 
-* [Tommelartrose](/helseatlas/files/ortopedi_faktaark_tommelartrose.pdf)
+Det er meir enn fire ganger så vanleg med artroskopi for degenerative knelidingar i buområde Førde som i buområde Stavanger, og tal artroskopiar går ned i nesten alle buområda.  
+
+Over halvparten av artroskopiane er utført ved offentlege sjukehus (65 %), dei aller fleste i pasienten sitt buområde. I seks av buområda blir omtrent halvparten av artroskopiane utført på private anbodssjukehus eller hos avtalespesialistar, og prosentdelen er størst (65 %) i buområde St. Olavs.
+
+I 37 % av artroskopiane er hovudtilstanden kneleddsartrose, og prosentdelen varierer mellom buområda frå 18 % i buområde OUS til 63 % i buområde Bergen.
+
+![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i bruk av artroskopi som behandling for degenerative knelidingar hos pasientar 50 år og eldre er særleg stor. Det føreligg ikkje kunnskap om variasjon i førekomsten av degenerative knelidingar som kan forklare variasjonen, og den blir karakterisert som uønska. Variasjonen skuldast truleg forskjellar i preferanser og tilbod i spesialisthelsetenesta i ulike deler av landet.
+
+Det er ein tydleg reduksjon i tal artroskopiar i perioden, men bruken av artroskopisk kirurgi ved degenerative knelidingar er fortsatt uforholdsmessig stor.
+
+## Tommelartrose
+
+Tommelartrose skuldast slitasje av brusken på leddflatene over lengre tid, hos yngre ofte etter tidlegare skade eller brot. Om lag 10 % av personar over 30 år har tommelartrose, men ikkje alle har symptom. Smerte og redusert bevegelse i leddet blir ofte gradvis verre. Mange oppnår gode resultat med enkle tiltak som smertelindrande medisinar og avlasting med skinne. Operativ behandling kan vurderast ved lang tids utvikling av tilstanden; enten  rekonstruksjon av leddfunksjonen, avstiving av leddet eller innsetting av kunstig ledd (protese). Sjølv om det ikkje er fagleg semje om beste metode, oppnår pasientane ofte god smertelindring og god funksjon etter operasjon.
+
+### Bakgrunn
+
+Tommelartrose er definert ved hovud- eller bidiagnose M18 (ICD-10). Operativ behandling er definert ved diagnostisert tommelartrose og samtidig ein eller fleire av  prosedyrekodane NDB01, NDB02, NDB03, NDB11, NDB12, NDB13, NDB20, NDB30, NDB40, NDB50, NDB80, NDB81, NDB82, NDB99, NDG02, NDG12, NDG22, NDG32, NDG42, NDG52, NDG92, NDK11 eller enkelte kodar frå kategoriblokkene NDE, NDF, NDK eller NDL (NCSP). Pasientar som er 18 år eller eldre er inkludert, med unntak i figuren som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt omtrent 800 pasientar med tommelartrose som blir operert i Noreg. Det utgjer i ein tredjedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av tommelartrose.
+
+![]( "Samla tal operasjonar for tommelartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er tre gonger så vanleg å bli operert for tommelartrose i buområde Fonna som i buområde OUS. Med få operasjonar kan ein stor del av variasjonen likevel vere tilfeldig. Tal operasjonar per innbyggar ser ut til å auke i enkelte buområde. Prosentdel opererte er høgast i buområde Stavanger (42 %) og lågast i buområde OUS (16 %).  
+
+Dei fleste (93 %) blir opererte på offentleg sjukehus. I enkelte buområde er det ein forholdsvis stor del av pasientane som blir opererte på offentleg sjukehus i eit anna buområde (opp til 75 %), eller ved offentleg finansierte private tenestetilbydarar (opp til 41 %).
+
+Det er stor variasjon i bruk av operasjonsteknikk mellom buområda. I løpet av perioden blir ekskisjonsartroplastikk den mest brukte. Interposisjonsartroplastikk er i slutten av perioden den nest vanlegaste.
+
+![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012--2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Vi har vurdert at den systematiske variasjonen i operativ behandling av tommelartrose er moderat til stor. Siden det er ikkje kjent at førekomsten av tommelartrose varierer tilsvarande mellom ulike deler av landet har vi vurdert variasjonen i operasjonsrate også er uønska.
+
 * [Handleddsbrot](/helseatlas/files/ortopedi_faktaark_handleddsbrot.pdf)
 * [Ankelbrot](/helseatlas/files/ortopedi_faktaark_ankelbrot.pdf)
 * [Hoftebrot](/helseatlas/files/ortopedi_faktaark_hoftebrot.pdf)
