@@ -29,6 +29,6 @@ jobs:
       - name: Sync to S3 bucket
         if: github.event_name != 'pull_request'
         run: |
-          aws s3 sync out ${{ env.s3_bucket }} --exclude "ia/*" --delete --cache-control "public, max-age=86400"
+          aws s3 sync out ${{ env.s3_bucket }} --delete --cache-control "public, max-age=86400"
           aws s3 cp out/index.html ${{ env.s3_bucket }}/index.html --cache-control "public, max-age=1, s-maxage=1"
           aws s3 cp out/admin/index.html ${{ env.s3_bucket }}/admin/index.html --cache-control "public, max-age=1, s-maxage=1"
