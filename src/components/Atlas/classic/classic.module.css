@@ -7,11 +7,6 @@
   width: 80%;
 }
 
-.atlasContent p a,
-.atlasContent a {
-  color: revert;
-}
-
 .atlasContent table {
   border-collapse: collapse;
   width: 80%;
