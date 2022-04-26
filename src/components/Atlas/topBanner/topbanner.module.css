@@ -5,7 +5,7 @@
 }
 
 .bannerWrapper {
-  width: min(95%, 1221px);
+  width: min(95%, 1216px);
   margin: auto;
   display: flex;
   justify-content: space-between;
