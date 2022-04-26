@@ -1,6 +1,7 @@
 .atlasContent {
-  width: min(90%, 60rem);
+  width: min(95%, 1221px);
   margin: auto;
+  padding: 16px;
 }
 
 .atlasContent img {
