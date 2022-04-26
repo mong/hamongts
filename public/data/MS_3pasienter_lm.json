@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Andel MS-pasienter som bruker høyaktive legemidler",
+      "xLabel": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -55,7 +55,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Andel MS-pasienter som bruker høyaktive legemidler",
+      "caption": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
       "jenks": [
         {
           "CLUSTER": 1,
