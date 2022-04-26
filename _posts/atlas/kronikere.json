@@ -105,7 +105,8 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "#### Hovedfunn\n\n* Det var stor og uberettiget variasjon i bruk av spesialistkonsultasjoner for eldre (65 år og eldre) med epilepsi.\n* Det var betydelig geografisk variasjon i bruk av spesialistkonsultasjoner for barn. \n* Andelen pasienter som kun hadde kontakter i kommunehelsetjenesten varierte fra 19,2 % i opptaksområdet Østfold til 8,6 % i opptaksområdene Nordland og Diakonhjemmet."
+          "tekst": "#### Hovedfunn\n\n* Det var stor og uberettiget variasjon i bruk av spesialistkonsultasjoner for eldre (65 år og eldre) med epilepsi.\n* Det var betydelig geografisk variasjon i bruk av spesialistkonsultasjoner for barn. \n* Andelen pasienter som kun hadde kontakter i kommunehelsetjenesten varierte fra 19,2 % i opptaksområdet Østfold til 8,6 % i opptaksområdene Nordland og Diakonhjemmet.",
+          "beskrivelse": "Hovedfunn"
         },
         {
           "type": "faktaboks",
