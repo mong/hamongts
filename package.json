@@ -52,7 +52,7 @@
     "@cypress/code-coverage": "^3.9.12",
     "@types/d3-scale-chromatic": "^3.0.0",
     "@types/d3-shape": "^3.0.2",
-    "@types/react": "18.0.6",
+    "@types/react": "18.0.7",
     "babel-plugin-istanbul": "^6.1.1",
     "cypress": "^9.6.0",
     "eslint": "8.14.0",
