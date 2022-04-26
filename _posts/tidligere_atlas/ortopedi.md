@@ -44,9 +44,50 @@ Det er store forskjellar mellom buområda i operasjonsteknikk brukt for innsetti
 
 Variasjonen i operasjonsrate for hofteleddsartrose mellom buområda er relativt liten. Den kan til dels skuldast forskjellar mellom områda i genetiske faktorar eller andre kjenneteikn hos pasientane (type arbeid mv). Vi antar likevel at variasjonen heller skuldast skilnader i tilvisningspraksis, kapasitet og liknande faktorar, og karakteriserar derfor variasjonen som uønska.
 
+## Kneleddsartrose
 
-* [Kneleddsartrose](/helseatlas/files/ortopedi_faktaark_kneleddsartrose.pdf)
-* [Artroskopi ved degenerative knelidingar](/helseatlas/files/ortopedi_faktaark_artroskopi_ved_degenerative_knelidingar.pdf)
+Kneleddsartrose skuldast slitasje av brusken på leddflatene over lang tid. Meir enn 30 % av innbyggarane over 65 år har kneleddsartose, og det er dobbelt så mange kvinner som menn med tilstanden. Smerte og redusert bevegelse i kneleddet blir ofte gradvis verre. Dei fleste oppnår gode resultat med enkle tiltak som fysisk trening og smertelindrande medisinar. Proteseoperasjon kan bli aktuell i sein fase av sjukdommen, og mange pasientar oppnår god smertelindring, betre funksjon og livskvalitet.
+
+### Bakgrunn
+
+Kneleddsartrose er definert ved hovud- eller bidiagnose M17 (ICD-10). Operativ behandling er definert ved diagnostisert kneleddsartrose og samtidig ein eller fleire av prosedyrekodane NGB01, NGB02, NGB03, NGB04, NGB11, NGB12, NGB13, NGB14, NGB20, NGB30, NGB40, NGB99, NGK59, NGK69 (NCSP).  Pasientar som er 18 år eller eldre er inkludert, med unntak for figur som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt omtrent 5 500 pasientar men kneleddsartrose som blir operert med innsetting av protese eller med osteotomi. Det utgjer ein fjerdedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av kneleddsartrose.
+
+![]( "Samla tal operasjonar for kneleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er nesten dobbelt så vanleg å blir operert for kneleddsartrose, med innsetting av protese eller med osteotomi, i buområde Førde som i buområde OUS. Prosentdel opererte er lågast i buområde Finnmark (20 %) og høgast i buområde Vestfold (31 %). Tal operasjonar per innbyggar ser ut til å auke i mange buområde og på landsnivå. 
+
+Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde er det ein forholdsvis stor del av pasientane som blir opererte på offentleg sjukehus i eit anna buområde.
+
+Innsetting av totalprotese utgjer på landsnivå 85 % av operasjonane, delprotese 11 % og osteotomi 4 %.
+
+![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for kneleddsartrose mellom buområda er moderat. Buområde Førde skil seg ut med høgast operasjonsrate, men mellom dei andre buområda er variasjonen relativt liten. Det føreligg ikkje kunnskap om forskjellar i førekomst av kneleddsartrose som kan forklare variasjonen, og den er vurdert til å vere uønska. 
+
+Operativ behandling av kneleddsartrose auka litt i perioden. Dette er i samsvar med trendar i andre nordiske land og med tilrådingar i Noreg. 
+
+## Artroskopi ved degenerative knelidingar
+
+Artroskopi (kikholsoperasjon) av kneleddet er den vanlegaste ortopediske operasjonen i Noreg. Halvparten av pasientane er 50 år eller eldre, og dei fleste har ei degenerativ kneliding, dvs. aldersrelaterte endringar i kneleddet, som slitasje av bruskoverflater (artrose) eller rifter i meniskar. Studiar har vist at artroskopi ved degenerative knelidingar, med skyljing av leddet og fjerning av meniskflikar og lause bruskbitar, har liten eller ingen effekt. Mellom anna i Helse Sør-Øst RHF har ein jobba målretta for å endre praksis, og vi ser i dei siste åra ein tydeleg nedgang i tal kneartroskopiar.
+
+### Bakgrunn
+
+Degenerative knelidingar er definert ved hovud- eller bidiagnose M17, M22.4, M23.2, M23.3, M23.4, M23.8 eller M23.9 (ICD-10). Operativ behandling (artroskopi) er definert ved diagnostisert degenerativ kneliding og samtidig ein eller fleire av  prosedyrekodane NGA11, NGD01, NGD11, NGD91, NGF01, NGF11, NGF31, NGF91 (NCSP) eller takstkode K05b. Pasientar som er 50 år eller eldre er inkludert, med unntak av i figuren som viser kjønns- og aldersfordeling på opererte (alle aldrar).
+
+Årleg tal artroskopiar, for pasientar 50 år og eldre, minkar i perioden frå nær 9 000 til omtrent 4 000 for landet samla. 
+
+![]( "Samla tal artroskopiar for degenerative knelidingar, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+
+
 * [Tommelartrose](/helseatlas/files/ortopedi_faktaark_tommelartrose.pdf)
 * [Handleddsbrot](/helseatlas/files/ortopedi_faktaark_handleddsbrot.pdf)
 * [Ankelbrot](/helseatlas/files/ortopedi_faktaark_ankelbrot.pdf)
