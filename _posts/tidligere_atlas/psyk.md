@@ -10,7 +10,7 @@ frontpagetext: Helseatlas for psykisk helsevern og rusbehandling gir oversikt
   analyserer geografisk variasjon i bruk av tenestene i Noreg i 2014–2018.
 pdfUrl: /helseatlas/files/psykiskhelsevernogrus.pdf
 ia: true
-toc: false
+toc: true
 lang: nn
 ---
 <div className="ingress">
