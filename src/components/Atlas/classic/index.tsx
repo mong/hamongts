@@ -130,7 +130,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
           style={{
             borderBottom: "1px solid black",
             margin: 0,
-            padding: "3px",
+            padding: "2px 10px",
             textAlign: "left",
           }}
         >

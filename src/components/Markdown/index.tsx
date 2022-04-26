@@ -57,7 +57,12 @@ export const Markdown = ({ children, lang }: MarkdownProp) => {
     th({ children }) {
       return (
         <th
-          style={{ borderBottom: "1px solid black", margin: 0, padding: "3px" }}
+          style={{
+            borderBottom: "1px solid black",
+            margin: 0,
+            padding: "2px 10px",
+            textAlign: "left",
+          }}
         >
           {children}
         </th>
