@@ -1,7 +1,7 @@
 .button {
   justify-content: space-between;
   flex-direction: row-reverse;
-  font-size: 18px;
+  font-size: 1.125rem;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -37,6 +37,7 @@
   width: 20px;
   background-color: #034584;
   height: 1px;
+  margin: 4px 0 3px;
 }
 
 .buttonText {

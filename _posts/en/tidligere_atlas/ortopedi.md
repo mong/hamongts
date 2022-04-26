@@ -1,11 +1,11 @@
 ---
 filename: "ortopedi"
 image: /helseatlas/img/no/ortopedi/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2018-12-10T12:00:00.000Z"
 num: 7
 mainTitle: Orthopaedic Healthcare Atlas for Norway
 shortTitle: Orthopaedic
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: In the health atlas in orthopedics for Norway, we have mapped geographical variation in the use of specialist health services within orthopedics in 2012–2016.
 pdfUrl: /helseatlas/files/report_orthopaedic.pdf
 ia: true
 lang: en

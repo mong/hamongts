@@ -8,12 +8,22 @@
       ],
       "y": "bohf",
       "xLabel": "Andel pasienter med minst en sykemelding",
-      "yLabel": "Opptaksområder"
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2019",
+        "rate2020",
+        "rate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019-2021",
       "columns": [
         {
           "id": "bohf",

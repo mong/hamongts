@@ -1,11 +1,11 @@
 ---
 filename: "nyfodt"
 image: /helseatlas/img/no/nyfodt/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2016-12-13T12:00:00.000Z"
 num: 3
 mainTitle: The Norwegian Neonatal Healthcare Atlas, 2009-2014
 shortTitle: Neonatal Atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The Norwegian Neonatal Medical Health Atlas covers all newborn children who have been admitted to wards for sick newborns in Norway in the period 2009 to 2014.
 pdfUrl: /helseatlas/files/norwegian-neonatal-healthcare.pdf
 ia: true
 lang: en
