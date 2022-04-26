@@ -1,6 +1,6 @@
 ---
 filename: ortopedi
-date: "2018-12-10T12:00:00.000Z"
+date: 2018-12-10T12:00:00.000Z
 num: 7
 mainTitle: Helseatlas i ortopedi for Noreg
 shortTitle: Ortopedi
@@ -12,11 +12,10 @@ ia: true
 toc: false
 lang: nn
 ---
+<div className="ingress">
+Nynorsk ingress kjem...
+</div>
 
-## Faktaark
-
-Faktaarka inneheld ei kort oppsummering av resultata frå helseatlas i ortopedi. Kvar av tilstandane er skildra og innbyggarane sin bruk av helsetenester vist gjennom figurar og tekst. Innbyggarane sin bruk av helsetenester er oppsummert og vist som tal operasjonar eller innleggingar per 100 000 innbyggarar per buområde. Variasjonen i bruk av helsetenester er kort kommentert.
-Ved behov for eller ønske om eksakt definisjon av utval som er brukt i analysane – ta gjerne kontakt.
 
 * [Hofteleddsartrose](/helseatlas/files/ortopedi_faktaark_hofteleddsartrose.pdf)
 * [Kneleddsartrose](/helseatlas/files/ortopedi_faktaark_kneleddsartrose.pdf)
