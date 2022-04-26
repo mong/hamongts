@@ -110,6 +110,37 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
         </figure>
       );
     },
+    table({ children }) {
+      return (
+        <table
+          style={{
+            borderCollapse: "collapse",
+            margin: "auto",
+            borderTop: "2px solid black",
+            borderBottom: "2px solid black",
+          }}
+        >
+          {children}
+        </table>
+      );
+    },
+    th({ children }) {
+      return (
+        <th
+          style={{
+            borderBottom: "1px solid black",
+            margin: 0,
+            padding: "3px",
+            textAlign: "left",
+          }}
+        >
+          {children}
+        </th>
+      );
+    },
+    td({ children }) {
+      return <td style={{ padding: "2px 10px" }}>{children}</td>;
+    },
   };
 
   const text = `
