@@ -12,9 +12,6 @@ ia: true
 toc: false
 lang: nn
 ---
-Dette er litt tekst
-
-![Dette er et bilde](/helseatlas/img/no/ortopedi/frontpage.jpg "Dette er figurtekst")
 
 ## Faktaark
 
