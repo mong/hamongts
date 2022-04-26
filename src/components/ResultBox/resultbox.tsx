@@ -84,7 +84,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             if (bd.type === "table") {
               return (
                 <CarouselItem key={bd.type + i + id} label={bd.type}>
-                  <DataTable headers={bd.columns} data={figData} />
+                  <DataTable
+                    headers={bd.columns}
+                    data={figData}
+                    caption={bd.caption}
+                  />
                 </CarouselItem>
               );
             }
