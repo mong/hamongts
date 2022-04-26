@@ -26,15 +26,18 @@ Barn og unge mellom 0 og 17 år som i 2014--2018 hadde minst ein poliklinisk kon
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert. 
 
 ### Resultat
+Kvart år var det 49 000 barn og unge i poliklinisk behandling ved  psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman 584 000 polikliniske kontaktar per år i Noreg. 
 
-Kvart år var det 49~000 barn og unge i poliklinisk behandling ved  psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman 584~000 polikliniske kontaktar per år i Noreg.
+Pasientraten varierte i buområda frå 36 til 58 barn og unge i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 429 til 726 kontaktar per 1 000 innbyggarar, med 517 som gjennomsnittleg årsrate.
 
-Pasientraten varierte i buområda frå 36 til 58 barn og unge i poliklinisk behandling per 1~000 innbyggarar per år. Kontaktraten varierte i buområda frå 429 til 726 kontaktar per 1~000 innbyggarar, med 517 som gjennomsnittleg årsrate. 
+Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet varierte i buområda frå 8 til 16 polikliniske kontaktar per år.
 
-Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet varierte i buområda frå 8 til 16 polikliniske kontaktar per år. 
+### Kommentar
+Barn og unge i poliklinisk behandling er ei stor pasientgruppe innan psykisk helsevern. Buområda med lågare folketal tenderer til å ha fleire pasientar i forhold til innbyggartal. Variasjonen mellom buområda er likevel liten både for kontaktratar og pasientratar. 
 
+Nedgangen i poliklinisk kontaktrate for Noreg i 2018 kan vere påverka av både innføring av nytt journalsystem i nokre helseføretak i perioden, og ein auke i tenestetilbodet for barn og unge si psykiske helse i kommunane.
 
-Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
+### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
 - [Barn og unge - poliklinikk](/helseatlas/files/phv_faktaark_barnunge_poliklinikk.pdf)
 - [Barn og unge - poliklinikk - alderssegment](/helseatlas/files/phv_faktaark_barnunge_pol_alderssegment.pdf)
