@@ -21,6 +21,7 @@ Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert u
 Psykiske lidingar blir ofte kalla «de unges lidelser», og i dei fleste tilfelle har lidinga vist seg hos pasienten før fylte 25 år. Gutar i psykisk helsevern blir i stor grad tilvist i barneskolealder. Hos gutar er utviklingsforstyrringar og adferdsforstyrringar mest vanlege tilstandar, og mistanke om hyperkinetisk forstyrrelse (ADHD) vanleg årsak for tilvising. Hovedvekta av jentene i psykisk helsevern blir tilvist i ungdomsskolealder. Vanlege grunnar for tilvisinga er mistanke om depresjon eller angstliding, og frå puberteten også tilpassingsforstyrringar og spiseforstyrringar. For dei minste barna kan poliklininisk behandling gjelde mødre med fødselsdepresjon, barn med autisme, premature, rusmiddelskadde eller samansett barnevernsproblematikk. 95 % av behandlinga for barn og unge i psykisk helsevern skjer poliklinisk, og dei fleste opphalda i døgnbehandling er frivillig.
 
 ###Utval og definisjonar
+Barn og unge mellom 0 og 17 år som i 2014--2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet.
 
 
 Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
