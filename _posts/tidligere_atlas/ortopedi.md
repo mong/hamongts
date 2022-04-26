@@ -26,9 +26,9 @@ Hofteleddsartrose er definert ved hovud- eller bidiagnose M16 (ICD-10). Pasienta
 
 Det er årleg i gjennomsnitt over 7 400 pasientar med hofteleddsartrose som blir operert. Det utgjer halvparten av pasientane som er i kontakt med spesialisthelsetenesta på grunn av hofteleddsartrose.
 
-![]( "Samla tal operasjonar for hofteleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1ho-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for hofteleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -38,7 +38,7 @@ Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde e
 
 Det er store forskjellar mellom buområda i operasjonsteknikk brukt for innsetting av totalprotese. På landsnivå er det relativt jamn fordeling; innsetting av totalprotese med hybridteknikk (41 %), insetting utan sement (30 %) og insetting med sement (29 %).
 
-![]( "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -257,8 +257,6 @@ Prosentdel opererte skulderbrot er litt lågare enn venta, men i samsvar med kor
 Kragebeinsbrot er definert ved hovud- eller bidiagnose S42.0 (ICD-10). Operativ behandling er definert ved diagnostisert skulderbrot og samtidig ein eller fleire av  prosedyrekodane NBJ22, NBJ32, NBJ42, NBJ52, NBJ62, NBJ72, NBJ82, NBJ92 (NCSP).  Konservativ behandling er definert ved  diagnostisert skulderbrot og fråvere av prosedyrekodar. Pasientar i alle aldrar er inkludert. 
 
 Det skjer årleg i gjennomsnitt nær 5 000 kragebeinsbrot i Noreg, og 13 % av brota blir operert. 
-
-
 
 * [Prolaps i korsryggen](/helseatlas/files/ortopedi_faktaark_prolaps_i_korsryggen.pdf)
 * [Spinal stenose i korsryggen](/helseatlas/files/ortopedi_faktaark_spinal_stenose_i_korsryggen.pdf)
