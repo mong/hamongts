@@ -16,10 +16,6 @@
   line-height: 1.5;
 }
 
-.body ul {
-  margin: 2.5rem 1rem;
-}
-
 .body ul ul li {
   position: relative;
   border-bottom: 1px solid #999;
@@ -62,7 +58,10 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 10px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.inner_nav_group {
+  margin-top: 40px;
 }
