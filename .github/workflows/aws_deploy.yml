@@ -1,9 +1,9 @@
 name: Deploy app to AWS
 on:
   push:
-    branches: [develop]
+    branches: [main, develop]
   pull_request:
-    branches: [develop, dependabot_updates]
+    branches: [main, develop, dependabot_updates]
 
 jobs:
   deploy_to_S3:
