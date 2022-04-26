@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import yaml from "js-yaml";
 
 export const getMDInfo = (dirPath: string) => {
   const files = fs.readdirSync(dirPath, "utf-8");
@@ -12,7 +13,11 @@ export const getMDInfo = (dirPath: string) => {
         encoding: "utf-8",
       });
 
-      const { data } = matter(rawContent);
+      const { data } = matter(rawContent, {
+        engines: {
+          yaml: (s) => yaml.safeLoad(s, { schema: yaml.JSON_SCHEMA }),
+        },
+      });
       const article = fn.replace(/\.md$/, "");
       return {
         article,
