@@ -1,0 +1,12 @@
+.github/
+.next/
+.nyc_output/
+coverage/
+node_modules/
+public/ia/
+package-lock.json
+**/*.min.*
+tsconfig.json
+yarn.lock
+_posts/
+public/data
