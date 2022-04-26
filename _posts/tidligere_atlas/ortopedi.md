@@ -9,7 +9,7 @@ frontpagetext: I helseatlas i ortopedi for Noreg har vi kartlagt geografisk
   variasjon i bruk av spesialisthelsetenester innan ortopedi i 2012–2016.
 pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
-toc: true
+toc: false
 lang: nn
 ---
 <div className="ingress">
@@ -132,8 +132,40 @@ Det er stor variasjon i bruk av operasjonsteknikk mellom buområda. I løpet av 
 
 Vi har vurdert at den systematiske variasjonen i operativ behandling av tommelartrose er moderat til stor. Siden det er ikkje kjent at førekomsten av tommelartrose varierer tilsvarande mellom ulike deler av landet har vi vurdert variasjonen i operasjonsrate også er uønska.
 
-* [Handleddsbrot](/helseatlas/files/ortopedi_faktaark_handleddsbrot.pdf)
-* [Ankelbrot](/helseatlas/files/ortopedi_faktaark_ankelbrot.pdf)
+## Handleddsbrot
+
+Handleddsbrot er den mest vanlege brotskaden i Noreg, og utgjer omtrent 20 % av alle brot. Dette er blant dei høgaste førekomstane i verda. Det er flest gutar under 20 år og kvinner eldre enn 50 år som blir ramma av handleddsbrot. Nasjonale retningslinjer for behandling av handleddsbrot hos vaksne (publisert i 2013) er utarbeidd for å redusere variasjonen i behandlingsrutinane mellom sjukehusa, og for å gi pasientane ei optimal behandling. Stabile brot blir behandla konservativt, mens operasjon blir tilrådd ved ustabile handleddsbrot. Retninglinene tilrår operasjon med innsetting av plate, framfor ekstern fiksasjon eller andre måtar for å fiksere brotet. Når pasienten har lågt funksjonsnivå blir det tilrådd å vere tilbakehalden med operativ behandling.
+
+### Bakgrunn
+
+Handleddsbrot er definert ved hovud- eller bidiagnose S52.5 eller S52.6 (ICD-10). Operativ behandling er definert ved diagnostisert handleddsbrot og samtidig ein eller fleire av prosedyrekodane NCJ25, NCJ27, NCJ35, NCJ37, NCJ45, NCJ47, NCJ55, NCJ57, NCJ65, NCJ67, NCJ75, NCJ77, NCJ85, NCJ87, NCJ95, NCJ97 (NCSP).  Konservativ behandling er definert ved  diagnostisert handleddsbrot og fråvere av prosedyrekodar. Pasientar som er 18 år eller eldre er inkludert, med unntak i figur som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
+
+Det skjer årleg i gjennomsnitt omtrent 12 500 handleddsbrot i Noreg, og en tredjedel av brota blir opererte.
+
+![]( "Tal operasjonar for handleddsbrot for heile landet i perioden 2012 – 2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Brotrate: Tal handleddsbrot per 100~000 innbyggarar (18 år og eldre) per år i perioden 2012 – 2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
+
+### Resultat
+
+Det er meir enn dobbelt så vanleg å bli operert for handleddsbrot i buområde Førde som i buområde Helgelandssykehuset. 
+
+I buområda Finnmark og Helgelandssykehuset blir  22 % av handleddsbrota opererte, mot 47 % i buområde Vestfold. På landsnivå blir 31 % av alle handleddsbrot opererte.
+
+Fiksasjon med plate er den vanlegaste operasjonsmetoden i nesten alle buområda. Berre i buområda Stavanger og Helgelandssykehuset blir ekstern fiksasjon brukt i stor grad.
+
+![]( "Operasjonsrate: Tal opererte handleddsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012 – 2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operasjonsrate for handleddsbrot er stor. Ein del av variasjonen skuldast skilnader i førekomst mellom buområda, men variasjonen både i prosentdel opererte og operasjonsrate er så pass stor at det er grunn til å tru at det framleis er ein komponent av uønska variasjon i behandling av handleddsbrot i perioden.
+
+I åra etter publiseringa av nasjonale retningslinjer (2013), ser vi at behandlingspraksis blir meir einsarta i landet. Variasjonen i operasjonsrate minkar, ved at operasjonsratane i buområde med flest og færrast operasjonar per innbyggar går mot landsgjennomsnittet.
+
+## Ankelbrot
+
+
+
 * [Hoftebrot](/helseatlas/files/ortopedi_faktaark_hoftebrot.pdf)
 * [Skulderbrot](/helseatlas/files/ortopedi_faktaark_skulderbrot.pdf)
 * [Kragebeinsbrot](/helseatlas/files/ortopedi_faktaark_kragebeinsbrot.pdf)
