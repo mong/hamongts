@@ -1,11 +1,11 @@
 ---
 filename: "psyk"
 image: /helseatlas/img/no/psyk/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2020-06-09T12:00:00.000Z"
 num: 10
 mainTitle: Healthcare Atlas for Mental Healthcare and Substance Abuse Treatment
 shortTitle: Mental Healthcare
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The health atlas for mental health care and substance abuse treatment provides an overview of the use of mental health care and interdisciplinary specialized substance abuse treatment, and analyzes geographical variation in the use of the services in Norway in 2014–2018.
 pdfUrl: /helseatlas/files/mhc_report.pdf
 ia: true
 lang: en

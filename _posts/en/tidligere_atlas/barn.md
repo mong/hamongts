@@ -1,11 +1,11 @@
 ---
 filename: "barn"
 image: /helseatlas/img/no/barn/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2015-09-29T12:00:00.000Z"
 num: 2
 mainTitle: Child healthcare atlas for Norway
 shortTitle: Child Healthcare Atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The Child Health Atlas provides an insight into the distribution of health services to children in Norway. A total of 10.6 million contacts between children and the health service have been analyzed.
 pdfUrl: /helseatlas/files/child-healthcare-atlas.pdf
 ia: true
 lang: en
