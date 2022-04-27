@@ -6,6 +6,7 @@ import { imgLoader } from "../../helpers/functions";
 import classNames from "./Header.module.css";
 
 import { MenuButton } from "../Btns/MenuButton";
+import { Menu } from "../Menu";
 import { PopUp } from "../popup";
 
 type HeaderProps = {
@@ -54,7 +55,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
             </div>
           </div>
           <PopUp btnComponent={() => <MenuButton lang={lang} />}>
-            {"MENY"}
+            <Menu lang={lang} />
           </PopUp>
         </div>
       </nav>
