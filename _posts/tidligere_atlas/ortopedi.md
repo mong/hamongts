@@ -426,4 +426,4 @@ I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buomr
 
 Bruk av helsetenester analysert ut frå buområde, viser innbyggarane i området sin bruk av helsetenester uansett kvar behandlinga er utført.
 
-**Oversikt** over kva kommunar og bydelar som høyrer til i buområda finn du **[her](/helseatlas/files/ortopedi_buomraader.pdf)**.
+Oversikt over kva kommunar og bydelar som høyrer til i buområda finn du **[her](/helseatlas/files/ortopedi_buomraader.pdf)**.
