@@ -293,10 +293,8 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 1 258         | 204           | 6,2                 |
 | Noreg           | 299 349       | 25 027        | 12,0                |
 
-
 Poliklinisk behandling for vaksne (18-64 år) med rusliding i psykisk helsevern og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet.
 Gjennomsnittsverdiar per år for perioden 2014-2018.
-
 
 ### Resultat
 
@@ -350,7 +348,6 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Noreg           | 11 562        | 19 802      | 33,2             |
 
 Døgnbehandling for vaksne (18-64 år) med rusliding, i psykisk helsevern og TSB. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
-
 
 ### Resultat
 
@@ -468,7 +465,6 @@ Opphaldsraten varierte i buområda frå 3,1 til 9,4 døgnopphald per 1 000 innby
 
 ![](/helseatlas/img/no/psyk/p2va_dog_opp_alv_faktaark-1.png "Opphaldsrate for vaksne med alvorleg psykisk liding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
-
 ### Kommentar
 
 Det er stor variasjon i døgnbehandling for vaksne med alvorleg psykisk liding, sjølv om variasjonen i pasientrate er liten. Pasientar i nord har kortare døgnopphald, mens opphald i Oslo-områda har lengst varigheit. 
@@ -540,9 +536,7 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Møre og Romsdal | 250           | 426         | 19,2             |
 | Noreg           | 3 813         | 5 634       | 27,4             |
 
-
 Døgnbehandling for eldre (65 år +) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
-
 
 ### Resultat
 
@@ -676,6 +670,34 @@ Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
 
+| Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
+| --------------- | ------------- | ------------- | --------------------- |
+| Lovisenberg     | 1 560         | 78            | 19,9                  |
+| Diakonhjemmet   | 1 728         | 117           | 14,8                  |
+| Sørlandet       | 1 421         | 106           | 13,4                  |
+| St. Olavs       | 1 369         | 124           | 11,0                  |
+| Telemark        | 795           | 80            | 10,0                  |
+| OUS             | 1 314         | 132           | 9,9                   |
+| Bergen          | 2 143         | 225           | 9,5                   |
+| Vestre Viken    | 1 542         | 172           | 8,9                   |
+| Ahus            | 1 299         | 150           | 8,6                   |
+| Fonna           | 728           | 89            | 8,2                   |
+| Vestfold        | 668           | 84            | 7,9                   |
+| Østfold         | 515           | 68            | 7,6                   |
+| Stavanger       | 914           | 120           | 7,6                   |
+| Helgeland       | 160           | 21            | 7,6                   |
+| Møre og Romsdal | 927           | 123           | 7,6                   |
+| Nord-Trøndelag  | 571           | 77            | 7,4                   |
+| Innlandet       | 937           | 143           | 6,6                   |
+| UNN             | 456           | 71            | 6,4                   |
+| Førde           | 236           | 44            | 5,3                   |
+| Nordland        | 145           | 30            | 4,9                   |
+| Finnmark        | 79            | 26            | 3,0                   |
+| Noreg           | 19 507        | 2 074         | 9,4                   |
+
+Poliklinisk behandling for eldre med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar.
+ Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
 ### Resultat
 
 Kvart år var omtrent 2 000 eldre med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman knapt 20 000 polikliniske kontaktar per år i Noreg.
@@ -683,6 +705,8 @@ Kvart år var omtrent 2 000 eldre med alvorleg psykisk liding i poliklinisk beha
 Pasientraten varierte i buområda frå 1,2 til 7,6 eldre med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 6 til 148 kontaktar per 1 000 innbyggarar, med 23 som gjennomsnittleg årsrate.
 
 Eldre med alvorleg psykisk liding hadde i gjennomsnitt 9 polikliniske kontaktar per år, men talet varierte i buområda frå 3 til 20 polikliniske kontaktar årleg per pasient.
+
+![](/helseatlas/img/no/psyk/p2el_pol_alv_kon_faktaark-1.png "Kontaktrate for eldre med alvorleg psykisk liding. Tal polikliniske kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Kommentar
 
@@ -694,9 +718,36 @@ Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorleg
 
 ### Utval og definisjonar
 
-Pasientar i alderen 65 år og eldre som i 2014–2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved
-ICD-10-kodane F20–29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
+Pasientar i alderen 65 år og eldre som i 2014–2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved ICD-10-kodane F20–29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
+
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven.
+
+| Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
+| --------------- | ------------- | ----------- | ---------------- |
+| OUS             | 54            | 69          | 54,1             |
+| Diakonhjemmet   | 36            | 50          | 47,7             |
+| Ahus            | 90            | 118         | 46,6             |
+| Stavanger       | 77            | 110         | 41,7             |
+| Vestre Viken    | 88            | 134         | 37,7             |
+| Østfold         | 54            | 76          | 36,5             |
+| Vestfold        | 41            | 54          | 34,8             |
+| Bergen          | 130           | 205         | 34,7             |
+| Innlandet       | 87            | 135         | 34,4             |
+| Lovisenberg     | 31            | 45          | 34,1             |
+| Telemark        | 45            | 74          | 34,0             |
+| St. Olavs       | 72            | 133         | 31,7             |
+| Finnmark        | 20            | 31          | 29,8             |
+| Nord-Trøndelag  | 28            | 43          | 29,7             |
+| Nordland        | 21            | 30          | 26,5             |
+| Helgeland       | 16            | 24          | 26,0             |
+| Fonna           | 54            | 93          | 26,0             |
+| Sørlandet       | 63            | 104         | 25,1             |
+| Møre og Romsdal | 64            | 109         | 25,0             |
+| UNN             | 39            | 74          | 24,9             |
+| Førde           | 30            | 52          | 22,9             |
+| Noreg           | 1 141         | 1 764       | 34,2             |
+
+Døgnbehandling for eldre (65 år +) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
 ### Resultat
 
@@ -704,6 +755,10 @@ Kvart år hadde 1 141 eldre med alvorleg psykisk liding døgnopphald i psykisk h
 Pasientraten varierte i buområda frå 0,9 til 3,0 eldre med alvorleg psykisk liding i døgnbehandling per 1 000 innbyggarar per år.
 
 Opphaldsraten varierte i buområda frå 1,2 til 4,3 døgnopphald per 1 000 innbyggarar, med 2,1 som gjennomsnittleg årsrate. Opphald for eldre med alvorleg psykisk liding varte i gjennomsnitt 34 døgn, og varierte mellom buområda frå 23 til 54 døgn per opphald.
+
+![](/helseatlas/img/no/psyk/p2el_dog_opp_alv_faktaark-1-1.png "Opphaldsrate for eldre (65 år +) med alvorleg psykisk liding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
+
+
 
 ### Kommentar
 
