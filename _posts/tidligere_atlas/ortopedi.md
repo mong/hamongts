@@ -306,7 +306,7 @@ Det var  ein tydleg variasjon mellom buområda også i tal pasientar med prolaps
 
 ## Spinal stenose i korsryggen
 
-Spinal stenose i korsryggen, det vil seie trang ryggmargskanal, er ei aldersrelatert slitasjeliding, som hos nær 10~% av innbyggarane er årsak til ryggsmerter, og eventuelt også smerter og redusert muskelkraft i beina. Ryggsmerter på grunn av spinal stenose er vanlegast i 50-60 års alder, og førekomsten vil truleg auke med fleire eldre innbyggarar. Konservativ behandling er tilstrekkeleg i dei fleste tilfelle, men operativ behandling kan vere aktuelt ved intense plager hos nøye utvalde pasientar. Ved operasjon blir strukturar som gir innsnevring og trykk på ryggmargen eller nerverøter fjerna, og i tillegg kan avstiving av virvlar vere aktuelt. Pasientar som blir opererte opplever ei tydeleg betring av funksjon, livskvalitet og arbeidsevne, men mange vil ha restplager etter operasjon.
+Spinal stenose i korsryggen, det vil seie trang ryggmargskanal, er ei aldersrelatert slitasjeliding, som hos nær 10 % av innbyggarane er årsak til ryggsmerter, og eventuelt også smerter og redusert muskelkraft i beina. Ryggsmerter på grunn av spinal stenose er vanlegast i 50-60 års alder, og førekomsten vil truleg auke med fleire eldre innbyggarar. Konservativ behandling er tilstrekkeleg i dei fleste tilfelle, men operativ behandling kan vere aktuelt ved intense plager hos nøye utvalde pasientar. Ved operasjon blir strukturar som gir innsnevring og trykk på ryggmargen eller nerverøter fjerna, og i tillegg kan avstiving av virvlar vere aktuelt. Pasientar som blir opererte opplever ei tydeleg betring av funksjon, livskvalitet og arbeidsevne, men mange vil ha restplager etter operasjon.
 
 ### Bakgrunn
 
@@ -386,7 +386,7 @@ Dei aller fleste blir opererte på offentlege sjukehus (75 %), men i fleire buom
 
 Det er stor variasjon i operativ behandling av skade på fremre korsband. Det er ikkje kjent at førekomsten av skade på fremre korsband varierer tilsvarande mellom ulike deler av landet, og variasjonen i offentleg finansiert operativ behandling av skade på fremre korsband blir karakterisert som uønska.
 
-Operativ behandling av barn med skade på fremre korsband er omdiskutert. Praksis i Noreg har vore relativt restriktiv av omsyn til risiko for skade på knoklar i vekstfase. Dei fleste opererte i aldersgruppa 10--19 år, er 16 år og eldre (82 %).
+Operativ behandling av barn med skade på fremre korsband er omdiskutert. Praksis i Noreg har vore relativt restriktiv av omsyn til risiko for skade på knoklar i vekstfase. Dei fleste opererte i aldersgruppa 10-19 år, er 16 år og eldre (82 %).
 
 ## Hjernerystelse
 
