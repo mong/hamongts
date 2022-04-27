@@ -84,11 +84,15 @@ Nedgangen i poliklinisk kontaktrate for Noreg i 2018 kan vere påverka av både 
 
 
 
+
+
+
+
+
+
 ### Barn og unge i poliklinisk behandling - ulike alderssegment
 
 Barn i alderen 0-5 år hadde færrast polikliniske kontaktar. Kontaktraten varierte i buområda frå 37 til 212 kontaktar per 1 000 innbyggarar, med 92 som gjennomsnittleg årsrate. Kontaktraten for barn i alderen 6-12 år varierte i buområda frå 377 til 750 kontaktar per 1 000 innbyggarar, med 524 som gjennomsnittleg årsrate. I alderen 13-17 år var den polikliniske kontaktraten for barn og unge størst, med 1 006 som gjennomsnittleg årsrate. Raten varierte i buområda frå 731 til 1 469 kontaktar per 1 000 innbyggarar.
-
-![](/helseatlas/img/no/psyk/p2bu_pol_kon_aldgr_faktaark-1.png "Kontaktrate, inndeling i aldersgrupper. Poliklinisk kontaktrate for behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet i aldersgruppene 0-5 år, 6-12 år og 13-17 år. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 Barn og unge er den nest største pasientgruppa i helseatlas for psykisk helsevern og rusbehandling. Variasjonen i poliklinisk behandling for 0-17 år er liten både for kontaktratar og pasientratar.
 
@@ -96,9 +100,20 @@ For aldersgruppa 13-17 år er jenter i fleirtal og kontaktraten den høgaste i h
 
 Bruk av poliklinikk for dei ulike alderssegmenta varierer i buområda. Enkelte buområde har relativt høg kontaktrate for barn i gruppa 0--5 år, mens andre har relativt høg kontaktrate i alle alderssegment, og i somme buområde er kontaktratane høge frå tenåra. 
 
+![](/helseatlas/img/no/psyk/p2bu_pol_kon_aldgr_faktaark-1.png "Kontaktrate, inndeling i aldersgrupper. Poliklinisk kontaktrate for behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet i aldersgruppene 0-5 år, 6-12 år og 13-17 år. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
+
+
+
 ### Barn og unge - indirekte polikliniske kontaktar
 
 Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst ein indirekte kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet. Indirekte kontaktar er kontaktar der pasienten (eller pårørande) ikkje var fysisk til stades, og er definert som episodar der variabelen «kontakttype» har verdien «Indirekte pasientkontakt», eller der variabelen «polIndir» ikkje er tom. For psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar er P-takstane P13, P14, P23, P24, P31 og særkodane B0009, B0010, B0011, B0017 inkludert. Hos avtalespesialistar er takstane 26, 31a-f, 33a-b, 60a-b, 70a-b, 80a-b inkludert.  
+
+Kvart år var det nær 275 000 indirekte polikliniske kontaktar for barn og unge i Noreg. 
+Raten for indirekte kontaktar varierte i buområda frå 154 til 357 kontaktar per 1 000 innbyggarar, med 243 som gjennomsnittleg årsrate.
+
+Indirekte kontaktar utgjorde på landsnivå 32 % av alle polikliniske kontaktar for barn og unge, men varierte mellom buområda frå 24 til 43 %.
+
+Dei registrerte typar indirekte kontaktar gikk i retning av fleire telefonsamtalar med pasientane og samarbeidsmøter om pasientane. Tal samarbeidsmøter om pasienten med førstelinjetenesta og anna teneste auka tydeleg dei siste åra i perioden, mens det blei registrert få indirekte kontaktar per telemedisin og tele-/videokonferanse. Endringane kan henge saman med innføring av innsatsstyrt finansiering (ISF), og større fokus på koding også av indirekte kontaktar. 
 
 | Buområde        | Alle kontaktar | Prosentdel Direkte | Prosentdel Indirekte |
 | --------------- | -------------- | ------------------ | -------------------- |
@@ -125,16 +140,15 @@ Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst ein indirekte kontak
 | Vestre Viken    | 81 230         | 63,5               | 36,5                 |
 | Noreg           | 858 229        | 68,0               | 32,0                 |
 
+
+
 Direkte og indirekte kontaktar i poliklinisk behandling. Barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Alle kontaktar (inkluderer direkte og indirekte kontaktar, gjennomsnittsverdiar per år), prosentdel direkte og prosentdel indirekte kontaktar for perioden 2014-2018.
 
-Kvart år var det nær 275 000 indirekte polikliniske kontaktar for barn og unge i Noreg. 
-Raten for indirekte kontaktar varierte i buområda frå 154 til 357 kontaktar per 1 000 innbyggarar, med 243 som gjennomsnittleg årsrate.
 
-Indirekte kontaktar utgjorde på landsnivå 32 % av alle polikliniske kontaktar for barn og unge, men varierte mellom buområda frå 24 til 43 %.
 
 ![](/helseatlas/img/no/psyk/p2bu_polkonind_faktaark-1.png "Kontaktrate for indirekte kontaktar i poliklinisk behandling for barn og unge (0- 17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
-Dei registrerte typar indirekte kontaktar gikk i retning av fleire telefonsamtalar med pasientane og samarbeidsmøter om pasientane. Tal samarbeidsmøter om pasienten med førstelinjetenesta og anna teneste auka tydeleg dei siste åra i perioden, mens det blei registrert få indirekte kontaktar per telemedisin og tele-/videokonferanse. Endringane kan henge saman med innføring av innsatsstyrt finansiering (ISF), og større fokus på koding også av indirekte kontaktar. 
+
 
 ### Døgnbehandling
 
