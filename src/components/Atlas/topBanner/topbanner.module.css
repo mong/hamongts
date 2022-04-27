@@ -1,11 +1,13 @@
 .atlasTopBanner {
-  width: 100vw;
+  width: min(95%, 1216px);
   display: flex;
   align-items: center;
+  padding: 16px;
+  margin: auto;
 }
 
 .bannerWrapper {
-  width: min(90%, 60rem);
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;

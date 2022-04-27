@@ -50,7 +50,9 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   const components: Components = {
     nav({ children, className }) {
       if (className === "toc") {
-        return <TableOfContents> {children}</TableOfContents>;
+        return (
+          <TableOfContents lang={frontMatter.lang}> {children}</TableOfContents>
+        );
       }
       return <nav>{children}</nav>;
     },
