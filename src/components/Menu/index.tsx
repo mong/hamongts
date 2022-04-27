@@ -23,17 +23,68 @@ export const Menu: React.FC<MenuProps> = ({ lang }) => {
 const EnglishMenu = () => {
   return (
     <>
-      <ul>
-        <span className={classNames.title}>About</span>
+      <div className={classNames.inner_nav_group}>
         <ul>
-          <li>
-            <Link href="/en/static/about">Helseatlas</Link>
-          </li>
-          <li>
-            <Link href="/en/static/contact">Contact</Link>
-          </li>
+          <span className={classNames.title}>About</span>
+          <ul>
+            <li>
+              <Link href="/en/static/about">Helseatlas</Link>
+            </li>
+            <li>
+              <Link href="/en/static/contact">Contact</Link>
+            </li>
+          </ul>
         </ul>
-      </ul>
+      </div>
+      <div className={classNames.inner_nav_group}>
+        <ul>
+          <span className={classNames.title}>Our Helseatlas</span>
+          <ul>
+            <li>
+              <Link href="/en/kvalitet">Healthcare Quality Atlas</Link>
+            </li>
+            <li>
+              <Link href="/en/psyk">
+                Healthcare Atlas for Mental Healthcare and Substance Abuse
+                Treatment
+              </Link>
+            </li>
+            <li>
+              <Link href="/en/fodsel">Obstetrics Healthcare Atlas</Link>
+            </li>
+            <li>
+              <Link href="/en/gyn">Gynaecology Healthcare Atlas</Link>
+            </li>
+            <li>
+              <Link href="/en/ortopedi">
+                Orthopaedic Healthcare Atlas for Norway
+              </Link>
+            </li>
+            <li>
+              <Link href="/en/dagkir2">Day surgery in Norway 2013–2017</Link>
+            </li>
+            <li>
+              <Link href="/en/kols">COPD Healthcare Atlas</Link>
+            </li>
+            <li>
+              <Link href="/en/eldre">
+                Healthcare Atlas for the Elderly in Norway
+              </Link>
+            </li>
+            <li>
+              <Link href="/en/nyfodt">
+                The Norwegian Neonatal Healthcare Atlas
+              </Link>
+            </li>
+            <li>
+              <Link href="/en/barn">Child healthcare atlas for Norway</Link>
+            </li>
+            <li>
+              <Link href="/en/dagkir">Day surgery in Norway 2011–2013</Link>
+            </li>
+          </ul>
+        </ul>
+      </div>
     </>
   );
 };
