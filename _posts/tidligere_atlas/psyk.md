@@ -29,6 +29,16 @@ Barn og unge mellom 0 og 17 år som i 2014--2018 hadde minst ein poliklinisk kon
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert. 
 
+
+
+### Resultat
+
+Kvart år var det 49 000 barn og unge i poliklinisk behandling ved  psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman 584 000 polikliniske kontaktar per år i Noreg. 
+
+Pasientraten varierte i buområda frå 36 til 58 barn og unge i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 429 til 726 kontaktar per 1 000 innbyggarar, med 517 som gjennomsnittleg årsrate.
+
+Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet varierte i buområda frå 8 til 16 polikliniske kontaktar per år.
+
 | Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
 | --------------- | ------------- | ------------- | --------------------- |
 | St. Olavs       | 48 121        | 3 133         | 15,5                  |
@@ -54,15 +64,11 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Førde           | 11 690        | 1 401         | 8,3                   |
 | Noreg           | 583 992       | 49 094        | 11,9                  |
 
+
+
 Poliklinisk behandling for barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år var det 49 000 barn og unge i poliklinisk behandling ved  psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman 584 000 polikliniske kontaktar per år i Noreg. 
-
-Pasientraten varierte i buområda frå 36 til 58 barn og unge i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 429 til 726 kontaktar per 1 000 innbyggarar, med 517 som gjennomsnittleg årsrate.
-
-Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet varierte i buområda frå 8 til 16 polikliniske kontaktar per år.
 
 ![](/helseatlas/img/no/psyk/p2bu_polkon_faktaark-1.png "Kontaktrate for poliklinisk behandling for barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -71,8 +77,6 @@ Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet va
 Barn og unge i poliklinisk behandling er ei stor pasientgruppe innan psykisk helsevern. Buområda med lågare folketal tenderer til å ha fleire pasientar i forhold til innbyggartal. Variasjonen mellom buområda er likevel liten både for kontaktratar og pasientratar. 
 
 Nedgangen i poliklinisk kontaktrate for Noreg i 2018 kan vere påverka av både innføring av nytt journalsystem i nokre helseføretak i perioden, og ein auke i tenestetilbodet for barn og unge si psykiske helse i kommunane.
-
-
 
 
 
@@ -140,6 +144,16 @@ Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst eitt døgnopphald i 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
 
+
+
+### Resultat
+
+Kvart år hadde 1 770 barn og unge døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, med omtrent 2 600 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 0,7 til 4,0 barn og unge i døgnbehandling per 1 000 innbyggarar per år. 
+
+Opphaldsraten varierte i buområda frå 0,9 til 5,8 døgnopphald per 1 000 innbyggarar, med 2,3 som gjennomsnittleg årsrate. Opphald for barn og unge varte i gjennomsnitt 27 døgn, men varierte særleg mykje mellom buområda frå 14 til 68 døgn per opphald.
+
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
 | Lovisenberg     | 13            | 15          | 67,0             |
@@ -165,15 +179,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Nord-Trøndelag  | 103           | 117         | 14,3             |
 | Noreg           | 1 770         | 2 581       | 26,9             |
 
+
+
 Døgnbehandling for barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 1 770 barn og unge døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, med omtrent 2 600 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 0,7 til 4,0 barn og unge i døgnbehandling per 1 000 innbyggarar per år. 
-
-Opphaldsraten varierte i buområda frå 0,9 til 5,8 døgnopphald per 1 000 innbyggarar, med 2,3 som gjennomsnittleg årsrate. Opphald for barn og unge varte i gjennomsnitt 27 døgn, men varierte særleg mykje mellom buområda frå 14 til 68 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2bu_dognopph_faktaark-1.png "Opphaldsrate for døgnbehandling for barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -181,9 +191,13 @@ Opphaldsraten varierte i buområda frå 0,9 til 5,8 døgnopphald per 1 000 innby
 
 Det er relativt få barn og unge innlagt til døgnbehandling, men variasjonen er særleg stor både for opphaldsratar og pasientratar. Forskjellane i varigheit av opphalda er markant, med nesten fem gonger lengre opphald i buområde med lengst opphald enn i buområde med kortast.
 
+
+
 ## Vaksne i psykisk helsevern og TSB
 
 Halvparten av innbyggarane i Noreg vil oppleve å få ei psykisk liding i løpet av livet. Psykiske sjukdommar rammar i stor grad den yngre del av innbyggarane, og angst og depresjon er dei hyppigaste tilstandane. Ruslidingar førekjem hyppig, også saman med andre psykiske lidingar. Psykoselidingar er forholdsvis sjeldne (1-3,5 %). Nokre tilstandar har svært god prognose, mens andre kan gi meir kroniske lidingar. Psykiske lidingar- og åtferdsforstyrringar utgjer med 36 % den største gruppa av dei uføretrygda. 
+
+
 
 ### Poliklinikk
 
@@ -193,9 +207,7 @@ Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst ein poliklinisk kontakt 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
 
-![](/helseatlas/img/no/psyk/p2va_pol_pas_faktaark-1.png "Pasientrate for poliklinisk behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal vaksne pasientar per 1 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdiar per år (2014-2018) med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for alder og kjønn.")
 
-![](/helseatlas/img/no/psyk/p2va_pol_kon_faktaark-1.png "Kontaktrate for poliklinisk behandling for vaksne i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Resultat
 
@@ -207,11 +219,17 @@ Vaksne hadde i gjennomsnitt 12 polikliniske kontaktar per år, men talet variert
 
 Det var flest polikliniske kontaktar i psykisk helsevern (88-46 %). Bruk av avtalespesialistar var størst i hovudstadsområda (43-34 %), og lågast nord i landet (8 %). Polikliniske kontaktar i tverrfagleg spesialisert behandling av ruslidingar utgjorde på landsnivå 14 %, og prosentdelen varierte i buområda frå 2 % til 29 %.
 
+![](/helseatlas/img/no/psyk/p2va_pol_pas_faktaark-1.png "Pasientrate for poliklinisk behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal vaksne pasientar per 1 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdiar per år (2014-2018) med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for alder og kjønn.")
+
+![](/helseatlas/img/no/psyk/p2va_pol_kon_faktaark-1.png "Kontaktrate for poliklinisk behandling for vaksne i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
+
 ![](/helseatlas/img/no/psyk/p2va_pol_kon_sektorvis_faktaark-1.png "Poliklinisk kontaktrate fordelt på buområde og landet, med prosentvis inndeling av behandling i psykisk helsevern (PHV), tverrfagleg spesialisert behandling av ruslidingar (TSB) og avtalespesialistar - psykisk helsevern (Avt). Søylene viser gjennomsnittsverdiar per år (2014-2018). Ratane er justert for alder og kjønn.")
 
 ### Kommentar
 
 Vaksne i poliklinisk behandling er ei stor pasientgruppe. Med tanke på at pasientraten ikkje varierte stort mellom buområda er det verdt å legge merke til at kontaktraten er nær dobbelt så stor i buområde med størst rate som i buområde med minst rate. Vaksne Oslo-innbyggarar har prosentvis størst bruk av avtalespesialistar. 
+
+
 
 ### Døgnbehandling
 
@@ -220,6 +238,18 @@ Vaksne i poliklinisk behandling er ei stor pasientgruppe. Med tanke på at pasie
 Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar er inkludert. 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven.
+
+
+
+### Resultat
+
+Kvart år hadde 27 700 vaksne døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 50 800 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 6 til 13 vaksne i døgnbehandling per 1 000 innbyggarar per år. Opphaldsraten varierte i buområda frå 9 til 25 døgnopphald per 1 000 innbyggarar, med 16 som gjennomsnittleg årsrate. 
+
+Opphald for vaksne varte i gjennomsnitt 26 døgn, og varierte mellom buområda frå 19 til 32 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -246,15 +276,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | UNN             | 1 214         | 2 956       | 18,5             |
 | Noreg           | 27 685        | 50 800      | 26,2             |
 
+
+
 Døgnbehandling for vaksne (18-64 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Tala representerer gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 27 700 vaksne døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 50 800 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 6 til 13 vaksne i døgnbehandling per 1 000 innbyggarar per år. Opphaldsraten varierte i buområda frå 9 til 25 døgnopphald per 1 000 innbyggarar, med 16 som gjennomsnittleg årsrate. 
-
-Opphald for vaksne varte i gjennomsnitt 26 døgn, og varierte mellom buområda frå 19 til 32 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2va_dog_opp_faktaark-1.png "Opphaldsrate for døgnbehandling for vaksne (18-64 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014- 2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -264,9 +290,13 @@ Pasientar i døgnbehandlinge er ei langt mindre gruppe enn pasientar i poliklini
 
 Det er ein tendens til større bruk av døgnopphald i nord, med låg poliklinisk kontaktrate og mange korte døgnopphald i enkelte buområde. I hovudstadområdet ser ein derimot få lange døgnopphald og høg poliklinisk kontaktrate. Variasjonen i døgnbehandling for vaksne er uønska. 
 
+
+
 ## Vaksne med rusliding
 
 Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanleg blant unge vaksne mellom 18 og 35 år. Skadeleg bruk av alkohol er meir vanleg blant menn enn hos kvinner. Pasientar med ruslidingar har ofte også andre psykiske lidingar og kroppslege sjukdommar. Personar med rusliding kan få både poliklinisk behandling og døgnbehandling i spesialisthelsetensta.
+
+
 
 ### Poliklinikk
 
@@ -275,6 +305,20 @@ Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanle
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert her.
+
+
+
+### Resultat
+
+Kvart år var 25 000 vaksne med rusliding i poliklinisk behandling ved  psykisk helsevern, TSB eller hos avtalespesialist psykisk helsevern, med nær 300~000 polikliniske kontaktar per år i Noreg. 
+
+Pasientraten varierte i buområda frå 4 til 17 vaksne med rusliding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 27 til 212 kontaktar per 1 000 innbyggarar, med 93 som gjennomsnittleg årsrate. 
+
+Vaksne med rusliding hadde i gjennomsnitt 12 polikliniske kontaktar per år, men talet varierte i buområda frå 6 til 22.
+
+Av kontaktane blei 77 % gjennomført i TSB og 11 i psykisk helsevern. I buområda varierte prosentdelen kontaktar i TSB frå 18 % til 91 %, og i psykisk helsevern frå 8 % til 80 %. Relativt få blei gjennomført hos avtalespesialistar (opp til 6 %). 
+
+
 
 | Buområde        | Tal kontaktar | Tal pasientar | Kontakt per pasient |
 | --------------- | ------------- | ------------- | ------------------- |
@@ -301,18 +345,12 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 1 258         | 204           | 6,2                 |
 | Noreg           | 299 349       | 25 027        | 12,0                |
 
+
+
 Poliklinisk behandling for vaksne (18-64 år) med rusliding i psykisk helsevern og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet.
 Gjennomsnittsverdiar per år for perioden 2014-2018.
 
-### Resultat
 
-Kvart år var 25 000 vaksne med rusliding i poliklinisk behandling ved  psykisk helsevern, TSB eller hos avtalespesialist psykisk helsevern, med nær 300~000 polikliniske kontaktar per år i Noreg. 
-
-Pasientraten varierte i buområda frå 4 til 17 vaksne med rusliding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 27 til 212 kontaktar per 1 000 innbyggarar, med 93 som gjennomsnittleg årsrate. 
-
-Vaksne med rusliding hadde i gjennomsnitt 12 polikliniske kontaktar per år, men talet varierte i buområda frå 6 til 22.
-
-Av kontaktane blei 77 % gjennomført i TSB og 11 i psykisk helsevern. I buområda varierte prosentdelen kontaktar i TSB frå 18 % til 91 %, og i psykisk helsevern frå 8 % til 80 %. Relativt få blei gjennomført hos avtalespesialistar (opp til 6 %). 
 
 ![](/helseatlas/img/no/psyk/p2va_pol_rus_kon_faktaark-1.png "Kontaktrate, vaksne med rusliding i poliklinisk behandling. Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -322,6 +360,8 @@ Det er særleg stor variasjon i poliklinisk behandling for vaksne med rusliding.
 
 Vaksne med rusliding får ulik poliklinisk oppfølging, avhengig av kvar dei bur i landet. Relativt høgare bruk av poliklinikk innan psykisk helsevern og TSB i dei største byane, kan ha bakgrunn i større behov for behandling hos innbyggarane der.
 
+
+
 ### Døgnbehandling
 
 ### Utval og definisjonar
@@ -329,6 +369,18 @@ Vaksne med rusliding får ulik poliklinisk oppfølging, avhengig av kvar dei bur
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar (TSB), med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
+
+
+
+### Resultat
+
+Kvart år hadde 11 500 vaksne med rusliding døgnopphald i psykisk helsevern eller TSB, til saman nær 20 000 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 2 til 7 vaksne med rusliding i døgnbehandling per 1 000 innbyggarar per år.
+
+Opphaldsraten varierte i buområda frå 4 til 11 døgnopphald per 1 000 innbyggarar, med 6 som gjennomsnittleg årsrate for landet. Opphald for vaksne med rusliding varte i gjennomsnitt 33 døgn, og varierte mellom buområda frå 26 til 45 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -355,15 +407,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | UNN             | 424           | 888         | 26,4             |
 | Noreg           | 11 562        | 19 802      | 33,2             |
 
+
+
 Døgnbehandling for vaksne (18-64 år) med rusliding, i psykisk helsevern og TSB. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 11 500 vaksne med rusliding døgnopphald i psykisk helsevern eller TSB, til saman nær 20 000 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 2 til 7 vaksne med rusliding i døgnbehandling per 1 000 innbyggarar per år.
-
-Opphaldsraten varierte i buområda frå 4 til 11 døgnopphald per 1 000 innbyggarar, med 6 som gjennomsnittleg årsrate for landet. Opphald for vaksne med rusliding varte i gjennomsnitt 33 døgn, og varierte mellom buområda frå 26 til 45 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2va_dog_opp_rus_faktaark-1.png "Opphaldsrate for vaksne med rusliding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -373,9 +421,13 @@ Vaksne med rusliding utgjer omtrent ein tredjedel av alle vaksne i døgnbehandli
 
 Det er uønska variasjonar i døgnbehandling av vaksne, og dette er særleg tydeleg for pasientar med rusliding.
 
+
+
 ## Vaksne med alvorleg psykisk liding
 
 Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipolar liding, er forholdsvis sjeldne tilstandar og ca. 1-3,5 % av innbyggarane vil få ei psykoseliding i løpet av livet. Alvorleg psykisk liding kan føre til langvarig og stort funksjonsfall og omfattande hjelpebehov, mens andre kan ha eit meir kortvarig sjukdomsforløp. Pasientar med alvorleg psykisk liding får ofte både poliklinisk behandling og døgnbehandling i spesialisthelsetenesta.
+
+
 
 ### Poliklinikk
 
@@ -384,6 +436,18 @@ Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipo
 Vaksne mellom 18 og 64 år som i 2014--2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding (ALV) er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
+
+
+
+### Resultat
+
+Kvart år var det knapt 20 000 vaksne med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, med omtrent 308~000 polikliniske kontaktar per år i Noreg. 
+
+Pasientraten varierte i buområda frå 4 til 11 vaksne med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå under 43 til 262 kontaktar per 1 000 innbyggarar, med litt over 95 som gjennomsnittleg årsrate. 
+
+Vaksne med alvorleg psykisk liding hadde i gjennomsnitt 16 polikliniske kontaktar per år, men talet varierte i buområda frå 8 til 23 polikliniske kontaktar per år. 
+
+
 
 | Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
 | --------------- | ------------- | ------------- | --------------------- |
@@ -410,15 +474,11 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 1 971         | 255           | 7,7                   |
 | Noreg           | 308 145       | 19 586        | 15,7                  |
 
+
+
 Poliklinisk behandling for vaksne (18-64 år) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år var det knapt 20 000 vaksne med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, med omtrent 308~000 polikliniske kontaktar per år i Noreg. 
-
-Pasientraten varierte i buområda frå 4 til 11 vaksne med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå under 43 til 262 kontaktar per 1 000 innbyggarar, med litt over 95 som gjennomsnittleg årsrate. 
-
-Vaksne med alvorleg psykisk liding hadde i gjennomsnitt 16 polikliniske kontaktar per år, men talet varierte i buområda frå 8 til 23 polikliniske kontaktar per år. 
 
 ![](/helseatlas/img/no/psyk/p2va_pol_alv_kon_faktaark-1.png "Kontaktrate for vaksne med alvorleg psykisk liding. Tal polikliniske kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -428,6 +488,8 @@ Det er stor variasjon i poliklinisk behandling for vaksne med alvorleg psykisk l
 
 Vaksne med alvorleg psykisk liding får ulik poliklinisk oppfølging, avhengig av kvar dei bur i landet. Behandlingstilboda i dei største byane er meir omfattande for enkeltpasientane, samanlikna med andre  stadar. Relativt høgare bruk av poliklinikk i psykisk helsevern og rusbehandling i dei største byane kan også ha bakgrunn i større behov for behandling hos innbyggarane der.
 
+
+
 ### Døgnbehandling
 
 ### Utval og definisjonar
@@ -435,6 +497,18 @@ Vaksne med alvorleg psykisk liding får ulik poliklinisk oppfølging, avhengig a
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
+
+
+
+### Resultat
+
+Kvart år hadde 7 920 vaksne med alvorleg psykisk liding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman over 15 100 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 1,9 til 3,5 vaksne med alvorleg psykisk liding i døgnbehandling per 1~000 innbyggarar per år.
+
+Opphaldsraten varierte i buområda frå 3,1 til 9,4 døgnopphald per 1 000 innbyggarar, med 4,7 som gjennomsnittleg årsrate. Opphald for vaksne med alvorleg psykisk liding varte i gjennomsnitt 29 døgn, og varierte mellom buområda frå 16 til 42 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -461,15 +535,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | UNN             | 360           | 1 091       | 16,5             |
 | Noreg           | 7 920         | 15 151      | 29,1             |
 
+
+
 Døgnbehandling for vaksne (18-64 år) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 7 920 vaksne med alvorleg psykisk liding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman over 15 100 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 1,9 til 3,5 vaksne med alvorleg psykisk liding i døgnbehandling per 1~000 innbyggarar per år.
-
-Opphaldsraten varierte i buområda frå 3,1 til 9,4 døgnopphald per 1 000 innbyggarar, med 4,7 som gjennomsnittleg årsrate. Opphald for vaksne med alvorleg psykisk liding varte i gjennomsnitt 29 døgn, og varierte mellom buområda frå 16 til 42 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2va_dog_opp_alv_faktaark-1.png "Opphaldsrate for vaksne med alvorleg psykisk liding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -479,9 +549,13 @@ Det er stor variasjon i døgnbehandling for vaksne med alvorleg psykisk liding, 
 
 Det er uønska variasjonar i døgnbehandling av vaksne, og dette er særleg tydeleg for pasientar med alvorleg psykisk liding. 
 
+
+
 ## Eldre i psykisk helsevern og TSB
 
 Dei hyppigaste psykiske lidingane hos eldre er dei same som hos den yngre del av innbyggarane og kan bli behandla på same måte som yngre. Eldre kan i tillegg ha andre, aldersrelaterte utfordringar. I fleire europeiske land har 35 % av dei eldre hatt ei psykisk liding i løpet av det siste året, og norske studier viser ein auke i førekomsten av depresjon hos eldre. Førekomsten av demens er på 5-10 % hos eldre. Psykiske problem er ofte samansette, og utgreiing og behandling skjer både i primærhelsetenesta, geriatriske, nevrologiske, alderspsykiatriske og allmennpsykiatriske avdelingar og poliklinikkar. Organisering av tenestene kring psykisk liding hos eldre er ulik i ulike delar av landet.
+
+
 
 ### Poliklinikk
 
@@ -491,9 +565,7 @@ Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert. 
 
-![](/helseatlas/img/no/psyk/p2el_pol_pas_faktaark-1.png "Pasientrate for poliklinisk behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal eldre pasientar (65 år og eldre) per 1 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdiar per år (2014-2018) med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for alder og kjønn.")
 
-![](/helseatlas/img/no/psyk/p2el_pol_kon_faktaark-1.png "Kontaktrate for poliklinisk behandling for eldre (65 år og eldre) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Resultat
 
@@ -502,6 +574,10 @@ Kvart år var 15 000 eldre i poliklinisk behandling ved  psykisk helsevern, tver
 Pasientraten varierte i buområda frå 12 til 36 eldre i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 44 til 413 kontaktar per 1 000 innbyggarar, med 122 som gjennomsnittleg årsrate. 
 
 Eldre hadde i gjennomsnitt 7 polikliniske kontaktar per år, men talet varierte i buområda frå 3 til 12 polikliniske kontaktar per år. 
+
+![](/helseatlas/img/no/psyk/p2el_pol_pas_faktaark-1.png "Pasientrate for poliklinisk behandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal eldre pasientar (65 år og eldre) per 1 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdiar per år (2014-2018) med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for alder og kjønn.")
+
+![](/helseatlas/img/no/psyk/p2el_pol_kon_faktaark-1.png "Kontaktrate for poliklinisk behandling for eldre (65 år og eldre) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ![](/helseatlas/img/no/psyk/p2el_pol_kon_sektorvis_faktaark-1.png "Kontaktrate, inndeling etter sektor. Poliklinisk kontaktrate for eldre (65 år +), fordelt på buområde og landet, med prosentvis inndeling av behandling i sektorane psykisk helsevern (PHV), tverrfagleg spesialisert behandling av ruslidingar (TSB) og avtalespesialistar, psykisk helsevern (Avt). Søylene viser gjennomsnittsverdiar per år (2014-2018). Ratane er justert for alder og kjønn.")
 
@@ -518,6 +594,18 @@ Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorleg
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar er inkludert. 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven.  
+
+
+
+### Resultat
+
+Kvart år hadde omtrent 3 800 eldre pasientar døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman over 5 600 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 4 til 8 eldre i døgnbehandling per 1 000 innbyggarar per år. Opphaldsraten varierte i buområda frå 5 til 13 døgnopphald per 1 000 innbyggarar, med 7 som gjennomsnittleg årsrate. 
+
+Opphald for eldre varte i gjennomsnitt 27 døgn, og varierte mellom buområda frå 19 til 39 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -544,15 +632,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Møre og Romsdal | 250           | 426         | 19,2             |
 | Noreg           | 3 813         | 5 634       | 27,4             |
 
+
+
 Døgnbehandling for eldre (65 år +) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde omtrent 3 800 eldre pasientar døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman over 5 600 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 4 til 8 eldre i døgnbehandling per 1 000 innbyggarar per år. Opphaldsraten varierte i buområda frå 5 til 13 døgnopphald per 1 000 innbyggarar, med 7 som gjennomsnittleg årsrate. 
-
-Opphald for eldre varte i gjennomsnitt 27 døgn, og varierte mellom buområda frå 19 til 39 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2el_dog_opp_faktaark-1.png "Opphaldsrate for døgnbehandling for eldre (65 år +) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014- 2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -561,6 +645,8 @@ Opphald for eldre varte i gjennomsnitt 27 døgn, og varierte mellom buområda fr
 Variasjonen i opphaldsratar er moderat for eldre i døgnbehandling i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Det er forholdsvis få pasientar og ratane kan derfor innehalde større innslag av tilfeldig variasjon. 
 
 Det er likevel nær tre gonger fleire opphald per innbyggar i buområde med høgast rate enn i buområde med lågast, og nesten dobbelt så mange døgn per opphald i buområde med flest døgn enn i buområde med færrast. Dette gir mistanke om at innbyggarane ikkje har eit likeverdig behandlingstilbod.
+
+
 
 ## Eldre med rusliding
 
@@ -573,6 +659,18 @@ Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanle
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
+
+
+
+### Resultat
+
+Kvart år var litt over 1 000 eldre med rusliding i poliklinisk behandling ved psykisk helsevern, TSB eller hos avtalespesialist psykisk helsevern, til saman nær 7 500 polikliniske kontaktar per år i Noreg.
+
+Pasientraten varierte i buområda frå 0,4 til 4,8 eldre med rusliding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 1,1 til 42,9 kontaktar per 1 000 innbyggarar, med 8,7 som gjennomsnittleg årsrate. 
+
+Eldre med rusliding hadde i gjennomsnitt 7 polikliniske kontaktar per år, men tallet varierte i buområda frå 2,4 til 9,1 polikliniske kontaktar per år. 
+
+
 
 | Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
 | --------------- | ------------- | ------------- | --------------------- |
@@ -599,15 +697,11 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 15            | 6             | 2,4                   |
 | Noreg           | 7 425         | 1 052         | 7,1                   |
 
+
+
 Poliklinisk behandling for eldre med rusliding i psykisk helsevern og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år var litt over 1 000 eldre med rusliding i poliklinisk behandling ved psykisk helsevern, TSB eller hos avtalespesialist psykisk helsevern, til saman nær 7 500 polikliniske kontaktar per år i Noreg.
-
-Pasientraten varierte i buområda frå 0,4 til 4,8 eldre med rusliding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 1,1 til 42,9 kontaktar per 1 000 innbyggarar, med 8,7 som gjennomsnittleg årsrate. 
-
-Eldre med rusliding hadde i gjennomsnitt 7 polikliniske kontaktar per år, men tallet varierte i buområda frå 2,4 til 9,1 polikliniske kontaktar per år. 
 
 ![](/helseatlas/img/no/psyk/p2el_pol_rus_kon_faktaark-1.png "Kontaktrate, eldre (65 år +) med rusliding i poliklinisk behandling. Tal kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -617,6 +711,8 @@ Eldre med rusliding er ei lita pasientgruppe, men variasjonen i bruk av poliklin
 
 Så tydeleg store variasjonar i poliklinisk behandling gir mistanke om underforbruk av tenestene i delar av landet, og er uønska.
 
+
+
 ### Døgnbehandling
 
 ### Utval og definisjonar
@@ -624,6 +720,18 @@ Så tydeleg store variasjonar i poliklinisk behandling gir mistanke om underforb
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst eit døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar (TSB), med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
+
+
+
+### Resultat
+
+Kvart år hadde 584 eldre med rusliding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 854 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 0,4 til 2,8 eldre pasientar med rusliding i døgnbehandling per 1~000 innbyggarar per år.
+
+Opphaldsraten varierte i buområda frå 0,6 til 4,2 døgnopphald per 1~000 innbyggarar, med 1,0 som gjennomsnittleg årsrate. Opphald for eldre med rusliding varte i gjennomsnitt 24 døgn, og varierte mellom buområda frå 14 til 42 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -650,21 +758,19 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Møre og Romsdal | 32            | 60          | 14,1             |
 | Noreg           | 584           | 854         | 24,1             |
 
+
+
 Døgnbehandling for eldre (65 år +) med rusliding, i psykisk helsevern og TSB. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 584 eldre med rusliding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 854 opphald per år i Noreg.
-
-Pasientraten varierte i buområda frå 0,4 til 2,8 eldre pasientar med rusliding i døgnbehandling per 1~000 innbyggarar per år.
-
-Opphaldsraten varierte i buområda frå 0,6 til 4,2 døgnopphald per 1~000 innbyggarar, med 1,0 som gjennomsnittleg årsrate. Opphald for eldre med rusliding varte i gjennomsnitt 24 døgn, og varierte mellom buområda frå 14 til 42 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2el_dog_opp_rus_faktaark-1.png "Opphaldsrate, eldre (65 år +) med rusliding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014-2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Kommentar
 
 Variasjonen i opphaldsratar er stor, men det er få eldre med rusliding som får døgnbehandling, med unntak av i hovudstadsområdet. Opphaldsratane kan derfor innehalde større innslag av tilfeldig variasjon og gi usikkerheit til ratane. 
+
+
 
 ## Eldre med alvorleg psykisk liding
 
@@ -677,6 +783,18 @@ Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipo
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding (ALV) er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
+
+
+
+### Resultat
+
+Kvart år var omtrent 2 000 eldre med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman knapt 20 000 polikliniske kontaktar per år i Noreg.
+
+Pasientraten varierte i buområda frå 1,2 til 7,6 eldre med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 6 til 148 kontaktar per 1 000 innbyggarar, med 23 som gjennomsnittleg årsrate.
+
+Eldre med alvorleg psykisk liding hadde i gjennomsnitt 9 polikliniske kontaktar per år, men talet varierte i buområda frå 3 til 20 polikliniske kontaktar årleg per pasient.
+
+
 
 | Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
 | --------------- | ------------- | ------------- | --------------------- |
@@ -703,16 +821,11 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 79            | 26            | 3,0                   |
 | Noreg           | 19 507        | 2 074         | 9,4                   |
 
-Poliklinisk behandling for eldre med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar.
- Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år var omtrent 2 000 eldre med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, til saman knapt 20 000 polikliniske kontaktar per år i Noreg.
+Poliklinisk behandling for eldre med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-Pasientraten varierte i buområda frå 1,2 til 7,6 eldre med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå 6 til 148 kontaktar per 1 000 innbyggarar, med 23 som gjennomsnittleg årsrate.
 
-Eldre med alvorleg psykisk liding hadde i gjennomsnitt 9 polikliniske kontaktar per år, men talet varierte i buområda frå 3 til 20 polikliniske kontaktar årleg per pasient.
 
 ![](/helseatlas/img/no/psyk/p2el_pol_alv_kon_faktaark-1.png "Kontaktrate for eldre med alvorleg psykisk liding. Tal polikliniske kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
@@ -722,6 +835,8 @@ For eldre med alvorleg psykisk liding er variasjonen i kontaktratar særleg stor
 
 Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorlege lidingar gir mistanke om underforbruk av tenestene i delar av landet, og er uønska.
 
+
+
 ### Døgnbehandling
 
 ### Utval og definisjonar
@@ -729,6 +844,17 @@ Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorleg
 Pasientar i alderen 65 år og eldre som i 2014–2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved ICD-10-kodane F20–29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven.
+
+
+
+### **Resultat**
+
+Kvart år hadde 1 141 eldre med alvorleg psykisk liding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 1 764 opphald per år i Noreg.
+Pasientraten varierte i buområda frå 0,9 til 3,0 eldre med alvorleg psykisk liding i døgnbehandling per 1 000 innbyggarar per år.
+
+Opphaldsraten varierte i buområda frå 1,2 til 4,3 døgnopphald per 1 000 innbyggarar, med 2,1 som gjennomsnittleg årsrate. Opphald for eldre med alvorleg psykisk liding varte i gjennomsnitt 34 døgn, og varierte mellom buområda frå 23 til 54 døgn per opphald.
+
+
 
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
@@ -755,14 +881,11 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Førde           | 30            | 52          | 22,9             |
 | Noreg           | 1 141         | 1 764       | 34,2             |
 
+
+
 Døgnbehandling for eldre (65 år +) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
-### Resultat
 
-Kvart år hadde 1 141 eldre med alvorleg psykisk liding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 1 764 opphald per år i Noreg.
-Pasientraten varierte i buområda frå 0,9 til 3,0 eldre med alvorleg psykisk liding i døgnbehandling per 1 000 innbyggarar per år.
-
-Opphaldsraten varierte i buområda frå 1,2 til 4,3 døgnopphald per 1 000 innbyggarar, med 2,1 som gjennomsnittleg årsrate. Opphald for eldre med alvorleg psykisk liding varte i gjennomsnitt 34 døgn, og varierte mellom buområda frå 23 til 54 døgn per opphald.
 
 ![](/helseatlas/img/no/psyk/p2el_dog_opp_alv_faktaark-1-1.png "Opphaldsrate for eldre (65 år +) med alvorleg psykisk liding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
