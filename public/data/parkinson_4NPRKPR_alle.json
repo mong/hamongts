@@ -60,13 +60,13 @@
         },
         {
           "id": "legekons_pr_pas",
-          "label": "Konsult. pr. pas.",
+          "label": "Kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "ant_legekons",
-          "label": "Ant. kons.",
+          "label": "Konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         }

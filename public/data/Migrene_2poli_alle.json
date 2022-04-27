@@ -66,7 +66,7 @@
         },
         {
           "id": "kontakter_poli",
-          "label": "Ant. spes.kons.",
+          "label": "Spesialist konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         }

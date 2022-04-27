@@ -38,7 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere",
+      "caption": "Årlige gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere",
       "columns": [
         {
           "id": "bohf",
@@ -54,19 +54,19 @@
         },
         {
           "id": "kontakter_poli",
-          "label": "Antall spes. konsultasjoner",
+          "label": "Spesialist konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
-          "label": "Spes. konsult. pr. pas.",
+          "label": "Spes.kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },

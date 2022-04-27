@@ -62,13 +62,13 @@
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "innbyggere",
-          "label": "Antall innbyggere",
+          "label": "Innbyggere",
           "typeVar": "number",
           "format": ",.0f"
         }

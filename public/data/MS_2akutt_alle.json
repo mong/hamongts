@@ -39,7 +39,7 @@
         },
         {
           "id": "ant_akutt",
-          "label": "Antall akuttinnl.",
+          "label": "Akuttinnleggelser",
           "typeVar": "number",
           "format": ",.0f"
         },

@@ -60,13 +60,13 @@
         },
         {
           "id": "primkont_pr_pas",
-          "label": "Konsult. pr. pas.",
+          "label": "Kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_prim",
-          "label": "Ant.kons.",
+          "label": "Allmennlege konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         }

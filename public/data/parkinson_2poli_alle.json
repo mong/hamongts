@@ -54,19 +54,19 @@
         },
         {
           "id": "andel_off_poli",
-          "label": "Andel offentlig",
+          "label": "Andel sykehus",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "polikont_pr_pas",
-          "label": "Spes.konsult. pr. pas.",
+          "label": "Spes.kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_poli",
-          "label": "Ant. spes.kons.",
+          "label": "Spesialist konsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         }
