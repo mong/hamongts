@@ -420,8 +420,10 @@ Det er stor variasjon mellom buområda i innleggingsrate for vaksne med hjernery
 
 Ulik organisering av tenestene, og variasjonar i tilgang til observasjon ved kommunale eller interkommunale sengepostar, kan tenkast forklare noko av den observerte variasjonen i innleggingsrate. Det er vanskeleg å vurdere i kva grad den observerte variasjonen i innleggingar skuldast reelle forskjellar i behandling av vaksne med hjernerystelse, og vi utelukkar ikkje at variasjonen er uønska.
 
-## Buområde
+## Buområde (opptaksområde)
 
-I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buområde. Analysane er gjort ut frå kva kommune, eller bydel i Oslo, pasientane bur i, og buområda svarar i grove trekk til helseføretaka sine opptaksområde. Eitt unntak frå den inndelinga er at Lovisenberg og Diakonhjemmet sine opptaksområde er lagt til buområde Oslo Universitetssykehus (OUS). Dette fordi Lovisenberg ikkje har akuttfunksjon eller lokalsjukehusoppgåver innan ortopedi, som for eksempel ved brotskade. Som tilleggsanalyse har vi likevel sett på forbruksratane fordelt på OUS, Lovisenberg og Diakonhjemmet – [sjå her](/helseatlas/statisk/ortopedi_ous). Bruk av helsetenester analysert ut frå buområde, viser innbyggarane i området sin bruk av helsetenester uansett kvar behandlinga er utført.
+I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buområde. Analysane er gjort ut frå kva kommune, eller bydel i Oslo, pasientane bur i, og buområda svarar i grove trekk til helseføretaka sine opptaksområde. Eitt unntak frå den inndelinga er at Lovisenberg og Diakonhjemmet sine opptaksområde er lagt til buområde Oslo Universitetssykehus (OUS). Dette fordi Lovisenberg ikkje har akuttfunksjon eller lokalsjukehusoppgåver innan ortopedi, som for eksempel ved brotskade. Som tilleggsanalyse har vi likevel sett på forbruksratane fordelt på OUS, Lovisenberg og Diakonhjemmet.
+**Les meir**: [Tilleggsanalyse OUS, Lovisenberg og Diakonhjemmet](/helseatlas/statisk/ortopedi_ous). 
+Bruk av helsetenester analysert ut frå buområde, viser innbyggarane i området sin bruk av helsetenester uansett kvar behandlinga er utført.
 
-Her kan du hente oversikt over kva kommunar og bydelar som høyrer til i buområda : [Last ned buområda](/helseatlas/files/ortopedi_buomraader.pdf).
+**Oversikt** over kva kommunar og bydelar som høyrer til i buområda : [Last ned buområda](/helseatlas/files/ortopedi_buomraader.pdf).
