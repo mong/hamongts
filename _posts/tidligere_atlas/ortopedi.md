@@ -302,7 +302,7 @@ Dei fleste blir opererte på offentleg sjukehus (90 %). I enkelte buområde blir
 
 Det er relativt stor variasjon i operativ behandling av prolaps i korsryggen. Det er spesielt buområde Nord-Trøndelag som skilde seg ut med høg operasjonsrate. Vi har vurdert variasjonen i operasjonsrate til å vere uønska, fordi det ikkje er kjent at førekomsten av prolaps i korsryggen varierer tilsvarande mellom ulike deler av landet.
 
-Det var  ein tydleg variasjon mellom buområda også i tal pasientar med prolaps per 100~000 innbyggarar som var i kontakt med spesialisthelsetenesta, og i prosentdel opererte. Dette tenker vi kan reflektere ulik praksis ved sjukehus når det gjeld handtering av tilvisingar, men eventuelt også mangel på sterke retningliner.  
+Det var  ein tydleg variasjon mellom buområda også i tal pasientar med prolaps per 100 000 innbyggarar som var i kontakt med spesialisthelsetenesta, og i prosentdel opererte. Dette tenker vi kan reflektere ulik praksis ved sjukehus når det gjeld handtering av tilvisingar, men eventuelt også mangel på sterke retningliner.  
 
 ## Spinal stenose i korsryggen
 
