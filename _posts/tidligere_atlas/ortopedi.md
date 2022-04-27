@@ -54,9 +54,9 @@ Kneleddsartrose er definert ved hovud- eller bidiagnose M17 (ICD-10). Operativ b
 
 Det er årleg i gjennomsnitt omtrent 5 500 pasientar men kneleddsartrose som blir operert med innsetting av protese eller med osteotomi. Det utgjer ein fjerdedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av kneleddsartrose.
 
-![]( "Samla tal operasjonar for kneleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1kn-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for kneleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1kn-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -66,7 +66,7 @@ Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde e
 
 Innsetting av totalprotese utgjer på landsnivå 85 % av operasjonane, delprotese 11 % og osteotomi 4 %.
 
-![]( "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1kn-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for kneleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -84,9 +84,9 @@ Degenerative knelidingar er definert ved hovud- eller bidiagnose M17, M22.4, M23
 
 Årleg tal artroskopiar, for pasientar 50 år og eldre, minkar i perioden frå nær 9 000 til omtrent 4 000 for landet samla. 
 
-![]( "Samla tal artroskopiar for degenerative knelidingar, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1me-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal artroskopiar for degenerative knelidingar, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1me-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -96,7 +96,7 @@ Over halvparten av artroskopiane er utført ved offentlege sjukehus (65 %), dei 
 
 I 37 % av artroskopiane er hovudtilstanden kneleddsartrose, og prosentdelen varierer mellom buområda frå 18 % i buområde OUS til 63 % i buområde Bergen.
 
-![]( "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1me-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal artroskopiar for degenerative knelidingar per 100 000 innbyggarar (50 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -114,9 +114,9 @@ Tommelartrose er definert ved hovud- eller bidiagnose M18 (ICD-10). Operativ beh
 
 Det er årleg i gjennomsnitt omtrent 800 pasientar med tommelartrose som blir operert i Noreg. Det utgjer i ein tredjedel av pasientane som er i kontakt med spesialisthelsetenesta på grunn av tommelartrose.
 
-![]( "Samla tal operasjonar for tommelartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1cm-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for tommelartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1cm-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -126,7 +126,7 @@ Dei fleste (93 %) blir opererte på offentleg sjukehus. I enkelte buområde er d
 
 Det er stor variasjon i bruk av operasjonsteknikk mellom buområda. I løpet av perioden blir ekskisjonsartroplastikk den mest brukte. Interposisjonsartroplastikk er i slutten av perioden den nest vanlegaste.
 
-![]( "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012--2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1cm-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: Tal operasjonar for tommelartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012--2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -142,9 +142,9 @@ Handleddsbrot er definert ved hovud- eller bidiagnose S52.5 eller S52.6 (ICD-10)
 
 Det skjer årleg i gjennomsnitt omtrent 12 500 handleddsbrot i Noreg, og en tredjedel av brota blir opererte.
 
-![]( "Tal operasjonar for handleddsbrot for heile landet i perioden 2012 – 2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1ra-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Tal operasjonar for handleddsbrot for heile landet i perioden 2012 – 2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Brotrate: Tal handleddsbrot per 100~000 innbyggarar (18 år og eldre) per år i perioden 2012 – 2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ra-rplot-kaj-pros-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Brotrate: Tal handleddsbrot per 100~000 innbyggarar (18 år og eldre) per år i perioden 2012 – 2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
 
 ### Resultat
 
@@ -154,7 +154,7 @@ I buområda Finnmark og Helgelandssykehuset blir  22 % av handleddsbrota operert
 
 Fiksasjon med plate er den vanlegaste operasjonsmetoden i nesten alle buområda. Berre i buområda Stavanger og Helgelandssykehuset blir ekstern fiksasjon brukt i stor grad.
 
-![]( "Operasjonsrate: Tal opererte handleddsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012 – 2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ra-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal opererte handleddsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012 – 2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -172,9 +172,9 @@ Ankelbrot er definert ved hovud- eller bidiagnose S82.3, S82.4, S82.5, S82.6, S8
 
 Det skjer årleg i gjennomsnitt over 9 000 ankelbrot i Noreg. Ein tredjedel av brota blir opererte.
 
-![]( "Tal operasjonar for ankelbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1an-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Tal operasjonar for ankelbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Brotrate: Tal ankelbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1an-rplot-kaj-pros-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Brotrate: Tal ankelbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
 
 ### Resultat
 
@@ -182,7 +182,7 @@ Variasjonen mellom buområda i kor mange som blir operert for ankelbrot er stør
 
 Prosentdel opererte ankelbrot varierer frå nær 30 % i buområda Stavanger og Finnmark, til 42 % i buområde Østfold. På landsnivå blir 33 % av alle ankelbrot opererte.
 
-![]( "Operasjonsrate: Tal opererte ankelbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1an-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal opererte ankelbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -200,9 +200,9 @@ Operativ behandling av hoftebrot er definert ved hovud- eller bidiagnose S72.0, 
 
 Det skjer årleg i gjennomsnitt nær 9 000 hoftebrot i Noreg. Av desse er 61 % lårhalsbrot og 39 % trokantære brot. 
 
-![]( "Tal operasjonar for hoftebrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1pf-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Tal operasjonar for hoftebrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: tal opererte lårhalsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratene er justerte for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1pf-laarhals-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: tal opererte lårhalsbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratene er justerte for kjønn og alder.")
 
 ### Resultat
 
@@ -210,7 +210,7 @@ Tal opererte lårhalsbrot per innbyggar er høgare enn gjennomsnittet i buområd
 
 Tal opererte trokantære brot per innbyggar er høgare enn gjennomsnittet i buområde Innlandet, og lågare enn gjennomsnittet i buområda Finnmark og Stavanger. For trokantære brot er fiksasjon med margnagle eller glideskrue dei to vanlegaste operasjonsteknikkane. Margnagle blir mest brukt i buområda Østfold (94 %) og Førde (over 92 %) og glideskrue i buområde Stavanger (79 %). Andre fiksasjonsmetodar er vanlegast i buområde Finnmark (72 %). 
 
-![]( "Operasjonsrate: tal opererte trokantære brot (hoftebrot som ikkje er lårhalsbrot) per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1pf-trokant-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: tal opererte trokantære brot (hoftebrot som ikkje er lårhalsbrot) per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -228,9 +228,9 @@ Skulderbrot er definert ved hovud- eller bidiagnose S42.2 (ICD-10). Operativ beh
 
 Det skjer årleg i gjennomsnitt over 5 500 skulderbrot i Noreg, og 16 % av brota blir opererte.
 
-![]( "Tal operasjonar for skulderbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1ph-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Tal operasjonar for skulderbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Brotrate: Tal skulderbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ph-rplot-kaj-pros-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Brotrate: Tal skulderbrot per 100 000 innbyggarar (18 år og eldre) per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratene er justerte for kjønn og alder.")
 
 ### Resultat
 
@@ -240,7 +240,7 @@ Tal operasjonar per år er stabil på landsnivå, med til dels store endringar i
 
 Buområda Østfold og Førde skil seg ut med 25 % opererte skulderbrot, mens prosentdelen er lågast i buområda OUS (13 %), Bergen (12 %), UNN (11 %) og Finnmark.
 
-![]( "Operasjonsrate: Tal opererte skulderbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Finnmark: det er færre enn 40 unike personar som ligg til grunn for utrekninga, og raten er derfor usikker.")
+![](/helseatlas/img/no/ortopedi/o1ph-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: Tal opererte skulderbrot per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Finnmark: det er færre enn 40 unike personar som ligg til grunn for utrekninga, og raten er derfor usikker.")
 
 ### Kommentar
 
@@ -258,9 +258,9 @@ Kragebeinsbrot er definert ved hovud- eller bidiagnose S42.0 (ICD-10). Operativ 
 
 Det skjer årleg i gjennomsnitt nær 5 000 kragebeinsbrot i Noreg, og 13 % av brota blir operert. 
 
-![]( "Tal operasjonar for kragebeinsbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1cl-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Tal operasjonar for kragebeinsbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![]( "Brotrate: Tal kragebeinsbrot per 100 000 innbyggarar per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1cl-rplot-kaj-pros-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Brotrate: Tal kragebeinsbrot per 100 000 innbyggarar per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
 
 ### Resultat
 
@@ -268,7 +268,7 @@ Det er dobbelt så vanleg å bli operert for kragebeinsbrot i buområde Østfold
 
 Prosentdelen av pasientar med kragebeinsbrot (alle aldrar) som blir operert varierar frå 9 % i buområda OUS og Fonna, til 21 % i buområde Førde. Born under 10 år blir sjeldan opererte for kragebeinsbrot. I aldersgruppa 10 - 19 år blir 9 % av pasientane opererte, og dei fleste er 16 år og eldre. 
 
-![]( "Operasjonsrate: Tal opererte kragebeinsbrot per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Helgelandssykehuset: det er færre enn 40 unike personar som ligg til grunn for utrekningane, og raten er derfor usikker.")
+![](/helseatlas/img/no/ortopedi/o1cl-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: Tal opererte kragebeinsbrot per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Helgelandssykehuset: det er færre enn 40 unike personar som ligg til grunn for utrekningane, og raten er derfor usikker.")
 
 ### Kommentar
 
@@ -284,9 +284,9 @@ Prolaps i korsryggen (med isjias) er definert ved hovud- eller bidiagnose M51.1,
 
 Det er årleg i gjennomsnitt 3 200 pasientar som blir operert for skiveprolaps i korsryggen i Noreg. Det utgjer 27 % av pasientane med diagnostisert prolaps som er i kontakt med spesialisthelsetenesta.
 
-![]( "Samla tal operasjonar for prolaps i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1pr-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for prolaps i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1pr-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -296,7 +296,7 @@ Prosentdel opererte er høgast i buområde St. Olavs og Stavanger (36 %) og låg
 
 Dei fleste blir opererte på offentleg sjukehus (90 %). I enkelte buområde blir nesten alle pasientar opererte på offentleg sjukehus i eit anna buområde (opp til 93 %), og i mindre grad hos private helseaktørar (opp til 28 %).
 
-![]( "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1pr-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -314,9 +314,9 @@ Spinal stenose i korsryggen er definert ved hovud- eller bidiagnose M48.0, M43.1
 
 Det er årleg i gjennomsnitt 3 200 operasjonar for behandling av spinal stenose i korsryggen per år i Noreg, og det utgjer 34 % av pasientane med diagnostisert spinal stenose som er i kontakt med spesialisthelsetenesta.
 
-![]( "Samla tal operasjonar for spinal stenose i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1ss-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for spinal stenose i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1ss-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -326,7 +326,7 @@ Tal operasjonar per innbyggar varierer frå år til år i buområda, og ser ut t
 
 Dei fleste blir opererte på offentleg sjukehus (89 %). I enkelte buområde er alle, eller mange av pasientane opererte på offentleg sjukehus i eit anna buområde, og i mindre grad ved anbodssjukehus eller avtalespesialistar (opp til 35 %).
 
-![]( "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ss-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -344,9 +344,9 @@ Andre korsryggsmerter er definert ved hovud- eller bidiagnose M54.4, M54.5, M54.
 
 Det er årleg i gjennomsnitt 2 500 personar som blir innlagt på grunn av andre korsryggsmerter i Noreg. 
 
-![]( "Samla tal innleggingar for andre korsryggsmerter, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1lu-rplot-kjonnalderford-10-tilstand-faktaark-1.png "Samla tal innleggingar for andre korsryggsmerter, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
-![]( "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1lu-rplot-kaj-tilstandrate-medaarsrate-faktaark-1.png "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Resultat
 
@@ -354,7 +354,7 @@ Innlegging for andre korsryggsmerter er meir enn dobbelt så vanleg i buområde 
 
 Det er store variasjonar i tal innleggingar per år i enkelte buområde. Innleggingsraten går spesielt tydeleg ned i buområda Telemark og Vestfold, og ser også ut til å minke på landsnivå.
 
-![]( "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Innleggingsraten er gjennomsnitt for åra 2012-2016, med 95 % og 99,8 % konfidensintervall. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1lu-rplot-kaj-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Innleggingsraten er gjennomsnitt for åra 2012-2016, med 95 % og 99,8 % konfidensintervall. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -370,9 +370,9 @@ Skade på fremre korsbands er definert ved hovud- eller bidiagnose S83.5, S83.7,
 
 Det er årleg i gjennomsnitt 1 500 offentleg finansierte operasjonar for behandling av fremre korsbandsskade i Noreg.
 
-![]( "Samla tal operasjonar for fremre korsband, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1fr-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for fremre korsband, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
-![]( "Operasjonsrate: Tal operasjonar for fremre korsbandsskade per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1fr-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for fremre korsbandsskade per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -380,7 +380,7 @@ Det er fire gonger så vanleg med operasjon for skade på fremre korsband i buom
 
 Dei aller fleste blir opererte på offentlege sjukehus (75 %), men i fleire buområde er det ein stor del av pasientane som blir opererte hos private tilbydarar med offentleg fiansiering (opp til 55 %). Pasienter med skade på fremre korsband som blir operert av private tilbydarar gjennom helseforsikring eller privat finansiering er ikkje inkludert i analysane, men utgjer ein forholdsvis stor del av alle opererte.
 
-![]( "Operasjonsrate: Tal operasjonar for skade på fremre korsband per 100~000 innbyggarar (alle aldrar), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1fr-rplot-kaj-prosrate-samla2012-2016-medkonf95og998-faktaark-1.png "Operasjonsrate: Tal operasjonar for skade på fremre korsband per 100~000 innbyggarar (alle aldrar), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -400,9 +400,9 @@ Det er årleg i gjennomsnitt 3 000 vaksne som blir innlagt på grunn av hjernery
 
 Eit opptaksområde er kommunar, og eventuelt bydelar, som eit helseføretak har ansvar for å gi helsetenester til. Inndeling i opptaksområde kan variere etter fagområde.
 
-![]( "Samla tal innleggingar for pasientar med hjernerystelse, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+![](/helseatlas/img/no/ortopedi/o1co-rplot-kjonnalderford-10-tilstand-faktaark-1.png "Samla tal innleggingar for pasientar med hjernerystelse, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
-![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1co-rplot-kaj-tilstandrate-medaarsrate-faktaark-1.png "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Resultat
 
@@ -412,7 +412,7 @@ Pasientar 67 år og eldre blir innlagt i større grad enn pasientar 18-66 år (1
 
 Innleggingsraten endrar seg for enkelte buområde mykje frå år til år, men er stabil på landsnivå.
 
-![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1co-rplot-kaj-tilstandrate-2012-2016-konf95og998tilstand-sorttilstand-faktaark-1.png "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 
@@ -420,10 +420,9 @@ Det er stor variasjon mellom buområda i innleggingsrate for vaksne med hjernery
 
 Ulik organisering av tenestene, og variasjonar i tilgang til observasjon ved kommunale eller interkommunale sengepostar, kan tenkast forklare noko av den observerte variasjonen i innleggingsrate. Det er vanskeleg å vurdere i kva grad den observerte variasjonen i innleggingar skuldast reelle forskjellar i behandling av vaksne med hjernerystelse, og vi utelukkar ikkje at variasjonen er uønska.
 
-## Buområde 
+## Buområde
 
 I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buområde. Eit buområde (opptaksområde) er kommunar, og eventuelt bydelar, som eit helseføretak har ansvar for å gi helsetenester til. Inndeling i opptaksområde kan variere etter fagområde. Analysane er gjort ut frå kva kommune, eller bydel i Oslo, pasientane bur i, og buområda svarar i grove trekk til helseføretaka sine opptaksområde. Eitt unntak frå den inndelinga er at Lovisenberg og Diakonhjemmet sine opptaksområde er lagt til buområde Oslo Universitetssykehus (OUS). Dette fordi Lovisenberg ikkje har akuttfunksjon eller lokalsjukehusoppgåver innan ortopedi, som for eksempel ved brotskade. Som tilleggsanalyse har vi likevel sett på forbruksratane fordelt på [OUS, Lovisenberg og Diakonhjemmet](/helseatlas/statisk/ortopedi_ous).
-
 
 Bruk av helsetenester analysert ut frå buområde, viser innbyggarane i området sin bruk av helsetenester uansett kvar behandlinga er utført.
 
