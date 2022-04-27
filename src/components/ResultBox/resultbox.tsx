@@ -84,7 +84,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             if (bd.type === "table") {
               return (
                 <CarouselItem key={bd.type + i + id} label={bd.type}>
-                  <DataTable headers={bd.columns} data={figData} />
+                  <DataTable
+                    headers={bd.columns}
+                    data={figData}
+                    caption={bd.caption}
+                  />
                 </CarouselItem>
               );
             }
@@ -162,8 +166,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 data={figdata}
                 x={abacusX}
                 colorBy="bohf"
-                width={800}
-                height={80}
                 label={boxData[0].xLabel}
                 backgroundColor="inherit"
               />
@@ -176,6 +178,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           }}
         >
           {dataCarousel}
+
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>

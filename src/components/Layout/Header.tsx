@@ -5,41 +5,12 @@ import Image from "next/image";
 import { imgLoader } from "../../helpers/functions";
 import classNames from "./Header.module.css";
 
-import { SearchButton } from "../Btns/SearchButton";
 import { MenuButton } from "../Btns/MenuButton";
 import { PopUp } from "../popup";
 
 type HeaderProps = {
   origin: string;
   lang: "no" | "en";
-};
-
-type SearchBarProps = {
-  lang: "no" | "en";
-};
-
-const SearchBar: React.FC<SearchBarProps> = ({ lang }) => {
-  return (
-    <div className={classNames.searchBar}>
-      <h1>{lang === "en" ? "Search" : "Søk"}</h1>
-      <form>
-        <label htmlFor="header-search-input">
-          {lang === "en" ? "Search " : "Søk i alt innhold"}
-        </label>
-        <input
-          id="header-search-input"
-          name="search"
-          type="search"
-          placeholder={lang === "en" ? "Search " : "Søk i alt innhold"}
-        />
-        <button
-          id="header-search-button"
-          type="button"
-          aria-label={lang === "en" ? "Search" : "Søk"}
-        ></button>
-      </form>
-    </div>
-  );
 };
 
 export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
@@ -82,9 +53,6 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
               </Link>
             </div>
           </div>
-          <PopUp btnComponent={() => <SearchButton lang={lang} />}>
-            <SearchBar lang={lang} />{" "}
-          </PopUp>
           <PopUp btnComponent={() => <MenuButton lang={lang} />}>
             {"MENY"}
           </PopUp>

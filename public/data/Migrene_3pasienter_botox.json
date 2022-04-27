@@ -8,7 +8,17 @@
       ],
       "y": "bohf",
       "xLabel": "Andel pasienter som bruker Botulintoksin",
-      "yLabel": "Opptaksområder"
+      "yLabel": "Opptaksområder",
+      "annualVar": [
+        "rate2019",
+        "rate2020",
+        "rate2021"
+      ],
+      "annualVarLabels": [
+        "2019",
+        "2020",
+        "2021"
+      ]
     },
     {
       "type": "barchart",
@@ -28,7 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019-2021",
       "columns": [
         {
           "id": "bohf",
@@ -44,25 +54,25 @@
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_pas",
-          "label": "Antall behandlet med botulintoksin",
+          "label": "Behandlet med botulintoksin",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_avt",
-          "label": "Antall behandlet hos avtalespesialist",
+          "label": "Behandlet hos avtalespesialist",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
-          "id": "ant_botox_off",
-          "label": "Antall behandlet på poliklinikk",
+          "id": "ant_botox_offb",
+          "label": "Behandlet på sykehus",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -113,6 +123,10 @@
           "andel3_btx_begge": 0.0220823813082,
           "andel3_btx_ikkeoff": 0.132168752466,
           "andel_pct_btx": 0.0596118607419,
+          "andel_pct_btx2019": 0.0791370037999,
+          "andel_pct_btx2020": 0.0605333586112,
+          "andel_pct_btx2021": 0.0430787335651,
+          "ant_botox_offb": 39.3333333333,
           "botox_offb_rate": 5.30494073149
         },
         {
@@ -135,6 +149,10 @@
           "andel3_btx_begge": 0.00315894068672,
           "andel3_btx_ikkeoff": 0.0431414250675,
           "andel_pct_btx": 0.0572693482695,
+          "andel_pct_btx2019": 0.066623859048,
+          "andel_pct_btx2020": 0.0525100395078,
+          "andel_pct_btx2021": 0.053762213603,
+          "ant_botox_offb": 112.666666667,
           "botox_offb_rate": 5.49795774468
         },
         {
@@ -157,6 +175,10 @@
           "andel3_btx_begge": 0.00530509864976,
           "andel3_btx_ikkeoff": 0.0195007400733,
           "andel_pct_btx": 0.0754544714842,
+          "andel_pct_btx2019": 0.0765756496662,
+          "andel_pct_btx2020": 0.0662151371243,
+          "andel_pct_btx2021": 0.0839903358233,
+          "ant_botox_offb": 112.333333333,
           "botox_offb_rate": 7.43833468632
         },
         {
@@ -179,6 +201,10 @@
           "andel3_btx_begge": 0.00902131262662,
           "andel3_btx_ikkeoff": 0.00902131262662,
           "andel_pct_btx": 0.0968890282819,
+          "andel_pct_btx2019": 0.0904958914035,
+          "andel_pct_btx2020": 0.0850397198312,
+          "andel_pct_btx2021": 0.117033582981,
+          "ant_botox_offb": 76.3333333333,
           "botox_offb_rate": 9.68890282819
         },
         {
@@ -201,6 +227,10 @@
           "andel3_btx_begge": 0.00297800499233,
           "andel3_btx_ikkeoff": 0.111910350962,
           "andel_pct_btx": 0.07749315603,
+          "andel_pct_btx2019": 0.081259996141,
+          "andel_pct_btx2020": 0.0764316779131,
+          "andel_pct_btx2021": 0.0745091971029,
+          "ant_botox_offb": 102,
           "botox_offb_rate": 6.9051644747
         },
         {
@@ -223,6 +253,10 @@
           "andel3_btx_begge": 0.0048149470582,
           "andel3_btx_ikkeoff": 0.538687637981,
           "andel_pct_btx": 0.122173999499,
+          "andel_pct_btx2019": 0.12831673803,
+          "andel_pct_btx2020": 0.113471334076,
+          "andel_pct_btx2021": 0.125773907231,
+          "ant_botox_offb": 219.666666667,
           "botox_offb_rate": 5.69486376256
         },
         {
@@ -245,6 +279,10 @@
           "andel3_btx_begge": 0.00375762920479,
           "andel3_btx_ikkeoff": 0.028266669357,
           "andel_pct_btx": 0.100048518906,
+          "andel_pct_btx2019": 0.112616762148,
+          "andel_pct_btx2020": 0.0893427703088,
+          "andel_pct_btx2021": 0.0996462218529,
+          "ant_botox_offb": 287.666666667,
           "botox_offb_rate": 9.75964257385
         },
         {
@@ -267,6 +305,10 @@
           "andel3_btx_begge": 0,
           "andel3_btx_ikkeoff": 0.0227946838401,
           "andel_pct_btx": 0.170910555692,
+          "andel_pct_btx2019": 0.184452927889,
+          "andel_pct_btx2020": 0.174093862701,
+          "andel_pct_btx2021": 0.157464796805,
+          "ant_botox_offb": 167.666666667,
           "botox_offb_rate": 16.701470361
         },
         {
@@ -289,6 +331,10 @@
           "andel3_btx_begge": 0.0597207565206,
           "andel3_btx_ikkeoff": 0.565236443944,
           "andel_pct_btx": 0.0721621513033,
+          "andel_pct_btx2019": 0.0663243646764,
+          "andel_pct_btx2020": 0.0725965990799,
+          "andel_pct_btx2021": 0.0769105014311,
+          "ant_botox_offb": 139,
           "botox_offb_rate": 3.56830517812
         },
         {
@@ -311,6 +357,10 @@
           "andel3_btx_begge": 0.0190130044189,
           "andel3_btx_ikkeoff": 0.113671644928,
           "andel_pct_btx": 0.0417940610525,
+          "andel_pct_btx2019": 0.0443628037695,
+          "andel_pct_btx2020": 0.0387545279747,
+          "andel_pct_btx2021": 0.0432017556046,
+          "ant_botox_offb": 62.3333333333,
           "botox_offb_rate": 3.78378920519
         },
         {
@@ -333,6 +383,10 @@
           "andel3_btx_begge": 0.0040147885982,
           "andel3_btx_ikkeoff": 0.0544038731983,
           "andel_pct_btx": 0.0231926120653,
+          "andel_pct_btx2019": 0.0232453039806,
+          "andel_pct_btx2020": 0.019618124039,
+          "andel_pct_btx2021": 0.0270207836723,
+          "ant_botox_offb": 77,
           "botox_offb_rate": 2.20239575739
         },
         {
@@ -355,6 +409,10 @@
           "andel3_btx_begge": 0.00419202088926,
           "andel3_btx_ikkeoff": 0.522577630914,
           "andel_pct_btx": 0.0585370584503,
+          "andel_pct_btx2019": 0.0611974487962,
+          "andel_pct_btx2020": 0.0562494296358,
+          "andel_pct_btx2021": 0.0585990001968,
+          "ant_botox_offb": 111.333333333,
           "botox_offb_rate": 2.81922896965
         },
         {
@@ -377,6 +435,10 @@
           "andel3_btx_begge": 0.00535329875247,
           "andel3_btx_ikkeoff": 0.699488094119,
           "andel_pct_btx": 0.124545879739,
+          "andel_pct_btx2019": 0.11097009388,
+          "andel_pct_btx2020": 0.127374351172,
+          "andel_pct_btx2021": 0.13426402153,
+          "ant_botox_offb": 258,
           "botox_offb_rate": 3.80942509926
         },
         {
@@ -399,6 +461,10 @@
           "andel3_btx_begge": 0.0050490251468,
           "andel3_btx_ikkeoff": 0.916777440372,
           "andel_pct_btx": 0.126721775846,
+          "andel_pct_btx2019": 0.117638523459,
+          "andel_pct_btx2020": 0.124910126017,
+          "andel_pct_btx2021": 0.136416520413,
+          "ant_botox_offb": 33.6666666667,
           "botox_offb_rate": 1.11859319794
         },
         {
@@ -421,6 +487,10 @@
           "andel3_btx_begge": 0.00339972151241,
           "andel3_btx_ikkeoff": 0.931788793414,
           "andel_pct_btx": 0.118225064269,
+          "andel_pct_btx2019": 0.105751584678,
+          "andel_pct_btx2020": 0.122784378827,
+          "andel_pct_btx2021": 0.128180932652,
+          "ant_botox_offb": 17,
           "botox_offb_rate": 0.846620657683
         },
         {
@@ -443,6 +513,10 @@
           "andel3_btx_begge": 0.00799268408085,
           "andel3_btx_ikkeoff": 0.960088782433,
           "andel_pct_btx": 0.158065398824,
+          "andel_pct_btx2019": 0.143482095165,
+          "andel_pct_btx2020": 0.157556775713,
+          "andel_pct_btx2021": 0.173815057894,
+          "ant_botox_offb": 10,
           "botox_offb_rate": 0.757194931914
         },
         {
@@ -465,6 +539,10 @@
           "andel3_btx_begge": 0.0111228820272,
           "andel3_btx_ikkeoff": 0.289017983075,
           "andel_pct_btx": 0.0686726584662,
+          "andel_pct_btx2019": 0.0627616388796,
+          "andel_pct_btx2020": 0.064988759662,
+          "andel_pct_btx2021": 0.0773290196942,
+          "ant_botox_offb": 202.333333333,
           "botox_offb_rate": 4.95888631025
         },
         {
@@ -487,6 +565,10 @@
           "andel3_btx_begge": 0.0199181427622,
           "andel3_btx_ikkeoff": 0.824978515337,
           "andel_pct_btx": 0.102846710763,
+          "andel_pct_btx2019": 0.0946746165571,
+          "andel_pct_btx2020": 0.100801997806,
+          "andel_pct_btx2021": 0.112506971174,
+          "ant_botox_offb": 111.333333333,
           "botox_offb_rate": 2.0048899478
         },
         {
@@ -509,6 +591,10 @@
           "andel3_btx_begge": 0.00145131711003,
           "andel3_btx_ikkeoff": 0.202328729243,
           "andel_pct_btx": 0.0758833125415,
+          "andel_pct_btx2019": 0.0738947984598,
+          "andel_pct_btx2020": 0.0757344593426,
+          "andel_pct_btx2021": 0.0779871727671,
+          "ant_botox_offb": 172,
           "botox_offb_rate": 6.06400690941
         },
         {
@@ -531,6 +617,10 @@
           "andel3_btx_begge": 0.00641359268279,
           "andel3_btx_ikkeoff": 0.333053448182,
           "andel_pct_btx": 0.068520092741,
+          "andel_pct_btx2019": 0.0592694353006,
+          "andel_pct_btx2020": 0.0685759779497,
+          "andel_pct_btx2021": 0.0765626665173,
+          "ant_botox_offb": 81.3333333333,
           "botox_offb_rate": 4.61386995493
         },
         {
@@ -553,6 +643,10 @@
           "andel3_btx_begge": 0.00543456487631,
           "andel3_btx_ikkeoff": 0.714195126965,
           "andel_pct_btx": 0.119343010544,
+          "andel_pct_btx2019": 0.112732803428,
+          "andel_pct_btx2020": 0.107284702826,
+          "andel_pct_btx2021": 0.137897802112,
+          "ant_botox_offb": 142,
           "botox_offb_rate": 3.47573913094
         },
         {
@@ -575,6 +669,10 @@
           "andel3_btx_begge": 0.00974688726407,
           "andel3_btx_ikkeoff": 0.54044983518,
           "andel_pct_btx": 0.0925459449004,
+          "andel_pct_btx2019": 0.0897251269719,
+          "andel_pct_btx2020": 0.0893207434252,
+          "andel_pct_btx2021": 0.098293088277,
+          "ant_botox_offb": 2535,
           "botox_offb_rate": 4.34315391241
         }
       ]

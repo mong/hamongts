@@ -30,7 +30,7 @@
       ],
       "xLegend": [
         "Kun spes.helsetj.",
-        "Spes. og kommunehelsetj.",
+        "Spes. og allmennlegetj.",
         "Kun allmennlegetj."
       ],
       "y": "bohf",
@@ -40,7 +40,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere",
       "columns": [
         {
           "id": "bohf",
@@ -62,13 +62,13 @@
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "innbyggere",
-          "label": "Antall innbyggere",
+          "label": "Innbyggere",
           "typeVar": "number",
           "format": ",.0f"
         }

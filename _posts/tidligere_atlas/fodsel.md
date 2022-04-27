@@ -130,7 +130,7 @@ Det var klar samvariasjon mellom bruk av epidural ved vaginal forløsning blant 
 
 ![epidural_figur1](/helseatlas/img/no/fodsel/epidural_figur1.png "Antall førstegangsfødende med epidural pr. 1 000 vaginalt førstegangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
-[epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png "Antall flergangsfødende med epidural pr. 1 000 vaginalt flergangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
+![epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png "Antall flergangsfødende med epidural pr. 1 000 vaginalt flergangsfødende, opptaksområder. Aldersjustert. Gjennomsnitt for perioden 2015–2017.")
 
 ### Kommentar
 

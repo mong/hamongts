@@ -1,7 +1,7 @@
 .container {
   margin: auto;
   padding: 0 16px;
-  width: min(1221px, 95%);
+  width: min(1216px, 95%);
   margin-bottom: 64px;
 }
 
@@ -26,6 +26,6 @@
 }
 
 .article__content a {
-  color: revert;
+  color: #034584;
   text-decoration: revert;
 }

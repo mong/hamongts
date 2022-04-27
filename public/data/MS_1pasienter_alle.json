@@ -30,8 +30,8 @@
       ],
       "xLegend": [
         "Kun spes.helsetj.",
-        "Spes. og kommunehelsetj.",
-        "Kun kommunehelsetj."
+        "Allmennlege og spes.helsetj.",
+        "Kun allmennlegetj."
       ],
       "y": "bohf",
       "xLabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
@@ -62,13 +62,13 @@
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "innbyggere",
-          "label": "Antall innbyggere",
+          "label": "Innbyggere",
           "typeVar": "number",
           "format": ",.0f"
         }

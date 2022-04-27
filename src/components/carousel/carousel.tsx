@@ -75,7 +75,7 @@ export const Carousel: React.FC<CarouselProps> = ({
           <PopUp
             innerContentStyle={{
               width: "95%",
-              maxWidth: "1221px",
+              maxWidth: "1216px",
               padding: "30px 30px 100px 30px",
               margin: "auto",
             }}

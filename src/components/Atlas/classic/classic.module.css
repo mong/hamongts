@@ -1,6 +1,6 @@
 .atlasContent {
-  width: min(90%, 60rem);
   margin: auto;
+  max-width: 100%;
 }
 
 .atlasContent img {
@@ -9,22 +9,16 @@
 
 .atlasContent p a,
 .atlasContent a {
-  color: revert;
+  color: #034584;
 }
-
-.atlasContent table {
-  border-collapse: collapse;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 943px) {
+  .atlasContent {
+    width: min(95%, 1216px);
+    padding: 16px;
+  }
 }
-
-.atlasContent thead tr {
-  background-color: #95bde6;
-  text-align: left;
-}
-
-.atlasContent th,
-.atlasContent td {
-  padding: 2px 5px;
+@media screen and (min-width: 0) and (max-width: 942px) {
+  .atlasContent {
+    flex-direction: column;
+  }
 }

@@ -9,10 +9,10 @@
 .headerNavContainer {
   width: auto;
   margin: auto 0;
-  z-index: 1;
+  z-index: 999;
 }
 .headerLogo {
-  z-index: 1;
+  z-index: 999;
 }
 .navButtons {
   display: flex;
@@ -23,6 +23,7 @@
   justify-content: space-around;
   align-items: baseline;
   margin-left: 3rem;
+  font-size: 1.125rem;
 }
 .no {
   color: #034584;
@@ -50,6 +51,7 @@
   margin: auto;
   margin-top: 4rem;
   width: min(600px, 80%);
+  z-index: auto;
 }
 .searchBar h1 {
   font-size: 3rem;

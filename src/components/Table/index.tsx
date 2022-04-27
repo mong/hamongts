@@ -18,6 +18,7 @@ const formatDefinition = {
 const format = formatLocale(formatDefinition).format;
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
+  caption: string;
   data: Data[];
   headers: {
     id: string & Partial<Headers>;
@@ -31,6 +32,7 @@ export const DataTable = <
   Data extends { [n: string]: string | number },
   TableHeaders extends string & Partial<keyof Data>
 >({
+  caption,
   data,
   headers,
 }: DataTableProps<Data, TableHeaders>) => {
@@ -46,7 +48,7 @@ export const DataTable = <
   return (
     <TableContainer>
       <Table>
-        <caption>Gjennomsnittsverdier for perioden 2019–2021</caption>
+        <caption>{caption}</caption>
         <TableHead>
           <TableRow>
             {headers.map((header, i) => (
