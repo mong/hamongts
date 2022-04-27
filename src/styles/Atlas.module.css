@@ -8,8 +8,7 @@
 }
 
 .atlasContent p a {
-  color: revert;
-  text-decoration: revert;
+  color: #034584;
 }
 
 @media screen and (min-width: 943px) {
