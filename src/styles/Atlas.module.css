@@ -1,6 +1,6 @@
 .atlasContent {
-  width: min(90%, 60rem);
   margin: auto;
+  display: flex;
 }
 
 .atlasContent img {
@@ -10,4 +10,24 @@
 .atlasContent p a {
   color: revert;
   text-decoration: revert;
+}
+
+@media screen and (min-width: 943px) {
+  .atlasContent {
+    width: min(95%, 1216px);
+    margin: auto;
+    padding: 16px;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 0) and (max-width: 942px) {
+  .main_content {
+    width: 95%;
+    margin: auto;
+    padding: 16px;
+  }
+  .atlasContent {
+    flex-direction: column;
+  }
 }
