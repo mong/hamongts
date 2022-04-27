@@ -54,7 +54,7 @@
         },
         {
           "id": "andel_off_poli",
-          "label": "Andel offentlig",
+          "label": "Andel sykehus",
           "typeVar": "number",
           "format": ",.1%"
         },
