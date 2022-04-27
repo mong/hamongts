@@ -72,6 +72,14 @@ Barn og unge i poliklinisk behandling er ei stor pasientgruppe innan psykisk hel
 
 Nedgangen i poliklinisk kontaktrate for Noreg i 2018 kan vere påverka av både innføring av nytt journalsystem i nokre helseføretak i perioden, og ein auke i tenestetilbodet for barn og unge si psykiske helse i kommunane.
 
+
+
+
+
+
+
+
+
 ### Barn og unge i poliklinisk behandling - ulike alderssegment
 
 Barn i alderen 0-5 år hadde færrast polikliniske kontaktar. Kontaktraten varierte i buområda frå 37 til 212 kontaktar per 1 000 innbyggarar, med 92 som gjennomsnittleg årsrate. Kontaktraten for barn i alderen 6-12 år varierte i buområda frå 377 til 750 kontaktar per 1 000 innbyggarar, med 524 som gjennomsnittleg årsrate. I alderen 13-17 år var den polikliniske kontaktraten for barn og unge størst, med 1 006 som gjennomsnittleg årsrate. Raten varierte i buområda frå 731 til 1 469 kontaktar per 1 000 innbyggarar.
