@@ -422,8 +422,8 @@ Ulik organisering av tenestene, og variasjonar i tilgang til observasjon ved kom
 
 ## Buområde (opptaksområde)
 
-I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buområde. Analysane er gjort ut frå kva kommune, eller bydel i Oslo, pasientane bur i, og buområda svarar i grove trekk til helseføretaka sine opptaksområde. Eitt unntak frå den inndelinga er at Lovisenberg og Diakonhjemmet sine opptaksområde er lagt til buområde Oslo Universitetssykehus (OUS). Dette fordi Lovisenberg ikkje har akuttfunksjon eller lokalsjukehusoppgåver innan ortopedi, som for eksempel ved brotskade. Som tilleggsanalyse har vi likevel sett på forbruksratane fordelt på OUS, Lovisenberg og Diakonhjemmet.
-**[Tilleggsanalyse OUS, Lovisenberg og Diakonhjemmet](/helseatlas/statisk/ortopedi_ous).** 
+I helseatlaset er variasjonen i bruk av helsetenester vurdert mellom ulike buområde. Analysane er gjort ut frå kva kommune, eller bydel i Oslo, pasientane bur i, og buområda svarar i grove trekk til helseføretaka sine opptaksområde. Eitt unntak frå den inndelinga er at Lovisenberg og Diakonhjemmet sine opptaksområde er lagt til buområde Oslo Universitetssykehus (OUS). Dette fordi Lovisenberg ikkje har akuttfunksjon eller lokalsjukehusoppgåver innan ortopedi, som for eksempel ved brotskade. Som tilleggsanalyse har vi likevel sett på forbruksratane fordelt på [OUS, Lovisenberg og Diakonhjemmet](/helseatlas/statisk/ortopedi_ous).
+
 
 Bruk av helsetenester analysert ut frå buområde, viser innbyggarane i området sin bruk av helsetenester uansett kvar behandlinga er utført.
 
