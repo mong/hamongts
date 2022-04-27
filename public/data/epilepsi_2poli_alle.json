@@ -54,7 +54,7 @@
         },
         {
           "id": "kontakter_poli",
-          "label": "Spesialist konsultasjoner",
+          "label": "Spesialistkonsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         },

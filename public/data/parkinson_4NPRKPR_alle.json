@@ -53,10 +53,10 @@
           "format": ",.1f"
         },
         {
-          "id": "andel_poli_kont",
-          "label": "Andel spes.helsetj.",
+          "id": "ant_legekons",
+          "label": "Konsultasjoner",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.0f"
         },
         {
           "id": "legekons_pr_pas",
@@ -65,10 +65,10 @@
           "format": ",.1f"
         },
         {
-          "id": "ant_legekons",
-          "label": "Konsultasjoner",
+          "id": "andel_poli_kont",
+          "label": "Andel spes.helsetj.",
           "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },

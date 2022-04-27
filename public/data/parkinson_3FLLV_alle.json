@@ -53,10 +53,10 @@
           "format": ",.1f"
         },
         {
-          "id": "andel_FL_kont",
-          "label": "Andel fastlege",
+          "id": "kontakter_prim",
+          "label": "Allmennlege konsultasjoner",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.0f"
         },
         {
           "id": "primkont_pr_pas",
@@ -65,10 +65,10 @@
           "format": ",.1f"
         },
         {
-          "id": "kontakter_prim",
-          "label": "Allmennlege konsultasjoner",
+          "id": "andel_FL_kont",
+          "label": "Andel fastlege",
           "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },

@@ -53,10 +53,10 @@
           "format": ",.1f"
         },
         {
-          "id": "andel_off_poli",
-          "label": "Andel sykehus",
+          "id": "kontakter_poli",
+          "label": "Spesialistkonsultasjoner",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
@@ -65,10 +65,10 @@
           "format": ",.1f"
         },
         {
-          "id": "kontakter_poli",
-          "label": "Spesialist konsultasjoner",
+          "id": "andel_off_poli",
+          "label": "Andel sykehus",
           "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },
