@@ -218,8 +218,6 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 
 
 
-
-
 ### Resultat
 
 Kvart år hadde 27 700 vaksne døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman 50 800 opphald per år i Noreg.
@@ -227,6 +225,8 @@ Kvart år hadde 27 700 vaksne døgnopphald i psykisk helsevern eller tverrfagleg
 Pasientraten varierte i buområda frå 6 til 13 vaksne i døgnbehandling per 1 000 innbyggarar per år. Opphaldsraten varierte i buområda frå 9 til 25 døgnopphald per 1 000 innbyggarar, med 16 som gjennomsnittleg årsrate. 
 
 Opphald for vaksne varte i gjennomsnitt 26 døgn, og varierte mellom buområda frå 19 til 32 døgn per opphald.
+
+![](/helseatlas/img/no/psyk/p2va_dog_opp_faktaark-1.png "Opphaldsrate for døgnbehandling for vaksne (18-64 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar: Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år (2014- 2018) og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Kommentar
 
