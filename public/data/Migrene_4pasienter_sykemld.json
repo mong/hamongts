@@ -23,7 +23,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021",
+      "caption": "Årlige gjennomsnittsverdier for perioden 2019-2021",
       "columns": [
         {
           "id": "bohf",
@@ -39,19 +39,19 @@
         },
         {
           "id": "ant_sykempas",
-          "label": "Antall sykemeldt minst en gang",
+          "label": "Pasienter sykemeldt",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "pasienter",
-          "label": "Antall pasienter med migrene",
+          "label": "Pasienter med migrene",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "sm_pr_smpas",
-          "label": "Antall sykemeldinger pr. pasient",
+          "label": "Sykemeldinger pr. pasient",
           "typeVar": "number",
           "format": ",.1f"
         }
