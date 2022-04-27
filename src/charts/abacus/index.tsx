@@ -60,10 +60,10 @@ export const Abacus = <
   xMax,
   backgroundColor = "white",
   axisLineStroke = "black",
-  axisLineStrokeWidth = 4,
+  axisLineStrokeWidth = 2,
   axisTickStroke = "black",
-  circleRadiusDefalt = 25,
-  tickLength = 30,
+  circleRadiusDefalt = 20,
+  tickLength = 20,
   tickLabelSize = 22,
   labelSize = 22,
 }: AbacusProps<Data, X, ColorBy>) => {
@@ -98,7 +98,7 @@ export const Abacus = <
             fontSize: tickLabelSize,
             fill: "black",
             textAnchor: "middle",
-            y: 60,
+            y: 50,
           })}
           label={label}
           labelProps={{
