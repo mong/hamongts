@@ -362,9 +362,62 @@ Det er stor variasjon i innleggingsrate ved korsryggsmerter. Vi har karakteriser
 
 ## Skade på fremre korsband
 
-* [Hjernerystelse](/helseatlas/files/ortopedi_faktaark_hjernerystelse.pdf)
+Skade på fremre korsband er den vanlegaste alvorlege kneskaden på verdsbasis. I Noreg blir omtrent 4 000 korsband skada kvart år og halvparten av desse blir operert. Dette er ein skade som først og fremst rammar den yngre delen av innbyggarane, og pasientane som blir operert er i gjennomsnitt 29 år. Det er litt fleire menn (56 %) enn kvinner som blir opererte, og omtrent 70 % av skadane skjer i samband med idrettsaktivitetar; ofte fotball, handball eller alpint. Konservativ behandling kan vere tilstrekkeleg, men operativ behandling blir ofte gjennomført for å betre stabiliteten i kneet og redusere risikoen for eventuell seinare artrose. Den vanligaste operasjonsmetoden er å erstatte det øydelagde korsbandet med eiga sene, og operasjonen blir ofte utført dagkirurgisk. 
+
+### Bakgrunn
+
+Skade på fremre korsbands er definert ved hovud- eller bidiagnose S83.5, S83.7, M23.5 eller M23.51 (ICD-10). Operativ behandling er definert ved diagnostisert fremre korsbandsskade og samtidig ein eller fleire av  prosedyrekodane NGE11, NGE15, NGE21, NGE25, NGE31, NGE35, NGE41, NGE45, NGE51, NGE55, NGE91 eller NGE95 (NCSP).  Pasientar i alle aldrar er inkludert i utvalet.
+
+Det er årleg i gjennomsnitt 1 500 offentleg finansierte operasjonar for behandling av fremre korsbandsskade i Noreg.
+
+![]( "Samla tal operasjonar for fremre korsband, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for fremre korsbandsskade per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er fire gonger så vanleg med operasjon for skade på fremre korsband i buområde Førde som i buområde Telemark.
+
+Dei aller fleste blir opererte på offentlege sjukehus (75 %), men i fleire buområde er det ein stor del av pasientane som blir opererte hos private tilbydarar med offentleg fiansiering (opp til 55 %). Pasienter med skade på fremre korsband som blir operert av private tilbydarar gjennom helseforsikring eller privat finansiering er ikkje inkludert i analysane, men utgjer ein forholdsvis stor del av alle opererte.
+
+![]( "Operasjonsrate: Tal operasjonar for skade på fremre korsband per 100~000 innbyggarar (alle aldrar), fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Det er stor variasjon i operativ behandling av skade på fremre korsband. Det er ikkje kjent at førekomsten av skade på fremre korsband varierer tilsvarande mellom ulike deler av landet, og variasjonen i offentleg finansiert operativ behandling av skade på fremre korsband blir karakterisert som uønska.
+
+Operativ behandling av barn med skade på fremre korsband er omdiskutert. Praksis i Noreg har vore relativt restriktiv av omsyn til risiko for skade på knoklar i vekstfase. Dei fleste opererte i aldersgruppa 10--19 år, er 16 år og eldre (82 %).
+
+## Hjernerystelse
+
+Vanlege årsaker til hjernerystelse er trafikkulukker, idrett, overfall og fall. Symptoma skuldast, som namnet seier, at hjernen blir rista. Pasienten kan, i tillegg til tap av medvit, oppleve hukommelsestap, konsentrasjonsvanskar, hovudverk, svimmelheit, kvalme, brekningar eller oppkast. Symptoma på hjernerystelse er som oftast forbigåande. I sjeldne tilfeller kan bløding innafor skallen (intrakranielt) oppstå, med risiko for varig hjerneskade. Ved vurdert risiko for slik skade kan CT-undersøking eller innlegging på sjukehus for observasjon bli aktuell. Skandinaviske retningsliner oppgir kor lenge pasientane bør observerast, om dei bør leggast inn i sjukehus for observasjonen og når CT undersøking bør brukast. For dei fleste pasientane er det tilstrekkeleg å kvile frå fysisk og kognitiv anstrenging, for deretter gradvis å komme tilbake til normalt aktivitetsnivå. Symptoma vil vanlegvis avta i løpet av ei veke til ein månad, men 15 % av pasientane kan få langvarige plager, såkalla postcommotiosyndrom. 
+
+### Bakgrunn
+
+Hjernerystelse er definert ved hovuddiagnose S06.0 (ICD-10). Pasientar som er 18 år eller eldre er inkludert, med unntak for kjønns- og aldersfordeling for pasientar innlagt for hjernerystelse (alle aldrar).
+
+Det er årleg i gjennomsnitt 3 000 vaksne som blir innlagt på grunn av hjernerystelse i Noreg.
 
 Eit opptaksområde er kommunar, og eventuelt bydelar, som eit helseføretak har ansvar for å gi helsetenester til. Inndeling i opptaksområde kan variere etter fagområde.
+
+![]( "Samla tal innleggingar for pasientar med hjernerystelse, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+
+![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Resultat
+Innleggingsraten for vaksne med hjernerystelse er tre gonger høgare i buområde Stavanger, enn i buområde St. Olavs. For pasientar 18-66 år er innleggingsraten høgast i buområde Nordlandssykehuset, og for pasientar 67 år og eldre i buområde OUS. Buområde St. Olavs ligg lågast i begge gruppene. 
+
+Pasientar 67 år og eldre blir innlagt i større grad enn pasientar 18-66 år (156 respektive 56 innleggingar per 100 000 innbyggarar), og variasjonen mellom buområda er tydleg i begge grupper.  
+
+Innleggingsraten endrar seg for enkelte buområde mykje frå år til år, men er stabil på landsnivå.
+
+![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
+
+### Kommentar 
+
+Det er stor variasjon mellom buområda i innleggingsrate for vaksne med hjernerystelse. 
+
+Ulik organisering av tenestene, og variasjonar i tilgang til observasjon ved kommunale eller interkommunale sengepostar, kan tenkast forklare noko av den observerte variasjonen i innleggingsrate. Det er vanskeleg å vurdere i kva grad den observerte variasjonen i innleggingar skuldast reelle forskjellar i behandling av vaksne med hjernerystelse, og vi utelukkar ikkje at variasjonen er uønska.
 
 ## Buområde
 
