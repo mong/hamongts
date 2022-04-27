@@ -33,6 +33,9 @@ type AbacusProps<
   circleFillDefalt?: string;
   circleRadiusDefalt?: number;
   tickLength?: number;
+  tickLabelSize?: number;
+  labelSize?: number;
+  markerOpacity?: number;
 };
 
 export const Abacus = <
@@ -40,14 +43,16 @@ export const Abacus = <
   X extends string & keyof Data,
   ColorBy extends string & keyof Data
 >({
-  width = 400,
-  height = 60,
+  width = 950,
+  height = 100,
   margin = {
-    top: 20,
-    bottom: 20,
-    right: 20,
-    left: 20,
+    top: 30,
+    bottom: 5,
+    right: 30,
+    left: 30,
   },
+  colorLegend = false,
+  colorBy,
   data,
   label,
   x,
@@ -55,10 +60,12 @@ export const Abacus = <
   xMax,
   backgroundColor = "white",
   axisLineStroke = "black",
-  axisLineStrokeWidth = 2,
+  axisLineStrokeWidth = 4,
   axisTickStroke = "black",
-  circleRadiusDefalt = 15,
-  tickLength = 20,
+  circleRadiusDefalt = 25,
+  tickLength = 30,
+  tickLabelSize = 22,
+  labelSize = 22,
 }: AbacusProps<Data, X, ColorBy>) => {
   const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
@@ -71,7 +78,12 @@ export const Abacus = <
     range: [0, innerWidth],
   });
   return (
-    <svg style={{ backgroundColor }} width={width} height={height}>
+    <svg
+      width="100%"
+      height={height}
+      style={{ backgroundColor, display: "block", margin: "auto" }}
+      viewBox={`0 0 ${width} ${height + margin.top}`}
+    >
       <Group left={margin.left} top={margin.top}>
         <AxisBottom
           top={0}
@@ -82,10 +94,17 @@ export const Abacus = <
           tickLength={tickLength}
           tickStroke={axisTickStroke}
           tickTransform={`translate(0,-${tickLength / 2})`}
+          tickLabelProps={() => ({
+            fontSize: tickLabelSize,
+            fill: "black",
+            textAnchor: "middle",
+            y: 60,
+          })}
           label={label}
           labelProps={{
-            fontSize: 16,
+            fontSize: labelSize,
             textAnchor: "middle",
+            fontWeight: "bold",
           }}
         />
       </Group>
