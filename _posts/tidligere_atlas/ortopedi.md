@@ -258,9 +258,94 @@ Kragebeinsbrot er definert ved hovud- eller bidiagnose S42.0 (ICD-10). Operativ 
 
 Det skjer årleg i gjennomsnitt nær 5 000 kragebeinsbrot i Noreg, og 13 % av brota blir operert. 
 
-* [Prolaps i korsryggen](/helseatlas/files/ortopedi_faktaark_prolaps_i_korsryggen.pdf)
-* [Spinal stenose i korsryggen](/helseatlas/files/ortopedi_faktaark_spinal_stenose_i_korsryggen.pdf)
-* [Andre korsryggsmerter](/helseatlas/files/ortopedi_faktaark_andre_korsryggsmerter.pdf)
+![]( "Tal operasjonar for kragebeinsbrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
+
+![]( "Brotrate: Tal kragebeinsbrot per 100 000 innbyggarar per år i perioden 2012-2016. Gjennomsnittsverdiar med 95 % og 99,8 % konfidensintervall. Mørkare blå søyle representerer opererte brot. Loddrett strek viser brotrate for landet. Ratane er justerte for kjønn og alder.")
+
+### Resultat
+
+Det er dobbelt så vanleg å bli operert for kragebeinsbrot i buområde Østfold som i buområde Fonna. Det blir utført få operasjonar per år, og små endringar i tal operasjonar kan påverke ratane.
+
+Prosentdelen av pasientar med kragebeinsbrot (alle aldrar) som blir operert varierar frå 9 % i buområda OUS og Fonna, til 21 % i buområde Førde. Born under 10 år blir sjeldan opererte for kragebeinsbrot. I aldersgruppa 10 - 19 år blir 9 % av pasientane opererte, og dei fleste er 16 år og eldre. 
+
+![]( "Operasjonsrate: Tal opererte kragebeinsbrot per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012–2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder. Helgelandssykehuset: det er færre enn 40 unike personar som ligg til grunn for utrekningane, og raten er derfor usikker.")
+
+### Kommentar
+
+Variasjonen i behandling av kragebeinsbrot er moderat. Sjølv om det er dobbelt så mange som blir operert i buområde med høgast operasjonsrate, som i buområde med lågast rate, er tal operasjonar lite, og ein relativt stor del av den observerte variasjonen kan vere tilfeldig. Tal kragebeinsbrot varierer lite mellom buområda, og det kan ikkje utelukkast at variasjonen i operativ behandling av kragebeinsbrot til dels er uønska. 
+
+## Prolaps i korsryggen
+
+Ryggsmerter relatert til prolaps i korsryggen er vanlege. Både kvinner og menn er utsett for å få prolaps med isjias i 30-50 års alderen, med ei overvekt av menn. Dei fleste opplever spontan betring i løpet av månader, og konservativ behandling er ofte tilstrekkeleg. Operasjon kan bli aktuelt for pasientar med vedvarande og funksjonsnedsettande isjiassmerter. I sjeldne tilfeller kan akuttoperasjon innan 24 timar vere nødvendig for å hindre permanent nerveskade. Dei aller fleste kjem tilbake i jobb etter operasjon, og er nøgde med resultatet.
+
+### Bakgrunn
+
+Prolaps i korsryggen (med isjias) er definert ved hovud- eller bidiagnose M51.1, M51.2, M51.3, M51.8 eller M51.9 (ICD-10). Operativ behandling er definert ved diagnostisert prolaps i korsryggen og samtidig ein eller fleire av prosedyrekodane ABC07, ABC16, ABC26, ABC36, ABC40, ABC56, NAG34, NAG36, NAG44, NAG46, NAG54, NAG56, NAG64, NAG66, NAG74 og NAG76 (NCSP). Pasientar som er 18 år eller eldre er inkludert, med unntak i figurane som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt 3 200 pasientar som blir operert for skiveprolaps i korsryggen i Noreg. Det utgjer 27 % av pasientane med diagnostisert prolaps som er i kontakt med spesialisthelsetenesta.
+
+![]( "Samla tal operasjonar for prolaps i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er meir enn dobbelt så vanleg med operasjon for prolaps i korsryggen i buområde Nord-Trøndelag som i buområde Telemark. 
+
+Prosentdel opererte er høgast i buområde St. Olavs og Stavanger (36 %) og lågast i buområde Telemark (14 %). Tal operasjonar per innbyggar er relativt stabile over tid, men ser ut til å auke i enkelte buområde. 
+
+Dei fleste blir opererte på offentleg sjukehus (90 %). I enkelte buområde blir nesten alle pasientar opererte på offentleg sjukehus i eit anna buområde (opp til 93 %), og i mindre grad hos private helseaktørar (opp til 28 %).
+
+![]( "Operasjonsrate: Tal operasjonar for prolaps i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Det er relativt stor variasjon i operativ behandling av prolaps i korsryggen. Det er spesielt buområde Nord-Trøndelag som skilde seg ut med høg operasjonsrate. Vi har vurdert variasjonen i operasjonsrate til å vere uønska, fordi det ikkje er kjent at førekomsten av prolaps i korsryggen varierer tilsvarande mellom ulike deler av landet.
+
+Det var  ein tydleg variasjon mellom buområda også i tal pasientar med prolaps per 100~000 innbyggarar som var i kontakt med spesialisthelsetenesta, og i prosentdel opererte. Dette tenker vi kan reflektere ulik praksis ved sjukehus når det gjeld handtering av tilvisingar, men eventuelt også mangel på sterke retningliner.  
+
+## Spinal stenose i korsryggen
+
+Spinal stenose i korsryggen, det vil seie trang ryggmargskanal, er ei aldersrelatert slitasjeliding, som hos nær 10~% av innbyggarane er årsak til ryggsmerter, og eventuelt også smerter og redusert muskelkraft i beina. Ryggsmerter på grunn av spinal stenose er vanlegast i 50-60 års alder, og førekomsten vil truleg auke med fleire eldre innbyggarar. Konservativ behandling er tilstrekkeleg i dei fleste tilfelle, men operativ behandling kan vere aktuelt ved intense plager hos nøye utvalde pasientar. Ved operasjon blir strukturar som gir innsnevring og trykk på ryggmargen eller nerverøter fjerna, og i tillegg kan avstiving av virvlar vere aktuelt. Pasientar som blir opererte opplever ei tydeleg betring av funksjon, livskvalitet og arbeidsevne, men mange vil ha restplager etter operasjon.
+
+### Bakgrunn
+
+Spinal stenose i korsryggen er definert ved hovud- eller bidiagnose M48.0, M43.1, M47.2, M99.3 eller M99.6 (ICD-10). Operativ behandling er definert ved diagnostisert spinal stenose i korsryggen og samtidig ein eller fleire av prosedyrekodane ABC07, ABC16, ABC26, ABC36, ABC40, ABC56, ABC66, ABC99, NAG34, NAG36, NAG44, NAG46, NAG54, NAG56, NAG64, NAG66, NAG74, NAG76, NAG94 og NAG96 (NCSP). Pasientar som er 18 år eller eldre er inkludert, med unntak for figur som viser kjønns- og aldersfordeling for opererte (alle aldrar).
+
+Det er årleg i gjennomsnitt 3 200 operasjonar for behandling av spinal stenose i korsryggen per år i Noreg, og det utgjer 34 % av pasientane med diagnostisert spinal stenose som er i kontakt med spesialisthelsetenesta.
+
+![]( "Samla tal operasjonar for spinal stenose i korsryggen, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
+
+![]( "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+
+### Resultat
+
+Det er dobbelt så vanleg med operasjon for spinal stenose i korsryggen i buområde Vestre Viken som i buområde Finnmark. 
+
+Tal operasjonar per innbyggar varierer frå år til år i buområda, og ser ut til å auke litt på landsbasis. Prosentdel pasientar med spinal stenose som blir operert er høgast i buområde Stavanger (44 %) og lågast i buområde Finnmark (19 %). 
+
+Dei fleste blir opererte på offentleg sjukehus (89 %). I enkelte buområde er alle, eller mange av pasientane opererte på offentleg sjukehus i eit anna buområde, og i mindre grad ved anbodssjukehus eller avtalespesialistar (opp til 35 %).
+
+![]( "Operasjonsrate: Tal operasjonar for spinal stenose i korsryggen per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Variasjonen i operativ behandling av spinal stenose i korsryggen er stor. Det føreligg ikkje kunnskap om ulik sjuklegheit som kan forklare forskjellane i bruk av operativ behandling, og variasjonen er karakterisert som uønska.
+
+Det er også variasjon både i tal pasientar i kontakt med spesialisthelsetenesta, og i kor stor prosentdel av desse pasientane som blir opererte. Ein stor del av den observerte variasjonen reflekterer truleg både tilstanden sin kompleksitet, ein mangel på klassifikasjonssystem for tilstanden og retningsliner for behandlinga. Dette gjer at vurdering av både tilvisnings- og operasjonsbehov i stor grad blir påverka av skjønn.
+
+## Andre korsryggsmerter
+
+Med andre korsryggsmerter (lumbago) meiner vi her ryggsmerter, der det ikkje er aktuelt med operasjon. Pasientar med slike smerter utgjer ein relativ stor del av pasientane innlagt på ortopedisk avdeling. Innlegging kan vere nødvendig for tilstrekkeleg medikamentell smertelindring, og utgreiing av smerteårsak for planlegging av vidare behandling. Dersom det ikkje er indikasjonar for operasjon, og ved fare for utvikling av langvarige ryggsmerter, kan tilvising til fysioterapi eller fysikalsk medisinsk behandling bli aktuelt for rettleia trening, informasjon og behandling. Dei fleste pasientar med korsryggsmerter blir friske innan noken månadar, men omtrent 40 % får ryggsmerter på nytt innan eit halvt år. Av dei som har ryggsmerter for første gang blir smertene langvarige hos omtrent ein prosent.
+
+### Bakgrunn
+
+Andre korsryggsmerter er definert ved hovud- eller bidiagnose M54.4, M54.5, M54.8 eller M54.9 (ICD-10). Pasientar som er 18 år eller eldre er inkludert, med unntak for figur som viser kjønns- og aldersfordeling for pasientar innlagt for andre korsryggsmerter (alle aldrar).
+
+Det er årleg i gjennomsnitt 2 500 personar som blir innlagt på grunn av andre korsryggsmerter i Noreg. 
+
+
+
 * [Skade på fremre korsband](/helseatlas/files/ortopedi_faktaark_skade_pa_fremre_korsband.pdf)
 * [Hjernerystelse](/helseatlas/files/ortopedi_faktaark_hjernerystelse.pdf)
 
