@@ -113,9 +113,7 @@ Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst ein indirekte kontak
 | Vestre Viken    | 81 230         | 63,5               | 36,5                 |
 | Noreg           | 858 229        | 68,0               | 32,0                 |
 
-Direkte og indirekte kontaktar i poliklinisk behandling. Barn og
-unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Alle kontaktar (inkluderer direkte og indirekte kontaktar, gjennomsnittsverdiar per år), prosentdel direkte og
- prosentdel indirekte kontaktar for perioden 2014-2018.
+Direkte og indirekte kontaktar i poliklinisk behandling. Barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Alle kontaktar (inkluderer direkte og indirekte kontaktar, gjennomsnittsverdiar per år), prosentdel direkte og prosentdel indirekte kontaktar for perioden 2014-2018.
 
 Kvart år var det nær 275 000 indirekte polikliniske kontaktar for barn og unge i Noreg. 
 Raten for indirekte kontaktar varierte i buområda frå 154 til 357 kontaktar per 1 000 innbyggarar, med 243 som gjennomsnittleg årsrate.
@@ -159,8 +157,7 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Nord-Trøndelag  | 103           | 117         | 14,3             |
 | Noreg           | 1 770         | 2 581       | 26,9             |
 
-Døgnbehandling for barn og unge (0-17 år) i psykisk helsevern og
- tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+Døgnbehandling for barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
 ### Resultat
 
@@ -241,7 +238,7 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | UNN             | 1 214         | 2 956       | 18,5             |
 | Noreg           | 27 685        | 50 800      | 26,2             |
 
-Døgnbehandling for vaksne (18-64 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Tala representerer gjennomsnittsverdiar per år (2014-2018).
+Døgnbehandling for vaksne (18-64 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Tala representerer gjennomsnittsverdiar per år (2014-2018).
 
 ### Resultat
 
@@ -271,8 +268,8 @@ Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst ein poliklinisk kontakt i
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert her.
 
-\| Buområde        | Tal kontaktar | Tal pasientar | Kontakt per pasient |
-|-----------------|---------------|---------------|---------------------|
+| Buområde        | Tal kontaktar | Tal pasientar | Kontakt per pasient |
+| --------------- | ------------- | ------------- | ------------------- |
 | Bergen          | 59 542        | 2 644         | 22,5                |
 | Vestfold        | 17 569        | 1 372         | 12,8                |
 | Lovisenberg     | 21 644        | 1 704         | 12,7                |
@@ -295,8 +292,11 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Nordland        | 2 869         | 432           | 6,6                 |
 | Finnmark        | 1 258         | 204           | 6,2                 |
 | Noreg           | 299 349       | 25 027        | 12,0                |
+
+
 Poliklinisk behandling for vaksne (18-64 år) med rusliding i psykisk helsevern og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet.
 Gjennomsnittsverdiar per år for perioden 2014-2018.
+
 
 ### Resultat
 
@@ -323,8 +323,9 @@ Vaksne med rusliding får ulik poliklinisk oppfølging, avhengig av kvar dei bur
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar (TSB), med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
+
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
-|-----------------|---------------|-------------|------------------|
+| --------------- | ------------- | ----------- | ---------------- |
 | Telemark        | 476           | 758         | 45,0             |
 | Innlandet       | 748           | 1 251       | 39,5             |
 | Vestfold        | 559           | 862         | 38,9             |
@@ -347,10 +348,9 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | St. Olavs       | 681           | 1 214       | 27,5             |
 | UNN             | 424           | 888         | 26,4             |
 | Noreg           | 11 562        | 19 802      | 33,2             |
-Døgnbehandling for vaksne (18-64 år) med rusliding, i psykisk
- helsevern og TSB. Tal pasientar, tal opphald og døgn per opphald
- fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-
-2018).
+
+Døgnbehandling for vaksne (18-64 år) med rusliding, i psykisk helsevern og TSB. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
 
 ### Resultat
 
@@ -380,6 +380,33 @@ Vaksne mellom 18 og 64 år som i 2014--2018 hadde minst ein poliklinisk kontakt 
 
 Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørande) var fysisk til stades, og blei skriven inn og ut same dato (inkluderer både polikliniske konsultasjonar og dagbehandlig). Indirekte polikliniske kontaktar er ikkje inkludert.
 
+| Buområde        | Tal kontaktar | Tal pasientar | Kontaktar per pasient |
+| --------------- | ------------- | ------------- | --------------------- |
+| Lovisenberg     | 25 402        | 1 099         | 23,1                  |
+| Sørlandet       | 22 982        | 1 097         | 20,9                  |
+| St. Olavs       | 21 546        | 1 213         | 17,8                  |
+| Stavanger       | 26 369        | 1 514         | 17,4                  |
+| Diakonhjemmet   | 10 733        | 634           | 16,9                  |
+| OUS             | 20 739        | 1 241         | 16,7                  |
+| Møre og Romsdal | 14 424        | 908           | 15,9                  |
+| Bergen          | 30 580        | 2 014         | 15,2                  |
+| Telemark        | 10 508        | 699           | 15,0                  |
+| UNN             | 8 696         | 596           | 14,6                  |
+| Ahus            | 23 086        | 1 589         | 14,5                  |
+| Vestfold        | 13 919        | 965           | 14,4                  |
+| Østfold         | 10 258        | 766           | 13,4                  |
+| Vestre Viken    | 24 891        | 1 874         | 13,3                  |
+| Fonna           | 8 774         | 684           | 12,8                  |
+| Nord-Trøndelag  | 6 248         | 511           | 12,2                  |
+| Innlandet       | 15 905        | 1 313         | 12,1                  |
+| Nordland        | 4 976         | 428           | 11,6                  |
+| Helgeland       | 2 677         | 249           | 10,8                  |
+| Førde           | 3 461         | 329           | 10,5                  |
+| Finnmark        | 1 971         | 255           | 7,7                   |
+| Noreg           | 308 145       | 19 586        | 15,7                  |
+
+Poliklinisk behandling for vaksne (18-64 år) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
 ### Resultat
 
 Kvart år var det knapt 20 000 vaksne med alvorleg psykisk liding i poliklinisk behandling ved psykisk helsevern, tverrfagleg spesialisert rusbehandling eller hos avtalespesialist psykisk helsevern, med omtrent 308~000 polikliniske kontaktar per år i Noreg. 
@@ -387,6 +414,8 @@ Kvart år var det knapt 20 000 vaksne med alvorleg psykisk liding i poliklinisk 
 Pasientraten varierte i buområda frå 4 til 11 vaksne med alvorleg psykisk liding i poliklinisk behandling per 1 000 innbyggarar per år. Kontaktraten varierte i buområda frå under 43 til 262 kontaktar per 1 000 innbyggarar, med litt over 95 som gjennomsnittleg årsrate. 
 
 Vaksne med alvorleg psykisk liding hadde i gjennomsnitt 16 polikliniske kontaktar per år, men talet varierte i buområda frå 8 til 23 polikliniske kontaktar per år. 
+
+![](/helseatlas/img/no/psyk/p2va_pol_alv_kon_faktaark-1.png "Kontaktrate for vaksne med alvorleg psykisk liding. Tal polikliniske kontaktar per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
 
 ### Kommentar
 
@@ -402,6 +431,33 @@ Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psyki
 
 Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller TSB. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
 
+| Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
+| --------------- | ------------- | ----------- | ---------------- |
+| OUS             | 403           | 619         | 42,4             |
+| Diakonhjemmet   | 197           | 278         | 41,3             |
+| Østfold         | 384           | 653         | 34,1             |
+| Ahus            | 648           | 1 055       | 33,8             |
+| Bergen          | 774           | 1 420       | 32,6             |
+| Vestre Viken    | 607           | 1 093       | 32,2             |
+| Innlandet       | 482           | 901         | 31,9             |
+| Lovisenberg     | 339           | 537         | 31,7             |
+| Vestfold        | 307           | 526         | 30,8             |
+| Stavanger       | 721           | 1 426       | 29,9             |
+| Førde           | 130           | 255         | 29,8             |
+| Telemark        | 269           | 538         | 27,9             |
+| St. Olavs       | 462           | 985         | 27,2             |
+| Møre og Romsdal | 386           | 778         | 27,1             |
+| Nord-Trøndelag  | 167           | 329         | 26,5             |
+| Helgeland       | 110           | 196         | 26,0             |
+| Nordland        | 194           | 331         | 25,4             |
+| Sørlandet       | 502           | 1 037       | 23,8             |
+| Finnmark        | 161           | 370         | 21,7             |
+| Fonna           | 307           | 735         | 20,3             |
+| UNN             | 360           | 1 091       | 16,5             |
+| Noreg           | 7 920         | 15 151      | 29,1             |
+
+Døgnbehandling for vaksne (18-64 år) med alvorleg psykisk liding i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
 ### Resultat
 
 Kvart år hadde 7 920 vaksne med alvorleg psykisk liding døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, til saman over 15 100 opphald per år i Noreg.
@@ -409,6 +465,9 @@ Kvart år hadde 7 920 vaksne med alvorleg psykisk liding døgnopphald i psykisk 
 Pasientraten varierte i buområda frå 1,9 til 3,5 vaksne med alvorleg psykisk liding i døgnbehandling per 1~000 innbyggarar per år.
 
 Opphaldsraten varierte i buområda frå 3,1 til 9,4 døgnopphald per 1 000 innbyggarar, med 4,7 som gjennomsnittleg årsrate. Opphald for vaksne med alvorleg psykisk liding varte i gjennomsnitt 29 døgn, og varierte mellom buområda frå 16 til 42 døgn per opphald.
+
+![](/helseatlas/img/no/psyk/p2va_dog_opp_alv_faktaark-1.png "Opphaldsrate for vaksne med alvorleg psykisk liding i døgnbehandling. Tal døgnopphald per 1 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdiar per år for perioden 2014-2018 og prikkane representerer ratar for kvart av åra. Ratane er justert for alder og kjønn.")
+
 
 ### Kommentar
 
@@ -481,8 +540,9 @@ Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern
 | Møre og Romsdal | 250           | 426         | 19,2             |
 | Noreg           | 3 813         | 5 634       | 27,4             |
 
-Døgnbehandling for eldre (65 år +) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald
- og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
+Døgnbehandling for eldre (65 år +) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Tal pasientar, tal opphald og døgn per opphald fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+
 
 ### Resultat
 
@@ -537,9 +597,7 @@ Polikliniske kontaktar er definert som kontaktar der pasienten (eller pårørand
 | Finnmark        | 15            | 6             | 2,4                   |
 | Noreg           | 7 425         | 1 052         | 7,1                   |
 
-Poliklinisk behandling for eldre med rusliding i psykisk helsevern
- og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt
- på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
+Poliklinisk behandling for eldre med rusliding i psykisk helsevern og TSB. Tal kontaktar, tal pasientar og kontaktar per pasient fordelt på buområde og landet. Gjennomsnittsverdiar per år (2014-2018).
 
 ### Resultat
 
