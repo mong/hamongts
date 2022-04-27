@@ -55,12 +55,6 @@
           "format": ",.1f"
         },
         {
-          "id": "andel3_prim",
-          "label": "Andel kun i allmennlegetj.",
-          "typeVar": "number",
-          "format": ",.1%"
-        },
-        {
           "id": "pasienter",
           "label": "Pasienter",
           "typeVar": "number",
@@ -71,6 +65,12 @@
           "label": "Innbyggere",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "andel3_prim",
+          "label": "Andel kun i allmennlegetj.",
+          "typeVar": "number",
+          "format": ",.1%"
         }
       ]
     },
