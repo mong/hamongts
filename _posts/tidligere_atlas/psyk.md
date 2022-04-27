@@ -17,9 +17,11 @@ lang: nn
 Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar per 1 000 innbyggarar. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
 </div>
 
-## Barn og unge i poliklinisk behandling
+## Barn og unge i psykisk helsevern 
 
-Psykiske lidingar blir ofte kalla «de unges lidelser», og i dei fleste tilfelle har lidinga vist seg hos pasienten før fylte 25 år. Gutar i psykisk helsevern blir i stor grad tilvist i barneskolealder. Hos gutar er utviklingsforstyrringar og adferdsforstyrringar mest vanlege tilstandar, og mistanke om hyperkinetisk forstyrrelse (ADHD) vanleg årsak for tilvising. Hovedvekta av jentene i psykisk helsevern blir tilvist i ungdomsskolealder. Vanlege grunnar for tilvisinga er mistanke om depresjon eller angstliding, og frå puberteten også tilpassingsforstyrringar og spiseforstyrringar. For dei minste barna kan poliklininisk behandling gjelde mødre med fødselsdepresjon, barn med autisme, premature, rusmiddelskadde eller samansett barnevernsproblematikk. 95 % av behandlinga for barn og unge i psykisk helsevern skjer poliklinisk, og dei fleste opphalda i døgnbehandling er frivillig.
+Psykiske lidingar blir ofte kalla «de unges lidelser», og i dei fleste tilfelle har lidinga vist seg hos pasienten før fylte 25 år. Gutar i psykisk helsevern blir i stor grad tilvist i barneskolealder. Hos gutar er utviklingsforstyrringar og adferdsforstyrringar mest vanlege tilstandar, og mistanke om hyperkinetisk forstyrrelse (ADHD) vanleg årsak for tilvising. Hovedvekta av jentene i psykisk helsevern blir tilvist i ungdomsskolealder. Vanlege grunnar for tilvisinga er mistanke om depresjon eller angstliding, og frå puberteten også tilpassingsforstyrringar og spiseforstyrringar. For dei minste barna kan kontakt med psykisk helsevern gjelde mødre med fødselsdepresjon, barn med autisme, premature, rusmiddelskadde eller samansett barnevernsproblematikk. 95 % av behandlinga for barn og unge i psykisk helsevern skjer poliklinisk, og dei fleste opphalda i døgnbehandling er frivillig.
+
+### Poliklinisk behandling
 
 ### Utval og definisjonar
 
@@ -69,6 +71,41 @@ Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet va
 Barn og unge i poliklinisk behandling er ei stor pasientgruppe innan psykisk helsevern. Buområda med lågare folketal tenderer til å ha fleire pasientar i forhold til innbyggartal. Variasjonen mellom buområda er likevel liten både for kontaktratar og pasientratar. 
 
 Nedgangen i poliklinisk kontaktrate for Noreg i 2018 kan vere påverka av både innføring av nytt journalsystem i nokre helseføretak i perioden, og ein auke i tenestetilbodet for barn og unge si psykiske helse i kommunane.
+
+### Barn og unge i poliklinisk behandling - ulike alderssegment
+Barn i alderen 0-5 år hadde færrast polikliniske kontaktar. Kontaktraten varierte i buområda frå 37 til 212 kontaktar per 1 000 innbyggarar, med 92 som gjennomsnittleg årsrate. Kontaktraten for barn i alderen 6-12 år varierte i buområda frå 377 til 750 kontaktar per 1 000 innbyggarar, med 524 som gjennomsnittleg årsrate. I alderen 13-17 år var den polikliniske kontaktraten for barn og unge størst, med 1 006 som gjennomsnittleg årsrate. Raten varierte i buområda frå 731 til 1 469 kontaktar per 1 000 innbyggarar.
+
+Barn og unge er den nest største pasientgruppa i helseatlas for psykisk helsevern og rusbehandling. Variasjonen i poliklinisk behandling for 0-17 år er liten både for kontaktratar og pasientratar.
+
+For aldersgruppa 13-17 år er jenter i fleirtal og kontaktraten den høgaste i helseatlas for psykisk helsevern og rusbehandling. Raten er høgare enn tilsvarande ratar for vaksne og eldre.
+
+Bruk av poliklinikk for dei ulike alderssegmenta varierer i buområda. Enkelte buområde har relativt høg kontaktrate for barn i gruppa 0--5 år, mens andre har relativt høg kontaktrate i alle alderssegment, og i somme buområde er kontaktratane høge frå tenåra. 
+
+### Barn og unge - indirekte polikliniske kontaktar
+Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst ein indirekte kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet. Indirekte kontaktar er kontaktar der pasienten (eller pårørande) ikkje var fysisk til stades, og er definert som episodar der variabelen «kontakttype» har verdien «Indirekte pasientkontakt», eller der variabelen «polIndir» ikkje er tom. For psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar er P-takstane P13, P14, P23, P24, P31 og særkodane B0009, B0010, B0011, B0017 inkludert. Hos avtalespesialistar er takstane 26, 31a-f, 33a-b, 60a-b, 70a-b, 80a-b inkludert.  
+
+Kvart år var det nær 275 000 indirekte polikliniske kontaktar for barn og unge i Noreg. 
+Raten for indirekte kontaktar varierte i buområda frå 154 til 357 kontaktar per 1 000 innbyggarar, med 243 som gjennomsnittleg årsrate.
+
+Indirekte kontaktar utgjorde på landsnivå 32 % av alle polikliniske kontaktar for barn og unge, men varierte mellom buområda frå 24 til 43 %.
+
+Dei registrerte typar indirekte kontaktar gikk i retning av fleire telefonsamtalar med pasientane og samarbeidsmøter om pasientane. Tal samarbeidsmøter om pasienten med førstelinjetenesta og anna teneste auka tydeleg dei siste åra i perioden, mens det blei registrert få indirekte kontaktar per telemedisin og tele-/videokonferanse. Endringane kan henge saman med innføring av innsatsstyrt finansiering (ISF), og større fokus på koding også av indirekte kontaktar. 
+
+## Barn og unge i døgnbehandling
+### Utval og definisjonar
+Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern er inkludert. 
+
+Døgnopphald er definert som opphald på meir enn null døgn i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar. Døgnopphald med mindre enn åtte timar mellom utskriving og ny innskriving er slått saman. Opphald lengre enn 365 dagar er ekskludert. Årsratane er registrert på året pasienten blei utskriven. 
+
+### Resultat
+Kvart år hadde 1 770 barn og unge døgnopphald i psykisk helsevern eller tverrfagleg spesialisert rusbehandling, med omtrent 2 600 opphald per år i Noreg.
+
+Pasientraten varierte i buområda frå 0,7 til 4,0 barn og unge i døgnbehandling per 1 000 innbyggarar per år. 
+
+Opphaldsraten varierte i buområda frå 0,9 til 5,8 døgnopphald per 1 000 innbyggarar, med 2,3 som gjennomsnittleg årsrate. Opphald for barn og unge varte i gjennomsnitt 27 døgn, men varierte særleg mykje mellom buområda frå 14 til 68 døgn per opphald.
+
+### Kommentar
+Det er relativt få barn og unge innlagt til døgnbehandling, men variasjonen er særleg stor både for opphaldsratar og pasientratar. Forskjellane i varigheit av opphalda er markant, med nesten fem gonger lengre opphald i buområde med lengst opphald enn i buområde med kortast.
 
 ### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
