@@ -198,7 +198,7 @@ Hoftebrot er ein av dei tre vanlegaste typar  brot i Noreg, og Noreg har høgast
 
 Operativ behandling av hoftebrot er definert ved hovud- eller bidiagnose S72.0, S72.1 eller S72.2 (ICD-10) og samtidig ein eller fleire av  prosedyrekodane i kategoriblokka NFB, eller NFJ20, NFJ21, NFJ22, NFJ30, NFJ31, NFJ32, NFJ40, NFJ41, NFJ42, NFJ50, NFJ51, NFJ52, NFJ60, NFJ61, NFJ62, NFJ70, NFJ71, NFJ72, NFJ80, NFJ81, NFJ82, NFJ90, NFJ91, NFJ92. Pasientar 18 år eller eldre er inkludert i utvalet, med unntak i figuren som viser kjønns- og aldersfordeling for opererte brot (alle aldrar).
 
-Det skjer årleg i gjennomsnitt nær 9~000 hoftebrot i Noreg. Av desse er 61 % lårhalsbrot og 39 % trokantære brot. 
+Det skjer årleg i gjennomsnitt nær 9 000 hoftebrot i Noreg. Av desse er 61 % lårhalsbrot og 39 % trokantære brot. 
 
 ![]( "Tal operasjonar for hoftebrot for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
@@ -405,6 +405,7 @@ Eit opptaksområde er kommunar, og eventuelt bydelar, som eit helseføretak har 
 ![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Resultat
+
 Innleggingsraten for vaksne med hjernerystelse er tre gonger høgare i buområde Stavanger, enn i buområde St. Olavs. For pasientar 18-66 år er innleggingsraten høgast i buområde Nordlandssykehuset, og for pasientar 67 år og eldre i buområde OUS. Buområde St. Olavs ligg lågast i begge gruppene. 
 
 Pasientar 67 år og eldre blir innlagt i større grad enn pasientar 18-66 år (156 respektive 56 innleggingar per 100 000 innbyggarar), og variasjonen mellom buområda er tydleg i begge grupper.  
@@ -413,7 +414,7 @@ Innleggingsraten endrar seg for enkelte buområde mykje frå år til år, men er
 
 ![]( "Innleggingsrate: Tal innleggingar for hjernerystelse per 100 000 innbyggarar, fordelt på buområde. Søylene viser gjennomsnittsverdien per år for perioden 2012 – 2016 med 95 % og 99,8 % konfidensintervall. Loddrett strek viser gjennomsnittsverdien for landet. Ratane er justert for kjønn og alder.")
 
-### Kommentar 
+### Kommentar
 
 Det er stor variasjon mellom buområda i innleggingsrate for vaksne med hjernerystelse. 
 
