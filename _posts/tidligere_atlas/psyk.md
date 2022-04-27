@@ -731,8 +731,6 @@ Pasientraten varierte i buområda frå 0,4 til 2,8 eldre pasientar med rusliding
 
 Opphaldsraten varierte i buområda frå 0,6 til 4,2 døgnopphald per 1~000 innbyggarar, med 1,0 som gjennomsnittleg årsrate. Opphald for eldre med rusliding varte i gjennomsnitt 24 døgn, og varierte mellom buområda frå 14 til 42 døgn per opphald.
 
-
-
 | Buområde        | Tal pasientar | Tal opphald | Døgn per opphald |
 | --------------- | ------------- | ----------- | ---------------- |
 | Helgeland       | 9             | 11          | 42,1             |
