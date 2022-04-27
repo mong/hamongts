@@ -344,9 +344,24 @@ Andre korsryggsmerter er definert ved hovud- eller bidiagnose M54.4, M54.5, M54.
 
 Det er årleg i gjennomsnitt 2 500 personar som blir innlagt på grunn av andre korsryggsmerter i Noreg. 
 
+![]( "Samla tal innleggingar for andre korsryggsmerter, for heile landet i perioden 2012-2016. Pasientane er fordelt etter kjønn og i aldersgrupper.")
 
+![]( "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
-* [Skade på fremre korsband](/helseatlas/files/ortopedi_faktaark_skade_pa_fremre_korsband.pdf)
+### Resultat
+
+Innlegging for andre korsryggsmerter er meir enn dobbelt så vanleg i buområde Førde som i buområde OUS. 
+
+Det er store variasjonar i tal innleggingar per år i enkelte buområde. Innleggingsraten går spesielt tydeleg ned i buområda Telemark og Vestfold, og ser også ut til å minke på landsnivå.
+
+![]( "Innlegginsrate: tal innleggingar for andre korsryggsmerter, per 100 000 innbyggar (18 år og eldre), fordelt på buområde og landet. Innleggingsraten er gjennomsnitt for åra 2012-2016, med 95 % og 99,8 % konfidensintervall. Ratane er justert for kjønn og alder.")
+
+### Kommentar
+
+Det er stor variasjon i innleggingsrate ved korsryggsmerter. Vi har karakterisert variasjonen i innleggingsrate som uønska fordi det er ikkje kjent at førekomsten av korsryggsmerter varierer tilsvarande mellom ulike deler av landet.
+
+## Skade på fremre korsband
+
 * [Hjernerystelse](/helseatlas/files/ortopedi_faktaark_hjernerystelse.pdf)
 
 Eit opptaksområde er kommunar, og eventuelt bydelar, som eit helseføretak har ansvar for å gi helsetenester til. Inndeling i opptaksområde kan variere etter fagområde.
