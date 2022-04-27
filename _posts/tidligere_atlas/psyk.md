@@ -14,12 +14,10 @@ toc: true
 lang: nn
 ---
 <div className="ingress">
-Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar per 1 000 innbyggarar. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
+Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert under.  Helseatlaset gir oversikt og analyse i bruk av psykisk helsevern, inkludert avtalespesialistane, og tverrfagleg spesialisert behandling av ruslidingar (TSB) i Noreg  for åra 2014 - 2018. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar per 1 000 innbyggarar. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
 </div>
 
 ## Barn og unge i psykisk helsevern
-
-### Poliklinisk behandling
 
 Psykiske lidingar blir ofte kalla «de unges lidelser», og i dei fleste tilfelle har lidinga vist seg hos pasienten før fylte 25 år. Gutar i psykisk helsevern blir i stor grad tilvist i barneskolealder. Hos gutar er utviklingsforstyrringar og adferdsforstyrringar mest vanlege tilstandar, og mistanke om hyperkinetisk forstyrrelse (ADHD) vanleg årsak for tilvising. Hovedvekta av jentene i psykisk helsevern blir tilvist i ungdomsskolealder. Vanlege grunnar for tilvisinga er mistanke om depresjon eller angstliding, og frå puberteten også tilpassingsforstyrringar og spiseforstyrringar. For dei minste barna kan kontakt med psykisk helsevern gjelde mødre med fødselsdepresjon, barn med autisme, premature, rusmiddelskadde eller samansett barnevernsproblematikk. 95 % av behandlinga for barn og unge i psykisk helsevern skjer poliklinisk, og dei fleste opphalda i døgnbehandling er frivillig.
 
@@ -92,7 +90,7 @@ Indirekte kontaktar utgjorde på landsnivå 32 % av alle polikliniske kontaktar 
 
 Dei registrerte typar indirekte kontaktar gikk i retning av fleire telefonsamtalar med pasientane og samarbeidsmøter om pasientane. Tal samarbeidsmøter om pasienten med førstelinjetenesta og anna teneste auka tydeleg dei siste åra i perioden, mens det blei registrert få indirekte kontaktar per telemedisin og tele-/videokonferanse. Endringane kan henge saman med innføring av innsatsstyrt finansiering (ISF), og større fokus på koding også av indirekte kontaktar. 
 
-## Barn og unge i døgnbehandling
+### Døgnbehandling
 ### Utval og definisjonar
 Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern er inkludert. 
 
@@ -109,10 +107,10 @@ Opphaldsraten varierte i buområda frå 0,9 til 5,8 døgnopphald per 1 000 innby
 Det er relativt få barn og unge innlagt til døgnbehandling, men variasjonen er særleg stor både for opphaldsratar og pasientratar. Forskjellane i varigheit av opphalda er markant, med nesten fem gonger lengre opphald i buområde med lengst opphald enn i buområde med kortast.
 
 
-## Vaksne i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar (TSB)
+## Vaksne i psykisk helsevern og TSB
 Halvparten av innbyggarane i Noreg vil oppleve å få ei psykisk liding i løpet av livet. Psykiske sjukdommar rammar i stor grad den yngre del av innbyggarane, og angst og depresjon er dei hyppigaste tilstandane. Ruslidingar førekjem hyppig, også saman med andre psykiske lidingar. Psykoselidingar er forholdsvis sjeldne (1-3,5 %). Nokre tilstandar har svært god prognose, mens andre kan gi meir kroniske lidingar. Psykiske lidingar- og åtferdsforstyrringar utgjer med 36 % den største gruppa av dei uføretrygda. 
 
-### Vaksne i poliklinisk behandling
+### Poliklinikk
 
 ### Utval og definisjonar
 Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet.
@@ -132,7 +130,7 @@ Det var flest polikliniske kontaktar i psykisk helsevern (88-46 %). Bruk av avta
 ### Kommentar
 Vaksne i poliklinisk behandling er ei stor pasientgruppe. Med tanke på at pasientraten ikkje varierte stort mellom buområda er det verdt å legge merke til at kontaktraten er nær dobbelt så stor i buområde med størst rate som i buområde med minst rate. Vaksne Oslo-innbyggarar har prosentvis størst bruk av avtalespesialistar. 
 
-### Vaksne i døgnbehandling
+### Døgnbehandling
 
 ### Utval og definisjonar
 Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar er inkludert. 
@@ -154,7 +152,7 @@ Det er ein tendens til større bruk av døgnopphald i nord, med låg poliklinisk
 ## Vaksne med rusliding 
 Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanleg blant unge vaksne mellom 18 og 35 år. Skadeleg bruk av alkohol er meir vanleg blant menn enn hos kvinner. Pasientar med ruslidingar har ofte også andre psykiske lidingar og kroppslege sjukdommar. Personar med rusliding kan få både poliklinisk behandling og døgnbehandling i spesialisthelsetensta.
 
-### Poliklinisk behandling
+### Poliklinikk 
 ### Utval og definisjonar
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
@@ -232,7 +230,7 @@ Det er stor variasjon i døgnbehandling for vaksne med alvorleg psykisk liding, 
 
 Det er uønska variasjonar i døgnbehandling av vaksne, og dette er særleg tydeleg for pasientar med alvorleg psykisk liding. 
 
-## Eldre i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar (TSB)
+## Eldre i psykisk helsevern og TSB
 Dei hyppigaste psykiske lidingane hos eldre er dei same som hos den yngre del av innbyggarane og kan bli behandla på same måte som yngre. Eldre kan i tillegg ha andre, aldersrelaterte utfordringar. I fleire europeiske land har 35 % av dei eldre hatt ei psykisk liding i løpet av det siste året, og norske studier viser ein auke i førekomsten av depresjon hos eldre. Førekomsten av demens er på 5-10 % hos eldre. Psykiske problem er ofte samansette, og utgreiing og behandling skjer både i primærhelsetenesta, geriatriske, nevrologiske, alderspsykiatriske og allmennpsykiatriske avdelingar og poliklinikkar. Organisering av tenestene kring psykisk liding hos eldre er ulik i ulike delar av landet.
 
 ### Poliklinikk
@@ -313,7 +311,7 @@ Variasjonen i opphaldsratar er stor, men det er få eldre med rusliding som får
 ## Eldre med alvorleg psykisk liding
 Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipolar liding, er forholdsvis sjeldne tilstandar og ca. 1-3,5 % av innbyggarane vil få ei psykoseliding i løpet av livet. Alvorleg psykisk liding kan føre til langvarig og stort funksjonsfall og omfattande hjelpebehov, mens andre kan ha eit meir kortvarig sjukdomsforløp. Pasientar med alvorleg psykisk liding får ofte både poliklinisk behandling og døgnbehandling i spesialisthelsetenesta.
 
-## Poliklinikk
+### Poliklinikk
 
 ### Utval og definisjonar
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding (ALV) er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
