@@ -55,7 +55,7 @@ Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet va
 | Stavanger       | 39 040        | 3 613         | 10,8                  |
 | Sørlandet       | 30 315        | 2 847         | 10,6                  |
 | Østfold         | 28 836        | 2 722         | 10,6                  |
-| Helgelan        | 10 375        | 989           | 10,5                  |
+| Helgeland       | 10 375        | 989           | 10,5                  |
 | Fonna           | 18 324        | 1 758         | 10,4                  |
 | UNN             | 17 735        | 1 786         | 9,9                   |
 | Nord-Trøndelag  | 14 191        | 1 573         | 9,0                   |
