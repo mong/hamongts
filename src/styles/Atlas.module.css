@@ -12,12 +12,18 @@
   text-decoration: revert;
 }
 
+
 @media screen and (min-width: 943px) {
   .atlasContent {
     width: min(95%, 1216px);
     margin: auto;
     padding: 16px;
     display: flex;
+    max-width: 1216px; 
+  }
+  .main_content{
+    flex: 1 1 auto;
+    width: 0px;
   }
 }
 
