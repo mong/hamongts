@@ -910,10 +910,12 @@ Variasjonen er uønska og det er sterk mistanke om at eldre med alvorleg psykisk
 
 ## Vurdering av variasjonen
 
-I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buområde. Buområda svarar til helseføretaka sine opptaksområde slik dei var inndelte i 2018, det siste året med data i analysane. Inndelinga går fram av vedlegg i rapporten [Helseatlas psykisk helsevern og rusbehandling] (/helseatlas/files/psykiskhelsevernogrus.pdf)
+I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buområde. Buområda svarar til helseføretaka sine opptaksområde slik dei var inndelte i 2018, det siste året med data i analysane. Inndelinga går fram av vedlegg i rapporten * [Helseatlas psykisk helsevern og rusbehandling] (/helseatlas/files/psykiskhelsevernogrus.pdf)
 
 
 Rapporten gir også informasjon om metode brukt i standardisering av ratar og ved vurdering av geografisk variasjon i pasient- og forbruksratar.
+
+* [Helseatlas psykisk helsevern og rusbehandling] (/helseatlas/files/psykiskhelsevernogrus.pdf)
 
 ### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
@@ -933,4 +935,4 @@ Rapporten gir også informasjon om metode brukt i standardisering av ratar og ve
 * [Eldre med alvorleg psykisk liding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_alv_dogn.pdf)
 * [Eldre med rusliding - poliklinikk](/helseatlas/files/phv_faktaark_eldre_rus_pol.pdf)
 * [Eldre med rusliding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_rus_dogn.pdf)
-* [TEST rtb](/helseatlas/files/psykiskhelsevernogrus.pdf)
+
