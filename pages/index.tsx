@@ -17,22 +17,14 @@ interface HomeProps {
       date: Date;
     };
   }[];
-  atlasInfoNew: {
-    article: string;
-    frontMatter: {
-      shortTitle: string;
-      image: string;
-      frontpagetext: string;
-      date: Date;
-    };
-  }[];
+  
 }
 
-const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
+const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
   const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
-      linkTo={`v1/${atlas.article}`}
+      linkTo={`${atlas.article}`}
       imageSource={atlas.frontMatter.image}
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
@@ -42,17 +34,6 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       lang={"no"}
     />
   ));
-  const LinksNew = ""; /*atlasInfoNew.map((atlas) => (
-    <AtlasLink
-      key={atlas.article}
-      linkTo={atlas.article}
-      imageSource={atlas.frontMatter.image}
-      linkTitle={atlas.frontMatter.shortTitle}
-      linkText={atlas.frontMatter.frontpagetext}
-      date={atlas.frontMatter.date}
-      lang={"no"}
-    />
-  ));*/
 
   return (
     <Layout lang="no">
@@ -69,7 +50,6 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
             paddingRight: "16px",
           }}
         >
-          {LinksNew}
           {Links}
         </div>
       </main>
@@ -90,15 +70,36 @@ export const getStaticProps: GetStaticProps = async () => {
         encoding: "utf-8",
       });
       const parsedContent = JSON.parse(rawContent);
-      const { lang, date, mainTitle, shortTitle, ingress } = parsedContent;
-      return { lang, date, mainTitle, shortTitle, ingress };
-    });
-  console.log(atlasInfoNew);
+      const {
+        image,
+        frontpagetext,
+        filename,
+        publisert,
+        lang,
+        date,
+        mainTitle,
+        shortTitle,
+      } = parsedContent;
+      if (!publisert) {
+        return null;
+      }
+
+      return {
+        article: `${filename}`,
+        frontMatter: {
+          shortTitle,
+          image,
+          frontpagetext,
+          date,
+          lang: lang === "en" ? lang : "no",
+        },
+      };
+    })
+    .filter((d) => d !== null);
 
   return {
     props: {
-      atlasInfo,
-      atlasInfoNew,
+      atlasInfo: [...atlasInfoNew, ...atlasInfo],
     },
   };
 };
