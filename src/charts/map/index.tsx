@@ -1,5 +1,8 @@
 import { geoMercator, geoPath } from "d3-geo";
 import { scaleThreshold } from "d3-scale";
+import { Group } from "@visx/group";
+import { AxisBottom } from "@visx/axis";
+import { scaleLinear } from "@visx/scale";
 
 type FeatureShape = {
   type: "Feature";
@@ -31,6 +34,7 @@ type MapProps = {
   attrName?: string;
   classes?: number[];
   color?: string[];
+  label?: string;
 };
 
 const ObjectIDToBoHF = [
@@ -65,6 +69,7 @@ export const Map: React.FC<MapProps> = ({
   attrName,
   classes,
   color,
+  label,
 }) => {
   const width = 1000;
   const height = 1000;
@@ -96,7 +101,10 @@ export const Map: React.FC<MapProps> = ({
     .center(initCenter)
     .translate(offset);
   const pathGenerator = geoPath().projection(projection);
-
+  const xScale = scaleLinear<number>({
+    domain: [0, 100],
+    range: [0, width],
+  });
   return (
     <div style={{ width: "100%", height: "100%", margin: "auto" }}>
       <svg
@@ -105,28 +113,40 @@ export const Map: React.FC<MapProps> = ({
         viewBox={`0 0 ${width} ${height}`}
         style={{ backgroundColor: "none" }}
       >
-        {mapData.features.map((d, i) => {
-          const mapId = connection.mapData;
-          const attrID = connection.mapAttr;
-          const hf = dataToMap.filter(
-            (dtm) => dtm[mapId] === d.properties[mapId]
-          )[0][attrID];
+        <Group>
+          <AxisBottom
+            tickStroke="0"
+            scale={xScale}
+            label={label}
+            labelProps={{
+              fontSize: 20,
+            }}
+          />
+        </Group>
+        <Group>
+          {mapData.features.map((d, i) => {
+            const mapId = connection.mapData;
+            const attrID = connection.mapAttr;
+            const hf = dataToMap.filter(
+              (dtm) => dtm[mapId] === d.properties[mapId]
+            )[0][attrID];
 
-          const attr = mapAttr.filter((attribute) => {
-            return attribute[attrID] === hf;
-          })[0];
-          const val = attr ? attr[attrName] : undefined;
-          return (
-            <path
-              key={`map-feature-${i}`}
-              d={pathGenerator(d.geometry)}
-              fill={val ? colorScale(val) : "none"}
-              stroke={"black"}
-              strokeWidth={0.4}
-              className={i + ""}
-            />
-          );
-        })}
+            const attr = mapAttr.filter((attribute) => {
+              return attribute[attrID] === hf;
+            })[0];
+            const val = attr ? attr[attrName] : undefined;
+            return (
+              <path
+                key={`map-feature-${i}`}
+                d={pathGenerator(d.geometry)}
+                fill={val ? colorScale(val) : "none"}
+                stroke={"black"}
+                strokeWidth={0.4}
+                className={i + ""}
+              />
+            );
+          })}
+        </Group>
       </svg>
     </div>
   );
