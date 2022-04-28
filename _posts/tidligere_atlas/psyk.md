@@ -933,3 +933,4 @@ Rapporten gir også informasjon om metode brukt i standardisering av ratar og ve
 * [Eldre med alvorleg psykisk liding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_alv_dogn.pdf)
 * [Eldre med rusliding - poliklinikk](/helseatlas/files/phv_faktaark_eldre_rus_pol.pdf)
 * [Eldre med rusliding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_rus_dogn.pdf)
+* [TEST rtb](/helseatlas/files/psykiskhelsevernogrus.pdf)
