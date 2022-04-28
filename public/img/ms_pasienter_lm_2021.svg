@@ -22,19 +22,19 @@
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath1)">
-<rect x="71.88871" y="27.94178" width="573.11282" height="407.15176" style="fill: #FFFFFF; "></rect>
+<rect x="127.80216" y="44.90644" width="517.19938" height="355.25987" style="fill: #FFFFFF; "></rect>
 <defs>
 <clipPath id="SVGMain_ClipPath2">
-<rect x="71.0" y="27.0" width="575.0" height="409.0" ></rect>
+<rect x="127.0" y="44.0" width="519.0" height="357.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath2)">
-<rect x="82.87171" y="40.03659" width="534.1731" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="82.87171" y="105.5002" width="209.45098" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="82.87171" y="170.96382" width="194.83327" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="82.87171" y="236.42744" width="140.74772" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="82.87171" y="301.89105" width="12.94711" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="82.87171" y="367.35467" width="3.13236" height="55.64407" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="56.74178" width="482.25347" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="113.4237" width="189.09313" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="170.10561" width="175.8962" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="226.78752" width="127.06757" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="283.46943" width="11.6887" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="137.7867" y="340.15135" width="2.82791" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
 </g>
 <defs>
 <clipPath id="SVGMain_ClipPath3">
@@ -42,61 +42,61 @@
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath3)">
-<path d="M71.88871 435.09355L645.00154 435.09355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<path d="M82.87171 435.09355L82.87171 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 79.87171, 453.54355)">
-<text textLength="6.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000030;</text>
+<path d="M127.80216 400.16631L645.00154 400.16631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M137.7867 400.16631L137.7867 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 132.2867, 434.76631)">
+<text textLength="11.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000030;</text>
 </g>
-<path d="M187.28397 435.09355L187.28397 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 178.28397, 453.54355)">
-<text textLength="18.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000035;&#x000030;&#x000030;</text>
+<path d="M232.05048 400.16631L232.05048 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 215.55048, 434.76631)">
+<text textLength="33.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M291.69622 435.09355L291.69622 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 279.69622, 453.54355)">
-<text textLength="24.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000031;&#x000030;&#x000030;&#x000030;</text>
+<path d="M326.31426 400.16631L326.31426 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 301.31425, 434.76631)">
+<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000031;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M396.10848 435.09355L396.10848 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 384.10848, 453.54355)">
-<text textLength="24.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000031;&#x000035;&#x000030;&#x000030;</text>
+<path d="M420.57803 400.16631L420.57803 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 395.57803, 434.76631)">
+<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000031;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M500.52074 435.09355L500.52074 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 488.52074, 453.54355)">
-<text textLength="24.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000032;&#x000030;&#x000030;&#x000030;</text>
+<path d="M514.84181 400.16631L514.84181 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 489.84181, 434.76631)">
+<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000032;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M604.93299 435.09355L604.93299 440.29355" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 592.933, 453.54355)">
-<text textLength="24.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000032;&#x000035;&#x000030;&#x000030;</text>
+<path d="M609.10558 400.16631L609.10558 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 584.10558, 434.76631)">
+<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000032;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 256.94513, 475.04355)">
-<text textLength="203.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000041;&#x00006E;&#x000074;&#x000061;&#x00006C;&#x00006C;&#x000020;&#x000070;&#x000061;&#x000073;&#x000069;&#x000065;&#x00006E;&#x000074;&#x000065;&#x000072;&#x000020;&#x000069;&#x000020;&#x000062;&#x000065;&#x000068;&#x000061;&#x00006E;&#x000064;&#x00006C;&#x000069;&#x00006E;&#x000067;&#x000020;&#x000028;&#x000032;&#x000030;&#x000032;&#x000031;&#x000029;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 210.40185, 472.76631)">
+<text textLength="352.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 23px; white-space: pre; ">&#x000041;&#x00006E;&#x000074;&#x000061;&#x00006C;&#x00006C;&#x000020;&#x000070;&#x000061;&#x000073;&#x000069;&#x000065;&#x00006E;&#x000074;&#x000065;&#x000072;&#x000020;&#x000069;&#x000020;&#x000062;&#x000065;&#x000068;&#x000061;&#x00006E;&#x000064;&#x00006C;&#x000069;&#x00006E;&#x000067;&#x000020;&#x000028;&#x000032;&#x000030;&#x000032;&#x000031;&#x000029;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.68593, 398.67671)">
-<text textLength="65.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000041;&#x00006C;&#x000065;&#x00006D;&#x000074;&#x000075;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.19703, 371.24116)">
+<text textLength="117.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000041;&#x00006C;&#x000065;&#x00006D;&#x000074;&#x000075;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 6.68593, 333.21309)">
-<text textLength="60.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x00004F;&#x000063;&#x000072;&#x000065;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 9.19703, 314.55925)">
+<text textLength="109.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x00004F;&#x000063;&#x000072;&#x000065;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 25.68593, 267.74948)">
-<text textLength="41.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000043;&#x00006C;&#x000061;&#x000064;&#x000072;&#x000069;&#x000062;&#x000069;&#x00006E;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 42.19703, 257.87733)">
+<text textLength="76.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000043;&#x00006C;&#x000061;&#x000064;&#x000072;&#x000069;&#x000062;&#x000069;&#x00006E;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 8.68593, 202.28586)">
-<text textLength="58.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x00004E;&#x000061;&#x000074;&#x000061;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.19703, 201.19542)">
+<text textLength="106.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x00004E;&#x000061;&#x000074;&#x000061;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 16.68593, 136.82224)">
-<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000046;&#x000069;&#x00006E;&#x000067;&#x00006F;&#x00006C;&#x000069;&#x00006D;&#x00006F;&#x000064;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 24.19703, 144.51351)">
+<text textLength="94.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000046;&#x000069;&#x00006E;&#x000067;&#x00006F;&#x00006C;&#x000069;&#x00006D;&#x00006F;&#x000064;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 15.68593, 71.35862)">
-<text textLength="51.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 11px; white-space: pre; ">&#x000052;&#x000069;&#x000074;&#x000075;&#x00006B;&#x000073;&#x000069;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 22.19703, 87.8316)">
+<text textLength="96.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000052;&#x000069;&#x000074;&#x000075;&#x00006B;&#x000073;&#x000069;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.68594, 17.44178)">
-<text textLength="145.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000048;&#x0000F8;&#x000079;&#x000061;&#x00006B;&#x000074;&#x000069;&#x000076;&#x000065;&#x000020;&#x00006C;&#x000065;&#x000067;&#x000065;&#x00006D;&#x000069;&#x000064;&#x00006C;&#x000065;&#x000072;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.19703, 26.90644)">
+<text textLength="235.0" lengthAdjust="spacingAndGlyphs" x="35.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 25px; white-space: pre; ">&#x000048;&#x0000F8;&#x000079;&#x000061;&#x00006B;&#x000074;&#x000069;&#x000076;&#x000065;&#x000020;&#x00006C;&#x000065;&#x000067;&#x000065;&#x00006D;&#x000069;&#x000064;&#x00006C;&#x000065;&#x000072;</text>
 </g>
 </g>
 </g>
 </g>
 <defs>
 <clipPath id="SVGMain_ClipPath4">
-<rect x="71.0" y="27.0" width="575.0" height="409.0" ></rect>
+<rect x="127.0" y="44.0" width="519.0" height="357.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath4)">
@@ -169,6 +169,8 @@ d="M85 426L256 426Q278 299 350 235 T560 170Q733 170 814 267 T896 524Q896 677 823
 <glyph unicode="&#49;" horiz-adv-x="1147" 
 d="M768 0L597 0L597 1163Q528 1100 415 1037 T213 943L213 1120Q372 1192 490 1294 T658 1493L768 
 1493L768 0Z" ></glyph>
+<glyph unicode="&#160;" horiz-adv-x="552" 
+></glyph>
 <glyph unicode="&#50;" horiz-adv-x="1147" 
 d="M1024 170L1024 0L42 0Q40 64 66 124 Q106 222 196 313 T435 517Q667 722 760 838 T853 
 1066Q853 1174 772 1248 T560 1322Q422 1322 340 1243 T256 1024L85 1066Q104 1274 229 1384 T564 1493Q
