@@ -100,13 +100,11 @@ export const Map: React.FC<MapProps> = ({
     .domain(classes ? classes : [])
     .range(color ? color : []);
 
-  console.log(colorScale.range());
   const projection = geoMercator()
     .scale(scale)
     .center(initCenter)
     .translate(offset);
   const pathGenerator = geoPath().projection(projection);
-  //console.log(classes)
   return (
     <div style={{ width: "100%", height: "100%", margin: "auto" }}>
       <svg
@@ -142,7 +140,7 @@ export const Map: React.FC<MapProps> = ({
             {colorScale.range().map((d, i) => {
               const w = 90;
               return (
-                <g>
+                <g key={d + i}>
                   {" "}
                   <rect x={i * w} width={w} height="20" fill={d} />
                   {i !== 0 && (
