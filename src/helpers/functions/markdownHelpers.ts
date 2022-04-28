@@ -18,7 +18,7 @@ export const getMDInfo = (dirPath: string) => {
           yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }),
         },
       });
-      const article = fn.replace(/\.md$/, "");
+      const article = "v1/" + fn.replace(/\.md$/, "");
       return {
         article,
         frontMatter: data,
@@ -27,7 +27,7 @@ export const getMDInfo = (dirPath: string) => {
     .sort((a, b) => b.frontMatter.num - a.frontMatter.num)
     .map((article) => {
       return {
-        article: `v1/${article}`,
+        ...article,
         frontMatter: {
           ...article.frontMatter,
         },
