@@ -2,6 +2,7 @@ import React, { forwardRef } from "react";
 
 export interface CarouselItemProps {
   tag?: React.ElementType;
+  style?: React.CSSProperties;
   label: string;
   children: React.ReactNode;
 }
