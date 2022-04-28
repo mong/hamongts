@@ -1,8 +1,5 @@
 import { geoMercator, geoPath } from "d3-geo";
 import { scaleThreshold } from "d3-scale";
-import { Group } from "@visx/group";
-import { AxisBottom } from "@visx/axis";
-import { scaleLinear } from "@visx/scale";
 
 type FeatureShape = {
   type: "Feature";
@@ -34,7 +31,7 @@ type MapProps = {
   attrName?: string;
   classes?: number[];
   color?: string[];
-  label?: string;
+  caption?: string;
 };
 
 const ObjectIDToBoHF = [
@@ -69,7 +66,7 @@ export const Map: React.FC<MapProps> = ({
   attrName,
   classes,
   color,
-  label,
+  caption,
 }) => {
   const width = 1000;
   const height = 1000;
@@ -101,29 +98,15 @@ export const Map: React.FC<MapProps> = ({
     .center(initCenter)
     .translate(offset);
   const pathGenerator = geoPath().projection(projection);
-  const xScale = scaleLinear<number>({
-    domain: [0, 100],
-    range: [0, width],
-  });
   return (
-    <div style={{ width: "100%", height: "100%", margin: "auto" }}>
-      <svg
-        width={"100%"}
-        height={"100%"}
-        viewBox={`0 0 ${width} ${height}`}
-        style={{ backgroundColor: "none" }}
-      >
-        <Group>
-          <AxisBottom
-            tickStroke="0"
-            scale={xScale}
-            label={label}
-            labelProps={{
-              fontSize: 20,
-            }}
-          />
-        </Group>
-        <Group>
+    <>
+      <div style={{ width: "100%", height: "100%", margin: "auto" }}>
+        <svg
+          width={"100%"}
+          height={"100%"}
+          viewBox={`0 0 ${width} ${height}`}
+          style={{ backgroundColor: "none" }}
+        >
           {mapData.features.map((d, i) => {
             const mapId = connection.mapData;
             const attrID = connection.mapAttr;
@@ -146,8 +129,23 @@ export const Map: React.FC<MapProps> = ({
               />
             );
           })}
-        </Group>
-      </svg>
-    </div>
+        </svg>
+      </div>
+      <div
+        style={{
+          fontFamily: "Roboto, Helvetica, Arial, sans-serif",
+          fontWeight: "400",
+          fontSize: "0.875rem",
+          lineHeight: "1.43",
+          letterSpacing: "0.01071em",
+          padding: "16px",
+          color: "rgba(0, 0, 0, 0.6)",
+          textAlign: "left",
+          captionSide: "bottom",
+        }}
+      >
+        {caption}
+      </div>
+    </>
   );
 };
