@@ -91,7 +91,9 @@
           "rate2021": 0.353162682769,
           "rateSnitt": 0.351936448875,
           "ant_akutt": 20.6666666667,
-          "akutt_pr_pas": 0.148325358852
+          "akutt_pr_pas": 0.148325358852,
+          "akutt_pas": 16,
+          "akutt_pr_akuttpas": 1.29166666667
         },
         {
           "bohf": "UNN",
@@ -102,7 +104,9 @@
           "rate2021": 0.638829218578,
           "rateSnitt": 0.645958298505,
           "ant_akutt": 101,
-          "akutt_pr_pas": 0.210709318498
+          "akutt_pr_pas": 0.210709318498,
+          "akutt_pas": 72.3333333333,
+          "akutt_pr_akuttpas": 1.39631336406
         },
         {
           "bohf": "Nordland",
@@ -113,7 +117,9 @@
           "rate2021": 0.454904942126,
           "rateSnitt": 0.560334155036,
           "ant_akutt": 62.3333333333,
-          "akutt_pr_pas": 0.170776255708
+          "akutt_pr_pas": 0.170776255708,
+          "akutt_pas": 44,
+          "akutt_pr_akuttpas": 1.41666666667
         },
         {
           "bohf": "Helgeland",
@@ -124,7 +130,9 @@
           "rate2021": 0.538603435447,
           "rateSnitt": 0.585536406485,
           "ant_akutt": 36.3333333333,
-          "akutt_pr_pas": 0.161481481481
+          "akutt_pr_pas": 0.161481481481,
+          "akutt_pas": 27.3333333333,
+          "akutt_pr_akuttpas": 1.32926829268
         },
         {
           "bohf": "Nord-Trøndelag",
@@ -135,7 +143,9 @@
           "rate2021": 0.758289904295,
           "rateSnitt": 0.783789402369,
           "ant_akutt": 87.6666666667,
-          "akutt_pr_pas": 0.21434392828
+          "akutt_pr_pas": 0.21434392828,
+          "akutt_pas": 55.6666666667,
+          "akutt_pr_akuttpas": 1.5748502994
         },
         {
           "bohf": "St. Olav",
@@ -146,7 +156,9 @@
           "rate2021": 0.571777402609,
           "rateSnitt": 0.585259508973,
           "ant_akutt": 149.666666667,
-          "akutt_pr_pas": 0.155686546463
+          "akutt_pr_pas": 0.155686546463,
+          "akutt_pas": 108.333333333,
+          "akutt_pr_akuttpas": 1.38153846154
         },
         {
           "bohf": "Møre og Romsdal",
@@ -157,7 +169,9 @@
           "rate2021": 0.837870775431,
           "rateSnitt": 0.807001777978,
           "ant_akutt": 173.666666667,
-          "akutt_pr_pas": 0.188154568436
+          "akutt_pr_pas": 0.188154568436,
+          "akutt_pas": 121.666666667,
+          "akutt_pr_akuttpas": 1.42739726027
         },
         {
           "bohf": "Førde",
@@ -168,7 +182,9 @@
           "rate2021": 0.455054279466,
           "rateSnitt": 0.436336388869,
           "ant_akutt": 37.6666666667,
-          "akutt_pr_pas": 0.119830328738
+          "akutt_pr_pas": 0.119830328738,
+          "akutt_pas": 33.3333333333,
+          "akutt_pr_akuttpas": 1.13
         },
         {
           "bohf": "Bergen",
@@ -179,7 +195,9 @@
           "rate2021": 0.664420975639,
           "rateSnitt": 0.672354821059,
           "ant_akutt": 233.333333333,
-          "akutt_pr_pas": 0.195421552205
+          "akutt_pr_pas": 0.195421552205,
+          "akutt_pas": 153.666666667,
+          "akutt_pr_akuttpas": 1.51843817787
         },
         {
           "bohf": "Fonna",
@@ -190,7 +208,9 @@
           "rate2021": 0.587215968123,
           "rateSnitt": 0.581700441119,
           "ant_akutt": 82.3333333333,
-          "akutt_pr_pas": 0.180029154519
+          "akutt_pr_pas": 0.180029154519,
+          "akutt_pas": 60.3333333333,
+          "akutt_pr_akuttpas": 1.36464088398
         },
         {
           "bohf": "Stavanger",
@@ -201,7 +221,9 @@
           "rate2021": 0.357460745455,
           "rateSnitt": 0.361303944324,
           "ant_akutt": 99.3333333333,
-          "akutt_pr_pas": 0.113394216134
+          "akutt_pr_pas": 0.113394216134,
+          "akutt_pas": 76,
+          "akutt_pr_akuttpas": 1.30701754386
         },
         {
           "bohf": "Østfold",
@@ -212,7 +234,9 @@
           "rate2021": 0.397851037946,
           "rateSnitt": 0.504644735989,
           "ant_akutt": 132.666666667,
-          "akutt_pr_pas": 0.162316476346
+          "akutt_pr_pas": 0.162316476346,
+          "akutt_pas": 94.3333333333,
+          "akutt_pr_akuttpas": 1.40636042403
         },
         {
           "bohf": "Akershus",
@@ -223,7 +247,9 @@
           "rate2021": 0.498645621311,
           "rateSnitt": 0.476332836514,
           "ant_akutt": 214.333333333,
-          "akutt_pr_pas": 0.142857142857
+          "akutt_pr_pas": 0.142857142857,
+          "akutt_pas": 162.333333333,
+          "akutt_pr_akuttpas": 1.32032854209
         },
         {
           "bohf": "OUS",
@@ -234,7 +260,9 @@
           "rate2021": 0.490268813844,
           "rateSnitt": 0.438830241603,
           "ant_akutt": 83.3333333333,
-          "akutt_pr_pas": 0.141242937853
+          "akutt_pr_pas": 0.141242937853,
+          "akutt_pas": 59.3333333333,
+          "akutt_pr_akuttpas": 1.40449438202
         },
         {
           "bohf": "Lovisenberg",
@@ -245,7 +273,9 @@
           "rate2021": 0.271374455316,
           "rateSnitt": 0.405666247416,
           "ant_akutt": 38.3333333333,
-          "akutt_pr_pas": 0.121951219512
+          "akutt_pr_pas": 0.121951219512,
+          "akutt_pas": 25,
+          "akutt_pr_akuttpas": 1.53333333333
         },
         {
           "bohf": "Diakonhjemmet",
@@ -256,7 +286,9 @@
           "rate2021": 0.383759946328,
           "rateSnitt": 0.380554005685,
           "ant_akutt": 41,
-          "akutt_pr_pas": 0.145218417946
+          "akutt_pr_pas": 0.145218417946,
+          "akutt_pas": 27.3333333333,
+          "akutt_pr_akuttpas": 1.5
         },
         {
           "bohf": "Innlandet",
@@ -267,7 +299,9 @@
           "rate2021": 0.615519176034,
           "rateSnitt": 0.595454711957,
           "ant_akutt": 168.666666667,
-          "akutt_pr_pas": 0.151225343694
+          "akutt_pr_pas": 0.151225343694,
+          "akutt_pas": 123.333333333,
+          "akutt_pr_akuttpas": 1.36756756757
         },
         {
           "bohf": "Vestre Viken",
@@ -278,7 +312,9 @@
           "rate2021": 0.449597551448,
           "rateSnitt": 0.49353395033,
           "ant_akutt": 194.666666667,
-          "akutt_pr_pas": 0.163082937727
+          "akutt_pr_pas": 0.163082937727,
+          "akutt_pas": 132,
+          "akutt_pr_akuttpas": 1.47474747475
         },
         {
           "bohf": "Vestfold",
@@ -289,7 +325,9 @@
           "rate2021": 0.663663624416,
           "rateSnitt": 0.637217995495,
           "ant_akutt": 133.333333333,
-          "akutt_pr_pas": 0.204813108039
+          "akutt_pr_pas": 0.204813108039,
+          "akutt_pas": 80.3333333333,
+          "akutt_pr_akuttpas": 1.65975103734
         },
         {
           "bohf": "Telemark",
@@ -300,7 +338,9 @@
           "rate2021": 0.364705153291,
           "rateSnitt": 0.390401435872,
           "ant_akutt": 58.6666666667,
-          "akutt_pr_pas": 0.126436781609
+          "akutt_pr_pas": 0.126436781609,
+          "akutt_pas": 41.3333333333,
+          "akutt_pr_akuttpas": 1.41935483871
         },
         {
           "bohf": "Sørlandet",
@@ -311,7 +351,9 @@
           "rate2021": 0.497551970787,
           "rateSnitt": 0.470574444098,
           "ant_akutt": 113.666666667,
-          "akutt_pr_pas": 0.129068887207
+          "akutt_pr_pas": 0.129068887207,
+          "akutt_pas": 84,
+          "akutt_pr_akuttpas": 1.35317460317
         },
         {
           "bohf": "Norge",
@@ -322,7 +364,9 @@
           "rate2021": 0.52316422893,
           "rateSnitt": 0.532811018613,
           "ant_akutt": 2262.66666667,
-          "akutt_pr_pas": 0.159875641811
+          "akutt_pr_pas": 0.159875641811,
+          "akutt_pas": 1598,
+          "akutt_pr_akuttpas": 1.4159365874
         }
       ]
     }
