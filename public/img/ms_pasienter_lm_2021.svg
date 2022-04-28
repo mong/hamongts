@@ -1,122 +1,122 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" baseProfile="full" version="1.1" id="SVGMain" onload='SVGMain_Init("SVGMain")' viewBox="-1 -1 2082 1563">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" baseProfile="full" version="1.1" id="SVGMain" onload='SVGMain_Init("SVGMain")' viewBox="-1 -1 2188 1563">
 <desc id="desc_SVGMain">The SGPlot Procedure</desc>
 <defs>
 <clipPath id="SVGMain_clipPage1">
-<rect x="-1" y="-1" width="2082" height="1563"></rect>
+<rect x="-1" y="-1" width="2188" height="1563"></rect>
 </clipPath>
 </defs>
 <g id="SVGMain_Page1" clip-path="url(#SVGMain_clipPage1)">
-<g transform=" scale(3.12462, 3.124)">
-<rect x="0.0" y="0.0" width="665.0" height="499.0" style="fill: #FFFFFF; "></rect>
-<rect x="0.0" y="0.0" width="665.0" height="499.0" style="fill: #FFFFFF; "></rect>
+<g transform=" scale(3.12428, 3.124)">
+<rect x="0.0" y="0.0" width="699.0" height="499.0" style="fill: #FFFFFF; "></rect>
+<rect x="0.0" y="0.0" width="699.0" height="499.0" style="fill: #FFFFFF; "></rect>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 10.0, 10.0)">
 <defs>
 <clipPath id="SVGMain_ClipPath0">
-<rect x="-1.0" y="-1.0" width="647.0" height="481.0" ></rect>
+<rect x="-1.0" y="-1.0" width="681.0" height="481.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath0)">
 <defs>
 <clipPath id="SVGMain_ClipPath1">
-<rect x="-1.0" y="-1.0" width="647.0" height="481.0" ></rect>
+<rect x="-1.0" y="-1.0" width="681.0" height="481.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath1)">
-<rect x="127.80216" y="44.90644" width="517.19938" height="355.25987" style="fill: #FFFFFF; "></rect>
+<rect x="103.34801" y="39.41787" width="575.15418" height="379.20997" style="fill: #FFFFFF; "></rect>
 <defs>
 <clipPath id="SVGMain_ClipPath2">
-<rect x="127.0" y="44.0" width="519.0" height="357.0" ></rect>
+<rect x="102.0" y="38.0" width="578.0" height="382.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath2)">
-<rect x="137.7867" y="56.74178" width="482.25347" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="137.7867" y="113.4237" width="189.09313" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="137.7867" y="170.10561" width="175.8962" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="137.7867" y="226.78752" width="127.06757" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="137.7867" y="283.46943" width="11.6887" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
-<rect x="137.7867" y="340.15135" width="2.82791" height="48.17962" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="50.96881" width="537.20998" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="111.84199" width="210.64175" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="172.71517" width="195.94093" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="233.58835" width="141.5479" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="294.46153" width="13.02072" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
+<rect x="113.83259" y="355.33471" width="3.15017" height="51.7422" style="fill: #AB6CA6; fill-opacity: 0.8; "></rect>
 </g>
 <defs>
 <clipPath id="SVGMain_ClipPath3">
-<rect x="-1.0" y="-1.0" width="647.0" height="481.0" ></rect>
+<rect x="-1.0" y="-1.0" width="681.0" height="481.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath3)">
-<path d="M127.80216 400.16631L645.00154 400.16631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<path d="M137.7867 400.16631L137.7867 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 132.2867, 434.76631)">
-<text textLength="11.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000030;</text>
+<path d="M102.84875 419.12681L679.00146 419.12681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M113.83259 419.12681L113.83259 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 109.33259, 446.47681)">
+<text textLength="9.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000030;</text>
 </g>
-<path d="M232.05048 400.16631L232.05048 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 215.55048, 434.76631)">
-<text textLength="33.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000035;&#x000030;&#x000030;</text>
+<path d="M218.83846 419.12681L218.83846 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 205.33846, 446.47681)">
+<text textLength="27.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M326.31426 400.16631L326.31426 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 301.31425, 434.76631)">
-<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000031;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
+<path d="M323.84432 419.12681L323.84432 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 303.84432, 446.47681)">
+<text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000031;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M420.57803 400.16631L420.57803 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 395.57803, 434.76631)">
-<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000031;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
+<path d="M428.85018 419.12681L428.85018 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 408.85018, 446.47681)">
+<text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000031;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M514.84181 400.16631L514.84181 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 489.84181, 434.76631)">
-<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000032;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
+<path d="M533.85604 419.12681L533.85604 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 513.85604, 446.47681)">
+<text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000032;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M609.10558 400.16631L609.10558 409.76631" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 584.10558, 434.76631)">
-<text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000032;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
+<path d="M638.8619 419.12681L638.8619 426.72681" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 618.8619, 446.47681)">
+<text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000032;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 210.40185, 472.76631)">
-<text textLength="352.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 23px; white-space: pre; ">&#x000041;&#x00006E;&#x000074;&#x000061;&#x00006C;&#x00006C;&#x000020;&#x000070;&#x000061;&#x000073;&#x000069;&#x000065;&#x00006E;&#x000074;&#x000065;&#x000072;&#x000020;&#x000069;&#x000020;&#x000062;&#x000065;&#x000068;&#x000061;&#x00006E;&#x000064;&#x00006C;&#x000069;&#x00006E;&#x000067;&#x000020;&#x000028;&#x000032;&#x000030;&#x000032;&#x000031;&#x000029;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 268.42511, 474.97681)">
+<text textLength="245.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000041;&#x00006E;&#x000074;&#x000061;&#x00006C;&#x00006C;&#x000020;&#x000070;&#x000061;&#x000073;&#x000069;&#x000065;&#x00006E;&#x000074;&#x000065;&#x000072;&#x000020;&#x000069;&#x000020;&#x000062;&#x000065;&#x000068;&#x000061;&#x00006E;&#x000064;&#x00006C;&#x000069;&#x00006E;&#x000067;&#x000020;&#x000028;&#x000032;&#x000030;&#x000032;&#x000031;&#x000029;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.19703, 371.24116)">
-<text textLength="117.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000041;&#x00006C;&#x000065;&#x00006D;&#x000074;&#x000075;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.2441, 386.70582)">
+<text textLength="94.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000041;&#x00006C;&#x000065;&#x00006D;&#x000074;&#x000075;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 9.19703, 314.55925)">
-<text textLength="109.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x00004F;&#x000063;&#x000072;&#x000065;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 8.2441, 325.83264)">
+<text textLength="87.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x00004F;&#x000063;&#x000072;&#x000065;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 42.19703, 257.87733)">
-<text textLength="76.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000043;&#x00006C;&#x000061;&#x000064;&#x000072;&#x000069;&#x000062;&#x000069;&#x00006E;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 32.2441, 264.95945)">
+<text textLength="63.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000043;&#x00006C;&#x000061;&#x000064;&#x000072;&#x000069;&#x000062;&#x000069;&#x00006E;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 12.19703, 201.19542)">
-<text textLength="106.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x00004E;&#x000061;&#x000074;&#x000061;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 9.2441, 204.08627)">
+<text textLength="86.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x00004E;&#x000061;&#x000074;&#x000061;&#x00006C;&#x000069;&#x00007A;&#x000075;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 24.19703, 144.51351)">
-<text textLength="94.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000046;&#x000069;&#x00006E;&#x000067;&#x00006F;&#x00006C;&#x000069;&#x00006D;&#x00006F;&#x000064;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 17.2441, 143.21309)">
+<text textLength="78.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000046;&#x000069;&#x00006E;&#x000067;&#x00006F;&#x00006C;&#x000069;&#x00006D;&#x00006F;&#x000064;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 22.19703, 87.8316)">
-<text textLength="96.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 20px; white-space: pre; ">&#x000052;&#x000069;&#x000074;&#x000075;&#x00006B;&#x000073;&#x000069;&#x00006D;&#x000061;&#x000062;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 17.2441, 82.33991)">
+<text textLength="78.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000052;&#x000069;&#x000074;&#x000075;&#x00006B;&#x000073;&#x000069;&#x00006D;&#x000061;&#x000062;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.19703, 26.90644)">
-<text textLength="235.0" lengthAdjust="spacingAndGlyphs" x="35.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 25px; white-space: pre; ">&#x000048;&#x0000F8;&#x000079;&#x000061;&#x00006B;&#x000074;&#x000069;&#x000076;&#x000065;&#x000020;&#x00006C;&#x000065;&#x000067;&#x000065;&#x00006D;&#x000069;&#x000064;&#x00006C;&#x000065;&#x000072;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.2441, 24.41891)">
+<text textLength="208.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 23px; white-space: pre; ">&#x000048;&#x0000F8;&#x000079;&#x000061;&#x00006B;&#x000074;&#x000069;&#x000076;&#x000065;&#x000020;&#x00006C;&#x000065;&#x000067;&#x000065;&#x00006D;&#x000069;&#x000064;&#x00006C;&#x000065;&#x000072;</text>
 </g>
 </g>
 </g>
 </g>
 <defs>
 <clipPath id="SVGMain_ClipPath4">
-<rect x="127.0" y="44.0" width="519.0" height="357.0" ></rect>
+<rect x="102.0" y="38.0" width="578.0" height="382.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath4)">
 </g>
 <defs>
 <clipPath id="SVGMain_ClipPath5">
-<rect x="-1.0" y="-1.0" width="647.0" height="481.0" ></rect>
+<rect x="-1.0" y="-1.0" width="681.0" height="481.0" ></rect>
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath5)">
 </g>
 </g>
 </g>
-<rect x="0" y="0" width="2081" height="1562" fill="#FFFFFF" fill-opacity="0" aria-hidden="true">
+<rect x="0" y="0" width="2187" height="1562" fill="#FFFFFF" fill-opacity="0" aria-hidden="true">
 <desc>The SGPlot Procedure</desc>
 </rect>
 </g>
 <g id="SVGMain_singleTip1" visibility="hidden" pointer-events="none">
-   <rect id="SVGMain_singleBox1" x="0" y="0" width="88" height="20" rx="2" ry="2" fill="white" stroke="black" stroke-width="2.60124" opacity="0.8"></rect>
-   <text id="SVGMain_singleText1" x="5" y="26" font-family="'Albany AMT', sans-serif" font-size="20"><tspan id="SVGMain_tiptspan1" x="13" class="tiptext"><![CDATA[ ]]></tspan></text>
+   <rect id="SVGMain_singleBox1" x="0" y="0" width="88" height="20" rx="2" ry="2" fill="white" stroke="black" stroke-width="2.73375" opacity="0.8"></rect>
+   <text id="SVGMain_singleText1" x="5" y="27" font-family="'Albany AMT', sans-serif" font-size="21"><tspan id="SVGMain_tiptspan1" x="13" class="tiptext"><![CDATA[ ]]></tspan></text>
 </g>
 <defs>
 <style type="text/css"><![CDATA[
@@ -349,7 +349,7 @@ function SVGMain_GetScaleFactors(evt)
    windowHeight = (top.innerHeight==undefined) ? window.innerHeight : top.innerHeight;
    SVGMain_rightEdge = (SVGMain_SVGWidth) ? SVGMain_SVGWidth - window.pageXOffset : windowWidth;
    if (parseFloat(SVGMain_SVGWidth) > 0 || parseFloat(SVGMain_SVGHeight) > 0)
-      var tipScale = 0.57664;
+      var tipScale = 0.54869;
    else {
       var tipXScale  = (screen.width/windowWidth) / SVGMain_SVGRoot.currentScale;
       var tipYScale  = (screen.height/windowHeight) / SVGMain_SVGRoot.currentScale;
@@ -440,25 +440,25 @@ function SVGMain_ShowTooltip( evt )
       SVGMain_singleBox.setAttributeNS(null, 'transform', 'scale(' + SVGMain_attrScale + ',' + SVGMain_attrScale + ')' );
       SVGMain_singleText.setAttributeNS(null, 'transform', 'scale(' + SVGMain_attrScale + ',' + SVGMain_attrScale + ')' );
       SVGMain_singleTip.setAttributeNS(null, 'visibility', 'visible');
-      if (evt.clientX + ((outline.width + 26)/2.60124) * SVGMain_attrScale > SVGMain_rightEdge) {
-         var xPos = SVGMain_TrueCoords.x - parseInt((outline.width + 26)*SVGMain_attrScale);
+      if (evt.clientX + ((outline.width + 27)/2.73375) * SVGMain_attrScale > SVGMain_rightEdge) {
+         var xPos = SVGMain_TrueCoords.x - parseInt((outline.width + 27)*SVGMain_attrScale);
          if (xPos < 0)
             xPos = 0;
       }
       else
          var xPos = SVGMain_TrueCoords.x;
-      if (SVGMain_TrueCoords.y < 52) {
-         var yPos = SVGMain_TrueCoords.y + ((outline.height + 52)/2.60124)*SVGMain_attrScale;
+      if (SVGMain_TrueCoords.y < 54) {
+         var yPos = SVGMain_TrueCoords.y + ((outline.height + 54)/2.73375)*SVGMain_attrScale;
          if (yPos > windowHeight)
-            yPos = SVGMain_TrueCoords.y - parseInt((outline.height + 26)*SVGMain_attrScale);
+            yPos = SVGMain_TrueCoords.y - parseInt((outline.height + 27)*SVGMain_attrScale);
       }
       else
-         var yPos = SVGMain_TrueCoords.y - parseInt((outline.height + 26)*SVGMain_attrScale);
+         var yPos = SVGMain_TrueCoords.y - parseInt((outline.height + 27)*SVGMain_attrScale);
       if (Number(outline.width == 0))
          SVGMain_singleBox.setAttributeNS(null, 'width', outline.width);
       else
-         SVGMain_singleBox.setAttributeNS(null, 'width', outline.width + 26);
-      SVGMain_singleBox.setAttributeNS(null, 'height', outline.height + 26);
+         SVGMain_singleBox.setAttributeNS(null, 'width', outline.width + 27);
+      SVGMain_singleBox.setAttributeNS(null, 'height', outline.height + 27);
       SVGMain_singleTip.setAttributeNS(null, 'transform', 'translate(' + xPos + ',' + yPos + ')');
    }
 }
