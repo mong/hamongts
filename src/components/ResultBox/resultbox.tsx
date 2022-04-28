@@ -120,6 +120,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         classes={jenks}
                         attrName={bd.x}
                         mapAttr={figData}
+                        caption={bd.caption}
                       />
                     </div>
                   ) : (
