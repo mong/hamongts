@@ -28,7 +28,7 @@ Det er årleg i gjennomsnitt over 7 400 pasientar med hofteleddsartrose som blir
 
 ![](/helseatlas/img/no/ortopedi/o1ho-rplot-kjonnalderford-10-prosedyrar-faktaark-1.png "Samla tal operasjonar for hofteleddsartrose, for heile landet i perioden 2012-2016. Pasientane er fordelt på kjønn og i aldersgrupper.")
 
-![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
+![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde. Ratane er justert for kjønn og alder. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016 og er inndelt etter operert ved helseføretak eller avtalesjukehus som ligg i buområdet til pasienten, utanfor buområdet til pasienten eller operert ved anbodssjukehus eller hos avtalespesialist (uansett plassering).")
 
 ### Resultat
 
@@ -38,7 +38,7 @@ Dei aller fleste blir opererte på offentleg sjukehus, men i enkelte buområde e
 
 Det er store forskjellar mellom buområda i operasjonsteknikk brukt for innsetting av totalprotese. På landsnivå er det relativt jamn fordeling; innsetting av totalprotese med hybridteknikk (41 %), insetting utan sement (30 %) og insetting med sement (29 %).
 
-![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-pros-inndelt-offeige-offanna-privat-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
+![](/helseatlas/img/no/ortopedi/o1ho-rplot-kaj-prosrate-medaarsrate-faktaark-1.png "Operasjonsrate: Tal operasjonar for hofteleddsartrose per 100 000 innbyggarar (18 år og eldre), fordelt på buområde og landet. Søylene viser gjennomsnittsverdien per år for perioden 2012-2016, og prikkane representerer ratar for kvart av åra. Ratane er justert for kjønn og alder.")
 
 ### Kommentar
 

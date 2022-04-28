@@ -32,6 +32,7 @@ type MapProps = {
   attrName?: string;
   classes?: number[];
   color?: string[];
+  caption?: string;
 };
 
 const ObjectIDToBoHF = [
@@ -74,6 +75,7 @@ export const Map: React.FC<MapProps> = ({
   attrName,
   classes,
   color,
+  caption,
 }) => {
   const width = 1000;
   const height = 1000;
@@ -106,64 +108,86 @@ export const Map: React.FC<MapProps> = ({
     .translate(offset);
   const pathGenerator = geoPath().projection(projection);
   return (
-    <div style={{ width: "100%", height: "100%", margin: "auto" }}>
-      <svg
-        width={"100%"}
-        height={"100%"}
-        viewBox={`0 0 ${width} ${height}`}
-        style={{ backgroundColor: "none" }}
-      >
-        {mapData.features.map((d, i) => {
-          const mapId = connection.mapData;
-          const attrID = connection.mapAttr;
-          const hf = dataToMap.filter(
-            (dtm) => dtm[mapId] === d.properties[mapId]
-          )[0][attrID];
+    <>
+      <div style={{ width: "100%", height: "100%", margin: "auto" }}>
+        <svg
+          width={"100%"}
+          height={"100%"}
+          viewBox={`0 0 ${width} ${height}`}
+          style={{ backgroundColor: "none" }}
+        >
+          {mapData.features.map((d, i) => {
+            const mapId = connection.mapData;
+            const attrID = connection.mapAttr;
+            const hf = dataToMap.filter(
+              (dtm) => dtm[mapId] === d.properties[mapId]
+            )[0][attrID];
 
-          const attr = mapAttr.filter((attribute) => {
-            return attribute[attrID] === hf;
-          })[0];
-          const val = attr ? attr[attrName] : undefined;
-          return (
-            <path
-              key={`map-feature-${i}`}
-              d={pathGenerator(d.geometry)}
-              fill={val ? colorScale(val) : "none"}
-              stroke={"black"}
-              strokeWidth={0.4}
-              className={i + ""}
-            />
-          );
-        })}
-        {classes && (
-          <g>
-            {colorScale.range().map((d, i) => {
-              const w = 90;
-              return (
-                <g key={d + i}>
-                  {" "}
-                  <rect x={i * w} width={w} height="20" fill={d} />
-                  {i !== 0 && (
-                    <>
-                      <line
-                        x1={i * w}
-                        x2={i * w}
-                        y1={0}
-                        y2={30}
-                        strokeWidth="2"
-                        stroke="black"
-                      />
-                      <text x={i * w} y={60} textAnchor="middle" fontSize={30}>
-                        {format(".1f")(colorScale.invertExtent(d)[0])}
-                      </text>
-                    </>
-                  )}
-                </g>
-              );
-            })}
-          </g>
-        )}
-      </svg>
-    </div>
+            const attr = mapAttr.filter((attribute) => {
+              return attribute[attrID] === hf;
+            })[0];
+            const val = attr ? attr[attrName] : undefined;
+            return (
+              <path
+                key={`map-feature-${i}`}
+                d={pathGenerator(d.geometry)}
+                fill={val ? colorScale(val) : "none"}
+                stroke={"black"}
+                strokeWidth={0.4}
+                className={i + ""}
+              />
+            );
+          })}
+          {classes && (
+            <g>
+              {colorScale.range().map((d, i) => {
+                const w = 90;
+                return (
+                  <g key={d + i}>
+                    {" "}
+                    <rect x={i * w} width={w} height="20" fill={d} />
+                    {i !== 0 && (
+                      <>
+                        <line
+                          x1={i * w}
+                          x2={i * w}
+                          y1={0}
+                          y2={30}
+                          strokeWidth="2"
+                          stroke="black"
+                        />
+                        <text
+                          x={i * w}
+                          y={60}
+                          textAnchor="middle"
+                          fontSize={30}
+                        >
+                          {format(".1f")(colorScale.invertExtent(d)[0])}
+                        </text>
+                      </>
+                    )}
+                  </g>
+                );
+              })}
+            </g>
+          )}
+        </svg>
+      </div>
+      <div
+        style={{
+          fontFamily: "Roboto, Helvetica, Arial, sans-serif",
+          fontWeight: "400",
+          fontSize: "0.875rem",
+          lineHeight: "1.43",
+          letterSpacing: "0.01071em",
+          padding: "16px",
+          color: "rgba(0, 0, 0, 0.6)",
+          textAlign: "left",
+          captionSide: "bottom",
+        }}
+      >
+        {caption}
+      </div>
+    </>
   );
 };
