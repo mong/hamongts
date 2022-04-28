@@ -66,24 +66,22 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
-                  <Barchart
-                    margin={{
-                      top: 30,
-                      bottom: 50,
-                      right: 60,
-                      left: 130,
-                    }}
-                    height={500}
-                    {...bd}
-                    data={figData}
-                  />
+                <CarouselItem
+                  style={{ width: "auto" }}
+                  key={bd.type + i + id}
+                  label={bd.type}
+                >
+                  <Barchart {...bd} data={figData} />
                 </CarouselItem>
               );
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
+                <CarouselItem
+                  key={bd.type + i + id}
+                  style={{ width: "auto" }}
+                  label={bd.type}
+                >
                   <DataTable
                     headers={bd.columns}
                     data={figData}
@@ -98,9 +96,19 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 : undefined;
 
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
+                <CarouselItem
+                  key={bd.type + i + id}
+                  style={{ width: "auto" }}
+                  label={bd.type}
+                >
                   {jenks ? (
-                    <div style={{ width: "500px" }}>
+                    <div
+                      style={{
+                        width: "100%",
+                        maxWidth: "500px",
+                        margin: "auto",
+                      }}
+                    >
                       <Map
                         mapData={mapData}
                         color={[

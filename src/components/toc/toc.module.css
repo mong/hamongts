@@ -43,3 +43,8 @@
     box-sizing: content-box;
   }
 }
+@media screen and (min-width: 942px) {
+  .toc {
+    flex: 0 0 auto;
+  }
+}
