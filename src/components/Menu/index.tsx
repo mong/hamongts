@@ -110,11 +110,6 @@ const NorskMeny = () => {
           <span className={classNames.title}>Våre helseatlas</span>
           <ul>
             <li>
-              <Link href="/kronikere">
-                Helseatlas for utvalgte kroniske sykdommer
-              </Link>
-            </li>
-            <li>
               <Link href="/v1/kvalitet">Helseatlas for kvalitet</Link>
             </li>
             <li>
