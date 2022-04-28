@@ -44,7 +44,7 @@
   }
 }
 @media screen and (min-width: 942px) {
- .toc{
-  flex: 0 0 auto;
- }
+  .toc {
+    flex: 0 0 auto;
+  }
 }
