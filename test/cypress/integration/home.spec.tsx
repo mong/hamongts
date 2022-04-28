@@ -6,7 +6,7 @@ context("Home Page", () => {
   });
 
   it("should render the home page", () => {
-    cy.get("h1").contains("Likeverdige helsetjenester - uansett hvor du bor?");
+    cy.get("h1").contains("Likeverdige helsetjenester – uansett hvor du bor?");
     cy.contains("a").click();
   });
 

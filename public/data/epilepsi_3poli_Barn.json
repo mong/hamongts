@@ -38,7 +38,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Årlige gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere",
+      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere 0-17 år",
       "columns": [
         {
           "id": "bohf",
@@ -54,7 +54,7 @@
         },
         {
           "id": "kontakter_poli",
-          "label": "Spesialist konsultasjoner",
+          "label": "Spesialistkonsultasjoner",
           "typeVar": "number",
           "format": ",.0f"
         },

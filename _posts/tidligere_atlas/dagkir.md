@@ -15,10 +15,6 @@ date: "2015-01-13T12:00:00.000Z"
 ---
 <div className="ingress">
 Hovedfunnene er oppsummert i faktaarkene under, som også inneholder en kort beskrivelse av tilstand og inngrep. Det gis videre informasjon om befolkningens forbruk av inngrepet i geografiske områder. Med forbruk menes andel av befolkningen som får utført inngrepet. Befolkningens forbruk måles som antall inngrep pr. 100 000 innbyggere. Forskjeller i forbruk mellom de geografiske områdene er kort kommentert.
-
-
-
-dsafda
 </div>
 
 ### [Skulderkirurgi](/helseatlas/files/Skulderreseksjon.pdf) (Acromionreseksjon)

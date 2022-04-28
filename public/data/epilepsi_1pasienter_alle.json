@@ -55,6 +55,18 @@
           "format": ",.1f"
         },
         {
+          "id": "pasienter",
+          "label": "Pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "andel3_prim",
+          "label": "Andel kun i allmennlegetj.",
+          "typeVar": "number",
+          "format": ",.1%"
+        },
+        {
           "id": "pas_rate_barn",
           "label": "Pasientrate, barn",
           "typeVar": "number",
@@ -65,18 +77,6 @@
           "label": "Pasientrate, eldre",
           "typeVar": "number",
           "format": ",.1f"
-        },
-        {
-          "id": "andel3_prim",
-          "label": "Andel kun i allmennlegetj.",
-          "typeVar": "number",
-          "format": ",.1%"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
         }
       ]
     },

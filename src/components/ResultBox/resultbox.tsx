@@ -184,8 +184,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 data={figdata}
                 x={abacusX}
                 colorBy="bohf"
-                width={800}
-                height={80}
                 label={boxData[0].xLabel}
                 backgroundColor="inherit"
               />
@@ -198,6 +196,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           }}
         >
           {dataCarousel}
+
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
