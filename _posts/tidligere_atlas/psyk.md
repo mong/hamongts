@@ -915,7 +915,7 @@ I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buomr
 
 Rapporten gir også informasjon om metode brukt i standardisering av ratar og ved vurdering av geografisk variasjon i pasient- og forbruksratar.
 
-* [Helseatlas psykisk helsevern og rusbehandling] (/helseatlas/files/psykiskhelsevernogrus.pdf)
+* [Helseatlas psykisk helsevern og rusbehandling](/helseatlas/files/psykiskhelsevernogrus.pdf)
 
 ### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
@@ -935,4 +935,4 @@ Rapporten gir også informasjon om metode brukt i standardisering av ratar og ve
 * [Eldre med alvorleg psykisk liding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_alv_dogn.pdf)
 * [Eldre med rusliding - poliklinikk](/helseatlas/files/phv_faktaark_eldre_rus_pol.pdf)
 * [Eldre med rusliding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_rus_dogn.pdf)
-
+* [Helseatlas psykisk helsevern og rusbehandling](/helseatlas/files/psykiskhelsevernogrus.pdf)
