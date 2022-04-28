@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner (eksklusive Botulintoksin) pr. 1 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -32,7 +32,7 @@
         "Avtalespesialist"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner (eksklusive Botulintoksin) pr. 1 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
@@ -76,7 +76,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner (eksklusive Botulintoksin) pr. 1 000 innbyggere",
+      "caption": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
       "jenks": [
         {
           "CLUSTER": 1,

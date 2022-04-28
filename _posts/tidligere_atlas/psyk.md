@@ -55,7 +55,7 @@ Barn og unge hadde i gjennomsnitt 12 polikliniske kontaktar per år, og talet va
 | Stavanger       | 39 040        | 3 613         | 10,8                  |
 | Sørlandet       | 30 315        | 2 847         | 10,6                  |
 | Østfold         | 28 836        | 2 722         | 10,6                  |
-| Helgelan        | 10 375        | 989           | 10,5                  |
+| Helgeland       | 10 375        | 989           | 10,5                  |
 | Fonna           | 18 324        | 1 758         | 10,4                  |
 | UNN             | 17 735        | 1 786         | 9,9                   |
 | Nord-Trøndelag  | 14 191        | 1 573         | 9,0                   |
@@ -910,29 +910,6 @@ Variasjonen er uønska og det er sterk mistanke om at eldre med alvorleg psykisk
 
 ## Vurdering av variasjonen
 
-I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buområde. Buområda svarar til helseføretaka sine opptaksområde slik dei var inndelte i 2018, det siste året med data i analysane. Inndelinga går fram av vedlegg i rapporten * [Helseatlas psykisk helsevern og rusbehandling] (/helseatlas/files/psykiskhelsevernogrus.pdf)
-
+I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buområde. Buområda svarar til helseføretaka sine opptaksområde slik dei var inndelte i 2018, det siste året med data i analysane. Inndelinga går fram av vedlegg i rapporten [Helseatlas psykisk helsevern og rusbehandling](/helseatlas/files/psykiskhelsevernogrus.pdf). 
 
 Rapporten gir også informasjon om metode brukt i standardisering av ratar og ved vurdering av geografisk variasjon i pasient- og forbruksratar.
-
-* [Helseatlas psykisk helsevern og rusbehandling](/helseatlas/files/psykiskhelsevernogrus.pdf)
-
-### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
-
-* [Barn og unge - poliklinikk](/helseatlas/files/phv_faktaark_barnunge_poliklinikk.pdf)
-* [Barn og unge - poliklinikk - alderssegment](/helseatlas/files/phv_faktaark_barnunge_pol_alderssegment.pdf)
-* [Barn og unge - indirekte kontaktar](/helseatlas/files/phv_faktaark_barnunge_pol_indirekte.pdf)
-* [Barn og unge - døgnbehandling](/helseatlas/files/phv_faktaark_barnunge_dognbehandling.pdf)
-* [Vaksne - poliklinikk](/helseatlas/files/phv_faktaark_vaksne_poliklinikk.pdf)
-* [Vaksne - døgnbehandling](/helseatlas/files/phv_faktaark_vaksne_dognbehandling.pdf)
-* [Vaksne med alvorleg psykisk liding - poliklinikk](/helseatlas/files/phv_faktaark_vaksne_alv_pol.pdf)
-* [Vaksne med alvorleg psykisk liding - døgnbehandling](/helseatlas/files/phv_faktaark_vaksne_alv_dogn.pdf)
-* [Vaksne med rusliding - poliklinikk](/helseatlas/files/phv_faktaark_vaksne_rus_pol.pdf)
-* [Vaksne med rusliding - døgnbehandling](/helseatlas/files/phv_faktaark_vaksne_rus_dogn.pdf)
-* [Eldre - poliklinikk](/helseatlas/files/phv_faktaark_eldre_poliklinikk.pdf)
-* [Eldre - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_dognbehandling.pdf)
-* [Eldre med alvorleg psykisk liding - poliklinikk](/helseatlas/files/phv_faktaark_eldre_alv_pol.pdf)
-* [Eldre med alvorleg psykisk liding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_alv_dogn.pdf)
-* [Eldre med rusliding - poliklinikk](/helseatlas/files/phv_faktaark_eldre_rus_pol.pdf)
-* [Eldre med rusliding - døgnbehandling](/helseatlas/files/phv_faktaark_eldre_rus_dogn.pdf)
-* [Helseatlas psykisk helsevern og rusbehandling](/helseatlas/files/psykiskhelsevernogrus.pdf)

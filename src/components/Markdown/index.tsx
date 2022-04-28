@@ -32,11 +32,29 @@ export const Markdown = ({ children, lang }: MarkdownProp) => {
     },
     img({ src, alt, title }) {
       return (
-        <figure>
-          <img src={src} alt={alt} title={alt} />
-          <figcaption>
-            <strong>{lang === "en" ? "Figure:" : "Figur:"}</strong> {title}
-          </figcaption>
+        <figure
+          style={{
+            width: "90%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
+          <img
+            src={src}
+            alt={alt}
+            title={alt}
+            style={{
+              display: "block",
+              margin: "auto",
+            }}
+          />
+          {title && (
+            <figcaption>
+              <strong>{lang === "en" ? "Figure:" : "Figur:"}</strong> {title}
+            </figcaption>
+          )}
         </figure>
       );
     },

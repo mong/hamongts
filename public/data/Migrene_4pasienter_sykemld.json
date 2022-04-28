@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter med minst en sykemelding",
+      "xLabel": "Andel (%) pasienter med minst en sykemelding",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -61,7 +61,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Andel pasienter med minst en sykemelding",
+      "caption": "Andel (%) pasienter med minst en sykemelding",
       "jenks": [
         {
           "CLUSTER": 1,
