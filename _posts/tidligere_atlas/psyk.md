@@ -23,7 +23,6 @@ Psykiske lidingar blir ofte kalla «de unges lidelser», og i dei fleste tilfell
 
 ### Poliklinisk behandling
 
-### Utval og definisjonar
 
 Barn og unge mellom 0 og 17 år som i 2014--2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet.
 
@@ -142,7 +141,7 @@ Dei registrerte typar indirekte kontaktar gikk i retning av fleire telefonsamtal
 
 
 
-Direkte og indirekte kontaktar i poliklinisk behandling. Barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Alle kontaktar (inkluderer direkte og indirekte kontaktar, gjennomsnittsverdiar per år), prosentdel direkte og prosentdel indirekte kontaktar for perioden 2014-2018.
+Direkte og indirekte kontaktar i poliklinisk behandling. Barn og unge (0-17 år) i psykisk helsevern og tverrfagleg spesialisert behandling av ruslidingar. Alle kontaktar (inkluderer direkte og indirekte kontaktar, gjennomsnittsverdiar per år), prosentdel direkte og prosentdel indirekte kontaktar for perioden 2014-2018.
 
 
 
@@ -151,8 +150,6 @@ Direkte og indirekte kontaktar i poliklinisk behandling. Barn og unge (0-17 år)
 
 
 ### Døgnbehandling
-
-### Utval og definisjonar
 
 Barn og unge mellom 0 og 17 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern er inkludert. 
 
@@ -215,7 +212,7 @@ Halvparten av innbyggarane i Noreg vil oppleve å få ei psykisk liding i løpet
 
 ### Poliklinikk
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet.
 
@@ -247,7 +244,7 @@ Vaksne i poliklinisk behandling er ei stor pasientgruppe. Med tanke på at pasie
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år, som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar er inkludert. 
 
@@ -314,7 +311,7 @@ Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanle
 
 ### Poliklinikk
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
@@ -378,7 +375,7 @@ Vaksne med rusliding får ulik poliklinisk oppfølging, avhengig av kvar dei bur
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar (TSB), med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
@@ -445,7 +442,7 @@ Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipo
 
 ### Poliklinikk
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år som i 2014--2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding (ALV) er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
@@ -506,7 +503,7 @@ Vaksne med alvorleg psykisk liding får ulik poliklinisk oppfølging, avhengig a
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Vaksne mellom 18 og 64 år som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
@@ -573,7 +570,6 @@ Dei hyppigaste psykiske lidingane hos eldre er dei same som hos den yngre del av
 
 ### Poliklinikk
 
-### Utval og definisjonar
 
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar eller hos avtalespesialistar i psykisk helsevern, er inkludert i utvalet.
 
@@ -603,7 +599,7 @@ Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorleg
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar er inkludert. 
 
@@ -664,11 +660,11 @@ Det er likevel nær tre gonger fleire opphald per innbyggar i buområde med høg
 
 ## Eldre med rusliding
 
-Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg, og er mest vanleg blant unge vaksne mellom 18 og 35 år. Skadeleg bruk av alkohol er meir vanleg blant menn enn hos kvinner. Pasientar med ruslidingar har ofte også andre psykiske lidingar og kroppslege sjukdommar. Personar med rusliding kan få både poliklinisk behandling og døgnbehandling i spesialisthelsetensta.
+Alkoholbrukslidingar er den hyppigaste rusbrukslidinga i Noreg. Rusmiddelbruken blant eldre er aukande. Spesielt gjeld dette bruk av alkohol og vanedannande legemiddel. Skadeleg bruk av alkohol er meir vanleg blant menn enn hos kvinner. Pasientar med ruslidingar har ofte også andre psykiske lidingar og kroppslege sjukdommar. Personar med rusliding kan få både poliklinisk behandling og døgnbehandling i spesialisthelsetensta.
 
 ### Poliklinikk
 
-### Utval og definisjonar
+
 
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
@@ -729,7 +725,7 @@ Så tydeleg store variasjonar i poliklinisk behandling gir mistanke om underforb
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst eit døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar (TSB), med rusliding som hovud- eller bitilstand er inkludert. Rusliding er definert ved ICD-10-kodane F10, F11, F12, F13, F14, F15, F16, F18, F19. 
 
@@ -790,7 +786,7 @@ Alvorleg psykisk liding, dvs. psykoseliding, alvorleg depresjon, mani eller bipo
 
 ### Poliklinikk
 
-### Utval og definisjonar
+
 
 Pasientar i alderen 65 år og eldre som i 2014-2018 hadde minst ein poliklinisk kontakt i psykisk helsevern, tverrfagleg spesialisert behandling av ruslidingar (TSB) eller hos avtalespesialist i psykisk helsevern, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding (ALV) er definert ved ICD-10-kodane F20--29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
@@ -851,7 +847,7 @@ Så tydeleg store variasjonar i poliklinisk behandling av pasientar med alvorleg
 
 ### Døgnbehandling
 
-### Utval og definisjonar
+
 
 Pasientar i alderen 65 år og eldre som i 2014–2018 hadde minst eitt døgnopphald i psykisk helsevern eller tverrfagleg spesialisert behandling av ruslidingar, med alvorleg psykisk liding som hovud- eller bitilstand er inkludert. Alvorleg psykisk liding er definert ved ICD-10-kodane F20–29, F30.1, F30.2, F30.8, F30.9, F31, F32.3, F33.3.
 
@@ -903,11 +899,20 @@ Døgnbehandling for eldre (65 år +) med alvorleg psykisk liding i psykisk helse
 
 
 
+
+
 ### Kommentar
 
 Det er stor variasjon i døgnbehandling for eldre med alvorleg psykisk liding, og opphalda er i gjennomsnitt meir enn dobbelt så lange i hovudstadsregionen som i buområde med kortast opphald. 
 
 Variasjonen er uønska og det er sterk mistanke om at eldre med alvorleg psykisk liding ikkje har eit likeverdig behandlingstilbod.
+
+
+## Vurdering av variasjonen
+
+I helseatlaset blir variasjon i bruk av helsetenester vurdert mellom ulike buområde. Buområda svarar til helseføretaka sine opptaksområde slik dei var inndelte i 2018, det siste året med data i analysane. Inndelinga går fram av vedlegg i rapporten [Helseatlas psykisk helsevern og rusbehandling] (https://helseatlas.no/sites/default/files/psykiskhelsevernogrus.pdf) 
+
+Rapporten gir også informasjon om metode brukt i standardisering av ratar og ved vurdering av geografisk variasjon i pasient- og forbruksratar.
 
 ### Kort oppsummering av resultat i helseatlas Psykisk helsevern og rusbehandling.
 
