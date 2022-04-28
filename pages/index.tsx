@@ -1,9 +1,10 @@
 import path from "path";
+import { GetStaticProps } from "next";
+import fs from "fs";
+
 import Layout from "../src/components/Layout";
 import { MainBanner } from "../src/components/MainBanner/MainBanner";
-
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
-import { GetStaticProps } from "next";
 import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
 
 interface HomeProps {
@@ -41,7 +42,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       lang={"no"}
     />
   ));
-  const LinksNew = atlasInfoNew.map((atlas) => (
+  const LinksNew = ""; /*atlasInfoNew.map((atlas) => (
     <AtlasLink
       key={atlas.article}
       linkTo={atlas.article}
@@ -51,7 +52,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo, atlasInfoNew }) => {
       date={atlas.frontMatter.date}
       lang={"no"}
     />
-  ));
+  ));*/
 
   return (
     <Layout lang="no">
@@ -80,7 +81,19 @@ export const getStaticProps: GetStaticProps = async () => {
   const atlasDir = path.join(process.cwd(), "_posts/tidligere_atlas");
   const atlasInfo = getMDInfo(atlasDir);
   const atlasDirNew = path.join(process.cwd(), "_posts/atlas");
-  const atlasInfoNew = getMDInfo(atlasDirNew);
+  const atlasInfoNew = fs
+    .readdirSync(atlasDirNew)
+    .filter((fn) => fn.endsWith(".json"))
+    .map((fn) => {
+      const filePath = path.join(atlasDirNew, fn);
+      const rawContent = fs.readFileSync(filePath, {
+        encoding: "utf-8",
+      });
+      const parsedContent = JSON.parse(rawContent);
+      const { lang, date, mainTitle, shortTitle, ingress } = parsedContent;
+      return { lang, date, mainTitle, shortTitle, ingress };
+    });
+  console.log(atlasInfoNew);
 
   return {
     props: {
