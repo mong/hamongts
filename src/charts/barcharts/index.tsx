@@ -71,8 +71,8 @@ export const Barchart = <
   margin = {
     top: 30,
     bottom: 50,
-    right: 60,
-    left: 130,
+    right: 20,
+    left: 140,
   },
   data,
   xLabel,
