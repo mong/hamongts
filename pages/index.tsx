@@ -23,7 +23,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
   const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
-      linkTo={`v2/${atlas.article}`}
+      linkTo={`${atlas.article}`}
       imageSource={atlas.frontMatter.image}
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
@@ -84,7 +84,7 @@ export const getStaticProps: GetStaticProps = async () => {
       }
 
       return {
-        article: `${filename}`,
+        article: `v2/${filename}`,
         frontMatter: {
           shortTitle,
           image,
