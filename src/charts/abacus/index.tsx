@@ -2,6 +2,7 @@ import { AxisBottom } from "@visx/axis";
 import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max } from "d3-array";
+import classNames from "../barcharts/ChartLegend.module.css";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -78,46 +79,62 @@ export const Abacus = <
     range: [0, innerWidth],
   });
   return (
-    <svg
-      width="100%"
-      height={height}
-      style={{ backgroundColor, display: "block", margin: "auto" }}
-      viewBox={`0 0 ${width} ${height + margin.top}`}
-    >
-      <Group left={margin.left} top={margin.top}>
-        <AxisBottom
-          top={0}
-          scale={xScale}
-          strokeWidth={axisLineStrokeWidth}
-          stroke={axisLineStroke}
-          numTicks={4}
-          tickLength={tickLength}
-          tickStroke={axisTickStroke}
-          tickTransform={`translate(0,-${tickLength / 2})`}
-          tickLabelProps={() => ({
-            fontSize: tickLabelSize,
-            fill: "black",
-            textAnchor: "middle",
-            y: 50,
-          })}
-          label={label}
-          labelProps={{
-            fontSize: labelSize,
-            textAnchor: "middle",
-            fontWeight: "bold",
-          }}
-        />
-      </Group>
-      <Group left={margin.left} top={margin.top}>
-        {figData.map((d, i) => (
-          <circle
-            key={`${d[x]}${i}`}
-            r={circleRadiusDefalt}
-            cx={xScale(d[x])}
-            fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
+    <>
+      <svg
+        width="100%"
+        height={height}
+        style={{ backgroundColor, display: "block", margin: "auto" }}
+        viewBox={`0 0 ${width} ${height + margin.top}`}
+      >
+        <Group left={margin.left} top={margin.top}>
+          <AxisBottom
+            top={0}
+            scale={xScale}
+            strokeWidth={axisLineStrokeWidth}
+            stroke={axisLineStroke}
+            numTicks={4}
+            tickLength={tickLength}
+            tickStroke={axisTickStroke}
+            tickTransform={`translate(0,-${tickLength / 2})`}
+            tickLabelProps={() => ({
+              fontSize: tickLabelSize,
+              fill: "black",
+              textAnchor: "middle",
+              y: 50,
+            })}
+            label={label}
+            labelProps={{
+              fontSize: labelSize,
+              textAnchor: "middle",
+              fontWeight: "bold",
+            }}
           />
-        ))}
-      </Group>
-    </svg>
+        </Group>
+        <Group left={margin.left} top={margin.top}>
+          {figData.map((d, i) => (
+            <circle
+              key={`${d[x]}${i}`}
+              r={circleRadiusDefalt}
+              cx={xScale(d[x])}
+              fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
+            />
+          ))}
+        </Group>
+      </svg>
+      <div className={classNames.legendContainer}>
+        <ul className={classNames.legendUL}>
+          {colors.map((val, i) => (
+            <li key={val + i} className={classNames.legendLI}>
+              <div className={classNames.legendAnnualVar}>
+                <svg width="20px" height="20px">
+                  <circle r={7} cx={10} cy={10} fill={val} />
+                </svg>
+              </div>
+              {i === 1 ? "Norge" : "Opptaksområder"}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 };

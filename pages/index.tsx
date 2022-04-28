@@ -17,7 +17,6 @@ interface HomeProps {
       date: Date;
     };
   }[];
-  
 }
 
 const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
