@@ -1,5 +1,6 @@
 import { geoMercator, geoPath } from "d3-geo";
 import { scaleThreshold } from "d3-scale";
+import { formatLocale } from "d3-format";
 
 type FeatureShape = {
   type: "Feature";
@@ -57,6 +58,14 @@ const ObjectIDToBoHF = [
   { BoHF_num: 22, bohf: "Telemark" },
   { BoHF_num: 23, bohf: "Sørlandet" },
 ];
+
+const formatDefinition = {
+  decimal: ",",
+  thousands: "\u202f",
+  grouping: [3],
+};
+
+const format = formatLocale(formatDefinition).format;
 
 export const Map: React.FC<MapProps> = ({
   mapData,
@@ -129,6 +138,39 @@ export const Map: React.FC<MapProps> = ({
               />
             );
           })}
+          {classes && (
+            <g>
+              {colorScale.range().map((d, i) => {
+                const w = 90;
+                return (
+                  <g key={d + i}>
+                    {" "}
+                    <rect x={i * w} width={w} height="20" fill={d} />
+                    {i !== 0 && (
+                      <>
+                        <line
+                          x1={i * w}
+                          x2={i * w}
+                          y1={0}
+                          y2={30}
+                          strokeWidth="2"
+                          stroke="black"
+                        />
+                        <text
+                          x={i * w}
+                          y={60}
+                          textAnchor="middle"
+                          fontSize={30}
+                        >
+                          {format(".1f")(colorScale.invertExtent(d)[0])}
+                        </text>
+                      </>
+                    )}
+                  </g>
+                );
+              })}
+            </g>
+          )}
         </svg>
       </div>
       <div
