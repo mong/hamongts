@@ -69,10 +69,10 @@ export const Barchart = <
   width = 600,
   height = 500,
   margin = {
-    top: 20,
-    bottom: 20,
+    top: 30,
+    bottom: 50,
     right: 20,
-    left: 20,
+    left: 140,
   },
   data,
   xLabel,
@@ -163,8 +163,13 @@ export const Barchart = <
     .range([2, yScale.bandwidth() / 2]);
 
   return (
-    <div style={{ margin: "auto" }}>
-      <svg style={{ backgroundColor }} width={width} height={height}>
+    <div style={{ width: "auto", margin: "auto" }}>
+      <svg
+        style={{ backgroundColor, display: "block", margin: "auto" }}
+        width="100%"
+        height="100%"
+        viewBox={`0 0 ${width} ${height}`}
+      >
         <Group left={margin.left} top={margin.top}>
           <AxisLeft
             top={5}

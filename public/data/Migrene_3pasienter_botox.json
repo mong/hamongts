@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter som bruker Botulintoksin",
+      "xLabel": "Andel (%) pasienter som bruker Botulintoksin",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -32,7 +32,7 @@
         "Avtalespesialist"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter som bruker Botulintoksin",
+      "xLabel": "Andel (%) pasienter som bruker Botulintoksin",
       "yLabel": "Opptaksområder"
     },
     {
@@ -82,7 +82,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Andel pasienter som bruker Botulintoksin",
+      "caption": "Andel (%) pasienter som bruker Botulintoksin",
       "jenks": [
         {
           "CLUSTER": 1,
