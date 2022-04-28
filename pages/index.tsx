@@ -23,7 +23,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
   const Links = atlasInfo.map((atlas, i) => (
     <AtlasLink
       key={atlas.article}
-      linkTo={`${atlas.article}`}
+      linkTo={`v2/${atlas.article}`}
       imageSource={atlas.frontMatter.image}
       linkTitle={atlas.frontMatter.shortTitle}
       linkText={atlas.frontMatter.frontpagetext}
