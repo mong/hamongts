@@ -44,13 +44,19 @@
           "format": ",.0f"
         },
         {
+          "id": "pas_akuttutv",
+          "label": "Pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
           "id": "akutt_pas",
           "label": "Pasienter med akuttinnl.",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
-          "id": "akutt_pr_akuttpas",
+          "id": "akutt_pr_utv_pas",
           "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
           "format": ",.2f"
@@ -93,7 +99,9 @@
           "ant_akutt": 20.6666666667,
           "akutt_pr_pas": 0.148325358852,
           "akutt_pas": 16,
-          "akutt_pr_akuttpas": 1.29166666667
+          "akutt_pr_akuttpas": 1.29166666667,
+          "pas_akuttutv": 147.333333333,
+          "akutt_pr_utv_pas": 0.140271493213
         },
         {
           "bohf": "UNN",
@@ -106,7 +114,9 @@
           "ant_akutt": 101,
           "akutt_pr_pas": 0.210709318498,
           "akutt_pas": 72.3333333333,
-          "akutt_pr_akuttpas": 1.39631336406
+          "akutt_pr_akuttpas": 1.39631336406,
+          "pas_akuttutv": 502,
+          "akutt_pr_utv_pas": 0.201195219124
         },
         {
           "bohf": "Nordland",
@@ -119,7 +129,9 @@
           "ant_akutt": 62.3333333333,
           "akutt_pr_pas": 0.170776255708,
           "akutt_pas": 44,
-          "akutt_pr_akuttpas": 1.41666666667
+          "akutt_pr_akuttpas": 1.41666666667,
+          "pas_akuttutv": 377,
+          "akutt_pr_utv_pas": 0.16534040672
         },
         {
           "bohf": "Helgeland",
@@ -132,7 +144,9 @@
           "ant_akutt": 36.3333333333,
           "akutt_pr_pas": 0.161481481481,
           "akutt_pas": 27.3333333333,
-          "akutt_pr_akuttpas": 1.32926829268
+          "akutt_pr_akuttpas": 1.32926829268,
+          "pas_akuttutv": 238.666666667,
+          "akutt_pr_utv_pas": 0.152234636872
         },
         {
           "bohf": "Nord-Trøndelag",
@@ -145,7 +159,9 @@
           "ant_akutt": 87.6666666667,
           "akutt_pr_pas": 0.21434392828,
           "akutt_pas": 55.6666666667,
-          "akutt_pr_akuttpas": 1.5748502994
+          "akutt_pr_akuttpas": 1.5748502994,
+          "pas_akuttutv": 426.666666667,
+          "akutt_pr_utv_pas": 0.20546875
         },
         {
           "bohf": "St. Olav",
@@ -158,7 +174,9 @@
           "ant_akutt": 149.666666667,
           "akutt_pr_pas": 0.155686546463,
           "akutt_pas": 108.333333333,
-          "akutt_pr_akuttpas": 1.38153846154
+          "akutt_pr_akuttpas": 1.38153846154,
+          "pas_akuttutv": 1002.66666667,
+          "akutt_pr_utv_pas": 0.149268617021
         },
         {
           "bohf": "Møre og Romsdal",
@@ -171,7 +189,9 @@
           "ant_akutt": 173.666666667,
           "akutt_pr_pas": 0.188154568436,
           "akutt_pas": 121.666666667,
-          "akutt_pr_akuttpas": 1.42739726027
+          "akutt_pr_akuttpas": 1.42739726027,
+          "pas_akuttutv": 955.333333333,
+          "akutt_pr_utv_pas": 0.181786461968
         },
         {
           "bohf": "Førde",
@@ -184,7 +204,9 @@
           "ant_akutt": 37.6666666667,
           "akutt_pr_pas": 0.119830328738,
           "akutt_pas": 33.3333333333,
-          "akutt_pr_akuttpas": 1.13
+          "akutt_pr_akuttpas": 1.13,
+          "pas_akuttutv": 327,
+          "akutt_pr_utv_pas": 0.115188583078
         },
         {
           "bohf": "Bergen",
@@ -197,7 +219,9 @@
           "ant_akutt": 233.333333333,
           "akutt_pr_pas": 0.195421552205,
           "akutt_pas": 153.666666667,
-          "akutt_pr_akuttpas": 1.51843817787
+          "akutt_pr_akuttpas": 1.51843817787,
+          "pas_akuttutv": 1248.66666667,
+          "akutt_pr_utv_pas": 0.18686599039
         },
         {
           "bohf": "Fonna",
@@ -210,7 +234,9 @@
           "ant_akutt": 82.3333333333,
           "akutt_pr_pas": 0.180029154519,
           "akutt_pas": 60.3333333333,
-          "akutt_pr_akuttpas": 1.36464088398
+          "akutt_pr_akuttpas": 1.36464088398,
+          "pas_akuttutv": 479.333333333,
+          "akutt_pr_utv_pas": 0.171766342142
         },
         {
           "bohf": "Stavanger",
@@ -223,7 +249,9 @@
           "ant_akutt": 99.3333333333,
           "akutt_pr_pas": 0.113394216134,
           "akutt_pas": 76,
-          "akutt_pr_akuttpas": 1.30701754386
+          "akutt_pr_akuttpas": 1.30701754386,
+          "pas_akuttutv": 913.666666667,
+          "akutt_pr_utv_pas": 0.108719445458
         },
         {
           "bohf": "Østfold",
@@ -236,7 +264,9 @@
           "ant_akutt": 132.666666667,
           "akutt_pr_pas": 0.162316476346,
           "akutt_pas": 94.3333333333,
-          "akutt_pr_akuttpas": 1.40636042403
+          "akutt_pr_akuttpas": 1.40636042403,
+          "pas_akuttutv": 853.666666667,
+          "akutt_pr_utv_pas": 0.155408043733
         },
         {
           "bohf": "Akershus",
@@ -249,7 +279,9 @@
           "ant_akutt": 214.333333333,
           "akutt_pr_pas": 0.142857142857,
           "akutt_pas": 162.333333333,
-          "akutt_pr_akuttpas": 1.32032854209
+          "akutt_pr_akuttpas": 1.32032854209,
+          "pas_akuttutv": 1557.66666667,
+          "akutt_pr_utv_pas": 0.137598972823
         },
         {
           "bohf": "OUS",
@@ -262,7 +294,9 @@
           "ant_akutt": 83.3333333333,
           "akutt_pr_pas": 0.141242937853,
           "akutt_pas": 59.3333333333,
-          "akutt_pr_akuttpas": 1.40449438202
+          "akutt_pr_akuttpas": 1.40449438202,
+          "pas_akuttutv": 616.333333333,
+          "akutt_pr_utv_pas": 0.13520822066
         },
         {
           "bohf": "Lovisenberg",
@@ -275,7 +309,9 @@
           "ant_akutt": 38.3333333333,
           "akutt_pr_pas": 0.121951219512,
           "akutt_pas": 25,
-          "akutt_pr_akuttpas": 1.53333333333
+          "akutt_pr_akuttpas": 1.53333333333,
+          "pas_akuttutv": 329,
+          "akutt_pr_utv_pas": 0.116514690983
         },
         {
           "bohf": "Diakonhjemmet",
@@ -288,7 +324,9 @@
           "ant_akutt": 41,
           "akutt_pr_pas": 0.145218417946,
           "akutt_pas": 27.3333333333,
-          "akutt_pr_akuttpas": 1.5
+          "akutt_pr_akuttpas": 1.5,
+          "pas_akuttutv": 300,
+          "akutt_pr_utv_pas": 0.136666666667
         },
         {
           "bohf": "Innlandet",
@@ -301,7 +339,9 @@
           "ant_akutt": 168.666666667,
           "akutt_pr_pas": 0.151225343694,
           "akutt_pas": 123.333333333,
-          "akutt_pr_akuttpas": 1.36756756757
+          "akutt_pr_akuttpas": 1.36756756757,
+          "pas_akuttutv": 1161,
+          "akutt_pr_utv_pas": 0.145277060006
         },
         {
           "bohf": "Vestre Viken",
@@ -314,7 +354,9 @@
           "ant_akutt": 194.666666667,
           "akutt_pr_pas": 0.163082937727,
           "akutt_pas": 132,
-          "akutt_pr_akuttpas": 1.47474747475
+          "akutt_pr_akuttpas": 1.47474747475,
+          "pas_akuttutv": 1236.66666667,
+          "akutt_pr_utv_pas": 0.157412398922
         },
         {
           "bohf": "Vestfold",
@@ -327,7 +369,9 @@
           "ant_akutt": 133.333333333,
           "akutt_pr_pas": 0.204813108039,
           "akutt_pas": 80.3333333333,
-          "akutt_pr_akuttpas": 1.65975103734
+          "akutt_pr_akuttpas": 1.65975103734,
+          "pas_akuttutv": 675,
+          "akutt_pr_utv_pas": 0.197530864198
         },
         {
           "bohf": "Telemark",
@@ -340,7 +384,9 @@
           "ant_akutt": 58.6666666667,
           "akutt_pr_pas": 0.126436781609,
           "akutt_pas": 41.3333333333,
-          "akutt_pr_akuttpas": 1.41935483871
+          "akutt_pr_akuttpas": 1.41935483871,
+          "pas_akuttutv": 477.333333333,
+          "akutt_pr_utv_pas": 0.122905027933
         },
         {
           "bohf": "Sørlandet",
@@ -353,7 +399,9 @@
           "ant_akutt": 113.666666667,
           "akutt_pr_pas": 0.129068887207,
           "akutt_pas": 84,
-          "akutt_pr_akuttpas": 1.35317460317
+          "akutt_pr_akuttpas": 1.35317460317,
+          "pas_akuttutv": 910.333333333,
+          "akutt_pr_utv_pas": 0.12486268766
         },
         {
           "bohf": "Norge",
@@ -366,7 +414,9 @@
           "ant_akutt": 2262.66666667,
           "akutt_pr_pas": 0.159875641811,
           "akutt_pas": 1598,
-          "akutt_pr_akuttpas": 1.4159365874
+          "akutt_pr_akuttpas": 1.4159365874,
+          "pas_akuttutv": 14735.3333333,
+          "akutt_pr_utv_pas": 0.153553816224
         }
       ]
     }
