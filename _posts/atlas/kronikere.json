@@ -1,9 +1,9 @@
 {
+  "frontpagetext": "Lorem lipsum",
+  "filename": "kronikere",
+  "publisert": false,
   "lang": "nb",
   "date": "2022-03-01T15:25:48.202Z",
-  "filename": "kronikere",
-  "mainTitle": "Helseatlas for utvalgte kroniske sykdommer",
-  "shortTitle": "Utvalgte kroniske sykdommer",
   "ingress": "I atlaset har vi undersøkt om bruk av helsetjenester til kronisk syke varierer avhengig av pasientenes bosted – inndelt etter helseforetakenes opptaksområder. Tilstandene som dekkes av atlaset er valgt på bakgrunn av fem kriterier, bl.a. knyttet til datakvalitet, størrelsen på pasientgruppa og hvorvidt pasientene har behov for oppfølging i spesialisthelsetjenesten over tid. ",
   "kapittel": [
     {
@@ -296,5 +296,7 @@
       ]
     }
   ],
-  "publisert": false
+  "image": "/helseatlas/img/map.png",
+  "shortTitle": "Utvalgte kroniske sykdommer",
+  "mainTitle": "Helseatlas for utvalgte kroniske sykdommer"
 }
