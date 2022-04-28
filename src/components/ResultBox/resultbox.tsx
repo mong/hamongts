@@ -71,17 +71,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   key={bd.type + i + id}
                   label={bd.type}
                 >
-                  <Barchart
-                    margin={{
-                      top: 30,
-                      bottom: 50,
-                      right: 60,
-                      left: 130,
-                    }}
-                    height={500}
-                    {...bd}
-                    data={figData}
-                  />
+                  <Barchart {...bd} data={figData} />
                 </CarouselItem>
               );
             }
