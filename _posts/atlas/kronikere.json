@@ -1,5 +1,5 @@
 {
-  "frontpagetext": "Lorem lipsum",
+  "frontpagetext": "Helseatlas for kroniske sykdommer tar for seg helsetjenestebruk for pasienter som i 2018 – 2021 hadde minst tre kontakter med allmennlege- og spesialisthelsetjenesten.",
   "filename": "kronikere",
   "publisert": true,
   "lang": "nb",
@@ -297,6 +297,6 @@
     }
   ],
   "image": "/helseatlas/img/no/kronikere/frontpage.jpg",
-  "shortTitle": "Utvalgte kroniske sykdommer",
-  "mainTitle": "Helseatlas for utvalgte kroniske sykdommer"
+  "shortTitle": "Kroniske sykdommer",
+  "mainTitle": "Helseatlas for kroniske sykdommer"
 }
