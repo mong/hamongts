@@ -1,4 +1,5 @@
 import React from "react";
+import { useIsomorphicLayoutEffect } from "../../helpers/hooks";
 
 import { PopUpButton } from "./popupbtn";
 import { PopUpContent } from "./popupcontent";
@@ -17,9 +18,12 @@ export const PopUp = ({
   popupState,
 }: PopUpProps) => {
   const [active, setActive] = React.useState<boolean>(false);
-  if (popupState) {
-    popupState(active);
-  }
+
+  useIsomorphicLayoutEffect(() => {
+    if (popupState) {
+      popupState(active);
+    }
+  }, [active]);
   return (
     <div>
       <PopUpButton
