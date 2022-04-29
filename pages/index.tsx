@@ -6,6 +6,7 @@ import Layout from "../src/components/Layout";
 import { MainBanner } from "../src/components/MainBanner/MainBanner";
 import { AtlasLink } from "../src/components/Btns/AtlasLink";
 import { getMDInfo } from "../src/helpers/functions/markdownHelpers";
+import classNames from "../src/styles/Atlas.module.css";
 
 interface HomeProps {
   atlasInfo: {
@@ -38,19 +39,7 @@ const Home: React.FC<HomeProps> = ({ atlasInfo }) => {
     <Layout lang="no">
       <main>
         <MainBanner />
-        <div
-          style={{
-            maxWidth: "min(1216px, 95%)",
-            display: "flex",
-            justifyContent: "space-between",
-            flexWrap: "wrap",
-            margin: "40px auto",
-            paddingLeft: "16px",
-            paddingRight: "16px",
-          }}
-        >
-          {Links}
-        </div>
+        <div className={classNames.atlasLinksWrapper}>{Links}</div>
       </main>
     </Layout>
   );
