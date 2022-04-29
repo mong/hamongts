@@ -4,15 +4,15 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "rateSnitt"
+        "andel_pct_sm"
       ],
       "y": "bohf",
-      "xLabel": "Andel (%) pasienter med minst en sykemelding",
+      "xLabel": "Andel pasienter med minst en sykemelding",
       "yLabel": "Opptaksområder",
       "annualVar": [
-        "rate2019",
-        "rate2020",
-        "rate2021"
+        "andel_pct_sm2019",
+        "andel_pct_sm2020",
+        "andel_pct_sm2021"
       ],
       "annualVarLabels": [
         "2019",
@@ -60,20 +60,20 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt",
-      "caption": "Andel (%) pasienter med minst en sykemelding",
+      "x": "andel_pct_sm",
+      "caption": "Andel pasienter med minst en sykemelding",
       "jenks": [
         {
           "CLUSTER": 1,
-          "max": " 17.9408"
+          "max": "  0.1794"
         },
         {
           "CLUSTER": 2,
-          "max": " 20.4686"
+          "max": "  0.2047"
         },
         {
           "CLUSTER": 3,
-          "max": " 21.7723"
+          "max": "  0.2177"
         }
       ]
     },
