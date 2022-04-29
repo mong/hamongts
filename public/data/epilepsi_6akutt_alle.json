@@ -44,7 +44,7 @@
           "format": ",.0f"
         },
         {
-          "id": "pas_akuttutv",
+          "id": "pasienter",
           "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
