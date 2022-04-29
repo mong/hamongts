@@ -12,6 +12,7 @@ import { Markdown } from "../Markdown";
 type CarouselProps = {
   active?: number;
   selection?: string;
+  popupState?: React.Dispatch<React.SetStateAction<boolean>>;
   lang?: "nb" | "en" | "nn";
   children:
     | React.ReactElement<CarouselItemProps & React.RefObject<any>>
@@ -41,6 +42,7 @@ export const Carousel: React.FC<CarouselProps> = ({
   children,
   selection,
   lang,
+  popupState,
 }) => {
   const [activeComp, setActiveComp] = useState<number>(active ?? 0);
 
@@ -79,6 +81,7 @@ export const Carousel: React.FC<CarouselProps> = ({
               padding: "30px 30px 100px 30px",
               margin: "auto",
             }}
+            popupState={popupState}
             btnComponent={() => <SelectionBtn lang={lang} />}
           >
             <Markdown>{selection}</Markdown>

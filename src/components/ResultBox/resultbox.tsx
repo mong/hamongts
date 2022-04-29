@@ -36,6 +36,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 }) => {
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
+  const [selectionExpanded, setSelectionExpanded] =
+    React.useState<boolean>(false);
 
   const atlasData: { atlasData: any; mapData: MapData } =
     React.useContext(DataContext);
@@ -60,7 +62,12 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
 
   const dataCarousel =
     boxData !== undefined ? (
-      <Carousel active={0} selection={selection} lang={lang}>
+      <Carousel
+        active={0}
+        selection={selection}
+        popupState={setSelectionExpanded}
+        lang={lang}
+      >
         {boxData
           .map((bd, i, obj) => {
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
@@ -146,7 +153,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div id={id} className={classNames.resultBoxWrapper}>
+    <div
+      id={id}
+      className={classNames.resultBoxWrapper}
+      style={{ zIndex: selectionExpanded ? 999 : undefined }}
+    >
       <Accordion
         disableGutters
         sx={{
