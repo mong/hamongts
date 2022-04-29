@@ -35,7 +35,7 @@
           "id": "rateSnitt",
           "label": "Rate",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.2f"
         },
         {
           "id": "ant_akutt",
@@ -44,10 +44,16 @@
           "format": ",.0f"
         },
         {
-          "id": "innbyggere",
-          "label": "Innbyggere",
+          "id": "pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "akutt_pr_pas",
+          "label": "Akuttinnl. pr. pas.",
+          "typeVar": "number",
+          "format": ",.2f"
         }
       ]
     },

@@ -50,12 +50,6 @@
           "format": ",.0f"
         },
         {
-          "id": "akutt_pas",
-          "label": "Pasienter med akuttinnl.",
-          "typeVar": "number",
-          "format": ",.0f"
-        },
-        {
           "id": "akutt_pr_utv_pas",
           "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
