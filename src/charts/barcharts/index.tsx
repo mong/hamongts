@@ -7,6 +7,8 @@ import { max, sum, min } from "d3-array";
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
+import { customFormat } from "../../helpers/functions/localFormater";
+
 import { AnnualVariation } from "./AnnualVariation";
 
 export type BarchartData<
@@ -57,6 +59,7 @@ type BarchartProps<
   yOuterPadding?: number;
   annualVar?: AnnualVar;
   annualVarLabels?: number[];
+  format: string;
 };
 
 export const Barchart = <
@@ -94,6 +97,7 @@ export const Barchart = <
   xLegend,
   annualVar,
   annualVarLabels,
+  format,
 }: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
   //missing
   //tooltip
@@ -200,6 +204,9 @@ export const Barchart = <
             strokeWidth={xAxisLineStrokeWidth}
             stroke={xAxisLineStroke}
             numTicks={4}
+            tickFormat={(val) =>
+              format ? customFormat(format)(val) : val.toString()
+            }
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}
