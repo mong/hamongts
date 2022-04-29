@@ -7,15 +7,7 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import { getOrderComparator } from "../../helpers/functions/dataTransformation";
-import { formatLocale } from "d3-format";
-
-const formatDefinition = {
-  decimal: ",",
-  thousands: "\u202f",
-  grouping: [3],
-};
-
-const format = formatLocale(formatDefinition).format;
+import { format } from "../../helpers/functions/localFormater";
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
   caption: string;
