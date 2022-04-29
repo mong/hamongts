@@ -6,4 +6,4 @@ const formatDefinition = {
   grouping: [3],
 };
 
-export const format = formatLocale(formatDefinition).format;
+export const customFormat = formatLocale(formatDefinition).format;
