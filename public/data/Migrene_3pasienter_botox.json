@@ -4,15 +4,15 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "rateSnitt"
+        "andel_pct_btx"
       ],
       "y": "bohf",
-      "xLabel": "Andel (%) pasienter som bruker Botulintoksin",
+      "xLabel": "Andel pasienter som bruker Botulintoksin",
       "yLabel": "Opptaksområder",
       "annualVar": [
-        "rate2019",
-        "rate2020",
-        "rate2021"
+        "andel_pct_btx2019",
+        "andel_pct_btx2020",
+        "andel_pct_btx2021"
       ],
       "annualVarLabels": [
         "2019",
@@ -32,7 +32,7 @@
         "Avtalespesialist"
       ],
       "y": "bohf",
-      "xLabel": "Andel (%) pasienter som bruker Botulintoksin",
+      "xLabel": "Andel pasienter som bruker Botulintoksin",
       "yLabel": "Opptaksområder"
     },
     {
@@ -81,20 +81,20 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt",
-      "caption": "Andel (%) pasienter som bruker Botulintoksin",
+      "x": "andel_pct_btx",
+      "caption": "Andel pasienter som bruker Botulintoksin",
       "jenks": [
         {
           "CLUSTER": 1,
-          "max": "  4.1794"
+          "max": "  0.0418"
         },
         {
           "CLUSTER": 2,
-          "max": "  7.7493"
+          "max": "  0.0775"
         },
         {
           "CLUSTER": 3,
-          "max": " 12.6722"
+          "max": "  0.1267"
         }
       ]
     },

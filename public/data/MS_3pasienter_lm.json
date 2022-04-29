@@ -4,15 +4,15 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "rateSnitt"
+        "andel_pct_lm"
       ],
       "y": "bohf",
-      "xLabel": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
+      "xLabel": "Andel MS-pasienter som bruker høyaktive legemidler",
       "yLabel": "Opptaksområder",
       "annualVar": [
-        "rate2019",
-        "rate2020",
-        "rate2021"
+        "andel_pct_lm2019",
+        "andel_pct_lm2020",
+        "andel_pct_lm2021"
       ],
       "annualVarLabels": [
         "2019",
@@ -54,20 +54,20 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt",
-      "caption": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
+      "x": "andel_pct_lm",
+      "caption": "Andel MS-pasienter som bruker høyaktive legemidler",
       "jenks": [
         {
           "CLUSTER": 1,
-          "max": " 28.5516"
+          "max": "  0.2855"
         },
         {
           "CLUSTER": 2,
-          "max": " 38.2758"
+          "max": "  0.3828"
         },
         {
           "CLUSTER": 3,
-          "max": " 45.4682"
+          "max": "  0.4547"
         }
       ]
     },
