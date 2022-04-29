@@ -42,18 +42,6 @@
           "label": "Akuttinnleggelser",
           "typeVar": "number",
           "format": ",.0f"
-        },
-        {
-          "id": "pasienter",
-          "label": "Pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
-        },
-        {
-          "id": "akutt_pr_pas",
-          "label": "Akuttinnl. pr. pas.",
-          "typeVar": "number",
-          "format": ",.2f"
         }
       ]
     },
