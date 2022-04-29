@@ -35,7 +35,7 @@
           "id": "rateSnitt",
           "label": "Rate",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.2f"
         },
         {
           "id": "ant_akutt",
@@ -53,7 +53,7 @@
           "id": "akutt_pr_pas",
           "label": "Akuttinnl. pr. pas.",
           "typeVar": "number",
-          "format": ",.1f"
+          "format": ",.2f"
         }
       ]
     },
