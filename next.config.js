@@ -3,5 +3,5 @@ module.exports = {
   images: {
     loader: "custom",
   },
-  trailingSlash: false,
+  trailingSlash: true,
 };
