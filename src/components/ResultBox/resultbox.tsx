@@ -120,6 +120,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         classes={jenks}
                         attrName={bd.x}
                         mapAttr={figData}
+                        format={bd.format}
                         caption={bd.caption}
                       />
                     </div>
@@ -177,6 +178,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 colorBy="bohf"
                 label={boxData[0].xLabel}
                 backgroundColor="inherit"
+                format={boxData[0].format}
               />
             )}
           </div>
