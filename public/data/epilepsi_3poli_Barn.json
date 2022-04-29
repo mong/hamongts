@@ -21,21 +21,6 @@
       ]
     },
     {
-      "type": "barchart",
-      "data": "qwerty",
-      "x": [
-        "off_rate",
-        "priv_rate"
-      ],
-      "xLegend": [
-        "Sykehus",
-        "Avtalespesialist"
-      ],
-      "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder"
-    },
-    {
       "type": "table",
       "data": "qwerty",
       "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere 0-17 år",
@@ -69,12 +54,6 @@
           "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
-        },
-        {
-          "id": "andel_priv_poli",
-          "label": "Andel privat",
-          "typeVar": "number",
-          "format": ",.1%"
         }
       ]
     },

@@ -63,6 +63,12 @@
           "label": "Spes.kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
+        },
+        {
+          "id": "innbyggere",
+          "label": "Innbyggere",
+          "typeVar": "number",
+          "format": ",.0f"
         }
       ]
     },

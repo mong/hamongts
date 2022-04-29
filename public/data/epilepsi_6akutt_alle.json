@@ -44,10 +44,16 @@
           "format": ",.0f"
         },
         {
-          "id": "innbyggere",
-          "label": "Innbyggere",
+          "id": "pas_akuttutv",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "akutt_pr_pas",
+          "label": "Akuttinnl. pr. pas.",
+          "typeVar": "number",
+          "format": ",.1f"
         }
       ]
     },
