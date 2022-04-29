@@ -73,7 +73,6 @@ export const Map: React.FC<MapProps> = ({
 }) => {
   const width = 1000;
   const height = 1000;
-  console.log(format);
   const initCenter = geoPath().centroid(mapData);
   const initOffset: [number, number] = [width / 2, height / 2 - height * 0.11];
   const initScale = 150;
