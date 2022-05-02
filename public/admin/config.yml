@@ -3,12 +3,12 @@ backend:
   name: github
   repo: mong/hamongts
   branch: main
-  base_url: https://qa-mong-api.skde.org
+  base_url: https://prod-mong-api.skde.org
 
-logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
+logo_url: https://www.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
 public_folder: /helseatlas/img
-site_url: https://qa.skde.no/helseatlas/
+site_url: https://www.skde.no/helseatlas/
 locale: "nb_no"
 collections:
   - label: "Atlas" # Nye atlas
