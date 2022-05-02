@@ -2,7 +2,7 @@ local_backend: true
 backend:
   name: github
   repo: mong/hamongts
-  branch: develop
+  branch: main
   base_url: https://qa-mong-api.skde.org
 
 logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
