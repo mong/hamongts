@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -23,7 +23,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere 65 år og eldre",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 65 år og eldre",
       "columns": [
         {
           "id": "bohf",
@@ -67,7 +67,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
       "jenks": [
         {
           "CLUSTER": 1,
