@@ -35,15 +35,19 @@
   }
 }
 
+@media screen and (min-width: 0) and (max-width: 942px) {
+  .atlasContent {
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 0) and (max-width: 840px) {
   .main_content {
     width: 95%;
     margin: auto;
     padding: 16px;
   }
-  .atlasContent {
-    flex-direction: column;
-  }
+
   .atlasLinksWrapper {
     display: flex;
     justify-content: center;
