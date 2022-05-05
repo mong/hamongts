@@ -66,16 +66,25 @@
       "caption": "Andel pasienter med minst en sykemelding",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  0.1794"
+          "cluster": 1,
+          "max": "  0.1794",
+          "min": "  0.1753",
+          "lag_min": 0.186005129394,
+          "grense": 0.182706454579
         },
         {
-          "CLUSTER": 2,
-          "max": "  0.2047"
+          "cluster": 2,
+          "max": "  0.2047",
+          "min": "  0.1860",
+          "lag_min": 0.211985621248,
+          "grense": 0.208335805288
         },
         {
-          "CLUSTER": 3,
-          "max": "  0.2177"
+          "cluster": 3,
+          "max": "  0.2177",
+          "min": "  0.2120",
+          "lag_min": 0.247774749481,
+          "grense": 0.232748951776
         }
       ]
     },

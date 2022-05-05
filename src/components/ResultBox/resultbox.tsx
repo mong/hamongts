@@ -92,7 +92,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             }
             if (bd.type === "map") {
               const jenks = bd.jenks
-                ? bd.jenks.map((j) => parseFloat(j.max))
+                ? bd.jenks.map((j) => parseFloat(j.grense))
                 : undefined;
 
               return (

@@ -64,16 +64,25 @@
       "caption": "Antall spesialistkonsultasjoner pr. 1 000 barn",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  6.3211"
+          "cluster": 1,
+          "max": "  6.3211",
+          "min": "  6.3211",
+          "lag_min": 8.35539329896,
+          "grense": 7.33825730809
         },
         {
-          "CLUSTER": 2,
-          "max": "  9.0505"
+          "cluster": 2,
+          "max": "  9.0505",
+          "min": "  8.3554",
+          "lag_min": 9.24073444356,
+          "grense": 9.14562650165
         },
         {
-          "CLUSTER": 3,
-          "max": " 10.2596"
+          "cluster": 3,
+          "max": " 10.2596",
+          "min": "  9.2407",
+          "lag_min": 10.9978557248,
+          "grense": 10.6287309379
         }
       ]
     },

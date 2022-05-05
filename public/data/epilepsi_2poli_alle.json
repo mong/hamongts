@@ -79,16 +79,25 @@
       "caption": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  5.5561"
+          "cluster": 1,
+          "max": "  5.5561",
+          "min": "  5.0340",
+          "lag_min": 5.94391071197,
+          "grense": 5.75002194073
         },
         {
-          "CLUSTER": 2,
-          "max": "  6.4400"
+          "cluster": 2,
+          "max": "  6.4400",
+          "min": "  5.9439",
+          "lag_min": 6.72579804463,
+          "grense": 6.58291545784
         },
         {
-          "CLUSTER": 3,
-          "max": "  7.0017"
+          "cluster": 3,
+          "max": "  7.0017",
+          "min": "  6.7258",
+          "lag_min": 7.64630755872,
+          "grense": 7.32400272833
         }
       ]
     },
