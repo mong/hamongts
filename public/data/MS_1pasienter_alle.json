@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
+      "xLabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -34,13 +34,13 @@
         "Kun allmennlegetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
+      "xLabel": "Antall med multippel sklerose pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere 18 år og eldre",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
       "columns": [
         {
           "id": "bohf",
@@ -78,7 +78,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall med multippel sklerose pr. 1 000 innbyggere",
+      "caption": "Antall med multippel sklerose pr. 1 000 innbyggere",
       "jenks": [
         {
           "cluster": 1,

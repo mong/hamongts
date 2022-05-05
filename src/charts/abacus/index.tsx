@@ -3,6 +3,7 @@ import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max } from "d3-array";
 import classNames from "../barcharts/ChartLegend.module.css";
+import { customFormat } from "../../helpers/functions/localFormater";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -37,6 +38,7 @@ type AbacusProps<
   tickLabelSize?: number;
   labelSize?: number;
   markerOpacity?: number;
+  format?: string;
 };
 
 export const Abacus = <
@@ -67,6 +69,7 @@ export const Abacus = <
   tickLength = 20,
   tickLabelSize = 22,
   labelSize = 22,
+  format,
 }: AbacusProps<Data, X, ColorBy>) => {
   const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
@@ -93,6 +96,9 @@ export const Abacus = <
             strokeWidth={axisLineStrokeWidth}
             stroke={axisLineStroke}
             numTicks={4}
+            tickFormat={(val) =>
+              format ? customFormat(format)(val) : val.toString()
+            }
             tickLength={tickLength}
             tickStroke={axisTickStroke}
             tickTransform={`translate(0,-${tickLength / 2})`}

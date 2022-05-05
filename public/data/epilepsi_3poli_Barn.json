@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 barn",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 barn",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -23,7 +23,7 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere 0-17 år",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 0-17 år",
       "columns": [
         {
           "id": "bohf",
@@ -61,7 +61,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner pr. 1 000 barn",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 barn",
       "jenks": [
         {
           "cluster": 1,

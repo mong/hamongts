@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -32,13 +32,13 @@
         "Avtalespesialist"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021. Rate pr. 1 000 innbyggere",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
       "columns": [
         {
           "id": "bohf",
@@ -76,7 +76,7 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
+      "caption": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
           "cluster": 1,
