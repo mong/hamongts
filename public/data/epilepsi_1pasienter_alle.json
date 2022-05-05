@@ -87,16 +87,25 @@
       "caption": "Antall med epilepsi pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  4.8762"
+          "cluster": 1,
+          "max": "  4.8762",
+          "min": "  4.6708",
+          "lag_min": 4.92258395537,
+          "grense": 4.89941544404
         },
         {
-          "CLUSTER": 2,
-          "max": "  5.2473"
+          "cluster": 2,
+          "max": "  5.2473",
+          "min": "  4.9226",
+          "lag_min": 5.29684125673,
+          "grense": 5.27208017677
         },
         {
-          "CLUSTER": 3,
-          "max": "  5.6687"
+          "cluster": 3,
+          "max": "  5.6687",
+          "min": "  5.2968",
+          "lag_min": 5.88891430547,
+          "grense": 5.7788225719
         }
       ]
     },

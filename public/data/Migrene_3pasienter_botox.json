@@ -86,16 +86,25 @@
       "caption": "Andel pasienter som bruker Botulintoksin",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  0.0418"
+          "cluster": 1,
+          "max": "  0.0418",
+          "min": "  0.0232",
+          "lag_min": 0.0572693482695,
+          "grense": 0.049531704661
         },
         {
-          "CLUSTER": 2,
-          "max": "  0.0775"
+          "cluster": 2,
+          "max": "  0.0775",
+          "min": "  0.0573",
+          "lag_min": 0.0968890282819,
+          "grense": 0.0871910921559
         },
         {
-          "CLUSTER": 3,
-          "max": "  0.1267"
+          "cluster": 3,
+          "max": "  0.1267",
+          "min": "  0.0969",
+          "lag_min": 0.158065398824,
+          "grense": 0.142393587335
         }
       ],
       "format": ",.1%"

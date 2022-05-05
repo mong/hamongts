@@ -79,16 +79,25 @@
       "caption": "Antall konsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": " 11.4471"
+          "cluster": 1,
+          "max": " 11.4471",
+          "min": " 11.1707",
+          "lag_min": 11.8010765684,
+          "grense": 11.6240968726
         },
         {
-          "CLUSTER": 2,
-          "max": " 12.7073"
+          "cluster": 2,
+          "max": " 12.7073",
+          "min": " 11.8011",
+          "lag_min": 12.8182051201,
+          "grense": 12.7627334066
         },
         {
-          "CLUSTER": 3,
-          "max": " 13.9842"
+          "cluster": 3,
+          "max": " 13.9842",
+          "min": " 12.8182",
+          "lag_min": 14.3760406477,
+          "grense": 14.1801149255
         }
       ]
     },
