@@ -58,16 +58,25 @@
       "caption": "Andel MS-pasienter som bruker høyaktive legemidler",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  0.2855"
+          "cluster": 1,
+          "max": "  0.2855",
+          "min": "  0.2225",
+          "lag_min": 0.300438763019,
+          "grense": 0.292977537822
         },
         {
-          "CLUSTER": 2,
-          "max": "  0.3828"
+          "cluster": 2,
+          "max": "  0.3828",
+          "min": "  0.3004",
+          "lag_min": 0.454681715666,
+          "grense": 0.418719696846
         },
         {
-          "CLUSTER": 3,
-          "max": "  0.4547"
+          "cluster": 3,
+          "max": "  0.4547",
+          "min": "  0.4547",
+          "lag_min": 0.497328164958,
+          "grense": 0.476004940312
         }
       ]
     },

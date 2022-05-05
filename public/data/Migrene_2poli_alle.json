@@ -79,16 +79,25 @@
       "caption": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  2.7209"
+          "cluster": 1,
+          "max": "  2.7209",
+          "min": "  2.4775",
+          "lag_min": 3.02830006792,
+          "grense": 2.87461593129
         },
         {
-          "CLUSTER": 2,
-          "max": "  3.8514"
+          "cluster": 2,
+          "max": "  3.8514",
+          "min": "  3.0283",
+          "lag_min": 4.04473520451,
+          "grense": 3.94807939602
         },
         {
-          "CLUSTER": 3,
-          "max": "  5.0891"
+          "cluster": 3,
+          "max": "  5.0891",
+          "min": "  4.0447",
+          "lag_min": 5.34462225417,
+          "grense": 5.21687865683
         }
       ]
     },

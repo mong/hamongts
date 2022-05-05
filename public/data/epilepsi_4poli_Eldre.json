@@ -70,16 +70,25 @@
       "caption": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  4.0139"
+          "cluster": 1,
+          "max": "  4.0139",
+          "min": "  2.4088",
+          "lag_min": 4.95818040104,
+          "grense": 4.48605068794
         },
         {
-          "CLUSTER": 2,
-          "max": "  5.7108"
+          "cluster": 2,
+          "max": "  5.7108",
+          "min": "  4.9582",
+          "lag_min": 6.70516444554,
+          "grense": 6.20799816564
         },
         {
-          "CLUSTER": 3,
-          "max": "  7.4681"
+          "cluster": 3,
+          "max": "  7.4681",
+          "min": "  6.7052",
+          "lag_min": 9.17955391541,
+          "grense": 8.32381481093
         }
       ]
     },

@@ -81,16 +81,25 @@
       "caption": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  2.0293"
+          "cluster": 1,
+          "max": "  2.0293",
+          "min": "  2.0293",
+          "lag_min": 2.39345789607,
+          "grense": 2.21139526205
         },
         {
-          "CLUSTER": 2,
-          "max": "  2.6627"
+          "cluster": 2,
+          "max": "  2.6627",
+          "min": "  2.3935",
+          "lag_min": 2.72450807526,
+          "grense": 2.69360037889
         },
         {
-          "CLUSTER": 3,
-          "max": "  2.9101"
+          "cluster": 3,
+          "max": "  2.9101",
+          "min": "  2.7245",
+          "lag_min": 3.02450058381,
+          "grense": 2.96729342622
         }
       ]
     },

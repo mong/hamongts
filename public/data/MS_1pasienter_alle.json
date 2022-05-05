@@ -81,16 +81,25 @@
       "caption": "Antall med multippel sklerose pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  2.6026"
+          "cluster": 1,
+          "max": "  2.6026",
+          "min": "  2.3836",
+          "lag_min": 2.81299704217,
+          "grense": 2.70778648911
         },
         {
-          "CLUSTER": 2,
-          "max": "  3.0274"
+          "cluster": 2,
+          "max": "  3.0274",
+          "min": "  2.8130",
+          "lag_min": 3.11508225003,
+          "grense": 3.07122609414
         },
         {
-          "CLUSTER": 3,
-          "max": "  3.7989"
+          "cluster": 3,
+          "max": "  3.7989",
+          "min": "  3.1151",
+          "lag_min": 3.9996607258,
+          "grense": 3.89925904919
         }
       ]
     },

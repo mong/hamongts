@@ -64,16 +64,25 @@
       "caption": "Antall akuttinnleggelser pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  0.5870"
+          "cluster": 1,
+          "max": "  0.5870",
+          "min": "  0.5395",
+          "lag_min": 0.693211634096,
+          "grense": 0.640116492755
         },
         {
-          "CLUSTER": 2,
-          "max": "  0.8258"
+          "cluster": 2,
+          "max": "  0.8258",
+          "min": "  0.6932",
+          "lag_min": 0.85270382467,
+          "grense": 0.839254521521
         },
         {
-          "CLUSTER": 3,
-          "max": "  0.9476"
+          "cluster": 3,
+          "max": "  0.9476",
+          "min": "  0.8527",
+          "lag_min": 1.08615032862,
+          "grense": 1.01685303401
         }
       ]
     },
