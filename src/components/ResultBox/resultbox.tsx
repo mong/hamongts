@@ -14,6 +14,7 @@ import { DataContext } from "../Context";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
 import { Map, MapData } from "../../charts/map";
+import { timeFormat } from "d3-time-format";
 
 type ResultBoxProps = {
   title: string;
@@ -23,6 +24,8 @@ type ResultBoxProps = {
   result: string;
   id: string;
   lang: "nb" | "en" | "nn";
+  published: Date;
+  updated: Date;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -33,7 +36,17 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   id,
   lang,
   carousel,
+  published,
+  updated,
 }) => {
+  /* Define dates as days from 1. jan. 1970 */
+  const minute = 1000 * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+
+  const published_date = Math.floor(new Date(published).getTime() / day);
+  const updated_date = Math.floor(new Date(updated).getTime() / day);
+
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
 
@@ -193,6 +206,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
+            {updated_date > published_date && (
+              <p>
+                <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+              </p>
+            )}
           </div>
         </AccordionDetails>
       </Accordion>
