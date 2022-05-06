@@ -71,8 +71,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:30:29.379Z",
-          "oppdatert": "2022-03-02T14:30:29.459Z",
+          "publisert": "2022-04-29T14:30:29.379Z",
+          "oppdatert": "2022-04-29T14:30:29.459Z",
           "overskrift": "Pasienter med epilepsi",
           "utvalg": "Utvalget består av pasienter registrert med hoved- eller bidiagnose epilepsi (ICPC-2: N88, ICD-10: G40.0-G40.4, G40.6-G40.9) i perioden 2018–2021.\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med diagnosen epilepsi\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose epilepsi\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.",
           "resultat": "Årlig hadde om lag 28 000 pasienter gjentatt kontakt med helsetjenesten grunnet epilepsi. Av disse var om lag 4 900 barn i alderen 0–17 år og 5 800 eldre i alderen 65 år og eldre. Det var omtrent like mange menn og kvinner i utvalget og gjennomsnittsalderen var på 42 år.\n\nTotalt sett varierte antall pasienter pr. 1 000 innbyggere svært lite mellom opptaksområdene. For barn og eldre var det imidlertid noe variasjon. For barn varierte pasientraten fra 5,6 pr.1 000 barn for bosatte i opptaksområdene Fonna og Innlandet til 3,2 pr. 1 000 barn for bosatte i opptaksområdet Lovisenberg, dvs. med en faktor på 1,75. For eldre varierte pasientraten med en faktor på 1,8 – fra 8,2 pr. 1 000 eldre for bosatte i opptaksområdet Lovisenberg til 4,6 pr. 1 000 eldre for bosatte i opptaksområdet Fonna.\n\nDe aller fleste pasientene i utvalget hadde kontakter i både allmennlege- og spesialisthelsetjenesten i perioden. Andelen pasienter som kun hadde kontakter i allmennlegetjenesten varierte med en faktor på 2,2 – fra 19,2 % i opptaksområdet Østfold til 8,6 % i opptaksområdene Diakonhjemmet og Nordland. Nasjonalt var andelen pasienter som kun hadde kontakter i allmennlegetjenesten høyere for eldre (19,7 %, sammenliknet med 14,3 % for hele pasientutvalget) og svært lav for barn (2,6 %).",
@@ -81,8 +81,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-04T14:15:26.611Z",
-          "oppdatert": "2022-03-04T14:15:26.670Z",
+          "publisert": "2022-04-29T14:15:26.611Z",
+          "oppdatert": "2022-04-29T14:15:26.670Z",
           "overskrift": "Oppfølging i allmennlege- og spesialisthelsetjeneste",
           "ingress": "For pasientutvalget sett under ett var det lite variasjon mellom opptaksområdene i samlet bruk av konsultasjoner hos allmennlege eller spesialist. Arbeidsdelingen mellom allmennlege- og spesialisthelsetjenesten varierte en del mellom opptaksområdene.",
           "data": "epilepsi_5primspes_alle.json",
@@ -91,8 +91,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:34:10.706Z",
-          "oppdatert": "2022-03-02T14:34:10.752Z",
+          "publisert": "2022-04-29T14:34:10.706Z",
+          "oppdatert": "2022-04-29T14:34:10.752Z",
           "overskrift": "Spesialistkonsultasjoner og epilepsikirurgi",
           "utvalg": "Spesialistkonsultasjoner defineres som poliklinikk eller dagbehandling utført i offentlige sykehus eller i private sykehus og avtalespesialister med offentlig avtale. \n\n* Poliklinikk eller dagbehandling i offentlig sykehus eller hos avtalespesialist\n* Hoved- eller bidiagnose epilepsi\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten. \n* Pasienten har minst tre kontakter med hoved- eller bidiagnose epilepsi (ICPC-2: N88, ICD-10: G40.0-G40.4, G40.6-G40.9) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose epilepsi",
           "ingress": "Vi finner lite variasjon i bruk av spesialistkontakter for hele pasientutvalget sett under ett (se også egne resultater for barn og eldre). Variasjonen i bruk av spesialistkontakter skyldes i stor grad at gjennomsnittlig antall kontakter pr. pasient varierte noe mellom opptaksområdene. Årlig antall operasjoner for epilepsi var vesentlig lavere enn det anslåtte behovet.",
@@ -101,8 +101,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-04T14:03:48.070Z",
-          "oppdatert": "2022-03-04T14:03:48.162Z",
+          "publisert": "2022-04-29T14:03:48.070Z",
+          "oppdatert": "2022-04-29T14:03:48.162Z",
           "overskrift": "Spesialistkonsultasjoner for barn",
           "ingress": "Det var betydelig geografisk variasjon i bruk av spesialistkonsultasjoner for barn med epilepsi. Resultatene gir grunnlag for å spørre om den observerte variasjonen kan være et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos barn.",
           "data": "epilepsi_3poli_Barn.json",
@@ -111,8 +111,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-04T14:13:08.078Z",
-          "oppdatert": "2022-03-04T14:13:08.157Z",
+          "publisert": "2022-04-29T14:13:08.078Z",
+          "oppdatert": "2022-04-29T14:13:08.157Z",
           "overskrift": "Spesialistkonsultasjoner for eldre",
           "resultat": "Epilepsi hos eldre har ofte sammenheng med andre sykdommer, for eksempel er det mange som utvikler epilepsi i forbindelse med hjerneslag. Epilepsi kan også arte seg ulikt hos eldre enn hos yngre, noe som kan føre til at epilepsien ikke blir oppdaget ([Nakken m. fl. 2013](https://tidsskriftet.no/2013/03/oversiktsartikkel/epilepsi-hos-eldre)).\n\nBruk av spesialistkonsultasjoner varierte mye for aldersgruppen 65 år og eldre. Antall spesialistkonsultasjoner pr 1 000 eldre var 3,8 ganger høyere i opptaksområdet Lovisenberg sammenliknet med opptaksområdet Fonna. \n\nGjennomsnittlig antall kontakter pr. pasient varierte også mye, fra 1,1 kontakter pr. år for eldre bosatt i opptaksområdet Lovisenberg til 0,5 kontakter pr. år for eldre bosatt i opptaksområdene Vestfold, Fonna, UNN og St. Olav. Dette betyr at mange eldre pasienter med epilepsi ikke får oppfølging i spesialisthelsetjenesten i tråd med anbefalingen i [Kunnskapsbasert retningslinje om epilepsi](http://www.epilepsibehandling.no/) om minst en årlig kontroll hos spesialist. \n\nDet er også betydelig geografisk variasjon både i bruk av konsultasjoner hos allmennlege og når vi ser på samlet bruk av konsultasjoner hos enten allmennlege eller spesialist. \nDen geografiske variasjonen i bruk av spesialistkonsultasjoner for eldre med epilepsi vurderes som uberettiget. Vi mener at den observerte variasjonen i bruk av helsetjenester for eldre med epilepsi sannsynligvis er et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos eldre.",
           "ingress": "Bruk av spesialistkonsultasjoner varierte mye mellom opptaksområdene for aldersgruppen 65 år og eldre, og variasjonen vurderes som uberettiget. Det er også betydelig geografisk variasjon i samlet bruk av konsultasjoner hos enten allmennlege eller spesialist for eldre. Vi mener at den observerte variasjonen i bruk av helsetjenester for eldre med epilepsi sannsynligvis er et utslag av ulik praksis for utredning, diagnostisering og behandling av epilepsi hos eldre.",
@@ -121,8 +121,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:32:22.478Z",
-          "oppdatert": "2022-03-02T14:32:22.533Z",
+          "publisert": "2022-04-29T14:32:22.478Z",
+          "oppdatert": "2022-04-29T14:32:22.533Z",
           "overskrift": "Akuttinnleggelser",
           "utvalg": "Akuttinnleggelser for epilepsi defineres som innleggelser med hastegrad akutt i spesialisthelsetjenesten.\n\n* Hoveddiagnose ICD-10: G40.0-G40.4, G40.6-G40.9 eller G41\n* Innleggelse \n* Hastegrad akutt\n\nAnalysen er gjennomført på følgende data:\nDet er benyttet aktivitetsdata fra somatisk spesialisthelsetjeneste (NPR) for perioden 2019–2021.\n\nDe andre analysene på epilepsi er gjort på et begrenset utvalg av pasienter som har hatt minst tre kontakter i spesialisthelsetjenesten eller hos fastlege/legevakt, fordelt på tre ulike dager i løpet av inklusjonsperioden 2018–2021. I denne analysen er det behov for en videre inklusjon.\nEpileptiske anfall fører ofte til akuttinnleggelse når sykdommen debuterer. En stor andel av pasientene som legges inn akutt det siste året av perioden vil ha nyoppdaget epilepsi og derfor kun en eller to kontakter med de aktuelle tilstandskodene i løpet av inklusjonsperioden. \n\nDersom analysen av akuttinnleggelser skulle vært gjort for det samme begrensede pasientutvalget som de øvrige analysene, ville det medføre at antall akuttinnleggelser pr. år ble vesentlig lavere det siste året i perioden, uten at det gjenspeilte en reell nedgang i bruken av akuttinnleggelser ved epileptiske anfall. I denne analysen er derfor alle akuttinnleggelser hvor aktuell tilstand er hovedtilstand tatt med. Det stilles ikke krav om gjentatt diagnose for inklusjon.",
           "ingress": "Bruken av akuttinnleggelser ved epileptiske anfall varierte betydelig, men det var også forholdsvis store endringer i ratene fra år til år innad i de fleste opptaksområdene. Det er derfor ikke grunnlag for å karakterisere den observerte geografiske variasjonen som uberettiget.",
@@ -147,8 +147,8 @@
         {
           "type": "resultatboks",
           "data": "Migrene_1pasienter_alle.json",
-          "publisert": "2022-03-08T13:18:11.103Z",
-          "oppdatert": "2022-03-08T13:18:11.235Z",
+          "publisert": "2022-04-29T13:18:11.103Z",
+          "oppdatert": "2022-04-29T13:18:11.235Z",
           "overskrift": "Pasienter med migrene",
           "ingress": "Årlig hadde om lag 58 000 pasienter gjentatt kontakt med helsetjenesten grunnet migrene, svarende til 12 % av estimert antall pasienter med migrene i Norge. Pasientraten var stabil i perioden,  og det var lite geografisk variasjon i pasientrate. Det var stor geografisk variasjon i andel pasienter i migreneutvalget som var i kontakt med spesialisthelsetjenesten.",
           "utvalg": "Utvalget består av pasienter registrert med hoved- eller bidiagnose migrene (ICPC-2: N89, ICD-10: G43) i perioden 2018–2021.\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med diagnosen migrene\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose migrene\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.",
@@ -157,8 +157,8 @@
         {
           "type": "resultatboks",
           "data": "Migrene_2poli_alle.json",
-          "publisert": "2022-03-08T14:19:06.841Z",
-          "oppdatert": "2022-03-08T14:19:06.935Z",
+          "publisert": "2022-04-29T14:19:06.841Z",
+          "oppdatert": "2022-04-29T14:19:06.935Z",
           "overskrift": "Spesialistkonsultasjoner ",
           "utvalg": "Spesialistkonsultasjoner defineres som poliklinikk eller dagbehandling utført i offentlige sykehus eller i private sykehus og avtalespesialister med offentlig avtale. \n\n* Poliklinikk eller dagbehandling\n* Hoved- eller bidiagnose migrene\n\nSpesialistkonsultasjoner der det er gitt behandling med botulintoksin er ekskludert fra analysen. Behandling med botulintoksin defineres ved: \n\n* Takst 154a diagnostisk og terapeutisk blokk av perifere nerver (normaltariff for avtalespesialister)\n* 3AX01 behandling med legemiddel M03AX01 botulintoksin (særkode)\n* ACGX90 lokal injeksjon av nevrotoksisk substans (prosedyrekode)\n* Hoved- eller bidiagnose migrene\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten. \n* Pasienten har minst tre kontakter med hoved- eller bidiagnose migrene (ICPC-2: N89, ICD-10: G43) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose migrene",
           "resultat": "Antall konsultasjoner pr. år med diagnose migrene i spesialisthelsetjenesten økte fra om lag 14 000 i 2019 til om lag 24 000 i 2021. Dette gjelder konsultasjoner gitt til personer i migreneutvalget. Bruk av spesialistkonsultasjoner varierte mellom opptaksområdene, med i gjennomsnitt 2,5 ganger flere konsultasjoner pr. 1 000 innbyggere i opptaksområdet Helgeland sammenlignet med UNN. \n\nPasienter med migrene bosatt i opptaksområdene UNN; Finnmark og Fonna fikk årlig i gjennomsnitt 0,2 spesialistkonsultasjoner pr. pasient. For bosatte i opptaksområdet Helgeland var tilsvarende tall 0,5. Nasjonalt fikk hver pasient i migreneutvalget i gjennomsnitt 0,3 spesialistkonsultasjoner pr. år. \n\nDen store økningen i bruk av spesialistkonsultasjoner i perioden, også under pandemien, kan skyldes at nye, forebyggende medikamenter mot migrene ble tilgjengelige på blå resept sent i 2019.  Kun spesialist i nevrologi eller en lege ved et offentlig sykehus kan søke om slik stønad (blå resept). Bemerk at økningen i spesialistkonsultasjoner ikke var like stor i alle opptaksområder, slik at den geografiske variasjonen i bruk av spesialistkonsultasjoner var større i 2021 enn i 2019.\n\nMigreneanfall forekommer med ulik hyppighet og alvorlighetsgrad hos ulike pasienter, og behandling og oppfølging må derfor tilpasses den enkelte. Forekomsten og alvorlighetsgraden av migrene antas å være lik i de ulike opptaksområdene, og variasjonen i bruk av spesialistkonsultasjoner kan derfor ikke forklares av ulikheter i sykdomsforekomst. \n\nDet var stor geografisk variasjon i bruk av spesialisthelsetjenester i perioden, og variasjonen vurderes ikke som berettiget. Samtidig kan variasjonen reflektere ulik hastighet i innføring av ny behandling, og det er derfor mulig at denne variasjonen vil utjevnes over tid.",
@@ -167,8 +167,8 @@
         {
           "type": "resultatboks",
           "data": "Migrene_3pasienter_botox.json",
-          "publisert": "2022-03-08T15:11:44.489Z",
-          "oppdatert": "2022-03-08T15:11:44.580Z",
+          "publisert": "2022-04-29T15:11:44.489Z",
+          "oppdatert": "2022-04-29T15:11:44.580Z",
           "ingress": "Det var stor geografisk variasjon i bruk av botulintoksin til behandling av migrene. 17 % av pasienter i opptaksområdet Førde ble behandlet med botulinumtoksin, sammenlignet med 2 % i Stavanger. Helse Nord og Helse Vest hadde både lavest andel pasienter behandlet med botulintoksin og CGRP-hemmere.",
           "overskrift": "Forebyggende behandling med botulintoksin",
           "utvalg": "Behandling med botulintoksin defineres ved: \n\n* Takst 154a diagnostisk og terapeutisk blokk av perifere nerver (normaltariff for avtalespesialister)\n* 3AX01 behandling med legemiddel M03AX01 botulintoksin (særkode)\n* ACGX90 lokal injeksjon av nevrotoksisk substans (prosedyrekode)\n* Hoved- eller bidiagnose migrene\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med hoved- eller bidiagnose migrene (ICPC-2: N89, ICD-10: G43) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose migrene",
@@ -177,8 +177,8 @@
         {
           "type": "resultatboks",
           "data": "Migrene_4pasienter_sykemld.json",
-          "publisert": "2022-03-08T15:35:16.211Z",
-          "oppdatert": "2022-03-08T15:35:16.308Z",
+          "publisert": "2022-04-29T15:35:16.211Z",
+          "oppdatert": "2022-04-29T15:35:16.308Z",
           "overskrift": "Sykemeldinger",
           "ingress": "Nasjonalt sykemeldes 20 % av personer i migreneutvalget årlig. Disse pasientene var i gjennomsnitt sykemeldt fem ganger pr. år, hvorav tre sykemeldinger hadde hoveddiagnose migrene. Andelen sykemeldte varierte fra 18 % for bosatte i opptaksområdene Sørlandet og Nordland til 25 % i Bergen.",
           "utvalg": "Sykemeldinger defineres ved: \n\n* Takst L1 (honorartakst for legeerklæringer)\n* Kontakter hos fastlege eller legevakt\n* Hoveddiagnose migrene\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med hoved- eller bidiagnose migrene (ICPC-2: N89, ICD-10: G43) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose migrene",
@@ -201,8 +201,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:03:43.106Z",
-          "oppdatert": "2022-03-02T14:03:43.149Z",
+          "publisert": "2022-04-29T14:03:43.106Z",
+          "oppdatert": "2022-04-29T14:03:43.149Z",
           "overskrift": "Pasienter med multippel sklerose",
           "ingress": "Om lag dobbelt så mange kvinner som menn ble behandlet for sykdommen MS i perioden 2019–2021. Pasientraten var nesten dobbelt så høy i opptaksområdet Møre og Romsdal som i opptaksområdene Finnmark og Diakonhjemmet. De fleste av pasientene mottok tjenester både i allmennlege- og i spesialisthelsetjenesten.",
           "data": "MS_1pasienter_alle.json",
@@ -211,8 +211,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:23:59.956Z",
-          "oppdatert": "2022-03-02T14:23:59.998Z",
+          "publisert": "2022-04-29T14:23:59.956Z",
+          "oppdatert": "2022-04-29T14:23:59.998Z",
           "overskrift": "Høyaktive legemidler",
           "ingress": "Det var stor geografisk variasjon mellom opptaksområdene i andel pasienter med MS som var i behandling med høyaktive legemidler i perioden 2019–2021. Bruk av Rituksimab, som er rimeligere enn andre medikamenter og som brukes utenfor indikasjon i behandling av MS, varierte også mye mellom opptaksområdene.",
           "utvalg": "Høyaktiv behandling omfatter: Rituksimab (Mabthera/Rixathon), Alemtuzumab (Lemtrada), Natalizumab (Tysabri), Cladribin (Mavenclad), Fingolimod (Gilenya) og Ocrelizumab (Ocrevus).\n\n* Hoveddiagnose multippel sklerose\n* ATC-koder: L01XC02, L04AA34, L04AA23, L04AA40, L04AA27 og L04AA36\n* Særkoder: 1XC02, 4AA34, 4AA23, 4AA40, 1XX03/4AA27 og 4AA36.\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nPasientutvalget analysen er gjennomført på:\n\n* Pasienten har minst tre kontakter med diagnosen multippel sklerose (ICPC-2: N86, ICD-10: G35) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Minst en av kontaktene må være med hoveddiagnose multippel sklerose[](https://www.kvalitetsregistre.no/sites/default/files/2021-06/Norsk%20MS_register%20%C3%85rsrapport%202020.pdf)",
@@ -221,8 +221,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-02T14:21:04.920Z",
-          "oppdatert": "2022-03-02T14:21:04.959Z",
+          "publisert": "2022-04-29T14:21:04.920Z",
+          "oppdatert": "2022-05-05T14:21:04.959Z",
           "overskrift": "Akuttinnleggelser",
           "ingress": "Det var variasjon i akuttinnleggelsesrate med diagnosen MS i perioden 2019–2021.  Det er usikkert om det er lik forekomst av MS i Norge, og denne variasjonen kan derfor være berettiget. Det var i gjennomsnitt få akuttinnleggelser pr. pasient, men noen opptaksområder hadde dobbelt så mange innleggelser pr. pasient som andre. Nasjonalt gikk raten for akuttinnleggelser ned under pandemien.",
           "data": "MS_2akutt_alle.json",
@@ -246,8 +246,8 @@
         },
         {
           "type": "resultatboks",
-          "publisert": "2022-03-04T08:09:45.546Z",
-          "oppdatert": "2022-03-04T08:09:45.583Z",
+          "publisert": "2022-04-29T08:09:45.546Z",
+          "oppdatert": "2022-04-29T08:09:45.583Z",
           "overskrift": "Pasienter med Parkinsons sykdom",
           "ingress": "Samlet ble årlig rundt 11 600 pasienter behandlet for Parkinsons sykdom i allmennlege- og spesialisthelsetjenesten i perioden 2019–2021. Det var lite geografisk variasjon i antall pasienter med Parkinsons sykdom pr. 1 000 innbyggere i opptaksområdene, men relativt sett markert færre pasienter med Parkinsons sykdom i Finnmark enn ellers i landet.",
           "data": "parkinson_1pasienter_alle.json",
@@ -257,8 +257,8 @@
         {
           "type": "resultatboks",
           "data": "parkinson_2poli_alle.json",
-          "publisert": "2022-03-09T11:49:34.602Z",
-          "oppdatert": "2022-03-09T11:49:34.712Z",
+          "publisert": "2022-04-29T11:49:34.602Z",
+          "oppdatert": "2022-04-29T11:49:34.712Z",
           "overskrift": "Spesialistkonsultasjoner i sykehus eller hos avtalespesialist",
           "ingress": "Bruk av spesialistkonsultasjoner knyttet til Parkinsons sykdom varierte betydelig mellom opptaksområdene, med 2,7 ganger flere konsultasjoner pr. 1 000 innbyggere i Diakonhjemmet og Nord-Trøndelag enn i Finnmark. Det var tydelig forskjell i hvor mange spesialistkonsultasjoner som ble gitt per pasient. Pasienter bosatt i Telemark fikk årlig i gjennomsnitt 1,1 konsultasjon mer enn pasienter bosatt i opptaksområdet Finnmark.",
           "utvalg": "Spesialistkonsultasjoner defineres som poliklinikk eller dagbehandling utført i offentlige sykehus eller i private sykehus og avtalespesialister med offentlig avtale. \n\n* Poliklinikk eller dagbehandling\n* Hoved- eller bidiagnose Parkinsons sykdom\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten.\n* Pasienten har minst tre kontakter med hoved- eller bidiagnose Parkinsons sykdom (ICPC-2: N87, ICD-10: G20) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose Parkinsons sykdom",
@@ -267,8 +267,8 @@
         {
           "type": "resultatboks",
           "data": "parkinson_3FLLV_alle.json",
-          "publisert": "2022-03-09T11:49:37.754Z",
-          "oppdatert": "2022-03-09T11:49:37.865Z",
+          "publisert": "2022-04-29T11:49:37.754Z",
+          "oppdatert": "2022-04-29T11:49:37.865Z",
           "overskrift": "Konsultasjoner i allmennlegetjenesten",
           "ingress": "Det var moderat variasjon i bruk av allmennlegetjenester. Bosatte i opptaksområdet Fonna fikk 73 % flere konsultasjoner hos fastlege/legevakt per 1 000 innbyggere enn bosatte i Telemark fikk.  Sett hen til antall personer med Parkinsons sykdom, var det bosatte i opptaksområdet Akershus som fikk hyppigst oppfølging hos fastlege og legevakt med 2,6 konsultasjoner i året pr. pasient. Færrest konsultasjoner fikk bosatte i Telemark, med i gjennomsnitt 1,8 konsultasjon hos fastlege/legevakt i året.",
           "utvalg": "Konsultasjoner i allmennlegetjenesten defineres som konsultasjoner eller sykebesøk utført av allmennlege. \n\n* Konsultasjon eller sykebesøk\n* Hoved- eller bidiagnose Parkinsons sykdom\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med hoved- eller bidiagnose Parkinsons sykdom (ICPC-2: N87, ICD-10: G20) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose Parkinsons sykdom",
@@ -277,8 +277,8 @@
         {
           "type": "resultatboks",
           "data": "parkinson_4NPRKPR_alle.json",
-          "publisert": "2022-03-09T11:49:40.096Z",
-          "oppdatert": "2022-03-09T11:49:40.209Z",
+          "publisert": "2022-04-29T11:49:40.096Z",
+          "oppdatert": "2022-04-29T11:49:40.209Z",
           "overskrift": "Oppfølging i allmennlege- og spesialisthelsetjeneste",
           "ingress": "Når bruken av allmennlege- og spesialistkonsultasjoner knyttet til Parkinsons sykdom ses samlet var det moderat variasjon mellom opptaksområdene. Bosatte i opptaksområdet Diakonhjemmet fikk 93 % flere konsultasjoner enn bosatte i Finnmark pr. 1 000 innbyggere i perioden 2019–2021. For Norge sett under ett var 41 % av konsultasjonene i sykehusenes poliklinikker eller hos avtalespesialister og 59 % hos fastlege/legevakt. Hver pasient med Parkinsons sykdom fikk gjennomsnittlig 3,9 konsultasjoner pr. år i allmennlege- og spesialisthelsetjeneste, men også hyppigheten i oppfølging varierte geografisk.",
           "utvalg": "Pasientoppfølging i allmennlege- og spesialisthelsetjeneste defineres som konsultasjoner eller sykebesøk utført av allmennlege og poliklinikk eller dagbehandling i spesialisthelsetjenesten. \n\n* Konsultasjon eller sykebesøk hos allmennlege\n* Poliklinikk eller dagbehandling i offentlig sykehus eller hos avtalespesialist\n* Hoved- eller bidiagnose Parkinsons sykdom\n\nResultatene inkluderer kun pasienter under oppfølging eller behandling i perioden 2019–2021.\n\nAnalysen er gjennomført på følgende pasientutvalg:\n\n* Pasienten kan inkluderes på grunnlag av kontakter i enten spesialist- eller allmennlegetjenesten\n* Pasienten har minst tre kontakter med hoved- eller bidiagnose Parkinsons sykdom (ICPC-2: N87, ICD-10: G20) i perioden 2018–2021\n* Kontaktene kan ikke være gjennomført på samme dag\n* Minst en av kontaktene må være med hoveddiagnose Parkinsons sykdom",
@@ -291,7 +291,7 @@
       "innhold": [
         {
           "type": "tekst",
-          "tekst": "Har du spørsmål, ris eller ros? Ta gjerne kontakt!\n\nDu kan kontakte oss ved å sende en mail til helseatlas@skde.no."
+          "tekst": "Har du spørsmål, ris eller ros? Ta gjerne kontakt!\n\nDu kan kontakte oss ved å sende en e-post til helseatlas@skde.no."
         }
       ]
     }
