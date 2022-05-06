@@ -39,6 +39,14 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   published,
   updated,
 }) => {
+  /* Define dates as days from 1. jan. 1970 */
+  const minute = 1000 * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+
+  const published_date = Math.floor(new Date(published).getTime() / day);
+  const updated_date = Math.floor(new Date(updated).getTime() / day);
+
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
 
@@ -198,8 +206,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
-            {String(updated).substring(0, 10) !=
-              String(published).substring(0, 10) && (
+            {updated_date > published_date && (
               <p>
                 <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
               </p>
