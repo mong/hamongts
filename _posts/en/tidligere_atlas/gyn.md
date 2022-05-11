@@ -1,11 +1,11 @@
 ---
 filename: "gyn"
 image: /helseatlas/img/no/gyn/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2019-01-08T12:00:00.000Z"
 num: 8
 mainTitle: Gynaecology Healthcare Atlas
 shortTitle: Gynaecology
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: In the health atlas for gynecology, we have mapped geographical variation in the use of a selection of specialist health services within gynecology in the period 2015–2017.
 pdfUrl: /helseatlas/files/healthatlas-gynaecology.pdf
 ia: true
 lang: en

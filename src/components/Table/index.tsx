@@ -7,17 +7,10 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import { getOrderComparator } from "../../helpers/functions/dataTransformation";
-import { formatLocale } from "d3-format";
-
-const formatDefinition = {
-  decimal: ",",
-  thousands: "\u202f",
-  grouping: [3],
-};
-
-const format = formatLocale(formatDefinition).format;
+import { customFormat } from "../../helpers/functions/localFormater";
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
+  caption: string;
   data: Data[];
   headers: {
     id: string & Partial<Headers>;
@@ -31,11 +24,12 @@ export const DataTable = <
   Data extends { [n: string]: string | number },
   TableHeaders extends string & Partial<keyof Data>
 >({
+  caption,
   data,
   headers,
 }: DataTableProps<Data, TableHeaders>) => {
-  const [order, setOrder] = React.useState<"asc" | "desc">("asc");
-  const [orderBy, setOrderBy] = React.useState(headers[0].id);
+  const [order, setOrder] = React.useState<"asc" | "desc">("desc");
+  const [orderBy, setOrderBy] = React.useState(headers[1].id);
   const createSortHandler = (property) => (event) => {
     (() => {
       const isAsc = orderBy === property && order === "asc";
@@ -46,7 +40,7 @@ export const DataTable = <
   return (
     <TableContainer>
       <Table>
-        <caption>Gjennomsnittsverdier for perioden 2019–2021</caption>
+        <caption>{caption}</caption>
         <TableHead>
           <TableRow>
             {headers.map((header, i) => (
@@ -89,7 +83,7 @@ export const DataTable = <
                     align={cell.typeVar === "number" ? "right" : "left"}
                   >
                     {cell.format
-                      ? format(cell.format)(row[cell.id])
+                      ? customFormat(cell.format)(row[cell.id])
                       : row[cell.id]}
                   </TableCell>
                 ))}

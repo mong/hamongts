@@ -1,11 +1,11 @@
 ---
 filename: "eldre"
 image: /helseatlas/img/no/eldre/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2017-06-15T12:00:00.000Z"
 num: 4
 mainTitle: Healthcare Atlas for the Elderly in Norway
 shortTitle: Elderly Healthcare Atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: Elderly health atlas for Norway describes variation in the elderly's use of central somatic specialist health services in relation to place of residence.
 pdfUrl: /helseatlas/files/healthcare-atlas-elderly.pdf
 ia: true
 lang: en

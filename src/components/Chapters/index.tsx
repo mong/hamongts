@@ -23,6 +23,8 @@ type Resultatboks = {
   utvalg: string;
   resultat: string;
   lang: "nb" | "en" | "nn";
+  publisert: Date;
+  oppdatert: Date;
 };
 
 export type ChapterProps = {
@@ -81,6 +83,8 @@ const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
                     box.overskrift.toLowerCase().replace(/\s/g, "-"),
                   lang: lang,
                   carousel: box.data,
+                  published: box.publisert,
+                  updated: box.oppdatert,
                 }
               : { children: box.tekst };
 

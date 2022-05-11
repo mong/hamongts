@@ -4,26 +4,27 @@
       "type": "barchart",
       "data": "qwerty",
       "x": [
-        "rateSnitt"
+        "andel_pct_lm"
       ],
       "y": "bohf",
-      "xLabel": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
+      "xLabel": "Andel MS-pasienter som bruker høyaktive legemidler",
       "yLabel": "Opptaksområder",
       "annualVar": [
-        "rate2019",
-        "rate2020",
-        "rate2021"
+        "andel_pct_lm2019",
+        "andel_pct_lm2020",
+        "andel_pct_lm2021"
       ],
       "annualVarLabels": [
         "2019",
         "2020",
         "2021"
-      ]
+      ],
+      "format": ",.0%"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019-2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021, pasienter som er 18 år og eldre",
       "columns": [
         {
           "id": "bohf",
@@ -33,19 +34,19 @@
         },
         {
           "id": "andel_pct_lm",
-          "label": "Andel som bruker høyaktive legemidler",
+          "label": "Andel på høyaktive legemidler",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "ant_lm_pas",
-          "label": "Antall med høyaktive legemidler",
+          "label": "Pasienter på høyaktive legemidler",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "pasienter",
-          "label": "Antall MS-pasienter",
+          "label": "MS-pasienter",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -54,22 +55,32 @@
     {
       "type": "map",
       "data": "qwerty",
-      "x": "rateSnitt",
-      "caption": "Andel (%) MS-pasienter som bruker høyaktive legemidler",
+      "x": "andel_pct_lm",
+      "caption": "Andel MS-pasienter som bruker høyaktive legemidler",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": " 28.5516"
+          "cluster": 1,
+          "max": "  0.2855",
+          "min": "  0.2225",
+          "lag_min": 0.300438763019,
+          "grense": 0.292977537822
         },
         {
-          "CLUSTER": 2,
-          "max": " 38.2758"
+          "cluster": 2,
+          "max": "  0.3828",
+          "min": "  0.3004",
+          "lag_min": 0.454681715666,
+          "grense": 0.418719696846
         },
         {
-          "CLUSTER": 3,
-          "max": " 45.4682"
+          "cluster": 3,
+          "max": "  0.4547",
+          "min": "  0.4547",
+          "lag_min": 0.497328164958,
+          "grense": 0.476004940312
         }
-      ]
+      ],
+      "format": ",.0%"
     },
     {
       "type": "data",
@@ -93,7 +104,10 @@
           "ant_lm1_pas": 16.3333333333,
           "andel_lm1": 0.117224880383,
           "ant_lm1_2021_pas": 18,
-          "andel_pct_lm": 0.222507651344
+          "andel_pct_lm": 0.222507651344,
+          "andel_pct_lm2019": 0.228560772618,
+          "andel_pct_lm2020": 0.214566391479,
+          "andel_pct_lm2021": 0.25145526306
         },
         {
           "bohf": "UNN",
@@ -112,7 +126,10 @@
           "ant_lm1_pas": 66.3333333333,
           "andel_lm1": 0.138386648122,
           "ant_lm1_2021_pas": 82,
-          "andel_pct_lm": 0.245305834929
+          "andel_pct_lm": 0.245305834929,
+          "andel_pct_lm2019": 0.243401816883,
+          "andel_pct_lm2020": 0.233265497902,
+          "andel_pct_lm2021": 0.256123502872
         },
         {
           "bohf": "Nordland",
@@ -131,7 +148,10 @@
           "ant_lm1_pas": 26,
           "andel_lm1": 0.0712328767123,
           "ant_lm1_2021_pas": 37,
-          "andel_pct_lm": 0.249980473457
+          "andel_pct_lm": 0.249980473457,
+          "andel_pct_lm2019": 0.209824323454,
+          "andel_pct_lm2020": 0.259184875289,
+          "andel_pct_lm2021": 0.277036444334
         },
         {
           "bohf": "Helgeland",
@@ -150,7 +170,10 @@
           "ant_lm1_pas": 32.6666666667,
           "andel_lm1": 0.145185185185,
           "ant_lm1_2021_pas": 49,
-          "andel_pct_lm": 0.300438763019
+          "andel_pct_lm": 0.300438763019,
+          "andel_pct_lm2019": 0.26863613897,
+          "andel_pct_lm2020": 0.292263345892,
+          "andel_pct_lm2021": 0.330815621666
         },
         {
           "bohf": "Nord-Trøndelag",
@@ -169,7 +192,10 @@
           "ant_lm1_pas": 42,
           "andel_lm1": 0.102689486553,
           "ant_lm1_2021_pas": 56,
-          "andel_pct_lm": 0.319845911762
+          "andel_pct_lm": 0.319845911762,
+          "andel_pct_lm2019": 0.283915853998,
+          "andel_pct_lm2020": 0.313687310471,
+          "andel_pct_lm2021": 0.35981595899
         },
         {
           "bohf": "St. Olav",
@@ -188,7 +214,10 @@
           "ant_lm1_pas": 126.666666667,
           "andel_lm1": 0.131761442441,
           "ant_lm1_2021_pas": 172,
-          "andel_pct_lm": 0.31236784647
+          "andel_pct_lm": 0.31236784647,
+          "andel_pct_lm2019": 0.289023333697,
+          "andel_pct_lm2020": 0.298422548369,
+          "andel_pct_lm2021": 0.347641932758
         },
         {
           "bohf": "Møre og Romsdal",
@@ -207,7 +236,10 @@
           "ant_lm1_pas": 176.666666667,
           "andel_lm1": 0.191404839292,
           "ant_lm1_2021_pas": 270,
-          "andel_pct_lm": 0.314319278927
+          "andel_pct_lm": 0.314319278927,
+          "andel_pct_lm2019": 0.268368427939,
+          "andel_pct_lm2020": 0.296520578075,
+          "andel_pct_lm2021": 0.375359444402
         },
         {
           "bohf": "Førde",
@@ -226,7 +258,10 @@
           "ant_lm1_pas": 97.6666666667,
           "andel_lm1": 0.310710498409,
           "ant_lm1_2021_pas": 117,
-          "andel_pct_lm": 0.454681715666
+          "andel_pct_lm": 0.454681715666,
+          "andel_pct_lm2019": 0.424936586235,
+          "andel_pct_lm2020": 0.43134084827,
+          "andel_pct_lm2021": 0.485785527549
         },
         {
           "bohf": "Bergen",
@@ -245,7 +280,10 @@
           "ant_lm1_pas": 494,
           "andel_lm1": 0.413735343384,
           "ant_lm1_2021_pas": 552,
-          "andel_pct_lm": 0.497328164958
+          "andel_pct_lm": 0.497328164958,
+          "andel_pct_lm2019": 0.458407833989,
+          "andel_pct_lm2020": 0.489770570254,
+          "andel_pct_lm2021": 0.540362344799
         },
         {
           "bohf": "Fonna",
@@ -264,7 +302,10 @@
           "ant_lm1_pas": 90.3333333333,
           "andel_lm1": 0.197521865889,
           "ant_lm1_2021_pas": 102,
-          "andel_pct_lm": 0.351061445892
+          "andel_pct_lm": 0.351061445892,
+          "andel_pct_lm2019": 0.318864440228,
+          "andel_pct_lm2020": 0.345775250434,
+          "andel_pct_lm2021": 0.3839633502
         },
         {
           "bohf": "Stavanger",
@@ -283,7 +324,10 @@
           "ant_lm1_pas": 71.3333333333,
           "andel_lm1": 0.0814307458143,
           "ant_lm1_2021_pas": 93,
-          "andel_pct_lm": 0.331680146774
+          "andel_pct_lm": 0.331680146774,
+          "andel_pct_lm2019": 0.32298868932,
+          "andel_pct_lm2020": 0.321578639575,
+          "andel_pct_lm2021": 0.348598592816
         },
         {
           "bohf": "Østfold",
@@ -302,7 +346,10 @@
           "ant_lm1_pas": 33.3333333333,
           "andel_lm1": 0.0407830342577,
           "ant_lm1_2021_pas": 52,
-          "andel_pct_lm": 0.243364152865
+          "andel_pct_lm": 0.243364152865,
+          "andel_pct_lm2019": 0.217245090923,
+          "andel_pct_lm2020": 0.238184893743,
+          "andel_pct_lm2021": 0.272440844223
         },
         {
           "bohf": "Akershus",
@@ -321,7 +368,10 @@
           "ant_lm1_pas": 227,
           "andel_lm1": 0.151299711175,
           "ant_lm1_2021_pas": 292,
-          "andel_pct_lm": 0.337965332801
+          "andel_pct_lm": 0.337965332801,
+          "andel_pct_lm2019": 0.316008765995,
+          "andel_pct_lm2020": 0.332076603773,
+          "andel_pct_lm2021": 0.365053091014
         },
         {
           "bohf": "OUS",
@@ -340,7 +390,10 @@
           "ant_lm1_pas": 38.3333333333,
           "andel_lm1": 0.0649717514124,
           "ant_lm1_2021_pas": 64,
-          "andel_pct_lm": 0.285516312625
+          "andel_pct_lm": 0.285516312625,
+          "andel_pct_lm2019": 0.30245331949,
+          "andel_pct_lm2020": 0.280693901864,
+          "andel_pct_lm2021": 0.272881412603
         },
         {
           "bohf": "Lovisenberg",
@@ -359,7 +412,10 @@
           "ant_lm1_pas": 29.3333333333,
           "andel_lm1": 0.0933191940615,
           "ant_lm1_2021_pas": 39,
-          "andel_pct_lm": 0.248725183454
+          "andel_pct_lm": 0.248725183454,
+          "andel_pct_lm2019": 0.278531834114,
+          "andel_pct_lm2020": 0.251439300754,
+          "andel_pct_lm2021": 0.239547910942
         },
         {
           "bohf": "Diakonhjemmet",
@@ -378,7 +434,10 @@
           "ant_lm1_pas": 22,
           "andel_lm1": 0.0779220779221,
           "ant_lm1_2021_pas": 28,
-          "andel_pct_lm": 0.250222750528
+          "andel_pct_lm": 0.250222750528,
+          "andel_pct_lm2019": 0.233222951932,
+          "andel_pct_lm2020": 0.268560461531,
+          "andel_pct_lm2021": 0.246924416804
         },
         {
           "bohf": "Innlandet",
@@ -397,7 +456,10 @@
           "ant_lm1_pas": 107,
           "andel_lm1": 0.0959354453078,
           "ant_lm1_2021_pas": 161,
-          "andel_pct_lm": 0.340807035075
+          "andel_pct_lm": 0.340807035075,
+          "andel_pct_lm2019": 0.332096592812,
+          "andel_pct_lm2020": 0.328090278672,
+          "andel_pct_lm2021": 0.362525900583
         },
         {
           "bohf": "Vestre Viken",
@@ -416,7 +478,10 @@
           "ant_lm1_pas": 46.3333333333,
           "andel_lm1": 0.0388159731918,
           "ant_lm1_2021_pas": 72,
-          "andel_pct_lm": 0.271388866329
+          "andel_pct_lm": 0.271388866329,
+          "andel_pct_lm2019": 0.256355756197,
+          "andel_pct_lm2020": 0.262868495237,
+          "andel_pct_lm2021": 0.292700019656
         },
         {
           "bohf": "Vestfold",
@@ -435,7 +500,10 @@
           "ant_lm1_pas": 59.6666666667,
           "andel_lm1": 0.0916538658474,
           "ant_lm1_2021_pas": 92,
-          "andel_pct_lm": 0.263798442604
+          "andel_pct_lm": 0.263798442604,
+          "andel_pct_lm2019": 0.248420313501,
+          "andel_pct_lm2020": 0.261823876035,
+          "andel_pct_lm2021": 0.27918483666
         },
         {
           "bohf": "Telemark",
@@ -454,7 +522,10 @@
           "ant_lm1_pas": 53,
           "andel_lm1": 0.114224137931,
           "ant_lm1_2021_pas": 79,
-          "andel_pct_lm": 0.382757678026
+          "andel_pct_lm": 0.382757678026,
+          "andel_pct_lm2019": 0.351548704929,
+          "andel_pct_lm2020": 0.390347898901,
+          "andel_pct_lm2021": 0.415930056421
         },
         {
           "bohf": "Sørlandet",
@@ -473,7 +544,10 @@
           "ant_lm1_pas": 105.333333333,
           "andel_lm1": 0.119606358819,
           "ant_lm1_2021_pas": 141,
-          "andel_pct_lm": 0.305513201734
+          "andel_pct_lm": 0.305513201734,
+          "andel_pct_lm2019": 0.290948731304,
+          "andel_pct_lm2020": 0.291397030035,
+          "andel_pct_lm2021": 0.336834719251
         },
         {
           "bohf": "Norge",
@@ -492,7 +566,10 @@
           "ant_lm1_pas": 1961.33333333,
           "andel_lm1": 0.138584012436,
           "ant_lm1_2021_pas": 2568,
-          "andel_pct_lm": 0.323214202366
+          "andel_pct_lm": 0.323214202366,
+          "andel_pct_lm2019": 0.303128733827,
+          "andel_pct_lm2020": 0.315019845415,
+          "andel_pct_lm2021": 0.350385379736
         }
       ]
     }

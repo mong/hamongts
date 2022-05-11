@@ -2,6 +2,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { useTransition, animated, easings } from "react-spring";
 
 import { useKeys, useOnClickOutside } from "../../helpers/hooks";
+import { useRouterEvent } from "../../helpers/hooks/useRouterEvent";
 import classNames from "./popup.module.css";
 
 type PopUpContentProps = {
@@ -39,7 +40,7 @@ export const PopUpContent: React.FC<PopUpContentProps> = ({
     event.preventDefault();
   };
   useKeys(["Escape", "Esc"], "keydown", handleKeyDown);
-
+  useRouterEvent("routeChangeStart", () => setActive(false));
   return (
     <div>
       {transitions(

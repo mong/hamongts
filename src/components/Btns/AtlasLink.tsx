@@ -19,7 +19,9 @@ interface Props {
   lang: "no" | "en";
 }
 
-const formatTime = timeFormat("%d.%m.%Y");
+const formatTimeEng = timeFormat("%m/%d/%Y");
+
+const formatTimeNo = timeFormat("%d.%m.%Y");
 
 export const AtlasLink: React.FC<Props> = ({
   style,
@@ -63,7 +65,9 @@ export const AtlasLink: React.FC<Props> = ({
                 </div>
                 {lang === "en" ? "Published:" : "Publisert:"}
                 <strong className={classNames.date}>
-                  {formatTime(new Date(date))}
+                  {lang === "en"
+                    ? formatTimeEng(new Date(date))
+                    : formatTimeNo(new Date(date))}
                 </strong>
               </div>
               <div className={classNames.linkTitle}>{linkTitle}</div>

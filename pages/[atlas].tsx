@@ -53,7 +53,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
             lang={obj.lang}
             ia={false}
           />
-          <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
+          <div className={`${styles.atlasContent}`}>
             <TableOfContents>
               <OrderedList>
                 {tocContent.map((cont) => {
@@ -83,7 +83,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
                 })}
               </OrderedList>
             </TableOfContents>
-            <div>
+            <div className={styles.main_content}>
               <h1>{obj.mainTitle}</h1>
               <div className="ingress">{obj.ingress}</div>
               <Chapters innhold={obj.kapittel} lang={obj.lang} />
