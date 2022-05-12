@@ -7,6 +7,8 @@ import { max, sum, min } from "d3-array";
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
+import { customFormat } from "../../helpers/functions/localFormater";
+
 import { AnnualVariation } from "./AnnualVariation";
 
 export type BarchartData<
@@ -57,6 +59,7 @@ type BarchartProps<
   yOuterPadding?: number;
   annualVar?: AnnualVar;
   annualVarLabels?: number[];
+  format: string;
 };
 
 export const Barchart = <
@@ -69,10 +72,10 @@ export const Barchart = <
   width = 600,
   height = 500,
   margin = {
-    top: 20,
-    bottom: 20,
+    top: 30,
+    bottom: 50,
     right: 20,
-    left: 20,
+    left: 140,
   },
   data,
   xLabel,
@@ -94,6 +97,7 @@ export const Barchart = <
   xLegend,
   annualVar,
   annualVarLabels,
+  format,
 }: BarchartProps<Data, X, Y, ColorBy, AnnualVar>) => {
   //missing
   //tooltip
@@ -125,9 +129,9 @@ export const Barchart = <
     "rgba(171, 108, 166, 0.4)",
   ];
   const nationColors = [
-    "rgba(191, 206, 214, 1)",
-    "rgba(191, 206, 214, 0.7)",
-    "rgba(191, 206, 214, 0.4)",
+    "rgba(120, 45, 135, 1)",
+    "rgba(120, 45, 135, 0.7)",
+    "rgba(120, 45, 135, 0.4)",
   ];
 
   const colorScale = scaleOrdinal({
@@ -163,8 +167,13 @@ export const Barchart = <
     .range([2, yScale.bandwidth() / 2]);
 
   return (
-    <div style={{ margin: "auto" }}>
-      <svg style={{ backgroundColor }} width={width} height={height}>
+    <div style={{ width: "auto", margin: "auto" }}>
+      <svg
+        style={{ backgroundColor, display: "block", margin: "auto" }}
+        width="100%"
+        height="100%"
+        viewBox={`0 0 ${width} ${height}`}
+      >
         <Group left={margin.left} top={margin.top}>
           <AxisLeft
             top={5}
@@ -195,6 +204,9 @@ export const Barchart = <
             strokeWidth={xAxisLineStrokeWidth}
             stroke={xAxisLineStroke}
             numTicks={4}
+            tickFormat={(val) =>
+              format ? customFormat(format)(val) : val.toString()
+            }
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}

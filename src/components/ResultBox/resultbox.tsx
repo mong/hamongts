@@ -14,6 +14,7 @@ import { DataContext } from "../Context";
 import { Markdown } from "../Markdown";
 import { DataTable } from "../Table";
 import { Map, MapData } from "../../charts/map";
+import { timeFormat } from "d3-time-format";
 
 type ResultBoxProps = {
   title: string;
@@ -23,6 +24,8 @@ type ResultBoxProps = {
   result: string;
   id: string;
   lang: "nb" | "en" | "nn";
+  published: Date;
+  updated: Date;
 };
 
 export const ResultBox: React.FC<ResultBoxProps> = ({
@@ -33,7 +36,17 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   id,
   lang,
   carousel,
+  published,
+  updated,
 }) => {
+  /* Define dates as days from 1. jan. 1970 */
+  const minute = 1000 * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+
+  const published_date = Math.floor(new Date(published).getTime() / day);
+  const updated_date = Math.floor(new Date(updated).getTime() / day);
+
   const [expandedResultBox, setExpandedResultBox] =
     React.useState<boolean>(false);
 
@@ -66,37 +79,49 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             const figData = obj.filter((o) => o.type === "data")[0]["data"];
             if (bd.type === "barchart") {
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
-                  <Barchart
-                    margin={{
-                      top: 30,
-                      bottom: 50,
-                      right: 60,
-                      left: 130,
-                    }}
-                    height={500}
-                    {...bd}
-                    data={figData}
-                  />
+                <CarouselItem
+                  style={{ width: "auto" }}
+                  key={bd.type + i + id}
+                  label={bd.type}
+                >
+                  <Barchart {...bd} data={figData} />
                 </CarouselItem>
               );
             }
             if (bd.type === "table") {
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
-                  <DataTable headers={bd.columns} data={figData} />
+                <CarouselItem
+                  key={bd.type + i + id}
+                  style={{ width: "auto" }}
+                  label={bd.type}
+                >
+                  <DataTable
+                    headers={bd.columns}
+                    data={figData}
+                    caption={bd.caption}
+                  />
                 </CarouselItem>
               );
             }
             if (bd.type === "map") {
               const jenks = bd.jenks
-                ? bd.jenks.map((j) => parseFloat(j.max))
+                ? bd.jenks.map((j) => parseFloat(j.grense))
                 : undefined;
 
               return (
-                <CarouselItem key={bd.type + i + id} label={bd.type}>
+                <CarouselItem
+                  key={bd.type + i + id}
+                  style={{ width: "auto" }}
+                  label={bd.type}
+                >
                   {jenks ? (
-                    <div style={{ width: "500px" }}>
+                    <div
+                      style={{
+                        width: "100%",
+                        maxWidth: "500px",
+                        margin: "auto",
+                      }}
+                    >
                       <Map
                         mapData={mapData}
                         color={[
@@ -108,6 +133,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         classes={jenks}
                         attrName={bd.x}
                         mapAttr={figData}
+                        format={bd.format}
+                        caption={bd.caption}
                       />
                     </div>
                   ) : (
@@ -162,10 +189,9 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                 data={figdata}
                 x={abacusX}
                 colorBy="bohf"
-                width={800}
-                height={80}
                 label={boxData[0].xLabel}
                 backgroundColor="inherit"
+                format={boxData[0].format}
               />
             )}
           </div>
@@ -176,9 +202,15 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
           }}
         >
           {dataCarousel}
+
           <div className={classNames.resultBoxSelectionContent}>
             {" "}
             <Markdown lang={lang}>{result}</Markdown>
+            {updated_date > published_date && (
+              <p>
+                <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+              </p>
+            )}
           </div>
         </AccordionDetails>
       </Accordion>

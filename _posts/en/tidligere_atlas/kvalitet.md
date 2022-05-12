@@ -1,11 +1,11 @@
 ---
 filename: "kvalitet"
 image: /helseatlas/img/no/kvalitet/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2021-01-18T12:00:00.000Z"
 num: 11
 mainTitle: Healthcare Quality Atlas
 shortTitle: Healthcare Quality Atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The health atlas for quality in necessary health services is based on information on just under 100,000 patients and treatments annually, some of whom may have received the same treatment several times or have several diseases.
 pdfUrl: /helseatlas/files/kvalitetsatlas_engelsk.pdf
 ia: true
 lang: en

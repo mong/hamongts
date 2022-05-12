@@ -1,11 +1,11 @@
 ---
 filename: "dagkir"
 image: /helseatlas/img/no/dagkir/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2015-01-13T12:00:00.000Z"
 num: 1
 mainTitle: Day surgery in Norway 2011–2013
 shortTitle: Day surgery atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The atlas dealing with day surgery was the pilot from the Health Atlas. The atlas was launched in January 2015 and has received a lot of attention, both nationally and internationally.
 pdfUrl: /helseatlas/files/day-surgery-health.pdf
 ia: true
 lang: en

@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall per 1 000 innbyggere",
       "yLabel": "tekst2",
       "annualVar": [
         "rate2018",
@@ -34,7 +34,7 @@
         "Primær"
       ],
       "y": "bohf",
-      "xLabel": "Antall per 1 000 innbyggere",
+      "xLabel": "Antall per 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {

@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -32,13 +32,13 @@
         "Legevakt"
       ],
       "y": "bohf",
-      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
       "columns": [
         {
           "id": "bohf",
@@ -53,22 +53,22 @@
           "format": ",.1f"
         },
         {
-          "id": "andel_FL_kont",
-          "label": "Andel fastlege",
+          "id": "kontakter_prim",
+          "label": "Allmennlege konsultasjoner",
           "typeVar": "number",
-          "format": ",.1%"
+          "format": ",.0f"
         },
         {
           "id": "primkont_pr_pas",
-          "label": "Konsult. pr. pas.",
+          "label": "Kons. pr. pas.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
-          "id": "kontakter_prim",
-          "label": "Ant.kons.",
+          "id": "andel_FL_kont",
+          "label": "Andel fastlege",
           "typeVar": "number",
-          "format": ",.0f"
+          "format": ",.1%"
         }
       ]
     },
@@ -76,19 +76,28 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+      "caption": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  4.3550"
+          "cluster": 1,
+          "max": "  4.3550",
+          "min": "  4.3550",
+          "lag_min": 4.72952422021,
+          "grense": 4.54228537687
         },
         {
-          "CLUSTER": 2,
-          "max": "  5.1994"
+          "cluster": 2,
+          "max": "  5.1994",
+          "min": "  4.7295",
+          "lag_min": 5.5708585936,
+          "grense": 5.38514517641
         },
         {
-          "CLUSTER": 3,
-          "max": "  6.3414"
+          "cluster": 3,
+          "max": "  6.3414",
+          "min": "  5.5709",
+          "lag_min": 6.60682785578,
+          "grense": 6.47409358968
         }
       ]
     },

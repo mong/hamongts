@@ -1,11 +1,11 @@
 ---
 filename: "kols"
 image: /helseatlas/img/no/kols/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2017-10-18T12:00:00.000Z"
 num: 5
 mainTitle: COPD Healthcare Atlas
 shortTitle: COPD healthcare atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The health atlas COPD describes variation in the use of GPs and emergency services, outpatient clinics, emergency admissions and rehabilitation in relation to the place of residence for people with COPD.
 pdfUrl: /helseatlas/files/copd-healthcare-atlas.pdf
 ia: true
 lang: en

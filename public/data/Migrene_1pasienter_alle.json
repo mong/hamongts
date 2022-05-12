@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
+      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -30,17 +30,17 @@
       ],
       "xLegend": [
         "Kun spes.helsetj.",
-        "Spes. og kommunehelsetj.",
-        "Kun kommunehelsetj."
+        "Spes. og allmennlegetj.",
+        "Kun allmennlegetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
+      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
       "columns": [
         {
           "id": "bohf",
@@ -55,22 +55,22 @@
           "format": ",.1f"
         },
         {
-          "id": "andel3_prim",
-          "label": "Andel kun i kommunehelsetj.",
-          "typeVar": "number",
-          "format": ",.1%"
-        },
-        {
           "id": "pasienter",
-          "label": "Antall pasienter",
+          "label": "Pasienter",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "innbyggere",
-          "label": "Antall innbyggere",
+          "label": "Innbyggere",
           "typeVar": "number",
           "format": ",.0f"
+        },
+        {
+          "id": "andel3_prim",
+          "label": "Andel kun i allmennlegetj.",
+          "typeVar": "number",
+          "format": ",.1%"
         }
       ]
     },
@@ -78,19 +78,28 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall pasienter med migrene pr. 1 000 innbyggere",
+      "caption": "Antall pasienter med migrene pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": " 11.7248"
+          "cluster": 1,
+          "max": " 11.7248",
+          "min": " 10.7246",
+          "lag_min": 12.1444206391,
+          "grense": 11.9346225116
         },
         {
-          "CLUSTER": 2,
-          "max": " 13.3049"
+          "cluster": 2,
+          "max": " 13.3049",
+          "min": " 12.1444",
+          "lag_min": 13.66729078,
+          "grense": 13.4861091852
         },
         {
-          "CLUSTER": 3,
-          "max": " 15.7474"
+          "cluster": 3,
+          "max": " 15.7474",
+          "min": " 13.6673",
+          "lag_min": 15.8534324186,
+          "grense": 15.8004322859
         }
       ]
     },

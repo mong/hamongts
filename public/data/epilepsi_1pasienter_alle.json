@@ -7,7 +7,7 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
+      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder",
       "annualVar": [
         "rate2019",
@@ -34,13 +34,13 @@
         "Kun allmennlegetj."
       ],
       "y": "bohf",
-      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
+      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
       "yLabel": "Opptaksområder"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021",
+      "caption": "Årlige gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
       "columns": [
         {
           "id": "bohf",
@@ -55,6 +55,18 @@
           "format": ",.1f"
         },
         {
+          "id": "pasienter",
+          "label": "Pasienter",
+          "typeVar": "number",
+          "format": ",.0f"
+        },
+        {
+          "id": "andel3_prim",
+          "label": "Andel kun i allmennlegetj.",
+          "typeVar": "number",
+          "format": ",.1%"
+        },
+        {
           "id": "pas_rate_barn",
           "label": "Pasientrate, barn",
           "typeVar": "number",
@@ -65,18 +77,6 @@
           "label": "Pasientrate, eldre",
           "typeVar": "number",
           "format": ",.1f"
-        },
-        {
-          "id": "andel3_prim",
-          "label": "Andel kun i allmennlegetj.",
-          "typeVar": "number",
-          "format": ",.1%"
-        },
-        {
-          "id": "pasienter",
-          "label": "Antall pasienter",
-          "typeVar": "number",
-          "format": ",.0f"
         }
       ]
     },
@@ -84,19 +84,28 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall med epilepsi pr. 1 000 innbyggere",
+      "caption": "Antall med epilepsi pr. 1 000 innbyggere",
       "jenks": [
         {
-          "CLUSTER": 1,
-          "max": "  4.8762"
+          "cluster": 1,
+          "max": "  4.8762",
+          "min": "  4.6708",
+          "lag_min": 4.92258395537,
+          "grense": 4.89941544404
         },
         {
-          "CLUSTER": 2,
-          "max": "  5.2473"
+          "cluster": 2,
+          "max": "  5.2473",
+          "min": "  4.9226",
+          "lag_min": 5.29684125673,
+          "grense": 5.27208017677
         },
         {
-          "CLUSTER": 3,
-          "max": "  5.6687"
+          "cluster": 3,
+          "max": "  5.6687",
+          "min": "  5.2968",
+          "lag_min": 5.88891430547,
+          "grense": 5.7788225719
         }
       ]
     },

@@ -1,11 +1,11 @@
 ---
 filename: "dagkir2"
 image: /helseatlas/img/no/dagkir2/frontpage.jpg
-date: "2022-03-01T12:00:00.000Z"
+date: "2018-11-01T12:00:00.000Z"
 num: 6
 mainTitle: Day surgery in Norway 2013–2017
 shortTitle: Day surgery atlas
-frontpagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra, sit interdum ipsum pellentesque. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi. Vehicula suspendisse urna, diam etiam enim ultricies nunc enim morbi.
+frontpagetext: The second health atlas on day surgery describes the development in scope and variation between the health trusts' admission areas for the same twelve procedures as in the first day surgery atlas, this time for the period 2013–2017.
 pdfUrl: /helseatlas/files/daysurgery_2013-2017.pdf
 ia: true
 lang: en
