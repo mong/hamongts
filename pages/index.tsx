@@ -73,7 +73,7 @@ export const getStaticProps: GetStaticProps = async () => {
       }
 
       return {
-        article: `${filename}`,
+        article: `v2/${filename}`,
         frontMatter: {
           shortTitle,
           image,
