@@ -52,10 +52,10 @@
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.12",
     "@types/d3-scale-chromatic": "^3.0.0",
-    "@types/d3-shape": "^3.0.2",
+    "@types/d3-shape": "^3.1.0",
     "@types/react": "18.0.9",
     "babel-plugin-istanbul": "^6.1.1",
-    "cypress": "^9.6.1",
+    "cypress": "^9.7.0",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
     "husky": "^8.0.1",
