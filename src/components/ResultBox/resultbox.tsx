@@ -114,7 +114,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   style={{ width: "auto" }}
                   label={bd.type}
                 >
-                  {jenks ? (
+                  {jenks && (
                     <div
                       style={{
                         width: "100%",
@@ -137,8 +137,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         caption={bd.caption}
                       />
                     </div>
-                  ) : (
-                    <img src="/helseatlas/img/map.png" />
                   )}
                 </CarouselItem>
               );
