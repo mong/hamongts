@@ -41,46 +41,46 @@ const EnglishMenu = () => {
           <span className={classNames.title}>Our Helseatlas</span>
           <ul>
             <li>
-              <Link href="/en/kvalitet">Healthcare Quality Atlas</Link>
+              <Link href="/en/v1/kvalitet">Healthcare Quality Atlas</Link>
             </li>
             <li>
-              <Link href="/en/psyk">
+              <Link href="/en/v1/psyk">
                 Healthcare Atlas for Mental Healthcare and Substance Abuse
                 Treatment
               </Link>
             </li>
             <li>
-              <Link href="/en/fodsel">Obstetrics Healthcare Atlas</Link>
+              <Link href="/en/v1/fodsel">Obstetrics Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/gyn">Gynaecology Healthcare Atlas</Link>
+              <Link href="/en/v1/gyn">Gynaecology Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/ortopedi">
+              <Link href="/en/v1/ortopedi">
                 Orthopaedic Healthcare Atlas for Norway
               </Link>
             </li>
             <li>
-              <Link href="/en/dagkir2">Day surgery in Norway 2013–2017</Link>
+              <Link href="/en/v1/dagkir2">Day surgery in Norway 2013–2017</Link>
             </li>
             <li>
-              <Link href="/en/kols">COPD Healthcare Atlas</Link>
+              <Link href="/en/v1/kols">COPD Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/eldre">
+              <Link href="/en/v1/eldre">
                 Healthcare Atlas for the Elderly in Norway
               </Link>
             </li>
             <li>
-              <Link href="/en/nyfodt">
+              <Link href="/en/v1/nyfodt">
                 The Norwegian Neonatal Healthcare Atlas
               </Link>
             </li>
             <li>
-              <Link href="/en/barn">Child healthcare atlas for Norway</Link>
+              <Link href="/en/v1/barn">Child healthcare atlas for Norway</Link>
             </li>
             <li>
-              <Link href="/en/dagkir">Day surgery in Norway 2011–2013</Link>
+              <Link href="/en/v1/dagkir">Day surgery in Norway 2011–2013</Link>
             </li>
           </ul>
         </ul>
