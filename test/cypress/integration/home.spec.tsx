@@ -53,7 +53,7 @@ context("Classic atlases", () => {
   });
 
   it("should visit an English atlas", () => {
-    cy.visit("/en/kvalitet");
+    cy.visit("/en/v1/kvalitet");
     cy.get("h1").contains("Healthcare Quality Atlas");
     /* Go into the ToC */
     cy.get("nav").get("ol").get("li").get("a").contains("Stroke");
@@ -62,7 +62,7 @@ context("Classic atlases", () => {
 
 context("Modern atlases", () => {
   it("should visit an atlas", () => {
-    cy.visit("/test_atlas");
+    cy.visit("/v2/test_atlas");
     cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
     /* Fact box */
     cy.get("div")
