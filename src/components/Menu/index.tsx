@@ -8,7 +8,7 @@ type MenuProps = {
 
 export const Menu: React.FC<MenuProps> = ({ lang }) => {
   return (
-    <div className={classNames.main_menu}>
+    <div className={classNames.main_menu} data-testid="mainMenu">
       <div className={classNames.container}>
         <div className={classNames.nav_group}>
           <div className={classNames.body}>
@@ -43,7 +43,7 @@ const EnglishMenu = () => {
             <li>
               <Link href="/en/v1/kvalitet">Healthcare Quality Atlas</Link>
             </li>
-            <li>
+            <li data-testid="menuAtlasLink1">
               <Link href="/en/v1/psyk">
                 Healthcare Atlas for Mental Healthcare and Substance Abuse
                 Treatment
@@ -109,7 +109,7 @@ const NorskMeny = () => {
         <ul>
           <span className={classNames.title}>Våre helseatlas</span>
           <ul>
-            <li>
+            <li data-testid="menuAtlasLink2">
               <Link href="/v2/kronikere">
                 Helseatlas for utvalgte kroniske sykdommer
               </Link>
@@ -117,7 +117,7 @@ const NorskMeny = () => {
             <li>
               <Link href="/v1/kvalitet">Helseatlas for kvalitet</Link>
             </li>
-            <li>
+            <li data-testid="menuAtlasLink1">
               <Link href="/v1/psyk">
                 Helseatlas for psykisk helsevern og rusbehandling
               </Link>
