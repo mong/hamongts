@@ -190,10 +190,11 @@ export const Barchart = <
             })}
             label={yLabel}
             labelProps={{
-              fontSize: 20,
-              x: -80,
+              fontSize: 14,
+              x: -127,
               y: -15,
               transform: "(rotateX(90deg))",
+              fontWeight: "bold",
             }}
           />
         </Group>
@@ -212,8 +213,9 @@ export const Barchart = <
             tickTransform={`translate(0,0)`}
             label={xLabel}
             labelProps={{
-              fontSize: 15,
+              fontSize: 14,
               textAnchor: "middle",
+              fontWeight: "bold",
             }}
           />
         </Group>
