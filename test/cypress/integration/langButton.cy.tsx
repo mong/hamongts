@@ -5,7 +5,7 @@ context("Push language button", () => {
     cy.visit("/");
     cy.get('[data-testid="buttonEng"]').click(); // Push english button
     cy.url().should("include", "/en/");
-    cy.wait(1000); // Wait for english page to load
+    cy.wait(2000); // Wait for english page to load
     cy.get("h1").contains("Equitable health services");
     cy.get('[data-testid="menuButton"]').click(); // Enter english menu
     cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
