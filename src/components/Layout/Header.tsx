@@ -39,6 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
               className={`${classNames.no} ${
                 lang === "no" ? classNames.active : undefined
               }`}
+              data-testid="buttonNo"
             >
               <Link href={`${origin}/helseatlas`}>
                 <a>NO</a>
@@ -48,6 +49,7 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
               className={`${classNames.eng} ${
                 lang === "en" ? classNames.active : undefined
               }`}
+              data-testid="buttonEng"
             >
               <Link href={`${origin}/helseatlas/en`}>
                 <a>ENG</a>

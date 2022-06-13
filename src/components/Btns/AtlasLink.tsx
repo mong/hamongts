@@ -42,7 +42,7 @@ export const AtlasLink: React.FC<Props> = ({
       }`}
     >
       <Link href={`/${linkTo}`}>
-        <a>
+        <a data-testid={linkTo}>
           <div className={classNames.linkInnerWrapper}>
             <div className={classNames.linkImageWrapper}>
               <Image
