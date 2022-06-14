@@ -1,27 +1,32 @@
 /// <reference types="cypress"/>
 
 context("v2 atlas", () => {
-  it("should push menu button", () => {
+  beforeEach(() => {
     cy.visit("/v2/test_atlas");
-    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
+  });
 
-    // Test expansion of result box
+  it("Simple start", () => {
+    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
+  });
+
+  it("Test expansion of result box", () => {
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
     cy.get('[data-testid="resultbox_expandButton"]').click(); // Open the result box
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.gt", 600); // Check if result box is expanded
     cy.get('[data-testid="resultbox_expandButton"]').click(); // Close the result box
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
-
-    // Test the selection popup inside result box
+  });
+  it("Test the selection popup inside result box", () => {
     cy.get('[data-testid="resultbox_ingress"]').click(); // Open the result box by click on text
     cy.get('[data-testid="selectionBtn"]').click(); // Open the selection popup
     cy.get('[data-testid="popUpContent"]').should("exist"); // Popup exist
     cy.get('[data-testid="closeBtn"]').click(); // Close the popup
     cy.get('[data-testid="popUpContent"]').should("not.exist"); // Popup does not exist
     cy.get('[data-testid="resultbox_ingress"]').click();
+  });
 
-    // Test the carousel
-    cy.get('[data-testid="resultbox_ingress"]').click();
+  it(" Test the carousel", () => {
+    cy.get('[data-testid="resultbox_ingress"]').click(); // Expand the result box
 
     cy.get('[label="barchart"]').should("exist"); // Barchart exist
     cy.get('[label="map"]').should("not.exist"); // Map does not exist
@@ -51,8 +56,9 @@ context("v2 atlas", () => {
 
     // Close the result box
     cy.get('[data-testid="resultbox_ingress"]').click();
+  });
 
-    // Test expansion of fact box
+  it("Test expansion of fact box", () => {
     cy.get('[data-testid="factbox"]').invoke("height").should("be.lt", 100);
     cy.get('[data-testid="factbox"]').click();
     cy.get('[data-testid="factbox"]').invoke("height").should("be.gt", 200);
