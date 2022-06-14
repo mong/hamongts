@@ -20,7 +20,7 @@ export const FactBox: React.FC<FactBoxProps> = ({
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
   return (
-    <div style={{ marginBottom: "10px" }}>
+    <div style={{ marginBottom: "10px" }} data-testid="factbox">
       <Accordion
         sx={{
           boxShadow: 1,

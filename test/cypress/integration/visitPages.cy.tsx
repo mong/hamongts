@@ -60,25 +60,4 @@ context("Classic atlases", () => {
   });
 });
 
-context("Modern atlases", () => {
-  it("should visit an atlas", () => {
-    cy.visit("/v2/test_atlas");
-    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
-    /* Fact box */
-    cy.get("div")
-      .contains("Svangeskapsdiabetes")
-      .click()
-      .get("p")
-      .contains(
-        "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet"
-      );
-    /* Result box */
-    cy.get("h3")
-      .contains("Svangerskapsdiabetes")
-      .click()
-      .get("tspan")
-      .contains("tekst2");
-  });
-});
-
 export {};
