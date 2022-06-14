@@ -22,7 +22,7 @@
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.9.3",
     "@mui/icons-material": "^5.8.3",
-    "@mui/material": "^5.8.3",
+    "@mui/material": "^5.8.4",
     "@sentry/react": "^7.1.1",
     "@sentry/tracing": "^7.1.1",
     "@visx/axis": "^2.10.0",
