@@ -35,11 +35,13 @@ context("v2 atlas", () => {
     cy.get('[label="table"]').should("exist"); // Table exist
     cy.get('[label="barchart"]').should("not.exist"); // Barchart does not exist
     cy.get('[label="map"]').should("not.exist"); // Map does not exist
+    cy.get("caption").contains("gjennomsnittsverdier for perioden");
 
     cy.get('[data-testid="carouselbutton_3"]').click(); // Show the map
     cy.get('[label="map"]').should("exist"); // Map exist
     cy.get('[label="table"]').should("not.exist"); // Table does not exist
     cy.get('[label="barchart"]').should("not.exist"); // Barchart does not exist
+    cy.get('[data-testid="mapCaption"]').contains("Antall med epilepsi pr.");
 
     cy.get('[data-testid="carouselbutton_0"]').click(); // Show the first barchart
     cy.get('[label="barchart"]').should("exist"); // Barchart exist

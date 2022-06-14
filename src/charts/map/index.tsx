@@ -180,6 +180,7 @@ export const Map: React.FC<MapProps> = ({
           textAlign: "left",
           captionSide: "bottom",
         }}
+        data-testid="mapCaption"
       >
         {caption}
       </div>
