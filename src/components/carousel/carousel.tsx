@@ -44,8 +44,6 @@ export const Carousel: React.FC<CarouselProps> = ({
   lang,
   popupState,
 }) => {
-  console.log(children[0].key);
-
   const [activeComp, setActiveComp] = useState<number>(active ?? 0);
 
   const numberOfChildren: number = React.Children.count(children);
@@ -74,7 +72,7 @@ export const Carousel: React.FC<CarouselProps> = ({
         />
       )}
       <div className={styles.carousel}>{children[activeComp]}</div>
-      <div style={{ alignSelf: "flex-start" }} data-testid={children[0].key}>
+      <div style={{ alignSelf: "flex-start" }}>
         {selection && (
           <PopUp
             innerContentStyle={{
