@@ -22,7 +22,7 @@ context("Push some front page buttons", () => {
   it("should push english button", () => {
     cy.get('[data-testid="buttonEng"]').click(); // Push english button
     cy.url().should("include", "/en/");
-    cy.wait(5000); // Wait for english page to load
+    cy.wait(10000); // Wait for english page to load
     cy.get("h1").contains("Equitable health services");
     cy.get('[data-testid="menuButton"]').click(); // Enter english menu
     cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
@@ -30,7 +30,7 @@ context("Push some front page buttons", () => {
     cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
     cy.url({ timeout: 10000 }).should("include", "/en/v1/"); // English atlas is entered in english menu
     cy.get('[data-testid="buttonNo"]').click(); // Push norwegian button
-    cy.wait(1000); // Wait for norwegian page to load
+    cy.wait(10000); // Wait for norwegian page to load
     cy.url({ timeout: 10000 }).should("not.include", "/en/"); // Not English anymore
     cy.get("h1").contains("Likeverdige helsetjenester");
   });
