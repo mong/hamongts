@@ -7,14 +7,16 @@ context("Push some front page buttons", () => {
 
   it("should visit v2 atlas", () => {
     cy.get('[data-testid="v2/kronikere"]').click();
-    cy.url({ timeout: 10000 }).should("include", "/v2");
-    cy.get('[data-testid="v2atlas"]').should("exist");
+    cy.wait(3000);
+    cy.get('[data-testid="v2atlas"]', { timeout: 10000 }).should("exist");
+    cy.url().should("include", "/v2");
   });
 
   it("should visit v1 atlas", () => {
     cy.get('[data-testid="v1/dagkir"]').click();
-    cy.url({ timeout: 10000 }).should("include", "/v1");
-    cy.get('[data-testid="v1atlas"]').should("exist");
+    cy.wait(3000);
+    cy.get('[data-testid="v1atlas"]', { timeout: 10000 }).should("exist");
+    cy.url().should("include", "/v1");
   });
 
   it("should push english button", () => {
