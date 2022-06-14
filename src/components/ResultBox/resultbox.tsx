@@ -158,7 +158,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div id={id} className={classNames.resultBoxWrapper}>
+    <div
+      id={id}
+      className={classNames.resultBoxWrapper}
+      data-testid="resultbox"
+    >
       <Accordion
         disableGutters
         sx={{
@@ -179,7 +183,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             },
           }}
         >
-          <div className={classNames.resultBoxTitleWrapper}>
+          <div
+            className={classNames.resultBoxTitleWrapper}
+            data-testid="resultbox_ingress"
+          >
             <h3> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
@@ -217,6 +224,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         role="button"
         aria-controls={`${id}-content-selection`}
         onClick={() => setExpandedResultBox(!expandedResultBox)}
+        data-testid="resultbox_expandButton"
       >
         <span className={classNames.horizontal}></span>
         {transitions(

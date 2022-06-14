@@ -27,7 +27,7 @@ const chartIcons = {
 
 const SelectionBtn = ({ lang }: { lang?: "nb" | "en" | "nn" }) => {
   return (
-    <button className={styles.selectionBtn}>
+    <button className={styles.selectionBtn} data-testid="selectionBtn">
       <AiOutlineInfoCircle color="#033F85" />
       <span>
         {" "}
@@ -44,6 +44,8 @@ export const Carousel: React.FC<CarouselProps> = ({
   lang,
   popupState,
 }) => {
+  console.log(children[0].key);
+
   const [activeComp, setActiveComp] = useState<number>(active ?? 0);
 
   const numberOfChildren: number = React.Children.count(children);
@@ -72,7 +74,7 @@ export const Carousel: React.FC<CarouselProps> = ({
         />
       )}
       <div className={styles.carousel}>{children[activeComp]}</div>
-      <div style={{ alignSelf: "flex-start" }}>
+      <div style={{ alignSelf: "flex-start" }} data-testid={children[0].key}>
         {selection && (
           <PopUp
             innerContentStyle={{
