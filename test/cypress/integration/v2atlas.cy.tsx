@@ -65,6 +65,17 @@ context("v2 atlas", () => {
     cy.get('[label="barchart"]').should("not.exist"); // Barchart does not exist
     cy.get('[label="map"]').should("not.exist"); // Map does not exist
     cy.get("caption").contains("gjennomsnittsverdier for perioden");
+    cy.get(".MuiTableBody-root > :nth-child(1) > :nth-child(3)").contains(
+      "812"
+    );
+    cy.get("span").contains("Pasienter").click(); // Sort table
+    cy.get(".MuiTableBody-root > :nth-child(1) > :nth-child(3)").contains(
+      "368"
+    );
+    cy.get("span").contains("Pasienter").click(); // Sort table again
+    cy.get(".MuiTableBody-root > :nth-child(1) > :nth-child(3)").contains(
+      "173"
+    );
 
     cy.get('[data-testid="carouselbutton_3"]').click(); // Show the map
     cy.get('[label="map"]').should("exist"); // Map exist
