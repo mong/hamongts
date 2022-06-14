@@ -21,7 +21,7 @@ context("Push some front page buttons", () => {
 
   it("should push english button", () => {
     cy.get('[data-testid="buttonEng"]').click(); // Push english button
-    cy.wait(3000);
+    cy.wait(10000);
     cy.url().should("include", "/en/");
     cy.get('[data-testid="en/v1/kvalitet"]', { timeout: 20000 }); // Wait for english page to load
     cy.get("h1").contains("Equitable health services");
