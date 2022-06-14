@@ -34,6 +34,7 @@ export const CarouselButtons: React.FC<CarouselButtonsProps> = ({
                 i === activeCarousel ? styles.active : ""
               }`}
               onClick={() => clickHandler(i)}
+              data-testid={"carouselbutton_" + i}
             >
               {optn.icon}
             </button>

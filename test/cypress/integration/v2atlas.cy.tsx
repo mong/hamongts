@@ -11,13 +11,43 @@ context("v2 atlas", () => {
     cy.get('[data-testid="resultbox_expandButton"]').click(); // Close the result box
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
 
-    // Test functions inside result box
+    // Test the selection popup inside result box
     cy.get('[data-testid="resultbox_ingress"]').click(); // Open the result box by click on text
     cy.get('[data-testid="selectionBtn"]').click(); // Open the selection popup
     cy.get('[data-testid="popUpContent"]').should("exist"); // Popup exist
     cy.get('[data-testid="closeBtn"]').click(); // Close the popup
     cy.get('[data-testid="popUpContent"]').should("not.exist"); // Popup does not exist
-    cy.get('[data-testid="resultbox_ingress"]').click(); // Close the result box
+    cy.get('[data-testid="resultbox_ingress"]').click();
+
+    // Test the carousel
+    cy.get('[data-testid="resultbox_ingress"]').click();
+
+    cy.get('[label="barchart"]').should("exist"); // Barchart exist
+    cy.get('[label="map"]').should("not.exist"); // Map does not exist
+    cy.get('[label="table"]').should("not.exist"); // Table does not exist
+
+    cy.get('[data-testid="carouselbutton_1"]').click(); // Show the second barchart
+    cy.get('[label="barchart"]').should("exist"); // Barchart exist
+    cy.get('[label="map"]').should("not.exist"); // Map does not exist
+    cy.get('[label="table"]').should("not.exist"); // Table does not exist
+
+    cy.get('[data-testid="carouselbutton_2"]').click(); // Show the table
+    cy.get('[label="table"]').should("exist"); // Table exist
+    cy.get('[label="barchart"]').should("not.exist"); // Barchart does not exist
+    cy.get('[label="map"]').should("not.exist"); // Map does not exist
+
+    cy.get('[data-testid="carouselbutton_3"]').click(); // Show the map
+    cy.get('[label="map"]').should("exist"); // Map exist
+    cy.get('[label="table"]').should("not.exist"); // Table does not exist
+    cy.get('[label="barchart"]').should("not.exist"); // Barchart does not exist
+
+    cy.get('[data-testid="carouselbutton_0"]').click(); // Show the first barchart
+    cy.get('[label="barchart"]').should("exist"); // Barchart exist
+    cy.get('[label="map"]').should("not.exist"); // Map does not exist
+    cy.get('[label="table"]').should("not.exist"); // Table does not exist
+
+    // Close the result box
+    cy.get('[data-testid="resultbox_ingress"]').click();
 
     // Test expansion of fact box
     cy.get('[data-testid="factbox"]').invoke("height").should("be.lt", 100);
