@@ -7,6 +7,8 @@ context("v2 atlas", () => {
 
   it("Simple start", () => {
     cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
+    cy.get('[data-testid="tocItem"]:visible').click(5, 5); // Click ToC element
+    cy.url().should("include", "ms-syke-barn-under"); // Check url change
   });
 
   it("Test expansion of result box", () => {
@@ -22,20 +24,32 @@ context("v2 atlas", () => {
   });
   it("Test the selection popup inside result box", () => {
     cy.get('[data-testid="resultbox_ingress"]').click(); // Open the result box by click on text
+    cy.get('[data-testid="resultbox"]').invoke("height").should("be.gt", 600); // Check if result box is expanded
+
     cy.get('[data-testid="selectionBtn"]').click(); // Open the selection popup
     cy.get('[data-testid="popUpContent"]').should("exist"); // Popup exist
     cy.get('[data-testid="closeBtn"]').click(); // Close the popup
     cy.get('[data-testid="popUpContent"]').should("not.exist"); // Popup does not exist
+
     cy.get('[data-testid="selectionBtn"]').click(); // Open the selection popup
+    cy.get('[data-testid="popUpContent"]').should("exist"); // Popup exist
     cy.get("body").click(0, 0); // Close the popup by click outside
     cy.get('[data-testid="popUpContent"]').should("not.exist"); // Popup does not exist
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.gt", 600); // Check if result box is still expanded
 
+    cy.get('[data-testid="selectionBtn"]').click(); // Open the selection popup
+    cy.get('[data-testid="popUpContent"]').should("exist"); // Popup exist
+    cy.get('[data-testid="selectionBtn"]').type("{esc}"); // Close the popup by click Esc
+    cy.get('[data-testid="popUpContent"]').should("not.exist"); // Popup does not exist
+    cy.get('[data-testid="resultbox"]').invoke("height").should("be.gt", 600); // Check if result box is still expanded
+
     cy.get('[data-testid="resultbox_ingress"]').click(); // Close the result box
+    cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
   });
 
   it(" Test the carousel", () => {
     cy.get('[data-testid="resultbox_ingress"]').click(); // Expand the result box
+    cy.get('[data-testid="resultbox"]').invoke("height").should("be.gt", 600); // Check if result box is expanded
 
     cy.get('[label="barchart"]').should("exist"); // Barchart exist
     cy.get('[label="map"]').should("not.exist"); // Map does not exist
@@ -63,8 +77,8 @@ context("v2 atlas", () => {
     cy.get('[label="map"]').should("not.exist"); // Map does not exist
     cy.get('[label="table"]').should("not.exist"); // Table does not exist
 
-    // Close the result box
-    cy.get('[data-testid="resultbox_ingress"]').click();
+    cy.get('[data-testid="resultbox_ingress"]').click(); // Close the result box
+    cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
   });
 
   it("Test expansion of fact box", () => {

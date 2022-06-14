@@ -28,17 +28,17 @@ context("Push some front page buttons", () => {
     cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
     cy.get('[data-testid="menuAtlasLink1"]').click(); // Enter an english atlas
     cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
-    cy.wait(3000); // Wait for page to load
-    cy.url({ timeout: 5000 }).should("include", "/en/v1/"); // English atlas is entered in english menu
+    cy.url({ timeout: 10000 }).should("include", "/en/v1/"); // English atlas is entered in english menu
     cy.get('[data-testid="buttonNo"]').click(); // Push norwegian button
     cy.wait(1000); // Wait for norwegian page to load
+    cy.url({ timeout: 10000 }).should("not.include", "/en/"); // Not English anymore
     cy.get("h1").contains("Likeverdige helsetjenester");
   });
 
   it("should push menu button", () => {
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu does not exist
     cy.get('[data-testid="menuButton"]').click();
     cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
-    cy.get("span").contains("Våre helseatlas");
 
     cy.get('[data-testid="menuAtlasLink1"]').click();
     cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
@@ -52,6 +52,10 @@ context("Push some front page buttons", () => {
     cy.get('[data-testid="menuButton"]').click(); // Push menu button again
     cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
     cy.get('[data-testid="closeBtn"]').click(); // exit button
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
+    cy.get('[data-testid="menuButton"]').click(); // Push menu button again
+    cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
+    cy.get('[data-testid="menuButton"]').type("{esc}"); // click Esc to exit menu
     cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
   });
 });
