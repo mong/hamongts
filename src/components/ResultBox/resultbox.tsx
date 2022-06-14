@@ -187,7 +187,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             className={classNames.resultBoxTitleWrapper}
             data-testid="resultbox_ingress"
           >
-            <h3> {title} </h3>
+            <h3 data-testid="resultbox_title"> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
