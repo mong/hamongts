@@ -3,6 +3,7 @@
 context("v2 atlas", () => {
   it("should push menu button", () => {
     cy.visit("/v2/test_atlas");
+    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
 
     // Test expansion of result box
     cy.get('[data-testid="resultbox"]').invoke("height").should("be.lt", 600); // Check if result box is not expanded
