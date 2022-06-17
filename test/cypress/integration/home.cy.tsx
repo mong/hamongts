@@ -1,83 +1,62 @@
 /// <reference types="cypress"/>
 
-context("Home Page", () => {
+context("Push some front page buttons", () => {
   beforeEach(() => {
     cy.visit("/");
   });
 
-  it("should render the home page", () => {
-    cy.get("h1").contains("Likeverdige helsetjenester – uansett hvor du bor?");
-    cy.contains("a").click();
+  it("should visit v2 atlas", () => {
+    cy.get('[data-testid="v2/kronikere"]').click();
+    cy.get('[data-testid="v2atlas"]', { timeout: 60000 }).should("exist");
+    cy.url().should("include", "/v2");
   });
 
-  it("should visit static pages", () => {
-    cy.visit("/statisk/kart");
-    cy.get("strong").contains(
-      "Vær derfor bevisst kartets retoriske muligheter."
-    );
-    cy.visit("/statisk/om");
-    cy.get("a").contains("Om statistikkformidling ved hjelp av kart");
-    cy.visit("/statisk/kontakt");
-    cy.get("a").contains("skde.helseatlas@helse-nord.no");
-    cy.visit("/en/static/map");
-    cy.get("h1").contains("Communicating statistics by means of maps");
-    cy.visit("/en/static/about");
-    cy.get("a").contains("Communicating statistics by means of maps");
-    cy.visit("/en/static/contact");
-    cy.get("a").contains("skde.helseatlas@helse-nord.no");
-  });
-});
-
-context("Classic atlases", () => {
-  beforeEach(() => {
-    cy.visit("/");
+  it("should visit v1 atlas", () => {
+    cy.get('[data-testid="v1/dagkir"]').click();
+    cy.get('[data-testid="v1atlas"]', { timeout: 60000 }).should("exist");
+    cy.url().should("include", "/v1");
   });
 
-  it("should visit an atlas", () => {
-    cy.visit("/v1/kvalitet");
-    cy.get("h1").contains("Helseatlas for kvalitet");
-    /* Go into the ToC */
-    cy.get("nav").get("ol").get("li").get("a").contains("Brystkreft").click();
+  it("should push english button", () => {
+    cy.get('[data-testid="buttonEng"]').click(); // Push english button
+    cy.get('[data-testid="en/v1/kvalitet"]', { timeout: 60000 }).should(
+      "exist"
+    ); // Wait for english page to load
+    cy.url().should("include", "/en/");
+    cy.get("h1").contains("Equitable health services");
+    cy.get('[data-testid="menuButton"]').click(); // Enter english menu
+    cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
+    cy.get('[data-testid="menuAtlasLink1"]').click(); // Enter an english atlas
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
+    cy.url({ timeout: 60000 }).should("include", "/en/v1/"); // English atlas is entered in english menu
+    cy.get('[data-testid="buttonNo"]').click(); // Push norwegian button
+    cy.get('[data-testid="v1/kvalitet"]', { timeout: 60000 }).should("exist"); // Wait for norwegian page to load
+    cy.url().should("not.include", "/en/"); // Not English anymore
+    cy.get("h1").contains("Likeverdige helsetjenester");
   });
 
-  it("should visit an IA", () => {
-    cy.visit("/v1/gyn/ia");
-    cy.get("iframe");
-    cy.visit("/ia/no/gyn/index.html").get("button").contains("Last ned data");
-  });
+  it("should push menu button", () => {
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu does not exist
+    cy.get('[data-testid="menuButton"]').click();
+    cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
 
-  it("should visit an atlas without ToC", () => {
-    cy.visit("/v1/psyk");
-    cy.get("h1").contains("Helseatlas for psykisk helsevern og rusbehandling");
-    cy.get("nav").get("ol").get("li");
-  });
+    cy.get('[data-testid="menuAtlasLink1"]').click();
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
+    cy.url({ timeout: 10000 }).should("include", "/v1");
+    cy.get('[data-testid="menuButton"]').click(); // Push menu button again
 
-  it("should visit an English atlas", () => {
-    cy.visit("/en/v1/kvalitet");
-    cy.get("h1").contains("Healthcare Quality Atlas");
-    /* Go into the ToC */
-    cy.get("nav").get("ol").get("li").get("a").contains("Stroke");
-  });
-});
+    cy.get('[data-testid="menuAtlasLink2"]').click();
+    cy.url({ timeout: 10000 }).should("include", "/v2"); // Må vente en stund før neste atlas dukker opp
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
 
-context("Modern atlases", () => {
-  it("should visit an atlas", () => {
-    cy.visit("/v2/test_atlas");
-    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
-    /* Fact box */
-    cy.get("div")
-      .contains("Svangeskapsdiabetes")
-      .click()
-      .get("p")
-      .contains(
-        "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet"
-      );
-    /* Result box */
-    cy.get("h3")
-      .contains("Svangerskapsdiabetes")
-      .click()
-      .get("tspan")
-      .contains("tekst2");
+    cy.get('[data-testid="menuButton"]').click(); // Push menu button again
+    cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
+    cy.get('[data-testid="closeBtn"]').click(); // exit button
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
+    cy.get('[data-testid="menuButton"]').click(); // Push menu button again
+    cy.get('[data-testid="mainMenu"]').should("exist"); // Menu exist
+    cy.get('[data-testid="menuButton"]').type("{esc}"); // click Esc to exit menu
+    cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
   });
 });
 
