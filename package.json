@@ -24,7 +24,7 @@
     "@mui/icons-material": "^5.8.3",
     "@mui/material": "^5.8.5",
     "@sentry/react": "^7.1.1",
-    "@sentry/tracing": "^7.1.1",
+    "@sentry/tracing": "^7.3.0",
     "@visx/axis": "^2.10.0",
     "@visx/group": "^2.10.0",
     "@visx/scale": "^2.2.2",
