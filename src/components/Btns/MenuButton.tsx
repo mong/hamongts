@@ -2,11 +2,19 @@ import classNames from "./Buttons.module.css";
 
 type MenuButtonProps = {
   lang: "en" | "no";
+  style?: React.CSSProperties;
 };
 
-export const MenuButton: React.FC<MenuButtonProps> = ({ lang }) => {
+export const MenuButton: React.FC<MenuButtonProps> = ({ lang, style }) => {
+  const defaultStyle: React.CSSProperties = {
+    marginLeft: "0rem",
+  };
   return (
-    <button className={classNames.button} data-testid="menuButton">
+    <button
+      className={classNames.button}
+      style={{ ...defaultStyle, ...style }}
+      data-testid="menuButton"
+    >
       <span className={classNames.buttonBurgerIcon}>
         <span className="top"></span>
         <span className="middle"></span>

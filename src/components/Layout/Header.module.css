@@ -18,6 +18,9 @@
   display: flex;
   justify-content: space-around;
 }
+.menuButton {
+  margin-left: 3rem;
+}
 .lang {
   display: flex;
   justify-content: space-around;

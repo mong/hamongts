@@ -3,6 +3,9 @@ import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import { BsCaretDownFill } from "react-icons/bs";
+import { PickUnitButton } from "../Btns/PickUnitButton";
+import { PopUp } from "../popup";
+import { Menu } from "../Menu";
 
 import styles from "./toc.module.css";
 
@@ -14,6 +17,9 @@ export const TableOfContents = ({ children, lang = "no" }) => {
     <>
       <div className={styles.toc_large}>
         <div className={styles.tocWrapper}>
+          <PopUp btnComponent={() => <PickUnitButton lang="no" />}>
+            <Menu lang="no" />
+          </PopUp>
           <nav className={`${styles.toc}`}>{children}</nav>
         </div>
       </div>
