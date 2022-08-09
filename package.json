@@ -41,7 +41,7 @@
     "js-yaml": "^4.1.0",
     "next": "^12.1.6",
     "react": "18.2.0",
-    "react-dom": "18.1.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
     "react-spring": "^9.4.5",
     "rehype-raw": "^6.1.1",
@@ -55,16 +55,16 @@
     "@cypress/code-coverage": "^3.10.0",
     "@types/d3-scale-chromatic": "^3.0.0",
     "@types/d3-shape": "^3.1.0",
-    "@types/react": "18.0.14",
+    "@types/react": "18.0.17",
     "babel-plugin-istanbul": "^6.1.1",
     "cypress": "^10.1.0",
-    "eslint": "8.17.0",
-    "eslint-config-next": "12.1.6",
+    "eslint": "8.21.0",
+    "eslint-config-next": "12.2.4",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.1",
     "prettier": "^2.7.1",
     "react-markdown": "^8.0.3",
     "start-server-and-test": "^1.14.0",
-    "typescript": "4.7.3"
+    "typescript": "4.7.4"
   }
 }
