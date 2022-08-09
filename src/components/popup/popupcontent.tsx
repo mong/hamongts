@@ -56,9 +56,11 @@ export const PopUpContent: React.FC<PopUpContentProps> = ({
                 className={classNames.popUpContent}
                 ref={ref}
                 style={innerContentStyle}
+                data-testid="popUpContent"
               >
                 <button
                   className={classNames.closeBtn}
+                  data-testid="closeBtn"
                   onClick={() => setActive(false)}
                 >
                   <AiOutlineClose

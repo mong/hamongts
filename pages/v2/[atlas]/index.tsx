@@ -46,7 +46,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
   return (
     <DataContext.Provider value={{ atlasData, mapData }}>
       <Layout lang={obj.lang === "en" ? "en" : "no"}>
-        <main>
+        <main data-testid="v2atlas">
           <TopBanner
             mainTitle={obj.shortTitle}
             pdfUrl=""

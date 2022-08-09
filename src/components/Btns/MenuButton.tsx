@@ -6,7 +6,7 @@ type MenuButtonProps = {
 
 export const MenuButton: React.FC<MenuButtonProps> = ({ lang }) => {
   return (
-    <button className={classNames.button}>
+    <button className={classNames.button} data-testid="menuButton">
       <span className={classNames.buttonBurgerIcon}>
         <span className="top"></span>
         <span className="middle"></span>
