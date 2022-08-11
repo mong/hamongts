@@ -23,6 +23,13 @@ jobs:
       - run: yarn install --immutable
       - run: yarn run build
       - run: yarn run test:headless
+      - name: Archive production artifacts
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress videos
+          path: cypress/videos
+          retention-days: 1
       - name: Code coverage
         if: matrix.node-version == '16.x'
         uses: codecov/codecov-action@v3
