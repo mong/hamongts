@@ -211,7 +211,7 @@ collections:
           name: "lang",
           widget: "select",
           options: ["nb", "nn", "en"],
-          default: "nb",
+          default: "en",
         }
       - label: "Kapittel"
         name: "kapittel"
