@@ -10,6 +10,5 @@ export default defineConfig({
     specPattern: "test/cypress/integration/**/*.cy.{js,jsx,ts,tsx}",
     baseUrl: "http://localhost:3000/helseatlas",
     supportFile: "test/cypress/support/index.ts",
-    defaultCommandTimeout: 10000,
   },
 });

@@ -29,8 +29,7 @@ context("Push some front page buttons", () => {
     cy.get('[data-testid="menuAtlasLink1"]').click(); // Enter an english atlas
     cy.get('[data-testid="mainMenu"]').should("not.exist"); // Menu gone after click
     cy.url({ timeout: 60000 }).should("include", "/en/v1/"); // English atlas is entered in english menu
-    cy.get('[data-testid="buttonNo"]', { timeout: 60000 }).should("exist"); // Wait for button to exist in DOM
-    cy.get('[data-testid="buttonNo"]', { timeout: 60000 }).click(); // Push norwegian button
+    cy.get('[data-testid="buttonNo"]').click({ force: true }); // Push norwegian button
     cy.get('[data-testid="v1/kvalitet"]', { timeout: 60000 }).should("exist"); // Wait for norwegian page to load
     cy.url().should("not.include", "/en/"); // Not English anymore
     cy.get("h1").contains("Likeverdige helsetjenester");
