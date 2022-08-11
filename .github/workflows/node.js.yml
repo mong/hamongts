@@ -24,6 +24,7 @@ jobs:
       - run: yarn run build
       - run: yarn run test:headless
       - name: Archive production artifacts
+        if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: cypress videos
