@@ -7,18 +7,31 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "no": "Antall konsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of consultations per 1.000 inhabitants"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "no": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "barchart",
@@ -27,13 +40,25 @@
         "polikont_rate",
         "primkont_rate"
       ],
-      "xLegend": [
-        "Spesialist",
-        "Fastlege/legevakt"
-      ],
+      "xLegend": {
+        "no": [
+          "Spesialist",
+          "Fastlege/legevakt"
+        ],
+        "en": [
+          "Spesialist",
+          "Fastlege/legevakt"
+        ]
+      },
       "y": "bohf",
-      "xLabel": "Antall konsultasjoner pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder"
+      "xLabel": {
+        "no": "Antall konsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of consultations per 1.000 inhabitants"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      }
     },
     {
       "type": "table",
@@ -42,31 +67,41 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label": "",
+          "label_en": "Referral",
+          "label_no": "Opptakso",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Rate",
+          "label": "",
+          "label_en": "Rate",
+          "label_no": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "ant_legekons",
-          "label": "Konsultasjoner",
+          "label": "",
+          "label_en": "Consulta",
+          "label_no": "Konsulta",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "legekons_pr_pas",
-          "label": "Kons. pr. pas.",
+          "label": "",
+          "label_en": "Cons. pe",
+          "label_no": "Kons. pr",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
-          "label": "Andel spes.helsetj.",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Andel sp",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -76,7 +111,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall konsultasjoner pr. 1 000 innbyggere",
+      "caption": {
+        "no": "Antall konsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of consultations per 1.000 inhabitants"
+      },
       "jenks": [
         {
           "cluster": 1,

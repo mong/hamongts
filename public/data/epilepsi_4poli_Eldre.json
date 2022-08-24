@@ -7,18 +7,31 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "no": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+        "en": "Number of specialist consultations per 1.000 elderly"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "no": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "table",
@@ -27,37 +40,49 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label": "",
+          "label_en": "Referral",
+          "label_no": "Opptakso",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Rate",
+          "label": "",
+          "label_en": "Rate",
+          "label_no": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_poli",
-          "label": "Spesialistkonsultasjoner",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Spesiali",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
-          "label": "Spes.kons. pr. pas.",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Spes.kon",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter",
+          "label": "",
+          "label_en": "Patients",
+          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "legerateSnitt",
-          "label": "Rate, kons. hos spes. eller allmennlege",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Rate, ko",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -67,7 +92,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+      "caption": {
+        "no": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+        "en": "Number of specialist consultations per 1.000 elderly"
+      },
       "jenks": [
         {
           "cluster": 1,

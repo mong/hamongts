@@ -7,19 +7,31 @@
         "andel_pct_btx"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter som bruker Botulintoksin",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "no": "Andel pasienter som bruker Botulintoksin",
+        "en": "Proportion of patients using botulinum toxin"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "andel_pct_btx2019",
         "andel_pct_btx2020",
         "andel_pct_btx2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ],
-      "format": ",.0%"
+      "annualVarLabels": {
+        "no": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "barchart",
@@ -28,13 +40,25 @@
         "botox_offb_rate",
         "botox_avt_rate"
       ],
-      "xLegend": [
-        "Sykehus",
-        "Avtalespesialist"
-      ],
+      "xLegend": {
+        "no": [
+          "Sykehus",
+          "Avtalespesialist"
+        ],
+        "en": [
+          "Sykehus",
+          "Avtalespesialist"
+        ]
+      },
       "y": "bohf",
-      "xLabel": "Andel pasienter som bruker Botulintoksin",
-      "yLabel": "Opptaksområder"
+      "xLabel": {
+        "no": "Andel pasienter som bruker Botulintoksin",
+        "en": "Proportion of patients using botulinum toxin"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      }
     },
     {
       "type": "table",
@@ -43,37 +67,49 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label": "",
+          "label_en": "Referral",
+          "label_no": "Opptakso",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "andel_pct_btx",
-          "label": "Andel behandlet med botulintoksin",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Andel be",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter",
+          "label": "",
+          "label_en": "Patients",
+          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_pas",
-          "label": "Behandlet med botulintoksin",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_avt",
-          "label": "Behandlet hos avtalespesialist",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_offb",
-          "label": "Behandlet på sykehus",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -83,7 +119,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "andel_pct_btx",
-      "caption": "Andel pasienter som bruker Botulintoksin",
+      "caption": {
+        "no": "Andel pasienter som bruker Botulintoksin",
+        "en": "Proportion of patients using botulinum toxin"
+      },
       "jenks": [
         {
           "cluster": 1,
@@ -106,8 +145,7 @@
           "lag_min": 0.158065398824,
           "grense": 0.142393587335
         }
-      ],
-      "format": ",.1%"
+      ]
     },
     {
       "type": "data",

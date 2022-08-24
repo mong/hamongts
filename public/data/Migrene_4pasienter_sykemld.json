@@ -7,19 +7,31 @@
         "andel_pct_sm"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter med minst en sykemelding",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "no": "Andel pasienter med minst en sykemelding",
+        "en": "Proportion of patients with at least one sick leave"
+      },
+      "yLabel": {
+        "no": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "andel_pct_sm2019",
         "andel_pct_sm2020",
         "andel_pct_sm2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ],
-      "format": ",.0%" 
+      "annualVarLabels": {
+        "no": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "table",
@@ -28,31 +40,41 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label": "",
+          "label_en": "Referral",
+          "label_no": "Opptakso",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "andel_pct_sm",
-          "label": "Andel med sykemelding",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Andel me",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "ant_sykempas",
-          "label": "Pasienter sykemeldt",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter med migrene",
+          "label": "",
+          "label_en": "Patients",
+          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "sm_pr_smpas",
-          "label": "Sykemeldinger pr. pas.",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Sykemeld",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -62,8 +84,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "andel_pct_sm",
-      "format": ",.1%" ,
-      "caption": "Andel pasienter med minst en sykemelding",
+      "caption": {
+        "no": "Andel pasienter med minst en sykemelding",
+        "en": "Proportion of patients with at least one sick leave"
+      },
       "jenks": [
         {
           "cluster": 1,
