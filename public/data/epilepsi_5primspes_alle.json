@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -53,7 +53,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -82,21 +82,21 @@
         {
           "id": "legekons_pr_pas",
           "label_no": "Konsultasjoner pr. pas.",
-          "label_en": "txt",
+          "label_en": "Consultations per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
           "label_no": "Andel konsultasjoner hos spesialist",
-          "label_en": "txt",
+          "label_en": "% consult. specialist",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "legerateeldre",
           "label_no": "Rate, eldre",
-          "label_en": "txt",
+          "label_en": "Rate, elderly",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -108,7 +108,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "jenks": [
         {

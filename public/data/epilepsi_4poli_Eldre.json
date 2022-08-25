@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
-        "en": "Number of specialist consultations per 1.000 elderly"
+        "en": "Number of specialist consultations per 1,000 elderly"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -48,21 +48,21 @@
         {
           "id": "rateSnitt",
           "label_no": "Rate",
-          "label_en": "Rate",
+          "label_en": "Rate, specialist",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_poli",
           "label_no": "Spesialistkonsultasjoner",
-          "label_en": "txt",
+          "label_en": "Specialist consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
           "label_no": "Spes.kons. pr. pas.",
-          "label_en": "txt",
+          "label_en": "Consultations per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -76,7 +76,7 @@
         {
           "id": "legerateSnitt",
           "label_no": "Rate, kons. hos spes. eller allmennlege",
-          "label_en": "txt",
+          "label_en": "Rate, specialist and GP",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -88,7 +88,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
-        "en": "Number of specialist consultations per 1.000 elderly"
+        "en": "Number of specialist consultations per 1,000 elderly"
       },
       "jenks": [
         {

@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall med epilepsi pr. 1 000 innbyggere",
-        "en": "Number with epilepsy per 1.000 inhabitants"
+        "en": "Number of epilepsy patients per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -48,15 +48,15 @@
           "Kun allmennlegetj."
         ],
         "en": [
-          "Kun spes.helsetj.",
-          "Allmennlege og spes.helsetj.",
-          "Kun allmennlegetj."
+          "Specialist only",
+          "GP and specialist",
+          "GP only"
         ]
       },
       "y": "bohf",
       "xLabel": {
         "nb": "Antall med epilepsi pr. 1 000 innbyggere",
-        "en": "Number with epilepsy per 1.000 inhabitants"
+        "en": "Number of epilepsy patients per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -78,7 +78,7 @@
         {
           "id": "rateSnitt",
           "label_no": "Pasientrate, alle",
-          "label_en": "txt",
+          "label_en": "Patient rate, all",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -92,21 +92,21 @@
         {
           "id": "andel3_prim",
           "label_no": "Andel kun i allmennlegetj.",
-          "label_en": "txt",
+          "label_en": "GP only %",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "pas_rate_barn",
           "label_no": "Pasientrate, barn",
-          "label_en": "txt",
+          "label_en": "Patient rate, children",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pas_rate_eldre",
           "label_no": "Pasientrate, eldre",
-          "label_en": "txt",
+          "label_en": "Patient rate, elderly",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -118,7 +118,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall med epilepsi pr. 1 000 innbyggere",
-        "en": "Number with epilepsy per 1.000 inhabitants"
+        "en": "Number of epilepsy patients per 1,000 inhabitants"
       },
       "jenks": [
         {

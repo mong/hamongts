@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 barn",
-        "en": "Number of specialist consultations per 1.000 children"
+        "en": "Number of specialist consultations per 1,000 children"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -55,14 +55,14 @@
         {
           "id": "kontakter_poli",
           "label_no": "Spesialistkonsultasjoner",
-          "label_en": "txt",
+          "label_en": "Specialist consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
           "label_no": "Spes.kons. pr. pas.",
-          "label_en": "txt",
+          "label_en": "Consultations per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -81,7 +81,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 barn",
-        "en": "Number of specialist consultations per 1.000 children"
+        "en": "Number of specialist consultations per 1,000 children"
       },
       "jenks": [
         {

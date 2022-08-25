@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall akuttinnleggelser pr. 1 000 innbyggere",
-        "en": "Number of emergency admissions per 1.000 inhabitants"
+        "en": "Number of emergency admissions per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -55,7 +55,7 @@
         {
           "id": "ant_akutt",
           "label_no": "Akuttinnleggelser",
-          "label_en": "txt",
+          "label_en": "emergency admissions",
           "typeVar": "number",
           "format": ",.0f"
         },
@@ -69,7 +69,7 @@
         {
           "id": "akuttinnl_pr_pas",
           "label_no": "Akuttinnl. pr. pas.",
-          "label_en": "txt",
+          "label_en": "emerg. adm. per patient",
           "typeVar": "number",
           "format": ",.2f"
         }
@@ -81,7 +81,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall akuttinnleggelser pr. 1 000 innbyggere",
-        "en": "Number of emergency admissions per 1.000 inhabitants"
+        "en": "Number of emergency admissions per 1,000 inhabitants"
       },
       "jenks": [
         {
