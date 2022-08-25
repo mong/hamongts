@@ -37,16 +37,17 @@ type BarchartProps<
   AnnualVar extends (string & keyof Data)[]
 > = {
   data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
+  lang: "en" | "nb" | "nn";
   x: X;
   y: Y;
   width?: number;
   height?: number;
   margin?: { top: number; bottom: number; right: number; left: number };
-  xLabel?: string;
-  yLabel?: string;
+  xLabel: { en: string; nb: string; nn: string };
+  yLabel: { en: string; nb: string; nn: string };
   xMin?: number;
   xMax?: number;
-  xLegend?: string[];
+  xLegend: { en: string[]; nb: string[]; nn: string[] };
   backgroundColor?: string;
   xAxisLineStroke?: string;
   xAxisTickStroke?: string;
@@ -58,7 +59,7 @@ type BarchartProps<
   yInnerPadding?: number;
   yOuterPadding?: number;
   annualVar?: AnnualVar;
-  annualVarLabels?: number[];
+  annualVarLabels?: { en: number[]; nn: number[]; nb: number[] };
   format: string;
 };
 
@@ -78,6 +79,7 @@ export const Barchart = <
     left: 140,
   },
   data,
+  lang,
   xLabel,
   yLabel,
   x,
@@ -104,6 +106,8 @@ export const Barchart = <
   //animation
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
+
+  const varLabels = annualVarLabels ? annualVarLabels[lang] : undefined;
 
   const sorted = [...data].sort((first, second) => {
     const firstVal = sum(x.map((xVal) => parseFloat(first[xVal])));
@@ -158,12 +162,12 @@ export const Barchart = <
   //annual var scales
   const colorFillScale = scaleLinear()
     .domain([
-      parseFloat(min(annualVarLabels ?? [0])),
-      parseFloat(max(annualVarLabels ?? [1])),
+      parseFloat(min(varLabels ?? [0])),
+      parseFloat(max(varLabels ?? [1])),
     ])
     .range(["black", "white"]);
   const sizeScale = scaleLinear<number>()
-    .domain([min(annualVarLabels ?? [0]), max(annualVarLabels ?? [0])])
+    .domain([min(varLabels ?? [0]), max(varLabels ?? [0])])
     .range([2, yScale.bandwidth() / 2]);
 
   return (
@@ -188,7 +192,7 @@ export const Barchart = <
               fill: "black",
               textAnchor: "end",
             })}
-            label={yLabel}
+            label={yLabel[lang]}
             labelProps={{
               fontSize: 14,
               x: -127,
@@ -211,7 +215,7 @@ export const Barchart = <
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}
-            label={xLabel}
+            label={xLabel[lang]}
             labelProps={{
               fontSize: 14,
               textAnchor: "middle",
@@ -258,7 +262,7 @@ export const Barchart = <
                   colorFillScale={colorFillScale}
                   sizeScale={sizeScale}
                   y={y}
-                  labels={annualVarLabels}
+                  labels={varLabels}
                   key={`${d["bohf"]}${i}`}
                 />
               );
@@ -270,11 +274,15 @@ export const Barchart = <
           colorFillScale={colorFillScale}
           sizeScale={sizeScale}
           values={annualVar}
-          labels={annualVarLabels}
+          labels={varLabels}
         />
       )}
       {x.length > 1 && (
-        <ColorLegend colorScale={colorScale} labels={xLegend} values={x} />
+        <ColorLegend
+          colorScale={colorScale}
+          labels={xLegend[lang]}
+          values={x}
+        />
       )}
     </div>
   );

@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+        "nb": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
         "en": "Number of specialist consultations per 1.000 elderly"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "rate2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -93,7 +93,7 @@
       "data": "qwerty",
       "x": "rateSnitt",
       "caption": {
-        "no": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
+        "nb": "Antall spesialistkonsultasjoner pr. 1 000 eldre",
         "en": "Number of specialist consultations per 1.000 elderly"
       },
       "jenks": [

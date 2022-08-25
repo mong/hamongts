@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Andel pasienter som bruker Botulintoksin",
+        "nb": "Andel pasienter som bruker Botulintoksin",
         "en": "Proportion of patients using botulinum toxin"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "andel_pct_btx2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -41,7 +41,7 @@
         "botox_avt_rate"
       ],
       "xLegend": {
-        "no": [
+        "nb": [
           "Sykehus",
           "Avtalespesialist"
         ],
@@ -52,11 +52,11 @@
       },
       "y": "bohf",
       "xLabel": {
-        "no": "Andel pasienter som bruker Botulintoksin",
+        "nb": "Andel pasienter som bruker Botulintoksin",
         "en": "Proportion of patients using botulinum toxin"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       }
     },
@@ -120,7 +120,7 @@
       "data": "qwerty",
       "x": "andel_pct_btx",
       "caption": {
-        "no": "Andel pasienter som bruker Botulintoksin",
+        "nb": "Andel pasienter som bruker Botulintoksin",
         "en": "Proportion of patients using botulinum toxin"
       },
       "jenks": [

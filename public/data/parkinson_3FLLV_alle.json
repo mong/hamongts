@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
         "en": "Number of general practitioner consultations per 1.000 inhabitants"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "rate2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -41,7 +41,7 @@
         "LV_rate"
       ],
       "xLegend": {
-        "no": [
+        "nb": [
           "Fastlege",
           "Legevakt"
         ],
@@ -52,11 +52,11 @@
       },
       "y": "bohf",
       "xLabel": {
-        "no": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
         "en": "Number of general practitioner consultations per 1.000 inhabitants"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       }
     },
@@ -112,7 +112,7 @@
       "data": "qwerty",
       "x": "rateSnitt",
       "caption": {
-        "no": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
         "en": "Number of general practitioner consultations per 1.000 inhabitants"
       },
       "jenks": [

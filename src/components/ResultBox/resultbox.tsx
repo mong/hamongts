@@ -84,7 +84,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   key={bd.type + i + id}
                   label={bd.type}
                 >
-                  <Barchart {...bd} data={figData} />
+                  <Barchart {...bd} data={figData} lang={lang} />
                 </CarouselItem>
               );
             }
@@ -134,7 +134,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         attrName={bd.x}
                         mapAttr={figData}
                         format={bd.format}
-                        caption={bd.caption}
+                        caption={bd.caption[lang]}
                       />
                     </div>
                   )}
@@ -192,9 +192,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             {figdata && (
               <Abacus
                 data={figdata}
+                lang={lang}
                 x={abacusX}
                 colorBy="bohf"
-                label={boxData[0].xLabel}
+                label={boxData[0].xLabel[lang]}
                 backgroundColor="inherit"
                 format={boxData[0].format}
               />

@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Andel pasienter med minst en sykemelding",
+        "nb": "Andel pasienter med minst en sykemelding",
         "en": "Proportion of patients with at least one sick leave"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "andel_pct_sm2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -85,7 +85,7 @@
       "data": "qwerty",
       "x": "andel_pct_sm",
       "caption": {
-        "no": "Andel pasienter med minst en sykemelding",
+        "nb": "Andel pasienter med minst en sykemelding",
         "en": "Proportion of patients with at least one sick leave"
       },
       "jenks": [

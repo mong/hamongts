@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Andel MS-pasienter som bruker høyaktive legemidler",
+        "nb": "Andel MS-pasienter som bruker høyaktive legemidler",
         "en": "Proportion of patients with MS treated with high-efficacy drugs"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "andel_pct_lm2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -77,7 +77,7 @@
       "data": "qwerty",
       "x": "andel_pct_lm",
       "caption": {
-        "no": "Andel MS-pasienter som bruker høyaktive legemidler",
+        "nb": "Andel MS-pasienter som bruker høyaktive legemidler",
         "en": "Proportion of patients with MS treated with high-efficacy drugs"
       },
       "jenks": [

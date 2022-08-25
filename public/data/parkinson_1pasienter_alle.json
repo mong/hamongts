@@ -8,11 +8,11 @@
       ],
       "y": "bohf",
       "xLabel": {
-        "no": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
+        "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
         "en": "Number of patients with Parkinson's per 1.000 inhabitants"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       },
       "annualVar": [
@@ -21,7 +21,7 @@
         "rate2021"
       ],
       "annualVarLabels": {
-        "no": [
+        "nb": [
           "2019",
           "2020",
           "2021"
@@ -42,7 +42,7 @@
         "prim_rate"
       ],
       "xLegend": {
-        "no": [
+        "nb": [
           "Kun spes.helsetj.",
           "Spes. og allmennlegetj.",
           "Kun allmennlegetj."
@@ -55,11 +55,11 @@
       },
       "y": "bohf",
       "xLabel": {
-        "no": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
+        "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
         "en": "Number of patients with Parkinson's per 1.000 inhabitants"
       },
       "yLabel": {
-        "no": "Opptaksområder",
+        "nb": "Opptaksområder",
         "en": "Referral areas"
       }
     },
@@ -115,7 +115,7 @@
       "data": "qwerty",
       "x": "rateSnitt",
       "caption": {
-        "no": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
+        "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
         "en": "Number of patients with Parkinson's per 1.000 inhabitants"
       },
       "jenks": [
