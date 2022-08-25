@@ -99,6 +99,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                     headers={bd.columns}
                     data={figData}
                     caption={bd.caption}
+                    lang={lang}
                   />
                 </CarouselItem>
               );

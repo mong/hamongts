@@ -40,33 +40,29 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "",
-          "label_en": "Referral",
-          "label_no": "Opptakso",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "andel_pct_lm",
-          "label": "",
+          "label_no": "Andel på høyaktive legemidler",
           "label_en": "txt",
-          "label_no": "Andel på",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "antsnitt",
-          "label": "",
+          "label_no": "Pasienter på høyaktive legemidler",
           "label_en": "txt",
-          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "popsnitt",
-          "label": "",
+          "label_no": "MS-pasienter",
           "label_en": "txt",
-          "label_no": "MS-pasie",
           "typeVar": "number",
           "format": ",.0f"
         }

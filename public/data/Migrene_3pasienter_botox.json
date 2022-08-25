@@ -67,49 +67,43 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "",
-          "label_en": "Referral",
-          "label_no": "Opptakso",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "andel_pct_btx",
-          "label": "",
+          "label_no": "Andel behandlet med botulintoksin",
           "label_en": "txt",
-          "label_no": "Andel be",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "pasienter",
-          "label": "",
+          "label_no": "Pasienter",
           "label_en": "Patients",
-          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_pas",
-          "label": "",
+          "label_no": "Behandlet med botulintoksin",
           "label_en": "txt",
-          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_avt",
-          "label": "",
+          "label_no": "Behandlet hos avtalespesialist",
           "label_en": "txt",
-          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_offb",
-          "label": "",
+          "label_no": "Behandlet på sykehus",
           "label_en": "txt",
-          "label_no": "Behandle",
           "typeVar": "number",
           "format": ",.0f"
         }

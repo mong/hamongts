@@ -70,49 +70,43 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "",
-          "label_en": "Referral",
-          "label_no": "Opptakso",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "",
+          "label_no": "Pasientrate, alle",
           "label_en": "txt",
-          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "",
+          "label_no": "Pasienter",
           "label_en": "Patients",
-          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "andel3_prim",
-          "label": "",
+          "label_no": "Andel kun i allmennlegetj.",
           "label_en": "txt",
-          "label_no": "Andel ku",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "pas_rate_barn",
-          "label": "",
+          "label_no": "Pasientrate, barn",
           "label_en": "txt",
-          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pas_rate_eldre",
-          "label": "",
+          "label_no": "Pasientrate, eldre",
           "label_en": "txt",
-          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         }

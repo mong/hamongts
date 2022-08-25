@@ -67,41 +67,36 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "",
-          "label_en": "Referral",
-          "label_no": "Opptakso",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "",
-          "label_en": "Rate",
           "label_no": "Rate",
+          "label_en": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_prim",
-          "label": "",
+          "label_no": "Allmennlege konsultasjoner",
           "label_en": "txt",
-          "label_no": "Allmennl",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "primkont_pr_pas",
-          "label": "",
-          "label_en": "Cons. pe",
-          "label_no": "Kons. pr",
+          "label_no": "Kons. pr. pas.",
+          "label_en": "Cons. per pat.",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_FL_kont",
-          "label": "",
+          "label_no": "Andel fastlege",
           "label_en": "txt",
-          "label_no": "Andel fa",
           "typeVar": "number",
           "format": ",.1%"
         }
