@@ -7,18 +7,31 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "nb": "Antall med epilepsi pr. 1 000 innbyggere",
+        "en": "Number with epilepsy per 1.000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "nb": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "barchart",
@@ -28,14 +41,27 @@
         "overlapp_rate",
         "prim_rate"
       ],
-      "xLegend": [
-        "Kun spes.helsetj.",
-        "Allmennlege og spes.helsetj.",
-        "Kun allmennlegetj."
-      ],
+      "xLegend": {
+        "nb": [
+          "Kun spes.helsetj.",
+          "Allmennlege og spes.helsetj.",
+          "Kun allmennlegetj."
+        ],
+        "en": [
+          "Kun spes.helsetj.",
+          "Allmennlege og spes.helsetj.",
+          "Kun allmennlegetj."
+        ]
+      },
       "y": "bohf",
-      "xLabel": "Antall med epilepsi pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder"
+      "xLabel": {
+        "nb": "Antall med epilepsi pr. 1 000 innbyggere",
+        "en": "Number with epilepsy per 1.000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      }
     },
     {
       "type": "table",
@@ -44,37 +70,49 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label": "",
+          "label_en": "Referral",
+          "label_no": "Opptakso",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate, alle",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter",
+          "label": "",
+          "label_en": "Patients",
+          "label_no": "Pasiente",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "andel3_prim",
-          "label": "Andel kun i allmennlegetj.",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Andel ku",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "pas_rate_barn",
-          "label": "Pasientrate, barn",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pas_rate_eldre",
-          "label": "Pasientrate, eldre",
+          "label": "",
+          "label_en": "txt",
+          "label_no": "Pasientr",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -84,7 +122,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall med epilepsi pr. 1 000 innbyggere",
+      "caption": {
+        "nb": "Antall med epilepsi pr. 1 000 innbyggere",
+        "en": "Number with epilepsy per 1.000 inhabitants"
+      },
       "jenks": [
         {
           "cluster": 1,
