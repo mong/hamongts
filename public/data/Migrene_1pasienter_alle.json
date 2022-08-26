@@ -7,18 +7,31 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "nb": "Antall pasienter med migrene pr. 1 000 innbyggere",
+        "en": "Number of patients with migraine per 1,000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "nb": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "barchart",
@@ -28,14 +41,27 @@
         "overlapp_rate",
         "prim_rate"
       ],
-      "xLegend": [
-        "Kun spes.helsetj.",
-        "Spes. og allmennlegetj.",
-        "Kun allmennlegetj."
-      ],
+      "xLegend": {
+        "nb": [
+          "Kun spes.helsetj.",
+          "Spes. og allmennlegetj.",
+          "Kun allmennlegetj."
+        ],
+        "en": [
+          "Specialist only",
+          "GP and specialist",
+          "GP only"
+        ]
+      },
       "y": "bohf",
-      "xLabel": "Antall pasienter med migrene pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder"
+      "xLabel": {
+        "nb": "Antall pasienter med migrene pr. 1 000 innbyggere",
+        "en": "Number of patients with migraine per 1,000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      }
     },
     {
       "type": "table",
@@ -44,31 +70,36 @@
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Pasientrate",
+          "label_no": "Pasientrate",
+          "label_en": "Patient rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter",
+          "label_no": "Pasienter",
+          "label_en": "Patients",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "innbyggere",
-          "label": "Innbyggere",
+          "label_no": "Innbyggere",
+          "label_en": "Inhabitants",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "andel3_prim",
-          "label": "Andel kun i allmennlegetj.",
+          "label_no": "Andel kun i allmennlegetj.",
+          "label_en": "GP only %",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -78,7 +109,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall pasienter med migrene pr. 1 000 innbyggere",
+      "caption": {
+        "nb": "Antall pasienter med migrene pr. 1 000 innbyggere",
+        "en": "Number of patients with migraine per 1,000 inhabitants"
+      },
       "jenks": [
         {
           "cluster": 1,

@@ -31,6 +31,7 @@
   line-height: 24px;
   text-decoration-line: underline;
   cursor: pointer;
+  padding-left: 38px;
 }
 
 .selectionBtn span {
