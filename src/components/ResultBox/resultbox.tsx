@@ -215,7 +215,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             <Markdown lang={lang}>{result}</Markdown>
             {updated_date > published_date && (
               <p>
-                <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                {lang === "en" ? (
+                  <em>Updated {timeFormat("%m/%d/%Y")(new Date(updated))}</em>
+                ) : (
+                  <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                )}
               </p>
             )}
           </div>
