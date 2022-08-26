@@ -76,7 +76,7 @@
         {
           "id": "andel_pct_btx",
           "label_no": "Andel behandlet med botulintoksin",
-          "label_en": "txt",
+          "label_en": "% Treated with botulinum toxin",
           "typeVar": "number",
           "format": ",.1%"
         },
@@ -90,21 +90,21 @@
         {
           "id": "ant_botox_pas",
           "label_no": "Behandlet med botulintoksin",
-          "label_en": "txt",
+          "label_en": "# Treated with botulinum toxin",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_avt",
           "label_no": "Behandlet hos avtalespesialist",
-          "label_en": "txt",
+          "label_en": "# Treated at private practice",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "ant_botox_offb",
           "label_no": "Behandlet på sykehus",
-          "label_en": "txt",
+          "label_en": "# Treated at public hospital",
           "typeVar": "number",
           "format": ",.0f"
         }

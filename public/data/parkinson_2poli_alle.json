@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations per 1.000 inhabitants"
+        "en": "Number of specialist consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -46,14 +46,14 @@
           "Avtalespesialist"
         ],
         "en": [
-          "Sykehus",
-          "Avtalespesialist"
+          "Public hospital",
+          "Private practice"
         ]
       },
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations per 1.000 inhabitants"
+        "en": "Number of specialist consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -82,21 +82,21 @@
         {
           "id": "kontakter_poli",
           "label_no": "Spesialistkonsultasjoner",
-          "label_en": "txt",
+          "label_en": "Specialist consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
           "label_no": "Spes.kons. pr. pas.",
-          "label_en": "txt",
+          "label_en": "Consultations per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_off_poli",
           "label_no": "Andel sykehus",
-          "label_en": "txt",
+          "label_en": "% at hospital",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -108,7 +108,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall spesialistkonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations per 1.000 inhabitants"
+        "en": "Number of specialist consultations per 1,000 inhabitants"
       },
       "jenks": [
         {

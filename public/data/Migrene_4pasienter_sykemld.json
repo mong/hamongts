@@ -49,28 +49,28 @@
         {
           "id": "andel_pct_sm",
           "label_no": "Andel med sykemelding",
-          "label_en": "txt",
+          "label_en": "% Patient with sick leave",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "ant_sykempas",
           "label_no": "Pasienter sykemeldt",
-          "label_en": "txt",
+          "label_en": "# Patient with sick leave",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "pasienter",
           "label_no": "Pasienter med migrene",
-          "label_en": "Patients",
+          "label_en": "Migraine patients",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "sm_pr_smpas",
           "label_no": "Sykemeldinger pr. pas.",
-          "label_en": "txt",
+          "label_en": "# Sick leave per patient",
           "typeVar": "number",
           "format": ",.1f"
         }

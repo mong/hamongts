@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -46,14 +46,14 @@
           "Fastlege/legevakt"
         ],
         "en": [
-          "Spesialist",
-          "Fastlege/legevakt"
+          "Specialist",
+          "GP/On-call doctor"
         ]
       },
       "y": "bohf",
       "xLabel": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -89,14 +89,14 @@
         {
           "id": "legekons_pr_pas",
           "label_no": "Kons. pr. pas.",
-          "label_en": "Cons. per pat.",
+          "label_en": "Cons. per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_poli_kont",
           "label_no": "Andel spes.helsetj.",
-          "label_en": "txt",
+          "label_en": "% Specialist",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -108,7 +108,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall konsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of consultations per 1.000 inhabitants"
+        "en": "Number of consultations per 1,000 inhabitants"
       },
       "jenks": [
         {

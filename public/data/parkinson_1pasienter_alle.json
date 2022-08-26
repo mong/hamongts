@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
-        "en": "Number of patients with Parkinson's per 1.000 inhabitants"
+        "en": "Number of patients with Parkinson's per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -48,15 +48,15 @@
           "Kun allmennlegetj."
         ],
         "en": [
-          "Kun spes.helsetj.",
-          "Spes. og allmennlegetj.",
-          "Kun allmennlegetj."
+          "Specialist only",
+          "GP and specialist",
+          "GP only"
         ]
       },
       "y": "bohf",
       "xLabel": {
         "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
-        "en": "Number of patients with Parkinson's per 1.000 inhabitants"
+        "en": "Number of patients with Parkinson's per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -78,7 +78,7 @@
         {
           "id": "rateSnitt",
           "label_no": "Pasientrate",
-          "label_en": "Rate (patients)",
+          "label_en": "Patient rate",
           "typeVar": "number",
           "format": ",.1f"
         },
@@ -92,14 +92,14 @@
         {
           "id": "innbyggere",
           "label_no": "Innbyggere",
-          "label_en": "Inhabitant",
+          "label_en": "Inhabitants",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "andel3_prim",
           "label_no": "Andel kun i allmennlegetj.",
-          "label_en": "txt",
+          "label_en": "GP only %",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -111,7 +111,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall pasienter med Parkinsons pr. 1 000 innbyggere",
-        "en": "Number of patients with Parkinson's per 1.000 inhabitants"
+        "en": "Number of patients with Parkinson's per 1,000 inhabitants"
       },
       "jenks": [
         {

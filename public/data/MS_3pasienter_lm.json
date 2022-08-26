@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Andel MS-pasienter som bruker høyaktive legemidler",
-        "en": "Proportion of patients with MS treated with high-efficacy drugs"
+        "en": "Proportion of MS patients treated with high-efficacy drugs"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -49,21 +49,21 @@
         {
           "id": "andel_pct_lm",
           "label_no": "Andel på høyaktive legemidler",
-          "label_en": "txt",
+          "label_en": "% on high-efficacy therapy",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "antsnitt",
           "label_no": "Pasienter på høyaktive legemidler",
-          "label_en": "txt",
+          "label_en": "# on high-efficacy therapy",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "popsnitt",
           "label_no": "MS-pasienter",
-          "label_en": "txt",
+          "label_en": "MS patients",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -75,7 +75,7 @@
       "x": "andel_pct_lm",
       "caption": {
         "nb": "Andel MS-pasienter som bruker høyaktive legemidler",
-        "en": "Proportion of patients with MS treated with high-efficacy drugs"
+        "en": "Proportion of MS patients treated with high-efficacy drugs"
       },
       "jenks": [
         {

@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of general practitioner consultations per 1.000 inhabitants"
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -46,14 +46,14 @@
           "Legevakt"
         ],
         "en": [
-          "Fastlege",
-          "Legevakt"
+          "Family doctor",
+          "On-call doctor"
         ]
       },
       "y": "bohf",
       "xLabel": {
         "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of general practitioner consultations per 1.000 inhabitants"
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -82,21 +82,21 @@
         {
           "id": "kontakter_prim",
           "label_no": "Allmennlege konsultasjoner",
-          "label_en": "txt",
+          "label_en": "# GP consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "primkont_pr_pas",
           "label_no": "Kons. pr. pas.",
-          "label_en": "Cons. per pat.",
+          "label_en": "Cons. per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_FL_kont",
           "label_no": "Andel fastlege",
-          "label_en": "txt",
+          "label_en": "% GP",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -108,7 +108,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
-        "en": "Number of general practitioner consultations per 1.000 inhabitants"
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
       },
       "jenks": [
         {
