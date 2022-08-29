@@ -18,7 +18,7 @@ export const MainBanner: React.FC<MainBannerProps> = ({
 }) => {
   const engTitle = "Equitable health services – regardless of where you live?";
   const engIngress =
-    "The Norwegian healthcare atlases compares the population's use of health services using interactive maps, reports and fact sheets.";
+    "In Norway, it is a goal for the entire population to have an equal supply of health services across geography and social groups. The health atlas is a tool for comparing the population's use of health services in different geographical areas, regardless of where the patients are treated.";
   return (
     <div className={classNames.main}>
       <div className={classNames.headerMain}>
