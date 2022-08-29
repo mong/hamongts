@@ -46,8 +46,8 @@
           "Allmennlege"
         ],
         "en": [
-          "Spesialist",
-          "Allmennlege"
+          "Specialist",
+          "GP"
         ]
       },
       "y": "bohf",
@@ -63,7 +63,10 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 inhabitants"
+      },
       "columns": [
         {
           "id": "bohf",
@@ -89,7 +92,7 @@
         {
           "id": "andel_poli_kont",
           "label_no": "Andel konsultasjoner hos spesialist",
-          "label_en": "% consult. specialist",
+          "label_en": "% Consult. specialist",
           "typeVar": "number",
           "format": ",.1%"
         },

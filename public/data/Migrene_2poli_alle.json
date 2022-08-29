@@ -9,7 +9,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations (excl. botulinum toxin) per 1,000 inhabitants"
+        "en": "Number of specialist cons. (excl. botulinum toxin) per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -53,7 +53,7 @@
       "y": "bohf",
       "xLabel": {
         "nb": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations (excl. botulinum toxin) per 1,000 inhabitants"
+        "en": "Number of specialist cons. (excl. botulinum toxin) per 1,000 inhabitants"
       },
       "yLabel": {
         "nb": "Opptaksområder",
@@ -63,7 +63,10 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 inhabitants 18 years and older"
+      },
       "columns": [
         {
           "id": "bohf",
@@ -108,7 +111,7 @@
       "x": "rateSnitt",
       "caption": {
         "nb": "Antall spesialistkonsultasjoner (ekskl. Botulintoksin) pr. 1 000 innbyggere",
-        "en": "Number of specialist consultations (excl. botulinum toxin) per 1,000 inhabitants"
+        "en": "Number of specialist cons. (excl. botulinum toxin) per 1,000 inhabitants"
       },
       "jenks": [
         {

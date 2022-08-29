@@ -37,7 +37,10 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021, pasienter som er 18 år og eldre",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021, pasienter som er 18 år og eldre",
+        "en": "Average per year for the period 2019–2021, patients 18 years and older"
+      },
       "columns": [
         {
           "id": "bohf",
