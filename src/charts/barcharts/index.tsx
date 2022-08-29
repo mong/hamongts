@@ -43,11 +43,11 @@ type BarchartProps<
   width?: number;
   height?: number;
   margin?: { top: number; bottom: number; right: number; left: number };
-  xLabel: { en: string; nb: string; nn: string };
-  yLabel: { en: string; nb: string; nn: string };
+  xLabel?: { en: string; nb: string; nn: string };
+  yLabel?: { en: string; nb: string; nn: string };
   xMin?: number;
   xMax?: number;
-  xLegend: { en: string[]; nb: string[]; nn: string[] };
+  xLegend?: { en: string[]; nb: string[]; nn: string[] };
   backgroundColor?: string;
   xAxisLineStroke?: string;
   xAxisTickStroke?: string;
