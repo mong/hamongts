@@ -7,52 +7,73 @@
         "andel_pct_sm"
       ],
       "y": "bohf",
-      "xLabel": "Andel pasienter med minst en sykemelding",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "nb": "Andel pasienter med minst en sykemelding",
+        "en": "Proportion of patients with at least one sick leave"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "andel_pct_sm2019",
         "andel_pct_sm2020",
         "andel_pct_sm2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ],
-      "format": ",.0%" 
+      "annualVarLabels": {
+        "nb": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      },
+      "format": ",.0%"
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021, pasienter som er 18 år og eldre",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021, pasienter som er 18 år og eldre",
+        "en": "Average per year for the period 2019–2021, patients 18 years and older"
+      },
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "andel_pct_sm",
-          "label": "Andel med sykemelding",
+          "label_no": "Andel med sykemelding",
+          "label_en": "% Patient with sick leave",
           "typeVar": "number",
           "format": ",.1%"
         },
         {
           "id": "ant_sykempas",
-          "label": "Pasienter sykemeldt",
+          "label_no": "Pasienter sykemeldt",
+          "label_en": "# Patient with sick leave",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter med migrene",
+          "label_no": "Pasienter med migrene",
+          "label_en": "Migraine patients",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "sm_pr_smpas",
-          "label": "Sykemeldinger pr. pas.",
+          "label_no": "Sykemeldinger pr. pas.",
+          "label_en": "# Sick leave per patient",
           "typeVar": "number",
           "format": ",.1f"
         }
@@ -62,8 +83,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "andel_pct_sm",
-      "format": ",.1%" ,
-      "caption": "Andel pasienter med minst en sykemelding",
+      "caption": {
+        "nb": "Andel pasienter med minst en sykemelding",
+        "en": "Proportion of patients with at least one sick leave"
+      },
       "jenks": [
         {
           "cluster": 1,
@@ -86,7 +109,8 @@
           "lag_min": 0.247774749481,
           "grense": 0.232748951776
         }
-      ]
+      ],
+      "format": ",.1%"
     },
     {
       "type": "data",

@@ -7,51 +7,72 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall spesialistkonsultasjoner pr. 1 000 barn",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "nb": "Antall spesialistkonsultasjoner pr. 1 000 barn",
+        "en": "Number of specialist consultations per 1,000 children"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "nb": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 0-17 år",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 0-17 år",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 children (0-17 years old inhabitants)"
+      },
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Rate",
+          "label_no": "Rate",
+          "label_en": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_poli",
-          "label": "Spesialistkonsultasjoner",
+          "label_no": "Spesialistkonsultasjoner",
+          "label_en": "Specialist consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "polikont_pr_pas",
-          "label": "Spes.kons. pr. pas.",
+          "label_no": "Spes.kons. pr. pas.",
+          "label_en": "Consultations per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "pasienter",
-          "label": "Pasienter",
+          "label_no": "Pasienter",
+          "label_en": "Patients",
           "typeVar": "number",
           "format": ",.0f"
         }
@@ -61,7 +82,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall spesialistkonsultasjoner pr. 1 000 barn",
+      "caption": {
+        "nb": "Antall spesialistkonsultasjoner pr. 1 000 barn",
+        "en": "Number of specialist consultations per 1,000 children"
+      },
       "jenks": [
         {
           "cluster": 1,

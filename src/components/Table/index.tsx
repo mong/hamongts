@@ -14,10 +14,12 @@ type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
   data: Data[];
   headers: {
     id: string & Partial<Headers>;
-    label: string;
+    label_no: string;
+    label_en: string;
     typeVar: Data[Headers];
     format?: string;
   }[];
+  lang: "en" | "nb" | "nn";
 };
 
 export const DataTable = <
@@ -27,6 +29,7 @@ export const DataTable = <
   caption,
   data,
   headers,
+  lang,
 }: DataTableProps<Data, TableHeaders>) => {
   const [order, setOrder] = React.useState<"asc" | "desc">("desc");
   const [orderBy, setOrderBy] = React.useState(headers[1].id);
@@ -56,7 +59,7 @@ export const DataTable = <
                   onClick={createSortHandler(header.id)}
                   sx={{ fontWeight: 600 }}
                 >
-                  {header.label}
+                  {lang === "en" ? header.label_en : header.label_no}
                 </TableSortLabel>
               </TableCell>
             ))}

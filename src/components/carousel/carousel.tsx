@@ -31,7 +31,11 @@ const SelectionBtn = ({ lang }: { lang?: "nb" | "en" | "nn" }) => {
       <AiOutlineInfoCircle color="#033F85" />
       <span>
         {" "}
-        {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
+        {lang === "nn"
+          ? "Utval"
+          : lang === "en"
+          ? "Patient selection"
+          : "Utvalg"}
       </span>
     </button>
   );

@@ -84,7 +84,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   key={bd.type + i + id}
                   label={bd.type}
                 >
-                  <Barchart {...bd} data={figData} />
+                  <Barchart {...bd} data={figData} lang={lang} />
                 </CarouselItem>
               );
             }
@@ -98,7 +98,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   <DataTable
                     headers={bd.columns}
                     data={figData}
-                    caption={bd.caption}
+                    caption={bd.caption[lang]}
+                    lang={lang}
                   />
                 </CarouselItem>
               );
@@ -134,7 +135,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         attrName={bd.x}
                         mapAttr={figData}
                         format={bd.format}
-                        caption={bd.caption}
+                        caption={bd.caption[lang]}
                       />
                     </div>
                   )}
@@ -192,9 +193,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             {figdata && (
               <Abacus
                 data={figdata}
+                lang={lang}
                 x={abacusX}
                 colorBy="bohf"
-                label={boxData[0].xLabel}
+                label={boxData[0].xLabel[lang]}
                 backgroundColor="inherit"
                 format={boxData[0].format}
               />
@@ -213,7 +215,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             <Markdown lang={lang}>{result}</Markdown>
             {updated_date > published_date && (
               <p>
-                <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                {lang === "en" ? (
+                  <em>Updated {timeFormat("%m/%d/%Y")(new Date(updated))}</em>
+                ) : (
+                  <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                )}
               </p>
             )}
           </div>
