@@ -1,9 +1,9 @@
 {
   "frontpagetext": "The health atlas for chronic diseases looks at health service use for patients who had repeated contact with the general practitioner and specialist health service.",
   "filename": "kronikere",
-  "publisert": false,
+  "publisert": true,
   "lang": "en",
-  "date": "2022-04-29T15:00:00.000Z",
+  "date": "2022-07-29T15:00:00.000Z",
   "ingress": "In this atlas, we have examined whether the use of health services for patients with selected chronic conditions varies based on their place of residence - defined by the health institutions' referral areas. The conditions presented in the atlas have been selected on the basis of five criteria, among those are: data quality, the size of the patient group, and whether the patients require follow-up in the specialist healthcare system over time.",
   "kapittel": [
     {
