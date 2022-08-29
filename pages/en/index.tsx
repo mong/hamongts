@@ -65,7 +65,6 @@ export const getStaticProps: GetStaticProps = async () => {
         publisert,
         lang,
         date,
-        mainTitle,
         shortTitle,
       } = parsedContent;
       if (!publisert) {
@@ -73,7 +72,7 @@ export const getStaticProps: GetStaticProps = async () => {
       }
 
       return {
-        article: `en/v2/${filename}`,
+        article: `v2/${filename}`,
         frontMatter: {
           shortTitle,
           image,

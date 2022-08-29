@@ -7,7 +7,6 @@
   cursor: pointer;
   border: none;
   background: none;
-  margin-left: 3rem;
   transition: 0.1s;
 }
 .button:hover,

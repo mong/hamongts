@@ -56,9 +56,11 @@ export const Header: React.FC<HeaderProps> = ({ origin, lang }) => {
               </Link>
             </div>
           </div>
-          <PopUp btnComponent={() => <MenuButton lang={lang} />}>
-            <Menu lang={lang} />
-          </PopUp>
+          <div className={classNames.menuButton}>
+            <PopUp btnComponent={() => <MenuButton lang={lang} />}>
+              <Menu lang={lang} />
+            </PopUp>
+          </div>
         </div>
       </nav>
     </header>
