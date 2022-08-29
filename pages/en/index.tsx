@@ -58,8 +58,15 @@ export const getStaticProps: GetStaticProps = async () => {
         encoding: "utf-8",
       });
       const parsedContent = JSON.parse(rawContent);
-      const { image, frontpagetext, filename, publisert, date, shortTitle } =
-        parsedContent;
+      const {
+        image,
+        frontpagetext,
+        filename,
+        publisert,
+        lang,
+        date,
+        shortTitle,
+      } = parsedContent;
       if (!publisert) {
         return null;
       }
@@ -71,7 +78,7 @@ export const getStaticProps: GetStaticProps = async () => {
           image,
           frontpagetext,
           date,
-          lang: "en",
+          lang: lang === "en" ? lang : "no",
         },
       };
     })
