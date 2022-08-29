@@ -66,7 +66,10 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Årlige gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
+      "caption": {
+        "nb": "Årlige gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 inhabitants"
+      },
       "columns": [
         {
           "id": "bohf",

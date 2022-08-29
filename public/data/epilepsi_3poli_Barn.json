@@ -36,7 +36,10 @@
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 0-17 år",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 0-17 år",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 children (0-17 years old inhabitants)"
+      },
       "columns": [
         {
           "id": "bohf",

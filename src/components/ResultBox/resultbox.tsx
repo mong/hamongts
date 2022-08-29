@@ -98,7 +98,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   <DataTable
                     headers={bd.columns}
                     data={figData}
-                    caption={bd.caption}
+                    caption={bd.caption[lang]}
                     lang={lang}
                   />
                 </CarouselItem>
