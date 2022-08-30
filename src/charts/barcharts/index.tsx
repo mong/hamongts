@@ -7,7 +7,10 @@ import { max, sum, min } from "d3-array";
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 import { AnnualVariation } from "./AnnualVariation";
 
@@ -210,7 +213,11 @@ export const Barchart = <
             stroke={xAxisLineStroke}
             numTicks={4}
             tickFormat={(val) =>
-              format ? customFormat(format)(val) : val.toString()
+              format
+                ? lang === "en"
+                  ? customFormatEng(format)(val)
+                  : customFormat(format)(val)
+                : val.toString()
             }
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
