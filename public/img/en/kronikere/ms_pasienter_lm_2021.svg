@@ -42,28 +42,28 @@
 </clipPath>
 </defs>
 <g clip-path="url(#SVGMain_ClipPath3)">
-<path d="M102.84875 445.07276L679.00146 445.07276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
-<path d="M113.83259 445.07276L113.83259 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M102.84875 445.07276L679.00146 445.07276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
+<path d="M113.83259 445.07276L113.83259 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 109.33259, 472.42276)">
 <text textLength="9.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000030;</text>
 </g>
-<path d="M218.83846 445.07276L218.83846 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M218.83846 445.07276L218.83846 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 205.33846, 472.42276)">
 <text textLength="27.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M323.84432 445.07276L323.84432 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M323.84432 445.07276L323.84432 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 303.84432, 472.42276)">
 <text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000031;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M428.85018 445.07276L428.85018 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M428.85018 445.07276L428.85018 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 408.85018, 472.42276)">
 <text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000031;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
-<path d="M533.85604 445.07276L533.85604 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M533.85604 445.07276L533.85604 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 513.85604, 472.42276)">
 <text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000032;&#x0000A0;&#x000030;&#x000030;&#x000030;</text>
 </g>
-<path d="M638.8619 445.07276L638.8619 452.67276" style="stroke: #989EA1; stroke-width: 1; fill: none; "></path>
+<path d="M638.8619 445.07276L638.8619 452.67276" style="stroke: #000000; stroke-width: 1; fill: none; "></path>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 618.8619, 472.42276)">
 <text textLength="40.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000032;&#x0000A0;&#x000035;&#x000030;&#x000030;</text>
 </g>
@@ -86,7 +86,7 @@
 <text textLength="78.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000052;&#x000069;&#x000074;&#x000075;&#x00006B;&#x000073;&#x000069;&#x00006D;&#x000061;&#x000062;</text>
 </g>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.2441, 24.41891)">
-<text textLength="208.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 23px; white-space: pre; ">&#x000048;&#x0000F8;&#x000079;&#x000061;&#x00006B;&#x000074;&#x000069;&#x000076;&#x000065;&#x000020;&#x00006C;&#x000065;&#x000067;&#x000065;&#x00006D;&#x000069;&#x000064;&#x00006C;&#x000065;&#x000072;</text>
+<text textLength="196.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 23px; white-space: pre; ">&#x000048;&#x000069;&#x000067;&#x000068;&#x00002D;&#x000065;&#x000066;&#x000066;&#x000069;&#x000063;&#x000061;&#x000063;&#x000079;&#x000020;&#x000064;&#x000072;&#x000075;&#x000067;&#x000073;</text>
 </g>
 </g>
 </g>
@@ -259,19 +259,16 @@ d="M85 341L256 384Q270 280 338 225 T527 170Q649 170 708 219 T768 332Q768 391 710
 <glyph unicode="&#72;" horiz-adv-x="1487" 
 d="M170 0L170 1493L341 1493L341 896L1152 896L1152 1493L1322 1493L1322 0L1152 0L1152 725L341 
 725L341 0L170 0Z" ></glyph>
-<glyph unicode="&#248;" horiz-adv-x="1232" 
-d="M874 1086L975 1222L1099 1116L969 942Q1044 856 1072 786 Q1109 686 1109 554 Q1109 254 940 112 Q803 
-0 610 0 Q450 0 328 90 L229 -42L100 56L188 174Q160 244 147 313 Q128 425 128 567 Q
-128 876 266 1014 T592 1152Q670 1152 735 1136 T874 1086ZM746 918Q666 981 576 981 Q458 981 378 
-878 T298 572Q298 421 298 320 ZM857 794L412 201Q495 170 599 170 Q746 170 842 269 T938 564Q
-938 638 918 693 Q904 734 857 794Z" ></glyph>
+<glyph unicode="&#45;" horiz-adv-x="680" 
+d="M85 426L85 597L640 597L640 426L85 426Z" ></glyph>
+<glyph unicode="&#102;" horiz-adv-x="552" 
+d="M170 0L170 938L0 938L0 1109L170 1109L170 1210Q170 1306 188 1352 Q213 1415 276 1454 T456 
+1493Q532 1493 624 1474 L597 1314Q541 1322 491 1322 Q409 1322 375 1294 T341 1188L341 1109L554 1109L
+554 938L341 938L341 0L170 0Z" ></glyph>
 <glyph unicode="&#121;" horiz-adv-x="977" 
 d="M128 -405L85 -240Q146 -256 192 -256 Q254 -256 292 -235 T353 -177Q370 -149 410 -38 Q415 -22 426 
 7 L42 1109L220 1109L436 510Q477 396 532 270 Q551 333 566 453 L768 1109L944 1109L594 -30Q
 530 -198 494 -261 Q448 -346 387 -386 T242 -426Q190 -426 128 -405Z" ></glyph>
-<glyph unicode="&#118;" horiz-adv-x="1062" 
-d="M436 0L42 1109L222 1109L464 444Q502 337 533 221 Q557 309 600 432 L845 1109L1024 1109L633 
-0L436 0Z" ></glyph>
 <glyph unicode="&#32;" horiz-adv-x="552" 
 ></glyph>
 </font>

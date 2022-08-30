@@ -301,18 +301,15 @@
 <text textLength="65.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 16px; white-space: pre; ">&#x000041;&#x00006B;&#x000065;&#x000072;&#x000073;&#x000068;&#x000075;&#x000073;</text>
 </g>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.20094, 25.42249)">
-<text textLength="180.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 24px; white-space: pre; ">&#x00004F;&#x000070;&#x000070;&#x000074;&#x000061;&#x00006B;&#x000073;&#x00006F;&#x00006D;&#x000072;&#x0000E5;&#x000064;&#x000065;&#x000072;</text>
+<text textLength="236.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 24px; white-space: pre; ">&#x000048;&#x00006F;&#x000073;&#x000070;&#x000069;&#x000074;&#x000061;&#x00006C;&#x000020;&#x000072;&#x000065;&#x000066;&#x000065;&#x000072;&#x000072;&#x000061;&#x00006C;&#x000020;&#x000061;&#x000072;&#x000065;&#x000061;&#x000073;</text>
 </g>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 545.64874, 17.93005)">
-<text textLength="63.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="16.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000069;&#x00006E;&#x00006E;&#x000062;&#x000079;&#x000067;&#x000067;&#x000065;&#x000072;&#x000065;</text>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 15.0, 0.0)">
-<text textLength="33.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000041;&#x00006E;&#x000074;&#x000061;&#x00006C;&#x00006C;</text>
-</g>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 545.64874, 33.93005)">
+<text textLength="63.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000049;&#x00006E;&#x000068;&#x000061;&#x000062;&#x000069;&#x000074;&#x000061;&#x00006E;&#x000074;&#x000073;</text>
 </g>
 <g transform="matrix(1.0, 0.0, 0.0, 1.0, 618.05154, 17.93005)">
 <text textLength="50.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="16.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000028;&#x00006D;&#x000065;&#x000064;&#x000069;&#x000061;&#x00006E;&#x000029;</text>
-<g transform="matrix(1.0, 0.0, 0.0, 1.0, 10.0, 0.0)">
-<text textLength="30.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000041;&#x00006C;&#x000064;&#x000065;&#x000072;</text>
+<g transform="matrix(1.0, 0.0, 0.0, 1.0, 13.0, 0.0)">
+<text textLength="23.0" lengthAdjust="spacingAndGlyphs" x="0.0" y="0.5" style="fill: #000000; font-family: 'SVGMain_Arial Font3', 'Arial', sans-serif; font-size: 13px; white-space: pre; ">&#x000041;&#x000067;&#x000065;</text>
 </g>
 </g>
 </g>
@@ -569,19 +566,6 @@ d="M128 -426L128 1109L298 1109L298 960Q357 1056 431 1104 T610 1152Q748 1152 854 
 584Q1066 415 1005 279 T830 72T587 0Q494 0 420 44 T298 154L298 -426L128 -426ZM298 566Q
 298 364 385 267 T594 170Q718 170 807 271 T896 581Q896 782 809 881 T602 981Q482 981 390 
 875 T298 566Z" ></glyph>
-<glyph unicode="&#229;" horiz-adv-x="1147" 
-d="M853 128Q759 58 664 29 T459 0Q279 0 182 89 T85 316Q85 396 122 463 T218 571T352 
-632Q408 647 518 660 Q745 688 852 725 Q853 761 853 771 Q853 878 800 922 Q728 981 586 981 Q
-454 981 391 934 T298 768L128 810Q152 928 207 1001 T367 1113T610 1152Q747 1152 832 1118 T958 
-1032T1014 903Q1024 854 1024 734 L1024 495Q1024 245 1032 161 T1066 0L896 0Q862 54 853 128ZM
-853 554Q746 518 532 492 Q411 477 361 458 T283 404T256 326Q256 259 315 215 T489 170Q602 
-170 691 214 T820 330Q852 386 852 494 ZM425 1429Q425 1507 482 1564 T617 1621Q696 1621 752 1565 T
-809 1429Q809 1348 752 1293 T618 1237Q538 1237 482 1292 T425 1429ZM510 1431Q510 1385 542 1354 T617 
-1322Q660 1322 692 1354 T724 1429Q724 1473 692 1504 T617 1536Q574 1536 542 1505 T510 1431Z" ></glyph>
-<glyph unicode="&#121;" horiz-adv-x="977" 
-d="M128 -405L85 -240Q146 -256 192 -256 Q254 -256 292 -235 T353 -177Q370 -149 410 -38 Q415 -22 426 
-7 L42 1109L220 1109L436 510Q477 396 532 270 Q551 333 566 453 L768 1109L944 1109L594 -30Q
-530 -198 494 -261 Q448 -346 387 -386 T242 -426Q190 -426 128 -405Z" ></glyph>
 <glyph unicode="&#41;" horiz-adv-x="680" 
 d="M213 -426L85 -426Q384 52 384 533 Q384 721 341 906 Q307 1056 246 1193 Q207 1283 85 1493 L213 
 1493Q394 1242 480 990 Q554 772 554 534 Q554 264 455 12 T213 -426Z" ></glyph>
