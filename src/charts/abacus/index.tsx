@@ -3,7 +3,10 @@ import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max } from "d3-array";
 import classNames from "../barcharts/ChartLegend.module.css";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -106,7 +109,11 @@ export const Abacus = <
             stroke={axisLineStroke}
             numTicks={4}
             tickFormat={(val) =>
-              format ? customFormat(format)(val) : val.toString()
+              format
+                ? lang === "en"
+                  ? customFormatEng(format)(val)
+                  : customFormat(format)(val)
+                : val.toString()
             }
             tickLength={tickLength}
             tickStroke={axisTickStroke}

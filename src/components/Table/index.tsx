@@ -7,7 +7,10 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import { getOrderComparator } from "../../helpers/functions/dataTransformation";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
   caption: string;
@@ -86,7 +89,9 @@ export const DataTable = <
                     align={cell.typeVar === "number" ? "right" : "left"}
                   >
                     {cell.format
-                      ? customFormat(cell.format)(row[cell.id])
+                      ? lang === "en"
+                        ? customFormatEng(cell.format)(row[cell.id])
+                        : customFormat(cell.format)(row[cell.id])
                       : row[cell.id]}
                   </TableCell>
                 ))}
