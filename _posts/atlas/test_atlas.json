@@ -21,7 +21,7 @@
         },
         {
           "type": "tekst",
-          "tekst": "Så sier vi litt mer her om blablabla.\n\n![Kart](/helseatlas/img/map.png \"Variasjon i kirurgiske aborter etter jordmorbesøk\")",
+          "tekst": "Så sier vi litt mer her om blablabla.\n\n![Kart](/helseatlas/img/no/test_atlas/map.png \"Variasjon i kirurgiske aborter etter jordmorbesøk\")",
           "beskrivelse": "Kart"
         },
         {
@@ -37,7 +37,7 @@
       ]
     }
   ],
-  "image": "/helseatlas/img/colourbox30300429.jpg",
+  "image": "/helseatlas/img/no/test_atlas/colourbox30300429.jpg",
   "shortTitle": "Fødselshjelp",
   "mainTitle": "Helseatlas for MS og fødselshjelp"
 }
