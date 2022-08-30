@@ -1,9 +1,6 @@
-import { visit } from "unist-util-visit";
-import type { Root } from "hast";
-
 export const rehypeWrapWithDiv = () => {
   return (tree) => {
-    const divWrapper: Root = {
+    const divWrapper = {
       type: "root",
       children: [
         {
