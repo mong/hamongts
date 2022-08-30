@@ -18,6 +18,11 @@ collections:
     format: json
     create: false
     delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/no/{{filename}}"
+    public_folder: "/helseatlas/img/no/{{filename}}"
+    choose_url: false
     identifier_field: filename
     widget: "list"
     fields:
@@ -180,6 +185,11 @@ collections:
     format: json
     create: false
     delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/en/{{filename}}"
+    public_folder: "/helseatlas/img/en/{{filename}}"
+    choose_url: false
     identifier_field: filename
     widget: "list"
     fields:

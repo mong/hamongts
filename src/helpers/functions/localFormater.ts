@@ -9,3 +9,13 @@ const formatDefinition: FormatLocaleDefinition = {
 };
 
 export const customFormat = formatLocale(formatDefinition).format;
+
+const formatDefinitionEng: FormatLocaleDefinition = {
+  decimal: ".",
+  thousands: ",",
+  grouping: [3],
+  currency: ["USD", ""],
+  percent: "%",
+};
+
+export const customFormatEng = formatLocale(formatDefinitionEng).format;

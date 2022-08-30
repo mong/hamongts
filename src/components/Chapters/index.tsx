@@ -13,6 +13,7 @@ type Faktaboks = {
   type: "faktaboks";
   overskrift: string;
   tekst: string;
+  lang: "nb" | "en" | "nn";
 };
 
 type Resultatboks = {
@@ -70,6 +71,7 @@ const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
                     mainID +
                     "-fact-" +
                     box.overskrift.toLowerCase().replace(/\s/g, "-"),
+                  lang: lang,
                 }
               : box.type === "resultatboks"
               ? {

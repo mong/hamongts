@@ -136,6 +136,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         mapAttr={figData}
                         format={bd.format}
                         caption={bd.caption[lang]}
+                        lang={lang}
                       />
                     </div>
                   )}
