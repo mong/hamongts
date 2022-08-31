@@ -2,15 +2,15 @@ import path from "path";
 import { GetStaticProps, GetStaticPaths } from "next";
 import fs from "fs";
 import matter from "gray-matter";
-import Layout from "../src/components/Layout";
-import { TopBanner } from "../src/components/Atlas/topBanner";
-import styles from "../src/styles/Atlas.module.css";
-import { ChapterProps, Chapters } from "../src/components/Chapters";
-import { AtlasData } from "../src/types";
-import { TableOfContents } from "../src/components/toc";
-import { OrderedList } from "../src/components/toc/orderedlist";
-import { ListItem } from "../src/components/toc/listitem";
-import { DataContext } from "../src/components/Context";
+import Layout from "../../../src/components/Layout";
+import { TopBanner } from "../../../src/components/Atlas/topBanner";
+import styles from "../../../src/styles/Atlas.module.css";
+import { ChapterProps, Chapters } from "../../../src/components/Chapters";
+import { AtlasData } from "../../../src/types";
+import { TableOfContents } from "../../../src/components/toc";
+import { OrderedList } from "../../../src/components/toc/orderedlist";
+import { ListItem } from "../../../src/components/toc/listitem";
+import { DataContext } from "../../../src/components/Context";
 
 interface AtlasPageProps {
   content: string;
@@ -46,7 +46,7 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
   return (
     <DataContext.Provider value={{ atlasData, mapData }}>
       <Layout lang={obj.lang === "en" ? "en" : "no"}>
-        <main>
+        <main data-testid="v2atlas">
           <TopBanner
             mainTitle={obj.shortTitle}
             pdfUrl=""

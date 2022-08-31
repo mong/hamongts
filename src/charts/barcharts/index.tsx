@@ -7,7 +7,10 @@ import { max, sum, min } from "d3-array";
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
 import { toBarchart } from "../../helpers/functions/dataTransformation";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 import { AnnualVariation } from "./AnnualVariation";
 
@@ -37,16 +40,17 @@ type BarchartProps<
   AnnualVar extends (string & keyof Data)[]
 > = {
   data: BarchartData<Data, X, Y, ColorBy, AnnualVar>[];
+  lang: "en" | "nb" | "nn";
   x: X;
   y: Y;
   width?: number;
   height?: number;
   margin?: { top: number; bottom: number; right: number; left: number };
-  xLabel?: string;
-  yLabel?: string;
+  xLabel?: { en: string; nb: string; nn: string };
+  yLabel?: { en: string; nb: string; nn: string };
   xMin?: number;
   xMax?: number;
-  xLegend?: string[];
+  xLegend?: { en: string[]; nb: string[]; nn: string[] };
   backgroundColor?: string;
   xAxisLineStroke?: string;
   xAxisTickStroke?: string;
@@ -58,7 +62,7 @@ type BarchartProps<
   yInnerPadding?: number;
   yOuterPadding?: number;
   annualVar?: AnnualVar;
-  annualVarLabels?: number[];
+  annualVarLabels?: { en: number[]; nn: number[]; nb: number[] };
   format: string;
 };
 
@@ -78,6 +82,7 @@ export const Barchart = <
     left: 140,
   },
   data,
+  lang,
   xLabel,
   yLabel,
   x,
@@ -104,6 +109,8 @@ export const Barchart = <
   //animation
   const innerHeight = height - margin.top - margin.bottom;
   const innerWidth = width - margin.left - margin.right;
+
+  const varLabels = annualVarLabels ? annualVarLabels[lang] : undefined;
 
   const sorted = [...data].sort((first, second) => {
     const firstVal = sum(x.map((xVal) => parseFloat(first[xVal])));
@@ -158,12 +165,12 @@ export const Barchart = <
   //annual var scales
   const colorFillScale = scaleLinear()
     .domain([
-      parseFloat(min(annualVarLabels ?? [0])),
-      parseFloat(max(annualVarLabels ?? [1])),
+      parseFloat(min(varLabels ?? [0])),
+      parseFloat(max(varLabels ?? [1])),
     ])
     .range(["black", "white"]);
   const sizeScale = scaleLinear<number>()
-    .domain([min(annualVarLabels ?? [0]), max(annualVarLabels ?? [0])])
+    .domain([min(varLabels ?? [0]), max(varLabels ?? [0])])
     .range([2, yScale.bandwidth() / 2]);
 
   return (
@@ -188,12 +195,13 @@ export const Barchart = <
               fill: "black",
               textAnchor: "end",
             })}
-            label={yLabel}
+            label={yLabel[lang]}
             labelProps={{
-              fontSize: 20,
-              x: -80,
+              fontSize: 14,
+              x: -127,
               y: -15,
               transform: "(rotateX(90deg))",
+              fontWeight: "bold",
             }}
           />
         </Group>
@@ -205,15 +213,20 @@ export const Barchart = <
             stroke={xAxisLineStroke}
             numTicks={4}
             tickFormat={(val) =>
-              format ? customFormat(format)(val) : val.toString()
+              format
+                ? lang === "en"
+                  ? customFormatEng(format)(val)
+                  : customFormat(format)(val)
+                : val.toString()
             }
             tickLength={tickLength}
             tickStroke={xAxisTickStroke}
             tickTransform={`translate(0,0)`}
-            label={xLabel}
+            label={xLabel[lang]}
             labelProps={{
-              fontSize: 15,
+              fontSize: 14,
               textAnchor: "middle",
+              fontWeight: "bold",
             }}
           />
         </Group>
@@ -256,7 +269,7 @@ export const Barchart = <
                   colorFillScale={colorFillScale}
                   sizeScale={sizeScale}
                   y={y}
-                  labels={annualVarLabels}
+                  labels={varLabels}
                   key={`${d["bohf"]}${i}`}
                 />
               );
@@ -268,11 +281,15 @@ export const Barchart = <
           colorFillScale={colorFillScale}
           sizeScale={sizeScale}
           values={annualVar}
-          labels={annualVarLabels}
+          labels={varLabels}
         />
       )}
       {x.length > 1 && (
-        <ColorLegend colorScale={colorScale} labels={xLegend} values={x} />
+        <ColorLegend
+          colorScale={colorScale}
+          labels={xLegend[lang]}
+          values={x}
+        />
       )}
     </div>
   );

@@ -8,7 +8,7 @@ type MenuProps = {
 
 export const Menu: React.FC<MenuProps> = ({ lang }) => {
   return (
-    <div className={classNames.main_menu}>
+    <div className={classNames.main_menu} data-testid="mainMenu">
       <div className={classNames.container}>
         <div className={classNames.nav_group}>
           <div className={classNames.body}>
@@ -41,46 +41,46 @@ const EnglishMenu = () => {
           <span className={classNames.title}>Our Helseatlas</span>
           <ul>
             <li>
-              <Link href="/en/kvalitet">Healthcare Quality Atlas</Link>
+              <Link href="/en/v1/kvalitet">Healthcare Quality Atlas</Link>
             </li>
-            <li>
-              <Link href="/en/psyk">
+            <li data-testid="menuAtlasLink1">
+              <Link href="/en/v1/psyk">
                 Healthcare Atlas for Mental Healthcare and Substance Abuse
                 Treatment
               </Link>
             </li>
             <li>
-              <Link href="/en/fodsel">Obstetrics Healthcare Atlas</Link>
+              <Link href="/en/v1/fodsel">Obstetrics Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/gyn">Gynaecology Healthcare Atlas</Link>
+              <Link href="/en/v1/gyn">Gynaecology Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/ortopedi">
+              <Link href="/en/v1/ortopedi">
                 Orthopaedic Healthcare Atlas for Norway
               </Link>
             </li>
             <li>
-              <Link href="/en/dagkir2">Day surgery in Norway 2013–2017</Link>
+              <Link href="/en/v1/dagkir2">Day surgery in Norway 2013–2017</Link>
             </li>
             <li>
-              <Link href="/en/kols">COPD Healthcare Atlas</Link>
+              <Link href="/en/v1/kols">COPD Healthcare Atlas</Link>
             </li>
             <li>
-              <Link href="/en/eldre">
+              <Link href="/en/v1/eldre">
                 Healthcare Atlas for the Elderly in Norway
               </Link>
             </li>
             <li>
-              <Link href="/en/nyfodt">
+              <Link href="/en/v1/nyfodt">
                 The Norwegian Neonatal Healthcare Atlas
               </Link>
             </li>
             <li>
-              <Link href="/en/barn">Child healthcare atlas for Norway</Link>
+              <Link href="/en/v1/barn">Child healthcare atlas for Norway</Link>
             </li>
             <li>
-              <Link href="/en/dagkir">Day surgery in Norway 2011–2013</Link>
+              <Link href="/en/v1/dagkir">Day surgery in Norway 2011–2013</Link>
             </li>
           </ul>
         </ul>
@@ -109,15 +109,15 @@ const NorskMeny = () => {
         <ul>
           <span className={classNames.title}>Våre helseatlas</span>
           <ul>
-            <li>
-              <Link href="/kronikere">
+            <li data-testid="menuAtlasLink2">
+              <Link href="/v2/kronikere">
                 Helseatlas for utvalgte kroniske sykdommer
               </Link>
             </li>
             <li>
               <Link href="/v1/kvalitet">Helseatlas for kvalitet</Link>
             </li>
-            <li>
+            <li data-testid="menuAtlasLink1">
               <Link href="/v1/psyk">
                 Helseatlas for psykisk helsevern og rusbehandling
               </Link>

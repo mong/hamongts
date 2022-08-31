@@ -152,7 +152,7 @@ export const AtlasContent: React.FC<AtlasContentProps> = ({
   return (
     <>
       <Layout lang={frontMatter.lang === "en" ? "en" : "no"}>
-        <main>
+        <main data-testid="v1atlas">
           <TopBanner {...frontMatter} />
           <div className={`${styles.atlasContent}`} style={{ display: "flex" }}>
             <ReactMarkdown

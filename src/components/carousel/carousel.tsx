@@ -27,11 +27,15 @@ const chartIcons = {
 
 const SelectionBtn = ({ lang }: { lang?: "nb" | "en" | "nn" }) => {
   return (
-    <button className={styles.selectionBtn}>
+    <button className={styles.selectionBtn} data-testid="selectionBtn">
       <AiOutlineInfoCircle color="#033F85" />
       <span>
         {" "}
-        {lang === "nn" ? "Utval" : lang === "en" ? "Selection" : "Utvalg"}
+        {lang === "nn"
+          ? "Utval"
+          : lang === "en"
+          ? "Patient selection"
+          : "Utvalg"}
       </span>
     </button>
   );

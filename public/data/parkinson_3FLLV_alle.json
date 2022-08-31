@@ -7,18 +7,31 @@
         "rateSnitt"
       ],
       "y": "bohf",
-      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder",
+      "xLabel": {
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      },
       "annualVar": [
         "rate2019",
         "rate2020",
         "rate2021"
       ],
-      "annualVarLabels": [
-        "2019",
-        "2020",
-        "2021"
-      ]
+      "annualVarLabels": {
+        "nb": [
+          "2019",
+          "2020",
+          "2021"
+        ],
+        "en": [
+          "2019",
+          "2020",
+          "2021"
+        ]
+      }
     },
     {
       "type": "barchart",
@@ -27,46 +40,66 @@
         "FL_rate",
         "LV_rate"
       ],
-      "xLegend": [
-        "Fastlege",
-        "Legevakt"
-      ],
+      "xLegend": {
+        "nb": [
+          "Fastlege",
+          "Legevakt"
+        ],
+        "en": [
+          "Family doctor",
+          "On-call doctor"
+        ]
+      },
       "y": "bohf",
-      "xLabel": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
-      "yLabel": "Opptaksområder"
+      "xLabel": {
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
+      },
+      "yLabel": {
+        "nb": "Opptaksområder",
+        "en": "Referral areas"
+      }
     },
     {
       "type": "table",
       "data": "qwerty",
-      "caption": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
+      "caption": {
+        "nb": "Gjennomsnittsverdier for perioden 2019–2021. Rate pr. 1 000 innbyggere 18 år og eldre",
+        "en": "Average per year for the period 2019–2021. Rate per 1,000 inhabitants 18 years and older"
+      },
       "columns": [
         {
           "id": "bohf",
-          "label": "Opptaksområder",
+          "label_no": "Opptaksområder",
+          "label_en": "Referral areas",
           "typeVar": "string",
           "format": ""
         },
         {
           "id": "rateSnitt",
-          "label": "Rate",
+          "label_no": "Rate",
+          "label_en": "Rate",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "kontakter_prim",
-          "label": "Allmennlege konsultasjoner",
+          "label_no": "Allmennlege konsultasjoner",
+          "label_en": "# GP consultations",
           "typeVar": "number",
           "format": ",.0f"
         },
         {
           "id": "primkont_pr_pas",
-          "label": "Kons. pr. pas.",
+          "label_no": "Kons. pr. pas.",
+          "label_en": "Cons. per patient",
           "typeVar": "number",
           "format": ",.1f"
         },
         {
           "id": "andel_FL_kont",
-          "label": "Andel fastlege",
+          "label_no": "Andel fastlege",
+          "label_en": "% GP",
           "typeVar": "number",
           "format": ",.1%"
         }
@@ -76,7 +109,10 @@
       "type": "map",
       "data": "qwerty",
       "x": "rateSnitt",
-      "caption": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+      "caption": {
+        "nb": "Antall allmennlegekonsultasjoner pr. 1 000 innbyggere",
+        "en": "Number of general practitioner consultations per 1,000 inhabitants"
+      },
       "jenks": [
         {
           "cluster": 1,

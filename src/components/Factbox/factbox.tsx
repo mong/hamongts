@@ -10,17 +10,19 @@ type FactBoxProps = {
   boxTitle: string;
   boxContent: string;
   id: string;
+  lang: "nb" | "en" | "nn";
 };
 
 export const FactBox: React.FC<FactBoxProps> = ({
   boxTitle,
   boxContent,
   id,
+  lang,
 }) => {
   const [expanded, setExpanded] = React.useState<boolean>(false);
   const handleChange = () => setExpanded((state) => !state);
   return (
-    <div style={{ marginBottom: "10px" }}>
+    <div style={{ marginBottom: "10px" }} data-testid="factbox">
       <Accordion
         sx={{
           boxShadow: 1,
@@ -45,7 +47,7 @@ export const FactBox: React.FC<FactBoxProps> = ({
           {boxTitle}
         </AccordionSummary>
         <AccordionDetails>
-          <Markdown lang="no">{boxContent}</Markdown>
+          <Markdown lang={lang}>{boxContent}</Markdown>
         </AccordionDetails>
       </Accordion>
     </div>

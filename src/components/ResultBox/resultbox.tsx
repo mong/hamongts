@@ -84,7 +84,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   key={bd.type + i + id}
                   label={bd.type}
                 >
-                  <Barchart {...bd} data={figData} />
+                  <Barchart {...bd} data={figData} lang={lang} />
                 </CarouselItem>
               );
             }
@@ -98,7 +98,8 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   <DataTable
                     headers={bd.columns}
                     data={figData}
-                    caption={bd.caption}
+                    caption={bd.caption[lang]}
+                    lang={lang}
                   />
                 </CarouselItem>
               );
@@ -114,7 +115,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                   style={{ width: "auto" }}
                   label={bd.type}
                 >
-                  {jenks ? (
+                  {jenks && (
                     <div
                       style={{
                         width: "100%",
@@ -134,11 +135,10 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                         attrName={bd.x}
                         mapAttr={figData}
                         format={bd.format}
-                        caption={bd.caption}
+                        caption={bd.caption[lang]}
+                        lang={lang}
                       />
                     </div>
-                  ) : (
-                    <img src="/helseatlas/img/map.png" />
                   )}
                 </CarouselItem>
               );
@@ -160,7 +160,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
   const handleChange = (cb: React.Dispatch<React.SetStateAction<boolean>>) =>
     cb((state) => !state);
   return (
-    <div id={id} className={classNames.resultBoxWrapper}>
+    <div
+      id={id}
+      className={classNames.resultBoxWrapper}
+      data-testid="resultbox"
+    >
       <Accordion
         disableGutters
         sx={{
@@ -181,15 +185,19 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             },
           }}
         >
-          <div className={classNames.resultBoxTitleWrapper}>
-            <h3> {title} </h3>
+          <div
+            className={classNames.resultBoxTitleWrapper}
+            data-testid="resultbox_ingress"
+          >
+            <h3 data-testid="resultbox_title"> {title} </h3>
             <Markdown lang={lang}>{intro}</Markdown>
             {figdata && (
               <Abacus
                 data={figdata}
+                lang={lang}
                 x={abacusX}
                 colorBy="bohf"
-                label={boxData[0].xLabel}
+                label={boxData[0].xLabel[lang]}
                 backgroundColor="inherit"
                 format={boxData[0].format}
               />
@@ -208,7 +216,11 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
             <Markdown lang={lang}>{result}</Markdown>
             {updated_date > published_date && (
               <p>
-                <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                {lang === "en" ? (
+                  <em>Updated {timeFormat("%m/%d/%Y")(new Date(updated))}</em>
+                ) : (
+                  <em>Oppdatert {timeFormat("%d.%m.%Y")(new Date(updated))}</em>
+                )}
               </p>
             )}
           </div>
@@ -219,6 +231,7 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
         role="button"
         aria-controls={`${id}-content-selection`}
         onClick={() => setExpandedResultBox(!expandedResultBox)}
+        data-testid="resultbox_expandButton"
       >
         <span className={classNames.horizontal}></span>
         {transitions(

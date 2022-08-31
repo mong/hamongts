@@ -7,17 +7,22 @@ import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import { getOrderComparator } from "../../helpers/functions/dataTransformation";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 type DataTableProps<Data, Headers extends string & Partial<keyof Data>> = {
   caption: string;
   data: Data[];
   headers: {
     id: string & Partial<Headers>;
-    label: string;
+    label_no: string;
+    label_en: string;
     typeVar: Data[Headers];
     format?: string;
   }[];
+  lang: "en" | "nb" | "nn";
 };
 
 export const DataTable = <
@@ -27,6 +32,7 @@ export const DataTable = <
   caption,
   data,
   headers,
+  lang,
 }: DataTableProps<Data, TableHeaders>) => {
   const [order, setOrder] = React.useState<"asc" | "desc">("desc");
   const [orderBy, setOrderBy] = React.useState(headers[1].id);
@@ -56,7 +62,7 @@ export const DataTable = <
                   onClick={createSortHandler(header.id)}
                   sx={{ fontWeight: 600 }}
                 >
-                  {header.label}
+                  {lang === "en" ? header.label_en : header.label_no}
                 </TableSortLabel>
               </TableCell>
             ))}
@@ -83,7 +89,9 @@ export const DataTable = <
                     align={cell.typeVar === "number" ? "right" : "left"}
                   >
                     {cell.format
-                      ? customFormat(cell.format)(row[cell.id])
+                      ? lang === "en"
+                        ? customFormatEng(cell.format)(row[cell.id])
+                        : customFormat(cell.format)(row[cell.id])
                       : row[cell.id]}
                   </TableCell>
                 ))}

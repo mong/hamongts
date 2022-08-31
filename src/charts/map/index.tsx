@@ -1,6 +1,9 @@
 import { geoMercator, geoPath } from "d3-geo";
 import { scaleThreshold } from "d3-scale";
-import { customFormat } from "../../helpers/functions/localFormater";
+import {
+  customFormat,
+  customFormatEng,
+} from "../../helpers/functions/localFormater";
 
 type FeatureShape = {
   type: "Feature";
@@ -34,6 +37,7 @@ type MapProps = {
   color?: string[];
   caption?: string;
   format?: string;
+  lang: "en" | "nb" | "nn";
 };
 
 const ObjectIDToBoHF = [
@@ -70,6 +74,7 @@ export const Map: React.FC<MapProps> = ({
   color,
   caption,
   format,
+  lang,
 }) => {
   const width = 1000;
   const height = 1000;
@@ -155,9 +160,13 @@ export const Map: React.FC<MapProps> = ({
                           textAnchor="middle"
                           fontSize={30}
                         >
-                          {customFormat(format ? format : ".1f")(
-                            colorScale.invertExtent(d)[0]
-                          )}
+                          {lang === "en"
+                            ? customFormatEng(format ? format : ".1f")(
+                                colorScale.invertExtent(d)[0]
+                              )
+                            : customFormat(format ? format : ".1f")(
+                                colorScale.invertExtent(d)[0]
+                              )}
                         </text>
                       </>
                     )}
@@ -180,6 +189,7 @@ export const Map: React.FC<MapProps> = ({
           textAlign: "left",
           captionSide: "bottom",
         }}
+        data-testid="mapCaption"
       >
         {caption}
       </div>

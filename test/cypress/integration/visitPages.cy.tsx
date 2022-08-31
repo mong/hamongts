@@ -53,31 +53,10 @@ context("Classic atlases", () => {
   });
 
   it("should visit an English atlas", () => {
-    cy.visit("/en/kvalitet");
+    cy.visit("/en/v1/kvalitet");
     cy.get("h1").contains("Healthcare Quality Atlas");
     /* Go into the ToC */
     cy.get("nav").get("ol").get("li").get("a").contains("Stroke");
-  });
-});
-
-context("Modern atlases", () => {
-  it("should visit an atlas", () => {
-    cy.visit("/test_atlas");
-    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
-    /* Fact box */
-    cy.get("div")
-      .contains("Svangeskapsdiabetes")
-      .click()
-      .get("p")
-      .contains(
-        "Svangerskapsdiabetes medfører økt risiko for komplikasjoner i svangerskapet"
-      );
-    /* Result box */
-    cy.get("h3")
-      .contains("Svangerskapsdiabetes")
-      .click()
-      .get("tspan")
-      .contains("tekst2");
   });
 });
 

@@ -3,7 +3,7 @@ on:
   push:
     branches: [main, develop]
   pull_request:
-    branches: [main, develop, dependabot_updates]
+    branches: [main, develop, dependency_updates]
 
 jobs:
   deploy_to_S3:
@@ -13,6 +13,7 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_DEFAULT_REGION: 'eu-west-1'
+      NEXT_PUBLIC_SENTRY: "https://d48c58a239264c12bcbf8fe86d364c44@o489056.ingest.sentry.io/5799127"
     steps:
       - name: Set release variables
         if: github.ref == 'refs/heads/main'
@@ -29,6 +30,4 @@ jobs:
       - name: Sync to S3 bucket
         if: github.event_name != 'pull_request'
         run: |
-          aws s3 sync out ${{ env.s3_bucket }} --exclude "ia/*" --exclude "files/*" --delete --cache-control "public, max-age=86400"
-          aws s3 cp out/index.html ${{ env.s3_bucket }}/index.html --cache-control "public, max-age=1, s-maxage=1"
-          aws s3 cp out/admin/index.html ${{ env.s3_bucket }}/admin/index.html --cache-control "public, max-age=1, s-maxage=1"
+          aws s3 sync out ${{ env.s3_bucket }} --exclude "ia/*" --exclude "files/*" --delete --cache-control "public, max-age=1, s-maxage=1"

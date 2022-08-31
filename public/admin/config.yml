@@ -2,13 +2,13 @@ local_backend: true
 backend:
   name: github
   repo: mong/hamongts
-  branch: develop
-  base_url: https://qa-mong-api.skde.org
+  branch: main
+  base_url: https://prod-mong-api.skde.org
 
-logo_url: https://qa.skde.no/helseatlas/img/logos/helseatlas.svg
+logo_url: https://www.skde.no/helseatlas/img/logos/helseatlas.svg
 media_folder: public/img
 public_folder: /helseatlas/img
-site_url: https://qa.skde.no/helseatlas/
+site_url: https://www.skde.no/helseatlas/
 locale: "nb_no"
 collections:
   - label: "Atlas" # Nye atlas
@@ -18,6 +18,11 @@ collections:
     format: json
     create: false
     delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/no/{{filename}}"
+    public_folder: "/helseatlas/img/no/{{filename}}"
+    choose_url: false
     identifier_field: filename
     widget: "list"
     fields:
@@ -173,6 +178,128 @@ collections:
           options: ["nb", "nn", "en"],
           default: "nb",
         }
+  - label: "Engelske atlas" # Nye atlas
+    name: "eng_atlas"
+    folder: "_posts/en/v2"
+    extension: json
+    format: json
+    create: false
+    delete: false
+    media_library:
+      multiple: false
+    media_folder: "/public/img/en/{{filename}}"
+    public_folder: "/helseatlas/img/en/{{filename}}"
+    choose_url: false
+    identifier_field: filename
+    widget: "list"
+    fields:
+      - { label: "Filnavn", name: "filename", widget: "string" }
+      - {
+          label: "Publisert",
+          name: "publisert",
+          widget: "boolean",
+          default: false,
+        }
+      - { label: "Publiseringsdato", name: "date", widget: "datetime" }
+      - { label: "Tittel", name: "mainTitle", widget: "string" }
+      - { label: "Kort tittel", name: "shortTitle", widget: "string" }
+      - {
+          label: "Forsidebilde",
+          name: "image",
+          widget: "file",
+          required: false,
+        }
+      - {
+          label: "Forsidetekst",
+          name: "frontpagetext",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Ingress", name: "ingress", widget: "string" }
+      - {
+          label: "Språk",
+          name: "lang",
+          widget: "select",
+          options: ["nb", "nn", "en"],
+          default: "en",
+        }
+      - label: "Kapittel"
+        name: "kapittel"
+        widget: "list"
+        fields:
+          - { label: "Overskrift", name: "overskrift", widget: "string" }
+          - label: "Innhold"
+            name: "innhold"
+            widget: "list"
+            hint: "Selve innholdet i atlaset"
+            types:
+              - label: "Tekst"
+                name: "tekst"
+                widget: object
+                summary: "{{fields.beskrivelse}}"
+                fields:
+                  - {
+                      label: "Beskrivelse",
+                      name: "beskrivelse",
+                      widget: "string",
+                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
+                      required: false,
+                    }
+                  - {
+                      label: "Tekst",
+                      name: "tekst",
+                      widget: "markdown",
+                      hint: "Seksjon med tekst og eventuelle statiske figurer",
+                    }
+              - label: "Faktaboks"
+                name: "faktaboks"
+                widget: object
+                summary: "{{fields.overskrift}}"
+                fields:
+                  - label: "Overskrift"
+                    name: "overskrift"
+                    widget: "string"
+                    hint: "Overskrift som vises på siden når resten av teksten er skjult"
+                  - label: "Tekst"
+                    name: "tekst"
+                    widget: "markdown"
+                    hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker."
+              - label: "Resultatboks"
+                name: "resultatboks"
+                widget: object
+                summary: "{{fields.overskrift}}"
+                fields:
+                  - { label: Overskrift, name: overskrift, widget: string }
+                  - { label: Ingress, name: ingress, widget: markdown }
+                  - {
+                      label: "Publiseringsdato",
+                      name: publisert,
+                      widget: datetime,
+                    }
+                  - {
+                      label: "Sist oppdatert",
+                      name: oppdatert,
+                      widget: datetime,
+                    }
+                  - label: Karusell
+                    name: data
+                    widget: file
+                    media_library:
+                      multiple: false
+                    media_folder: "/public/data"
+                    public_folder: ""
+                    choose_url: false
+                    hint: "Datafil, i json-format, som inneholder definisjon av karusell"
+                  - {
+                      label: Utvalgsbeskrivelse,
+                      name: utvalg,
+                      widget: markdown,
+                    }
+                  - {
+                      label: Resultatbeskrivelse,
+                      name: resultat,
+                      widget: markdown,
+                    }
   - label: "Tidligere engelske atlas"
     name: "tidligere_eng_atlas"
     folder: "_posts/en/tidligere_atlas"
