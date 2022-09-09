@@ -44,12 +44,9 @@ During the period 2015–2017, the Medical Birth Registry of Norway registered a
 The numbers are highest in the period from April to August, with the fewest births around the New Year. The average for July is 173 births per day, while for December the average is 131. However, there was considerable variation from day to day.
 
  
+![fodsler_figur1](/helseatlas/img/en/fodsel/fodsler_figur1.png "Number of births in the Obstetric Healthcare Atlas broken down by primiparous and multiparous women. Average per year for the period 2015–2017.")
 
- Number of births in the Obstetric Healthcare Atlas broken down by primiparous and multiparous women. Average per year for the period 2015–2017.
-
-  
-
-Variation through the year. Number of births per day and per week through the year. Average for the period 2015–2017.
+![fodsler_figur2](/helseatlas/img/en/fodsel/fodsler_figur2.png "Variation through the year. Number of births per day and per week through the year. Average for the period 2015–2017.")
 
  
 
@@ -119,10 +116,9 @@ Healthy pregnant women are offered a basic programme of eight appointments. If i
 
 Number of contacts per pregnancy broken down by hospital referral area, contacts with RGPs/the emergency primary healthcare service/midwives and the specialist health service. Age-adjusted. Average for the period 2015–2017.
 
-Number of primiparous women with gestational diabetes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
+![svangerskapsomsorg_figur1](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur1.png "Number of primiparous women with gestational diabetes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-The purpose of later antenatal appointments is to monitor the health and development of the mother and baby. This includes blood pressure measurement, urine tests and foetal growth monitoring.
-
+![svangerskapsomsorg_figur2](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur2.png "The purpose of later antenatal appointments is to monitor the health and development of the mother and baby. This includes blood pressure measurement, urine tests and foetal growth monitoring.")
  
 
 ## Results
@@ -144,6 +140,236 @@ There was considerable geographical variation in the use of the gestational diab
 There was not much variation between hospital referral areas in the number of antenatal appointments. In principle, the specialist health service performs a routine ultrasound scan in week 17–19 and check-ups 7–9 days after the due date. Follow-up of certain pregnant women who need additional consultations come in addition to this. An average of 5 consultations with the specialist health service for all pregnant women indicates that the level of activity in the specialist health service is somewhat higher than expected.
 
 There was striking variation in the use of the gestational diabetes diagnosis, and Førde hospital referral area stood out with a particularly high rate. The composition of the population in the different hospital referral areas cannot explain these differences. Possible explanations include differences in compliance with the national guidelines that applied at the time and variations in reporting to the Medical Birth Registry of Norway.
+
+
+# Induction of labour
+
+In some cases it will be desirable to induce vaginal birth. This normally applies to women who are past their due date or if other medical factors makes it desirable for the child to be born before the spontaneous onset of labour. Starting the birth artificially is called induction of labour.
+
+ 
+
+## Background
+
+ 
+
+ 
+
+The most common reasons for inducing labour are pregnancies that continue for 7–9 days past the due date, twin pregnancies, pre-eclampsia, diabetes or the waters breaking without labour starting within 24 hours. Several methods can be used to try to induce labour. The choice of method depends on the maternity unit’s procedures for induction, how ripe the cervix is and the woman’s previous births. If attempts to induce labour are unsuccessful, caesarean section will be considered.
+
+ 
+![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png "Induction of labour. Number of primiparous women induced per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png "Induction of labour. Number of multiparous women induced per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+
+
+## Results
+
+ 
+
+ 
+
+During the period 2015–2017, approx. 5,900 primiparous women and 6,600 multiparous women were induced each year. This corresponds to about 24% of primiparous women and 20% of multiparous women.
+
+The figures on the left show the number of induced births per 1,000 births for primiparous and multiparous women. The geographical variation was low, and the highest rate was about 40% higher than the lowest rate.
+
+There was a clear correlation between the use of induction in primiparous and multiparous women. The hospital referral areas with the highest induction rates for primiparous women are mostly among the areas with the highest rates for multiparous women. For Norway as a whole, there was a definite increase in the use of induction during the period.
+
+ 
+
+ 
+
+## Comments
+
+ 
+
+ 
+
+The Norwegian Society of Gynecology and Obstetrics’ 2014 obstetrics guide provides clear recommendations about induction of labour. Despite this, findings identify some systematic geographical variation that is more than random variation.
+
+The reason for this could be that there is room for discretionary judgement in individual cases and that culture and practices vary between different maternity units. For Norway as a whole, the number of induced births has increased from 16% in 2009 to 22.5% in 2017. This could be due to changes in practice, but can also be explained by a growing need, for example the increasing incidence of gestational diabetes.
+
+The findings indicate that the guidelines have mostly been observed. The geographical variation was so modest that there is no basis for characterising it as unwarranted.
+
+
+# Epidural pain relief
+
+Many women will describe labour as the most intense pain they have ever experienced. Better pain relief during labour could be one way of reducing fear of childbirth and the number of pregnant women who want a caesarean section in their next pregnancy. Epidural pain relief is the most effective form of treatment for labour pain.
+
+ 
+
+## Background
+
+ 
+
+ 
+
+A fine plastic tube called an epidural catheter is inserted between two lumbar vertebrae by means of a needle and remains in place in the spinal canal until the birth is over. The woman will still feel the contractions and can participate actively in the birth, but epidural pain relief takes the edge off the pain. The midwife assesses the need for epidural anaesthesia in consultation with the woman in labour, and the obstetrician on duty is always consulted. The epidural catheter is inserted by an anaesthetist.
+
+ 
+
+![epidural_figur1](/helseatlas/img/no/fodsel/epidural_figur1.png "Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png "Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+ 
+
+
+In some cases, epidural anaesthesia will be recommended for medical reasons such as breech presentation, multiple births, pre-eclampsia or high BMI. Epidural anaesthesia could cause complications such as prolonged labour and a higher frequency of operative delivery. After delivery, the woman can experience symptoms such as temporary numbness of the legs and headaches.
+
+ 
+
+ 
+
+## Results
+
+ 
+
+ 
+
+During the period 2015–2017, about half of all primiparous women who gave birth vaginally (approx. 10,000 per year) and a quarter of all multiparous women (approx. 7,200 per year) received epidural pain relief.
+
+There was moderate geographical variation in the use of epidural anaesthesia among primiparous women who gave birth vaginally. Among primiparous women resident in Diakonhjemmet and Bergen hospital referral areas, nearly twice as many per 1,000 births had an epidural as among primiparous women resident in the areas of UNN and Finnmark.
+
+The geographical variation in the use of epidurals was greater for multiparous women who gave birth vaginally than for primiparous women. Nearly three times as many women per 1,000 births had an epidural among women resident in Diakonhjemmet hospital referral area compared with residents of the UNN area.
+
+There was a clear correlation between the use of epidurals in connection with vaginal delivery in primiparous and multiparous women. The hospital referral areas with the highest rates for primiparous women are mostly among the areas with the highest rates for multiparous women (shown in the report).
+
+ 
+
+ 
+
+## Comments
+
+ 
+
+ 
+
+There was moderate variation in the use of epidurals for primiparous women and high variation for multiparous women. Variation in the population composition, primarily the prevalence of overweight and proportion of high-risk births, cannot explain the observed variation.
+
+The correlation between the use of epidural anaesthesia among primiparous and multiparous women indicates that the variation could be linked to variations in practice. Differences in the availability of anaesthetists, counselling and patient preferences are among the possible explanations. Overall, the variation is so high and systematic that it is deemed to be unwarranted.
+
+
+# Episiotomy
+
+The muscle and tissue around the vagina and anus are elastic and will stretch during childbirth. If the baby is born quickly, maximum stretching of the tissue is not achieved. For vaginal breech delivery or operative delivery, more space is needed. In such cases, an incision, known as an episiotomy, is made and will have to be stitched up afterwards. Other situations could also arise that will necessitate an episiotomy. Episiotomy is said to prevent damage to the anal sphincter, but this has not been scientifically confirmed.
+
+ 
+
+## Background
+
+ 
+
+ 
+
+Episiotomy was the rule rather than the exception in the 1960s, particularly for primiparous women. However, the frequency dropped as it has become clear that there is no scientific basis for the benefit of episiotomies. According to the Medical Birth Registry of Norway, approx. 200 episiotomies were performed per 1,000 births in the year 2000, compared with 170 in 2017.
+
+ 
+
+![klipping_figur1](/helseatlas/img/no/fodsel/klipping_figur1.png "Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![klipping_figur2](/helseatlas/img/no/fodsel/klipping_figur2.png "Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+ 
+
+The episiotomy rate increases with the maternity units’ birth volume. The lowest rates are found at maternity units with fewer than 500 births per year, while the highest rates are at units with more than 3,000 births per year. A spontaneous (first-degree or second-degree) tear will often heal faster, be less painful and cause less long-term problems than an episiotomy.
+
+ 
+
+## Results
+
+ 
+
+ 
+
+During the period 2015–2017, approximately 7,300 primiparous women and 2,300 multiparous women per year underwent episiotomies in connection with vaginal delivery. This corresponds to 36.5% of primiparous women and 8.3% of multiparous women who gave birth vaginally.
+
+Nearly twice as many episiotomies were performed per 1,000 primiparous women resident in Telemark hospital area compared with the Førde area.
+
+The variation was even higher than this for multiparous women who gave birth vaginally. More than twice as many episiotomies were performed per 1,000 births on women resident in Møre og Romsdal hospital referral area compared with the St. Olavs area.
+
+ 
+
+## Comments
+
+ 
+
+ 
+
+Each year, approx. 10,000 episiotomies are performed and approx. 850 sphincter ruptures occur in Norway. It is not known how many sphincter ruptures are prevented by episiotomies.
+
+Episiotomies are most common in connection with forceps deliveries and vaginal breech deliveries, and there are approx. 1,000 births in each of these categories per year. The number of episiotomies seems to be somewhat higher than the assumed need.
+
+There was moderate or high variation in the use of episiotomy among primiparous and multiparous women. There was also a clear correlation between the episiotomy rates for primiparous and multiparous women in the different hospital referral areas (results shown in the report). Since the need for episiotomies is assumed to be evenly geographically distributed throughout Norway, these findings indicate significant variations in practice as regards episiotomy. The variation is deemed to be unwarranted.
+
+
+
+# Operative vaginal delivery
+
+Operative vaginal delivery means that the baby is delivered using forceps or vacuum extraction (suction cup), and such procedures are performed by an obstetrician. Forceps delivery or vacuum extraction is used when it becomes necessary to deliver the baby quickly for some reason or if the birth is taking a long time, the labouring woman is exhausted and the contractions are becoming weaker.
+
+ 
+
+## Background
+
+ 
+
+ 
+
+Vacuum extraction is the most commonly used technique. It requires contractions and that the labouring woman is capable of pushing, while no such conditions apply to forceps deliveries. Operative vaginal delivery carries a risk of complications such as sphincter injuries and vaginal tears in the mother and facial injury in the newborn. During the period 2015–2017, the proportion of forceps deliveries that ended in severe (third- and fourth-degree) tears was 6.3% for primiparous women and 5.2% for multiparous women.
+
+ 
+![instrumentell_figur1](/helseatlas/img/no/fodsel/instrumentell_figur1.png "Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
+
+![instrumentell_figur2](/helseatlas/img/no/fodsel/instrumentell_figur2.png "Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
+ 
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+The proportion of vacuum-assisted deliveries that ended in severe perineal tears during the same period was 5.0% for primiparous women and 3.8% for multiparous women. There are no indications that operative vaginal delivery have a negative effect on the long-term outcome for the baby.
+
+ 
+
+ 
+
+## Results
+
+ 
+
+ 
+
+During the period 2015–2017, approximately 4,500 primiparous women and 1,400 multiparous women per year underwent a forceps delivery or vacuum extraction. About 85% of them underwent vacuum extraction. Forceps deliveries were most frequent in Bergen and Fonna hospital referral areas.
+
+For Norway as a whole, approx. 23% of all vaginal births to primiparous women ended in forceps or vacuum-assisted delivery, and there was considerable variation between hospital referral areas. There were more than twice as many operative vaginal deliveries per 1,000 births among women resident in Stavanger hospital referral area compared with women resident in the Vestfold area. The proportion of vacuum extractions varied from 43.6% in Bergen hospital referral area to 99.7% in the UNN area.
+
+For multiparous women, approx. 5% of all vaginal births ended in forceps or vacuum-assisted delivery, and there was considerable variation between hospital referral areas here too. There were more than twice as many operative vaginal deliveries per 1,000 births among women resident in Stavanger hospital referral area compared with women resident in the Vestfold area. The proportion of vacuum extractions varied from 50.7% in Bergen hospital referral area to 99.0% in the UNN area.
+
+ 
+
+ 
+
+ 
+
+## Comments
+
+ 
+
+ 
+
+There was a clear correlation between the use of operative vaginal delivery in primiparous and multiparous women. Moreover, hospital referral areas with low operative vaginal delivery rates generally had higher caesarean section rates, and vice versa. This indicates that the variation is largely due to variations in practice.
+
+The observed variation in operative vaginal delivery for primiparous women is deemed to be unwarranted. It is more challenging to assess the variation for multiparous women, since the low number of operative deliveries means that there is a greater element of random variation. Nevertheless, we believe that there is reason to ask whether the observed variation for multiparous women could also be unwarranted.
+
+
+
 
 
 
@@ -211,61 +437,6 @@ Due to the low number of events, rates vary from year to year in many hospital r
 
 The low number of events and considerable element of random variation mean that it is not possible to identify any systematic geographical variation.
 
-# Induction of labour
-
-In some cases it will be desirable to induce vaginal birth. This normally applies to women who are past their due date or if other medical factors makes it desirable for the child to be born before the spontaneous onset of labour. Starting the birth artificially is called induction of labour.
-
- 
-
-## Background
-
- 
-
- 
-
-The most common reasons for inducing labour are pregnancies that continue for 7–9 days past the due date, twin pregnancies, pre-eclampsia, diabetes or the waters breaking without labour starting within 24 hours. Several methods can be used to try to induce labour. The choice of method depends on the maternity unit’s procedures for induction, how ripe the cervix is and the woman’s previous births. If attempts to induce labour are unsuccessful, caesarean section will be considered.
-
- 
-
- 
-
-Induction of labour. Number of primiparous women induced per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Induction of labour. Number of multiparous women induced per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
-## Results
-
- 
-
- 
-
-During the period 2015–2017, approx. 5,900 primiparous women and 6,600 multiparous women were induced each year. This corresponds to about 24% of primiparous women and 20% of multiparous women.
-
-The figures on the left show the number of induced births per 1,000 births for primiparous and multiparous women. The geographical variation was low, and the highest rate was about 40% higher than the lowest rate.
-
-There was a clear correlation between the use of induction in primiparous and multiparous women. The hospital referral areas with the highest induction rates for primiparous women are mostly among the areas with the highest rates for multiparous women. For Norway as a whole, there was a definite increase in the use of induction during the period.
-
- 
-
- 
-
-## Comments
-
- 
-
- 
-
-The Norwegian Society of Gynecology and Obstetrics’ 2014 obstetrics guide provides clear recommendations about induction of labour. Despite this, findings identify some systematic geographical variation that is more than random variation.
-
-The reason for this could be that there is room for discretionary judgement in individual cases and that culture and practices vary between different maternity units. For Norway as a whole, the number of induced births has increased from 16% in 2009 to 22.5% in 2017. This could be due to changes in practice, but can also be explained by a growing need, for example the increasing incidence of gestational diabetes.
-
-The findings indicate that the guidelines have mostly been observed. The geographical variation was so modest that there is no basis for characterising it as unwarranted.
 
 # Caesarean section
 
@@ -323,203 +494,7 @@ The rates for emergency caesarean sections were particularly low in Diakonhjemme
 
 This indicates that the indications for operative intervention to deliver a baby in an emergency are more or less the same, but that different and sometimes strong preferences as regards the choice of method prevail in different geographical areas.
 
-# Episiotomy
 
-The muscle and tissue around the vagina and anus are elastic and will stretch during childbirth. If the baby is born quickly, maximum stretching of the tissue is not achieved. For vaginal breech delivery or operative delivery, more space is needed. In such cases, an incision, known as an episiotomy, is made and will have to be stitched up afterwards. Other situations could also arise that will necessitate an episiotomy. Episiotomy is said to prevent damage to the anal sphincter, but this has not been scientifically confirmed.
-
- 
-
-## Background
-
- 
-
- 
-
-Episiotomy was the rule rather than the exception in the 1960s, particularly for primiparous women. However, the frequency dropped as it has become clear that there is no scientific basis for the benefit of episiotomies. According to the Medical Birth Registry of Norway, approx. 200 episiotomies were performed per 1,000 births in the year 2000, compared with 170 in 2017.
-
- 
-
- 
-
-Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
- 
-
- 
-
-The episiotomy rate increases with the maternity units’ birth volume. The lowest rates are found at maternity units with fewer than 500 births per year, while the highest rates are at units with more than 3,000 births per year. A spontaneous (first-degree or second-degree) tear will often heal faster, be less painful and cause less long-term problems than an episiotomy.
-
- 
-
-## Results
-
- 
-
- 
-
-During the period 2015–2017, approximately 7,300 primiparous women and 2,300 multiparous women per year underwent episiotomies in connection with vaginal delivery. This corresponds to 36.5% of primiparous women and 8.3% of multiparous women who gave birth vaginally.
-
-Nearly twice as many episiotomies were performed per 1,000 primiparous women resident in Telemark hospital area compared with the Førde area.
-
-The variation was even higher than this for multiparous women who gave birth vaginally. More than twice as many episiotomies were performed per 1,000 births on women resident in Møre og Romsdal hospital referral area compared with the St. Olavs area.
-
- 
-
-## Comments
-
- 
-
- 
-
-Each year, approx. 10,000 episiotomies are performed and approx. 850 sphincter ruptures occur in Norway. It is not known how many sphincter ruptures are prevented by episiotomies.
-
-Episiotomies are most common in connection with forceps deliveries and vaginal breech deliveries, and there are approx. 1,000 births in each of these categories per year. The number of episiotomies seems to be somewhat higher than the assumed need.
-
-There was moderate or high variation in the use of episiotomy among primiparous and multiparous women. There was also a clear correlation between the episiotomy rates for primiparous and multiparous women in the different hospital referral areas (results shown in the report). Since the need for episiotomies is assumed to be evenly geographically distributed throughout Norway, these findings indicate significant variations in practice as regards episiotomy. The variation is deemed to be unwarranted.
-
-
-
-# Epidural pain relief
-
-Many women will describe labour as the most intense pain they have ever experienced. Better pain relief during labour could be one way of reducing fear of childbirth and the number of pregnant women who want a caesarean section in their next pregnancy. Epidural pain relief is the most effective form of treatment for labour pain.
-
- 
-
-## Background
-
- 
-
- 
-
-A fine plastic tube called an epidural catheter is inserted between two lumbar vertebrae by means of a needle and remains in place in the spinal canal until the birth is over. The woman will still feel the contractions and can participate actively in the birth, but epidural pain relief takes the edge off the pain. The midwife assesses the need for epidural anaesthesia in consultation with the woman in labour, and the obstetrician on duty is always consulted. The epidural catheter is inserted by an anaesthetist.
-
- 
-
- 
-
-Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-In some cases, epidural anaesthesia will be recommended for medical reasons such as breech presentation, multiple births, pre-eclampsia or high BMI. Epidural anaesthesia could cause complications such as prolonged labour and a higher frequency of operative delivery. After delivery, the woman can experience symptoms such as temporary numbness of the legs and headaches.
-
- 
-
- 
-
-## Results
-
- 
-
- 
-
-During the period 2015–2017, about half of all primiparous women who gave birth vaginally (approx. 10,000 per year) and a quarter of all multiparous women (approx. 7,200 per year) received epidural pain relief.
-
-There was moderate geographical variation in the use of epidural anaesthesia among primiparous women who gave birth vaginally. Among primiparous women resident in Diakonhjemmet and Bergen hospital referral areas, nearly twice as many per 1,000 births had an epidural as among primiparous women resident in the areas of UNN and Finnmark.
-
-The geographical variation in the use of epidurals was greater for multiparous women who gave birth vaginally than for primiparous women. Nearly three times as many women per 1,000 births had an epidural among women resident in Diakonhjemmet hospital referral area compared with residents of the UNN area.
-
-There was a clear correlation between the use of epidurals in connection with vaginal delivery in primiparous and multiparous women. The hospital referral areas with the highest rates for primiparous women are mostly among the areas with the highest rates for multiparous women (shown in the report).
-
- 
-
- 
-
-## Comments
-
- 
-
- 
-
-There was moderate variation in the use of epidurals for primiparous women and high variation for multiparous women. Variation in the population composition, primarily the prevalence of overweight and proportion of high-risk births, cannot explain the observed variation.
-
-The correlation between the use of epidural anaesthesia among primiparous and multiparous women indicates that the variation could be linked to variations in practice. Differences in the availability of anaesthetists, counselling and patient preferences are among the possible explanations. Overall, the variation is so high and systematic that it is deemed to be unwarranted.
-
-
-
-
-
-# Operative vaginal delivery
-
-Operative vaginal delivery means that the baby is delivered using forceps or vacuum extraction (suction cup), and such procedures are performed by an obstetrician. Forceps delivery or vacuum extraction is used when it becomes necessary to deliver the baby quickly for some reason or if the birth is taking a long time, the labouring woman is exhausted and the contractions are becoming weaker.
-
- 
-
-## Background
-
- 
-
- 
-
-Vacuum extraction is the most commonly used technique. It requires contractions and that the labouring woman is capable of pushing, while no such conditions apply to forceps deliveries. Operative vaginal delivery carries a risk of complications such as sphincter injuries and vaginal tears in the mother and facial injury in the newborn. During the period 2015–2017, the proportion of forceps deliveries that ended in severe (third- and fourth-degree) tears was 6.3% for primiparous women and 5.2% for multiparous women.
-
- 
-
- 
-
-Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.
-
- 
-
- 
-
-Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.
-
- 
-
- 
-
-The proportion of vacuum-assisted deliveries that ended in severe perineal tears during the same period was 5.0% for primiparous women and 3.8% for multiparous women. There are no indications that operative vaginal delivery have a negative effect on the long-term outcome for the baby.
-
- 
-
- 
-
-## Results
-
- 
-
- 
-
-During the period 2015–2017, approximately 4,500 primiparous women and 1,400 multiparous women per year underwent a forceps delivery or vacuum extraction. About 85% of them underwent vacuum extraction. Forceps deliveries were most frequent in Bergen and Fonna hospital referral areas.
-
-For Norway as a whole, approx. 23% of all vaginal births to primiparous women ended in forceps or vacuum-assisted delivery, and there was considerable variation between hospital referral areas. There were more than twice as many operative vaginal deliveries per 1,000 births among women resident in Stavanger hospital referral area compared with women resident in the Vestfold area. The proportion of vacuum extractions varied from 43.6% in Bergen hospital referral area to 99.7% in the UNN area.
-
-For multiparous women, approx. 5% of all vaginal births ended in forceps or vacuum-assisted delivery, and there was considerable variation between hospital referral areas here too. There were more than twice as many operative vaginal deliveries per 1,000 births among women resident in Stavanger hospital referral area compared with women resident in the Vestfold area. The proportion of vacuum extractions varied from 50.7% in Bergen hospital referral area to 99.0% in the UNN area.
-
- 
-
- 
-
- 
-
-## Comments
-
- 
-
- 
-
-There was a clear correlation between the use of operative vaginal delivery in primiparous and multiparous women. Moreover, hospital referral areas with low operative vaginal delivery rates generally had higher caesarean section rates, and vice versa. This indicates that the variation is largely due to variations in practice.
-
-The observed variation in operative vaginal delivery for primiparous women is deemed to be unwarranted. It is more challenging to assess the variation for multiparous women, since the low number of operative deliveries means that there is a greater element of random variation. Nevertheless, we believe that there is reason to ask whether the observed variation for multiparous women could also be unwarranted.
 
 
 
