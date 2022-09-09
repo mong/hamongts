@@ -34,9 +34,9 @@ The number of births per year differs greatly between hospital referral areas. T
 
 During the period 2015–2017, the Medical Birth Registry of Norway registered an average of 58,198 births per year, of which 57,572 (98.4%) are included in the Obstetric Healthcare Atlas. The highest number of births was found in the hospital referral areas of Bergen and Akershus (approx. 5,400 per year), while the areas of Helgeland and Finnmark had the lowest number of births (approx. 750 per year).
 
-The numbers are highest in the period from April to August, with the fewest births around the New Year. The average for July is 173 births per day, while for December the average is 131. However, there was considerable variation from day to day.
-
 ![fodsler_figur1](/helseatlas/img/en/fodsel/fodsler_figur1.svg "Number of births in the Obstetric Healthcare Atlas broken down by primiparous and multiparous women. Average per year for the period 2015–2017.")
+
+The numbers are highest in the period from April to August, with the fewest births around the New Year. The average for July is 173 births per day, while for December the average is 131. However, there was considerable variation from day to day.
 
 ![fodsler_figur2](/helseatlas/img/en/fodsel/fodsler_figur2.svg "Variation through the year. Number of births per day and per week through the year. Average for the period 2015–2017.")
 
@@ -74,19 +74,17 @@ The purpose of antenatal care is to prevent serious complications and illness fo
 
 Healthy pregnant women are offered a basic programme of eight appointments. If illness or risk factors are identified, closer follow-up is provided. The early antenatal appointments map factors such as complicating conditions, hereditary diseases, previous pregnancy and childbirth experience, use of medication, tobacco and alcohol, and psychosocial problems.
 
-Number of contacts per pregnancy broken down by hospital referral area, contacts with RGPs/the emergency primary healthcare service/midwives and the specialist health service. Age-adjusted. Average for the period 2015–2017.
-
-![svangerskapsomsorg_figur1](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur1.svg "Number of primiparous women with gestational diabetes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![svangerskapsomsorg_figur2](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur2.svg "The purpose of later antenatal appointments is to monitor the health and development of the mother and baby. This includes blood pressure measurement, urine tests and foetal growth monitoring.")
+The purpose of later antenatal appointments is to monitor the health and development of the mother and baby. This includes blood pressure measurement, urine tests and foetal growth monitoring.
 
 ### Results
 
-During the period 2015–2017, there were nearly 700 000 antenatal appointments per year with the primary healthcare service (approx. 60%) and the specialist health service (approx. 40%). For Norway as a whole, women had an average of approx. 12 antenatal appointments: around 3 with their RGP/the emergency primary healthcare service, 4 with a municipal midwife and 5 with the specialist health service.
+During the period 2015–2017, there were nearly 700 000 antenatal appointments per year with the primary healthcare service (approx. 60%) and the specialist health service (approx. 40%). For Norway as a whole, women had an average of approx. 12 antenatal appointments: around 3 with their RGP/the emergency primary healthcare service, 4 with a municipal midwife and 5 with the specialist health service. Sørlandet hospital referral area stood out with a total of 14 antenatal appointments per pregnancy. Otherwise, there was little geographical variation.
 
-Sørlandet hospital referral area stood out with a total of 14 antenatal appointments per pregnancy. Otherwise, there was little geographical variation.
+![svangerskapsomsorg_figur1](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur1.svg "Number of contacts per pregnancy broken down by hospital referral area, contacts with RGPs/the emergency primary healthcare service/midwives and the specialist health service. Age-adjusted. Average for the period 2015–2017.")
 
 There was considerable geographical variation in the use of the gestational diabetes diagnosis, and Førde hospital referral area stood out with particularly high rates both for primiparous and multiparous women (figures for multiparous women shown in the report). More than four times as many per 1,000 primiparous women were diagnosed with gestational diabetes in Førde hospital referral area as in the UNN area. If we exclude Førde hospital referral area, the variation was more moderate, but still significant.
+
+![svangerskapsomsorg_figur2](/helseatlas/img/en/fodsel/svangerskapsomsorg_figur2.svg "Number of primiparous women with gestational diabetes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 ### Comments
 
@@ -102,15 +100,13 @@ In some cases it will be desirable to induce vaginal birth. This normally applie
 
 The most common reasons for inducing labour are pregnancies that continue for 7–9 days past the due date, twin pregnancies, pre-eclampsia, diabetes or the waters breaking without labour starting within 24 hours. Several methods can be used to try to induce labour. The choice of method depends on the maternity unit’s procedures for induction, how ripe the cervix is and the woman’s previous births. If attempts to induce labour are unsuccessful, caesarean section will be considered.
 
+### Results
+
+During the period 2015–2017, approx. 5,900 primiparous women and 6,600 multiparous women were induced each year. This corresponds to about 24% of primiparous women and 20% of multiparous women. The figures below show the number of induced births per 1,000 births for primiparous and multiparous women. The geographical variation was low, and the highest rate was about 40% higher than the lowest rate.
+
 ![igangsetting_figur1](/helseatlas/img/en/fodsel/igangsetting_figur1.svg "Induction of labour. Number of primiparous women induced per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 ![igangsetting_figur2](/helseatlas/img/en/fodsel/igangsetting_figur2.svg "Induction of labour. Number of multiparous women induced per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-### Results
-
-During the period 2015–2017, approx. 5,900 primiparous women and 6,600 multiparous women were induced each year. This corresponds to about 24% of primiparous women and 20% of multiparous women.
-
-The figures on the left show the number of induced births per 1,000 births for primiparous and multiparous women. The geographical variation was low, and the highest rate was about 40% higher than the lowest rate.
 
 There was a clear correlation between the use of induction in primiparous and multiparous women. The hospital referral areas with the highest induction rates for primiparous women are mostly among the areas with the highest rates for multiparous women. For Norway as a whole, there was a definite increase in the use of induction during the period.
 
@@ -130,10 +126,6 @@ Many women will describe labour as the most intense pain they have ever experien
 
 A fine plastic tube called an epidural catheter is inserted between two lumbar vertebrae by means of a needle and remains in place in the spinal canal until the birth is over. The woman will still feel the contractions and can participate actively in the birth, but epidural pain relief takes the edge off the pain. The midwife assesses the need for epidural anaesthesia in consultation with the woman in labour, and the obstetrician on duty is always consulted. The epidural catheter is inserted by an anaesthetist.
 
-![epidural_figur1](/helseatlas/img/en/fodsel/epidural_figur1.svg "Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![epidural_figur2](/helseatlas/img/en/fodsel/epidural_figur2.svg "Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
 In some cases, epidural anaesthesia will be recommended for medical reasons such as breech presentation, multiple births, pre-eclampsia or high BMI. Epidural anaesthesia could cause complications such as prolonged labour and a higher frequency of operative delivery. After delivery, the woman can experience symptoms such as temporary numbness of the legs and headaches.
 
 ### Results
@@ -142,7 +134,11 @@ During the period 2015–2017, about half of all primiparous women who gave birt
 
 There was moderate geographical variation in the use of epidural anaesthesia among primiparous women who gave birth vaginally. Among primiparous women resident in Diakonhjemmet and Bergen hospital referral areas, nearly twice as many per 1,000 births had an epidural as among primiparous women resident in the areas of UNN and Finnmark.
 
+![epidural_figur1](/helseatlas/img/en/fodsel/epidural_figur1.svg "Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
 The geographical variation in the use of epidurals was greater for multiparous women who gave birth vaginally than for primiparous women. Nearly three times as many women per 1,000 births had an epidural among women resident in Diakonhjemmet hospital referral area compared with residents of the UNN area.
+
+![epidural_figur2](/helseatlas/img/en/fodsel/epidural_figur2.svg "Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 There was a clear correlation between the use of epidurals in connection with vaginal delivery in primiparous and multiparous women. The hospital referral areas with the highest rates for primiparous women are mostly among the areas with the highest rates for multiparous women (shown in the report).
 
@@ -160,15 +156,15 @@ The muscle and tissue around the vagina and anus are elastic and will stretch du
 
 Episiotomy was the rule rather than the exception in the 1960s, particularly for primiparous women. However, the frequency dropped as it has become clear that there is no scientific basis for the benefit of episiotomies. According to the Medical Birth Registry of Norway, approx. 200 episiotomies were performed per 1,000 births in the year 2000, compared with 170 in 2017.
 
-![klipping_figur1](/helseatlas/img/en/fodsel/klipping_figur1.svg "Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![klipping_figur2](/helseatlas/img/en/fodsel/klipping_figur2.svg "Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
 The episiotomy rate increases with the maternity units’ birth volume. The lowest rates are found at maternity units with fewer than 500 births per year, while the highest rates are at units with more than 3,000 births per year. A spontaneous (first-degree or second-degree) tear will often heal faster, be less painful and cause less long-term problems than an episiotomy.
 
 ### Results
 
 During the period 2015–2017, approximately 7,300 primiparous women and 2,300 multiparous women per year underwent episiotomies in connection with vaginal delivery. This corresponds to 36.5% of primiparous women and 8.3% of multiparous women who gave birth vaginally.
+
+![klipping_figur1](/helseatlas/img/en/fodsel/klipping_figur1.svg "Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![klipping_figur2](/helseatlas/img/en/fodsel/klipping_figur2.svg "Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 Nearly twice as many episiotomies were performed per 1,000 primiparous women resident in Telemark hospital area compared with the Førde area.
 
@@ -190,15 +186,15 @@ Operative vaginal delivery means that the baby is delivered using forceps or vac
 
 Vacuum extraction is the most commonly used technique. It requires contractions and that the labouring woman is capable of pushing, while no such conditions apply to forceps deliveries. Operative vaginal delivery carries a risk of complications such as sphincter injuries and vaginal tears in the mother and facial injury in the newborn. During the period 2015–2017, the proportion of forceps deliveries that ended in severe (third- and fourth-degree) tears was 6.3% for primiparous women and 5.2% for multiparous women.
 
-![instrumentell_figur1](/helseatlas/img/en/fodsel/instrumentell_figur1.svg "Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
-
-![instrumentell_figur2](/helseatlas/img/en/fodsel/instrumentell_figur2.svg "Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
-
 The proportion of vacuum-assisted deliveries that ended in severe perineal tears during the same period was 5.0% for primiparous women and 3.8% for multiparous women. There are no indications that operative vaginal delivery have a negative effect on the long-term outcome for the baby.
 
 ### Results
 
 During the period 2015–2017, approximately 4,500 primiparous women and 1,400 multiparous women per year underwent a forceps delivery or vacuum extraction. About 85% of them underwent vacuum extraction. Forceps deliveries were most frequent in Bergen and Fonna hospital referral areas.
+
+![instrumentell_figur1](/helseatlas/img/en/fodsel/instrumentell_figur1.svg "Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
+
+![instrumentell_figur2](/helseatlas/img/en/fodsel/instrumentell_figur2.svg "Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
 
 For Norway as a whole, approx. 23% of all vaginal births to primiparous women ended in forceps or vacuum-assisted delivery, and there was considerable variation between hospital referral areas. There were more than twice as many operative vaginal deliveries per 1,000 births among women resident in Stavanger hospital referral area compared with women resident in the Vestfold area. The proportion of vacuum extractions varied from 43.6% in Bergen hospital referral area to 99.7% in the UNN area.
 
@@ -218,13 +214,13 @@ Emergency caesarean sections are performed when the life of the mother or baby i
 
 The number of births that end in a caesarean delivery has remained very stable in Norway over the past years, and in 2016 it was approx. 16%. However, the proportion increased strongly from 2% in the 1960s to 16–17% in 2006. Caesarean section increases the risk of serious, but rare complications. It also increases the risk of complications in subsequent pregnancies as well as the probability (45%) of a caesarean section in the next pregnancy. Several studies indicate that a caesarean section has negative consequences for newborns in the head presentation, while breech babies may benefit from caesarean delivery.
 
-![keisersnitt_figur1](/helseatlas/img/en/fodsel/keisersnitt_figur1.svg "Caesarean sections, emergency and planned. Number of primiparous women who had a caesarean section per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![keisersnitt_figur2](/helseatlas/img/en/fodsel/keisersnitt_figur2.svg "Caesarean sections, emergency and planned. Number of multiparous women who had a caesarean section per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
 ### Results
 
 About one third of all caesarean sections were planned, meaning that the decision was made more than eight hours before the procedure. For primiparous women, one in five caesarean sections were planned, while half of all caesarean sections performed on multiparous women were planned.
+
+![keisersnitt_figur1](/helseatlas/img/en/fodsel/keisersnitt_figur1.svg "Caesarean sections, emergency and planned. Number of primiparous women who had a caesarean section per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![keisersnitt_figur2](/helseatlas/img/en/fodsel/keisersnitt_figur2.svg "Caesarean sections, emergency and planned. Number of multiparous women who had a caesarean section per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 Moderate geographical variation in the number of caesarean sections was observed for primiparous women. Approximately 80% more caesarean sections were performed per 1,000 births in Nord-Trøndelag hospital referral area than in the Bergen area. The proportion of emergency caesarean sections varied from 72.8% for women resident in Diakonhjemmet hospital referral area to 85.3% for women in the Møre og Romsdal area.
 
@@ -246,19 +242,19 @@ About 60–80% of all births to primiparous or multiparous women take place with
 
 The Apgar score method is an assessment of the condition of the newborn baby just after birth based on heart rate, respiration, muscle tone, colour and response to stimuli. The assessment is carried out at 1, 5 and 10 minutes after birth. Scores between 7 and 10 are considered normal. Scores between 4 and 6 require immediate action, usually with supplemental oxygen and non-invasive ventilation support. A newborn with an Apgar score of 0–3 will need resuscitation.
 
-![komplikasjoner_figur1](/helseatlas/img/en/fodsel/komplikasjoner_figur1.svg "Number of babies with Apgar < 7 at 5 minutes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![komplikasjoner_figur2](/helseatlas/img/en/fodsel/komplikasjoner_figur2.svg "Number of major haemorrhages > 1,500 ml per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
 A major postpartum haemorrhage with a blood loss of more than 1,500 ml represents a risk to the mother’s life and health. Reducing the incidence of severe perineal tears has been a focus area since 2006, and the proportion of women who suffer such tears while giving birth has been reduced from 3.2% in 2006 to 1.7% in 2017.
 
 ### Results
 
 During the period 2015–2017, there were approximately 780 births per year where the newborn had an Apgar score below 7 at 5 minutes after birth. Of these babies, approx. 450 were born to primiparous women (1.9%) and approx. 330 were born to multiparous women (1.0%). A high proportion of the observed variation was due to chance.
 
+![komplikasjoner_figur1](/helseatlas/img/en/fodsel/komplikasjoner_figur1.svg "Number of babies with Apgar < 7 at 5 minutes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
 Approximately 3.7% of primiparous women and 2.2% of multiparous women who gave birth vaginally suffered major postpartum haemorrhage where they lost more than 1,500 ml of blood. The low incidence and considerable variation between years in the rates for individual hospital referral areas indicate that much of the observed variation was due to chance.
 
-During the period 2015–2017, just under 600 primiparous women (2.9 %) and approx. 250 multiparous women (0.9 %) per year suffered a third- or fourth-degree perineal tear (shown in the report). There was high variation from year to year and a considerable element of random variation in the occurrence of severe perineal tears.
+![komplikasjoner_figur2](/helseatlas/img/en/fodsel/komplikasjoner_figur2.svg "Number of major haemorrhages > 1,500 ml per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+During the period 2015–2017, just under 600 primiparous women (2.9 %) and approx. 250 multiparous women (0.9 %) per year suffered a third- or fourth-degree perineal tear (shown in the [report](/helseatlas/files/obstetric_healthcare_atlas.pdf)). There was high variation from year to year and a considerable element of random variation in the occurrence of severe perineal tears.
 
 ### Comments
 
@@ -276,17 +272,17 @@ The postnatal period lasts for approximately six weeks from the birth. This is t
 
 Postnatal follow-up is partly related to the postpartum woman’s medical needs and the baby’s vulnerability while it adjusts to life outside the womb and stable feeding and growth is established. It is particularly important to identify and offer assistance to women and families in cases where there is a risk that mental health issues, the family or care situation or other factors could pose a threat to stability and good development. Between one and three days after birth, the newborn undergoes an examination that focuses on the hips, heart, hearing and rare diseases.
 
-![baarsel_figur1](/helseatlas/img/en/fodsel/baarsel_figur1.svg "Number of contacts during the postnatal period per 1,000 births, RGPs/the emergency primary healthcare service and the specialist health service, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
-
-![baarsel_figur2](/helseatlas/img/en/fodsel/baarsel_figur2.svg "Number of home visits by municipal midwives within three days of discharge from hospital per 1,000 babies born, broken down by hospital referral area. Average for the period 2017–2018. The hospital referral areas Lovisenberg, Diakonhjemmet and OUS are combined under the name Oslo because information about city districts in the City of Oslo is missing.")
-
 In most cases, these examinations take place while the mother and baby are staying at the hospital's maternity unit or maternity hotel. Some hospitals practise what is known as ambulant delivery, which means discharge from hospital a few hours after the birth with subsequent follow-up being provided by midwives, health visitors and postnatal outpatient clinics. The length of postnatal hospitals stays decreased from 4.1 to 2.8 days during the period from 1999 to 2017.
 
 ### Results
 
 Each year, postpartum women had 11,000 contacts with their RGP/the emergency primary healthcare service and 25,000 outpatient contacts with the specialist health service. Postpartum women resident in Bergen hospital referral area had nearly four times as many contacts per 1,000 women with their RGP/the emergency primary healthcare service and the specialist health service births as postpartum women from the Stavanger area. The variation is still high even if we exclude the two hospital referral areas that had the highest rates.
 
+![baarsel_figur1](/helseatlas/img/en/fodsel/baarsel_figur1.svg "Number of contacts during the postnatal period per 1,000 births, RGPs/the emergency primary healthcare service and the specialist health service, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
 Beginning in 2017, Norwegian municipalities reported the number of home visits made by midwives, in 2017 within one or two days and from 2018 within three days after discharge from a delivery and maternity unit. There was considerable geographical variation in the number of home visits. Postpartum women resident in Førde hospital referral area received five times as many visits from a municipal midwife per 1,000 women as postpartum women resident in the Stavanger area.
+
+![baarsel_figur2](/helseatlas/img/en/fodsel/baarsel_figur2.svg "Number of home visits by municipal midwives within three days of discharge from hospital per 1,000 babies born, broken down by hospital referral area. Average for the period 2017–2018. The hospital referral areas Lovisenberg, Diakonhjemmet and OUS are combined under the name Oslo because information about city districts in the City of Oslo is missing.")
 
 ### Comments
 
