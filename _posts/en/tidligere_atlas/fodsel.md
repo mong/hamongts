@@ -14,11 +14,11 @@ toc: true
 lang: en
 ---
 
-## Main findings for different patient samples in the Obstetrics Healthcare Atlas
+<div className="ingress">
+The main findings are summarised below, which also contain a brief description of the patient samples. In addition, information about the population’s use of services in geographical areas (hospital referral areas) are provided. The use is measured as the number of events per 1,000 population or as the proportion of patients that receive a certain service. Brief comments on the variation in use between geographical areas are also include.
+</div>
 
-The main findings are summarised below, which also contain a brief description of the patient samples. In addition, information about the population’s use of services in geographical areas (hospital referral areas) are provided. The use is measured as the number of events per 1,000 population or as the proportion of patients that receive a certain service. A brief comments on the variation in use between geographical areas is also include.
-
-## About the Obstetrics Healthcare Atlas 2015–2017
+## About the Obstetrics Healthcare Atlas
 
 The Obstetrics Healthcare Atlas maps geographical variation in the use of health services relating to pregnancy, childbirth and the postnatal period during the period 2015–2017.
 
