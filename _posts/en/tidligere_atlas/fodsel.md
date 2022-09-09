@@ -4,7 +4,7 @@ date: 2019-04-03T12:00:00.000Z
 num: 9
 mainTitle: Obstetrics Healthcare Atlas
 shortTitle: Obstetrics
-image: /helseatlas/img/no/fodsel/frontpage.jpg
+image: /helseatlas/img/en/fodsel/frontpage.jpg
 frontpagetext: The health atlas for obstetrics is the second of two atlases in
   gynecology and obstetrics prepared by SKDE on the initiative of the Norwegian
   Gynecological Association.
@@ -157,9 +157,9 @@ In some cases it will be desirable to induce vaginal birth. This normally applie
 The most common reasons for inducing labour are pregnancies that continue for 7–9 days past the due date, twin pregnancies, pre-eclampsia, diabetes or the waters breaking without labour starting within 24 hours. Several methods can be used to try to induce labour. The choice of method depends on the maternity unit’s procedures for induction, how ripe the cervix is and the woman’s previous births. If attempts to induce labour are unsuccessful, caesarean section will be considered.
 
  
-![igangsetting_figur1](/helseatlas/img/no/fodsel/igangsetting_figur1.png "Induction of labour. Number of primiparous women induced per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![igangsetting_figur1](/helseatlas/img/en/fodsel/igangsetting_figur1.png "Induction of labour. Number of primiparous women induced per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-![igangsetting_figur2](/helseatlas/img/no/fodsel/igangsetting_figur2.png "Induction of labour. Number of multiparous women induced per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![igangsetting_figur2](/helseatlas/img/en/fodsel/igangsetting_figur2.png "Induction of labour. Number of multiparous women induced per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
 
 
@@ -208,9 +208,9 @@ A fine plastic tube called an epidural catheter is inserted between two lumbar v
 
  
 
-![epidural_figur1](/helseatlas/img/no/fodsel/epidural_figur1.png "Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![epidural_figur1](/helseatlas/img/en/fodsel/epidural_figur1.png "Number of primiparous women who received an epidural per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-![epidural_figur2](/helseatlas/img/no/fodsel/epidural_figur2.png "Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![epidural_figur2](/helseatlas/img/en/fodsel/epidural_figur2.png "Number of multiparous women who received an epidural per 1,000 multiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
  
 
 
@@ -265,9 +265,9 @@ Episiotomy was the rule rather than the exception in the 1960s, particularly for
 
  
 
-![klipping_figur1](/helseatlas/img/no/fodsel/klipping_figur1.png "Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![klipping_figur1](/helseatlas/img/en/fodsel/klipping_figur1.png "Number of primiparous women who underwent an episiotomy per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-![klipping_figur2](/helseatlas/img/no/fodsel/klipping_figur2.png "Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+![klipping_figur2](/helseatlas/img/en/fodsel/klipping_figur2.png "Number of multiparous women who underwent an episiotomy per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
  
 
 The episiotomy rate increases with the maternity units’ birth volume. The lowest rates are found at maternity units with fewer than 500 births per year, while the highest rates are at units with more than 3,000 births per year. A spontaneous (first-degree or second-degree) tear will often heal faster, be less painful and cause less long-term problems than an episiotomy.
@@ -317,9 +317,9 @@ Operative vaginal delivery means that the baby is delivered using forceps or vac
 Vacuum extraction is the most commonly used technique. It requires contractions and that the labouring woman is capable of pushing, while no such conditions apply to forceps deliveries. Operative vaginal delivery carries a risk of complications such as sphincter injuries and vaginal tears in the mother and facial injury in the newborn. During the period 2015–2017, the proportion of forceps deliveries that ended in severe (third- and fourth-degree) tears was 6.3% for primiparous women and 5.2% for multiparous women.
 
  
-![instrumentell_figur1](/helseatlas/img/no/fodsel/instrumentell_figur1.png "Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
+![instrumentell_figur1](/helseatlas/img/en/fodsel/instrumentell_figur1.png "Number of primiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 primiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
 
-![instrumentell_figur2](/helseatlas/img/no/fodsel/instrumentell_figur2.png "Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
+![instrumentell_figur2](/helseatlas/img/en/fodsel/instrumentell_figur2.png "Number of multiparous women who underwent operative vaginal delivery (vacuum-assisted and forceps delivery) per 1,000 multiparous women who gave birth vaginally, adjusted for age. Average per year 2015–2017.")
  
 
 
@@ -370,6 +370,56 @@ The observed variation in operative vaginal delivery for primiparous women is de
 
 
 
+# Caesarean section
+
+Emergency caesarean sections are performed when the life of the mother or baby is in danger. Planned caesarean sections are usually performed because risk factors have been identified that could have unfortunate consequences if the baby is delivered vaginally. The probability of caesarean delivery is highest if the baby is in the breech position, in connection with multiple births and if the pregnant woman has previously undergone caesarean section.
+
+ 
+
+## Background
+
+ 
+
+ 
+
+The number of births that end in a caesarean delivery has remained very stable in Norway over the past years, and in 2016 it was approx. 16%. However, the proportion increased strongly from 2% in the 1960s to 16–17% in 2006. Caesarean section increases the risk of serious, but rare complications. It also increases the risk of complications in subsequent pregnancies as well as the probability (45%) of a caesarean section in the next pregnancy. Several studies indicate that a caesarean section has negative consequences for newborns in the head presentation, while breech babies may benefit from caesarean delivery.
+
+ 
+![keisersnitt_figur1](/helseatlas/img/en/fodsel/keisersnitt_figur1.png "Caesarean sections, emergency and planned. Number of primiparous women who had a caesarean section per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+
+![keisersnitt_figur2](/helseatlas/img/en/fodsel/keisersnitt_figur2.png "Caesarean sections, emergency and planned. Number of multiparous women who had a caesarean section per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
+ 
+ 
+
+## Results
+
+ 
+
+ 
+
+About one third of all caesarean sections were planned, meaning that the decision was made more than eight hours before the procedure. For primiparous women, one in five caesarean sections were planned, while half of all caesarean sections performed on multiparous women were planned.
+
+Moderate geographical variation in the number of caesarean sections was observed for primiparous women. Approximately 80% more caesarean sections were performed per 1,000 births in Nord-Trøndelag hospital referral area than in the Bergen area. The proportion of emergency caesarean sections varied from 72.8% for women resident in Diakonhjemmet hospital referral area to 85.3% for women in the Møre og Romsdal area.
+
+The geographical variation in the number of caesarean sections was higher for multiparous women. Women resident in Nord-Trøndelag hospital referral area had more than twice as many caesarean sections per 1,000 births as women resident in the Bergen area. If we exclude Nord-Trøndelag hospital referral area, the variation for multiparous women was also moderate. The proportion of emergency caesarean sections varied from 38.1% for women resident in Diakonhjemmet hospital referral area to 57.4 % for women in the Nordland area.
+
+ 
+
+ 
+
+## Comments
+
+ 
+
+ 
+
+There was a clear correlation between the use of emergency caesarean sections in primiparous and multiparous women. The hospital referral areas with the highest rates for primiparous women were mostly among the areas with the highest rates for multiparous women. There was also a clear correlation for planned caesarean sections.
+
+The rates for emergency caesarean sections were particularly low in Diakonhjemmet, Bergen and Fonna hospital referral areas. If we see this finding in conjunction with the results for operative vaginal delivery (forceps or vacuum-assisted delivery), the overall variation for operative intervention was low.
+
+This indicates that the indications for operative intervention to deliver a baby in an emergency are more or less the same, but that different and sometimes strong preferences as regards the choice of method prevail in different geographical areas.
+
+
 
 
 
@@ -389,17 +439,9 @@ The Apgar score method is an assessment of the condition of the newborn baby jus
 
  
 
- 
+![komplikasjoner_figur1](/helseatlas/img/en/fodsel/komplikasjoner_figur1.png "Number of babies with Apgar < 7 at 5 minutes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-Number of babies with Apgar < 7 at 5 minutes per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Number of major haemorrhages > 1,500 ml per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
+![komplikasjoner_figur2](/helseatlas/img/en/fodsel/komplikasjoner_figur2.png "Number of major haemorrhages > 1,500 ml per 1,000 primiparous women who gave birth vaginally, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
  
 
@@ -438,64 +480,6 @@ Due to the low number of events, rates vary from year to year in many hospital r
 The low number of events and considerable element of random variation mean that it is not possible to identify any systematic geographical variation.
 
 
-# Caesarean section
-
-Emergency caesarean sections are performed when the life of the mother or baby is in danger. Planned caesarean sections are usually performed because risk factors have been identified that could have unfortunate consequences if the baby is delivered vaginally. The probability of caesarean delivery is highest if the baby is in the breech position, in connection with multiple births and if the pregnant woman has previously undergone caesarean section.
-
- 
-
-## Background
-
- 
-
- 
-
-The number of births that end in a caesarean delivery has remained very stable in Norway over the past years, and in 2016 it was approx. 16%. However, the proportion increased strongly from 2% in the 1960s to 16–17% in 2006. Caesarean section increases the risk of serious, but rare complications. It also increases the risk of complications in subsequent pregnancies as well as the probability (45%) of a caesarean section in the next pregnancy. Several studies indicate that a caesarean section has negative consequences for newborns in the head presentation, while breech babies may benefit from caesarean delivery.
-
- 
-
- 
-
-Caesarean sections, emergency and planned. Number of primiparous women who had a caesarean section per 1,000 primiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Caesarean sections, emergency and planned. Number of multiparous women who had a caesarean section per 1,000 multiparous women, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
-## Results
-
- 
-
- 
-
-About one third of all caesarean sections were planned, meaning that the decision was made more than eight hours before the procedure. For primiparous women, one in five caesarean sections were planned, while half of all caesarean sections performed on multiparous women were planned.
-
-Moderate geographical variation in the number of caesarean sections was observed for primiparous women. Approximately 80% more caesarean sections were performed per 1,000 births in Nord-Trøndelag hospital referral area than in the Bergen area. The proportion of emergency caesarean sections varied from 72.8% for women resident in Diakonhjemmet hospital referral area to 85.3% for women in the Møre og Romsdal area.
-
-The geographical variation in the number of caesarean sections was higher for multiparous women. Women resident in Nord-Trøndelag hospital referral area had more than twice as many caesarean sections per 1,000 births as women resident in the Bergen area. If we exclude Nord-Trøndelag hospital referral area, the variation for multiparous women was also moderate. The proportion of emergency caesarean sections varied from 38.1% for women resident in Diakonhjemmet hospital referral area to 57.4 % for women in the Nordland area.
-
- 
-
- 
-
-## Comments
-
- 
-
- 
-
-There was a clear correlation between the use of emergency caesarean sections in primiparous and multiparous women. The hospital referral areas with the highest rates for primiparous women were mostly among the areas with the highest rates for multiparous women. There was also a clear correlation for planned caesarean sections.
-
-The rates for emergency caesarean sections were particularly low in Diakonhjemmet, Bergen and Fonna hospital referral areas. If we see this finding in conjunction with the results for operative vaginal delivery (forceps or vacuum-assisted delivery), the overall variation for operative intervention was low.
-
-This indicates that the indications for operative intervention to deliver a baby in an emergency are more or less the same, but that different and sometimes strong preferences as regards the choice of method prevail in different geographical areas.
-
-
-
 
 
 # The postnatal period
@@ -514,17 +498,9 @@ Postnatal follow-up is partly related to the postpartum woman’s medical needs 
 
  
 
- 
+![baarsel_figur1](/helseatlas/img/en/fodsel/baarsel_figur1.png "Number of contacts during the postnatal period per 1,000 births, RGPs/the emergency primary healthcare service and the specialist health service, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.")
 
-Number of contacts during the postnatal period per 1,000 births, RGPs/the emergency primary healthcare service and the specialist health service, broken down by hospital referral area. Age-adjusted. Average for the period 2015–2017.
-
- 
-
- 
-
-Number of home visits by municipal midwives within three days of discharge from hospital per 1,000 babies born, broken down by hospital referral area. Average for the period 2017–2018. The hospital referral areas Lovisenberg, Diakonhjemmet and OUS are combined under the name Oslo because information about city districts in the City of Oslo is missing.
-
- 
+![baarsel_figur2](/helseatlas/img/en/fodsel/baarsel_figur2.png "Number of home visits by municipal midwives within three days of discharge from hospital per 1,000 babies born, broken down by hospital referral area. Average for the period 2017–2018. The hospital referral areas Lovisenberg, Diakonhjemmet and OUS are combined under the name Oslo because information about city districts in the City of Oslo is missing.")
 
  
 
