@@ -7,15 +7,6 @@
   "ingress": "Helseatlas for gynekologi undersøkte blant annet bruk av kirurgiske inngrep for endometriose. Det ble påvist stor geografisk variasjon og variasjonen var vurdert som uberettiget. I forbindelse med Helseatlas for kroniske sykdommer har vi oppdatert resultatene for bruk av kirurgiske inngrep for endometriose.",
   "kapittel": [
     {
-      "overskrift": "Faglig forankring - takk for hjelpen!",
-      "innhold": [
-        {
-          "type": "tekst",
-          "tekst": "I arbeidet med å oppdatere analysen av kirurgiske inngrep for endometriose har vi hatt stor nytte av kontakt med både fagmiljøet og pasientforeningen. \n\nVi vil takke Stine Andreassen (Nordlandssykehuset), Yngvild Skåtun Hannestad (privatpraktiserende spesialist), Ingrid Marie Ringen (St. Olav), Steinar Fritzner Greve Holmsen (Sykehuset i Vestfold), Guri Bårdstu Majak (Oslo Universitetssykehus), Ane Løvereide (Endometrioseforeningen) og Elisabeth Raasholm Larby (Endometrioseforeningen) for deres innspill og hjelp i arbeidet."
-        }
-      ]
-    },
-    {
       "overskrift": "Oppdatert: Kirurgiske inngrep for endometriose",
       "innhold": [
         {
@@ -35,7 +26,17 @@
         },
         {
           "type": "tekst",
-          "tekst": "### U﻿tvikling i perioden 2015-2021\n\n![](/helseatlas/img/no/gyn2/trend_endometriose_1521.png \"Antall inngrep for endometriose pr. 1000 kvinner i perioden 2015-2021.\")\n\nFiguren over viser antall inngrep for endometriose pr. 1000 kvinner i opptaksområdene for perioden 2015-2021. Opptaksområdet med den høyeste raten (Vestfold) og de to opptaksområdene med lavest rater (Førde og Nord-Trøndelag) i perioden 2019-2021 er uthevet. Figuren viser at den nasjonale raten har økt i perioden, særlig i perioden 2015-2018. De senere årene er det særlig opptaksområdet Vestfold som skiller seg ut med en høy rate."
+          "tekst": "### U﻿tvikling i perioden 2015-2021\n\n![](/helseatlas/img/no/gyn2/trend_endometriose_1521.png \"Antall inngrep for endometriose pr. 1000 kvinner i perioden 2015-2021.\")\n\nFiguren over viser antall inngrep for endometriose pr. 1000 kvinner i opptaksområdene for perioden 2015-2021. Opptaksområdet med den høyeste raten (Vestfold) og de to opptaksområdene med lavest rater (Førde og Nord-Trøndelag) i perioden 2019-2021 er uthevet. Figuren viser at den nasjonale raten har økt i perioden, særlig i perioden 2015-2018. De senere årene er det særlig opptaksområdet Vestfold som skiller seg ut med en høy rate.",
+          "beskrivelse": "Utvikling i perioden 2015-2021"
+        }
+      ]
+    },
+    {
+      "overskrift": "Faglig forankring - takk for hjelpen!",
+      "innhold": [
+        {
+          "type": "tekst",
+          "tekst": "I arbeidet med å oppdatere analysen av kirurgiske inngrep for endometriose har vi hatt stor nytte av kontakt med både fagmiljøet og pasientforeningen. \n\nVi vil takke Stine Andreassen (Nordlandssykehuset), Yngvild Skåtun Hannestad (privatpraktiserende spesialist), Ingrid Marie Ringen (St. Olav), Steinar Fritzner Greve Holmsen (Sykehuset i Vestfold), Guri Bårdstu Majak (Oslo Universitetssykehus), Ane Løvereide (Endometrioseforeningen) og Elisabeth Raasholm Larby (Endometrioseforeningen) for deres innspill og hjelp i arbeidet."
         }
       ]
     },
