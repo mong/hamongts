@@ -16,7 +16,7 @@ collections:
     folder: "_posts/atlas"
     extension: json
     format: json
-    create: false
+    create: true
     delete: false
     media_library:
       multiple: false
