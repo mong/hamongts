@@ -48,6 +48,15 @@
           "tekst": "Ønsker du å se de opprinnelige analysene i Helseatlas for gynekologi? [Her finner du rapporten!](https://www.skde.no/helseatlas/files/helseatlas-gynekologi.pdf)"
         }
       ]
+    },
+    {
+      "overskrift": "Har du spørsmål?",
+      "innhold": [
+        {
+          "type": "tekst",
+          "tekst": "H﻿ar du spørsmål, ris eller ros? Ta gjerne kontakt!\n\nD﻿u kan kontakte oss ved å sende en e-post til helseatlas@skde.no"
+        }
+      ]
     }
   ],
   "shortTitle": "Endometriose",
