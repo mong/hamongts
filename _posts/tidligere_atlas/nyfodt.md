@@ -12,7 +12,7 @@ toc: true
 ---
 
 <div className="ingress">
-Hovedfunnene er oppsummert under, og der finner du også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i [rapporten](/helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf).
+Hovedfunnene er oppsummert under, og der finner du også en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/norsk_nyfodtmedisinsk_helseatlas_rapport_0.pdf">rapporten</a>.
 </div>
 
 ## Innleggelser i nyfødtmedisinske avdelinger

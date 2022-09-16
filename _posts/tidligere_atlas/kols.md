@@ -12,7 +12,7 @@ toc: true
 ---
 
 <div className="ingress">
-Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i [rapporten](/helseatlas/files/helseatlas-kols-rapport.pdf).
+Hovedfunnene fra atlaset er oppsummert under, og du finner også en kort beskrivelse av pasientutvalgene. Det gis informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser per 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/helseatlas-kols-rapport.pdf">rapporten</a>.
 </div>
 
 ## Fastlege og legevakt

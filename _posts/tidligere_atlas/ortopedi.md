@@ -12,7 +12,7 @@ toc: true
 lang: nn
 ---
 <div className="ingress">
-Hovudfunn frå Helseatlas i ortopedi for Noreg er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (buområde/opptaksområde). Innbyggarane sin bruk blir målt som tal hendingar pr. 100 000 innbyggarar eller som prosentdelar av pasientane som får ei gitt teneste. Variasjonen i bruk mellom dei geografiske buområda er kommentert. Flere resultater og analyser finnes i [rapporten](/helseatlas/files/rapport_ortopedi.pdf).
+Hovudfunn frå Helseatlas i ortopedi for Noreg er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (buområde/opptaksområde). Innbyggarane sin bruk blir målt som tal hendingar pr. 100 000 innbyggarar eller som prosentdelar av pasientane som får ei gitt teneste. Variasjonen i bruk mellom dei geografiske buområda er kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/rapport_ortopedi.pdf">rapporten</a>.
 </div>
 
 ## Hofteleddsartrose

@@ -12,7 +12,7 @@ toc: true
 ---
 
 <div className="ingress">
-Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i [rapporten](/helseatlas/files/eldrehelseatlas_rapport.pdf).
+Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 1 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/eldrehelseatlas_rapport.pdf">rapporten</a>.
 </div>
 
 ## Allmennlegetjenesten
