@@ -6,14 +6,13 @@ mainTitle: Barnehelseatlas for Norge
 shortTitle: Barnehelseatlas
 image: /helseatlas/img/no/barn/frontpage.jpg
 frontpagetext: Barnehelseatlaset gir et innblikk i fordelingen av helsetjenester til barn i Norge. Tilsammen er 10,6 millioner kontakter mellom barn og helsetjenesten er analysert.
-pdfUrl: /helseatlas/files/rapport_digitalt.pdf
 ia: true
 toc: true
 lang: nb
 ---
 
 <div className="ingress">
-Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert.
+Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalgene. Det gis videre informasjon om befolkningens forbruk i geografiske områder (boområder). Befolkningens forbruk måles som antall kontakter pr. 100 000 innbyggere. Variasjonen i forbruk mellom de geografiske områdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/rapport_digitalt.pdf">rapporten</a>.
 </div>
 
 ## Barn 0–16 år, totalt

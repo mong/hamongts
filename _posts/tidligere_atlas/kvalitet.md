@@ -6,11 +6,12 @@ num: 11
 mainTitle: Helseatlas for kvalitet
 shortTitle: Kvalitet
 frontpagetext: Helseatlas for kvalitet i nødvendige helsetjenester er basert på informasjon om i underkant av 100 000 pasienter og behandlinger årlig, hvorav noen kan ha fått samme behandling flere ganger eller ha flere sykdommer.
-pdfUrl: /helseatlas/files/kvalitetsatlas.pdf
 ia: true
 lang: nb
 toc: true
 ---
+
+Dette er et sammendrag av Helseatlas for kvalitet. Flere resultater og analyser finnes i [rapporten](/helseatlas/files/kvalitetsatlas.pdf).
 
 ## Samlede resultater
 
@@ -36,7 +37,7 @@ Helseatlaset gir oversikt over hvilke opptaksområder som har kvalitetsutfordrin
 
 For noen kvalitetsindikatorer var det utfordringer med lav måloppnåelse i alle opptaksregioner og i de fleste opptaksområder. Spesielt for disse indikatorene lever kvaliteten ikke opp til den faglige standarden som er satt, og årsakene til dette kan være mange og sammensatte. Det bør for disse områdene undersøkes nærmere hva årsakene til den lave måloppnåelsen var, og hvordan den kan bedres.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_samlet_res.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_samlet_res.pdf).
 
 ## Hjerteinfarkt
 
@@ -62,7 +63,7 @@ For utredning med kransårerøntgen skal minst 80 % av pasientene utredes innen 
 
 Nasjonalt er det utfordringer for utredning med kransårerøntgen ved NSTEMI hjerteinfarkt innen anbefalt tid. Måloppnåelsen er moderat for nesten alle opptaksområder og bør bedres. For reperfusjonsbehandling innen anbefalt tid ved STEMI hjerteinfarkt var kvalitetsutfordringen betydelig. Rask åpning av den tette blodåren vil ofte være det viktigste enkelttiltak i akuttfasen av et hjerteinfarkt. Den geografiske variasjonen var stor, og mange pasienter fikk ikke åpnet tette blodårer raskt nok. Trombolysebehandling er et behandlingsalternativ som kan gis før ankomst i spesialsykehus, prehospitalt eller i lokalsykehus, og som bør benyttes langt oftere ved STEMI hjerteinfarkt.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_hjerteinfarkt.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_hjerteinfarkt.pdf)
 
 ## Karkirurgi
 
@@ -88,7 +89,7 @@ Variasjon i antall pasienter operert for karsykdom i ben er uventet stor, og det
 
 Alle opptaksområder unntatt Bergen har oppnådd moderat eller høy måloppnåelse for indikatoren andel med symptomatisk carotisstenose behandlet innen anbefalt tid. En undersøkelse tyder på at knapt halvparten av tilfellene med forsinkelse skyldes forhold i helsetjenesten. Dette indikerer behov for systematisk arbeid med pasientforløp for denne gruppen i opptaksområder som ikke har høy måloppnåelse.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_karkirurgi.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_karkirurgi.pdf)
 
 ## Hjerneslag
 
@@ -116,7 +117,7 @@ Det var stor variasjon i andel pasienter behandlet med trombolyse i de ulike opp
 
 Ulik behandlingspraksis for de mindre alvorlige slagene er hovedårsaken til variasjonen i bruk av trombolyse. Forskjeller i behandlingspraksis for mindre alvorlige hjerneslag er ikke uproblematisk, fordi trombolysebehandling er forbundet med økt risiko for hjerneblødning, også ved lette og meget lette hjerneinfarkt. Målet på sikt bør være en mer ensartet praksis for behandling med trombolyse ved akutt hjerneinfarkt
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_hjerneslag.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_hjerneslag.pdf)
 
 ## Invasiv kardiologi
 
@@ -142,7 +143,7 @@ Om lag 20 % av pasientene i Norge fikk utført intrakoronar trykkmåling under k
 
 Resultatene kan tyde på at seleksjonen av pasienter til angiografi er strengere for pasienter bosatte i noen opptaksområder enn andre. Forskjellene skyldes trolig i hovedsak ulik tilgang eller praksis hva angår utredningsmetoder for kransåresykdom, som CT-undersøkelser eller ulike bildebaserte belastningstester som brukes til å selektere pasienter til koronar angiografi. Bruk av trykkmåling har i 2019 økt for 16 av 19 opptaksområder men må fortsatt breddes mye for å nå ønsket nivå.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_invasiv_kardio.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_invasiv_kardio.pdf)
 
 ## Tykk- og endetarmskreft
 
@@ -170,7 +171,7 @@ Kikkhullsteknikk ble i økende grad benyttet som operasjonsmetode, både for tyk
 
 Variasjonen i tilbakefall av endetarmskreft er ikke stor sammenlignet med omtale av annen variasjon, men likevel viktig. I mer enn 25 år er det arbeidet systematisk i norske fagmiljø for å redusere andel pasienter som får lokalt tilbakefall innen 5 år etter kurativ behandling for endetarmskreft. At hele syv opptaksområder ennå ikke har nådd høyt målnivå for denne indikatoren tyder på at det fortsatt er nødvendig med målrettet satsing for å lykkes.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_tarmkreft.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_tarmkreft.pdf)
 
 ## Brystkreft
 
@@ -194,7 +195,7 @@ De fleste av opptaksområdene hadde høy andel med ett kirurgisk inngrep og resu
 
 Det er positivt at de fleste av opptaksområdene klarte å behandle en høy andel av pasientene med ett inngrep på svulst i brystet. Det tyder på godt tverrfaglig samarbeid og god kvalitet i behandlingen. For brystbevarende operasjoner er måloppnåelsen moderat eller lav for de fleste opptaksområder og bør bedres. Den geografisk variasjon i måloppnåelse er relativt stor og tyder på at det gjøres ulike behandlingsvalg i ulike deler av landet. Brystbevarende operasjoner gir minst like god prognose som når hele brystet fjernes. Pasientenes selvfølelse og livskvalitet er vist å være bedre ved slik kirurgi, sammenlignet med fjerning av hele brystet.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_brystkreft.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_brystkreft.pdf)
 
 ## Lungekreft
 
@@ -220,7 +221,7 @@ Det var variasjon i median overlevelse i perioden 2017–2019. Ni av 21 opptakso
 
 Det er høy måloppnåelse for kurativ behandling av lungekreft i Norge, men likevel geografisk variasjon mellom opptaksområdene. Kirurgi nyttes i ulik grad som behandlingsmetode i de forskjellige opptaksområdene. Ulik fordeling i sykdomsutbredelse kan forklare ulike behandlingsvalg, men slike data var ikke tilgjengelig for denne analysen. Raskere utredning og bedre behandling har gitt lengre overlevelse for pasienter rammet av lungekreft, men det er en geografisk variasjon som ikke synes tilfeldig. Geografisk variasjon både i kurativ behandling og overlevelse bør undersøkes nærmere.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_lungekreft.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_lungekreft.pdf)
 
 ## Prostatakreft
 
@@ -248,7 +249,7 @@ Menn som har en høyrisiko-kreft uten spredning og som ikke gjennomfører en rad
 
 Måloppnåelsen er ikke tilfredstillende for andelen med fri rand etter kirurgi. Det er mulig at enkelte kirurger prioriterer nervesparende teknikk høyere enn andre, og at dette fører til lavere andel med fri rand i enkelte opptaksområder. Vurderingen av om operasjonsmarginen er fri eller ikke, er ikke et helt objektivt mål, men gjøres av den enkelte patolog. Praksis for hva som regnes for fri/ufri rand kan variere mellom patologer med konsekvens for det nasjonale bilde.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_prostatakreft.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_prostatakreft.pdf)
 
 ## Diabetes type 1 hos barn og unge
 
@@ -276,7 +277,7 @@ _Figur 2: _
 
 De fleste barn og unge når ikke behandlingsmålet når det kommer til regulering av blodsukkernivået. Nasjonalt var det geografisk variasjon både i andelen som hadde svært godt regulert blodsukker, og andelen som brukte CGM mellom opptaksområdene. Flere av opptaksområdene med høyest andel barn og unge med høy HbA1c hadde lavest andel som bruker CGM.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_barnediabetes.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_barnediabetes.pdf)
 
 ## Diabetes type 1 hos voksne
 
@@ -302,7 +303,7 @@ Når blodsukkeret er over eller lik 75 mmol/mol øker faren for å utvikle senko
 
 Måloppnåelsen for blodsukkerregulering er for lav i enkelte opptaksområder og det er geografisk variasjon i kvalitet i behandling av diabetes. Det er flere opptaksområder som både har høy andel pasienter med høyt blodsukker og som har lavere andel pasienter med svært godt regulert blodsukker.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_voksendiabetes.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_voksendiabetes.pdf)
 
 ## Hoftebrudd
 
@@ -330,7 +331,7 @@ Rask og god kirurgisk behandling er viktig for denne pasientgruppen. De fleste a
 
 Usementerte protesestammer er forbundet med økt risiko for nye brudd rundt protesen og dermed behov for reoperasjon for pasientgruppen over 70 år. Nasjonalt er det en tendens til utvikling i riktig retning i perioden. Variasjonen i behandlingspraksis er ikke tilfeldig og bør studeres nærmere.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_hoftebrudd.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_hoftebrudd.pdf)
 
 ## Alvorlig nyresykdom
 
@@ -356,4 +357,4 @@ Høy måloppnåelse er når 80 % av pasientene har en ukentlig Kt/V over fastsat
 
 Det er store geografiske forskjeller i måloppnåelse når det kommer til nyreerstattende behandling. Resultatene viser at måloppnåelsen for blodtrykkregulering er for lav for samtlige opptaksområder, og at nyretransplanterte pasienter ikke følges opp i tilstrekkelig grad etter nasjonale anbefalinger. Flere av opptaksområdene med høyest andel nyretransplanterte med blodtrykk over anbefalt nivå har også lavest andel pasienter med tilfredsstillende dialyseeffektivitet i hemodialyse.
 
-[Hovedfunn pdf](/helseatlas/files/kvalitet_nyre.pdf)
+Dette kapittelet finnes også som [en-sides pdf](/helseatlas/files/kvalitet_nyre.pdf)
