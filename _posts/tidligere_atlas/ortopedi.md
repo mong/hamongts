@@ -7,13 +7,12 @@ shortTitle: Ortopedi
 image: /helseatlas/img/no/ortopedi/frontpage.jpg
 frontpagetext: I helseatlas i ortopedi for Noreg har vi kartlagt geografisk
   variasjon i bruk av spesialisthelsetenester innan ortopedi i 2012–2016.
-pdfUrl: /helseatlas/files/rapport_ortopedi.pdf
 ia: true
 toc: true
 lang: nn
 ---
 <div className="ingress">
-Hovudfunn frå Helseatlas i ortopedi for Noreg er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (buområde/opptaksområde). Innbyggarane sin bruk blir målt som tal hendingar pr. 100 000 innbyggarar eller som prosentdelar av pasientane som får ei gitt teneste. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
+Hovudfunn frå Helseatlas i ortopedi for Noreg er oppsummert under. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (buområde/opptaksområde). Innbyggarane sin bruk blir målt som tal hendingar pr. 100 000 innbyggarar eller som prosentdelar av pasientane som får ei gitt teneste. Variasjonen i bruk mellom dei geografiske buområda er kommentert. Fleire resultat og analysar finst i <a href="/helseatlas/files/rapport_ortopedi.pdf">rapporten</a>.
 </div>
 
 ## Hofteleddsartrose

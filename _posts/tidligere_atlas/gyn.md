@@ -6,14 +6,13 @@ num: 8
 mainTitle: Helseatlas for gynekologi
 shortTitle: Gynekologi
 frontpagetext: I helseatlas for gynekologi har vi kartlagt geografisk variasjon i bruken av et utvalg av spesialisthelsetjenester innen gynekologi i perioden 2015–2017.
-pdfUrl: /helseatlas/files/helseatlas-gynekologi.pdf
 ia: true
 lang: nb
 toc: true
 ---
 
 <div className="ingress">
-Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
+Hovedfunnene er oppsummert under, hvor du også finner en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 10 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/helseatlas-gynekologi.pdf">rapporten</a>.
 </div>
 
 **Les mer:** [Opptaksområder og justering](/helseatlas/files/gyn_opptaksomr.pdf)
@@ -160,7 +159,7 @@ Den geografiske variasjonen i bruken av kirurgisk metode ved selvbestemt abort e
 
 ## Prøverørsbehandling
 
-2015–2017Dersom et par aktivt har forsøkt å bli gravide i ett år uten å lykkes, defineres de som ufrivillig barnløse. Ufrivillig barnløse kan få hjelp til å forsøke å bli gravide. I perioden 2015–2017 ble årlig ca 2 500 norske barn født etter assistert befruktning. Dette utgjør ca. 4 % av alle barn som blir født i Norge hvert år.
+Dersom et par aktivt har forsøkt å bli gravide i ett år uten å lykkes, defineres de som ufrivillig barnløse. Ufrivillig barnløse kan få hjelp til å forsøke å bli gravide. I perioden 2015–2017 ble årlig ca 2 500 norske barn født etter assistert befruktning. Dette utgjør ca. 4 % av alle barn som blir født i Norge hvert år.
 
 Det er ulike metoder for assistert befruktning. IVF-behandling, (in vitro-fertilisering), også kalt prøverørsbehandling, er den mest benyttede metoden for assistert befruktning. Prinsippet er at kvinnens eggcelle hentes ut fra eggstokken. Sædceller tilsettes og befruktning skjer i glass-skålen. Det befruktede egget deler seg over 2–5 døgn og blir til et tidlig fosteranlegg (embryo). Embryoet settes tilbake i kvinnens livmor. Ved overskudd av embryo kan disse fryses ned til senere bruk.
 
@@ -186,7 +185,7 @@ Det er ingen kjent geografisk variasjon i infertilitet som skulle tilsi at bruke
 
 ## Endometriose
 
-2015–2017Endometriose er en tilstand der livmorslimhinne (endometrium) er lokalisert andre steder enn i livmorhulen og fører til en betennelsestilstand. Endometriose er vanligvis lokalisert i bekkenorganene; på bukhinnen rundt livmoren, på egglederne eller eggstokkene, men kan også lokaliseres til tarm og urinblære.
+Endometriose er en tilstand der livmorslimhinne (endometrium) er lokalisert andre steder enn i livmorhulen og fører til en betennelsestilstand. Endometriose er vanligvis lokalisert i bekkenorganene; på bukhinnen rundt livmoren, på egglederne eller eggstokkene, men kan også lokaliseres til tarm og urinblære.
 
 Livmorslimhinnen gjennomgår sykliske forandringer under påvirkning av de kvinnelige kjønnshormonene østrogen og progesteron. Slimhinnen bygges opp for å være klar til å ta i mot et eventuelt befruktet egg. Mot slutten av syklusen faller hormonnivåene, noe som fører til at livmorslimhinnen støtes ut som menstruasjonsblødning. Det samme skjer med livmorslimhinne som er lokalisert andre steder enn i livmoren. Blod fra dette vevet skilles ikke ut, men «fanges» i små blodfylte knuter eller flyter fritt rundt i bukhulen.
 
@@ -216,7 +215,7 @@ Ved operasjoner for endometriose anbefales at man unngår åpen kirurgi. Åpen k
 
 ## Muskelknuter i livmor (myomer)
 
-2015–2017Godartede svulster som utgår fra muskulaturen i livmor kalles gjerne myomer eller muskelknuter. Myomer er hyppig forekommende og finnes hos rundt 70 % av fertile kvinner, men bare 15–30 % har symptomer. Vanlige symptomer er langvarige og/eller kraftige menstruasjonsblødninger og trykksymptomer mot blære og tarm. Muskelknuter øker risiko for nedsatt fertilitet og for problemer under svangerskap og fødsel.
+Godartede svulster som utgår fra muskulaturen i livmor kalles gjerne myomer eller muskelknuter. Myomer er hyppig forekommende og finnes hos rundt 70 % av fertile kvinner, men bare 15–30 % har symptomer. Vanlige symptomer er langvarige og/eller kraftige menstruasjonsblødninger og trykksymptomer mot blære og tarm. Muskelknuter øker risiko for nedsatt fertilitet og for problemer under svangerskap og fødsel.
 
 De fleste pasienter med myomer har ikke symptomer og trenger ingen behandling. Blødningsplager kan behandles med ulike hormoner. P-piller eller hormon-spiral kan bidra til å redusere kraftige blødninger. Ved store muskelknuter kan andre typer medikamenter brukes for å forsøke å skrumpe muskelknutene. Dette gjøres også som forbehandling til kirurgi.
 
@@ -248,7 +247,7 @@ Det var imidlertid stor variasjon i bruk av åpen kirurgi mellom de ulike opptak
 
 ## Kraftige og/eller hyppige blødninger
 
-2015–2017Blødningsforstyrrelse finnes hos ca. 15–20 % av kvinner i fertil alder. Blødningene kan være regelmessige med økt mengde blødning pr. menstruasjon, og/eller de kan være uregelmessige og ikke følge noen klar syklus.
+Blødningsforstyrrelse finnes hos ca. 15–20 % av kvinner i fertil alder. Blødningene kan være regelmessige med økt mengde blødning pr. menstruasjon, og/eller de kan være uregelmessige og ikke følge noen klar syklus.
 
 Hos tenåringer og hos kvinner som nærmer seg overgangsalder vil uregelmessig eggløsning kunne gi uregelmessige blødninger. Andre vanlige årsaker til blødningsforstyrrelser er forandringer i livmoren som fortykket slimhinne, polypper (utvekster på slimhinnen) eller myomer (muskelknuter i livmoren). Inneliggende kobberspiral, stoffskiftelidelser og blodsykdommer som påvirker blodets evne til å koagulere, kan gi kraftige blødninger med anemi som resultat. Hormonell prevensjon (hormonspiral, p-stav og p-sprøyte) kan gi uregelmessige blødninger. I noen tilfeller vil undersøkelse med tanke på underliggende ondartet sykdom være relevant.
 
@@ -274,7 +273,7 @@ Den geografiske variasjonen i bruk av operasjoner for kraftige og/eller hyppige 
 
 ## Hysterektomi og transcervikale inngrep
 
-2015–2017Kirurgisk fjerning av livmoren (hysterektomi) gjøres av flere grunner. Muskelknuter i livmoren, blødningsforstyrrelser og endometriose er mulige årsaker til at livmoren fjernes hos pasienter som ikke har kreft. Fjerning av livmoren kan gjøres åpent, laparoskopisk eller vaginalt. En del mindre inngrep på livmoren kan også gjøres ved å føre et instrument via skjeden og gjennom livmorhalsen (cervix). Denne typen inngrep kalles gjerne transcervikale inngrep og kan i noen tilfeller være et alternativ til å fjerne livmoren.
+Kirurgisk fjerning av livmoren (hysterektomi) gjøres av flere grunner. Muskelknuter i livmoren, blødningsforstyrrelser og endometriose er mulige årsaker til at livmoren fjernes hos pasienter som ikke har kreft. Fjerning av livmoren kan gjøres åpent, laparoskopisk eller vaginalt. En del mindre inngrep på livmoren kan også gjøres ved å føre et instrument via skjeden og gjennom livmorhalsen (cervix). Denne typen inngrep kalles gjerne transcervikale inngrep og kan i noen tilfeller være et alternativ til å fjerne livmoren.
 
 Ved hysterektomi for godartede tilstander lar man vanligvis eggstokkene stå igjen, spesielt hos kvinner som ikke er kommet i overgangsalder. Kvinnen vil derfor ikke få hormonelle plager etter behandlingen. Inngrepet kan gjøres åpent, laparoskopisk (med eller uten bruk av robot) eller vaginalt. I nasjonal veileder for gynekologi anbefales vaginal eller laparoskopisk teknikk.
 
@@ -302,7 +301,7 @@ Det er ingen kjent geografisk variasjon i sykelighet som skulle tilsi at behovet
 
 ## Skjede- og livmorfremfall
 
-2015–2017Bekkenorganene støttes opp av bindevev og muskulatur. Ved svekkelse av dette støtteapparatet kan det skje et såkalt fremfall eller descens av aktuelle organ via skjeden. Livmor med livmortappen kan synke ned i skjeden, urinblæren kan buke bakover og eventuelt ut av skjeden (cystocele) eller endetarmen kan buke fremover og eventuelt ut av skjeden (rektocele). Vanlige plager er at kvinnen merker en kul i skjedeåpningen, og kjenner på tyngdefølelse, har problemer ved vannlatning eller avføring.
+Bekkenorganene støttes opp av bindevev og muskulatur. Ved svekkelse av dette støtteapparatet kan det skje et såkalt fremfall eller descens av aktuelle organ via skjeden. Livmor med livmortappen kan synke ned i skjeden, urinblæren kan buke bakover og eventuelt ut av skjeden (cystocele) eller endetarmen kan buke fremover og eventuelt ut av skjeden (rektocele). Vanlige plager er at kvinnen merker en kul i skjedeåpningen, og kjenner på tyngdefølelse, har problemer ved vannlatning eller avføring.
 
 Graden av fremfall beskrives med fire kategorier fra grad 1 (minst alvorlig) til grad 4 (mest alvorlig, fullstendig fremfall). Ved et fullstendig fremfall kommer hele livmoren utenfor skjeden. Sannsynligvis forårsakes fremfall av flere faktorer. Økende alder, det å ha født flere barn, østrogenmangel, overvekt, tungt fysisk arbeid, obstipasjon og kronisk hoste gir økt risiko for tilstanden.
 
@@ -324,7 +323,7 @@ Den geografiske variasjonen i bruk av operasjoner for skjede- og livmorfremfall 
 
 ## Urininkontinens
 
-2015–2017Urininkontinens (urinlekkasje) er et hyppig fenomen hos kvinner. Norske tall viser at ca 25 % av den kvinnelige befolkningen over 20 år har noen grad av urininkontinens, og vel en tredjedel av disse er betydelig plaget. Forekomsten øker med økende alder.
+Urininkontinens (urinlekkasje) er et hyppig fenomen hos kvinner. Norske tall viser at ca 25 % av den kvinnelige befolkningen over 20 år har noen grad av urininkontinens, og vel en tredjedel av disse er betydelig plaget. Forekomsten øker med økende alder.
 
 Urininkontinens forekommer hyppigst hos kvinner som har født, men kan også forekomme hos kvinner som ikke har født. Urininkontinens kan for mange medføre reduksjon i livskvalitet, endre sosiale vaner og innskrenke fysisk utfoldelse.
 

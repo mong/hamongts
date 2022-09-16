@@ -8,13 +8,12 @@ image: /helseatlas/img/no/psyk/frontpage.jpg
 frontpagetext: Helseatlas for psykisk helsevern og rusbehandling gir oversikt
   over bruk av psykisk helsevern og tverrfagleg spesialisert rusbehandling, og
   analyserer geografisk variasjon i bruk av tenestene i Noreg i 2014–2018.
-pdfUrl: /helseatlas/files/psykiskhelsevernogrus.pdf
 ia: true
 toc: true
 lang: nn
 ---
 <div className="ingress">
-Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert under.  Helseatlaset gir oversikt og analyse i bruk av psykisk helsevern, inkludert avtalespesialistane, og tverrfagleg spesialisert behandling av ruslidingar (TSB) i Noreg  for åra 2014 - 2018. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar per 1 000 innbyggarar. Variasjonen i bruk mellom dei geografiske buområda er kommentert.
+Hovudfunn frå Helseatlas for psykisk helsevern og rusbehandling er oppsummert under.  Helseatlaset gir oversikt og analyse i bruk av psykisk helsevern, inkludert avtalespesialistane, og tverrfagleg spesialisert behandling av ruslidingar (TSB) i Noreg  for åra 2014 - 2018. Oppsummeringane inneheld også ei kort skildring av pasientutvala. Det blir vidare gitt informasjon om innbyggarane sin bruk av helsetenester i geografiske område (opptaksområde/buområde). Innbyggarane sin bruk blir målt som tal hendingar per 1 000 innbyggarar. Variasjonen i bruk mellom dei geografiske buområda er kommentert. Fleire resultat og analysar finst i <a href="/helseatlas/files/psykiskhelsevernogrus.pdf">rapporten</a>.
 </div>
 
 ## Barn og unge i psykisk helsevern

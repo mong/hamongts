@@ -6,14 +6,13 @@ mainTitle: Dagkirurgi i Norge 2013–2017
 shortTitle: Dagkirurgi
 image: /helseatlas/img/no/dagkir2/frontpage.jpg
 frontpagetext: I det andre helseatlaset på dagkirurgi beskrives utviklingen i omfang og variasjon mellom helseforetakenes opptaksområder for de samme tolv inngrepene som i det første dagkirurgiatlaset, denne gang for perioden 2013–2017.
-pdfUrl: /helseatlas/files/dagkirurgi_2013-2017.pdf
 ia: true
 lang: nb
 toc: true
 ---
 
 <div className="ingress">
-Hovedfunnene er oppsummert under, og inneholder en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 100 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert.
+Hovedfunnene er oppsummert under, og inneholder en kort beskrivelse av pasientutvalg. Det gis videre informasjon om befolkningens bruk i geografiske områder (opptaksområder). Befolkningens bruk måles som antall hendelser pr. 100 000 innbyggere eller som andeler av pasientene som får en gitt tjeneste. Variasjonen i bruk mellom de geografiske boområdene er kort kommentert. Flere resultater og analyser finnes i <a href="/helseatlas/files/dagkirurgi_2013-2017.pdf">rapporten</a>.
 </div>
 
 **Les mer:**[Opptaksområder og justering](/helseatlas/files/dagkir2_opptaksomr.pdf)
