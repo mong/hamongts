@@ -3,6 +3,7 @@ import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max, sum, min } from "d3-array";
+import { useRouter } from "next/router";
 
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
@@ -123,6 +124,9 @@ export const Barchart = <
     x
   );
 
+  // Pick out bohf query from the url
+  const selected_bohf = useRouter().query.bohf;
+
   //used to find max values
   const annualValues = annualVar
     ? annualVar.flatMap((annual) => data.flatMap((dt) => parseInt(dt[annual])))
@@ -140,6 +144,11 @@ export const Barchart = <
     "rgba(120, 45, 135, 0.7)",
     "rgba(120, 45, 135, 0.4)",
   ];
+  const selectedColors = [
+    "rgba(0, 45, 135, 1)",
+    "rgba(0, 45, 135, 0.7)",
+    "rgba(0, 45, 135, 0.4)",
+  ];
 
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -148,6 +157,10 @@ export const Barchart = <
   const nationColorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...nationColors],
+  });
+  const selectedColorScale = scaleOrdinal({
+    domain: series.map((s) => s.key),
+    range: [...selectedColors],
   });
 
   const xScale = scaleLinear<number>({
@@ -243,7 +256,19 @@ export const Barchart = <
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
                       fill={
-                        barData.data["bohf"].toString() === "Norge"
+                        selected_bohf
+                          ? barData.data["bohf"].toString() === selected_bohf
+                            ? x.length === 1
+                              ? selectedColors[0]
+                              : selectedColorScale(d["key"])
+                            : barData.data["bohf"].toString() === "Norge"
+                            ? x.length === 1
+                              ? nationColors[0]
+                              : nationColorScale(d["key"])
+                            : x.length === 1
+                            ? colors[0]
+                            : colorScale(d["key"])
+                          : barData.data["bohf"].toString() === "Norge"
                           ? x.length === 1
                             ? nationColors[0]
                             : nationColorScale(d["key"])
