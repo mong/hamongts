@@ -145,9 +145,9 @@ export const Barchart = <
     "rgba(120, 45, 135, 0.4)",
   ];
   const selectedColors = [
-    "rgba(0, 45, 135, 1)",
-    "rgba(0, 45, 135, 0.7)",
-    "rgba(0, 45, 135, 0.4)",
+    "rgba(1, 45, 135, 1)",
+    "rgba(1, 45, 135, 0.7)",
+    "rgba(1, 45, 135, 0.4)",
   ];
 
   const colorScale = scaleOrdinal({
@@ -250,6 +250,7 @@ export const Barchart = <
                 {d.map((barData, i) => {
                   return (
                     <rect
+                      data-testid={selected_bohf ? "barchart_selected_hf" : ""}
                       key={`${i}`}
                       x={xScale(barData[0])}
                       y={yScale(barData.data[y].toString())}
