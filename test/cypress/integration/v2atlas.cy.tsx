@@ -101,6 +101,12 @@ context("v2 atlas", () => {
     ).click();
     cy.get('[data-testid="factbox"]').invoke("height").should("be.lt", 100);
   });
+
+  it("Test select HF", () => {
+    cy.visit("v2/test_atlas?bohf=UNN");
+    cy.get("circle").get('[fill="rgba(0, 45, 135, 1)"]');
+    cy.get("rect").get('[fill="rgba(0, 45, 135, 1)"]');
+  });
 });
 
 export {};
