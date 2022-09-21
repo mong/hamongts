@@ -278,6 +278,14 @@ export const Barchart = <
                           ? "rect_norway"
                           : "rect_unselected"
                       }
+                      onClick={() =>
+                        router.replace({
+                          query: {
+                            ...router.query,
+                            bohf: barData.data["bohf"].toString(),
+                          },
+                        })
+                      }
                     />
                   );
                 })}
