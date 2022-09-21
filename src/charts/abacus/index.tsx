@@ -81,15 +81,19 @@ export const Abacus = <
   const router = useRouter();
   const selected_bohf = router.query.bohf;
 
-  // Add Norge (and picked hf) to the end of data to plot,
+  // Move Norge to the end of data to plot,
   // so they will be on top of the other circles.
-  // The original data point will still be there,
-  // so there will be two equal data points with Norge data.
-  var figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
+  var figData = data
+    .filter((d) => d["bohf"] != "Norge")
+    .concat(data.filter((d) => d["bohf"] === "Norge")[0]);
   if (selected_bohf) {
-    figData = figData.concat(
-      figData.filter((d) => d["bohf"] === selected_bohf)[0]
-    );
+    // Move selected bohf to the end of data to plot (if it exists in the data),
+    // so they will be on top of the other circles.
+    if (figData.filter((d) => d["bohf"] === selected_bohf)[0]) {
+      figData = figData
+        .filter((d) => d["bohf"] != selected_bohf)
+        .concat(figData.filter((d) => d["bohf"] === selected_bohf)[0]);
+    }
   }
 
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
@@ -177,20 +181,34 @@ export const Abacus = <
       </svg>
       <div className={classNames.legendContainer}>
         <ul className={classNames.legendUL}>
-          {colors.map((val, i) => (
-            <li key={val + i} className={classNames.legendLI}>
+          <li key={"hf"} className={classNames.legendLI}>
+            <div className={classNames.legendAnnualVar}>
+              <svg width="20px" height="20px">
+                <circle r={7} cx={10} cy={10} fill={colors[0]} />
+              </svg>
+            </div>
+            {valuesLabel[lang]}
+          </li>
+          <li key={"norge"} className={classNames.legendLI}>
+            <div className={classNames.legendAnnualVar}>
+              <svg width="20px" height="20px">
+                <circle r={7} cx={10} cy={10} fill={colors[1]} />
+              </svg>
+            </div>
+            {nationalLabel[lang]}
+          </li>
+          {selected_bohf ? (
+            <li key={"selected_bohf"} className={classNames.legendLI}>
               <div className={classNames.legendAnnualVar}>
                 <svg width="20px" height="20px">
-                  <circle r={7} cx={10} cy={10} fill={val} />
+                  <circle r={7} cx={10} cy={10} fill={colors[2]} />
                 </svg>
               </div>
-              {i === 1
-                ? nationalLabel[lang]
-                : selected_bohf && i === 2
-                ? selected_bohf
-                : valuesLabel[lang]}
+              {selected_bohf}
             </li>
-          ))}
+          ) : (
+            <></>
+          )}
         </ul>
       </div>
     </>
