@@ -275,12 +275,7 @@ export const Barchart = <
                               bohf: barData.data["bohf"].toString(),
                             },
                           },
-                          {
-                            query: {
-                              ...router.query,
-                              bohf: barData.data["bohf"].toString(),
-                            },
-                          },
+                          undefined,
                           { shallow: true }
                         )
                       }
