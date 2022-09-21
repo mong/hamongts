@@ -104,10 +104,8 @@ context("v2 atlas", () => {
 
   it("Test select HF", () => {
     cy.visit("v2/test_atlas?bohf=UNN");
-    cy.get('[data-testid="barchart_selected_hf"').should("exist");
-    cy.get("circle").get('[fill="rgba(0, 45, 135, 1)"]').should("exist");
-    cy.get('[data-testid="resultbox_ingress"]').click(); // Expand the result box
-    cy.get("rect").get('[fill="rgba(0, 45, 135, 1)"]').should("exist");
+    cy.get("circle").get('[fill="rgba(0, 45, 135, 1)"]').click();
+    cy.get("rect").get('[fill="rgba(0, 45, 135, 1)"]').click();
   });
 });
 
