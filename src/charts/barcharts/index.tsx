@@ -279,12 +279,21 @@ export const Barchart = <
                           : "rect_unselected"
                       }
                       onClick={() =>
-                        router.replace({
-                          query: {
-                            ...router.query,
-                            bohf: barData.data["bohf"].toString(),
+                        router.replace(
+                          {
+                            query: {
+                              ...router.query,
+                              bohf: barData.data["bohf"].toString(),
+                            },
                           },
-                        })
+                          {
+                            query: {
+                              ...router.query,
+                              bohf: barData.data["bohf"].toString(),
+                            },
+                          },
+                          { shallow: true }
+                        )
                       }
                     />
                   );
