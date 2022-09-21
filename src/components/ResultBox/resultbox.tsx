@@ -125,12 +125,6 @@ export const ResultBox: React.FC<ResultBoxProps> = ({
                     >
                       <Map
                         mapData={mapData}
-                        color={[
-                          "rgba(171, 108, 166, 0.25)",
-                          "rgba(171, 108, 166, 0.5)",
-                          "rgba(171, 108, 166, 0.75)",
-                          "rgba(171, 108, 166, 1.0)",
-                        ]}
                         classes={jenks}
                         attrName={bd.x}
                         mapAttr={figData}

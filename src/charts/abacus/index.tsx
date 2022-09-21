@@ -8,6 +8,7 @@ import {
   customFormatEng,
 } from "../../helpers/functions/localFormater";
 import { useRouter } from "next/router";
+import { abacusColors } from "../colors";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -99,11 +100,7 @@ export const Abacus = <
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
   const xMaxVal = xMax ? xMax : max(values) * 1.1;
   const innerWidth = width - margin.left - margin.right;
-  const colors = [
-    "rgba(171, 108, 166, 0.8)",
-    "rgba(120, 45, 135, 0.8)",
-    "rgba(0, 45, 135, 1)",
-  ];
+  const colors = abacusColors;
 
   const valuesLabel = {
     en: "Referral areas",

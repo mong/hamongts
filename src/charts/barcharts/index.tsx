@@ -14,6 +14,7 @@ import {
 } from "../../helpers/functions/localFormater";
 
 import { AnnualVariation } from "./AnnualVariation";
+import { mainBarColors, nationBarColors, selectedBarColors } from "../colors";
 
 export type BarchartData<
   Data,
@@ -135,21 +136,9 @@ export const Barchart = <
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
 
-  const colors = [
-    "rgba(171, 108, 166, 1)",
-    "rgba(171, 108, 166, 0.7)",
-    "rgba(171, 108, 166, 0.4)",
-  ];
-  const nationColors = [
-    "rgba(120, 45, 135, 1)",
-    "rgba(120, 45, 135, 0.7)",
-    "rgba(120, 45, 135, 0.4)",
-  ];
-  const selectedColors = [
-    "rgba(1, 45, 135, 1)",
-    "rgba(1, 45, 135, 0.7)",
-    "rgba(1, 45, 135, 0.4)",
-  ];
+  const colors = mainBarColors;
+  const nationColors = nationBarColors;
+  const selectedColors = selectedBarColors;
 
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
