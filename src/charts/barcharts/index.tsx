@@ -267,17 +267,30 @@ export const Barchart = <
                           ? "rect_norway"
                           : "rect_unselected"
                       }
-                      onClick={() =>
-                        router.replace(
-                          {
-                            query: {
-                              ...router.query,
-                              bohf: barData.data["bohf"].toString(),
-                            },
-                          },
-                          undefined,
-                          { shallow: true }
-                        )
+                      onClick={
+                        barData.data["bohf"].toString() === selected_bohf
+                          ? () =>
+                              router.replace(
+                                {
+                                  query: {
+                                    ...router.query,
+                                    bohf: "",
+                                  },
+                                },
+                                undefined,
+                                { shallow: true }
+                              )
+                          : () =>
+                              router.replace(
+                                {
+                                  query: {
+                                    ...router.query,
+                                    bohf: barData.data["bohf"].toString(),
+                                  },
+                                },
+                                undefined,
+                                { shallow: true }
+                              )
                       }
                     />
                   );
