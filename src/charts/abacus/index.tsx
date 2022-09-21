@@ -176,14 +176,10 @@ export const Abacus = <
                   <circle r={7} cx={10} cy={10} fill={val} />
                 </svg>
               </div>
-              {selected_bohf
-                ? i === 1
-                  ? nationalLabel[lang]
-                  : i === 2
-                  ? selected_bohf
-                  : valuesLabel[lang]
-                : i === 1
+              {i === 1
                 ? nationalLabel[lang]
+                : selected_bohf && i === 2
+                ? selected_bohf
                 : valuesLabel[lang]}
             </li>
           ))}
