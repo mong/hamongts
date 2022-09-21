@@ -125,7 +125,8 @@ export const Barchart = <
   );
 
   // Pick out bohf query from the url
-  const selected_bohf = useRouter().query.bohf;
+  const router = useRouter();
+  const selected_bohf = router.query.bohf;
 
   //used to find max values
   const annualValues = annualVar
@@ -268,6 +269,14 @@ export const Barchart = <
                           : x.length === 1
                           ? colors[0]
                           : colorScale(d["key"])
+                      }
+                      data-testid={
+                        selected_bohf &&
+                        barData.data["bohf"].toString() === selected_bohf
+                          ? `rect_${selected_bohf}`
+                          : barData.data["bohf"].toString() === "Norge"
+                          ? "rect_norway"
+                          : "rect_unselected"
                       }
                     />
                   );

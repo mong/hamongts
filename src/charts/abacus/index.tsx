@@ -78,7 +78,8 @@ export const Abacus = <
   format,
 }: AbacusProps<Data, X, ColorBy>) => {
   // Pick out bohf query from the url
-  const selected_bohf = useRouter().query.bohf;
+  const router = useRouter();
+  const selected_bohf = router.query.bohf;
 
   // Add Norge (and picked hf) to the end of data to plot,
   // so they will be on top of the other circles.
@@ -162,6 +163,13 @@ export const Abacus = <
                   : d["bohf"] === "Norge"
                   ? colors[1]
                   : colors[0]
+              }
+              data-testid={
+                selected_bohf && d["bohf"] === selected_bohf
+                  ? `circle_${selected_bohf}`
+                  : d["bohf"] === "Norge"
+                  ? "circle_norway"
+                  : "circle_unselected"
               }
             />
           ))}

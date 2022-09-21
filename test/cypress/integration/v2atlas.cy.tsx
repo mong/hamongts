@@ -103,9 +103,15 @@ context("v2 atlas", () => {
   });
 
   it("Test select HF", () => {
+    cy.get('[data-testid="circle_UNN"]').should("not.exist");
+    cy.get('[data-testid="rect_UNN"]').should("not.exist");
     cy.visit("v2/test_atlas?bohf=UNN");
-    cy.get("circle").get('[fill="rgba(0, 45, 135, 1)"]').click();
-    cy.get("rect").get('[fill="rgba(0, 45, 135, 1)"]').click();
+    cy.get('[data-testid="circle_UNN"]').should("exist");
+    cy.get('[data-testid="circle_UNN"]').should("be.visible");
+    cy.get('[data-testid="rect_UNN"]').should("exist");
+    cy.get('[data-testid="rect_UNN"]').should("not.be.visible");
+    cy.get('[data-testid="circle_UNN"]').last().click();
+    cy.get('[data-testid="rect_UNN"]').should("be.visible");
   });
 });
 
