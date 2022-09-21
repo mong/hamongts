@@ -157,12 +157,8 @@ export const Abacus = <
               r={circleRadiusDefalt}
               cx={xScale(d[x])}
               fill={
-                selected_bohf
-                  ? d["bohf"] === selected_bohf
-                    ? colors[2]
-                    : d["bohf"] === "Norge"
-                    ? colors[1]
-                    : colors[0]
+                selected_bohf && d["bohf"] === selected_bohf
+                  ? colors[2]
                   : d["bohf"] === "Norge"
                   ? colors[1]
                   : colors[0]

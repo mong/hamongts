@@ -250,25 +250,17 @@ export const Barchart = <
                 {d.map((barData, i) => {
                   return (
                     <rect
-                      data-testid={selected_bohf ? "barchart_selected_hf" : ""}
                       key={`${i}`}
                       x={xScale(barData[0])}
                       y={yScale(barData.data[y].toString())}
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
                       fill={
-                        selected_bohf
-                          ? barData.data["bohf"].toString() === selected_bohf
-                            ? x.length === 1
-                              ? selectedColors[0]
-                              : selectedColorScale(d["key"])
-                            : barData.data["bohf"].toString() === "Norge"
-                            ? x.length === 1
-                              ? nationColors[0]
-                              : nationColorScale(d["key"])
-                            : x.length === 1
-                            ? colors[0]
-                            : colorScale(d["key"])
+                        selected_bohf &&
+                        barData.data["bohf"].toString() === selected_bohf
+                          ? x.length === 1
+                            ? selectedColors[0]
+                            : selectedColorScale(d["key"])
                           : barData.data["bohf"].toString() === "Norge"
                           ? x.length === 1
                             ? nationColors[0]
