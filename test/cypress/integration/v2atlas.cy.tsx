@@ -112,6 +112,9 @@ context("v2 atlas", () => {
     cy.get('[data-testid="rect_UNN"]').should("not.be.visible");
     cy.get('[data-testid="circle_UNN"]').click();
     cy.get('[data-testid="rect_UNN"]').should("be.visible");
+    cy.get('[data-testid="rect_UNN"]').click();
+    cy.get('[data-testid="circle_UNN"]').should("not.exist");
+    cy.get('[data-testid="rect_UNN"]').should("not.exist");
   });
 });
 
