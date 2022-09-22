@@ -7,6 +7,8 @@ import {
   customFormat,
   customFormatEng,
 } from "../../helpers/functions/localFormater";
+import { useRouter } from "next/router";
+import { abacusColors } from "../colors";
 
 type AbacusData<Data, X extends keyof Data, ColorBy extends keyof Data> = {
   [k in X]: number;
@@ -76,11 +78,29 @@ export const Abacus = <
   labelSize = 22,
   format,
 }: AbacusProps<Data, X, ColorBy>) => {
-  const figData = data.concat(data.filter((d) => d["bohf"] === "Norge")[0]);
+  // Pick out bohf query from the url
+  const router = useRouter();
+  const selected_bohf = router.query.bohf;
+
+  // Move Norge to the end of data to plot,
+  // so they will be on top of the other circles.
+  var figData = data
+    .filter((d) => d["bohf"] != "Norge")
+    .concat(data.filter((d) => d["bohf"] === "Norge")[0]);
+  if (selected_bohf) {
+    // Move selected bohf to the end of data to plot (if it exists in the data),
+    // so they will be on top of the other circles.
+    if (figData.filter((d) => d["bohf"] === selected_bohf)[0]) {
+      figData = figData
+        .filter((d) => d["bohf"] != selected_bohf)
+        .concat(figData.filter((d) => d["bohf"] === selected_bohf)[0]);
+    }
+  }
+
   const values = [...figData.flatMap((dt) => parseFloat(dt[x.toString()]))];
   const xMaxVal = xMax ? xMax : max(values) * 1.1;
   const innerWidth = width - margin.left - margin.right;
-  const colors = ["rgba(171, 108, 166, 0.8)", "rgba(120, 45, 135, 0.8)"];
+  const colors = abacusColors;
 
   const valuesLabel = {
     en: "Referral areas",
@@ -138,23 +158,54 @@ export const Abacus = <
               key={`${d[x]}${i}`}
               r={circleRadiusDefalt}
               cx={xScale(d[x])}
-              fill={d["bohf"] === "Norge" ? colors[1] : colors[0]}
+              fill={
+                selected_bohf && d["bohf"] === selected_bohf
+                  ? colors[2]
+                  : d["bohf"] === "Norge"
+                  ? colors[1]
+                  : colors[0]
+              }
+              data-testid={
+                selected_bohf && d["bohf"] === selected_bohf
+                  ? `circle_${selected_bohf}`
+                  : d["bohf"] === "Norge"
+                  ? "circle_norway"
+                  : "circle_unselected"
+              }
             />
           ))}
         </Group>
       </svg>
       <div className={classNames.legendContainer}>
         <ul className={classNames.legendUL}>
-          {colors.map((val, i) => (
-            <li key={val + i} className={classNames.legendLI}>
+          <li key={"hf"} className={classNames.legendLI}>
+            <div className={classNames.legendAnnualVar}>
+              <svg width="20px" height="20px">
+                <circle r={7} cx={10} cy={10} fill={colors[0]} />
+              </svg>
+            </div>
+            {valuesLabel[lang]}
+          </li>
+          <li key={"norge"} className={classNames.legendLI}>
+            <div className={classNames.legendAnnualVar}>
+              <svg width="20px" height="20px">
+                <circle r={7} cx={10} cy={10} fill={colors[1]} />
+              </svg>
+            </div>
+            {nationalLabel[lang]}
+          </li>
+          {selected_bohf ? (
+            <li key={"selected_bohf"} className={classNames.legendLI}>
               <div className={classNames.legendAnnualVar}>
                 <svg width="20px" height="20px">
-                  <circle r={7} cx={10} cy={10} fill={val} />
+                  <circle r={7} cx={10} cy={10} fill={colors[2]} />
                 </svg>
               </div>
-              {i === 1 ? nationalLabel[lang] : valuesLabel[lang]}
+              {selected_bohf}
             </li>
-          ))}
+          ) : (
+            <></>
+          )}
         </ul>
       </div>
     </>
