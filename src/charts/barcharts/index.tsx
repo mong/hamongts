@@ -238,6 +238,7 @@ export const Barchart = <
             const bars = (
               <Group fill={colorScale(d["key"])} key={`${i}`}>
                 {d.map((barData, i) => {
+                  const bohfName = barData.data["bohf"].toString();
                   return (
                     <rect
                       key={`${i}`}
@@ -246,12 +247,11 @@ export const Barchart = <
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
                       fill={
-                        selected_bohf &&
-                        barData.data["bohf"].toString() === selected_bohf
+                        selected_bohf && bohfName === selected_bohf
                           ? x.length === 1
                             ? selectedColors[0]
                             : selectedColorScale(d["key"])
-                          : barData.data["bohf"].toString() === "Norge"
+                          : bohfName === "Norge"
                           ? x.length === 1
                             ? nationColors[0]
                             : nationColorScale(d["key"])
@@ -260,37 +260,27 @@ export const Barchart = <
                           : colorScale(d["key"])
                       }
                       data-testid={
-                        selected_bohf &&
-                        barData.data["bohf"].toString() === selected_bohf
-                          ? `rect_${selected_bohf}`
-                          : barData.data["bohf"].toString() === "Norge"
-                          ? "rect_norway"
-                          : "rect_unselected"
+                        bohfName === selected_bohf
+                          ? `rect_${bohfName}_selected`
+                          : `rect_${bohfName}_unselected`
                       }
-                      onClick={
-                        barData.data["bohf"].toString() === selected_bohf
-                          ? () =>
-                              router.replace(
-                                {
-                                  query: {
-                                    ...router.query,
-                                    bohf: "",
-                                  },
-                                },
-                                undefined,
-                                { shallow: true }
-                              )
-                          : () =>
-                              router.replace(
-                                {
-                                  query: {
-                                    ...router.query,
-                                    bohf: barData.data["bohf"].toString(),
-                                  },
-                                },
-                                undefined,
-                                { shallow: true }
-                              )
+                      style={{
+                        cursor: bohfName != "Norge" ? "pointer" : "auto",
+                      }}
+                      onClick={() =>
+                        router.replace(
+                          {
+                            query: {
+                              ...router.query,
+                              bohf:
+                                bohfName === selected_bohf
+                                  ? undefined
+                                  : bohfName,
+                            },
+                          },
+                          undefined,
+                          { shallow: true }
+                        )
                       }
                     />
                   );
