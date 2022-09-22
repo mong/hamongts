@@ -4,6 +4,7 @@ import {
   customFormat,
   customFormatEng,
 } from "../../helpers/functions/localFormater";
+import { mapColors } from "../colors";
 
 type FeatureShape = {
   type: "Feature";
@@ -34,7 +35,6 @@ type MapProps = {
   connection?: any;
   attrName?: string;
   classes?: number[];
-  color?: string[];
   caption?: string;
   format?: string;
   lang: "en" | "nb" | "nn";
@@ -71,11 +71,11 @@ export const Map: React.FC<MapProps> = ({
   connection = { mapData: "BoHF_num", mapAttr: "bohf" },
   attrName,
   classes,
-  color,
   caption,
   format,
   lang,
 }) => {
+  const color = mapColors;
   const width = 1000;
   const height = 1000;
   const initCenter = geoPath().centroid(mapData);
