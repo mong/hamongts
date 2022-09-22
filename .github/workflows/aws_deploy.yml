@@ -1,7 +1,7 @@
 name: Deploy app to AWS
 on:
   push:
-    branches: [main, develop, selectable_hf]
+    branches: [main, develop]
   pull_request:
     branches: [main, develop, dependency_updates]
 
@@ -20,7 +20,7 @@ jobs:
         run: |
           echo "s3_bucket=s3://skde.org/helseatlas" >> $GITHUB_ENV
       - name: Set QA variables
-        if: github.ref == 'refs/heads/selectable_hf'
+        if: github.ref == 'refs/heads/develop'
         run: |
           echo "s3_bucket=s3://qa.skde.org/helseatlas" >> $GITHUB_ENV
       - name: Check out the repo
