@@ -267,21 +267,23 @@ export const Barchart = <
                       style={{
                         cursor: bohfName != "Norge" ? "pointer" : "auto",
                       }}
-                      onClick={() =>
-                        router.replace(
-                          {
-                            query: {
-                              ...router.query,
-                              bohf:
-                                bohfName === selected_bohf
-                                  ? undefined
-                                  : bohfName,
-                            },
-                          },
-                          undefined,
-                          { shallow: true }
-                        )
-                      }
+                      onClick={() => {
+                        bohfName != "Norge"
+                          ? router.replace(
+                              {
+                                query: {
+                                  ...router.query,
+                                  bohf:
+                                    bohfName === selected_bohf
+                                      ? undefined
+                                      : bohfName,
+                                },
+                              },
+                              undefined,
+                              { shallow: true }
+                            )
+                          : undefined;
+                      }}
                     />
                   );
                 })}
