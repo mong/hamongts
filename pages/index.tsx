@@ -10,6 +10,7 @@ import classNames from "../src/styles/Atlas.module.css";
 import * as Sentry from "@sentry/react";
 import { BrowserTracing } from "@sentry/tracing";
 
+/* istanbul ignore next */
 if (process.env.NEXT_PUBLIC_SENTRY) {
   try {
     Sentry.init({
