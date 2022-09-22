@@ -101,6 +101,24 @@ context("v2 atlas", () => {
     ).click();
     cy.get('[data-testid="factbox"]').invoke("height").should("be.lt", 100);
   });
+
+  it("Test select HF", () => {
+    cy.get('[data-testid="circle_UNN"]').should("not.exist");
+    cy.get('[data-testid="rect_UNN_selected"]').should("not.exist");
+    cy.visit("v2/test_atlas?bohf=UNN");
+    cy.get('[data-testid="circle_UNN"]').should("exist");
+    cy.get('[data-testid="circle_UNN"]').should("be.visible");
+    cy.get('[data-testid="rect_UNN_selected"]').should("exist");
+    cy.get('[data-testid="rect_UNN_selected"]').should("not.be.visible");
+    cy.get('[data-testid="circle_UNN"]').click();
+    cy.get('[data-testid="rect_UNN_selected"]').should("be.visible");
+    cy.get('[data-testid="rect_UNN_selected"]').click();
+    cy.get('[data-testid="circle_UNN"]').should("not.exist");
+    cy.get('[data-testid="rect_UNN_selected"]').should("not.exist");
+    cy.get('[data-testid="rect_UNN_unselected"]').click();
+    cy.get('[data-testid="rect_UNN_selected"]').should("exist");
+    cy.get('[data-testid="circle_UNN"]').should("exist");
+  });
 });
 
 export {};

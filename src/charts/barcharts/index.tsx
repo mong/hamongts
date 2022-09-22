@@ -3,6 +3,7 @@ import { AxisBottom, AxisLeft } from "@visx/axis";
 import { scaleLinear, scaleOrdinal, scaleBand } from "@visx/scale";
 import { Group } from "@visx/group";
 import { max, sum, min } from "d3-array";
+import { useRouter } from "next/router";
 
 import { ColorLegend } from "./ColorLegend";
 import { AnnualVarLegend } from "./AnnualVarLegend";
@@ -13,6 +14,7 @@ import {
 } from "../../helpers/functions/localFormater";
 
 import { AnnualVariation } from "./AnnualVariation";
+import { mainBarColors, nationBarColors, selectedBarColors } from "../colors";
 
 export type BarchartData<
   Data,
@@ -123,6 +125,10 @@ export const Barchart = <
     x
   );
 
+  // Pick out bohf query from the url
+  const router = useRouter();
+  const selected_bohf = router.query.bohf;
+
   //used to find max values
   const annualValues = annualVar
     ? annualVar.flatMap((annual) => data.flatMap((dt) => parseInt(dt[annual])))
@@ -130,16 +136,9 @@ export const Barchart = <
   const values = [...annualValues, ...series.flat().flat().flat()];
   const xMaxValue = xMax ? xMax : max(values) * 1.1;
 
-  const colors = [
-    "rgba(171, 108, 166, 1)",
-    "rgba(171, 108, 166, 0.7)",
-    "rgba(171, 108, 166, 0.4)",
-  ];
-  const nationColors = [
-    "rgba(120, 45, 135, 1)",
-    "rgba(120, 45, 135, 0.7)",
-    "rgba(120, 45, 135, 0.4)",
-  ];
+  const colors = mainBarColors;
+  const nationColors = nationBarColors;
+  const selectedColors = selectedBarColors;
 
   const colorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
@@ -148,6 +147,10 @@ export const Barchart = <
   const nationColorScale = scaleOrdinal({
     domain: series.map((s) => s.key),
     range: [...nationColors],
+  });
+  const selectedColorScale = scaleOrdinal({
+    domain: series.map((s) => s.key),
+    range: [...selectedColors],
   });
 
   const xScale = scaleLinear<number>({
@@ -235,6 +238,7 @@ export const Barchart = <
             const bars = (
               <Group fill={colorScale(d["key"])} key={`${i}`}>
                 {d.map((barData, i) => {
+                  const bohfName = barData.data["bohf"].toString();
                   return (
                     <rect
                       key={`${i}`}
@@ -243,7 +247,11 @@ export const Barchart = <
                       width={xScale(Math.abs(barData[0] - barData[1]))}
                       height={yScale.bandwidth()}
                       fill={
-                        barData.data["bohf"].toString() === "Norge"
+                        selected_bohf && bohfName === selected_bohf
+                          ? x.length === 1
+                            ? selectedColors[0]
+                            : selectedColorScale(d["key"])
+                          : bohfName === "Norge"
                           ? x.length === 1
                             ? nationColors[0]
                             : nationColorScale(d["key"])
@@ -251,6 +259,31 @@ export const Barchart = <
                           ? colors[0]
                           : colorScale(d["key"])
                       }
+                      data-testid={
+                        bohfName === selected_bohf
+                          ? `rect_${bohfName}_selected`
+                          : `rect_${bohfName}_unselected`
+                      }
+                      style={{
+                        cursor: bohfName != "Norge" ? "pointer" : "auto",
+                      }}
+                      onClick={() => {
+                        bohfName != "Norge"
+                          ? router.replace(
+                              {
+                                query: {
+                                  ...router.query,
+                                  bohf:
+                                    bohfName === selected_bohf
+                                      ? undefined
+                                      : bohfName,
+                                },
+                              },
+                              undefined,
+                              { shallow: true }
+                            )
+                          : undefined;
+                      }}
                     />
                   );
                 })}
