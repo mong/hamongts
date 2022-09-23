@@ -60,7 +60,12 @@ collections:
         name: "kapittel"
         widget: "list"
         fields:
-          - { label: "Overskrift", name: "overskrift", widget: "string" }
+          - {
+              label: "Overskrift",
+              name: "overskrift",
+              widget: "string",
+              required: false,
+            }
           - label: "Innhold"
             name: "innhold"
             widget: "list"
