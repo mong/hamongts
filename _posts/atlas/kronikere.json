@@ -7,6 +7,16 @@
   "ingress": "I atlaset har vi undersøkt om bruk av helsetjenester til kronisk syke varierer avhengig av pasientenes bosted – inndelt etter helseforetakenes opptaksområder. Tilstandene som dekkes av atlaset er valgt på bakgrunn av fem kriterier, bl.a. knyttet til datakvalitet, størrelsen på pasientgruppa og hvorvidt pasientene har behov for oppfølging i spesialisthelsetjenesten over tid. ",
   "kapittel": [
     {
+      "overskrift": "Velg helseforetak",
+      "innhold": [
+        {
+          "type": "tekst",
+          "beskrivelse": "Velg helseforetak",
+          "tekst": "V﻿il du se resultater fra ditt helseforetak? Du kan markere ett enkelt helseforetak i alle figurer ved å klikke på søylen som tilhører det aktuelle helseforetaket i en av figurene."
+        }
+      ]
+    },
+    {
       "overskrift": "Epilepsi",
       "innhold": [
         {
