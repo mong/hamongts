@@ -16,7 +16,8 @@
     "test": "start-server-and-test start http://localhost:3000/helseatlas cypress",
     "test:headless": "start-server-and-test start http://localhost:3000/helseatlas cypress:headless",
     "check-format": "yarn prettier --list-different",
-    "check-types": "tsc --noEmit"
+    "check-types": "tsc --noEmit",
+    "cms": "npx netlify-cms-proxy-server"
   },
   "dependencies": {
     "@emotion/react": "11.10.4",
