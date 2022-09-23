@@ -53,14 +53,12 @@ Open [http://localhost:3000/helseatlas](http://localhost:3000/helseatlas) with y
 Start up `netlify-cms-proxy-server` from the root directory of the repository
 
 ```bash
-cd hamongts
-npx netlify-cms-proxy-server
+yarn run cms
 ```
 
-Run the helseatlas page locally
+Run the helseatlas page locally (in another terminal)
 
 ```bash
-cd hamongts
 yarn install && yarn run dev
 ```
 
