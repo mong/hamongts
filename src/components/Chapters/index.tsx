@@ -29,7 +29,7 @@ type Resultatboks = {
 };
 
 export type ChapterProps = {
-  overskrift: string;
+  overskrift?: string;
   innhold: (Tekst | Faktaboks | Resultatboks)[];
   lang: "nb" | "en" | "nn";
 };
@@ -56,10 +56,12 @@ export const Chapters = ({ innhold, lang }: ChaptersProps) => {
 };
 
 const Chapter = ({ innhold, overskrift, lang }: ChapterProps) => {
-  const mainID = overskrift.toLowerCase().replace(/\s/g, "-");
+  const mainID = overskrift
+    ? overskrift.toLowerCase().replace(/\s/g, "-")
+    : "qwerty";
   return (
     <div id={mainID} style={{ paddingTop: "10px" }}>
-      <h2>{overskrift}</h2>
+      {overskrift ? <h2>{overskrift}</h2> : undefined}
       <div>
         {innhold.map((box, index) => {
           const props =
