@@ -169,12 +169,8 @@ export const config: CmsConfig = {
                       label: "Karusell",
                       name: "data",
                       widget: "file",
-                      media_library: {
-                        multiple: false,
-                      },
                       media_folder: "/public/data",
                       public_folder: "",
-                      choose_url: false,
                       hint: "Datafil, i json-format, som inneholder definisjon av karusell",
                     },
                     {
