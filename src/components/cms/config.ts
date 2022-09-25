@@ -22,14 +22,9 @@ export const config: CmsConfig = {
       format: "json",
       create: true,
       delete: false,
-      media_library: {
-        multiple: false,
-      },
       media_folder: "/public/img/no/{{filename}}",
       public_folder: "/helseatlas/img/no/{{filename}}",
-      choose_url: false,
       identifier_field: "filename",
-      widget: "list",
       fields: [
         {
           label: "Filnavn",
@@ -197,12 +192,8 @@ export const config: CmsConfig = {
       folder: "_posts/tidligere_atlas",
       create: false,
       delete: false,
-      media_library: {
-        multiple: false,
-      },
       media_folder: "/public/img/no/{{filename}}",
       public_folder: "/helseatlas/img/no/{{filename}}",
-      choose_url: false,
       identifier_field: "mainTitle",
       fields: [
         {
@@ -307,14 +298,9 @@ export const config: CmsConfig = {
       format: "json",
       create: false,
       delete: false,
-      media_library: {
-        multiple: false,
-      },
       media_folder: "/public/img/en/{{filename}}",
       public_folder: "/helseatlas/img/en/{{filename}}",
-      choose_url: false,
       identifier_field: "filename",
-      widget: "list",
       fields: [
         {
           label: "Filnavn",
@@ -453,12 +439,8 @@ export const config: CmsConfig = {
                       label: "Karusell",
                       name: "data",
                       widget: "file",
-                      media_library: {
-                        multiple: false,
-                      },
                       media_folder: "/public/data",
                       public_folder: "",
-                      choose_url: false,
                       hint: "Datafil, i json-format, som inneholder definisjon av karusell",
                     },
                     {
@@ -485,12 +467,8 @@ export const config: CmsConfig = {
       folder: "_posts/en/tidligere_atlas",
       create: false,
       delete: false,
-      media_library: {
-        multiple: false,
-      },
       media_folder: "/public/img/en/{{filename}}",
       public_folder: "/helseatlas/img/en/{{filename}}",
-      choose_url: false,
       identifier_field: "mainTitle",
       fields: [
         {
