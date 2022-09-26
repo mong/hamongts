@@ -1,4 +1,181 @@
-import { CmsConfig } from "netlify-cms-core";
+import { CmsCollection, CmsConfig, CmsField } from "netlify-cms-core";
+
+const filename: CmsField = {
+  label: "Filnavn",
+  name: "filename",
+  widget: "string",
+};
+
+const atlas = (lang: string): CmsCollection => {
+  return {
+    label: "Atlas",
+    name: "atlas",
+    folder: lang === "no" ? "_posts/atlas" : "_posts/en/v2",
+    extension: "json",
+    format: "json",
+    create: true,
+    delete: false,
+    media_folder: "/public/img/{lang}/{{filename}}",
+    public_folder: "/helseatlas/img/{lang}/{{filename}}",
+    identifier_field: "filename",
+    fields: [
+      filename,
+      {
+        label: "Publisert",
+        name: "publisert",
+        widget: "boolean",
+        default: false,
+      },
+      {
+        label: "Publiseringsdato",
+        name: "date",
+        widget: "datetime",
+      },
+      {
+        label: "Tittel",
+        name: "mainTitle",
+        widget: "string",
+      },
+      {
+        label: "Kort tittel",
+        name: "shortTitle",
+        widget: "string",
+      },
+      {
+        label: "Forsidebilde",
+        name: "image",
+        widget: "file",
+        required: false,
+      },
+      {
+        label: "Forsidetekst",
+        name: "frontpagetext",
+        widget: "string",
+        required: false,
+      },
+      {
+        label: "Ingress",
+        name: "ingress",
+        widget: "string",
+      },
+      {
+        label: "Språk",
+        name: "lang",
+        widget: "select",
+        options: ["nb", "nn", "en"],
+        default: lang === "no" ? "nb" : "en",
+      },
+      {
+        label: "Kapittel",
+        name: "kapittel",
+        widget: "list",
+        fields: [
+          {
+            label: "Overskrift",
+            name: "overskrift",
+            widget: "string",
+            required: false,
+          },
+          {
+            label: "Innhold",
+            name: "innhold",
+            widget: "list",
+            hint: "Selve innholdet i atlaset",
+            types: [
+              {
+                label: "Tekst",
+                name: "tekst",
+                widget: "object",
+                summary: "{{fields.beskrivelse}}",
+                fields: [
+                  {
+                    label: "Beskrivelse",
+                    name: "beskrivelse",
+                    widget: "string",
+                    hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
+                    required: false,
+                  },
+                  {
+                    label: "Tekst",
+                    name: "tekst",
+                    widget: "markdown",
+                    hint: "Seksjon med tekst og eventuelle statiske figurer",
+                  },
+                ],
+              },
+              {
+                label: "Faktaboks",
+                name: "faktaboks",
+                widget: "object",
+                summary: "{{fields.overskrift}}",
+                fields: [
+                  {
+                    label: "Overskrift",
+                    name: "overskrift",
+                    widget: "string",
+                    hint: "Overskrift som vises på siden når resten av teksten er skjult",
+                  },
+                  {
+                    label: "Tekst",
+                    name: "tekst",
+                    widget: "markdown",
+                    hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker.",
+                  },
+                ],
+              },
+              {
+                label: "Resultatboks",
+                name: "resultatboks",
+                widget: "object",
+                summary: "{{fields.overskrift}}",
+                fields: [
+                  {
+                    label: "Overskrift",
+                    name: "overskrift",
+                    widget: "string",
+                  },
+                  {
+                    label: "Ingress",
+                    name: "ingress",
+                    widget: "markdown",
+                  },
+                  {
+                    label: "Publiseringsdato",
+                    name: "publisert",
+                    widget: "datetime",
+                  },
+                  {
+                    label: "Sist oppdatert",
+                    name: "oppdatert",
+                    widget: "datetime",
+                  },
+                  {
+                    label: "Karusell",
+                    name: "data",
+                    widget: "file",
+                    media_folder: "/public/data",
+                    public_folder: "",
+                    hint: "Datafil, i json-format, som inneholder definisjon av karusell",
+                  },
+                  {
+                    label: "Utvalgsbeskrivelse",
+                    name: "utvalg",
+                    widget: "markdown",
+                  },
+                  {
+                    label: "Resultatbeskrivelse",
+                    name: "resultat",
+                    widget: "markdown",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  };
+};
 
 export const config: CmsConfig = {
   local_backend: true,
@@ -14,178 +191,7 @@ export const config: CmsConfig = {
   site_url: "https://www.skde.no/helseatlas/",
   locale: "nb_no",
   collections: [
-    {
-      label: "Atlas",
-      name: "atlas",
-      folder: "_posts/atlas",
-      extension: "json",
-      format: "json",
-      create: true,
-      delete: false,
-      media_folder: "/public/img/no/{{filename}}",
-      public_folder: "/helseatlas/img/no/{{filename}}",
-      identifier_field: "filename",
-      fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
-        {
-          label: "Publisert",
-          name: "publisert",
-          widget: "boolean",
-          default: false,
-        },
-        {
-          label: "Publiseringsdato",
-          name: "date",
-          widget: "datetime",
-        },
-        {
-          label: "Tittel",
-          name: "mainTitle",
-          widget: "string",
-        },
-        {
-          label: "Kort tittel",
-          name: "shortTitle",
-          widget: "string",
-        },
-        {
-          label: "Forsidebilde",
-          name: "image",
-          widget: "file",
-          required: false,
-        },
-        {
-          label: "Forsidetekst",
-          name: "frontpagetext",
-          widget: "string",
-          required: false,
-        },
-        {
-          label: "Ingress",
-          name: "ingress",
-          widget: "string",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "nb",
-        },
-        {
-          label: "Kapittel",
-          name: "kapittel",
-          widget: "list",
-          fields: [
-            {
-              label: "Overskrift",
-              name: "overskrift",
-              widget: "string",
-              required: false,
-            },
-            {
-              label: "Innhold",
-              name: "innhold",
-              widget: "list",
-              hint: "Selve innholdet i atlaset",
-              types: [
-                {
-                  label: "Tekst",
-                  name: "tekst",
-                  widget: "object",
-                  summary: "{{fields.beskrivelse}}",
-                  fields: [
-                    {
-                      label: "Beskrivelse",
-                      name: "beskrivelse",
-                      widget: "string",
-                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
-                      required: false,
-                    },
-                    {
-                      label: "Tekst",
-                      name: "tekst",
-                      widget: "markdown",
-                      hint: "Seksjon med tekst og eventuelle statiske figurer",
-                    },
-                  ],
-                },
-                {
-                  label: "Faktaboks",
-                  name: "faktaboks",
-                  widget: "object",
-                  summary: "{{fields.overskrift}}",
-                  fields: [
-                    {
-                      label: "Overskrift",
-                      name: "overskrift",
-                      widget: "string",
-                      hint: "Overskrift som vises på siden når resten av teksten er skjult",
-                    },
-                    {
-                      label: "Tekst",
-                      name: "tekst",
-                      widget: "markdown",
-                      hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker.",
-                    },
-                  ],
-                },
-                {
-                  label: "Resultatboks",
-                  name: "resultatboks",
-                  widget: "object",
-                  summary: "{{fields.overskrift}}",
-                  fields: [
-                    {
-                      label: "Overskrift",
-                      name: "overskrift",
-                      widget: "string",
-                    },
-                    {
-                      label: "Ingress",
-                      name: "ingress",
-                      widget: "markdown",
-                    },
-                    {
-                      label: "Publiseringsdato",
-                      name: "publisert",
-                      widget: "datetime",
-                    },
-                    {
-                      label: "Sist oppdatert",
-                      name: "oppdatert",
-                      widget: "datetime",
-                    },
-                    {
-                      label: "Karusell",
-                      name: "data",
-                      widget: "file",
-                      media_folder: "/public/data",
-                      public_folder: "",
-                      hint: "Datafil, i json-format, som inneholder definisjon av karusell",
-                    },
-                    {
-                      label: "Utvalgsbeskrivelse",
-                      name: "utvalg",
-                      widget: "markdown",
-                    },
-                    {
-                      label: "Resultatbeskrivelse",
-                      name: "resultat",
-                      widget: "markdown",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+    atlas("no"),
     {
       label: "Tidligere atlas",
       name: "tidligere_atlas",
@@ -196,11 +202,7 @@ export const config: CmsConfig = {
       public_folder: "/helseatlas/img/no/{{filename}}",
       identifier_field: "mainTitle",
       fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
+        filename,
         {
           label: "Publiseringsdato",
           name: "date",
@@ -266,11 +268,7 @@ export const config: CmsConfig = {
       folder: "_posts/statisk",
       create: true,
       fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
+        filename,
         {
           label: "Tittel",
           name: "title",
@@ -302,11 +300,7 @@ export const config: CmsConfig = {
       public_folder: "/helseatlas/img/en/{{filename}}",
       identifier_field: "filename",
       fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
+        filename,
         {
           label: "Publisert",
           name: "publisert",
@@ -471,11 +465,7 @@ export const config: CmsConfig = {
       public_folder: "/helseatlas/img/en/{{filename}}",
       identifier_field: "mainTitle",
       fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
+        filename,
         {
           label: "Publiseringsdato",
           name: "date",
@@ -541,11 +531,7 @@ export const config: CmsConfig = {
       folder: "_posts/en/static",
       create: true,
       fields: [
-        {
-          label: "Filnavn",
-          name: "filename",
-          widget: "string",
-        },
+        filename,
         {
           label: "Tittel",
           name: "title",
