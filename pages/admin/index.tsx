@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const InitializeCMS = dynamic(() => import("../../src/components/cms/cms"), {
+const InitializeCMS = dynamic(() => import("../../src/components/CMS"), {
   ssr: false,
   loading: () => <p>Loading Admin...</p>,
 });
