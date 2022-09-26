@@ -263,6 +263,35 @@ const oldAtlas = (lang: "no" | "en"): CmsCollection => {
   };
 };
 
+const staticPages = (lang: "no" | "en"): CmsCollection => {
+  return {
+    label: lang === "no" ? "Statiske sider" : "Statiske engelske sider",
+    name: lang === "no" ? "statiske_sider" : "statiske_sider_en",
+    folder: lang === "no" ? "_posts/statisk" : "_posts/en/static",
+    create: true,
+    fields: [
+      filename,
+      {
+        label: "Tittel",
+        name: "title",
+        widget: "string",
+      },
+      {
+        label: "Hovedtekst",
+        name: "body",
+        widget: "markdown",
+      },
+      {
+        label: "Språk",
+        name: "lang",
+        widget: "select",
+        options: ["nb", "nn", "en"],
+        default: lang === "no" ? "nb" : "en",
+      },
+    ],
+  };
+};
+
 export const config: CmsConfig = {
   local_backend: true,
   backend: {
@@ -279,59 +308,9 @@ export const config: CmsConfig = {
   collections: [
     atlas("no"),
     oldAtlas("no"),
-    {
-      label: "Statiske sider",
-      name: "statiske_sider",
-      folder: "_posts/statisk",
-      create: true,
-      fields: [
-        filename,
-        {
-          label: "Tittel",
-          name: "title",
-          widget: "string",
-        },
-        {
-          label: "Hovedtekst",
-          name: "body",
-          widget: "markdown",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "nb",
-        },
-      ],
-    },
+    staticPages("no"),
     atlas("en"),
     oldAtlas("en"),
-    {
-      label: "Statiske engelske sider",
-      name: "statiske_sider_en",
-      folder: "_posts/en/static",
-      create: true,
-      fields: [
-        filename,
-        {
-          label: "Tittel",
-          name: "title",
-          widget: "string",
-        },
-        {
-          label: "Hovedtekst",
-          name: "body",
-          widget: "markdown",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "en",
-        },
-      ],
-    },
+    staticPages("en"),
   ],
 };
