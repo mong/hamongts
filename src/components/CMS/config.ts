@@ -6,7 +6,7 @@ const filename: CmsField = {
   widget: "string",
 };
 
-const atlas = (lang: string): CmsCollection => {
+const atlas = (lang: "no" | "en"): CmsCollection => {
   return {
     label: lang === "no" ? "Atlas" : "Engelske atlas",
     name: lang === "no" ? "atlas" : "atlas_eng",
@@ -183,6 +183,86 @@ const atlas = (lang: string): CmsCollection => {
   };
 };
 
+const oldAtlas = (lang: "no" | "en"): CmsCollection => {
+  return {
+    label: lang === "no" ? "Tidligere atlas" : "Tidligere engelske atlas",
+    name: lang === "no" ? "tidligere_atlas" : "tidligere_eng_atlas",
+    folder:
+      lang === "no" ? "_posts/tidligere_atlas" : "_posts/en/tidligere_atlas",
+    create: false,
+    delete: false,
+    media_folder:
+      lang === "no"
+        ? "/public/img/no/{{filename}}"
+        : "/public/img/en/{{filename}}",
+    public_folder:
+      lang === "no"
+        ? "/helseatlas/img/no/{{filename}}"
+        : "/helseatlas/img/en/{{filename}}",
+    identifier_field: "mainTitle",
+    fields: [
+      filename,
+      {
+        label: "Publiseringsdato",
+        name: "date",
+        widget: "datetime",
+      },
+      {
+        label: "Publiseringsnummer",
+        name: "num",
+        widget: "number",
+      },
+      {
+        label: "Tittel",
+        name: "mainTitle",
+        widget: "string",
+      },
+      {
+        label: "Kort tittel",
+        name: "shortTitle",
+        widget: "string",
+      },
+      {
+        label: "Forsidebilde",
+        name: "image",
+        widget: "file",
+      },
+      {
+        label: "Forsidetekst",
+        name: "frontpagetext",
+        widget: "string",
+      },
+      {
+        label: "Rapport",
+        name: "pdfUrl",
+        widget: "string",
+      },
+      {
+        label: "Hovedtekst",
+        name: "body",
+        widget: "markdown",
+      },
+      {
+        label: "Instant atlas?",
+        name: "ia",
+        widget: "boolean",
+      },
+      {
+        label: "Innholdsfortegnelse?",
+        name: "toc",
+        widget: "boolean",
+      },
+      {
+        label: "Språk",
+        name: "lang",
+        widget: "select",
+        options: ["nb", "nn", "en"],
+        default: lang === "no" ? "nb" : "en",
+      },
+    ],
+  };
+};
+
 export const config: CmsConfig = {
   local_backend: true,
   backend: {
@@ -198,76 +278,7 @@ export const config: CmsConfig = {
   locale: "nb_no",
   collections: [
     atlas("no"),
-    {
-      label: "Tidligere atlas",
-      name: "tidligere_atlas",
-      folder: "_posts/tidligere_atlas",
-      create: false,
-      delete: false,
-      media_folder: "/public/img/no/{{filename}}",
-      public_folder: "/helseatlas/img/no/{{filename}}",
-      identifier_field: "mainTitle",
-      fields: [
-        filename,
-        {
-          label: "Publiseringsdato",
-          name: "date",
-          widget: "datetime",
-        },
-        {
-          label: "Publiseringsnummer",
-          name: "num",
-          widget: "number",
-        },
-        {
-          label: "Tittel",
-          name: "mainTitle",
-          widget: "string",
-        },
-        {
-          label: "Kort tittel",
-          name: "shortTitle",
-          widget: "string",
-        },
-        {
-          label: "Forsidebilde",
-          name: "image",
-          widget: "file",
-        },
-        {
-          label: "Forsidetekst",
-          name: "frontpagetext",
-          widget: "string",
-        },
-        {
-          label: "Rapport",
-          name: "pdfUrl",
-          widget: "string",
-        },
-        {
-          label: "Hovedtekst",
-          name: "body",
-          widget: "markdown",
-        },
-        {
-          label: "Instant atlas?",
-          name: "ia",
-          widget: "boolean",
-        },
-        {
-          label: "Innholdsfortegnelse?",
-          name: "toc",
-          widget: "boolean",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "nb",
-        },
-      ],
-    },
+    oldAtlas("no"),
     {
       label: "Statiske sider",
       name: "statiske_sider",
@@ -295,76 +306,7 @@ export const config: CmsConfig = {
       ],
     },
     atlas("en"),
-    {
-      label: "Tidligere engelske atlas",
-      name: "tidligere_eng_atlas",
-      folder: "_posts/en/tidligere_atlas",
-      create: false,
-      delete: false,
-      media_folder: "/public/img/en/{{filename}}",
-      public_folder: "/helseatlas/img/en/{{filename}}",
-      identifier_field: "mainTitle",
-      fields: [
-        filename,
-        {
-          label: "Publiseringsdato",
-          name: "date",
-          widget: "datetime",
-        },
-        {
-          label: "Publiseringsnummer",
-          name: "num",
-          widget: "number",
-        },
-        {
-          label: "Tittel",
-          name: "mainTitle",
-          widget: "string",
-        },
-        {
-          label: "Kort tittel",
-          name: "shortTitle",
-          widget: "string",
-        },
-        {
-          label: "Forsidebilde",
-          name: "image",
-          widget: "file",
-        },
-        {
-          label: "Forsidetekst",
-          name: "frontpagetext",
-          widget: "string",
-        },
-        {
-          label: "Rapport",
-          name: "pdfUrl",
-          widget: "string",
-        },
-        {
-          label: "Hovedtekst",
-          name: "body",
-          widget: "markdown",
-        },
-        {
-          label: "Instant atlas?",
-          name: "ia",
-          widget: "boolean",
-        },
-        {
-          label: "Innholdsfortegnelse?",
-          name: "toc",
-          widget: "boolean",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "en",
-        },
-      ],
-    },
+    oldAtlas("en"),
     {
       label: "Statiske engelske sider",
       name: "statiske_sider_en",
