@@ -64,3 +64,8 @@ li.MuiBreadcrumbs-li:last-child {
     margin: auto;
   }
 }
+
+/* netlifycms bug fix (https://github.com/mong/hamongts/issues/643)*/
+[data-slate-editor] {
+  -webkit-user-modify: read-write !important;
+}
