@@ -6,7 +6,7 @@ context("v2 atlas", () => {
   });
 
   it("Simple start", () => {
-    cy.get("h1").contains("Helseatlas for MS og fødselshjelp");
+    cy.get("h1").contains("Testatlas (ikke publiser)");
     cy.get('[data-testid="tocItem"]:visible').click(5, 5); // Click ToC element
     cy.url().should("include", "ms-syke-barn-under"); // Check url change
   });
