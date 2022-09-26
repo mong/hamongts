@@ -8,15 +8,21 @@ const filename: CmsField = {
 
 const atlas = (lang: string): CmsCollection => {
   return {
-    label: "Atlas",
-    name: "atlas",
+    label: lang === "no" ? "Atlas" : "Engelske atlas",
+    name: lang === "no" ? "atlas" : "atlas_eng",
     folder: lang === "no" ? "_posts/atlas" : "_posts/en/v2",
     extension: "json",
     format: "json",
     create: true,
     delete: false,
-    media_folder: "/public/img/{lang}/{{filename}}",
-    public_folder: "/helseatlas/img/{lang}/{{filename}}",
+    media_folder:
+      lang === "no"
+        ? "/public/img/no/{{filename}}"
+        : "/public/img/en/{{filename}}",
+    public_folder:
+      lang === "no"
+        ? "/helseatlas/img/no/{{filename}}"
+        : "/helseatlas/img/en/{{filename}}",
     identifier_field: "filename",
     fields: [
       filename,
@@ -288,173 +294,7 @@ export const config: CmsConfig = {
         },
       ],
     },
-    {
-      label: "Engelske atlas",
-      name: "eng_atlas",
-      folder: "_posts/en/v2",
-      extension: "json",
-      format: "json",
-      create: false,
-      delete: false,
-      media_folder: "/public/img/en/{{filename}}",
-      public_folder: "/helseatlas/img/en/{{filename}}",
-      identifier_field: "filename",
-      fields: [
-        filename,
-        {
-          label: "Publisert",
-          name: "publisert",
-          widget: "boolean",
-          default: false,
-        },
-        {
-          label: "Publiseringsdato",
-          name: "date",
-          widget: "datetime",
-        },
-        {
-          label: "Tittel",
-          name: "mainTitle",
-          widget: "string",
-        },
-        {
-          label: "Kort tittel",
-          name: "shortTitle",
-          widget: "string",
-        },
-        {
-          label: "Forsidebilde",
-          name: "image",
-          widget: "file",
-          required: false,
-        },
-        {
-          label: "Forsidetekst",
-          name: "frontpagetext",
-          widget: "string",
-          required: false,
-        },
-        {
-          label: "Ingress",
-          name: "ingress",
-          widget: "string",
-        },
-        {
-          label: "Språk",
-          name: "lang",
-          widget: "select",
-          options: ["nb", "nn", "en"],
-          default: "en",
-        },
-        {
-          label: "Kapittel",
-          name: "kapittel",
-          widget: "list",
-          fields: [
-            {
-              label: "Overskrift",
-              name: "overskrift",
-              widget: "string",
-            },
-            {
-              label: "Innhold",
-              name: "innhold",
-              widget: "list",
-              hint: "Selve innholdet i atlaset",
-              types: [
-                {
-                  label: "Tekst",
-                  name: "tekst",
-                  widget: "object",
-                  summary: "{{fields.beskrivelse}}",
-                  fields: [
-                    {
-                      label: "Beskrivelse",
-                      name: "beskrivelse",
-                      widget: "string",
-                      hint: "Kort beskrivelse, som kun vises som overskrift her (vil ikke vises på nettsiden).",
-                      required: false,
-                    },
-                    {
-                      label: "Tekst",
-                      name: "tekst",
-                      widget: "markdown",
-                      hint: "Seksjon med tekst og eventuelle statiske figurer",
-                    },
-                  ],
-                },
-                {
-                  label: "Faktaboks",
-                  name: "faktaboks",
-                  widget: "object",
-                  summary: "{{fields.overskrift}}",
-                  fields: [
-                    {
-                      label: "Overskrift",
-                      name: "overskrift",
-                      widget: "string",
-                      hint: "Overskrift som vises på siden når resten av teksten er skjult",
-                    },
-                    {
-                      label: "Tekst",
-                      name: "tekst",
-                      widget: "markdown",
-                      hint: "Faktabokstekst som i utgangspunktet er skjult men kan trykkes frem av bruker.",
-                    },
-                  ],
-                },
-                {
-                  label: "Resultatboks",
-                  name: "resultatboks",
-                  widget: "object",
-                  summary: "{{fields.overskrift}}",
-                  fields: [
-                    {
-                      label: "Overskrift",
-                      name: "overskrift",
-                      widget: "string",
-                    },
-                    {
-                      label: "Ingress",
-                      name: "ingress",
-                      widget: "markdown",
-                    },
-                    {
-                      label: "Publiseringsdato",
-                      name: "publisert",
-                      widget: "datetime",
-                    },
-                    {
-                      label: "Sist oppdatert",
-                      name: "oppdatert",
-                      widget: "datetime",
-                    },
-                    {
-                      label: "Karusell",
-                      name: "data",
-                      widget: "file",
-                      media_folder: "/public/data",
-                      public_folder: "",
-                      hint: "Datafil, i json-format, som inneholder definisjon av karusell",
-                    },
-                    {
-                      label: "Utvalgsbeskrivelse",
-                      name: "utvalg",
-                      widget: "markdown",
-                    },
-                    {
-                      label: "Resultatbeskrivelse",
-                      name: "resultat",
-                      widget: "markdown",
-                    },
-                  ],
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+    atlas("en"),
     {
       label: "Tidligere engelske atlas",
       name: "tidligere_eng_atlas",
