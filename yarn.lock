@@ -4612,7 +4612,7 @@ __metadata:
     husky: 8.0.1
     js-yaml: 4.1.0
     lint-staged: 13.0.3
-    netlify-cms-app: ^2.15.72
+    netlify-cms-app: 2.15.72
     next: 12.3.1
     prettier: 2.7.1
     react: 18.2.0
@@ -7038,7 +7038,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-app@npm:^2.15.72":
+"netlify-cms-app@npm:2.15.72":
   version: 2.15.72
   resolution: "netlify-cms-app@npm:2.15.72"
   dependencies:
