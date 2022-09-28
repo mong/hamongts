@@ -35,13 +35,15 @@ const AtlasPage: React.FC<AtlasPageProps> = ({
   mapData,
 }) => {
   const obj: AtlasJson = JSON.parse(content);
-  const tocContent = obj.kapittel.map((chapter) => {
-    const level1 = chapter.overskrift;
-    const level2 = chapter.innhold
-      .filter((subChapter) => subChapter.type === "resultatboks")
-      .map((subChapter) => subChapter["overskrift"]);
-    return { level1, level2 };
-  });
+  const tocContent = obj.kapittel
+    .filter((chapter) => chapter.overskrift)
+    .map((chapter) => {
+      const level1 = chapter.overskrift;
+      const level2 = chapter.innhold
+        .filter((subChapter) => subChapter.type === "resultatboks")
+        .map((subChapter) => subChapter["overskrift"]);
+      return { level1, level2 };
+    });
 
   return (
     <DataContext.Provider value={{ atlasData, mapData }}>

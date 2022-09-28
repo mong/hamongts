@@ -64,3 +64,8 @@ li.MuiBreadcrumbs-li:last-child {
     margin: auto;
   }
 }
+
+/* netlifycms bug fix */
+[data-slate-editor] {
+  -webkit-user-modify: read-write !important;
+}
