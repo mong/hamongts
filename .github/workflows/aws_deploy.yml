@@ -1,7 +1,7 @@
 name: Deploy app to AWS
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
     branches: [main, develop, dependency_updates]
 
@@ -19,15 +19,11 @@ jobs:
         if: github.ref == 'refs/heads/main'
         run: |
           echo "s3_bucket=s3://skde.org/helseatlas" >> $GITHUB_ENV
-      - name: Set QA variables
-        if: github.ref == 'refs/heads/develop'
-        run: |
-          echo "s3_bucket=s3://qa.skde.org/helseatlas" >> $GITHUB_ENV
       - name: Check out the repo
         uses: actions/checkout@v3
       - name: Build package
         run: yarn install && yarn run export
       - name: Sync to S3 bucket
-        if: github.event_name != 'pull_request'
+        if: github.ref == 'refs/heads/main'
         run: |
           aws s3 sync out ${{ env.s3_bucket }} --exclude "ia/*" --exclude "files/*" --delete --cache-control "public, max-age=1, s-maxage=1"
