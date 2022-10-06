@@ -11,55 +11,6 @@
 
 <!-- badges: end -->
 
-This is the [Next.js](https://nextjs.org/) app behind [helseatlas](https://www.skde.no/helseatlas) web page.
+This ~~is~~ **was** the [Next.js](https://nextjs.org/) app behind [helseatlas](https://www.skde.no/helseatlas) web page.
 
-## Development
-
-There is two long-lived branches in this repository: `main` and `develop`. All changes to `main` will update [www.skde.no/helseatlas](https://www.skde.no/helseatlas). All changes to `develop` will update [test.skde.no/helseatlas](https://test.skde.no/helseatlas).
-
-New features and changes goes into the `develop` branch through a _Pull Request_ (PR). Before these changes go into the `main` branch, the webpage [test.skde.no/helseatlas](https://test.skde.no/helseatlas) has to be checked for errors.
-
-The `develop` branch will then be merged into the `main` branch with
-
-```bash
-git checkout main
-git fetch origin develop:develop
-git merge --no-ff develop
-git push
-```
-
-Changes directly commited to the `main` branch (for instance new _News_ posts) have to be merged into the `develop` branch:
-
-```bash
-git checkout develop
-git fetch origin main:main
-git merge main # with fast forward, if possible
-git push
-```
-
-### Run and develop it locally
-
-Run the development server:
-
-```bash
-yarn install
-yarn dev
-```
-
-Open [http://localhost:3000/helseatlas](http://localhost:3000/helseatlas) with your browser to see the result.
-
-### Run CMS locally
-
-Start up `netlify-cms-proxy-server` from the root directory of the repository
-
-```bash
-yarn run cms
-```
-
-Run the helseatlas page locally (in another terminal)
-
-```bash
-yarn install && yarn run dev
-```
-
-Open the admin page locally her: http://localhost:3000/helseatlas/admin/index.html
+It has now been moved to the monorepo [mongts](https://github.com/mong/mongts)
