@@ -15,6 +15,7 @@ jobs:
       AWS_DEFAULT_REGION: 'eu-west-1'
       NEXT_PUBLIC_SENTRY: "https://d48c58a239264c12bcbf8fe86d364c44@o489056.ingest.sentry.io/5799127"
     steps:
+      - uses: actions/cache@v3
       - name: Set release variables
         if: github.ref == 'refs/heads/main'
         run: |
